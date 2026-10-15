@@ -145,14 +145,17 @@ function chips(el,map,state,onChange,multi){
   // 입대의 회의결과
   const minutes=await get("data/minutes.json");
   {
-    const MT=minutes?.topics||{}, cxs=minutes?.complexes||[];
+    const MT=minutes?.topics||{}, cxs=minutes?.complexes||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
     const mt=new Set(), mc=new Set(), mg=new Set(), mq=document.getElementById("mq");
-    const MG=minutes?.groups||{}, cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
-    const cxMap=Object.fromEntries(cxs.map(c=>[c.name,c.name+(c.home?" (우리 단지)":"")]));
+    const MG=minutes?.groups||{};
+    const cxMap=Object.fromEntries([
+      ...cxs.filter(c=>c.pinned).sort((a,b)=>(b.home?1:0)-(a.home?1:0)).map(c=>["n:"+c.name,c.name+(c.home?" (우리 단지)":"")]),
+      ...(minutes?.regions||[]).filter(r=>cxs.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r+" ("+cxs.filter(c=>!c.pinned&&c.region===r).length+")"])]);
+    const cxHit=name=>{const c=cxBy[name]||{};return mc.has("n:"+name)||mc.has("r:"+c.region);};
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
     const draw=()=>{
       const term=mq.value.trim();
-      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&(!mc.size||mc.has(p.complex))
+      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&(!mc.size||cxHit(p.complex))
         &&(!mg.size||(cxBy[p.complex]?.groups||[]).some(g=>mg.has(g))||cxBy[p.complex]?.home));
       let n=0;
       const html=posts.map(p=>{

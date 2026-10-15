@@ -320,6 +320,20 @@ def auto_groups(cx: dict) -> list[str]:
     return sorted(g)
 
 
+def region_of(cx: dict) -> str:
+    n = norm(cx.get("name", ""))
+    for r in CFG.get("display", {}).get("regions", []):
+        if cx.get("dong") and cx["dong"] in r.get("dong", []):
+            return r["label"]
+        if cx.get("sigungu") and cx["sigungu"] in r.get("sigungu", []) and not r.get("dong"):
+            return r["label"]
+        if any(k in n for k in r.get("name", [])):
+            return r["label"]
+        if not (r.get("dong") or r.get("sigungu") or r.get("name")):
+            return r["label"]
+    return "기타"
+
+
 def resolve_complexes(status: dict) -> list[dict]:
     """config 의 단지 + 이름·지역으로 찾은 단지. 찾은 결과는 캐시해 매번 다시 찾지 않는다."""
     cache = load(CX_CACHE, {"by_code": {}, "names": {}, "areas": {}})
@@ -416,8 +430,12 @@ def resolve_complexes(status: dict) -> list[dict]:
             continue
         seen.add(code)
         out.append(dict(by_code[code]))
+    pinned = {norm(x) for x in CFG.get("display", {}).get("pinned", [])}
     for cx in out:
         cx["groups"] = auto_groups(cx)
+        cx["region"] = region_of(cx)
+        cx["pinned"] = bool(cx.get("home")) or any(p and (p in norm(cx.get("name", "")) or norm(cx.get("name", "")) in p)
+                                                    for p in pinned)
     return out
 
 
@@ -445,8 +463,9 @@ def main() -> int:
         save(DATA / "minutes.json", {"updated": NOW.isoformat(timespec="minutes"),
                                      "topics": {k: v["label"] for k, v in CFG["topics"].items()},
                                      "groups": CFG["group_labels"],
-                                     "complexes": [{k: c.get(k) for k in ("name", "code", "sigungu", "home", "groups",
-                                                                          "households", "use_approval")}
+                                     "regions": [r["label"] for r in CFG.get("display", {}).get("regions", [])],
+                                     "complexes": [{k: c.get(k) for k in ("name", "code", "sigungu", "dong", "home", "groups",
+                                                                          "households", "use_approval", "region", "pinned")}
                                                    for c in complexes],
                                      "items": lst})
 
