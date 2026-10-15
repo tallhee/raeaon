@@ -1,0 +1,18 @@
+{
+ "ran_at": "2026-10-15T19:42+09:00",
+ "steps": {
+  "search": {
+   "ok": true,
+   "keywords": 29,
+   "found": 935,
+   "matched": 492,
+   "errors": []
+  }
+ },
+ "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
+ "complete": false,
+ "totals": {
+  "notices": 492,
+  "complexes": 67
+ }
+}
