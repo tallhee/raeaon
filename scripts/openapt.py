@@ -260,6 +260,144 @@ def analyze(txt: str) -> list[dict]:
     return out
 
 
+# ---------------------------------------------------------------- 단지 찾기 (이름·지역 → aptCode)
+CX_CACHE = DATA / "openapt_complexes.json"
+
+
+class Portal(Session):
+    """공동주택마당 포털의 단지검색·기본정보 (단지홈 없이)."""
+
+    def __init__(self):  # noqa: D401 - Session.__init__ 대신 포털 페이지에서 토큰을 받는다
+        self.code = ""
+        self.op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        page = "/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open"
+        self.op.addheaders = [("User-Agent", "Mozilla/5.0 (raeaon) Chrome/124"), ("Referer", B + page)]
+        m = re.search(r'name="csrf-token" content="([^"]+)"', self.get(page).decode("utf-8", "replace"))
+        if not m:
+            raise RuntimeError("단지검색 페이지에서 보안 토큰을 찾지 못함")
+        self.token = m.group(1)
+
+    def search(self, name: str = "", gu: str = "", dong: str = "") -> list[dict]:
+        h = self.post("/commonPortal/select.do", {"query": "aptInfo.selectAptMapDataList",
+                                                  "searchValue": f"aptNm:{name}|gu:{gu}|dong:{dong}",
+                                                  "returnUrl": "portal/aMenu/aptInfo/aptInfoSearch"})
+        out = []
+        for code, dt, dd in re.findall(r'<dl id="dlApt(A\d{8})".*?<dt>(.*?)</dt>\s*<dd>(.*?)(?:<div|</dd>)', h, re.S):
+            hh = re.search(r"\(([\d,]+)세대\)", dd)
+            out.append({"code": code, "name": T(dt), "road": T(re.sub(r"\([\d,]+세대\)", "", dd)),
+                        "households": int(hh.group(1).replace(",", "")) if hh else 0})
+        return out
+
+    def info(self, code: str) -> dict:
+        t = T(self.post("/commonPortal/select.do", {"query": "aptInfo.selectAptInfoDetail", "aptCode": code,
+                                                    "returnUrl": "portal/aMenu/aptInfo/aptInfoDetailView", "tabCd": 1}))
+        ua = re.search(r"사용승인일\s*(\d{4})[-.](\d{2})[-.](\d{2})", t)
+        hh = re.search(r"세대수\s*([\d,]+)", t)
+        addr = re.search(r"주소\s*(서울\S*\s+(\S+구)\s+(\S+동))", t)
+        return {"use_approval": "-".join(ua.groups()) if ua else "",
+                "households": int(hh.group(1).replace(",", "")) if hh else 0,
+                "sigungu": addr.group(2) if addr else "", "dong": addr.group(3) if addr else ""}
+
+
+def norm(n: str) -> str:
+    return re.sub(r"(아파트|\s|\(.*?\))", "", n or "")
+
+
+def auto_groups(cx: dict) -> list[str]:
+    g = set(cx.get("groups") or [])
+    year = int((cx.get("use_approval") or "0")[:4] or 0)
+    for key, f in CFG.get("auto_groups", {}).items():
+        if f.get("min_year") and year < f["min_year"]:
+            continue
+        if f.get("sigungu") and cx.get("sigungu") not in f["sigungu"]:
+            continue
+        if f.get("min_households") and (cx.get("households") or 0) < f["min_households"]:
+            continue
+        g.add(key)
+    return sorted(g)
+
+
+def resolve_complexes(status: dict) -> list[dict]:
+    """config 의 단지 + 이름·지역으로 찾은 단지. 찾은 결과는 캐시해 매번 다시 찾지 않는다."""
+    cache = load(CX_CACHE, {"by_code": {}, "names": {}, "areas": {}})
+    tg = CFG.get("targets", {})
+    by_code = cache["by_code"]
+    log = status.setdefault("resolve", {"found": [], "not_found": [], "ambiguous": []})
+    try:
+        portal = None
+        today = NOW.strftime("%Y-%m-%d")
+
+        def P():
+            nonlocal portal
+            portal = portal or Portal()
+            return portal
+
+        def detail(code: str, base: dict) -> dict:
+            cx = by_code.setdefault(code, {"code": code})
+            cx.update({k: v for k, v in base.items() if v})
+            if not cx.get("use_approval") and not cx.get("info_checked"):
+                cx.update({k: v for k, v in P().info(code).items() if v})
+                cx["info_checked"] = today
+            return cx
+
+        for name in tg.get("names", []):
+            if name in cache["names"]:
+                continue
+            res = P().search(name=name)
+            exact = [r for r in res if norm(r["name"]) == norm(name)] or \
+                    [r for r in res if norm(name) in norm(r["name"])]
+            if not exact:
+                log["not_found"].append(name)
+                continue
+            best = max(exact, key=lambda r: r["households"])
+            if len(exact) > 1:
+                log["ambiguous"].append(f"{name} → {best['name']}({best['households']}세대) 외 {len(exact)-1}곳")
+            detail(best["code"], {"name": best["name"], "road": best["road"], "households": best["households"]})
+            cache["names"][name] = best["code"]
+            log["found"].append(f"{name} → {best['code']}")
+
+        for a in tg.get("areas", []):
+            key = a["area"]
+            if cache["areas"].get(key, {}).get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
+                continue  # 지역 검색은 한 달에 한 번
+            gu, dong = key.split()
+            codes = []
+            for r in P().search(gu=gu, dong=dong):
+                if a.get("min_households") and r["households"] < a["min_households"] and not a.get("min_year"):
+                    continue
+                cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"],
+                                        "sigungu": gu, "dong": dong})
+                year = int((cx.get("use_approval") or "0")[:4] or 0)
+                if a.get("min_year") and year < a["min_year"]:
+                    continue
+                if a.get("min_households") and (cx.get("households") or 0) < a["min_households"]:
+                    continue
+                codes.append(r["code"])
+            cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key)}
+            log["found"].append(f"{key}: {len(codes)}곳")
+    except Stop:
+        raise
+    except Exception as e:
+        log.setdefault("errors", []).append(str(e)[:200])
+    finally:
+        save(CX_CACHE, cache)
+
+    out, seen = [], set()
+    for cx in CFG["complexes"]:
+        merged = {**by_code.get(cx["code"], {}), **cx}
+        out.append(merged)
+        seen.add(cx["code"])
+    wanted = list(cache["names"].values()) + [c for a in cache["areas"].values() for c in a.get("codes", [])]
+    for code in wanted:
+        if code in seen or code not in by_code:
+            continue
+        seen.add(code)
+        out.append(dict(by_code[code]))
+    for cx in out:
+        cx["groups"] = auto_groups(cx)
+    return out
+
+
 # ---------------------------------------------------------------- main
 def wanted(row: dict) -> bool:
     s = row["category"] + " " + row["title"]
@@ -277,20 +415,22 @@ def main() -> int:
             i["status"] = "pending"
     status = {"ran_at": NOW.isoformat(timespec="minutes"), "complexes": {}, "complete": True}
     since = (NOW - dt.timedelta(days=CFG["lookback_days"])).strftime("%Y-%m-%d")
+    complexes = resolve_complexes(status)
 
     def persist():
         lst = sorted(items.values(), key=lambda i: (i.get("date", ""), i["nttId"]), reverse=True)
         save(DATA / "minutes.json", {"updated": NOW.isoformat(timespec="minutes"),
                                      "topics": {k: v["label"] for k, v in CFG["topics"].items()},
                                      "groups": CFG["group_labels"],
-                                     "complexes": [{k: c.get(k) for k in ("name", "code", "sigungu", "home", "groups")}
-                                                   for c in CFG["complexes"]],
+                                     "complexes": [{k: c.get(k) for k in ("name", "code", "sigungu", "home", "groups",
+                                                                          "households", "use_approval")}
+                                                   for c in complexes],
                                      "items": lst})
 
     try:
         # 1) 목록: 모든 단지를 먼저 훑어 새 글을 등록 (단지 하나에 시간이 몰리지 않도록)
         sessions = {}
-        for cx in CFG["complexes"]:
+        for cx in complexes:
             st = status["complexes"].setdefault(cx["name"], {"listed": 0, "new": 0, "done": 0, "errors": []})
             try:
                 s = sessions[cx["code"]] = Session(cx["code"])

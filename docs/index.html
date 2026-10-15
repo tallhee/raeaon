@@ -81,6 +81,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <section id="minutes" class="on">
   <p class="lead">회의결과 공고 첨부파일(스캔 이미지·PDF)에서 글자를 읽어 안건별로 주제를 붙였습니다. 글자 인식이라 표나 숫자가 틀릴 수 있으니, 중요한 내용은 <strong>원문</strong> 링크로 확인하세요.</p>
   <div class="bar" id="mTopics"></div>
+  <div class="bar" id="mGroup"></div>
   <div class="bar" id="mComplex"></div>
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
@@ -145,12 +146,14 @@ function chips(el,map,state,onChange,multi){
   const minutes=await get("data/minutes.json");
   {
     const MT=minutes?.topics||{}, cxs=minutes?.complexes||[];
-    const mt=new Set(), mc=new Set(), mq=document.getElementById("mq");
+    const mt=new Set(), mc=new Set(), mg=new Set(), mq=document.getElementById("mq");
+    const MG=minutes?.groups||{}, cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
     const cxMap=Object.fromEntries(cxs.map(c=>[c.name,c.name+(c.home?" (우리 단지)":"")]));
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
     const draw=()=>{
       const term=mq.value.trim();
-      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&(!mc.size||mc.has(p.complex)));
+      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&(!mc.size||mc.has(p.complex))
+        &&(!mg.size||(cxBy[p.complex]?.groups||[]).some(g=>mg.has(g))||cxBy[p.complex]?.home));
       let n=0;
       const html=posts.map(p=>{
         const ag=(p.agenda||[]).filter(a=>(!mt.size||a.topics.some(t=>mt.has(t)))&&(!term||a.text.includes(term)));
@@ -169,6 +172,7 @@ function chips(el,map,state,onChange,multi){
       document.getElementById("mList").innerHTML=html||`<div class="empty-state">${minutes?"조건에 맞는 안건이 없습니다.":"아직 수집된 회의결과가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
     };
     chips(document.getElementById("mTopics"),MT,mt,draw,true);
+    chips(document.getElementById("mGroup"),MG,mg,draw,true);
     chips(document.getElementById("mComplex"),cxMap,mc,draw,true);
     mq.oninput=draw; draw();
   }
@@ -214,7 +218,7 @@ function chips(el,map,state,onChange,multi){
   // 회의결과 수집 상태
   const ms=await get("data/minutes_status.json");
   const msHtml=ms?`<div class="card"><h3>입대의 회의결과 수집</h3>${ms.complete===false?`<div class="bad">이어서 수집 중</div>`:`<div class="ok">정상</div>`}<div class="meta">${esc(ms.ran_at)} · 회의 ${ms.totals?.done??0}건 읽음 / 남음 ${ms.totals?.pending??0}건 · 주제 안건 ${ms.totals?.agenda_items??0}건</div></div>`+
-    Object.entries(ms.complexes||{}).map(([n,s])=>`<div class="card"><h3>${esc(n)}</h3><div class="meta">새 글 ${s.new} · 읽음 ${s.done}${s.errors?.length?` · <span class="bad">오류 ${s.errors.length}</span>`:""}</div></div>`).join(""):"";
+    (ms.resolve?.not_found?.length?`<div class="card"><h3>찾지 못한 단지</h3><div class="meta bad">${esc(ms.resolve.not_found.join(", "))}</div></div>`:"")+Object.entries(ms.complexes||{}).map(([n,s])=>`<div class="card"><h3>${esc(n)}</h3><div class="meta">새 글 ${s.new} · 읽음 ${s.done}${s.errors?.length?` · <span class="bad">오류 ${s.errors.length}</span>`:""}</div></div>`).join(""):"";
   // 상태
   const names={search:"공고 검색",detail:"공고 상세",complex:"단지 정보(사용승인일)"};
   const desc=s=>s.found!=null?`검색 ${s.found}건 → 주제 일치 ${s.matched}건`:s.new!=null?`새 공고 ${s.new}건`:s.updated!=null?`새로 확인 ${s.updated}곳${s.without_code?` · 단지코드 없음 ${s.without_code}곳`:""}`:"";

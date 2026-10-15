@@ -1,41 +1,233 @@
 {
   "_comment": "서울시 공동주택마당(openapt) 입대의 회의결과 수집 설정. 단지 추가는 complexes 에 한 줄씩. code 는 단지홈 주소의 aptCode 값입니다.",
   "complexes": [
-    {"name": "잠실래미안아이파크", "code": "A10020294", "sigungu": "송파구", "home": true, "groups": ["seoul_new"]},
-    {"name": "잠실르엘", "code": "A10020230", "sigungu": "송파구", "groups": ["seoul_new"]},
-    {"name": "원페를라", "code": "A10020358", "sigungu": "서초구", "groups": ["seoul_new"]},
-    {"name": "원펜타스", "code": "A10022556", "sigungu": "서초구", "groups": ["seoul_new"]},
-    {"name": "원베일리", "code": "A10023043", "sigungu": "서초구", "groups": ["seoul_new", "songpa_gangnam_large"]},
-    {"name": "파크리오", "code": "A13824006", "sigungu": "송파구", "groups": ["songpa_gangnam_large"]}
+    {
+      "name": "잠실래미안아이파크",
+      "code": "A10020294",
+      "sigungu": "송파구",
+      "home": true,
+      "groups": [
+        "seoul_new"
+      ]
+    },
+    {
+      "name": "잠실르엘",
+      "code": "A10020230",
+      "sigungu": "송파구",
+      "groups": [
+        "seoul_new"
+      ]
+    },
+    {
+      "name": "원페를라",
+      "code": "A10020358",
+      "sigungu": "서초구",
+      "groups": [
+        "seoul_new"
+      ]
+    },
+    {
+      "name": "원펜타스",
+      "code": "A10022556",
+      "sigungu": "서초구",
+      "groups": [
+        "seoul_new"
+      ]
+    },
+    {
+      "name": "원베일리",
+      "code": "A10023043",
+      "sigungu": "서초구",
+      "groups": [
+        "seoul_new",
+        "songpa_gangnam_large"
+      ]
+    },
+    {
+      "name": "파크리오",
+      "code": "A13824006",
+      "sigungu": "송파구",
+      "groups": [
+        "songpa_gangnam_large"
+      ]
+    }
   ],
   "group_labels": {
     "seoul_new": "서울 2020년 이후 입주",
     "songpa_gangnam_large": "송파·강남권 대단지"
   },
   "boards": {
-    "02": {"label": "입주자대표회의", "list": "/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open",
-           "detail": "/openApt/aMenu/aptLeaderMeeting/leaderMeetingDetail.open", "enabled": true},
-    "03": {"label": "선거관리위원회", "list": "/openApt/aMenu/electionCmt/electionCmtList.open",
-           "detail": "/openApt/aMenu/electionCmt/electionCmtDetail.open", "enabled": false}
+    "02": {
+      "label": "입주자대표회의",
+      "list": "/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open",
+      "detail": "/openApt/aMenu/aptLeaderMeeting/leaderMeetingDetail.open",
+      "enabled": true
+    },
+    "03": {
+      "label": "선거관리위원회",
+      "list": "/openApt/aMenu/electionCmt/electionCmtList.open",
+      "detail": "/openApt/aMenu/electionCmt/electionCmtDetail.open",
+      "enabled": false
+    }
   },
   "post_filter": {
     "_comment": "구분이나 제목에 아래 말이 들어간 글만 첨부파일까지 읽습니다 (개최 공고는 안건만 있어 제외).",
-    "include": ["결과", "의결", "회의록"],
-    "exclude": ["개최"]
+    "include": [
+      "결과",
+      "의결",
+      "회의록"
+    ],
+    "exclude": [
+      "개최"
+    ]
   },
   "topics": {
-    "parking": {"label": "주차", "keywords": ["주차", "방문차량", "방문 차량", "차량등록", "차량 등록", "주차권", "주차요금", "주차료", "외부차량", "입차", "출차"]},
-    "community": {"label": "커뮤니티", "keywords": ["커뮤니티", "주민공동시설", "피트니스", "헬스", "수영장", "골프", "사우나", "독서실", "GX", "이용료", "이용요금", "운영세칙", "게스트하우스"]},
-    "dining": {"label": "식당·카페", "keywords": ["식당", "조식", "중식", "석식", "급식", "카페", "식음", "케이터링", "식사", "다이닝"]},
-    "public": {"label": "공공개방시설", "keywords": ["공공개방", "개방시설", "외부인", "외부 이용"]},
-    "operator": {"label": "관리·용역업체", "keywords": ["주택관리업자", "관리업체", "위탁", "용역", "적격심사", "입찰", "재계약", "수의계약"]},
-    "rules": {"label": "관리규약·규정", "keywords": ["관리규약", "규정", "세칙", "개정"]},
-    "finance": {"label": "예산·회계", "keywords": ["예산", "결산", "회계감사", "장기수선", "충당금", "잡수입", "관리비"]}
+    "parking": {
+      "label": "주차",
+      "keywords": [
+        "주차",
+        "방문차량",
+        "방문 차량",
+        "차량등록",
+        "차량 등록",
+        "주차권",
+        "주차요금",
+        "주차료",
+        "외부차량",
+        "입차",
+        "출차"
+      ]
+    },
+    "community": {
+      "label": "커뮤니티",
+      "keywords": [
+        "커뮤니티",
+        "주민공동시설",
+        "피트니스",
+        "헬스",
+        "수영장",
+        "골프",
+        "사우나",
+        "독서실",
+        "GX",
+        "이용료",
+        "이용요금",
+        "운영세칙",
+        "게스트하우스"
+      ]
+    },
+    "dining": {
+      "label": "식당·카페",
+      "keywords": [
+        "식당",
+        "조식",
+        "중식",
+        "석식",
+        "급식",
+        "카페",
+        "식음",
+        "케이터링",
+        "식사",
+        "다이닝"
+      ]
+    },
+    "public": {
+      "label": "공공개방시설",
+      "keywords": [
+        "공공개방",
+        "개방시설",
+        "외부인",
+        "외부 이용"
+      ]
+    },
+    "operator": {
+      "label": "관리·용역업체",
+      "keywords": [
+        "주택관리업자",
+        "관리업체",
+        "위탁",
+        "용역",
+        "적격심사",
+        "입찰",
+        "재계약",
+        "수의계약"
+      ]
+    },
+    "rules": {
+      "label": "관리규약·규정",
+      "keywords": [
+        "관리규약",
+        "규정",
+        "세칙",
+        "개정"
+      ]
+    },
+    "finance": {
+      "label": "예산·회계",
+      "keywords": [
+        "예산",
+        "결산",
+        "회계감사",
+        "장기수선",
+        "충당금",
+        "잡수입",
+        "관리비"
+      ]
+    }
   },
   "lookback_days": 400,
   "max_pages": 15,
   "max_files_per_post": 8,
   "max_file_mb": 25,
   "time_budget_minutes": 35,
-  "delay_seconds": 0.7
+  "delay_seconds": 0.7,
+  "targets": {
+    "_comment": "이름만 적으면 수집할 때 공동주택마당 단지검색으로 코드를 찾습니다. area 는 '구 동' 단위로 그 동의 단지를 모두 찾아 조건(min_year: 사용승인 연도, min_households: 세대수)에 맞는 곳만 넣습니다.",
+    "names": [
+      "올림픽선수기자촌",
+      "잠실올림픽공원아이파크",
+      "올림픽파크포레온",
+      "메이플자이",
+      "래미안라그란데",
+      "헬리오시티",
+      "래미안솔베뉴",
+      "개포자이프레지던스",
+      "잠실리센츠",
+      "잠실엘스",
+      "잠실트리지움",
+      "레이크팰리스"
+    ],
+    "areas": [
+      {
+        "area": "강남구 개포동",
+        "min_year": 2018,
+        "label": "개포 신축"
+      },
+      {
+        "area": "서초구 반포동",
+        "min_households": 1000,
+        "label": "반포"
+      },
+      {
+        "area": "서초구 잠원동",
+        "min_year": 2018,
+        "min_households": 500,
+        "label": "반포(잠원)"
+      }
+    ]
+  },
+  "auto_groups": {
+    "seoul_new": {
+      "min_year": 2020
+    },
+    "songpa_gangnam_large": {
+      "sigungu": [
+        "송파구",
+        "강남구",
+        "서초구",
+        "강동구"
+      ],
+      "min_households": 1500
+    }
+  }
 }
