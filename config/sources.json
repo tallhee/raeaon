@@ -1,0 +1,45 @@
+{
+  "_comment": "수집 설정. 엔드포인트가 공공데이터포털에서 바뀌면 여기만 고치면 됩니다.",
+  "topics": {
+    "parking": {
+      "label": "주차규정",
+      "keywords": ["주차", "방문차량", "방문 차량", "주차대수", "주차요금", "공공개방", "외부차량"]
+    },
+    "community": {
+      "label": "커뮤니티 운영규정",
+      "keywords": ["커뮤니티", "주민공동시설", "피트니스", "헬스", "수영장", "골프", "사우나", "독서실", "운영시간"]
+    },
+    "dining": {
+      "label": "커뮤니티 식당",
+      "keywords": ["식당", "조식", "중식", "석식", "급식", "카페", "식음", "운영업체", "위탁운영"]
+    },
+    "governance": {
+      "label": "입대의·선관위",
+      "keywords": ["입주자대표회의", "선거관리위원회", "선관위", "동대표", "관리규약", "회의록"]
+    }
+  },
+  "filters": {
+    "seoul_new": {
+      "label": "서울 2020년 이후 입주",
+      "sido": "서울",
+      "min_use_approval_year": 2020
+    },
+    "songpa_gangnam_large": {
+      "label": "송파·강남권 대단지",
+      "sido": "서울",
+      "sigungu": ["송파구", "강남구", "서초구", "강동구"],
+      "min_households": 1500
+    }
+  },
+  "home_complex": {
+    "name": "잠실래미안아이파크",
+    "sigungu": "송파구"
+  },
+  "endpoints": {
+    "applyhome_detail": "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail",
+    "kapt_bid": "https://apis.data.go.kr/1613000/ApHusBidPblAncInfoOfferServiceV2/getPblAncDeSearchV2",
+    "kapt_basis": "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
+  },
+  "lookback_days": 120,
+  "applyhome_months_back": 60
+}

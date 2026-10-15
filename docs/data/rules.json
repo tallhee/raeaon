@@ -1,0 +1,36 @@
+{
+ "_guide": "공고·관리규약·모집공고 PDF를 읽고 확인한 수치만 적습니다. 모르는 칸은 null. 모든 값에는 source(링크)와 checked(확인일)를 남깁니다.",
+ "complexes": [
+  {
+   "name": "잠실래미안아이파크",
+   "sigungu": "송파구",
+   "households": null,
+   "use_approval": null,
+   "is_home": true,
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": null,
+    "per_unit_by_area": null,
+    "notes": null,
+    "source": null,
+    "checked": null
+   },
+   "community": {
+    "hours": null,
+    "fee": null,
+    "entry_limit": null,
+    "notes": null,
+    "source": null,
+    "checked": null
+   },
+   "dining": {
+    "operator_selection": null,
+    "hours": null,
+    "price": null,
+    "notes": null,
+    "source": null,
+    "checked": null
+   }
+  }
+ ]
+}
