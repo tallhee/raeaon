@@ -1,18 +1,30 @@
 {
- "ran_at": "2026-10-15T19:42+09:00",
+ "ran_at": "2026-10-15T20:07+09:00",
  "steps": {
   "search": {
    "ok": true,
    "keywords": 29,
-   "found": 935,
-   "matched": 492,
+   "found": 267,
+   "matched": 149,
    "errors": []
+  },
+  "detail": {
+   "ok": true,
+   "new": 99,
+   "errors": 0
   }
  },
+ "complex_errors": [
+  "A10025846: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "A10026988: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11126428: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "A12012101: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response"
+ ],
  "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
  "complete": false,
  "totals": {
   "notices": 492,
-  "complexes": 67
+  "complexes": 115
  }
 }

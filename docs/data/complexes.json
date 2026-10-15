@@ -6,7 +6,8 @@
   "sigungu": "",
   "households": 18,
   "dong_count": 23941106,
-  "code": "A10023959"
+  "code": "A10023959",
+  "use_approval": "2024-03-27"
  },
  "힐스테이트서울숲리버": {
   "name": "힐스테이트서울숲리버",
@@ -15,7 +16,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 222820084,
-  "code": "A10026470"
+  "code": "A10026470",
+  "use_approval": "2018-02-19"
  },
  "꿈의숲해링턴플레이스": {
   "name": "꿈의숲 해링턴 플레이스 아파트",
@@ -24,7 +26,8 @@
   "sigungu": "",
   "households": 17,
   "dong_count": 29460844,
-  "code": "A10025241"
+  "code": "A10025241",
+  "use_approval": "2019-09-27"
  },
  "덕수궁롯데캐슬": {
   "name": "덕수궁롯데캐슬아파트",
@@ -33,7 +36,8 @@
   "sigungu": "",
   "households": 2,
   "dong_count": 27798435,
-  "code": "A10027364"
+  "code": "A10027364",
+  "use_approval": "2016-08-31"
  },
  "래미안에스티움": {
   "name": "래미안에스티움",
@@ -42,7 +46,8 @@
   "sigungu": "",
   "households": 19,
   "dong_count": 28499574,
-  "code": "A10027073"
+  "code": "A10027073",
+  "use_approval": "2017-04-12"
  },
  "래미안베라힐즈": {
   "name": "래미안베라힐즈",
@@ -60,7 +65,8 @@
   "sigungu": "",
   "households": 84,
   "dong_count": 24088736,
-  "code": "A10025850"
+  "code": "A10025850",
+  "use_approval": "2018-12-28"
  },
  "트리마제": {
   "name": "트리마제",
@@ -102,7 +108,8 @@
   "sigungu": "",
   "households": 23,
   "dong_count": 25723341,
-  "code": "A10025203"
+  "code": "A10025203",
+  "use_approval": "2019-08-29"
  },
  "청량리역한양수자인그라시엘": {
   "name": "청량리역 한양수자인 그라시엘",
@@ -111,7 +118,8 @@
   "sigungu": "",
   "households": 4,
   "dong_count": 29598322,
-  "code": "A10023188"
+  "code": "A10023188",
+  "use_approval": "2023-06-02"
  },
  "래미안남가좌2차": {
   "name": "래미안남가좌2차",
@@ -129,7 +137,8 @@
   "sigungu": "",
   "households": 32,
   "dong_count": 27980414,
-  "code": "A14077902"
+  "code": "A14077902",
+  "use_approval": "2011-01-07"
  },
  "흑석자이": {
   "name": "흑석자이",
@@ -138,7 +147,8 @@
   "sigungu": "",
   "households": 26,
   "dong_count": 28269905,
-  "code": "A10023350"
+  "code": "A10023350",
+  "use_approval": "2023-02-27"
  },
  "래미안원페를라": {
   "name": "래미안 원페를라",
@@ -147,7 +157,8 @@
   "sigungu": "",
   "households": 16,
   "dong_count": 25236494,
-  "code": "A10020358"
+  "code": "A10020358",
+  "use_approval": "2025-11-25"
  },
  "래미안라그란데": {
   "name": "래미안라그란데",
@@ -245,8 +256,8 @@
   "address": "도곡렉슬",
   "sido": "도곡렉슬",
   "sigungu": "",
-  "households": 34,
-  "dong_count": 25774559,
+  "households": 3002,
+  "dong_count": 34,
   "code": "A13527203"
  },
  "신정이펜하우스3단지": {
@@ -563,8 +574,8 @@
   "address": "도원삼성래미안",
   "sido": "도원삼성래미안",
   "sigungu": "",
-  "households": 15,
-  "dong_count": 263524748,
+  "households": 1458,
+  "dong_count": 15,
   "code": "A14007002"
  },
  "번동주공3단지": {
@@ -584,5 +595,426 @@
   "households": 11,
   "dong_count": 262211463,
   "code": "A14206310"
+ },
+ "압구정한양3단지": {
+  "name": "압구정한양3단지",
+  "address": "서울 강남구 압구정로 401",
+  "sido": "서울",
+  "sigungu": "강남구",
+  "households": 582,
+  "dong_count": 6,
+  "code": "A13590602"
+ },
+ "힐스테이트관악센트씨엘": {
+  "name": "힐스테이트관악센트씨엘",
+  "address": "힐스테이트관악센트씨엘",
+  "sido": "힐스테이트관악센트씨엘",
+  "sigungu": "",
+  "households": 9,
+  "dong_count": 28771061,
+  "code": "A10020964"
+ },
+ "강동롯데캐슬퍼스트": {
+  "name": "강동롯데캐슬퍼스트아파트",
+  "address": "서울특별시 강동구 고덕로 131(암사동,롯데캐슬아파트관리동 지하1층)",
+  "sido": "서울특별시",
+  "sigungu": "강동구",
+  "households": 3226,
+  "dong_count": 40,
+  "code": "B11127107"
+ },
+ "잠실엘스": {
+  "name": "잠실엘스아파트",
+  "address": "서울시 송파구 올림픽로 99(잠실동, 잠실엘스)",
+  "sido": "서울시",
+  "sigungu": "송파구",
+  "households": 5678,
+  "dong_count": 72,
+  "code": "B11127799"
+ },
+ "서초삼성래미안": {
+  "name": "서초삼성래미안",
+  "address": "서울 서초구 사임당로17길 116",
+  "sido": "서울",
+  "sigungu": "서초구",
+  "households": 299,
+  "dong_count": 3,
+  "code": "B11119955"
+ },
+ "둔촌현대2차": {
+  "name": "둔촌현대2차",
+  "address": "서울특별시 강동구 풍성로65길 34 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "강동구",
+  "households": 196,
+  "dong_count": 2,
+  "code": "A13406201"
+ },
+ "금호어울림센터힐": {
+  "name": "금호어울림센터힐아파트",
+  "address": "금호어울림센터힐아파트",
+  "sido": "금호어울림센터힐아파트",
+  "sigungu": "",
+  "households": 6,
+  "dong_count": 29278903,
+  "code": "A10028001"
+ },
+ "월계주공2단지": {
+  "name": "월계주공2단지",
+  "address": "서울시 노원구 초안산로1길 18",
+  "sido": "서울시",
+  "sigungu": "노원구",
+  "households": 2002,
+  "dong_count": 16,
+  "code": "B11121544"
+ },
+ "아크로리버파크": {
+  "name": "아크로리버파크",
+  "address": "아크로리버파크",
+  "sido": "아크로리버파크",
+  "sigungu": "",
+  "households": 15,
+  "dong_count": 234782905,
+  "code": "A10027205"
+ },
+ "풍납시티극동": {
+  "name": "풍납시티극동",
+  "address": "서울 송파구 한가람로 478 풍납씨티극동아파트관리사무소",
+  "sido": "서울",
+  "sigungu": "송파구",
+  "households": 442,
+  "dong_count": 3,
+  "code": "B11123601"
+ },
+ "래미안삼성1차104단지": {
+  "name": "래미안삼성1차아파트104단지",
+  "address": "서울 강남구 삼성동 104-10 래미안삼성1차아파트104단지",
+  "sido": "서울",
+  "sigungu": "강남구"
+ },
+ "래미안삼성1차103단지": {
+  "name": "래미안삼성1차103단지",
+  "address": "서울 강남구 영동대로114길 56 래미안삼성1차아파트103단지",
+  "sido": "서울",
+  "sigungu": "강남구",
+  "code": "A13509014"
+ },
+ "신정현대": {
+  "name": "신정현대",
+  "address": "서울시 양천구 신목로23 신정현대아파트 관리사무소",
+  "sido": "서울시",
+  "sigungu": "양천구",
+  "households": 217,
+  "dong_count": 1,
+  "code": "B11116944"
+ },
+ "용산KCC웰츠타워": {
+  "name": "용산 KCC 웰츠타워",
+  "address": "용산 KCC 웰츠타워",
+  "sido": "용산",
+  "sigungu": "",
+  "households": 2,
+  "dong_count": 27188810,
+  "code": "A10027901"
+ },
+ "성동삼성쉐르빌": {
+  "name": "성동삼성쉐르빌",
+  "address": "서울시 성동구 무학로 6길50",
+  "sido": "서울시",
+  "sigungu": "성동구",
+  "households": 342,
+  "dong_count": 3,
+  "code": "B11119264"
+ },
+ "방배브라운가": {
+  "name": "방배브라운가",
+  "address": "서울 서초구 방배로 19길 67(방배동,방배브라운아파트)",
+  "sido": "서울",
+  "sigungu": "서초구",
+  "households": 161,
+  "dong_count": 2,
+  "code": "B11126092"
+ },
+ "냉천동부센트레빌": {
+  "name": "냉천동부센트레빌",
+  "address": "냉천동부센트레빌",
+  "sido": "냉천동부센트레빌",
+  "sigungu": "",
+  "households": 3,
+  "dong_count": 23933027,
+  "code": "A12005001"
+ },
+ "상계임광": {
+  "name": "상계임광아파트",
+  "address": "서울특별시 노원구 노원로 569 임광아파트",
+  "sido": "서울특별시",
+  "sigungu": "노원구",
+  "code": "A13982701"
+ },
+ "방화동개화": {
+  "name": "방화동 개화아파트",
+  "address": "방화동 개화아파트",
+  "sido": "방화동",
+  "sigungu": "",
+  "households": 7,
+  "dong_count": 226654790,
+  "code": "A15785608"
+ },
+ "성수롯데캐슬": {
+  "name": "성수롯데캐슬",
+  "address": "서울시 성동구 성수일로 8길 47",
+  "sido": "서울시",
+  "sigungu": "성동구",
+  "households": 604,
+  "dong_count": 7,
+  "code": "B11120751"
+ },
+ "송파파인타운8단지": {
+  "name": "송파파인타운8단지",
+  "address": "서울특별시 송파구 충민로4길 6 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "송파구",
+  "households": 5,
+  "dong_count": 700,
+  "code": "B11120499"
+ },
+ "문래두산위브": {
+  "name": "문래두산위브",
+  "address": "문래두산위브",
+  "sido": "문래두산위브",
+  "sigungu": "",
+  "households": 3,
+  "dong_count": 226724098,
+  "code": "A15009505"
+ },
+ "상암월드컵파크7단지": {
+  "name": "상암월드컵파크7단지",
+  "address": "서울 마포구 상암산로1길 92 상암월드컵파크7단지관리실",
+  "sido": "서울",
+  "sigungu": "마포구",
+  "code": "A12127005"
+ },
+ "송천센트레빌": {
+  "name": "송천센트레빌",
+  "address": "서울시 강북구 숭인로 39",
+  "sido": "서울시",
+  "sigungu": "강북구",
+  "households": 376,
+  "dong_count": 5,
+  "code": "B11126968"
+ },
+ "래미안트윈파크": {
+  "name": "래미안트윈파크",
+  "address": "래미안트윈파크",
+  "sido": "래미안트윈파크",
+  "sigungu": "",
+  "households": 5,
+  "dong_count": 28150910,
+  "code": "A15606007"
+ },
+ "현대멤피스": {
+  "name": "현대멤피스아파트",
+  "address": "서울 서초구 방배로 239",
+  "sido": "서울",
+  "sigungu": "서초구",
+  "households": 206,
+  "dong_count": 5,
+  "code": "B11126839"
+ },
+ "영등포경남아너스빌": {
+  "name": "영등포경남아너스빌",
+  "address": "서울특별시 영등포구 양산로 177 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "영등포구",
+  "households": 600,
+  "dong_count": 8,
+  "code": "A15003701"
+ },
+ "DMC아트포레자이": {
+  "name": "DMC아트포레자이아파트",
+  "address": "서울특별시 은평구 은평터널로 27",
+  "sido": "서울특별시",
+  "sigungu": "은평구",
+  "households": 672,
+  "dong_count": 8,
+  "code": "B11116603"
+ },
+ "고척대우": {
+  "name": "고척대우",
+  "address": "고척대우",
+  "sido": "고척대우",
+  "sigungu": "",
+  "households": 13,
+  "dong_count": 226131947,
+  "code": "A15279404"
+ },
+ "강일리버파크9단지": {
+  "name": "강일리버파크9단지",
+  "address": "강일리버파크9단지",
+  "sido": "강일리버파크9단지",
+  "sigungu": "",
+  "households": 13,
+  "dong_count": 24276692,
+  "code": "A13410007"
+ },
+ "임광관악파크": {
+  "name": "임광관악파크",
+  "address": "서울시 관악구 난곡로 167",
+  "sido": "서울시",
+  "sigungu": "관악구",
+  "households": 465,
+  "dong_count": 5,
+  "code": "B11126465"
+ },
+ "상도2차두산위브트레지움": {
+  "name": "상도2차 두산위브트레지움 아파트",
+  "address": "서울 동작구 상도로30길 40 상도2차두산위브트레지움아파트 관리사무소",
+  "sido": "서울",
+  "sigungu": "동작구",
+  "households": 582,
+  "dong_count": 6,
+  "code": "A10027633"
+ },
+ "디엠씨자이1단지": {
+  "name": "디엠씨자이1단지(DMC자이1)",
+  "address": "서울시 은평구 수색로 217 (수색동)",
+  "sido": "서울시",
+  "sigungu": "은평구",
+  "households": 209,
+  "dong_count": 1,
+  "code": "B11118551"
+ },
+ "오류푸르지오": {
+  "name": "오류푸르지오",
+  "address": "오류푸르지오",
+  "sido": "오류푸르지오",
+  "sigungu": "",
+  "households": 6,
+  "dong_count": 220668714,
+  "code": "A15210209"
+ },
+ "신성수정": {
+  "name": "신성수정",
+  "address": "서울시 은평구 은평터널로 7길2",
+  "sido": "서울시",
+  "sigungu": "은평구",
+  "households": 180,
+  "dong_count": 1,
+  "code": "B11121092"
+ },
+ "성수쌍용": {
+  "name": "성수쌍용",
+  "address": "성수쌍용",
+  "sido": "성수쌍용",
+  "sigungu": "",
+  "households": 9,
+  "dong_count": 264512083,
+  "code": "A13372102"
+ },
+ "역삼럭키": {
+  "name": "역삼럭키",
+  "address": "서울 강남구 논현로 213 (도곡동, 역삼럭키아파트) 입주자대표회의",
+  "sido": "서울",
+  "sigungu": "강남구",
+  "code": "A13585804"
+ },
+ "도봉한신": {
+  "name": "도봉한신",
+  "address": "서울시 도봉구 마들로 859-19",
+  "sido": "서울시",
+  "sigungu": "도봉구",
+  "households": 2678,
+  "dong_count": 25,
+  "code": "B11118392"
+ },
+ "현대썬앤빌테헤란": {
+  "name": "현대썬앤빌테헤란",
+  "address": "서울특별시 강남구 삼성로85갈 33",
+  "sido": "서울특별시",
+  "sigungu": "강남구",
+  "households": 49,
+  "dong_count": 1,
+  "code": "A10020281"
+ },
+ "개포자이프레지던스": {
+  "name": "개포자이프레지던스",
+  "address": "개포자이프레지던스",
+  "sido": "개포자이프레지던스",
+  "sigungu": "",
+  "households": 35,
+  "dong_count": 269568729,
+  "code": "A10023348"
+ },
+ "반포래미안아이파크": {
+  "name": "반포래미안아이파크",
+  "address": "반포래미안아이파크",
+  "sido": "반포래미안아이파크",
+  "sigungu": "",
+  "households": 11,
+  "dong_count": 25338035,
+  "code": "A10026051"
+ },
+ "DMC래미안e편한세상": {
+  "name": "DMC래미안e편한세상",
+  "address": "DMC래미안e편한세상",
+  "sido": "DMC래미안e편한세상",
+  "sigungu": "",
+  "households": 51,
+  "dong_count": 23023107,
+  "code": "A12013003"
+ },
+ "월계센트럴아이파크": {
+  "name": "월계센트럴아이파크아파트",
+  "address": "월계센트럴아이파크아파트",
+  "sido": "월계센트럴아이파크아파트",
+  "sigungu": "",
+  "households": 7,
+  "dong_count": 29980862,
+  "code": "A10025097"
+ },
+ "송파레이크힐": {
+  "name": "송파레이크힐아파트",
+  "address": "서울시 송파구 위례송파로 89",
+  "sido": "서울시",
+  "sigungu": "송파구",
+  "households": 394,
+  "dong_count": 5,
+  "code": "B11118422"
+ },
+ "래미안위브": {
+  "name": "래미안위브",
+  "address": "래미안위브",
+  "sido": "래미안위브",
+  "sigungu": "",
+  "households": 32,
+  "dong_count": 222498684,
+  "code": "A13003007"
+ },
+ "자양한라": {
+  "name": "자양한라",
+  "address": "서울 광진구 자양3동 762",
+  "sido": "서울",
+  "sigungu": "광진구",
+  "households": 329,
+  "dong_count": 2,
+  "code": "B11121239"
+ },
+ "하계삼익선경": {
+  "name": "하계삼익선경",
+  "address": "서울시 노원구 노원로 214",
+  "sido": "서울시",
+  "sigungu": "노원구",
+  "households": 396,
+  "dong_count": 6,
+  "code": "B11128150"
+ },
+ "래미안라클래시": {
+  "name": "래미안 라클래시",
+  "address": "서울 강남구 삼성로651",
+  "sido": "서울",
+  "sigungu": "강남구",
+  "households": 679,
+  "dong_count": 7,
+  "code": "B11115905"
  }
 }

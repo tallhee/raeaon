@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T19:42+09:00",
+ "updated": "2026-10-15T20:07+09:00",
  "items": [
   {
    "bid_num": "kg2b_141475",
@@ -52,7 +52,7 @@
    "is_works": false,
    "filters": [],
    "households": 16,
-   "use_approval": "",
+   "use_approval": "2025-11-25",
    "sigungu": ""
   },
   {
@@ -74,9 +74,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261014155027807&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 582,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261014150412446",
@@ -96,10 +99,15 @@
    "complex_key": "강동롯데캐슬퍼스트",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261014150412446&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 3226,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261014144021233",
@@ -120,9 +128,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261014144021233&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2002,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261013142221959",
@@ -143,9 +154,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261013142221959&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 209,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "은평구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261013102557697",
@@ -166,9 +180,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261013102557697&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 6,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261013101509659",
@@ -189,9 +206,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261013101509659&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 180,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "은평구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_141464",
@@ -238,9 +258,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261012173124293&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "도봉구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261012172349810",
@@ -290,7 +313,10 @@
    "filters": [],
    "households": 15,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261012132620415",
@@ -311,9 +337,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261012132620415&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 9,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261012131512314",
@@ -334,9 +363,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261012131512314&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 9,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261008164345847",
@@ -411,9 +443,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261007165626920&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261007112434122",
@@ -434,9 +469,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261007112434122&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261007095757146",
@@ -457,9 +495,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261007095757146&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 51,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 매각",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "kg2b_141637",
@@ -505,9 +546,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261006173505532&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 15,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261006173445471",
@@ -528,9 +572,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261006173445471&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "도봉구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261002192528346",
@@ -552,9 +599,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261002192528346&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 6,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261002162548756",
@@ -575,9 +625,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261002162548756&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 9,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_141694",
@@ -602,7 +655,10 @@
    ],
    "households": 1900,
    "use_approval": "",
-   "sigungu": "강동구"
+   "sigungu": "강동구",
+   "category": "사업자 - 용역 - 주민운동시설의 위탁",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20261001155930311",
@@ -622,10 +678,15 @@
    "complex_key": "강동롯데캐슬퍼스트",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001155930311&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 3226,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261001145046769",
@@ -646,9 +707,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001145046769&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2002,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20261001135429881",
@@ -700,7 +764,7 @@
    "is_works": false,
    "filters": [],
    "households": 16,
-   "use_approval": "",
+   "use_approval": "2025-11-25",
    "sigungu": ""
   },
   {
@@ -724,7 +788,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_141023",
@@ -746,7 +813,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260930155007374",
@@ -767,9 +837,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930155007374&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "도봉구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260930115241455",
@@ -789,10 +862,15 @@
    "complex_key": "잠실엘스",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930115241455&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 5678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_141542",
@@ -815,7 +893,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_141420",
@@ -916,7 +997,7 @@
    "is_works": false,
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -966,9 +1047,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923145808190&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 51,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260923144803896",
@@ -989,9 +1073,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923144803896&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 51,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 매각",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260923103335075",
@@ -1017,7 +1104,7 @@
    "is_works": false,
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -1040,9 +1127,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260922195003486&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 주민운동시설의 위탁",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260922170450943",
@@ -1063,9 +1153,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260922170450943&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 15,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260922134839744",
@@ -1087,9 +1180,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260922134839744&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 442,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260921141810874",
@@ -1110,9 +1206,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260921141810874&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260917162823967",
@@ -1133,9 +1232,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260917162823967&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "도봉구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260916151537175",
@@ -1155,10 +1257,15 @@
    "complex_key": "잠실엘스",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260916151537175&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 5678,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_140813",
@@ -1205,9 +1312,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260915110054424&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 217,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "양천구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_140504",
@@ -1258,7 +1368,7 @@
    "is_works": false,
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -1306,9 +1416,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260909193638681&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 49,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260909193149463",
@@ -1329,9 +1442,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260909193149463&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 49,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260909131922071",
@@ -1431,9 +1547,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260908155043525&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260908135936156",
@@ -1480,9 +1599,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260908094916881&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 주민운동시설의 위탁",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260908094418822",
@@ -1507,7 +1629,7 @@
    "is_works": false,
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -1533,7 +1655,7 @@
    "is_works": false,
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -1555,9 +1677,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260908085717050&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 주민운동시설의 위탁",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "kg2b_140434",
@@ -1605,7 +1730,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260907143911187",
@@ -1626,9 +1754,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260907143911187&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260907111428217",
@@ -1649,9 +1780,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260907111428217&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260903164757457",
@@ -1702,7 +1836,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -1753,9 +1887,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260902112750691&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 342,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "성동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_139967",
@@ -1831,7 +1968,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -1855,9 +1992,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260901101204416&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 161,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "서초구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_139897",
@@ -1902,9 +2042,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_139845&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 196,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260831134604774",
@@ -1925,9 +2068,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260831134604774&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 2,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260831131801971",
@@ -1975,9 +2121,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260831125339511&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 3,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260828161327082",
@@ -1999,9 +2148,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260828161327082&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 51,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "일반경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260828102933099",
@@ -2048,9 +2200,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=A20260814115231944&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 5,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260827163329132",
@@ -2098,9 +2253,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260827142154429&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260826195657347",
@@ -2122,9 +2280,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260826195657347&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260826154114481",
@@ -2176,7 +2337,7 @@
    "is_works": false,
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -2199,9 +2360,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260826110545275&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 299,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "서초구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260825172258441",
@@ -2222,9 +2386,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260825172258441&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260825161406984",
@@ -2245,9 +2412,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260825161406984&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260825150152069",
@@ -2268,9 +2438,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260825150152069&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260824173129751",
@@ -2291,9 +2464,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260824173129751&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260824135430439",
@@ -2314,9 +2490,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260824135430439&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 주민운동시설의 위탁",
+   "kind": "제한경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260822112659711",
@@ -2338,9 +2517,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260822112659711&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260820141939520",
@@ -2362,9 +2544,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260820141939520&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 604,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "성동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_139485",
@@ -2413,7 +2598,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -2437,9 +2622,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260814143254340&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "kg2b_139593",
@@ -2461,7 +2649,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "마포구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "A20260731141635113",
@@ -2481,9 +2672,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=A20260731141635113&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 5,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "A20260731204010990",
@@ -2504,9 +2698,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=A20260731204010990&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 600,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "영등포구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "A20260731195007644",
@@ -2526,9 +2723,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=A20260731195007644&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 600,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "영등포구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260812174128248",
@@ -2550,9 +2750,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260812174128248&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 11,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260811115820776",
@@ -2600,9 +2803,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260811103951981&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 3,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260810114301579",
@@ -2624,9 +2830,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260810114301579&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260810113113435",
@@ -2648,9 +2857,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260810113113435&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260810112506481",
@@ -2672,9 +2884,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260810112506481&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260807092639796",
@@ -2700,7 +2915,7 @@
    "is_works": false,
    "filters": [],
    "households": 15,
-   "use_approval": "",
+   "use_approval": "2018-02-19",
    "sigungu": ""
   },
   {
@@ -2723,7 +2938,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "마포구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260806154152723",
@@ -2745,9 +2963,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260806154152723&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 376,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강북구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260806140049725",
@@ -2769,9 +2990,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260806140049725&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 5,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260806105520308",
@@ -2793,9 +3017,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260806105520308&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 206,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "서초구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260806100016916",
@@ -2841,9 +3068,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_138909&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 196,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "kg2b_138890",
@@ -2865,7 +3095,10 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260805155235077",
@@ -2887,9 +3120,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260805155235077&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 11,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260805110015811",
@@ -2936,9 +3172,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260805092721396&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 342,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "성동구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260805091232693",
@@ -2959,9 +3198,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260805091232693&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260804131016647",
@@ -3007,9 +3249,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_138720&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 582,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "동작구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260731104256288",
@@ -3032,9 +3277,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260731104256288&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260731103504718",
@@ -3056,9 +3304,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260731103504718&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "kg2b_139010",
@@ -3107,9 +3358,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260730154212353&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 15,
+   "households": 1458,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260730152746625",
@@ -3131,9 +3385,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260730152746625&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 672,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "은평구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260729112204012",
@@ -3154,9 +3411,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260729112204012&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 329,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "광진구",
+   "category": "사업자 - 용역 - 회계감사",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260728163631752",
@@ -3177,9 +3437,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260728163631752&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260728150449917",
@@ -3204,7 +3467,7 @@
    "is_works": false,
    "filters": [],
    "households": 15,
-   "use_approval": "",
+   "use_approval": "2018-02-19",
    "sigungu": ""
   },
   {
@@ -3227,9 +3490,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260728150312205&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260728145318820",
@@ -3251,9 +3517,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260728145318820&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260727174522640",
@@ -3302,9 +3571,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724174759416&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260724174142308",
@@ -3326,9 +3598,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724174142308&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260724170422165",
@@ -3350,9 +3625,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724170422165&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260724170041472",
@@ -3373,9 +3651,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724170041472&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260724165355778",
@@ -3396,9 +3677,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724165355778&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 376,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강북구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260724161355799",
@@ -3419,9 +3703,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724161355799&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 35,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260724132752689",
@@ -3442,9 +3729,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260724132752689&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 376,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강북구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260723133213974",
@@ -3466,9 +3756,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260723133213974&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260723130548604",
@@ -3490,9 +3783,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260723130548604&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 396,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구",
+   "category": "사업자 - 용역 - 회계감사",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260723112346108",
@@ -3514,9 +3810,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260723112346108&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 465,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "관악구",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260722162245563",
@@ -3537,9 +3836,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260722162245563&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 3,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true
   },
   {
    "bid_num": "20260721144003957",
@@ -3585,9 +3887,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_138348&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 582,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "동작구"
   },
   {
    "bid_num": "20260720135043071",
@@ -3608,9 +3910,12 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260720135043071&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 679,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구",
+   "category": "사업자 - 용역 - 회계감사",
+   "kind": "일반경쟁",
+   "is_works": false
   },
   {
    "bid_num": "20260716092046498",
@@ -3635,7 +3940,7 @@
    "is_works": false,
    "filters": [],
    "households": 17,
-   "use_approval": "",
+   "use_approval": "2019-09-27",
    "sigungu": ""
   },
   {
@@ -3658,7 +3963,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260715174311179&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 9,
    "use_approval": "",
    "sigungu": ""
   },
@@ -3733,7 +4038,7 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "노원구"
   },
   {
    "bid_num": "20260714171242388",
@@ -4042,7 +4347,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260706190501010&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 7,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4069,7 +4374,7 @@
    "is_works": true,
    "filters": [],
    "households": 2,
-   "use_approval": "",
+   "use_approval": "2016-08-31",
    "sigungu": ""
   },
   {
@@ -4114,9 +4419,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260703141237991&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 679,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강남구"
   },
   {
    "bid_num": "20260703094545698",
@@ -4141,7 +4446,7 @@
    "is_works": false,
    "filters": [],
    "households": 17,
-   "use_approval": "",
+   "use_approval": "2019-09-27",
    "sigungu": ""
   },
   {
@@ -4322,7 +4627,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260629110123970&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4345,7 +4650,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260626171335736&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4368,7 +4673,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260626150939974&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 9,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4484,7 +4789,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260624173832106&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4701,7 +5006,7 @@
    "is_works": true,
    "filters": [],
    "households": 2,
-   "use_approval": "",
+   "use_approval": "2016-08-31",
    "sigungu": ""
   },
   {
@@ -4794,7 +5099,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260619145146560&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 13,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4890,9 +5195,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260616093110380&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구"
   },
   {
    "bid_num": "kg2b_137288",
@@ -5382,9 +5687,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260604142715079&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 394,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구"
   },
   {
    "bid_num": "kg2b_136379",
@@ -5556,7 +5861,7 @@
    "is_works": true,
    "filters": [],
    "households": 19,
-   "use_approval": "",
+   "use_approval": "2017-04-12",
    "sigungu": ""
   },
   {
@@ -5582,7 +5887,7 @@
    "is_works": true,
    "filters": [],
    "households": 19,
-   "use_approval": "",
+   "use_approval": "2017-04-12",
    "sigungu": ""
   },
   {
@@ -6588,7 +6893,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260507163830663&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 11,
    "use_approval": "",
    "sigungu": ""
   },
@@ -6715,7 +7020,7 @@
    "is_works": false,
    "filters": [],
    "households": 84,
-   "use_approval": "",
+   "use_approval": "2018-12-28",
    "sigungu": ""
   },
   {
@@ -7123,7 +7428,7 @@
    "is_works": false,
    "filters": [],
    "households": 84,
-   "use_approval": "",
+   "use_approval": "2018-12-28",
    "sigungu": ""
   },
   {
@@ -7250,7 +7555,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 84,
-   "use_approval": "",
+   "use_approval": "2018-12-28",
    "sigungu": ""
   },
   {
@@ -7501,7 +7806,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 84,
-   "use_approval": "",
+   "use_approval": "2018-12-28",
    "sigungu": ""
   },
   {
@@ -7924,7 +8229,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260326145015605&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -7951,7 +8256,7 @@
    "is_works": false,
    "filters": [],
    "households": 15,
-   "use_approval": "",
+   "use_approval": "2018-02-19",
    "sigungu": ""
   },
   {
@@ -8144,7 +8449,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -8166,7 +8471,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -8215,7 +8520,7 @@
    "is_works": false,
    "filters": [],
    "households": 15,
-   "use_approval": "",
+   "use_approval": "2018-02-19",
    "sigungu": ""
   },
   {
@@ -8361,7 +8666,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -8383,7 +8688,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 18,
-   "use_approval": "",
+   "use_approval": "2024-03-27",
    "sigungu": ""
   },
   {
@@ -8429,7 +8734,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260306175455616&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -8506,7 +8811,7 @@
    "kind": "일반경쟁",
    "is_works": false,
    "filters": [],
-   "households": 15,
+   "households": 1458,
    "use_approval": "",
    "sigungu": ""
   },
@@ -8601,7 +8906,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260226174252965&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -8719,7 +9024,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260219092154092&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -8742,7 +9047,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260219091332311&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -8820,7 +9125,7 @@
    "is_works": true,
    "filters": [],
    "households": 32,
-   "use_approval": "",
+   "use_approval": "2011-01-07",
    "sigungu": ""
   },
   {
@@ -9169,7 +9474,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260129100013070&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 34,
+   "households": 3002,
    "use_approval": "",
    "sigungu": ""
   },
@@ -9548,7 +9853,7 @@
    "is_works": false,
    "filters": [],
    "households": 4,
-   "use_approval": "",
+   "use_approval": "2023-06-02",
    "sigungu": ""
   },
   {
@@ -9574,7 +9879,7 @@
    "is_works": false,
    "filters": [],
    "households": 4,
-   "use_approval": "",
+   "use_approval": "2023-06-02",
    "sigungu": ""
   },
   {
@@ -9618,9 +9923,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_130216&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 196,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구"
   },
   {
    "bid_num": "20251229142846892",
@@ -9693,7 +9998,7 @@
    "is_works": false,
    "filters": [],
    "households": 84,
-   "use_approval": "",
+   "use_approval": "2018-12-28",
    "sigungu": ""
   },
   {
@@ -9856,9 +10161,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_129967&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 196,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "강동구"
   },
   {
    "bid_num": "20251222174652406",
@@ -10047,7 +10352,7 @@
    "is_works": false,
    "filters": [],
    "households": 26,
-   "use_approval": "",
+   "use_approval": "2023-02-27",
    "sigungu": ""
   },
   {
@@ -10580,7 +10885,7 @@
    "is_works": false,
    "filters": [],
    "households": 26,
-   "use_approval": "",
+   "use_approval": "2023-02-27",
    "sigungu": ""
   },
   {
@@ -10630,7 +10935,7 @@
    "is_works": false,
    "filters": [],
    "households": 26,
-   "use_approval": "",
+   "use_approval": "2023-02-27",
    "sigungu": ""
   },
   {
@@ -10677,7 +10982,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 17,
-   "use_approval": "",
+   "use_approval": "2019-09-27",
    "sigungu": ""
   },
   {
@@ -10723,7 +11028,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -10770,7 +11075,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251126115456549&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -10793,7 +11098,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251126105151245&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -10862,7 +11167,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251124145320787&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -11003,7 +11308,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 23,
-   "use_approval": "",
+   "use_approval": "2019-08-29",
    "sigungu": ""
   },
   {
@@ -11073,7 +11378,7 @@
    "is_works": false,
    "filters": [],
    "households": 4,
-   "use_approval": "",
+   "use_approval": "2023-06-02",
    "sigungu": ""
   },
   {
@@ -11574,7 +11879,7 @@
    "is_works": false,
    "filters": [],
    "households": 4,
-   "use_approval": "",
+   "use_approval": "2023-06-02",
    "sigungu": ""
   },
   {
