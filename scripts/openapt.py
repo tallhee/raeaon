@@ -271,9 +271,7 @@ def analyze(txt: str) -> list[dict]:
     out = []
     for c in split_agenda(clean(txt)):
         first = c.splitlines()[0][:120]
-        tp = topics_of(first) or body_topics(c)  # 안건 제목에 주제어가 있으면 그것만 쓴다
-        if not tp:
-            continue
+        tp = topics_of(first) or body_topics(c)  # 안건 제목에 주제어가 있으면 그것만 쓴다 (없어도 안건은 남김)
         out.append({"head": first, "text": c[:900], "topics": tp, "votes": votes_of(c)})
     return out
 
@@ -497,6 +495,66 @@ def wanted(row: dict, board: dict | None = None) -> bool:
     return any(w in s for w in f["include"]) and not any(w in s for w in f["exclude"])
 
 
+# ---------------------------------------------------------------- 자주 나온 안건 주제어
+STOP = set("""건 의 및 등 안 안건 의안 검토 승인 의결 추인 심의 재심의 결정 보고 요청 변경 시행 진행 관련 따른 위한 대한
+관한 사항 기타 내용 결과 공고 회의 입주자대표회의 입대의 정기 임시 차 호 제 년 년도 월 일 가결 부결 원안 동의 찬성 반대 기권
+교체 신청 세대 입주자대표회 입주민 구성 보수 시설 구매 긴급 지원 가입 공동주택 이용 점검 도입 지하 의결함 개설 일부 조치
+주변 서비스 제안 만료 만기 사업자 내부 외부 시스템 행사 직원 선출 이사 공용부 용역 입찰 규정 개정 청소 유지 보고서 확정 연장
+비용 금액 기간 신규 추가 재 사항의 위원 위원회 대표 구성원 동대표 회장 감사 총무 소위원회 분과 분과위원회
+여부 방안 계획 운영 관리 설치 선정 계약 실시 사용 지급 부과 구입 추진 처리 개선 조정 체결 마련 운영의 보류 상정 협의 논의 검토의
+건의 건으로 위해 대하여 따라 해당 인한 통한 각 및 또는 우리 단지 아파트 업체 공사 업무 집행""".split())
+PARTICLE = re.compile(r"(으로|에서|에게|로서|으로써|의|을|를|은|는|이|가|에|와|과|로|도|만)$")
+
+
+def head_terms(head: str) -> set[str]:
+    h = re.sub(r"^[\s\W\d]*(제\s*\d+\s*호\s*(의안|안건)?|안\s*건\s*\d*|\d+\s*[\.\)]|[①-⑳])\s*[:：]?", "", head)
+    h = re.sub(r"[\[(（【].*?[\])）】]", " ", h)  # 괄호 속 (찬반·업체명 등)
+    toks = []
+    for w in re.split(r"[^가-힣A-Za-z]+", h):
+        w = PARTICLE.sub("", w)
+        if len(w) >= 2 and re.fullmatch(r"[가-힣]+", w) and w not in STOP:
+            toks.append(w)
+    terms = set(toks)
+    terms.update(f"{a} {b}" for a, b in zip(toks, toks[1:]))
+    return terms
+
+
+def term_stats(items: dict, complexes: list[dict]) -> list[dict]:
+    home = {c["name"] for c in complexes if c.get("home")}
+    by: dict[str, dict] = {}
+    for it in items.values():
+        if it.get("kind") == "doc" or it.get("status") != "done":
+            continue
+        for a in it.get("agenda", []):
+            for t in head_terms(a["head"]):
+                d = by.setdefault(t, {"term": t, "complexes": set(), "count": 0, "first": "9999", "first_cx": ""})
+                d["complexes"].add(it["complex"])
+                d["count"] += 1
+                if it.get("date") and it["date"] < d["first"]:
+                    d["first"], d["first_cx"] = it["date"], it["complex"]
+    min_cx = CFG.get("term_filter", {}).get("min_complexes", 3)
+    out = []
+    for d in by.values():
+        n = len(d["complexes"])
+        if n < min_cx:
+            continue
+        out.append({"term": d["term"], "n": n, "count": d["count"], "first": d["first"], "first_cx": d["first_cx"],
+                    "home": bool(home & d["complexes"])})
+    # 두 단어 묶음이 한 단어와 거의 같은 단지에서만 나오면 한 단어 쪽을 남기지 않고 묶음을 우선
+    out.sort(key=lambda x: (-x["n"], -x["count"]))
+    keep, seen_words = [], {}
+    for x in out:
+        if " " in x["term"]:
+            keep.append(x)
+            for w in x["term"].split():
+                seen_words[w] = max(seen_words.get(w, 0), x["n"])
+    for x in out:
+        if " " not in x["term"] and seen_words.get(x["term"], 0) < x["n"] * 0.8:
+            keep.append(x)
+    keep.sort(key=lambda x: (-x["n"], -x["count"]))
+    return keep[:CFG.get("term_filter", {}).get("max_terms", 80)]
+
+
 def apply_analysis(it: dict, full: str) -> None:
     if it.get("kind") == "doc":
         it["snips"] = doc_snippets(full)
@@ -528,6 +586,7 @@ def main() -> int:
                                      "complexes": [{k: c.get(k) for k in ("name", "code", "sigungu", "dong", "home", "groups",
                                                                           "households", "use_approval", "region", "pinned")}
                                                    for c in complexes],
+                                     "terms": term_stats(items, complexes),
                                      "items": lst})
 
     try:
