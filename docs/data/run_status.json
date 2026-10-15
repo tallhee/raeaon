@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-15T20:07+09:00",
+ "ran_at": "2026-10-15T20:44+09:00",
  "steps": {
   "search": {
    "ok": true,
@@ -10,19 +10,47 @@
   },
   "detail": {
    "ok": true,
-   "new": 99,
+   "new": 0,
    "errors": 0
+  },
+  "complex": {
+   "ok": false,
+   "updated": 70,
+   "errors": 28,
+   "without_code": 6
   }
  },
  "complex_errors": [
-  "A10025846: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
-  "A10026988: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
   "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11126428: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
-  "A12012101: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response"
+  "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "A10025415: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "A14206310: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11127107: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11127799: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11119955: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11121544: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11123601: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11116944: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11119264: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11126092: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11120751: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11120499: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "A12127005: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11126968: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11126839: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11116603: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11126465: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11118551: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11121092: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "A13585804: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11118392: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "A10020281: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11118422: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11121239: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11128150: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11115905: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
  ],
- "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
- "complete": false,
+ "complete": true,
  "totals": {
   "notices": 492,
   "complexes": 115

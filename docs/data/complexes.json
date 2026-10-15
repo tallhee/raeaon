@@ -56,7 +56,8 @@
   "sigungu": "",
   "households": 20,
   "dong_count": 231578880,
-  "code": "A10025846"
+  "code": "A10025846",
+  "use_approval": "2018-12-27"
  },
  "헬리오시티": {
   "name": "헬리오시티아파트",
@@ -75,7 +76,8 @@
   "sigungu": "",
   "households": 4,
   "dong_count": 24680524,
-  "code": "A10026988"
+  "code": "A10026988",
+  "use_approval": "2017-05-29"
  },
  "구일우성": {
   "name": "구일우성아파트",
@@ -128,7 +130,8 @@
   "sigungu": "서대문구",
   "households": 503,
   "dong_count": 10,
-  "code": "A12012101"
+  "code": "A12012101",
+  "use_approval": "2005-10-26"
  },
  "한남더힐": {
   "name": "한남더힐",
@@ -165,7 +168,8 @@
   "address": "서울특별시 동대문구 이문로35길 12 이문동 래미안라그란데",
   "sido": "서울특별시",
   "sigungu": "동대문구",
-  "code": "A10020919"
+  "code": "A10020919",
+  "use_approval": "2025-01-03"
  },
  "올림픽파크포레온": {
   "name": "올림픽파크포레온",
@@ -174,7 +178,8 @@
   "sigungu": "",
   "households": 85,
   "dong_count": 24712021,
-  "code": "A10021122"
+  "code": "A10021122",
+  "use_approval": "2024-11-25"
  },
  "래미안원펜타스": {
   "name": "래미안원펜타스",
@@ -189,7 +194,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 24451969,
-  "code": "A10024216"
+  "code": "A10024216",
+  "use_approval": "2021-07-30"
  },
  "잠실래미안아이파크": {
   "name": "잠실래미안아이파크",
@@ -198,7 +204,8 @@
   "sigungu": "",
   "households": 23,
   "dong_count": 24247512,
-  "code": "A10020294"
+  "code": "A10020294",
+  "use_approval": "2025-12-30"
  },
  "래미안솔베뉴": {
   "name": "래미안솔베뉴",
@@ -222,7 +229,8 @@
   "sigungu": "",
   "households": 7,
   "dong_count": 232752339,
-  "code": "A10024974"
+  "code": "A10024974",
+  "use_approval": "2019-08-29"
  },
  "래미안길음센터피스": {
   "name": "래미안길음센터피스",
@@ -231,7 +239,8 @@
   "sigungu": "",
   "households": 24,
   "dong_count": 29831300,
-  "code": "A10025638"
+  "code": "A10025638",
+  "use_approval": "2019-11-29"
  },
  "개포상록스타힐스": {
   "name": "개포상록스타힐스",
@@ -240,7 +249,8 @@
   "sigungu": "",
   "households": 12,
   "dong_count": 24518826,
-  "code": "A10023547"
+  "code": "A10023547",
+  "use_approval": "2022-10-31"
  },
  "고척아이파크MD": {
   "name": "고척아이파크MD",
@@ -249,7 +259,8 @@
   "sigungu": "",
   "households": 6,
   "dong_count": 226131775,
-  "code": "A10023604"
+  "code": "A10023604",
+  "use_approval": "2022-08-31"
  },
  "도곡렉슬": {
   "name": "도곡렉슬",
@@ -258,7 +269,8 @@
   "sigungu": "",
   "households": 3002,
   "dong_count": 34,
-  "code": "A13527203"
+  "code": "A13527203",
+  "use_approval": "2006-01-27"
  },
  "신정이펜하우스3단지": {
   "name": "신정이펜하우스3단지",
@@ -267,7 +279,8 @@
   "sigungu": "",
   "households": 22,
   "dong_count": 226030853,
-  "code": "A15879502"
+  "code": "A15879502",
+  "use_approval": "2011-06-24"
  },
  "북서울자이폴라리스": {
   "name": "북서울자이 폴라리스 아파트",
@@ -276,7 +289,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 29809998,
-  "code": "A10022391"
+  "code": "A10022391",
+  "use_approval": "2024-08-29"
  },
  "상계주공6단지": {
   "name": "상계주공6단지",
@@ -285,7 +299,8 @@
   "sigungu": "",
   "households": 28,
   "dong_count": 29346300,
-  "code": "A13920707"
+  "code": "A13920707",
+  "use_approval": "1988-05-13"
  },
  "래미안트리베라2차": {
   "name": "래미안트리베라2차",
@@ -294,7 +309,8 @@
   "sigungu": "강북구",
   "households": 1330,
   "dong_count": 22,
-  "code": "A14272308"
+  "code": "A14272308",
+  "use_approval": "2010-05-28"
  },
  "메이플자이": {
   "name": "메이플자이",
@@ -303,7 +319,8 @@
   "sigungu": "",
   "households": 29,
   "dong_count": 260835032,
-  "code": "A10020557"
+  "code": "A10020557",
+  "use_approval": "2025-06-27"
  },
  "중계건영3차": {
   "name": "중계건영3차",
@@ -312,7 +329,8 @@
   "sigungu": "",
   "households": 12,
   "dong_count": 29511481,
-  "code": "A13986013"
+  "code": "A13986013",
+  "use_approval": "1995-12-30"
  },
  "양재동청년주택-호반써밋양재": {
   "name": "양재동청년주택-호반써밋양재",
@@ -327,7 +345,8 @@
   "sigungu": "",
   "households": 61,
   "dong_count": 29318356,
-  "code": "A10027817"
+  "code": "A10027817",
+  "use_approval": "2015-10-26"
  },
  "등촌주공4단지": {
   "name": "등촌주공4단지",
@@ -336,7 +355,8 @@
   "sigungu": "",
   "households": 9,
   "dong_count": 226582078,
-  "code": "A15776414"
+  "code": "A15776414",
+  "use_approval": "1995-05-20"
  },
  "DMC래미안클라시스": {
   "name": "DMC래미안클라시스(분양)",
@@ -345,7 +365,8 @@
   "sigungu": "",
   "households": 14,
   "dong_count": 23762745,
-  "code": "A12012202"
+  "code": "A12012202",
+  "use_approval": "2000-12-15"
  },
  "새절역두산위브트레지움": {
   "name": "새절역 두산위브트레지움",
@@ -354,7 +375,8 @@
   "sigungu": "",
   "households": 6,
   "dong_count": 269532153,
-  "code": "A10020307"
+  "code": "A10020307",
+  "use_approval": "2025-11-27"
  },
  "그랑빌": {
   "name": "그랑빌",
@@ -363,7 +385,8 @@
   "sigungu": "",
   "households": 25,
   "dong_count": 29498894,
-  "code": "A13984004"
+  "code": "A13984004",
+  "use_approval": "2002-10-18"
  },
  "래미안장위포레카운티": {
   "name": "래미안장위포레카운티아파트",
@@ -372,7 +395,8 @@
   "sigungu": "",
   "households": 10,
   "dong_count": 232922300,
-  "code": "A10025461"
+  "code": "A10025461",
+  "use_approval": "2021-05-31"
  },
  "가양4단지": {
   "name": "가양4단지",
@@ -381,7 +405,8 @@
   "sigungu": "",
   "households": 12,
   "dong_count": 226680164,
-  "code": "A15780705"
+  "code": "A15780705",
+  "use_approval": "1992-11-30"
  },
  "세운푸르지오헤리시티": {
   "name": "세운푸르지오헤리시티",
@@ -390,7 +415,8 @@
   "sigungu": "",
   "households": 1,
   "dong_count": 222756341,
-  "code": "A10023352"
+  "code": "A10023352",
+  "use_approval": "2023-01-16"
  },
  "래미안엘리니티": {
   "name": "래미안 엘리니티",
@@ -399,7 +425,8 @@
   "sigungu": "",
   "households": 16,
   "dong_count": 7052233589,
-  "code": "A10023633"
+  "code": "A10023633",
+  "use_approval": "2022-08-30"
  },
  "금천롯데캐슬골드파크1차": {
   "name": "금천롯데캐슬골드파크1차아파트",
@@ -408,7 +435,8 @@
   "sigungu": "",
   "households": 11,
   "dong_count": 28098408,
-  "code": "A10027188"
+  "code": "A10027188",
+  "use_approval": "2016-11-30"
  },
  "삼각산아이원": {
   "name": "삼각산아이원",
@@ -417,7 +445,8 @@
   "sigungu": "강북구",
   "households": 1344,
   "dong_count": 20,
-  "code": "A14210002"
+  "code": "A14210002",
+  "use_approval": "2003-12-30"
  },
  "리버센SKVIEW롯데캐슬": {
   "name": "리버센 SK VIEW 롯데캐슬 아파트",
@@ -426,7 +455,8 @@
   "sigungu": "",
   "households": 8,
   "dong_count": 24320961,
-  "code": "A10020555"
+  "code": "A10020555",
+  "use_approval": "2025-06-12"
  },
  "장안현대홈타운": {
   "name": "장안현대홈타운",
@@ -435,7 +465,8 @@
   "sigungu": "",
   "households": 22,
   "dong_count": 222145350,
-  "code": "A13010006"
+  "code": "A13010006",
+  "use_approval": "2003-10-28"
  },
  "타워팰리스1차": {
   "name": "타워팰리스1차",
@@ -444,7 +475,8 @@
   "sigungu": "강남구",
   "households": 1297,
   "dong_count": 4,
-  "code": "A13527017"
+  "code": "A13527017",
+  "use_approval": "2002-10-23"
  },
  "번동주공5단지": {
   "name": "번동주공5단지",
@@ -453,7 +485,8 @@
   "sigungu": "",
   "households": 8,
   "dong_count": 29878818,
-  "code": "A14286203"
+  "code": "A14286203",
+  "use_approval": "1991-05-13"
  },
  "목동1단지": {
   "name": "목동1단지",
@@ -462,7 +495,8 @@
   "sigungu": "",
   "households": 34,
   "dong_count": 267393110,
-  "code": "A15875101"
+  "code": "A15875101",
+  "use_approval": "1985-11-19"
  },
  "고덕숲아이파크": {
   "name": "고덕숲아이파크아파트",
@@ -471,7 +505,8 @@
   "sigungu": "",
   "households": 13,
   "dong_count": 24429928,
-  "code": "A10026403"
+  "code": "A10026403",
+  "use_approval": "2018-03-08"
  },
  "금천롯데캐슬골드파크3차": {
   "name": "금천롯데캐슬골드파크3차아파트",
@@ -480,7 +515,8 @@
   "sigungu": "",
   "households": 6,
   "dong_count": 28076786,
-  "code": "A10025946"
+  "code": "A10025946",
+  "use_approval": "2018-10-30"
  },
  "영등포푸르지오": {
   "name": "영등포푸르지오",
@@ -489,7 +525,8 @@
   "sigungu": "",
   "households": 31,
   "dong_count": 28476767,
-  "code": "A15003002"
+  "code": "A15003002",
+  "use_approval": "2002-05-31"
  },
  "마포래미안푸르지오": {
   "name": "마포래미안푸르지오",
@@ -498,7 +535,8 @@
   "sigungu": "",
   "households": 51,
   "dong_count": 23629852,
-  "code": "A12175203"
+  "code": "A12175203",
+  "use_approval": "2014-09-26"
  },
  "래미안신당하이베르": {
   "name": "래미안신당하이베르",
@@ -507,7 +545,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 222317751,
-  "code": "A10078901"
+  "code": "A10078901",
+  "use_approval": "2011-10-28"
  },
  "송파파크데일1단지": {
   "name": "송파파크데일1단지",
@@ -516,7 +555,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 24091998,
-  "code": "A13881701"
+  "code": "A13881701",
+  "use_approval": "2011-01-27"
  },
  "마곡엠밸리6단지": {
   "name": "마곡엠밸리6단지",
@@ -525,7 +565,8 @@
   "sigungu": "",
   "households": 19,
   "dong_count": 236657237,
-  "code": "A15721006"
+  "code": "A15721006",
+  "use_approval": "2014-06-12"
  },
  "센트레빌아스테리움시그니처": {
   "name": "센트레빌아스테리움시그니처",
@@ -540,7 +581,8 @@
   "sigungu": "",
   "households": 26,
   "dong_count": 234612817,
-  "code": "A13718001"
+  "code": "A13718001",
+  "use_approval": "2014-08-11"
  },
  "용산센트럴파크": {
   "name": "용산센트럴파크",
@@ -549,7 +591,8 @@
   "sigungu": "",
   "households": 5,
   "dong_count": 27923689,
-  "code": "A10024691"
+  "code": "A10024691",
+  "use_approval": "2020-08-20"
  },
  "신내엘지쌍용": {
   "name": "신내엘지쌍용",
@@ -558,7 +601,8 @@
   "sigungu": "",
   "households": 9,
   "dong_count": 234212537,
-  "code": "A13186305"
+  "code": "A13186305",
+  "use_approval": "1996-03-27"
  },
  "등촌주공9단지": {
   "name": "등촌주공9단지",
@@ -567,7 +611,8 @@
   "sigungu": "",
   "households": 7,
   "dong_count": 226588001,
-  "code": "A15776916"
+  "code": "A15776916",
+  "use_approval": "1994-11-04"
  },
  "도원삼성래미안": {
   "name": "도원삼성래미안",
@@ -576,7 +621,8 @@
   "sigungu": "",
   "households": 1458,
   "dong_count": 15,
-  "code": "A14007002"
+  "code": "A14007002",
+  "use_approval": "2001-08-03"
  },
  "번동주공3단지": {
   "name": "번동주공3단지",
@@ -585,7 +631,8 @@
   "sigungu": "",
   "households": 9,
   "dong_count": 262236152,
-  "code": "A14276311"
+  "code": "A14276311",
+  "use_approval": "1990-11-09"
  },
  "번동주공2단지": {
   "name": "번동주공2단지",
@@ -603,7 +650,8 @@
   "sigungu": "강남구",
   "households": 582,
   "dong_count": 6,
-  "code": "A13590602"
+  "code": "A13590602",
+  "use_approval": "1979-11-13"
  },
  "힐스테이트관악센트씨엘": {
   "name": "힐스테이트관악센트씨엘",
@@ -612,7 +660,8 @@
   "sigungu": "",
   "households": 9,
   "dong_count": 28771061,
-  "code": "A10020964"
+  "code": "A10020964",
+  "use_approval": "2024-12-30"
  },
  "강동롯데캐슬퍼스트": {
   "name": "강동롯데캐슬퍼스트아파트",
@@ -648,7 +697,8 @@
   "sigungu": "강동구",
   "households": 196,
   "dong_count": 2,
-  "code": "A13406201"
+  "code": "A13406201",
+  "use_approval": "1988-01-29"
  },
  "금호어울림센터힐": {
   "name": "금호어울림센터힐아파트",
@@ -657,7 +707,8 @@
   "sigungu": "",
   "households": 6,
   "dong_count": 29278903,
-  "code": "A10028001"
+  "code": "A10028001",
+  "use_approval": "2014-10-31"
  },
  "월계주공2단지": {
   "name": "월계주공2단지",
@@ -675,7 +726,8 @@
   "sigungu": "",
   "households": 15,
   "dong_count": 234782905,
-  "code": "A10027205"
+  "code": "A10027205",
+  "use_approval": "2016-08-30"
  },
  "풍납시티극동": {
   "name": "풍납시티극동",
@@ -697,7 +749,8 @@
   "address": "서울 강남구 영동대로114길 56 래미안삼성1차아파트103단지",
   "sido": "서울",
   "sigungu": "강남구",
-  "code": "A13509014"
+  "code": "A13509014",
+  "use_approval": "2006-04-27"
  },
  "신정현대": {
   "name": "신정현대",
@@ -715,7 +768,8 @@
   "sigungu": "",
   "households": 2,
   "dong_count": 27188810,
-  "code": "A10027901"
+  "code": "A10027901",
+  "use_approval": "2015-03-27"
  },
  "성동삼성쉐르빌": {
   "name": "성동삼성쉐르빌",
@@ -742,14 +796,16 @@
   "sigungu": "",
   "households": 3,
   "dong_count": 23933027,
-  "code": "A12005001"
+  "code": "A12005001",
+  "use_approval": "2002-03-21"
  },
  "상계임광": {
   "name": "상계임광아파트",
   "address": "서울특별시 노원구 노원로 569 임광아파트",
   "sido": "서울특별시",
   "sigungu": "노원구",
-  "code": "A13982701"
+  "code": "A13982701",
+  "use_approval": "1989-05-01"
  },
  "방화동개화": {
   "name": "방화동 개화아파트",
@@ -758,7 +814,8 @@
   "sigungu": "",
   "households": 7,
   "dong_count": 226654790,
-  "code": "A15785608"
+  "code": "A15785608",
+  "use_approval": "1994-03-31"
  },
  "성수롯데캐슬": {
   "name": "성수롯데캐슬",
@@ -785,7 +842,8 @@
   "sigungu": "",
   "households": 3,
   "dong_count": 226724098,
-  "code": "A15009505"
+  "code": "A15009505",
+  "use_approval": "1988-11-08"
  },
  "상암월드컵파크7단지": {
   "name": "상암월드컵파크7단지",
@@ -810,7 +868,8 @@
   "sigungu": "",
   "households": 5,
   "dong_count": 28150910,
-  "code": "A15606007"
+  "code": "A15606007",
+  "use_approval": "2011-11-04"
  },
  "현대멤피스": {
   "name": "현대멤피스아파트",
@@ -828,7 +887,8 @@
   "sigungu": "영등포구",
   "households": 600,
   "dong_count": 8,
-  "code": "A15003701"
+  "code": "A15003701",
+  "use_approval": "1998-11-30"
  },
  "DMC아트포레자이": {
   "name": "DMC아트포레자이아파트",
@@ -846,7 +906,8 @@
   "sigungu": "",
   "households": 13,
   "dong_count": 226131947,
-  "code": "A15279404"
+  "code": "A15279404",
+  "use_approval": "1999-02-24"
  },
  "강일리버파크9단지": {
   "name": "강일리버파크9단지",
@@ -855,7 +916,8 @@
   "sigungu": "",
   "households": 13,
   "dong_count": 24276692,
-  "code": "A13410007"
+  "code": "A13410007",
+  "use_approval": "2009-04-06"
  },
  "임광관악파크": {
   "name": "임광관악파크",
@@ -873,7 +935,8 @@
   "sigungu": "동작구",
   "households": 582,
   "dong_count": 6,
-  "code": "A10027633"
+  "code": "A10027633",
+  "use_approval": "2016-01-27"
  },
  "디엠씨자이1단지": {
   "name": "디엠씨자이1단지(DMC자이1)",
@@ -891,7 +954,8 @@
   "sigungu": "",
   "households": 6,
   "dong_count": 220668714,
-  "code": "A15210209"
+  "code": "A15210209",
+  "use_approval": "2004-04-16"
  },
  "신성수정": {
   "name": "신성수정",
@@ -909,7 +973,8 @@
   "sigungu": "",
   "households": 9,
   "dong_count": 264512083,
-  "code": "A13372102"
+  "code": "A13372102",
+  "use_approval": "1997-10-07"
  },
  "역삼럭키": {
   "name": "역삼럭키",
@@ -943,7 +1008,8 @@
   "sigungu": "",
   "households": 35,
   "dong_count": 269568729,
-  "code": "A10023348"
+  "code": "A10023348",
+  "use_approval": "2023-02-28"
  },
  "반포래미안아이파크": {
   "name": "반포래미안아이파크",
@@ -952,7 +1018,8 @@
   "sigungu": "",
   "households": 11,
   "dong_count": 25338035,
-  "code": "A10026051"
+  "code": "A10026051",
+  "use_approval": "2018-08-31"
  },
  "DMC래미안e편한세상": {
   "name": "DMC래미안e편한세상",
@@ -961,7 +1028,8 @@
   "sigungu": "",
   "households": 51,
   "dong_count": 23023107,
-  "code": "A12013003"
+  "code": "A12013003",
+  "use_approval": "2012-10-05"
  },
  "월계센트럴아이파크": {
   "name": "월계센트럴아이파크아파트",
@@ -970,7 +1038,8 @@
   "sigungu": "",
   "households": 7,
   "dong_count": 29980862,
-  "code": "A10025097"
+  "code": "A10025097",
+  "use_approval": "2020-01-30"
  },
  "송파레이크힐": {
   "name": "송파레이크힐아파트",
@@ -988,7 +1057,8 @@
   "sigungu": "",
   "households": 32,
   "dong_count": 222498684,
-  "code": "A13003007"
+  "code": "A13003007",
+  "use_approval": "2014-10-13"
  },
  "자양한라": {
   "name": "자양한라",
