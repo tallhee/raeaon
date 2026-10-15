@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import html
 import http.cookiejar
 import json
@@ -404,15 +405,15 @@ def resolve_complexes(status: dict) -> list[dict]:
 
         for a in tg.get("areas", []):
           try:
-              key = a["area"]
+              key = a.get("label") or a["area"]
               prev_a = cache["areas"].get(key, {})
               if prev_a.get("v") == INFO_VERSION and prev_a.get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
                   continue  # 지역 검색은 한 달에 한 번
-              gu, dong = key.split()
+              gu, dong = a["area"].split()
               codes = []
               for r in P().search(gu=gu, dong=dong):
-                  if a.get("min_households") and r["households"] < a["min_households"] and not a.get("min_year"):
-                      continue
+                  if a.get("min_households") and r["households"] and r["households"] < a["min_households"]:
+                      continue  # 세대수 조건은 목록에서 바로 거른다 (기본정보 조회를 줄임)
                   cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"],
                                           "sigungu": gu, "dong": dong})
                   year = int((cx.get("use_approval") or "0")[:4] or 0)
@@ -635,6 +636,24 @@ def main() -> int:
                 raise
             except Exception as e:
                 st["errors"].append(str(e)[:200])
+        # 1-2) 보강 자료: 게시판 범위 밖의 공개 공고 파일 (config/seeds.json)
+        seeds = load(ROOT / "config" / "seeds.json", {"seeds": []}).get("seeds", [])
+        known_urls = {f.get("url") for i in items.values() for f in i.get("files", [])}
+        cx_by = {norm(c["name"]): c for c in complexes}
+        for sd in seeds:
+            if sd["url"] in known_urls:
+                continue
+            cx = next((c for k, c in cx_by.items() if norm(sd["complex"]) in k or k in norm(sd["complex"])), None)
+            if not cx:
+                continue
+            key = f"{cx['code']}-seed-{hashlib.md5(sd['url'].encode()).hexdigest()[:10]}"
+            if key in items:
+                continue
+            title = re.sub(r"\.(jpe?g|png|pdf|hwp)$", "", sd.get("name") or "", flags=re.I) or "공개 공고"
+            items[key] = {"nttId": key.split("-")[-1], "code": cx["code"], "complex": cx["name"], "bbs": "seed",
+                          "board": "보강 자료", "kind": "minutes", "category": "보강", "title": title,
+                          "date": sd.get("date", ""), "seed_url": sd["url"], "first_seen": NOW.strftime("%Y-%m-%d"),
+                          "status": "pending"}
         persist()
 
         # 2) 첨부 읽기: 최근 글부터, 단지를 번갈아가며
@@ -644,9 +663,12 @@ def main() -> int:
             s = sessions.get(it["code"])
             if not s:
                 continue
-            st = status["complexes"][it["complex"]]
+            st = status["complexes"].setdefault(it["complex"], {"listed": 0, "new": 0, "done": 0, "errors": []})
             try:
-                files, body = parse_detail(s.detail(it["bbs"], it["nttId"]))
+                if it.get("seed_url"):
+                    files, body = [{"url": it["seed_url"], "name": it["title"] + ".jpg", "inline": True}], ""
+                else:
+                    files, body = parse_detail(s.detail(it["bbs"], it["nttId"]))
                 if not files and it.get("first_file"):
                     fid, sn = it["first_file"][0]
                     files = [{"atchFileId": fid, "fileSn": sn, "name": "첨부1"}]

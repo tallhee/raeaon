@@ -68,7 +68,7 @@
       "label": "선거관리위원회",
       "list": "/openApt/aMenu/electionCmt/electionCmtList.open",
       "detail": "/openApt/aMenu/electionCmt/electionCmtDetail.open",
-      "enabled": false,
+      "enabled": true,
       "kind": "minutes"
     },
     "04": {
@@ -293,7 +293,7 @@
       ]
     }
   },
-  "lookback_days": 400,
+  "lookback_days": 800,
   "max_pages": 15,
   "max_files_per_post": 8,
   "max_file_mb": 25,
@@ -325,20 +325,69 @@
     ],
     "areas": [
       {
-        "area": "강남구 개포동",
-        "min_year": 2018,
-        "label": "개포 신축"
+        "area": "서초구 반포동",
+        "min_households": 1000,
+        "label": "반포 대단지"
       },
       {
         "area": "서초구 반포동",
-        "min_households": 1000,
-        "label": "반포"
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "반포 신축"
       },
       {
         "area": "서초구 잠원동",
         "min_year": 2018,
-        "min_households": 500,
-        "label": "반포(잠원)"
+        "min_households": 300,
+        "label": "잠원 신축"
+      },
+      {
+        "area": "서초구 방배동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "방배 신축"
+      },
+      {
+        "area": "서초구 서초동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "서초(강남역) 신축"
+      },
+      {
+        "area": "강남구 역삼동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "역삼(강남역) 신축"
+      },
+      {
+        "area": "강남구 개포동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "개포 신축"
+      },
+      {
+        "area": "강남구 일원동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "일원 신축"
+      },
+      {
+        "area": "강남구 대치동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "대치 신축"
+      },
+      {
+        "area": "강남구 도곡동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "도곡 신축"
+      },
+      {
+        "area": "강남구 청담동",
+        "min_year": 2018,
+        "min_households": 300,
+        "label": "청담 신축"
       }
     ]
   },
@@ -395,6 +444,24 @@
         ],
         "name": [
           "청담"
+        ]
+      },
+      {
+        "label": "강남역·서초",
+        "dong": [
+          "서초동",
+          "역삼동",
+          "방배동",
+          "대치동",
+          "도곡동",
+          "일원동"
+        ],
+        "name": [
+          "서초",
+          "방배",
+          "역삼",
+          "대치",
+          "도곡"
         ]
       },
       {
