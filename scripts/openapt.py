@@ -339,7 +339,11 @@ def auto_groups(cx: dict) -> list[str]:
 
 def region_of(cx: dict) -> str:
     n = norm(cx.get("name", ""))
+    if cx.get("via") == "gu_scan":
+        return next((r["label"] for r in CFG.get("display", {}).get("regions", []) if r.get("via") == "gu_scan"), "기타")
     for r in CFG.get("display", {}).get("regions", []):
+        if r.get("via"):
+            continue
         if cx.get("dong") and cx["dong"] in r.get("dong", []):
             return r["label"]
         if cx.get("sigungu") and cx["sigungu"] in r.get("sigungu", []) and not r.get("dong"):
@@ -431,6 +435,31 @@ def resolve_complexes(status: dict) -> list[dict]:
             raise
           except Exception as e:
             log.setdefault("errors", []).append(f"{a.get('area')}: {str(e)[:120]}")
+        gs = tg.get("gu_scan")
+        if gs:
+            month_ago = (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d")
+            gcache = cache.setdefault("gus", {})
+            for gu in gs.get("gus", []):
+                try:
+                    prev_g = gcache.get(gu, {})
+                    if prev_g.get("v") == INFO_VERSION and prev_g.get("checked", "") > month_ago and prev_g.get("complete"):
+                        continue
+                    res = [r for r in P().search(gu=gu) if r["households"] >= gs.get("min_households", 1000)]
+                    # 2020년 이후 단지는 대부분 새 코드(A10…)라 그쪽만 기본정보를 확인해 조회를 줄인다
+                    res = [r for r in res if r["code"].startswith("A10")]
+                    picked = []
+                    for r in sorted(res, key=lambda r: -r["households"]):
+                        cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"]})
+                        if int((cx.get("use_approval") or "0")[:4] or 0) >= gs.get("min_year", 2020):
+                            picked.append(r["code"])
+                        if len(picked) >= gs.get("top_per_gu", 3):
+                            break
+                    gcache[gu] = {"checked": today, "codes": picked, "v": INFO_VERSION, "complete": True}
+                    log["found"].append(f"{gu}: {len(picked)}곳")
+                except Stop:
+                    raise
+                except Exception as e:
+                    log.setdefault("errors", []).append(f"{gu}: {str(e)[:120]}")
     except Stop:
         raise
     except Exception as e:
@@ -455,11 +484,14 @@ def resolve_complexes(status: dict) -> list[dict]:
         out.append(merged)
         seen.add(cx["code"])
     wanted = list(cache["names"].values()) + [c for a in cache["areas"].values() for c in a.get("codes", [])]
+    gu_codes = {c for g in cache.get("gus", {}).values() for c in g.get("codes", [])}
+    wanted += [c for c in gu_codes if c not in wanted]
     for code in wanted:
         if code in seen or code not in by_code:
             continue
         seen.add(code)
-        out.append(dict(by_code[code]))
+        out.append({**by_code[code], **({"via": "gu_scan"} if code in gu_codes and code not in
+                                        set(cache["names"].values()) else {})})
     pinned = {norm(x) for x in CFG.get("display", {}).get("pinned", [])}
     for cx in out:
         cx["groups"] = auto_groups(cx)
