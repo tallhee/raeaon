@@ -249,6 +249,16 @@ def topics_of(text: str) -> list[str]:
     return [k for k, t in CFG["topics"].items() if any(w in text for w in t["keywords"])]
 
 
+def body_topics(text: str) -> list[str]:
+    """본문으로만 붙이는 주제. head_only 주제는 강한 표현(body_keywords)이 있을 때만."""
+    out = []
+    for k, t in CFG["topics"].items():
+        words = t.get("body_keywords", []) if t.get("head_only") else t["keywords"]
+        if any(w in text for w in words):
+            out.append(k)
+    return out
+
+
 def votes_of(text: str) -> str:
     m = re.search(r"[\[(]?\s*찬\s*성[^\n\]\)]{0,40}[\])]?", text)
     if m:
@@ -261,7 +271,7 @@ def analyze(txt: str) -> list[dict]:
     out = []
     for c in split_agenda(clean(txt)):
         first = c.splitlines()[0][:120]
-        tp = topics_of(first) or topics_of(c)  # 안건 제목에 주제어가 있으면 그것만 쓴다
+        tp = topics_of(first) or body_topics(c)  # 안건 제목에 주제어가 있으면 그것만 쓴다
         if not tp:
             continue
         out.append({"head": first, "text": c[:900], "topics": tp, "votes": votes_of(c)})
