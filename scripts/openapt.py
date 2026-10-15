@@ -262,6 +262,8 @@ def analyze(txt: str) -> list[dict]:
 
 # ---------------------------------------------------------------- 단지 찾기 (이름·지역 → aptCode)
 CX_CACHE = DATA / "openapt_complexes.json"
+INFO_VERSION = 2  # 기본정보 해석 방식을 바꾸면 올린다 (캐시된 단지를 다시 확인)
+REGION_PREFIX = re.compile(r"^(잠실|서초|반포|송파|청담|개포|강남|강동|고덕|문정|방배|둔촌|가락)")
 
 
 class Portal(Session):
@@ -289,8 +291,9 @@ class Portal(Session):
         return out
 
     def info(self, code: str) -> dict:
-        t = T(self.post("/commonPortal/select.do", {"query": "aptInfo.selectAptInfoDetail", "aptCode": code,
-                                                    "returnUrl": "portal/aMenu/aptInfo/aptInfoDetailView", "tabCd": 1}))
+        t = T(self.post("/commonPortal/select.do", {"query": "aptInfo.selectAptInfoDetail",
+                                                    "searchValue": f"aptCode:{code}",
+                                                    "returnUrl": "portal/aMenu/aptInfo/detailComponent/aptInfoBasic"}))
         ua = re.search(r"사용승인일\s*(\d{4})[-.](\d{2})[-.](\d{2})", t)
         hh = re.search(r"세대수\s*([\d,]+)", t)
         addr = re.search(r"주소\s*(서울\S*\s+(\S+구)\s+(\S+동))", t)
@@ -335,17 +338,25 @@ def resolve_complexes(status: dict) -> list[dict]:
         def detail(code: str, base: dict) -> dict:
             cx = by_code.setdefault(code, {"code": code})
             cx.update({k: v for k, v in base.items() if v})
-            if not cx.get("use_approval") and not cx.get("info_checked"):
+            if cx.get("info_v") != INFO_VERSION:
                 cx.update({k: v for k, v in P().info(code).items() if v})
-                cx["info_checked"] = today
+                cx["info_checked"], cx["info_v"] = today, INFO_VERSION
             return cx
 
         for name in tg.get("names", []):
             if name in cache["names"]:
+                code = cache["names"][name]
+                if by_code.get(code, {}).get("info_v") != INFO_VERSION:
+                    detail(code, {})
                 continue
-            res = P().search(name=name)
-            exact = [r for r in res if norm(r["name"]) == norm(name)] or \
-                    [r for r in res if norm(name) in norm(r["name"])]
+            exact = []
+            variants = [name, name.replace("e편한세상", "이편한세상"), REGION_PREFIX.sub("", norm(name))]
+            for q in dict.fromkeys(v for v in variants if len(v) >= 3):
+                res = P().search(name=q)
+                exact = [r for r in res if norm(r["name"]) == norm(q)] or \
+                        [r for r in res if norm(q) in norm(r["name"])]
+                if exact:
+                    break
             if not exact:
                 log["not_found"].append(name)
                 continue
@@ -358,7 +369,8 @@ def resolve_complexes(status: dict) -> list[dict]:
 
         for a in tg.get("areas", []):
             key = a["area"]
-            if cache["areas"].get(key, {}).get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
+            prev_a = cache["areas"].get(key, {})
+            if prev_a.get("v") == INFO_VERSION and prev_a.get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
                 continue  # 지역 검색은 한 달에 한 번
             gu, dong = key.split()
             codes = []
@@ -373,7 +385,7 @@ def resolve_complexes(status: dict) -> list[dict]:
                 if a.get("min_households") and (cx.get("households") or 0) < a["min_households"]:
                     continue
                 codes.append(r["code"])
-            cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key)}
+            cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key), "v": INFO_VERSION}
             log["found"].append(f"{key}: {len(codes)}곳")
     except Stop:
         raise
@@ -382,6 +394,17 @@ def resolve_complexes(status: dict) -> list[dict]:
     finally:
         save(CX_CACHE, cache)
 
+    for cx in CFG["complexes"]:
+        if by_code.get(cx["code"], {}).get("info_v") != INFO_VERSION:
+            try:
+                portal = portal or Portal()
+                by_code.setdefault(cx["code"], {"code": cx["code"]}).update(
+                    {k: v for k, v in portal.info(cx["code"]).items() if v} | {"info_v": INFO_VERSION})
+            except Stop:
+                raise
+            except Exception:
+                pass
+    save(CX_CACHE, cache)
     out, seen = [], set()
     for cx in CFG["complexes"]:
         merged = {**by_code.get(cx["code"], {}), **cx}
