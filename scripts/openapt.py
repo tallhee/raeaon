@@ -468,10 +468,43 @@ def resolve_complexes(status: dict) -> list[dict]:
 
 
 # ---------------------------------------------------------------- main
-def wanted(row: dict) -> bool:
+DA = CFG.get("doc_analysis", {})
+KEY_PAT = re.compile("|".join(DA.get("key_patterns", ["$^"])))
+
+
+def doc_snippets(txt: str) -> list[dict]:
+    """공개자료: 주제어·핵심 표현이 있는 줄을 앞뒤 한 줄과 함께 뽑는다."""
+    lines = clean(txt).splitlines()
+    out, used = [], set()
+    for i, ln in enumerate(lines):
+        tp = topics_of(ln)
+        key = bool(KEY_PAT.search(ln))
+        if not (tp or key) or i in used:
+            continue
+        lo, hi = max(0, i - 1), min(len(lines), i + 2)
+        used.update(range(lo, hi))
+        chunk = "\n".join(lines[lo:hi])
+        out.append({"text": chunk[:500], "topics": topics_of(chunk), "key": key})
+    out.sort(key=lambda x: (not x["key"], -len(x["topics"])))
+    return out[:DA.get("max_snippets", 14)]
+
+
+def wanted(row: dict, board: dict | None = None) -> bool:
+    if board and board.get("kind") == "doc":
+        return True
     s = row["category"] + " " + row["title"]
     f = CFG["post_filter"]
     return any(w in s for w in f["include"]) and not any(w in s for w in f["exclude"])
+
+
+def apply_analysis(it: dict, full: str) -> None:
+    if it.get("kind") == "doc":
+        it["snips"] = doc_snippets(full)
+        it["agenda"] = []
+        it["topics"] = sorted({t for x in it["snips"] for t in x["topics"]})
+    else:
+        it["agenda"] = analyze(full)
+        it["topics"] = sorted({t for a in it["agenda"] for t in a["topics"]})
 
 
 def main() -> int:
@@ -507,27 +540,37 @@ def main() -> int:
                 for bbs, b in CFG["boards"].items():
                     if not b.get("enabled"):
                         continue
+                    b_since = (NOW - dt.timedelta(days=b.get("lookback_days", CFG["lookback_days"]))).strftime("%Y-%m-%d")
+                    taken = 0
                     for page in range(1, CFG["max_pages"] + 1):
-                        rows = parse_list(s.board_page(bbs, page))
+                        lh = s.board_page(bbs, page)
+                        rows = parse_list(lh)
+                        dm = re.search(r'name="returnUrl"[^>]*value="([^"]*Detail[^"]*)"', lh)
+                        if dm:
+                            b["detail"] = dm.group(1)
                         if not rows:
                             break
                         known_hit = False
                         for r in rows:
-                            if r["date"] and r["date"] < since:
+                            if r["date"] and r["date"] < b_since:
                                 continue
+                            if b.get("max_posts") and taken >= b["max_posts"]:
+                                break
                             key = f"{cx['code']}-{bbs}-{r['nttId']}"
                             st["listed"] += 1
                             if key in items:
                                 known_hit = True
                                 continue
-                            if not wanted(r):
+                            if not wanted(r, b):
                                 continue
+                            taken += 1
                             items[key] = {**r, "code": cx["code"], "complex": cx["name"], "bbs": bbs,
-                                          "board": b["label"], "first_seen": NOW.strftime("%Y-%m-%d"),
-                                          "status": "pending"}
+                                          "board": b["label"], "kind": b.get("kind", "minutes"),
+                                          "first_seen": NOW.strftime("%Y-%m-%d"), "status": "pending"}
                             st["new"] += 1
                         oldest = min((r["date"] for r in rows if r["date"]), default="")
-                        if (oldest and oldest < since) or (known_hit and page > 1):
+                        if (oldest and oldest < b_since) or (known_hit and page > 1) or \
+                                (b.get("max_posts") and taken >= b["max_posts"]):
                             break
             except Stop:
                 raise
@@ -559,7 +602,7 @@ def main() -> int:
                     with tempfile.TemporaryDirectory() as td:
                         p = Path(td) / ("f" + Path(f["name"]).suffix[:6])
                         p.write_bytes(data)
-                        txt, kind = extract(p, f["name"])
+                        txt, kind = extract(p, f["name"], DA.get("ocr_max_pages", 12) if it.get("kind") == "doc" else 20)
                     f["method"] = kind
                     kinds.append(kind)
                     if txt.strip():
@@ -568,9 +611,8 @@ def main() -> int:
                 (TEXT_DIR / it["code"]).mkdir(parents=True, exist_ok=True)
                 (TEXT_DIR / it["code"] / f"{it['nttId']}.txt").write_text(full, encoding="utf-8")
                 it.update({"files": files, "methods": kinds, "chars": len(full),
-                           "agenda": analyze(full), "status": "done" if full.strip() else "no-text",
-                           "parser": PARSER_VERSION})
-                it["topics"] = sorted({t for a in it["agenda"] for t in a["topics"]})
+                           "status": "done" if full.strip() else "no-text", "parser": PARSER_VERSION})
+                apply_analysis(it, full)
                 st["done"] += 1
             except Stop:
                 raise
@@ -592,14 +634,14 @@ def main() -> int:
     for it in items.values():
         tp = TEXT_DIR / it["code"] / f"{it['nttId']}.txt"
         if it.get("status") == "done" and tp.exists():
-            it["agenda"] = analyze(tp.read_text(encoding="utf-8"))
-            it["topics"] = sorted({t for a in it["agenda"] for t in a["topics"]})
+            apply_analysis(it, tp.read_text(encoding="utf-8"))
     persist()
     status["totals"] = {
         "posts": len(items),
         "done": sum(1 for i in items.values() if i.get("status") == "done"),
         "pending": sum(1 for i in items.values() if i.get("status") == "pending"),
         "agenda_items": sum(len(i.get("agenda", [])) for i in items.values()),
+        "docs": sum(1 for i in items.values() if i.get("kind") == "doc" and i.get("status") == "done"),
     }
     save(DATA / "minutes_status.json", status)
     print(json.dumps(status, ensure_ascii=False, indent=1))

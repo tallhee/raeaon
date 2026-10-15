@@ -72,6 +72,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 </header>
 <nav><div class="in" role="tablist">
   <button role="tab" data-tab="minutes" aria-selected="true">입대의 회의결과</button>
+  <button role="tab" data-tab="docs" aria-selected="false">장기수선·감사 자료</button>
   <button role="tab" data-tab="bylaws" aria-selected="false">관리규약 조항</button>
   <button role="tab" data-tab="rules" aria-selected="false">규정 비교표</button>
   <button role="tab" data-tab="notices" aria-selected="false">입찰공고(참고)</button>
@@ -87,6 +88,15 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
   <div class="list" id="mList"></div>
+</section>
+
+<section id="docs">
+  <p class="lead">단지홈 정보공개의 ‹장기수선 및 안전관리›, ‹감사보고서›, ‹기타공개자료›에 올라온 파일에서 적립금액·요율·잔액·지적사항 같은 핵심 줄을 뽑았습니다. 표 숫자는 글자 인식이라 틀릴 수 있으니 원문으로 확인하세요.</p>
+  <div class="bar" id="dBoards"></div>
+  <div class="bar" id="dComplex"></div>
+  <div class="bar"><input type="search" id="dq" placeholder="내용 검색 (예: 적립요율, 잔액, 지적)"></div>
+  <p class="meta" id="dCount"></p>
+  <div class="list" id="dList"></div>
 </section>
 
 <section id="bylaws">
@@ -165,7 +175,7 @@ function chips(el,map,state,onChange,multi){
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
     const draw=()=>{
       const term=mq.value.trim();
-      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&(!mc.size||cxHit(p.complex))
+      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&p.kind!=="doc"&&(!mc.size||cxHit(p.complex))
         &&(!mg.size||(cxBy[p.complex]?.groups||[]).some(g=>mg.has(g))||cxBy[p.complex]?.home));
       let n=0;
       const html=posts.map(p=>{
@@ -190,6 +200,35 @@ function chips(el,map,state,onChange,multi){
     mq.oninput=draw; draw();
   }
 
+
+  // 장기수선·감사 자료
+  {
+    const cxs=(minutes?.complexes)||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
+    const docs=((minutes?.items)||[]).filter(i=>i.kind==="doc"&&i.status==="done");
+    const boards=[...new Set(docs.map(d=>d.board))];
+    const db=new Set(), dc=new Set(), dq=document.getElementById("dq");
+    const chipMap=Object.fromEntries([
+      ...cxs.filter(c=>c.pinned).sort((a,b)=>(b.home?1:0)-(a.home?1:0)).map(c=>["n:"+c.name,c.name+(c.home?" (우리 단지)":"")]),
+      ...((minutes?.regions)||[]).filter(r=>cxs.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r])]);
+    const hit=name=>{const c=cxBy[name]||{};return dc.has("n:"+name)||dc.has("r:"+c.region);};
+    const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
+    const MT=minutes?.topics||{};
+    const draw=()=>{
+      const term=dq.value.trim();
+      const list=docs.filter(d=>(!db.size||db.has(d.board))&&(!dc.size||hit(d.complex))&&(!term||(d.title+(d.snips||[]).map(x=>x.text).join(" ")).includes(term)));
+      document.getElementById("dCount").textContent=minutes?`자료 ${list.length}건`:"";
+      document.getElementById("dList").innerHTML=list.map(d=>{
+        const files=(d.files||[]).filter(f=>f.url).map((f,i)=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">원문${d.files.length>1?i+1:""}</a>`).join(" ");
+        const sn=(d.snips||[]).filter(x=>!term||x.text.includes(term));
+        return `<article class="card${cxBy[d.complex]?.home?" home":""}"><h3>${esc(d.complex)} · ${esc(d.title)}</h3>
+          <div class="meta">${esc(d.date)} · ${esc(d.board)}${d.category?" · "+esc(d.category):""} ${files?"· "+files:""}</div>
+          ${sn.length?`<details${term?" open":""}><summary>핵심 줄 ${sn.length}개</summary>${sn.map(x=>`<div class="agenda"><pre>${hl(x.text,term)}</pre>${x.topics.map(t=>`<span class="tag">${esc(MT[t]||t)}</span>`).join("")}</div>`).join("")}</details>`:`<div class="meta">뽑은 핵심 줄 없음 — 원문 확인</div>`}
+        </article>`;}).join("")||`<div class="empty-state">${minutes?"조건에 맞는 자료가 없습니다.":"아직 수집된 자료가 없습니다."}</div>`;
+    };
+    chips(document.getElementById("dBoards"),Object.fromEntries(boards.map(b=>[b,b])),db,draw,true);
+    chips(document.getElementById("dComplex"),chipMap,dc,draw,true);
+    dq.oninput=draw; draw();
+  }
   // 관리규약 조항
   const bylaws=await get("data/bylaws.json");
   {
