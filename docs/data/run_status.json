@@ -1,0 +1,26 @@
+{
+ "ran_at": "2026-10-15T15:45+09:00",
+ "steps": {
+  "search": {
+   "ok": true,
+   "keywords": 29,
+   "found": 889,
+   "matched": 472,
+   "errors": []
+  },
+  "detail": {
+   "ok": true,
+   "new": 472,
+   "errors": 0
+  },
+  "complex": {
+   "ok": true,
+   "updated": 0,
+   "errors": 0
+  }
+ },
+ "totals": {
+  "notices": 472,
+  "complexes": 0
+ }
+}
