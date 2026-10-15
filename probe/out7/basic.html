@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+	$(".schReMenu a").removeClass('on');
+		$( '.schReMenu a' ).removeAttr( 'title' );
+	$(".schReMenu01").addClass("on");
+	$(".schReMenu01").attr( 'title', '현재 페이지' );
+	selectMngUpd();
+
+	//지도 위 선택 단지 표시
+	$('.leaflet-marker-icon').attr('alt', '지도 위 단지 위치 표시');
+	$('.leaflet-clickable').attr('alt', '지도 위 단지 위치 표시');
+	$('.leaflet-zoom-animated').attr('alt', '지도 위 단지 위치 표시');
+	$('.leaflet-tile').attr('alt', '지도');
+	$('.leaflet-marker-pane').attr('alt', '지도 위 단지 위치 표시');	
+
+
+	function selectMngUpd(searchValue) {
+		var udp_query 	= "aptInfo.selectAptMngUpdList";
+		var udp_params		= "aptCode:A10021122";
+		var udp_returnUrl	= "portal/aMenu/aptInfo/aptInfoMngUpdList";
+
+		$.ajax({
+			type : 'POST',
+			dataType : 'html',
+			url : "/commonPortal/select.do",
+			data : {
+				"query" 		: udp_query,
+				"searchValue" 	: udp_params,
+				"returnUrl" 	: udp_returnUrl
+			},
+			success : function(data) {
+				$("#mngUpdWrap").html(data);
+			},
+			error : function(err) {
+			}, beforeSend: function () {
+				if($("#loadingImg").length != 0) {
+					$("#loadingImg").show();
+				} else {
+			        $('#dataCreateWrap').empty();
+					$("#dataCreateWrap").append('<div id="loadingImg" style="text-align: center;"><img src="/images/common/loading.gif" style="margin-top:30px; width:150px; height:150px;"></div>');
+				}
+	       	}, complete: function () {
+		       	$("#loadingImg").hide();
+	       	}
+		});
+	}
+})
+</script>
+
+			<h3>기본정보</h3>
+			<!-- 상세보기 -->
+			<!-- table -->
+			<div class="infoAptTable tableW-640 scroll-x row">
+				<table>
+					<caption>단지정보 - 단지명, 단지구분, 주소, 도로명주소, 관리사무소연락처, 관리사무소팩스, 동수, 세대수, 분양형태, 관리방식, 복도유형, 난방방식, 시공사, 시행사, 사용승인일, 연면적, 관리비 부과면적, 면적별 세대현황 (전용면적 기준), 홈페이지로 구성</caption>
+					<tbody>
+						<tr>
+							<th scope="row" class="tdName">단지명</th>
+							<td class="tdTitle">올림픽파크포레온</td>
+							<th scope="row" class="tdName">단지구분</th>
+							<td class="tdTitle">아파트</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">주소</th>
+							<td class="tdTitle">서울 강동구 둔촌동</td>
+							<th scope="row" class="tdName">도로명주소</th>
+							<td class="tdTitle">서울 양재대로 1300</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">관리사무소연락처</th>
+							<td class="tdTitle">024712010</td>
+							<th scope="row" class="tdName">관리사무소팩스</th>
+							<td class="tdTitle">024712021</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">동수</th>
+							<td class="tdTitle">85 개동</td>
+							<th scope="row" class="tdName">세대수</th>
+							<td class="tdTitle">12,032 세대</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">분양형태</th>
+							<td class="tdTitle">기타</td>
+							<th scope="row" class="tdName">관리방식</th>
+							<td class="tdTitle">위탁관리</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">복도유형</th>
+							<td class="tdTitle">혼합식</td>
+							<th scope="row" class="tdName">난방방식</th>
+							<td class="tdTitle">지역난방</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">시공사</th>
+							<td class="tdTitle">대우건설, 현대산업개발, 현대건설, 롯데건설</td>
+							<th scope="row" class="tdName">시행사</th>
+							<td class="tdTitle">둔촌주공아파트 주택재건축정비사업조합</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">사용승인일</th>
+							<td class="tdTitle">2024-11-25</td>
+							<th scope="row" class="tdName">연면적</th>
+							<td class="tdTitle">2,077,546㎡</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">관리비 부과면적</th>
+							<td class="tdTitle">1,225,530㎡</td>
+							<th scope="row" class="tdName">면적별 세대현황<br>(전용면적 기준)</th>
+							<td class="tdTitle">
+								60㎡ 이하: 5,130세대<br>
+								60㎡ ~ 85㎡ 이하:  4,370세대<br>
+								85㎡ ~ 135㎡ 이하: 2,489세대<br>
+								135㎡ 초과: 세대
+							</td>
+						</tr>
+						<tr>
+							<th scope="row" class="tdName">홈페이지</th>
+							<td class="tdTitle" onclick="window.open('http://'+'', '_blank', '')" style="cursor:pointer;"></td>		  
+						<!--	<td class="tdTitle" onclick="location.href=''" style="cursor:pointer;"></td>	 --> 
+						<!--	<td class="tdTitle"><a href="" target="_blank"></a></td>	 --> 
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div><!-- /infoAptTable -->
+
+			<h3>관리비 공개현황</h3>
+
+			<!-- table -->
+			<div id="mngUpdWrap" class="dataOX row">
+			</div><!-- /tdCenter -->
+
+			<!-- 기준설명 -->
+			<div class="tableInfoTop row">
+				* 공개( <span class="openO" title="공개"></span>), 미공개( <span class="openX" title="미공개"></span>), 당월 기준 2개월 전 등록된 관리비 정보공개 여부 표시<br>
+				* 의무단지의 경우, 반드시 관리비 현황을 공개하도록 되어있습니다. 비의무단지의 경우 관리비 공개는 의무사항이 아닙니다.
+			</div>
