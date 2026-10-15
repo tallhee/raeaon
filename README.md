@@ -61,7 +61,7 @@ config/sources.json, scripts/collect.py, workflows/collect.yml   K-apt 입찰공
 
 ## 손으로 채우는 부분
 
-- **규정 비교표** (`docs/data/rules.json`): 공고문·관리규약·커뮤니티 운영세칙을 읽고 확인한 값만 적습니다. 모르는 칸은 `null`로 두고, 항목마다 `source`(원문 링크)와 `checked`(확인일)를 남깁니다.
+- **규정 비교표** (`docs/data/rules.json`): 공고문·관리규약·운영규정을 읽고 확인한 값만 적습니다. 모르는 칸은 `null`로 두고, 항목마다 `sources`(근거 이름·링크 목록)와 `checked`(확인일)를 남깁니다. 공동주택마당에 없는 자료(전달받은 공고 사진 등)는 `docs/evidence/`에 올려 근거 링크로 씁니다. 다른 단지 공고에 익명으로 인용된 사례는 `anonymous: true`로 표시합니다.
 - **단지 정보 보정** (`config/sources.json`의 `complex_overrides`): KG2B·아파트아이 같은 민간 전자입찰로 올라온 공고는 K-apt 단지코드가 없어 세대수·사용승인일을 자동으로 못 가져옵니다. 이런 단지는 여기에 적으면 비교 그룹 필터에 반영됩니다. 같은 단지명의 K-apt 공고가 한 번이라도 있으면 그 정보를 자동으로 빌려옵니다.
 
 ## 알려진 한계

@@ -12,26 +12,211 @@
     "visitor_fee": "세대당 월 150시간 무료(이월 없음, 30분 내 회차 제외). 초과 시 30분당 1,000원 관리비 부과(별표 4)",
     "per_unit_by_area": "주차지분에 따라 무료 1~3대: 43~84형 1대, 104~129형 2대, 135·157형 3대. 추가 1대는 5만 원에서 지분만큼 가감(84형 5,500원, 59형 34,000원), 추가 2대 +15만 원, 추가 3대 +30만 원, 4대 이상 불가(별표 3)",
     "notes": "위반 시 2회 5만 원, 3회 10만 원 위반금. 어린이집·학원 등 외부 정기차량은 보증금 3만 원 + 월 1만 원",
-    "source": null,
-    "source_text": "주차장 관리규정(2026.07.31 제정, 2026.09.04 개정)",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "sources": [
+     {
+      "text": "주차장 관리규정(2026.07.31 제정, 2026.09.04 개정)",
+      "url": null
+     }
+    ]
    },
    "community": {
     "hours": "화~토 06:00~22:00, 일·공휴일 09:00~18:00. 매주 월요일, 설·추석 연휴 휴관",
     "fee": "무료 횟수 초과 시 피트니스 1회 1,000원, 사우나·수영장 1회 2,000원. 골프 타석 58분 4,000원, 스크린 1시간 12,000원. 피트니스 락카 월 5,000원",
     "entry_limit": "세대당 월 피트니스 50회, 사우나(수영장 포함) 20회(세대원 합산), 1회 3시간",
     "notes": "외부인(비거주 직계가족 포함) 입장 불가. 전망카페(106동)·키즈카페는 공공개방시설. 규정 위반 시 무료 횟수 차감",
-    "source": null,
-    "source_text": "커뮤니티센터 운영규정(2026.08.21 제정, 2026.09.04 개정)",
-    "checked": "2026-10-16"
+    "checked": "2026-10-16",
+    "sources": [
+     {
+      "text": "커뮤니티센터 운영규정(2026.08.21 제정, 2026.09.04 개정)",
+      "url": null
+     }
+    ]
    },
    "dining": {
     "operator_selection": "조식업체를 제한경쟁·적격심사·전자입찰로 선정하기로 의결(2026.10.07 제7차 임시회의, 찬성 8·기권 2)",
     "hours": null,
     "price": null,
     "notes": "커뮤니티센터 운영규정에는 식당 조항이 없음",
-    "source": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0",
-    "source_text": "제7차 입주자대표회의 결과 공고",
+    "checked": "2026-10-16",
+    "sources": [
+     {
+      "text": "제7차 입주자대표회의 결과 공고",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0"
+     }
+    ]
+   }
+  },
+  {
+   "name": "반포자이",
+   "sigungu": "서초구",
+   "households": 3410,
+   "as_of": "2021-07-01 시행",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 방문차량 합산 월 200시간 무료. 초과 시 시간당 1,000원, 1일 최대 10,000원을 방문 세대에 부과. 명절·어버이날·공휴일·이사 등 작업차량은 합산 제외. 거짓 신고 차량은 정산 때까지 입차 불가",
+    "per_unit_by_area": "세대당 무료 대수 = 주차지분(최저 25평 0.897대에 0.103대 더함): 25평 1대, 35평 1.37대, 50평 2.08대, 60평 2.57대, 70평 3.01대, 80평 3.34대, 90평 3.76대. 초과분 누진: 대당 2만 원부터 1만 원씩 증액(2·3·4…10만 원), 무료지분 소수점 차감. 예) 35평 2대 12,000원·3대 42,000원, 25평 2대 20,000원·3대 50,000원. 등록 대수 제한 없음",
+    "notes": "운전기사·도우미 등 업무용 차량 월 30,000원 고정(세대당 2대까지). 상가·유치원 방문 2시간 무료 후 시간당 1,000원(상가·유치원 부담). 관리비에 부과, 잡수입 처리. 2021년 공고라 이후 변경 여부는 미확인",
+    "sources": [
+     {
+      "text": "공고 제2021-121호 1쪽",
+      "url": "evidence/banpoxi_2021-121_p1.png"
+     },
+     {
+      "text": "2쪽(부과 기준표)",
+      "url": "evidence/banpoxi_2021-121_p2.png"
+     },
+     {
+      "text": "3쪽(타 단지 사례)",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "올림픽파크포레온",
+   "sigungu": "강동구",
+   "households": 12032,
+   "use_approval": "2024-11-25",
+   "as_of": "2026-09 기준(진행 중)",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "방문차량 월 150시간 기준, 2026.10.01부터 초과분에 주차시설 사용료 부과 의결(설·추석 연휴 제외). 초과 요금 금액은 공고에 없음. 센터 직원·협력업체 차량 기준은 추후 상정",
+    "per_unit_by_area": "아직 확정 전. 2025.11 '기본 1대 초과 2만 원, 2대 초과 6만 원, 3대 초과 11만 원' 원칙 의결 → 이의신청으로 '1대 무료안 vs 주차지분 부과안' 입주민 투표 → 과반 미달 무효 민원·강동구청 회신으로 입주자 과반 찬성 방식 결정(2026.05) → '전 세대 1대 무료안' 찬반투표 실시 의결(2026.07). 투표 결과는 아직 수집 안 됨",
+    "notes": "2025.10 주차장 관리규정 본문 제정, 별표2(타입별 주차비)는 부결. 타 단지 부과 현황을 홍보자료로 제공하기로 함(2026.02)",
+    "sources": [
+     {
+      "text": "2025.11 결과공고(기준 수립)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001700532&fileSn=1"
+     },
+     {
+      "text": "2026.05 결과공고(결정 방식)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260520&physical=F2FB68A34B4F4923B1F51E9F80E0CB48.jpg&contentType=image/jpeg"
+     },
+     {
+      "text": "2026.07 결과공고(찬반투표)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260722&physical=61D3995E7B2E4A2790ADBDC7E6CB0BA7.jpg&contentType=image/jpeg"
+     },
+     {
+      "text": "2026.09 결과공고(방문차량 150시간)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260916&physical=AE56872718104BA18CD7918C27BEA5F6.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "반포동 A아파트 (익명)",
+   "sigungu": "1,119세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 200시간 무료, 초과 시간당 1,000원(1일 최대 10,000원). 이의 제기 차량은 추후 입차 금지",
+    "per_unit_by_area": "1대 무료. 최소평(25평) 기준 배정면적 초과 비율대로 부과. 추가 1대 30,000원, 2대 70,000원, 3대 이상 불허",
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "반포동 B아파트 (익명)",
+   "sigungu": "2,444세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 100시간 무료, 초과 시간당 1,000원(1일 최대 10,000원). 부과 실적 부진",
+    "per_unit_by_area": "1대 무료. 최소평(26평) 기준 배정면적 초과 비율대로 부과. 추가 1대 30,000원, 2대 40,000원, 3대 이상 불허",
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "대치동 C아파트 (익명)",
+   "sigungu": "805세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": null,
+    "per_unit_by_area": "2대 무료. 최소평(48평) 기준. 추가 1대 33,300원, 2대 60,000원, 3대 100,000원",
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "고덕동 D아파트 (익명)",
+   "sigungu": "3,658세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": null,
+    "per_unit_by_area": "1.23대 무료. 최소평(18평) 기준. 추가 1대 23,100원, 2대 53,100원, 3대 83,100원, 4대 113,100원",
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "대치동 C아파트(방문) (익명)",
+   "sigungu": "4,424세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대 방문 12시간 20분 무료, 초과 10분당 1,000원(최대 40,000원). 외주 운영, 부과 실적 부진",
+    "per_unit_by_area": null,
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "광주 D아파트 (익명)",
+   "sigungu": "1,461세대",
+   "anonymous": true,
+   "as_of": "2021년 사례",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "방문차량당 80시간 무료, 초과 시 1대 보유로 산정",
+    "per_unit_by_area": null,
+    "notes": "반포자이 공고(2021) '타 아파트단지 사례'에서 인용. 단지명 비공개",
+    "sources": [
+     {
+      "text": "반포자이 공고 3쪽",
+      "url": "evidence/banpoxi_2021-121_p3.png"
+     }
+    ],
     "checked": "2026-10-16"
    }
   }
