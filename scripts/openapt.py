@@ -36,6 +36,9 @@ NOW = dt.datetime.now(KST)
 DEADLINE = time.monotonic() + 60 * CFG["time_budget_minutes"]
 
 
+PARSER_VERSION = 2
+
+
 class Stop(BaseException):
     pass
 
@@ -134,11 +137,18 @@ def parse_detail(h: str) -> tuple[list[dict], str]:
             if (fid, sn) not in seen:
                 seen.add((fid, sn))
                 files.append({"atchFileId": fid, "fileSn": sn, "name": f"첨부{len(files)+1}"})
-    # 본문: 첨부파일 목록 다음의 내용 영역
+    # 본문(글내용): 글자 + 본문에 넣은 이미지 (원베일리처럼 공고를 본문 그림으로 올리는 단지)
     body = ""
-    m = re.search(r'<div[^>]*class="[^"]*(?:bbsCont|viewCont|txtArea|bbsView)[^"]*"[^>]*>(.*?)</div>', h, re.S)
+    m = re.search(r'<div[^>]*class="[^"]*readContent[^"]*"[^>]*>(.*?)</div>\s*</div>\s*<!--\s*/readBbsWrap', h, re.S) \
+        or re.search(r'<div[^>]*class="[^"]*readContent[^"]*"[^>]*>(.*?)</div>', h, re.S)
     if m:
         body = T(m.group(1))
+        for k, src in enumerate(re.findall(r'<img[^>]+src="([^"]+)"', m.group(1))):
+            src = html.unescape(src)
+            if src.startswith("data:"):
+                continue
+            url = src if src.startswith("http") else B + src
+            files.append({"url": url, "name": f"본문이미지{k+1}.jpg", "inline": True})
     return files, body
 
 
@@ -257,6 +267,9 @@ def main() -> int:
         print("tesseract 가 없습니다 (워크플로에서 설치).", file=sys.stderr)
     state = load(DATA / "minutes.json", {"items": []})
     items = {f"{i['code']}-{i['bbs']}-{i['nttId']}": i for i in state["items"]}
+    for i in items.values():  # 글자를 못 뽑은 글은 파서 개선 후 한 번 더 시도
+        if i.get("status") == "no-text" and i.get("parser", 1) < PARSER_VERSION:
+            i["status"] = "pending"
     status = {"ran_at": NOW.isoformat(timespec="minutes"), "complexes": {}, "complete": True}
     since = (NOW - dt.timedelta(days=CFG["lookback_days"])).strftime("%Y-%m-%d")
 
@@ -322,8 +335,9 @@ def main() -> int:
                     files = [{"atchFileId": fid, "fileSn": sn, "name": "첨부1"}]
                 texts, kinds = [], []
                 for f in files[:CFG["max_files_per_post"]]:
-                    f["url"] = f"{B}/open/FileDown.do?atchFileId={f['atchFileId']}&fileSn={f['fileSn']}"
-                    data = s.get(f"/open/FileDown.do?atchFileId={f['atchFileId']}&fileSn={f['fileSn']}")
+                    if not f.get("inline"):
+                        f["url"] = f"{B}/open/FileDown.do?atchFileId={f['atchFileId']}&fileSn={f['fileSn']}"
+                    data = s._open(f["url"])
                     if len(data) > CFG["max_file_mb"] * 1024 * 1024:
                         kinds.append("too-big")
                         continue
@@ -339,7 +353,8 @@ def main() -> int:
                 (TEXT_DIR / it["code"]).mkdir(parents=True, exist_ok=True)
                 (TEXT_DIR / it["code"] / f"{it['nttId']}.txt").write_text(full, encoding="utf-8")
                 it.update({"files": files, "methods": kinds, "chars": len(full),
-                           "agenda": analyze(full), "status": "done" if full.strip() else "no-text"})
+                           "agenda": analyze(full), "status": "done" if full.strip() else "no-text",
+                           "parser": PARSER_VERSION})
                 it["topics"] = sorted({t for a in it["agenda"] for t in a["topics"]})
                 st["done"] += 1
             except Stop:
