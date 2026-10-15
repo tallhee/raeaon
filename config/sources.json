@@ -44,6 +44,6 @@
     "lookback_days": 90,
     "first_run_lookback_days": 365,
     "page_size": 100,
-    "delay_seconds": 1.0
+    "delay_seconds": 0.5
   }
 }

@@ -219,12 +219,19 @@ def tag_filters(cx: dict) -> list[str]:
 
 
 # ---------------------------------------------------------------- main
+def persist(prev: dict, complexes: dict) -> None:
+    """중간 저장: 실행이 끊겨도 다음 실행이 이어서 하도록."""
+    items = sorted(prev.values(), key=lambda n: (n.get("date") or n.get("deadline", ""), n["id"]), reverse=True)
+    save("notices.json", {"updated": NOW.isoformat(timespec="minutes"), "items": items})
+    save("complexes.json", complexes)
+
+
 def main() -> int:
     status: dict = {"ran_at": NOW.isoformat(timespec="minutes"), "steps": {}}
     prev = {n["id"]: n for n in load("notices.json", {"items": []})["items"]}
     complexes = load("complexes.json", {})
 
-    days = K["lookback_days"] if prev else K["first_run_lookback_days"]
+    days = K["lookback_days"] if len(prev) > 50 else K["first_run_lookback_days"]
     start = (NOW - dt.timedelta(days=days)).strftime("%Y-%m-%d")
 
     # 1) 키워드별 검색: 기간 전체(결과 목록) + 최근 공고(단지코드 확보용)
@@ -286,6 +293,9 @@ def main() -> int:
             elif key in name_codes:
                 cx.setdefault("code", name_codes[key])
         prev[nid] = item
+        if new_count and new_count % 50 == 0:
+            persist(prev, complexes)
+    persist(prev, complexes)
     status["steps"]["detail"] = {"ok": detail_err == 0, "new": new_count, "errors": detail_err}
 
     # 3) 단지코드가 있고 사용승인일이 없는 단지만 조회
@@ -310,6 +320,8 @@ def main() -> int:
                 except Exception as e:
                     ua_err += 1
                     status.setdefault("complex_errors", []).append(f"{cx['code']}: {str(e)[:120]}")
+                if (ua_ok + ua_err) % 50 == 0:
+                    persist(prev, complexes)
         except Exception as e:
             status["steps"]["complex"] = {"ok": False, "error": str(e)[:200]}
     status["steps"].setdefault("complex", {"ok": ua_err == 0, "updated": ua_ok, "errors": ua_err,
