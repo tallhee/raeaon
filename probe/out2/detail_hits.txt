@@ -1,0 +1,26 @@
+368:	fileFormDownload(enFileName, koFileName);
+700:	    var leftQrCodeArea = $("#downLoadQRBtn").offset().left + 110;
+737:	function downloadQRCode (){
+758:	    link.download = "image.jpg"; // 다운로드할 파일 이름 설정
+1041:				<button type="button" id="downLoadQRBtn" class="btn btnSS" title="QR코드 다운로드" onclick="javascript:downloadQRCode();" style="cursor:pointer">QR코드 다운로드</button>
+1449:						<dt>첨부파일</dt>
+1466:	function fn_egov_downFile(atchFileId, fileSn){
+1467:		window.open("/open/FileDown.do?atchFileId="+atchFileId+"&fileSn="+fileSn+"");
+1482:            // Create a download link
+1485:            a.download = filename;
+1487:            // Append the link to the document and trigger the download
+1493:        } catch (error) {
+1494:            console.error('There was an error downloading the file:', error);
+1500:	function fn_egov_deleteFile(atchFileId, fileSn, delTrName) {
+1509:			if (typeof(forms[i].atchFileId) != "undefined" &&
+1518:		var newAtchFileId = document.createElement( 'input' );
+1525:		newAtchFileId.setAttribute("name","atchFileId");
+1528:		newAtchFileId.setAttribute("type","hidden");
+1531:		newAtchFileId.setAttribute("value",atchFileId);
+1534:		newForm.appendChild( newAtchFileId );
+1537:		//form.atchFileId.value = atchFileId;
+1596:<input type="hidden" name="atchFileId" value="FILE_000000001945063">
+1601:<iframe id="downloadFrame" style="width: 0px;height: 0px;display: none;" title="빈프레임"></iframe>
+1633:												<a href="javascript:previewAjax('https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0', '제7차 입대의 회의 결과 공고(임시 2026.10.07)001.jpg');" title="제7차 입대의 회의 결과 공고(임시 2026.10.07)001.jpg 새창으로 바로보기" style="font-size: 15px;margin-left: 5px;padding-top: 1px;">바로보기</a>
+1653:												<a href="javascript:preListen('https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0', '제7차 입대의 회의 결과 공고(임시 2026.10.07)001.jpg');" title="제7차 입대의 회의 결과 공고(임시 2026.10.07)001.jpg 새창으로 바로듣기" style="font-size: 15px;margin-left: 5px;padding-top: 1px;">바로듣기</a>
+1681:					첨부파일 참조

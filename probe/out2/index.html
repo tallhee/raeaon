@@ -1,0 +1,1910 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="Referrer" content="origin">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<meta name="apple-mobile-web-app-title" content="서울특별시 공동주택 통합정보마당">
+	
+
+	<title>서울특별시 공동주택 통합정보마당</title>
+	<meta name="title" content="서울특별시 공동주택 통합정보마당">
+	<meta name="keywords" content="서울시, 공동주택 통합정보마당, 아파트 단지검색, 관리비, 관리규약, 맑은아파트, 주민학교, 층간소음, 공동주택">
+	<meta name="description" content="이웃과 함께 사는 행복한 아파트 만들기 서울특별시 공동주택 통합정보마당">
+	<meta name="author" content="서울특별시 공동주택 통합정보마당">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="ko_KR" />
+	<meta property="og:url" content="http://openapt.seoul.go.kr/">
+	<meta property="og:image" content="http://openapt.seoul.go.kr/images/logo.png">
+	<meta property="og:title" content="서울특별시 공동주택 통합정보마당">
+	<meta property="og:description" content="이웃과 함께 사는 행복한 아파트 만들기 서울특별시 공동주택 통합정보마당"/>
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="http://openapt.seoul.go.kr/">
+	<meta name="twitter:image" content="http://openapt.seoul.go.kr/images/logo.png">
+	<meta name="twitter:title" content="서울특별시 공동주택 통합정보마당">
+	<meta name="twitter:description" content="이웃과 함께 사는 행복한 아파트 만들기 서울특별시 공동주택 통합정보마당"/>
+
+	<link rel="shortcut icon" href="/images/portal/favicon.ico">
+	
+	
+
+<!-- css  -->
+<link rel="stylesheet" href="/css/portal/open_apt.css">
+<link rel="stylesheet" href="/css/plugin/flexslider.css">
+<link rel="stylesheet" href="/css/plugin/jquery.bxslider.css">
+<link rel="stylesheet" href="/js/jquery-1.12.1/themes/base/jquery-ui.css">
+
+<!-- js  -->
+<meta name="csrf-token" content="ce691adb-6117-46ce-a6b6-aaf1189cea62" />
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/common/csrf.js?ver=20260910"></script>
+<script src="/js/jquery.flexslider.js"></script> 		<!-- flexslider 메인 비쥬얼 슬라이드  -->
+<script src="/js/jquery.bxslider.js"></script> 				<!-- bxSlider 하단 배너-->
+<script src="/js/jquery-1.12.1/jquery-ui.js"></script>
+<script src="/js/jquery.form.js"></script>
+
+<!-- custom js -->
+<script src="/js/jquery.monthpicker.js?ver=20231207"></script>			<!-- 년,월만 선택하는 달력 -->
+<script src="/js/common/designCommon.js?ver=20231207"></script>
+<script src="/js/common/portalCommon.js?ver=20231207"></script>
+<script src="/js/commonCore/message.js?ver=20231207"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
+<script src="/js/plugin/qrcode.js"></script>
+
+<script src="https://anytalk.com/chatbot.js"></script>
+
+
+<!-- FormData -->
+<script src="/js/common/formdata.js"></script>
+
+</head>
+
+<body onload="init(); Yjs.Gnb.init('G078', 'seoul-common-header');">
+<!-- javascript warning tag  자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다. -->
+<noscript class="noScriptTitle">자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>
+
+<!-- 웹접근성 바로가기 -->
+<div id="skipNavi">
+	<a href="#container">본문으로 바로가기</a>
+</div>
+
+<!--  서울시 GNB 적용 바디태그 이벤트에 추가 -->
+<script src="//www.seoul.go.kr/seoulgnb/gnb.js"></script>
+<div id='seoul-common-header'></div>
+
+<!-- 화면 싱단 배너영역 -->
+<!--
+<div class="topBannerWrap hide1024 row" style="display:none">
+	<div class="topBannerContents" >
+		<a href=""><div class="topBannerImg" ></div></a>
+	</div>
+	<div class="topBannerClose">
+		<form method="post" action="">
+			<input type="checkbox" name="chkTopPopup" id="chkTopPopup">
+			<label class="chkCType1" for="chkTopPopup"> 오늘 하루 보지 않기</label>
+			<a href="javascript:void(0);"><img class="btnTopBannerClose" src="/images/portal/btnTopBannerClose.png" alt="팝업공지 닫기" title="팝업공지 닫기"></a>
+		</form>
+	</div>
+</div>
+ -->
+ <!-- 전체메뉴보기 시작 -->
+<div id="sitemapDivBg">&nbsp;</div>
+<div id="sitemapDiv" class="row">
+	<div id="sitemapWrap" class="row">
+
+		<!-- 포털 전체메뉴보기 -->
+		<div id="sitemap" class="row">
+			<a href="javascript:void(0);" class="right closeSitemap" id="closeSitemapTop"><img src="/images/portal/btnClosePop.png" alt="전체보기 닫기" title="전체보기 닫기"></a>
+			 <div style="font-size: 20px">전체메뉴</div>
+			 <!-- 검색 -->
+			<div id="sitemapSchWrap">
+				<!-- 
+				<form id="sitemapSchForm" name="sitemapSchForm" method="post" action="/commonPortal/programLink.do">
+					<input type="hidden" name="jspNm" value="/portal/search/search.open">
+					<input type="hidden" name="comcod" value="searchTxt">
+					<label for="sitemapSchText" class="sr-only">통합검색</label><span class="">통합검색 :  </span><input type="text" id="sitemapSchText" name="mainGnbSchText" title="통합검색" placeholder="검색어를 입력해 주세요">
+					<button type="button" id="sitemapSch" name="sitemapSch" onclick="document.sitemapSchForm.submit()" class="btn btnTopGnb icoSch" title="검색버튼"><span class="sr-only">검색버튼</span></button>
+				</form>
+				 -->
+			</div>
+
+			<ul>
+				<li>
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">정보공개</a></div>
+					<ul class="sitemapSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open', '1', '1')">단지정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/mgrInfo/mgrSearch.open&comcod=gu', '1', '2');">관리비정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/bidInfo/bidNotice.open&comcod=gu:bidStat:bidCon', '1', '3');">입찰정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/privateContract/privateContract.open&comcod=gu:bidStat', '1', '4');">수의계약</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/keyStatis/sttHeating.open', '1', '5');">주요통계</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">민원상담</a></div>
+					<ul class="sitemapSubMenu row">
+						<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/mngAgree/agreeList.open', 'portalBoard.mngAgreeSelect', 'suSch:potRules:potRulesDetail', 'BBSMSTR_000000000004', 'category:1')">관리규약</a></li>
+						<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/complainCase/claimList.open', 'portalBoard.portalBoardSelect', 'suSch', 'BBSMSTR_000000000007')">민원사례</a></li>
+						<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/referenceRoom/dataList.open', 'portalBoard.portalBoardSelect', 'reCate', 'BBSMSTR_000000000002')">자료실</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/bMenu/counsel/counsel.open', '2', '4');">공동주택상담</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">맑은아파트</a></div>
+					<ul class="sitemapSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/clearAptInfo/makingClearApt.open', '3', '1');">맑은아파트 소개</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/resiSchool/resiOnlineEdu.open', '3', '2');">주민학교</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/floorNoise/floorNoise.open', '3', '3');">층간소음</a></li>
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/mgrDown/mgrDown.open', '3', '4');">관리비내리기</a></li> -->
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/bestExam/bestExam.open&comcod=beCate', '3', '5');">우수사례</a></li> -->
+						<!--  <li><a href="javascript:;void(0);" onclick="boardUrl('/portal/cMenu/bestExam/bestList.open', 'portalBoard.portalBoardSelect', '', 'BBSMSTR_000000000003')">우수사례</a></li>  -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/cMenu/newQuality/qualityList.open', 'portalBoard.portalBoardSelect', '', 'BBSMSTR_000000000032')">공동주택품질점검</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">알림마당</a></div>
+					<ul class="sitemapSubMenu row">
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/newNotice/newNotice.open&comcod=noCate', '4', '1');">공지사항</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/newNotice/noticeList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000001')">공지사항</a></li>	
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/supportNews/supportNews.open&comcod=siGu:suSch:suStat', '4', '2');">지원소식</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/supportNews/supportList.open', 'poSupportNews.poSupportNewsSelect', 'siGu:suSch:suStat')">지원소식</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/jobInfo/jobInfo.open&comcod=jobInfoSearch:gu:searchSysDate', '4', '3');">채용정보</a></li>
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/faq/faq.open&comcod=suSch', '4', '4');">자주찾는질문</a></li> -->
+						<!-- t0317 -->
+						<!-- <li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/faq/faqListForm.open', 'poFaq.faqSelect', 'suSch', 'BBSMSTR_000000000005', 'sPosition:')">자주찾는질문</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/faq/faqListForm.open', 'poFaq.faqSelect', 'suSch', 'BBSMSTR_000000000005', 'sAuth2:')">자주찾는질문</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">통합정보마당</a></div>
+					<ul class="sitemapSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/combinInfo.open', '5', '1');">통합정보마당소개</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/privacyAgreement.open', '5', '2');">개인정보처리방침</a></li>
+						<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/mgrItem/mgrItem.open', '5', '3');">관리비항목안내</a></li>
+						<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/direction.open', '5', '4');">이용안내</a></li> -->
+					</ul>
+				</li>
+				<li id="mSitemapLogin" style="display:none;;">
+					<div class="sitemapMenu ClassH2"><a href="javascript:;void(0);">관리소장</a></div>
+					<ul class="sitemapSubMenu row">
+
+					
+						<li><a href="/portal/loginUrl.do?logType=T">로그인</a></li>
+						<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/join/joinReg.open">회원가입</a></li>
+						<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/newApt/newAptReg.open">신규단지등록</a></li>
+					
+					
+					<li><a href="javascript:void(0);" onclick="goOpenSapt()">S-apt문서공개</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="txCenter padTop20px">
+			<a href="javascript:void(0);" class="closeSitemap"><span class="btn btnS">전체메뉴 닫기</span></a>
+		</div>
+	</div><!-- sitemapWrap end -->
+</div><!-- sitemapDiv end -->
+<!-- 포털 전체메뉴보기  끝 -->
+
+<!-- 단지홈 전체메뉴보기 시작 -->
+<div id="sitemapAptDivBg">&nbsp;</div>
+<div id="sitemapAptDiv" class="row">
+	<div id="sitemapAptWrap" class="row">
+
+		<!-- 단지홈 전체메뉴보기 -->
+		<div id="sitemapApt" class="row">
+			<a href="javascript:void(0);" class="right closeSitemapApt"  id="closeSitemapAptTop"><img src="/images/portal/btnClosePop.png" alt="전체보기 닫기" title="전체보기 닫기"></a>
+			<h1>잠실래미안아이파크  전체메뉴 </h1>
+			<div><span style="vertical-align:-webkit-baseline-middle;">*</span> <span style="font-size: 13px;">메뉴는 구성원(입주민, 관리사무소)만 열람 가능합니다.</span></div>	
+			<ul>
+				<li>
+					<div class="sitemapAptMenu ClassH2"><a href="javascript:;void(0);">정보공개</a></div>
+					<ul class="sitemapAptSubMenu row">
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open', '02')">입주자대표회의</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/electionCmt/electionCmtList.open', '03')">선거관리위원회</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/leaderFloorNoise/leaderFloorNoiseList.open', '16')">층간소음관리위원회</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/repairPlan/repairPlanList.open', '04')">장기수선 및 안전관리</a></li>
+						<li><a href="javascript:;void(0);"	onclick="menuOpen('/openApt/aMenu/adminiDispo/adminiDispo.open', '')">행정처분공개</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/auditReport/auditReportList.open', '05')">감사보고서</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/mngAgree/mngAgreeList.open', '09')">관리규약</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/fireFacilityInspection/fireFacilityInspectionList.open', '18')">소방시설점검</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMenu ClassH2"><a href="javascript:;void(0);">공사용역</a></div>
+					<ul class="sitemapAptSubMenu row">
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/bidNotice/bidNotice.open', 'bidStat:bidCon')">입찰공고</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/bidResult/bidResult.open', 'bidStat:bidCon')">입찰결과</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/privateContract/privateContract.open', 'bidStat')">수의계약</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMenu ClassH2"><a href="javascript:;void(0);">회계정보</a></div>
+					<ul class="sitemapAptSubMenu row">
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/mgrDetail/mgrDetail.open', '')">관리비내역</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/financeReport/financeReport.open', '')">재무상태표</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/mngReport/mngReport.open', '')">운영성과표</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/msclinc/msclinc.open', '')">잡수입내역</a></li>
+						<li><a class="costDetailArea" style="display:none" href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/costDetail/costDetail.open', '')">비용내역</a></li> 
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/repairCost/repairCost.open', '')">장기수선충당금</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMenu ClassH2"><a href="javascript:;void(0);">단지정보</a></div>
+					<ul class="sitemapAptSubMenu row">
+						<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/dMenu/dangiInfo/dangiInfo.open')">기본정보</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/dMenu/facilitiesInfo/facilitiesInfoList.open', '10')">시설정보</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/dMenu/dangiCmmnty/dangiCmmntyList.open', '11')">단지커뮤니티 <span>*</span></a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMenu ClassH2"><a href="javascript:;void(0);">알림마당</a></div>
+					<ul class="sitemapAptSubMenu row">
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/mngNotice/mngNoticeList.open', '01')">관리소알림 <span>*</span></a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/mgrBill/mgrBillList.open', '06')">관리비명세서</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/budgetReport/budgetReportList.open', '07')">예산서 <span>*</span></a></li>
+						
+						<li><a href="javascript:;void(0);" 	onclick="boardUrl('/openApt/eMenu/supportNews/supportNewsList.open', 'poSupportNews.aptSupportNewsSelect')">지원소식</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="boardUrl('/openApt/eMenu/jobInfo/jobInfoList.open', 'jobInfo.listSelect', 'jobInfoSearch:searchSysDate')">채용정보</a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/qna/qnaReg.open', '08')">질문과답변 <span>*</span></a></li>
+						<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/etc/mngEtcList.open', '17')">기타공개자료 </a></li>
+					</ul>
+				</li>
+			</ul>
+
+
+		</div>
+
+		<div class="txCenter padTop20px">
+			<a href="javascript:void(0);" class="closeSitemapApt"><span class="btn btnS">단지홈 전체메뉴 닫기</span></a>
+		</div>
+	</div><!-- sitemapAptWrap end -->
+</div><!-- sitemapAptDiv end -->
+<!-- 단지홈 전체메뉴보기 끝 -->
+
+<!-- 관리소장 전체메뉴보기 시작 -->
+<div id="sitemapAptMngDivBg">&nbsp;</div>
+<div id="sitemapAptMngDiv" class="row">
+	<div id="sitemapAptMngWrap" class="row">
+
+		<!-- 관리소장 전체메뉴보기 -->
+		<div id="sitemapAptMng" class="row">
+			<a href="javascript:void(0);" class="right closeSitemapAptMng" id="closeSitemapAptMngTop"><img src="/images/portal/btnClosePop.png" alt="전체보기 닫기" title="전체보기 닫기"></a>
+			 <div class="ClassH2">잠실래미안아이파크  관리소장메뉴</div>
+			<ul>
+				<li>
+					<div class="sitemapAptMngMenu"><a href="javascript:;void(0);">기본관리</a></div>
+					<ul class="sitemapAptMngSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docReceive/docRcv.open')">문서수신</a></li>
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docSend/docSend.open')">문서발송</a></li>
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/dataRequest/refReq.open')">자료요청</a></li>
+						<!-- <li><a href="javascript:;void(0);">교육이력관리</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/aMenu/supportMng/supportNews/supportNews.open', 'supportMng.supportMngSelect', 'suSch:suStat')">지원사업관리</a></li>
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/mgrUploadStts/mgrUploadStts.open', '')">관리비등록현황</a></li>
+						
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMngMenu"><a href="javascript:;void(0);">알림마당관리</a></div>
+					<ul class="sitemapAptMngSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/mngNotice/mngNoticeList.open', '01')">관리소알림</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/mgrBill/mgrBillList.open', '06')">관리비명세서</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/budgetReport/budgetReportList.open', '07')">예산서</a></li>
+						<!-- <li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/closingAccount/closingAcntList.open', '08')">결산서</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/bMenu/jobInfo/jobInfoList.open', 'jobInfo.listSelect', 'jobInfoSearch:searchSysDate')">채용정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/bMenu/qna/qnaAnswer.open', 'qnaAnswer.qnaAnswerList')">질문과답변</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMngMenu"><a href="javascript:;void(0);">정보공개관리</a></div>
+					<ul class="sitemapAptMngSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/cMenu/bidResult/bidResult.open', 'bidStat:bidCon')">입찰결과 계약서</a></li>
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/cMenu/privateContract/privateContract.open', 'bidStat:bidCo')">수의계약 계약서</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/aptLeaderMeeting/leaderMeetingList.open', '02')">입주자대표회의</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/electionCmt/electionCmtList.open', '03')">선거관리위원회</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/repairPlan/repairPlanList.open', '04')">장기수선 및 안전관리</a></li>
+						<!-- <li><a href="javascript:;void(0);" onclick="boardUrl('/manager/cMenu/adminiDispo/adminiDispoList.open', 'adminiDispo.listSelect')">행정처분공개</a></li> -->
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/auditReport/auditReportList.open', '05')">감사보고서</a></li>
+						<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/cMenu/mngAgree/mngAgreeList.open', 'openAptMngCommonBoard.mngAgreeBoardList')">관리규약</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/fireFacilityInspection/fireFacilityInspectionList.open', '18')">소방시설점검</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="sitemapAptMngMenu"><a href="javascript:;void(0);">단지정보관리</a></div>
+					<ul class="sitemapAptMngSubMenu row">
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/dangiInfoMng/dangiInfoMng.open','aptGb:sctStat:clnMngStat:gnrlMngtStat:elcCntr:hallType:heatingType:parcelType')">기본정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/dMenu/facilitiesInfo/facilitiesInfoList.open', '10')">시설정보</a></li>
+						<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/dMenu/dangiCmmnty/dangiCmmntyList.open', '11')">단지커뮤니티</a></li>
+						
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/managerInfo/mgrMemberMng.open', 'gu:bubjung:mberPos:typeYN:myAptCd:deptCd:rankCd:saptMemberAppFlag')">관리소직원관리</a></li>
+						
+						<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/saptAppr/saptAppr.open', 'systemCd')">S-apt사용신청</a></li>
+						
+						<!-- 2020.08.10 hj : 더이상 사용하지 않는 메뉴(이력, 현재관리소장수정, 신규관리소장등록) -->
+						<!-- <li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/managerInfo/managerInfo.open')">관리소장정보</a></li> -->
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="txCenter padTop20px">
+			<a href="javascript:void(0);" class="closeSitemapAptMng"><span class="btn btnS">관리소장홈 전체메뉴 닫기</span></a>
+		</div>
+	</div><!-- sitemapAptMngWrap end -->
+</div><!-- sitemapAptMngDiv end -->
+<!-- 관리소장 전체메뉴보기 끝 -->
+<div id="headerWrap" class="row">
+
+
+
+
+
+<script>
+var pageName = ["","","","","서울시 공동주택 통합정보마당"];
+var aaa="";
+//http://localhost:6080/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open&comcod=aptMap&aptCode=A12220002
+function searchAptInfoDetail(aptCd){
+	var $form = $('<form></form>');
+	$form.attr("action", "/commonPortal/programLink.do");
+	$form.attr("method", "post");
+	$form.attr("target", "_self");
+	$form.appendTo("body");
+	$form.append('<input type="hidden" name="jspNm" value="/portal/aMenu/aptInfo/aptInfo.open"/>');
+	$form.append('<input type="hidden" name="comcod" value="aptMap"/>');
+	$form.append('<input type="hidden" name="aptCode" value="'+aptCd+'"/>');
+	$form.submit();
+}
+function goHome(url){
+	
+}
+
+function mDownFileForm(enFileName, koFileName){
+	fileFormDownload(enFileName, koFileName);
+}
+
+function onSearchReg(){
+	
+	var searchWord = $('#mainGnbSchText').val();
+
+	if(searchWord == ""){
+		alert("검색어를 입력하세요");
+		$('#mainGnbSchText').focus();
+		 return false;
+	}
+	
+	var filter = ['div', 'br', 'span', 'img', 'script', 'SCRIPT'];
+	for(var i in filter){
+		if(searchWord.indexOf(filter[i]) >= 0){
+	    	alert(filter[i] + '이(가) 포함된 단어는 검색하실 수 없습니다.');
+	    	 return false;
+	    }
+	}
+    document.mainSearchForm.submit();
+}
+ 
+function goOpenSapt() {
+	
+		
+		
+			var $form = $('<form></form>');
+			$form.attr("action", "https://s-apt.seoul.go.kr/");
+			$form.attr("method", "post");
+			$form.attr("target", "_blank");
+			$form.appendTo("body");
+			$form.submit();
+		
+	
+}
+
+function loginUrlAlert(msg) {
+	alert(msg);
+	location.href = '/portal/loginUrl.do?myInfoYn=saptAppr';
+}
+</script>
+<!-- 
+<b-chatbot user_id="aptChatbot" name="권한관리자" hp_no="010-1111-2222" channel_key="578" iframe_yn="0" login_yn="1" img_url="https://cdn-icons-png.flaticon.com/512/5659/5659696.png" header_color="#0056b3"></b-chatbot>
+ -->
+<header id="header">
+	<!-- 로그인 GNB -->
+	<ul class="topGNB">
+	
+	
+		<li><a href="/portal/loginUrl.do?logType=T"><img src="/images/portal/ico_right_03.png" alt="">로그인</a></li>
+		<!-- <li><a href="/portal/loginUrl.do?logType=M"><img src="/images/portal/ico_right_03.png" alt="관리소장로그인">관리소장로그인</a></li>
+		<li><a href="/portal/loginUrl.do" ><img src="/images/portal/ico_right_01.png" alt="일반회원로그인">일반회원로그인</a></li> -->
+		<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/join/joinReg.open"><img src="/images/portal/ico_right_02.png" alt="">회원가입</a></li>
+		<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/newApt/newAptReg.open"><img src="/images/portal/ico_right_02.png" alt="">신규단지등록</a></li>
+	
+	
+	<li><a href="javascript:void(0);" onclick="goOpenSapt()" title="새창 열림" class="txStrong"><img src="/images/portal/ico_right_seoul.png" alt="">S-APT문서공개</a></li>
+	</ul>
+	<!-- 메인네비게이션 -->
+	<div id="mainGnb" class="row">
+		<!-- 상단로고 -->
+		<div id="mainGnbLogo"><a href="/"><img src="/images/portal/logo.png" alt="서울시 공동주택 통합정보마당 로고"></a></div>
+		<!-- 주메뉴 -->
+		<nav>
+			<div id="mainGnbNav">
+				<ul><!-- onClickLink(url, groupNo, sortNo) -->
+					<li>
+						<div class="mainGnbNavMenu ClassH2"><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open', '1', '1')">정보공개</a></div>
+						<ul class="mainGnbNavSub">
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open', '1', '1')">단지정보</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/mgrInfo/mgrSearch.open&comcod=gu', '1', '2');">관리비정보</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/bidInfo/bidNotice.open&comcod=gu:bidStat:bidCon', '1', '3');">입찰정보</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/privateContract/privateContract.open&comcod=gu:bidStat', '1', '4');">수의계약</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/aMenu/keyStatis/sttHeating.open', '1', '5');">주요통계</a></li>
+						</ul>
+					</li>
+					<li>
+						<div class="mainGnbNavMenu ClassH2"><a href="javascript:;void(0);" onclick="boardUrl('/portal/bMenu/mngAgree/agreeList.open', 'portalBoard.mngAgreeSelect', 'suSch:potRules:potRulesDetail', 'BBSMSTR_000000000004', 'category:1')">민원상담</a></div>
+						<ul class="mainGnbNavSub">
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/bMenu/mngAgree/mngAgree.open&comcod=suSch:potRules:potRulesDetail', '2', '1');">관리규약</a></li> -->
+							<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/mngAgree/agreeList.open', 'portalBoard.mngAgreeSelect', 'suSch:potRules:potRulesDetail', 'BBSMSTR_000000000004', 'category:1')">관리규약</a></li>
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/bMenu/complainCase/complainCase.open', '2', '2');">민원사례</a></li> -->
+							<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/complainCase/claimList.open', 'portalBoard.portalBoardSelect', 'suSch', 'BBSMSTR_000000000007')">민원사례</a></li>
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/bMenu/referenceRoom/reference.open&comcod=reCate', '2', '3');">자료실</a></li> -->
+							<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/referenceRoom/dataList.open', 'portalBoard.portalBoardSelect', 'reCate', 'BBSMSTR_000000000002')">자료실</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/bMenu/counsel/counsel.open', '2', '4');">공동주택상담</a></li>
+						</ul>
+					</li>
+					<li>
+						<div class="mainGnbNavMenu ClassH2"><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/clearAptInfo/makingClearApt.open', '3', '1');">맑은아파트</a></div>
+						<ul class="mainGnbNavSub">
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/clearAptInfo/makingClearApt.open', '3', '1');">맑은아파트 소개</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/resiSchool/resiOnlineEdu.open', '3', '2');">주민학교</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/floorNoise/floorNoise.open', '3', '3');">층간소음</a></li>
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/mgrDown/mgrDown.open', '3', '4');">관리비내리기</a></li> -->
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/cMenu/bestExam/bestExam.open&comcod=beCate', '3', '5');">우수사례</a></li> -->
+							<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/cMenu/bestExam/bestList.open', 'portalBoard.portalBoardSelect', '', 'BBSMSTR_000000000003')">우수사례</a></li>
+							
+							<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/dMenu/newQuality/qualityList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000032')">공동주택 품질관리</a></li>
+							
+						</ul>
+					</li>
+					<li>
+						<div class="mainGnbNavMenu ClassH2"><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/newNotice/noticeList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000001')">알림마당</a></div>
+						<ul class="mainGnbNavSub">
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/newNotice/newNotice.open&comcod=noCate', '4', '1');">공지사항</a></li> -->
+							<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/dMenu/newNotice/noticeList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000001')">공지사항</a></li>	
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/supportNews/supportNews.open&comcod=siGu:suSch:suStat', '4', '2');">지원소식</a></li> -->
+							<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/supportNews/supportList.open', 'poSupportNews.poSupportNewsSelect', 'siGu:suSch:suStat')">지원소식</a></li>
+							<li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/jobInfo/jobInfo.open&comcod=jobInfoSearch:gu:searchSysDate', '4', '3');">채용정보</a></li>
+							<!-- <li><a href="javascript:;void(0);" onclick="onClickLink('/commonPortal/programLink.do?jspNm=/portal/dMenu/faq/faq.open&comcod=suSch', '4', '4');">자주찾는질문</a></li> -->
+							<!-- t0317 -->
+							
+							<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/faq/faqListForm.open', 'poFaq.faqSelect', 'suSch', 'BBSMSTR_000000000005', 'sAuth2:')">자주찾는질문</a></li>
+							
+							
+							
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- 상단 통합검색 -->
+		<div id="gnbSitemapClose" class="btnIco btnTopGnb icoMenuClose" title="메뉴닫기"></div><!-- 모바일 메뉴닫기 -->
+		<div id="mainGnbSch">
+			<form id="mainSearchForm" name="mainSearchForm" method="post" action="/commonPortal/programLink.do">
+				<input type="hidden" name="jspNm" value="/portal/search/search.open">
+				<input type="hidden" name="comcod" value="searchTxt">				
+				<label for="mainGnbSchText" class="sr-only">통합검색</label><input type="text" id="mainGnbSchText" name="mainGnbSchText" title="통합검색" placeholder="검색어를 입력해 주세요" value="" style="float: left;">
+				
+				<button type="button" id="gnbSch" style="float: left;" name="gnbSch" onclick="onSearchReg();" class="btnIco btnTopGnb icoSch" title="검색버튼"><span class="sr-only">검색버튼</span></button>
+				<button type="button" id="gnbSitemap" style="float: left;" name="gnbSitemap" class="btnIco btnTopGnb icoMenu" title="전체메뉴"><span class="sr-only">전체메뉴2</span></button>
+			</form>
+		</div>
+	</div><!-- /mainGnb -->
+</header>
+<div id="mainGnbBg"></div><!-- 서브메뉴 배경 --></div>
+<div id="subMenuWrap" class="row">
+
+
+
+
+<script>
+
+	//아무곳에서도 안씀 지워도됨
+	function openAptUrl(paramUrl, paramCode, paramQuery){
+		$("#jspNm").val(paramUrl);
+		$("#returnUrl").val(paramUrl);
+		$("#codParams").val(paramCode);
+		if(null != paramQuery && "" != paramQuery && undefined != paramQuery && "undefined" != typeof paramQuery){
+			$("#query").val(paramQuery);
+		}else{
+			$("#query").val("poSupportNews.aptSupportNewsSelect");
+		}
+		document.getElementById("postForm").action = "/boardForm/selectBoardList.do";
+		document.getElementById("postForm").submit();
+	}
+
+	function commonBoardUrl(paramUrl, bbsCommCode){
+
+		if(bbsCommCode == '01' || bbsCommCode == '07' || bbsCommCode == '08' || bbsCommCode == '11'){
+			 
+				alert("해당 게시판은 로그인 후 단지 구성원만 열람 가능합니다.");
+				return;
+			 	
+		
+			 	
+		}
+		
+		// aptCode+BbsCommCode+query 필요
+		console.log("paramUrl :"+paramUrl);
+		console.log("bbsCommCode :"+bbsCommCode);
+
+		$("#returnUrl").val(paramUrl);
+		$("#bbsCommCode").val(bbsCommCode);
+		//$("#query").val("commonBoard.commonBoardList");
+		$("#query").val("openAptMngCommonBoard.openAptMngBoardList");
+
+		document.getElementById("postForm").action = "/boardForm/selectBoardList.do";
+		document.getElementById("postForm").submit();
+	}
+	
+	/* 
+	function boardUrl(paramUrl, paramQuery, paramCode){
+		// aptCode+query 필요
+		console.log("paramUrl :"+paramUrl);
+		console.log("paramQuery :"+paramQuery);
+		console.log("paramCode :"+paramCode);
+
+		$("#returnUrl").val(paramUrl);
+		$("#query").val(paramQuery);
+		if(null != paramCode && "" != paramCode && undefined != paramCode && "undefined" != typeof paramCode){
+			$("#codParams").val(paramCode);
+		}
+
+		document.getElementById("postForm").action = "/boardForm/selectBoardList.do";
+		document.getElementById("postForm").submit();
+	}
+	 */
+	// searchValue 추가 
+	function boardUrl(paramUrl, paramQuery, paramCode, paramBbs, searchValue){
+		// aptCode+query 필요
+		/**
+		if(paramUrl == '/openApt/eMenu/supportNews/supportNewsList.open' || paramUrl == '/openApt/eMenu/jobInfo/jobInfoList.open'){
+			 
+				alert("해당 게시판은 로그인 후 단지 구성원만 열람 가능합니다.");
+				return;
+			 	
+		
+			 	
+		}
+		**/		
+		
+		console.log("paramUrl :"+paramUrl);
+		console.log("paramQuery :"+paramQuery);
+		console.log("paramCode :"+paramCode);
+
+		$("#returnUrl").val(paramUrl);
+		$("#query").val(paramQuery);
+		$("#bbsId").val(paramBbs);
+		$("#searchValue").val(searchValue);
+		if(null != paramCode && "" != paramCode && undefined != paramCode && "undefined" != typeof paramCode){
+			$("#codParams").val(paramCode);
+		}
+
+		document.getElementById("postForm").action = "/boardForm/selectBoardList.do";
+		document.getElementById("postForm").submit();
+	}
+
+	function menuOpen(mUrl, mComcod){
+		
+// 		if((mUrl == "/manager/dMenu/managerInfo/mgrMemberMng.open" || 
+// 			mUrl == "/manager/dMenu/managerInfo/aptMemberMng.open" || 
+// 			mUrl == "/manager/dMenu/managerInfo/aptMemberBoardMng.open") &&  
+// 			(location.host == "localhost:9090" || location.host == "118.67.150.176:7070")
+		
+// 		){
+			
+// 			if(location.host == "localhost:9090"){
+// 				window.open("http://localhost:8080/legacy/sapt/mngMemberList");	
+// 			}
+// 			else if(location.host == "118.67.150.176:7070"){
+// 				window.open("http://118.67.150.176:9090/legacy/sapt/mngMemberList");
+// 			}
+			
+// 		}
+// 		else{
+			document.getElementById("jspNm").value = mUrl
+			document.getElementById("comcod").value = nullString(mComcod);
+			document.getElementById("postForm").action = "/commonPortal/programLink.do";
+			document.getElementById("postForm").submit();			
+// 		}
+	}
+
+	function indexOpen(aptCode, mode){
+		var param = "";
+
+		if(mode == "A"){
+			param = "/openApt/index.do?aptCode="+ aptCode;
+		}else if(mode == "M"){
+			param = "/manager/index.do";
+		}
+		document.getElementById("indexForm").action = param;
+		document.getElementById("indexForm").submit();
+	}
+
+	// 관심아파트 버튼 클릭
+	function setFavBtn(aptCd){
+		var btnAddStar = document.getElementById("myAptFavStarBtn").classList.contains("btnAddStar");
+		var btnDelStar = document.getElementById("myAptFavStarBtn").classList.contains("btnDelStar");
+		if(btnAddStar){
+			addFav(aptCd);
+		}else{//btnDelStar
+			delFav(aptCd);
+		}
+	}
+
+	// 관심아파트 등록
+	function addFav(aptCd){
+		document.getElementById("favForm").aptCd.value = aptCd;
+		document.getElementById("favForm").mode.value = "A";
+		document.getElementById("favForm").query.value = "myAptList.insert";
+		onFav('add');
+	}
+
+	// 관심아파트 삭제
+	function delFav(aptCd){
+		document.getElementById("favForm").aptCd.value = aptCd;
+		document.getElementById("favForm").mode.value = "D";
+		document.getElementById("favForm").query.value = "myAptList.delete";
+		onFav('del');
+	}
+
+	function onFav(flag, chgStar, chgTxt){
+		var favForm = $('#favForm').serializeArray();
+		console.log("favForm : " + favForm);
+		$.ajax({
+			type: 'POST',
+			dataType : 'json',
+			url : "/portal/saveFormAjax.do",
+			async:false,
+			data: favForm,
+		    success: function(data){
+		    	console.log("data : "+JSON.stringify(data));
+		    	var result = data.result;
+		    	var msg = data.msg;
+		    	if (result=='SUCCESS'){
+		    		if(flag=="add"){
+		    			document.getElementById("myAptFavStarBtn").classList.remove("btnAddStar");
+		    			document.getElementById("myAptFavStarBtn").classList.add("btnDelStar");
+		    			document.getElementById("myAptFavStarBtn").innerHTML = "내관심아파트 ";
+		    			document.getElementById("myAptFavStarA").parentElement.style.display = "none";
+		    			document.getElementById("myAptFavStarD").parentElement.style.display = "";
+		    		}else{//del
+		    			document.getElementById("myAptFavStarBtn").classList.remove("btnDelStar");
+		    			document.getElementById("myAptFavStarBtn").classList.add("btnAddStar");
+		    			document.getElementById("myAptFavStarBtn").innerHTML = "내관심아파트 추가 ";
+		    			document.getElementById("myAptFavStarA").parentElement.style.display = "";
+		    			document.getElementById("myAptFavStarD").parentElement.style.display = "none";
+		    		}
+		    	}
+		    },
+		    error:function (err){
+		    	var errCode = err;
+		    }
+	    });
+	}
+	
+	
+	function doResize(){
+	    var leftQrCodeArea = $("#downLoadQRBtn").offset().left + 110;
+    	
+		$("#qrCodeArea").css("left", leftQrCodeArea);
+		$("#qrCodeArea").css("display", "block");
+	}
+	
+	$(window).resize(function() {
+		doResize();
+	});	
+	
+
+	$(window).ready(function() {
+		makeQRCode ();
+	});		
+	
+	
+	function makeQRCode (){
+
+		$("#qrCodeArea").empty();
+		
+		var qrcode = new QRCode(document.getElementById("qrCodeArea"), {
+			width : 100,
+			height : 100
+		});
+	
+		qrcode.makeCode("https://openapt.seoul.go.kr/openApt/index.do?aptCode=A10020294");
+		
+		setTimeout(function(){
+			doResize();
+		}, 1000);
+		
+		setTimeout(function(){
+			doResize();
+		}, 3000);		
+		
+	}
+	
+	function downloadQRCode (){
+	    // <img> 태그에서 이미지 가져오기
+	    const img = $("#qrCodeArea img")[0];
+
+	    // 캔버스 생성
+	    const canvas = document.createElement("canvas");
+	    const ctx = canvas.getContext("2d");
+
+	    // 이미지 크기 설정 (이미지 크기를 캔버스 크기로 설정)
+	    canvas.width = img.naturalWidth;
+	    canvas.height = img.naturalHeight;
+
+	    // 이미지를 캔버스에 그리기
+	    ctx.drawImage(img, 0, 0);
+
+	    // 캔버스를 JPG로 변환
+	    const jpgUrl = canvas.toDataURL("image/jpeg");
+
+	    // 다운로드 링크 생성
+	    const link = document.createElement("a");
+	    link.href = jpgUrl;
+	    link.download = "image.jpg"; // 다운로드할 파일 이름 설정
+	    link.click();
+	}
+	
+	
+</script>
+<form id="indexForm" method="post">
+	<input type="hidden" id="aptCodeIndex" 		name="aptCodeIndex" 	value="A10020294">
+</form>
+
+<form id="postForm" method="post">
+	<input type="hidden" id="aptCode" 		name="aptCode" 		value="A10020294">
+	<input type="hidden" id="returnUrl" 	name="returnUrl" 	value="">
+	<input type="hidden" id="query" 		name="query" 		value="">
+	<input type="hidden" id="bbsCommCode" 	name="bbsCommCode" 	value="">
+	<input type="hidden" id="codParams" 	name="codParams" 	value="">
+	<input type="hidden" id="jspNm" 		name="jspNm" 		value="">
+	<input type="hidden" id="comcod" 		name="comcod" 		value="">
+	<input type="hidden" id="bbsId" 		name="bbsId" 		value="">
+	<input type="hidden" id="searchValue" 	name="searchValue" 	value="">
+</form>
+<form id="favForm" method="post" action="#">
+	<input type="hidden" id="mode2" name="mode" value="">
+	<input type="hidden" id="query2" name="query" value="">
+	<input type="hidden" id="aptCd2" name="aptCd" value="">
+</form>
+<div id="subHeader_01" style="display: none;">
+	<!--  서브타이틀  -->
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle01">
+			<h1><span>정보공개</span></h1>
+		</div>
+	</div>
+	<!--  서브메뉴  -->
+	<div class="subNavWrap fullWidth row">
+		<nav>
+			<ul>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/aMenu/aptInfo/aptInfo.open">
+					<span id="aSubMenu_01" class="btn btnAni btnAniLine">단지정보</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/aMenu/mgrInfo/mgrSearch.open&comcod=gu">
+					<span id="aSubMenu_02" class="btn btnAni btnAniLine">관리비정보</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/aMenu/bidInfo/bidNotice.open&comcod=gu:bidStat:bidCon">
+					<span id="aSubMenu_03" class="btn btnAni btnAniLine">입찰정보</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/aMenu/privateContract/privateContract.open&comcod=gu:bidStat">
+					<span id="aSubMenu_04" class="btn btnAni btnAniLine">수의계약</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/aMenu/keyStatis/sttHeating.open">
+					<span id="aSubMenu_05" class="btn btnAni btnAniLine">주요통계</span>
+				</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id="subHeader_02" style="display: none;">
+	<!--  서브타이틀  -->
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle02">
+			<h1><span>민원상담</span></h1>
+		</div>
+	</div>
+	<!--  서브메뉴  -->
+	<div class="subNavWrap fullWidth row">
+		<nav>
+			<ul>
+				<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/mngAgree/agreeList.open', 'portalBoard.mngAgreeSelect', 'suSch:potRules:potRulesDetail', 'BBSMSTR_000000000004', 'category:1')">
+					<span id="bSubMenu_01" class="btn btnAni btnAniLine">관리규약</span>
+				</a></li>
+				<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/complainCase/claimList.open', 'portalBoard.portalBoardSelect', 'suSch', 'BBSMSTR_000000000007')">
+					<span id="bSubMenu_02" class="btn btnAni btnAniLine">민원사례</span>
+				</a></li>
+				<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/bMenu/referenceRoom/dataList.open', 'portalBoard.portalBoardSelect', 'reCate', 'BBSMSTR_000000000002')">
+					<span id="bSubMenu_03" class="btn btnAni btnAniLine">자료실</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/bMenu/counsel/counsel.open">
+					<span id="bSubMenu_04" class="btn btnAni btnAniLine">공동주택상담</span>
+				</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id="subHeader_03" style="display: none;">
+	<!--  서브타이틀  -->
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle03">
+			<h1><span>맑은아파트</span></h1>
+		</div>
+	</div>
+	<!--  서브메뉴  -->
+	<div class="subNavWrap fullWidth row">
+		<nav>
+			<ul>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/cMenu/clearAptInfo/makingClearApt.open">
+					<span id="cSubMenu_01" class="btn btnAni btnAniLine">맑은아파트 소개</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/cMenu/resiSchool/resiOnlineEdu.open">
+					<span id="cSubMenu_02" class="btn btnAni btnAniLine">주민학교</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/cMenu/floorNoise/floorNoise.open">
+					<span id="cSubMenu_03" class="btn btnAni btnAniLine">층간소음</span>
+				</a></li>
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/cMenu/mgrDown/mgrDown.open">
+					<span id="cSubMenu_04" class="btn btnAni btnAniLine">관리비내리기</span>
+				</a></li> -->
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/cMenu/bestExam/bestExam.open&comcod=beCate"> -->
+				<!--	<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/cMenu/bestExam/bestList.open', 'portalBoard.portalBoardSelect', '', 'BBSMSTR_000000000003')">
+					<span id="cSubMenu_05" class="btn btnAni btnAniLine">우수사례</span>
+				</a></li> --> 
+				<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/cMenu/newQuality/qualityList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000032')">
+					<span id="cSubMenu_06" class="btn btnAni btnAniLine">공동주택품질점검</span>
+				</a></li>								
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id="subHeader_04" style="display: none;">
+	<!--  서브타이틀  -->
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle04">
+			<h1><span>알림마당</span></h1>
+		</div>
+	</div>
+	<!--  서브메뉴  -->
+	<div class="subNavWrap fullWidth row">
+		<nav>
+			<ul>
+				<!-- 
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/dMenu/newNotice/newNotice.open&comcod=noCate">
+					<span id="dSubMenu_01" class="btn btnAni btnAniLine">공지사항</span>
+				</a></li>
+				 -->				
+				<li><a href="javascript:;void(0);"	onclick="boardUrl('/portal/dMenu/newNotice/noticeList.open', 'portalBoard.portalBoardSelect', 'noCate', 'BBSMSTR_000000000001')">
+					<span id="dSubMenu_01" class="btn btnAni btnAniLine">공지사항</span>
+				</a></li>				
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/dMenu/supportNews/supportNews.open&comcod=siGu:suSch"> -->
+				<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/supportNews/supportList.open', 'poSupportNews.poSupportNewsSelect', 'siGu:suSch:suStat')">
+					<span id="dSubMenu_02" class="btn btnAni btnAniLine">지원소식</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/dMenu/jobInfo/jobInfo.open&comcod=jobInfoSearch:gu:searchSysDate">
+					<span id="dSubMenu_03" class="btn btnAni btnAniLine">채용정보</span>
+				</a></li>
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/dMenu/faq/faq.open&comcod=suSch"> -->
+				<!-- t0317 -->
+				
+				<li><a href="javascript:;void(0);" onclick="boardUrl('/portal/dMenu/faq/faqListForm.open', 'poFaq.faqSelect', 'suSch', 'BBSMSTR_000000000005', 'sAuth2:')">
+					<span id="dSubMenu_04" class="btn btnAni btnAniLine">자주찾는질문</span>
+				</a></li>
+
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id="subHeader_05" style="display: none;">
+	<!-- 통합정보마당 서브 타이틀 -->
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle04">
+			<h1><span>통합정보마당</span></h1>
+		</div>
+	</div>
+	<!--  서브메뉴  -->
+	<div class="subNavWrap fullWidth row">
+		<nav>
+			<ul>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/combinInfo.open">
+					<span id="eSubMenu_01" class="btn btnAni btnAniLine">통합정보마당소개</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/privacyAgreement.open">
+					<span id="eSubMenu_02" class="btn btnAni btnAniLine">개인정보처리방침</span>
+				</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/mgrItem/mgrItem.open">
+					<span id="eSubMenu_03" class="btn btnAni btnAniLine">관리비항목안내</span>
+				</a></li>
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/direction.open">
+					<span id="eSubMenu_04" class="btn btnAni btnAniLine">이용안내</span>
+				</a></li> -->
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div id="subHeader_06" style="display: none;">
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle05">
+			<h1><span id="titleName">&nbsp;</span>&nbsp;</h1>
+		</div>
+	</div>
+<!-- 	<div class="subNavWrap fullWidth row"> -->
+<!-- 		<nav> -->
+<!-- 			<ul> -->
+<!-- 				<li><a href="/portal/loginUrl.do"> -->
+<!-- 					<span id="fSubMenu_01" class="btn btnAni btnAniLine">로그인</span> -->
+<!-- 				</a></li> -->
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/join/joinReg.open"> -->
+<!-- 					<span id="fSubMenu_02" class="btn btnAni btnAniLine">회원가입</span> -->
+<!-- 				</a></li> -->
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/findIdPwd/findId.open"> -->
+<!-- 					<span id="fSubMenu_03" class="btn btnAni btnAniLine">아이디/비밀번호찾기</span> -->
+<!-- 				</a></li> -->
+
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/newApt/newAptReg.open"> -->
+<!-- 					<span id="fSubMenu_04" class="btn btnAni btnAniLine">신규단지등록</span> -->
+<!-- 				</a></li> -->
+<!-- 			</ul> -->
+<!-- 		</nav> -->
+<!-- 	</div> -->
+</div>
+</div>
+<div id="subHeader_08" style="display: none;">
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle05">
+			<h1 style="display:flex; align-items:center; justify-content:center;">
+				<span>마이페이지</span>
+				<span class="moveToEdit"><a style="cursor:pointer;font-size:14px; text-align:right; background-color:#B2A4FF; border-radius:30px; padding:5px 10px; margin-left:10px; color:#fff; " href="#" onclick="dispPopPasswordConfirm();" >개인정보수정</a></span>
+			</h1>
+
+		</div>
+	</div>
+	<!--  서브메뉴 여기 -->
+<!-- 	<div class="subNavWrap fullWidth row"> -->
+<!-- 		<nav> -->
+<!-- 			<ul> -->
+
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/myPage/myResiApt/myResiApt.open"> -->
+<!-- 					<span id="hSubMenu_02" class="btn btnAni btnAniLine">내입주아파트</span> -->
+<!-- 				</a></li> -->
+
+
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/myPage/myResiApt/myResiApt.open"> -->
+<!-- 					<span id="hSubMenu_02" class="btn btnAni btnAniLine">내관리아파트</span> -->
+<!-- 				</a></li> -->
+
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/myPage/myApt/myApt.open&comcod=gu"> -->
+<!-- 					<span id="hSubMenu_01" class="btn btnAni btnAniLine">내관심아파트</span> -->
+<!-- 				</a></li> -->
+
+<!-- 				<li><a href="/commonPortal/programLink.do?jspNm=/portal/myPage/myInfo/myInfoUpdtForm.open&comcod=psHint:rankCd:deptCd"> -->
+<!-- 					<span id="hSubMenu_03" class="btn btnAni btnAniLine">개인정보수정</span> -->
+<!-- 				</a></li> -->
+
+<!-- 			</ul> -->
+<!-- 		</nav> -->
+<!-- 	</div> -->
+</div>
+<div id="subHeader_09" style="display: none;">
+	<div class="subTitleWrap fullWidth row">
+		<div class="subTitle06">
+			<h1><span>통합검색</span></h1>
+		</div>
+	</div>
+</div>
+
+<!-- 단지홈 서브메뉴 -->
+<div id="subHeader_apt" style="display: none;">
+	<div class="subTitleAptWrap fullWidth row">
+	<div id="qrCodeArea" style="display: none;position: absolute;padding-top: 5px;">
+	
+	</div>		
+		<div class="subTitleApt">
+			<h1><span class="sr-only">단지명</span>
+				<span>
+					
+						<a href="javascript:;void(0);"  onclick="indexOpen('A10020294', 'A')" style="color:#5f5f5f;" title="단지 홈으로 이동">
+								잠실래미안아이파크
+						</a>&nbsp;
+					
+			    </span>
+			</h1>
+			<div class="txSubH1">
+				<span>서울 송파구 올림픽로(393) 
+				       | 23 동 
+				       | 2678 세대 
+				</span>
+				<!-- 내관심아파트 start -->
+
+
+				<button type="button" id="myAptFavStarBtn" class="btn btnAddStar" title="내관심아파트 추가" onclick="location.href='/portal/loginUrl.do'" style="cursor:pointer">내관심아파트 추가 </button>
+
+				<button type="button" id="downLoadQRBtn" class="btn btnSS" title="QR코드 다운로드" onclick="javascript:downloadQRCode();" style="cursor:pointer">QR코드 다운로드</button>
+				<!-- 내관심아파트 end -->
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- 단지홈 서브메뉴  -->
+	<!-- 단지홈 header -->
+	<div id="headerAptWrap" class="row">
+		<div id="headerApt">
+			<!-- 단지홈 메뉴 -->
+			<div id="subAptGnb" class="row">
+				<!-- 단지홈 제목 -->
+				<div id="subAptGnbTx">
+					<dl>
+						<dt>
+							
+								<a href="javascript:;void(0);" onclick="indexOpen('A10020294', 'A')" title="단지 홈으로 이동">
+									잠실래미안아이파크
+								</a>
+							
+						</dt>
+						<dd>서울 송파구 올림픽로(393) 
+						</dd>
+					</dl>
+				</div>
+				<!-- 메뉴 -->
+				<nav>
+					<div id="subAptGnbNav">
+						<ul>
+							<li>
+								<div id="subAptMenuNav_01" class="subAptMenuNav ClassH2">
+									<a href="javascript:;void(0);" 		onclick="commonBoardUrl('/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open', '02')">정보공개</a>
+								</div>
+								<ul class="subAptMenuSub">
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open', '02')">입주자대표회의</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/electionCmt/electionCmtList.open', '03')">선거관리위원회</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/leaderFloorNoise/leaderFloorNoiseList.open', '16')">층간소음관리위원회</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/repairPlan/repairPlanList.open', '04')">장기수선 및 안전관리</a></li>
+									<li><a href="javascript:;void(0);"	onclick="menuOpen('/openApt/aMenu/adminiDispo/adminiDispo.open', '')">행정처분공개</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/auditReport/auditReportList.open', '05')">감사보고서</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/mngAgree/mngAgreeList.open', '09')">관리규약</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/aMenu/fireFacilityInspection/fireFacilityInspectionList.open', '18')">소방시설점검</a></li>
+								</ul>
+							</li>
+							<li>
+								<div id="subAptMenuNav_02" class="subAptMenuNav ClassH2">
+									<a href="javascript:;void(0);" 		onclick="menuOpen('/openApt/bMenu/bidNotice/bidNotice.open', 'bidStat:bidCon')">공사용역</a>
+								</div>
+								<ul class="subAptMenuSub">
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/bidNotice/bidNotice.open', 'bidStat:bidCon')">입찰공고</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/bidResult/bidResult.open', 'bidStat:bidCon')">입찰결과</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/bMenu/privateContract/privateContract.open', 'bidStat')">수의계약</a></li>
+								</ul>
+							</li>
+							<li>
+								<div id="subAptMenuNav_03" class="subAptMenuNav ClassH2">
+									<a href="javascript:;void(0);" 		onclick="menuOpen('/openApt/cMenu/mgrDetail/mgrDetail.open', '')">회계정보</a>
+								</div>
+								<ul class="subAptMenuSub">
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/mgrDetail/mgrDetail.open', '')">관리비내역</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/financeReport/financeReport.open', '')">재무상태표</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/mngReport/mngReport.open', '')">운영성과표</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/msclinc/msclinc.open', '')">잡수입내역</a></li>
+									<li><a class="costDetailArea" style="display:none" href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/costDetail/costDetail.open', '')">비용내역</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="menuOpen('/openApt/cMenu/repairCost/repairCost.open', '')">장기수선충당금</a></li>
+								</ul>
+							</li>
+							<li>
+								<div id="subAptMenuNav_04" class="subAptMenuNav ClassH2">
+									<a href="javascript:;void(0);"		onclick="menuOpen('/openApt/dMenu/dangiInfo/dangiInfo.open')">단지정보</a>
+								</div>
+								<ul class="subAptMenuSub_04">
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/openApt/dMenu/dangiInfo/dangiInfo.open')">기본정보</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/openApt/dMenu/facilitiesInfo/facilitiesInfoList.open', '10')">시설정보</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/openApt/dMenu/dangiCmmnty/dangiCmmntyList.open', '11')">단지커뮤니티 <span>*</span></a></li>
+								</ul>
+							</li>
+							<li>
+							
+							
+								<div id="subAptMenuNav_05" class="subAptMenuNav ClassH2">
+									<a href="javascript:;void(0);" 		onclick="commonBoardUrl('/openApt/eMenu/mngNotice/mngNoticeList.open', '01')">알림마당</a>
+								</div>
+								<ul class="subAptMenuSub">
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/mngNotice/mngNoticeList.open', '01')">관리소알림 <span>*</span></a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/mgrBill/mgrBillList.open', '06')">관리비명세서</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/budgetReport/budgetReportList.open', '07')">예산서 <span>*</span></a></li>
+									<!-- <li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/closingAccount/closingAccountList.open', '08')">결산서</a></li> -->
+									<li><a href="javascript:;void(0);" 	onclick="boardUrl('/openApt/eMenu/supportNews/supportNewsList.open', 'poSupportNews.aptSupportNewsSelect')">지원소식</a></li>
+									<li><a href="javascript:;void(0);" 	onclick="boardUrl('/openApt/eMenu/jobInfo/jobInfoList.open', 'jobInfo.listSelect', 'jobInfoSearch:searchSysDate')">채용정보</a></li>
+									<!-- <li><a href="javascript:;void(0);" onclick="boardUrl('/openApt/eMenu/qna/qna.open', 'qnaAnswer.qnaAnswerList')">질문과답변</a></li> -->
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/openApt/eMenu/qna/qnaReg.open', '08')">질문과답변 <span>*</span></a></li>
+									<li><a href="javascript:;void(0);" 	onclick="commonBoardUrl('/openApt/eMenu/etc/mngEtcList.open', '17')">기타공개자료 </a></li>
+									<li style="pointer-events: none;">
+										<span>*</span> <span>메뉴는 구성원(입주민, 관리사무소)만 열람 가능합니다.</span>
+									</li>										
+								</ul>
+							</li>
+	
+						</ul>
+
+					</div>
+				</nav>
+					
+				<!-- 전체메뉴보기 -->
+				<div id="subAptSitemap">
+					<div id="aptMenuClose" class="btn btnTopGnb icoAptMenuClose" title="아파트메뉴닫기"></div>
+					<!-- 모바일 메뉴닫기 -->
+					<button type="button" id="aptSitemap" name="aptSitemap" class="btn icoMenuSub" title="전체메뉴" style="cursor:pointer"><span class="sr-only">전체메뉴</span></button>
+				</div>
+			</div>
+
+			<!-- /subAptGnb -->
+		</div>
+		<!-- /headerApt -->
+		<div id="subAptGnbBg"></div>
+	</div>
+</div>
+
+<!-- 관리소장 서브메뉴 -->
+<div id="subHeader_mng" style="display: none;">
+	<div class="subTitleAptWrap fullWidth row">
+		<div class="subTitleAptAd">
+			<h1>
+				<span class="sr-only">단지명</span>
+				<span>
+					
+						<a href="javascript:;void(0);" onclick="indexOpen('A10020294', 'M')" style="color:#5f5f5f;" title="단지 홈으로 이동">
+							잠실래미안아이파크
+						</a>
+					
+				</span>
+			</h1>
+			<div class="txSubH1">
+				<a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/mgrUploadStts/mgrUploadStts.open', '')">
+					관리비미등록<span class="txTopAlram"></span>
+				</a>
+				<a href="javascript:;void(0);" onclick="boardUrl('/manager/bMenu/qna/qnaAnswer.open', 'qnaAnswer.qnaAnswerList')">
+					질문과답변<span class="txTopAlram"></span>
+				</a>
+				<a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docReceive/docRcv.open')">
+					문서수신<span class="txTopAlram"></span>
+				</a>
+				<a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/dataRequest/refReq.open')">
+					자료요청<span class="txTopAlram"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="headerAptMngWrap" class="row">
+		<div id="headerAptMng">
+			<!-- 관리소장홈 메뉴 -->
+			<div id="subAptMngGnb" class="row">
+				<!-- 관리소장홈 제목 -->
+				<div id="subAptMngGnbTx">
+					<dl>
+						<dt>
+							
+								<a href="javascript:;void(0);" onclick="indexOpen('A10020294', 'M')" title="단지 홈으로 이동">
+									잠실래미안아이파크
+								</a>
+							
+						</dt>
+						<dd>관리소장</dd>
+					</dl>
+				</div>
+				<!-- 메뉴 -->
+				<nav>
+					<div id="subAptMngGnbNav">
+						<ul>
+							<li>
+								<div class="subAptMngMenuNav ClassH2">
+									<a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docReceive/docRcv.open')">기본관리</a>
+								</div>
+								<ul class="subAptMngMenuSub">
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docReceive/docRcv.open')">문서수신</a></li>
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/docSend/docSend.open')">문서발송</a></li>
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/dataRequest/refReq.open')">자료요청</a></li>
+									<!-- <li><a href="javascript:;void(0);">교육이력관리</a></li> -->
+									<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/aMenu/supportMng/supportNews/supportNews.open', 'supportMng.supportMngSelect', 'suSch:suStat')">지원사업관리</a></li>
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/aMenu/mgrUploadStts/mgrUploadStts.open', '')">관리비등록현황</a></li>
+         							
+									
+								</ul>
+							</li>
+							<li>
+								<div class="subAptMngMenuNav ClassH2" >
+									<a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/mngNotice/mngNoticeList.open', '01')">알림마당관리</a>
+								</div>
+								<ul class="subAptMngMenuSub">
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/mngNotice/mngNoticeList.open', '01')">관리소알림</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/mgrBill/mgrBillList.open', '06')">관리비명세서</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/budgetReport/budgetReportList.open', '07')">예산서</a></li>
+									<!-- <li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/closingAccount/closingAcntList.open', '08')">결산서</a></li> -->
+									<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/bMenu/jobInfo/jobInfoList.open', 'jobInfo.listSelect', 'jobInfoSearch:searchSysDate')">채용정보</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/qna/qnaAnswerReg.open', '08')">질문과답변</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/bMenu/etc/mngEtcList.open', '17')">기타공개자료</a></li>
+									<!-- <li><a href="javascript:;void(0);" onclick="boardUrl('/manager/bMenu/qna/qnaAnswer.open', 'qnaAnswer.qnaAnswerList')">질문과답변</a></li> -->
+								</ul>
+							</li>
+							<li style="padding-left:30px;">
+								<div class="subAptMngMenuNav ClassH2">
+									<a href="javascript:;void(0);" onclick="menuOpen('/manager/cMenu/bidResult/bidResult.open', 'bidStat:bidCon')">정보공개관리</a>
+								</div>
+								<ul class="subAptMngMenuSub">
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/cMenu/bidResult/bidResult.open', 'bidStat:bidCon')">입찰결과 계약서</a></li>
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/cMenu/privateContract/privateContract.open', 'bidStat:bidCo')">수의계약 계약서</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/aptLeaderMeeting/leaderMeetingList.open', '02')">입주자대표회의</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/electionCmt/electionCmtList.open', '03')">선거관리위원회</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/repairPlan/repairPlanList.open', '04')">장기수선 및 안전관리</a></li>
+									<!-- <li><a href="javascript:;void(0);" onclick="boardUrl('/manager/cMenu/adminiDispo/adminiDispoList.open', 'adminiDispo.listSelect')">행정처분공개</a></li> -->
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/auditReport/auditReportList.open', '05')">감사보고서</a></li>
+									<!-- <li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/mngAgree/mngAgreeList.open', '09')">관리규약</a></li> -->
+									<li><a href="javascript:;void(0);" onclick="boardUrl('/manager/cMenu/mngAgree/mngAgreeList.open', 'openAptMngCommonBoard.mngAgreeBoardList')">관리규약</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/cMenu/fireFacilityInspection/fireFacilityInspectionList.open', '18')">소방시설점검</a></li>
+								</ul>
+							</li>
+
+							<li style="padding-left:30px;">
+								<div class="subAptMngMenuNav ClassH2">
+									<a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/dangiInfoMng/dangiInfoMng.open','aptGb:sctStat:clnMngStat:gnrlMngtStat:elcCntr:hallType:heatingType:parcelType')">단지정보관리</a>
+								</div>
+								<ul class="subAptMngMenuSub">
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/dangiInfoMng/dangiInfoMng.open','aptGb:sctStat:clnMngStat:gnrlMngtStat:elcCntr:hallType:heatingType:parcelType')">기본정보</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/dMenu/facilitiesInfo/facilitiesInfoList.open', '10')">시설정보</a></li>
+									<li><a href="javascript:;void(0);" onclick="commonBoardUrl('/manager/dMenu/dangiCmmnty/dangiCmmntyList.open', '11')">단지커뮤니티</a></li>
+									
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/managerInfo/mgrMemberMng.open', 'gu:bubjung:mberPos:typeYN:myAptCd:deptCd:rankCd:saptMemberAppFlag')">관리소직원관리</a></li>
+									
+									<li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/saptAppr/saptAppr.open', 'systemCd')">S-apt사용신청</a></li>
+									
+									<!-- 2020.03.30 hj : 더이상 사용하지 않는 메뉴(이력, 현재관리소장수정, 신규관리소장등록) -->
+									<!-- <li><a href="javascript:;void(0);" onclick="menuOpen('/manager/dMenu/managerInfo/managerInfo.open')">관리소장정보</a></li> -->
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- 전체메뉴보기 -->
+				<div id="subAptMngSitemap">
+					<div id="aptMngMenuClose" class="btn btnTopGnb icoAptMenuClose" title="아파트메뉴닫기"></div><!-- 모바일 메뉴닫기 --><!--id="aptMenuClose"-->
+					<!-- 로그아웃 상태 라면  접근도 못하는 상태임 -->
+					<!-- 로그인중 -->
+					
+				</div>
+			</div>
+			<!-- /subAptGnb -->
+		</div>
+		<!-- /headerApt -->
+		<div id="subAptMngGnbBg"></div>
+	</div>
+	<!-- /headerAptWrap -->
+
+</div>
+<div id="container">
+
+
+
+
+
+<script>
+	var pageName 			=	["index","","","단지홈","서울특별시 공동주택 통합정보마당"];
+	var pageNo				=	1;
+	function init() {
+	
+// 		setTimeout(function(){
+// 			doResize();
+// 		}, 1000);		
+		
+// 		setTimeout(function(){
+// 			doResize();
+// 		}, 1000);
+
+// 		setTimeout(function(){
+// 			doResize();
+// 		}, 3000);
+		
+// 		setTimeout(function(){
+// 			doResize();
+// 		}, 5000);		
+		
+// 		makeQRCode ();	
+		
+		
+		$("#subHeader_apt").show();
+		// 여기에서 subMenu 의 아파트명, 주소 등의 기본 정보 세팅 div id 값으로 세팅
+		//initObject();
+		//setData();
+
+		$(".topBannerWrap").hide();
+		
+		// popup
+		if(getCookie("mainPopupBannerCookie") != "OFF"){
+			$("#mainPopupBanner").css("display", "block");
+		}
+	}
+	
+
+
+	function managerHome(){
+		var tempAptCode = "";
+		var pageLink = pageLink = "/manager/index.do";
+
+		
+	}
+	
+		function closePopup2(){
+		$("#mainPopupBanner").css("display", "none");
+	}	
+	function closePopup(){
+		setCookie("mainPopupBannerCookie", "OFF", 1);	
+		$("#mainPopupBanner").css("display", "none");
+	}
+	
+	function setCookie(cookieName, value, exdays){
+	    var exdate = new Date();
+	    exdate.setDate(exdate.getDate() + exdays);
+	    var cookieValue = escape(value) + ((exdays==null) ? "" : "; expires=" + exdate.toGMTString());
+	    document.cookie = cookieName + "=" + cookieValue;
+	}
+	 
+	function deleteCookie(cookieName){
+	    var expireDate = new Date();
+	    expireDate.setDate(expireDate.getDate() - 1);
+	    document.cookie = cookieName + "= " + "; expires=" + expireDate.toGMTString();
+	}
+	 
+	function getCookie(cookieName) {
+	    cookieName = cookieName + '=';
+	    var cookieData = document.cookie;
+	    var start = cookieData.indexOf(cookieName);
+	    var cookieValue = '';
+	    if(start != -1){
+	        start += cookieName.length;
+	        var end = cookieData.indexOf(';', start);
+	        if(end == -1)end = cookieData.length;
+	        cookieValue = cookieData.substring(start, end);
+	    }
+	    return unescape(cookieValue);
+	}
+
+	//입찰공고,입찰결과 팝업
+	function bidPopup(num){
+		var url = "http://www.k-apt.go.kr/bid/bidDetail.do?bidNum="+num;
+		cw=screen.availWidth;
+		ch=screen.availHeight;
+		sw=1000;
+		sh=650;
+		ml=(cw-sw)/2;
+		mt=(ch-sh)/2;
+		window.open(url, "bidInfoKapt", 'width='+sw+',height='+sh+',top='+mt+',left='+ml+',resizable=yes,scrollbars=yes');
+	}
+	//수의계약 팝업
+	function privateContractPopup(num){
+		var url = "http://www.k-apt.go.kr/bid/privateContractDetail.do?pcNum="+num;
+		cw=screen.availWidth;
+		ch=screen.availHeight;
+		sw=1000;
+		sh=650;
+		ml=(cw-sw)/2;
+		mt=(ch-sh)/2;
+		window.open(url, "bidInfoKapt", 'width='+sw+',height='+sh+',top='+mt+',left='+ml+',resizable=yes,scrollbars=yes');
+	}
+	//상세조회(입주자대표회의,관리비명세서,관리소알림) 시작
+	function formInput(f,n,v) {
+		var i = document.createElement("input");
+		i.type = "hidden";
+		i.name = n;
+		i.value = v;
+		f.insertBefore(i, null);
+		return f;
+	}
+	function goActDetail(flag, num) {
+		
+		if(flag == 'noticeMng'){
+			 
+				alert("해당 게시판은 로그인 후 단지 구성원만 열람 가능합니다.");
+				return;
+			 	
+		
+			 	
+		}		
+		
+		var form = document.createElement("form");
+		form.setAttribute("action", "/boardForm/boardDetail.do");
+		form.setAttribute("method", "post");
+		form.setAttribute("target", "_self");
+		form = formInput(form, 'aptCode', "A10020294");
+		if(flag=="aptLeaderMeeting"){
+			form = formInput(form, 'searchValue', "aptCode:A10020294|bbsCommCode:02|nttId:"+num);
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardDetail");
+			form = formInput(form, 'returnUrl', "/openApt/aMenu/aptLeaderMeeting/leaderMeetingDetail.open");
+		}
+		if(flag=="mgrBill"){
+			form = formInput(form, 'searchValue', "aptCode:A10020294|bbsCommCode:06|nttId:"+num);
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardDetail");
+			form = formInput(form, 'returnUrl', "/openApt/eMenu/mgrBill/mgrBillDetail.open");
+		}
+		if(flag=="noticeMng"){
+			form = formInput(form, 'searchValue', "aptCode:A10020294|bbsCommCode:01|commCode:P015|nttId:"+num);
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardDetail");
+			form = formInput(form, 'returnUrl', "/openApt/eMenu/mngNotice/mngNoticeDetail.open");
+		}
+		if(flag=="electionCmt"){//선거관리위원회
+			form = formInput(form, 'searchValue', "aptCode:A10020294|bbsCommCode:03|nttId:"+num);
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardDetail");
+			form = formInput(form, 'returnUrl', "/openApt/aMenu/electionCmt/electionCmtDetail.open");
+		}
+		document.body.appendChild(form);
+		form.submit();
+	}
+	//상세조회(입주자대표회의,관리비명세서,관리소알림) 끝
+
+	//리스트조회(입찰공고,입찰결과,수의계약,입주자대표회의,관리비명세서,관리소알림)
+	function goActList(flag) {
+		
+		if(flag == 'noticeMng'){
+			 
+				alert("해당 게시판은 로그인 후 단지 구성원만 열람 가능합니다.");
+				return;
+			 	
+		
+			 	
+		}		
+				
+		
+		var form = document.createElement("form");
+		form.setAttribute("action", "/boardForm/selectBoardList.do");
+		form.setAttribute("method", "post");
+		form.setAttribute("target", "_self");
+		if(flag=="bidNotice"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'query', "bidInfo.bidNoticeSelect");
+			form = formInput(form, 'returnUrl', "/openApt/bMenu/bidNotice/bidNotice.open");
+		}
+		if(flag=="bidResult"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'query', "bidInfo.bidResultSelect");
+			form = formInput(form, 'returnUrl', "/openApt/bMenu/bidResult/bidResult.open");
+		}
+		if(flag=="privateContract"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'query', "privateContract.privateContractSelect");
+			form = formInput(form, 'returnUrl', "/openApt/bMenu/privateContract/privateContract.open");
+		}
+		if(flag=="aptLeaderMeeting"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'bbsCommCode', "02");
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardList");
+			form = formInput(form, 'returnUrl', "/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open");
+		}
+		if(flag=="mgrBill"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'bbsCommCode', "06");
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardList");
+			form = formInput(form, 'returnUrl', "/openApt/eMenu/mgrBill/mgrBillList.open");
+		}
+		if(flag=="noticeMng"){
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'bbsCommCode', "01");
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardList");
+			form = formInput(form, 'returnUrl', "/openApt/eMenu/mngNotice/mngNoticeList.open");
+		}
+		if(flag=="electionCmt"){//선거관리위원회
+			form = formInput(form, 'aptCode', "A10020294");
+			form = formInput(form, 'bbsCommCode', "03");
+			form = formInput(form, 'query', "openAptMngCommonBoard.openAptMngBoardList");
+			form = formInput(form, 'returnUrl', "/openApt/aMenu/electionCmt/electionCmtList.open");
+		}
+		document.body.appendChild(form);
+		form.submit();
+	}
+	
+		function goOpenSapt() {
+			
+				
+				
+					var $form = $('<form></form>');
+					$form.attr("action", "https://s-apt.seoul.go.kr/");
+					$form.attr("method", "post");
+					$form.attr("target", "_blank");
+					$form.appendTo("body");
+					$form.submit();
+				
+			
+		}
+</script>
+<form id="linkForm" method="post" action="/manager/index.do">
+	<input type="hidden" id="aptCodeL" name="aptCode" value="">
+</form>
+
+<!-- 콘텐츠 id="contentWrap"-->
+<div class="contentsAptHome row">
+	<!--  /메인화면 3단 -->
+	<div id="mainWrap03" class="fullWidth bgGaryDefault mainAptHomeWrap row" style="">
+		<div id="mainBbsWrap" class="row-3 row">
+			<h2 class="sr-only">게시판 최근글보기</h2>
+			<div id="mainBbsCol" class="col-3 ">
+				<!-- 입찰공고 -->
+				<div class="bbsBox1">
+					<h3>입찰공고</h3>
+					<div class="bbsBox1List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20261008163816229'); return false;" title="새창 열림"><span class="exlink">2차)커뮤니티센터 신발장(개인사물함) 추가 설치업체 선정 입찰 재공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20261008164345847'); return false;" title="새창 열림"><span class="exlink">아파트 커뮤니티 RESTAURANT(식당) 위탁 운영업체 선정 입찰 공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20261001163233157'); return false;" title="새창 열림"><span class="exlink">커뮤니티센터 신발장(개인사물함) 추가 설치업체 선정 입찰 공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20260804165918124'); return false;" title="새창 열림"><span class="exlink">전자게시판 및 엘리베이터 미디어보드 설치·운영 사업자 선정 공고</span></a></p>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);" class="txOverflow">승강기 관리용역업체 선정 입찰 재공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">승강기부품 교체업체 선정 입찰공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">소방 작동기능점검및 종합정밀점검 업체 선정입찰</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">CCTV 교체 및 추가설치 업체선정 입찰공고</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('bidNotice'); return false;" title="입찰공고" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+				<!-- 입찰결과 -->
+				<div class="bbsBox1 tHide">
+					<h3>입찰결과</h3>
+					<div class="bbsBox1List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20261001163233157'); return false;" title="새창 열림"><span class="exlink">커뮤니티센터 신발장(개인사물함) 추가 설치업체 선정 입찰 공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20260804165348654'); return false;" title="새창 열림"><span class="exlink">전자게시판 및 엘리베이터 미디어보드 설치·운영 사업자 선정 공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20260804165918124'); return false;" title="새창 열림"><span class="exlink">전자게시판 및 엘리베이터 미디어보드 설치·운영 사업자 선정 공고</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="bidPopup('20260330145721129'); return false;" title="새창 열림"><span class="exlink">조경용역업체 선정 입찰 공고</span></a></p>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);">경비용역업체수정공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">승강기 의장공사 업체선정 입찰공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">횡주관 청소업체 선정 입찰공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">아파트 내, 외벽 제도장공사 업체 선정 입찰</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('bidResult'); return false;" title="입찰결과" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+				<!-- 수의계약 -->
+				<div class="bbsBox1">
+					<h3>수의계약</h3>
+					<div class="bbsBox1List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="privateContractPopup('20260928181740077'); return false;" title="새창 열림"><span class="exlink">KT 임대차 통신설비 설치·운영 계약서</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="privateContractPopup('20260916111921722'); return false;" title="새창 열림"><span class="exlink">(주)LG유플러스 통신설비 설치·운영 계약서</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="privateContractPopup('20260916105858689'); return false;" title="새창 열림"><span class="exlink">SK텔레콤 통신설비 설치·운영 계약서</span></a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" class="txOverflow" onclick="privateContractPopup('20260911182257489'); return false;" title="새창 열림"><span class="exlink">승강기 유지관리 계약서</span></a></p>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);">소방시설 종합정밀점검</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">통합단지 프로그램 유지보수 계약</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">방화벽장비 유지 보수 계약</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">경비용역계약서</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('privateContract'); return false;" title="수의계약" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+			</div><!-- /mainBbs 입찰공고/입찰결과/수의계약 -->
+
+			<div class="col-3 ">
+				<div class="bbsBox2 bbsBoxMeeting">
+					<h3>입주자대표회의</h3>
+					<div class="bbsBox2List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('aptLeaderMeeting',3058662); return false;"> 제7차 입주자대표회의 결과 공고(임시 2026.10.07)</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('aptLeaderMeeting',3056471); return false;">제1기 제7차 입주자대표회의 개최 공고</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('aptLeaderMeeting',3048980); return false;">제1기 제6차 정기 입주자대표 회의 결과 공고</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('aptLeaderMeeting',3043429); return false;">제1기 제6차 정기 입주자대표회의 개최 공고</a></p>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);">입주자대표회의 제14기 제8차(2월) 정기회의 결과공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">입주자대표회의 제14기 제7차(1월) 정기회의 결과공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">입주자대표회의 제14기 제6차(12월) 정기회의 결과공고</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">입주자대표회의 제14기 제5차(11월) 정기회의 결과공고</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('aptLeaderMeeting'); return false;" title="입주자대표회의" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+
+				<div class="bbsBox3 bbsBoxStatement">
+					<h3>관리비명세서</h3>
+					<div class="bbsBox3List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('mgrBill',3051188); return false;" >2026년 8월분 관리비 명세서</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('mgrBill',3032197); return false;" >2026년 7월분 관리비 명세서</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('mgrBill',3018396); return false;" >2026년 6월분 관리비 명세서</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('mgrBill',2995664); return false;" >2026년 5월분 관리비 부과명세서</a></p>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);">2019년 4월분 관리비부과내역서</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">2019년 3월분 관리비부과내역서</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">2019년 2월분 관리비부과내역서</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">2019년 1월분 관리비부과내역서</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('mgrBill'); return false;" title="관리비명세서" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+			</div><!-- /mainBbs 채용정보/지원소식 -->
+
+			<div class="col-3 margin0">
+				
+				
+				<div class="bbsBox2 bbsBoxMeeting">
+					<h3>선거관리위원회</h3>
+					<div class="bbsBox2List">
+					
+							
+								
+									<p>
+										<a href="javascript:;void(0);"
+											onclick="goActDetail('electionCmt',3058397); return false;">투표소 및 개표소 공고(6선거구 보궐선거)</a>
+									</p>
+								
+							
+								
+									<p>
+										<a href="javascript:;void(0);"
+											onclick="goActDetail('electionCmt',3057624); return false;">선거관리위원회 13차 회의 결과 공고</a>
+									</p>
+								
+							
+								
+									<p>
+										<a href="javascript:;void(0);"
+											onclick="goActDetail('electionCmt',3056466); return false;">제1기 제13차 선거관리위원회 회의 개최 공고</a>
+									</p>
+								
+							
+								
+									<p>
+										<a href="javascript:;void(0);"
+											onclick="goActDetail('electionCmt',3046739); return false;">제1기 동별 대표자 선출 보궐선거 공고(6선거구)</a>
+									</p>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+						
+						
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('electionCmt'); return false;" title="선거관리위원회" > <img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기">
+					</a>
+				</div>
+				
+
+				<div class="bbsBox3 bbsBoxMngNotice">
+					<h3>관리소알림</h3>
+					<div class="bbsBox3List">
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('noticeMng',3051206); return false;">8월분 잡수입 현황 안내</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('noticeMng',3051205); return false;">8월분 관리비 부과 안내</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('noticeMng',3038379); return false;">7월분 잡수입 현황 안내</a></p>
+					
+					
+					
+					<p><a href="javascript:;void(0);" onclick="goActDetail('noticeMng',3038377); return false;">7월분 입주자대표회의 운영비 사용 내역 안내</a></p>
+					
+					
+					
+					
+<!-- 					<p><a href="javascript:;void(0);">2019년 아파트관리 주민학교(집합교육) 상2019년 아파트관리 주민학교(집합교육) 상</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">서울특별시 공동주택 관리규약 준칙 보완 개정</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">2019년 이삿짐 운반 승강기 사용료 부과 현</a></p> -->
+<!-- 					<p><a href="javascript:;void(0);">2018년 아파트관리 시구합동 실태조사(감사)</a></p> -->
+					</div>
+					<a href="javascript:;void(0);" onclick="goActList('noticeMng'); return false;" title="관리소알림" ><img src="/images/portal/ico_more.png" class="mainBbsMore" alt="더보기"></a>
+				</div>
+			</div><!-- /mngApt 관리소장 업무 바로가기/공지사항 -->
+		</div><!-- /mainBbsWrap -->
+	</div><!-- /mainWrap03 fullWidth -->
+</div><!-- /contentWrap --></div>
+<div id="footerWrap" class="row">
+
+
+
+<!--  ///////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- footer -->
+	<footer id="footer">
+		<div id="footerWah" class="right hide1024">
+			<a href="http://kdaa.or.kr/CertificationSite/WA/2380/Detail?page=1" title="한국웹접근성평가센터 인증현황 바로가기_새창">
+				<img src="/images/portal/footer_mark_wah2026.png" alt="국가공인 정보통신접근성 품질인증마크" style="position:absolute; width: 110px; margin-left:-110px;">
+			</a>
+		</div>
+		<div id="footerLogo"><img src="/images/portal/footer_logo.png?1=1" alt="서울시 로고"></div>
+		<div id="footerCopy">
+			<ul class="hide767">
+				<li><a style="color:#8d8a8a;" href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/combinInfo.open">통합정보마당소개</a></li>
+				<li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/privacyAgreement.open">개인정보처리방침</a></li>
+				<li><a style="color:#8d8a8a;" href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/mgrItem/mgrItem.open">관리비항목안내</a></li>
+				<!-- <li><a href="/commonPortal/programLink.do?jspNm=/portal/eMenu/footer/direction.open">이용안내</a></li> -->
+				
+				<li><a style="color:#8d8a8a;" href="/portal/defUserAdmin.do">자치구담당자신청</a></li>
+				
+					
+						
+							<li><a style="color:#8d8a8a;" href="javascript:void(0);" onclick="loginUrlAlert('관리소장 로그인 후 이용 가능합니다.')">S-apt사용신청</a></li>
+						
+						
+					
+				
+			</ul>
+			<address>
+				<span class="hide375">서울 중구 서소문로 124 서울특별시청 서소문 제2청사 13층 공동주택과 (우편번호 : 04514)</span>
+				<span> ⓒ 서울특별시 공동주택 통합정보마당</span>
+				<span class="spanBr">[문의] 통합정보마당 운영 및 장애신고 전화 02-2133-0955, S-apt 상담 02-2133-7288</span>
+				<span>공동주택상담 02-2133-7127~9</span> <span>층간소음상담 02-2133-7298</span> 
+			</address>
+		</div>
+	</footer>
+<!--/ footer 123-->
+
+<script>
+	if("R" == "R"){
+		_se_p1=pageName[4]
+		_se_p2=pageName[3]
+		_se_p3=pageName[2]
+		_se_p4=pageName[1]
+		_se_p7=pageName[0]
+	}
+
+	//페이지 타이틀 세팅  index+단지정보+정보공개 +포털+서울특별시 공동주택 통합정보마당
+	//var pageNameLen = pageName.length;
+	if(pageName[3] == ""){
+		document.title =  pageName[0]+" | "+pageName[4];
+	}else if(pageName[2] == ""){
+		document.title =  pageName[0]+" > "+pageName[3]+" | "+pageName[4];
+	}else if(pageName[1] == ""){
+		document.title =  pageName[0]+" > "+pageName[2]+" > "+pageName[3]+" | "+pageName[4];
+	}else{
+		document.title =  pageName[0]+" > "+pageName[1]+" > "+pageName[2]+" > "+pageName[3]+" | "+pageName[4];
+		//document.title =  pageName;
+	}
+
+</script>
+<script src="//weblog.eseoul.go.kr/wlo/js/install2.js" ></script></div>
+
+
+</body>
+</html>
