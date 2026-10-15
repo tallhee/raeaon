@@ -1,0 +1,48 @@
+name: 입대의 회의결과 수집
+
+on:
+  schedule:
+    - cron: "37 22 * * *"   # 매일 07:37 KST
+    - cron: "37 10 * * *"   # 매일 19:37 KST (첫 수집 이어받기, 이후엔 금방 끝남)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: minutes
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 글자 인식 도구 설치
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-kor poppler-utils > /dev/null
+          pip -q install pyhwp || true
+
+      - name: 수집 실행
+        run: python scripts/openapt.py
+
+      - name: 변경분 커밋
+        if: always()
+        run: |
+          git config user.name "raeaon-bot"
+          git config user.email "raeaon-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: 입대의 회의결과 수집 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase origin main
+            git push
+          fi
