@@ -894,7 +894,9 @@
    "use_approval": "2025-11-25",
    "sigungu": "서초구",
    "dong": "방배동",
-   "info_v": 3
+   "info_v": 3,
+   "name": "래미안 원페를라",
+   "road": "서울 서초대로19길 77"
   },
   "A10022556": {
    "code": "A10022556",
@@ -902,7 +904,9 @@
    "households": 641,
    "sigungu": "서초구",
    "dong": "반포동",
-   "info_v": 3
+   "info_v": 3,
+   "name": "래미안 원펜타스",
+   "road": "서울 신반포로15길 1"
   },
   "A13824006": {
    "code": "A13824006",
@@ -976,6 +980,1789 @@
    "dong": "서초동",
    "info_checked": "2026-10-16",
    "info_v": 3
+  },
+  "A10027207": {
+   "code": "A10027207",
+   "name": "래미안힐스테이트 고덕",
+   "road": "서울 아리수로50길 50",
+   "households": 3658,
+   "use_approval": "2016-12-29",
+   "sigungu": "강동구",
+   "dong": "고덕동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023887": {
+   "code": "A10023887",
+   "name": "송파 시그니처 롯데캐슬아파트",
+   "road": "서울 거마로 56",
+   "use_approval": "2021-12-31",
+   "sigungu": "송파구",
+   "dong": "거여동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10022403": {
+   "code": "A10022403",
+   "name": "힐스테이트 e편한세상 문정아파트",
+   "road": "서울 송이로31길 20",
+   "use_approval": "2024-08-30",
+   "sigungu": "송파구",
+   "dong": "문정동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024254": {
+   "code": "A10024254",
+   "name": "디에이치반포라클라스",
+   "road": "서울 서초중앙로 206",
+   "households": 848,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "2021-06-04",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026051": {
+   "code": "A10026051",
+   "name": "반포래미안아이파크",
+   "road": "서울 서초중앙로 220",
+   "households": 829,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "2018-08-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13770105": {
+   "code": "A13770105",
+   "name": "반포미도2차",
+   "road": "서울 사평대로 240",
+   "households": 435,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "1989-05-13",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026015": {
+   "code": "A10026015",
+   "name": "반포써밋",
+   "road": "서울 고무래로 89",
+   "households": 764,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "2018-09-21",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13780403": {
+   "code": "A13780403",
+   "name": "반포한신서래",
+   "road": "서울 사평대로28길 31",
+   "households": 414,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "1987-12-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13776510": {
+   "code": "A13776510",
+   "name": "반포힐스테이트",
+   "road": "서울 신반포로16길 15-20",
+   "households": 397,
+   "sigungu": "서초구",
+   "dong": "반포동",
+   "use_approval": "2012-04-02",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785008": {
+   "code": "A13785008",
+   "name": "래미안방배아트힐",
+   "road": "서울 남부순환로 2311-12",
+   "households": 588,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2004-12-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13782803": {
+   "code": "A13782803",
+   "name": "롯데캐슬헤론",
+   "road": "서울 동광로1길 112",
+   "households": 337,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2006-06-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785203": {
+   "code": "A13785203",
+   "name": "방배1차현대",
+   "road": "서울 서초대로1길 30",
+   "households": 644,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1999-11-09",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785201": {
+   "code": "A13785201",
+   "name": "방배2차현대홈타운",
+   "road": "서울 서초대로1길 34",
+   "households": 384,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2001-08-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024171": {
+   "code": "A10024171",
+   "name": "방배그랑자이아파트",
+   "road": "서울 방배로 21",
+   "households": 758,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2021-07-23",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13706303": {
+   "code": "A13706303",
+   "name": "방배대우효령",
+   "road": "서울 효령로 84",
+   "households": 364,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1992-11-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13783802": {
+   "code": "A13783802",
+   "name": "방배디오빌",
+   "road": "서울 서초대로 17",
+   "households": 412,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2005-07-05",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785301": {
+   "code": "A13785301",
+   "name": "방배래미안",
+   "road": "서울 방배선행길 2",
+   "households": 303,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2003-10-01",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13706302": {
+   "code": "A13706302",
+   "name": "방배래미안타워",
+   "road": "서울 남부순환로 2183",
+   "households": 344,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2005-01-07",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13771001": {
+   "code": "A13771001",
+   "name": "방배롯데캐슬아르떼",
+   "road": "서울 방배천로18길 11",
+   "households": 744,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2013-11-20",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785004": {
+   "code": "A13785004",
+   "name": "방배삼익",
+   "road": "서울 효령로34길 79",
+   "households": 408,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1981-12-16",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13771601": {
+   "code": "A13771601",
+   "name": "방배서리풀e편한세상",
+   "road": "서울 효령로33길 50",
+   "households": 496,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2010-02-03",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13784907": {
+   "code": "A13784907",
+   "name": "방배신동아",
+   "road": "서울 효령로 164",
+   "households": 493,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1981-12-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13782602": {
+   "code": "A13782602",
+   "name": "방배신삼호",
+   "road": "서울 방배로 270",
+   "households": 481,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1983-05-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025927": {
+   "code": "A10025927",
+   "name": "방배아트자이",
+   "road": "서울 명달로9길 57",
+   "households": 353,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "2018-10-29",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785302": {
+   "code": "A13785302",
+   "name": "방배우성",
+   "road": "서울 방배선행길 1",
+   "households": 468,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1991-05-06",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785005": {
+   "code": "A13785005",
+   "name": "방배임광1,2차",
+   "road": "서울 방배로 14",
+   "households": 418,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1985-11-13",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785001": {
+   "code": "A13785001",
+   "name": "방배임광3차",
+   "road": "서울 방배로2길 24-5",
+   "households": 316,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1988-04-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13782804": {
+   "code": "A13782804",
+   "name": "삼호",
+   "road": "서울 방배로43길 2",
+   "households": 683,
+   "sigungu": "서초구",
+   "dong": "방배동",
+   "use_approval": "1975-11-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13707009": {
+   "code": "A13707009",
+   "name": "래미안 서초스위트 아파트",
+   "road": "서울 서운로 221",
+   "households": 392,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2009-04-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027221": {
+   "code": "A10027221",
+   "name": "래미안 서초에스티지",
+   "road": "서울특별시 서운로 107",
+   "households": 421,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2016-12-23",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026411": {
+   "code": "A10026411",
+   "name": "래미안서초에스티지에스아파트",
+   "road": "서울 서운로 104",
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2018-01-24",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13707010": {
+   "code": "A13707010",
+   "name": "래미안서초유니빌",
+   "road": "서울 서초중앙로 26",
+   "households": 440,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2003-08-22",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785607": {
+   "code": "A13785607",
+   "name": "롯데캐슬클래식",
+   "road": "서울 서운로 200",
+   "households": 990,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2006-06-07",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13707016": {
+   "code": "A13707016",
+   "name": "서초교대e편한세상",
+   "road": "서울 서초중앙로24길 33",
+   "households": 435,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2010-05-06",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13786606": {
+   "code": "A13786606",
+   "name": "서초더샵",
+   "road": "서울 서초중앙로2길 10",
+   "households": 329,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2006-01-19",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13788208": {
+   "code": "A13788208",
+   "name": "서초래미안",
+   "road": "서울 서초대로65길 13-10",
+   "households": 1129,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2003-05-10",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13775102": {
+   "code": "A13775102",
+   "name": "서초삼성쉐르빌2",
+   "road": "서울 강남대로53길 11",
+   "households": 365,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2002-03-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13792001": {
+   "code": "A13792001",
+   "name": "서초삼풍",
+   "road": "서울 서초중앙로 200",
+   "households": 2390,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1988-07-20",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024574": {
+   "code": "A10024574",
+   "name": "서초센트럴아이파크",
+   "road": "서울 반포대로18길 36",
+   "households": 318,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2020-09-07",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13788206": {
+   "code": "A13788206",
+   "name": "서초아크로비스타",
+   "road": "서울 서초중앙로 188",
+   "households": 757,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2004-06-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785705": {
+   "code": "A13785705",
+   "name": "서초우성5차아파트",
+   "road": "서울 서초대로74길 30",
+   "households": 408,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1998-05-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13770611": {
+   "code": "A13770611",
+   "name": "서초이오빌",
+   "road": "서울 효령로53길 45",
+   "households": 462,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2003-08-13",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13785604": {
+   "code": "A13785604",
+   "name": "서초진흥",
+   "road": "서울 서초대로 385",
+   "households": 615,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1979-08-22",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026941": {
+   "code": "A10026941",
+   "name": "서초푸르지오써밋",
+   "road": "서울 서운로 201",
+   "households": 907,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2017-06-22",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13788002": {
+   "code": "A13788002",
+   "name": "서초현대1,2차",
+   "road": "서울 효령로72길 14",
+   "households": 413,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1989-12-18",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13775101": {
+   "code": "A13775101",
+   "name": "신동아아파트",
+   "road": "서울 사임당로 137",
+   "households": 997,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1978-12-15",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13788203": {
+   "code": "A13788203",
+   "name": "유원서초아파트",
+   "road": "서울 서초중앙로24길 43",
+   "households": 590,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "1993-11-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13770609": {
+   "code": "A13770609",
+   "name": "현대슈퍼빌",
+   "road": "서울 서초중앙로 15",
+   "households": 645,
+   "sigungu": "서초구",
+   "dong": "서초동",
+   "use_approval": "2003-10-13",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A77777777": {
+   "code": "A77777777",
+   "name": "S-아파트",
+   "road": "서울특별시 테헤란로13길 31-4",
+   "households": 350,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2014-12-23",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023825": {
+   "code": "A10023825",
+   "name": "강남센트럴아이파크",
+   "road": "서울 테헤란로44길 26",
+   "households": 499,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2022-04-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13592002": {
+   "code": "A13592002",
+   "name": "대우디오빌역삼",
+   "road": "서울 언주로 427",
+   "households": 457,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2002-06-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13508011": {
+   "code": "A13508011",
+   "name": "래미안그레이튼",
+   "road": "서울 도곡로43길 21",
+   "households": 464,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2010-06-04",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13579505": {
+   "code": "A13579505",
+   "name": "래미안그레이튼3차",
+   "road": "서울 도곡로43길 20",
+   "households": 476,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2009-12-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13592605": {
+   "code": "A13592605",
+   "name": "역삼e-편한세상",
+   "road": "서울 선릉로69길 20",
+   "households": 840,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2005-12-16",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13592601": {
+   "code": "A13592601",
+   "name": "역삼개나리래미안",
+   "road": "서울 역삼로 306",
+   "households": 438,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2006-08-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13579501": {
+   "code": "A13579501",
+   "name": "역삼개나리푸르지오",
+   "road": "서울 역삼로 314",
+   "households": 332,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2006-08-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13592706": {
+   "code": "A13592706",
+   "name": "역삼래미안",
+   "road": "서울 선릉로69길 19",
+   "households": 1050,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2005-10-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13508009": {
+   "code": "A13508009",
+   "name": "역삼아이파크",
+   "road": "서울 역삼로 307",
+   "households": 541,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2006-09-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027474": {
+   "code": "A10027474",
+   "name": "역삼자이아파트",
+   "road": "서울특별시 언주로 420",
+   "households": 408,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2016-06-22",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13592604": {
+   "code": "A13592604",
+   "name": "역삼푸르지오",
+   "road": "서울 언주로 332",
+   "households": 738,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2006-01-02",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13508012": {
+   "code": "A13508012",
+   "name": "테헤란 IPARK",
+   "road": "서울 테헤란로52길 16",
+   "households": 411,
+   "sigungu": "강남구",
+   "dong": "역삼동",
+   "use_approval": "2014-01-24",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13594403": {
+   "code": "A13594403",
+   "name": "개포7차우성",
+   "road": "서울 개포로110길 15",
+   "households": 802,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1987-12-11",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023547": {
+   "code": "A10023547",
+   "name": "개포상록스타힐스",
+   "road": "서울 영동대로 16",
+   "households": 1703,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "2022-10-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13594402": {
+   "code": "A13594402",
+   "name": "개포한신",
+   "road": "서울 개포로110길 43",
+   "households": 364,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1984-03-10",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024216": {
+   "code": "A10024216",
+   "name": "디에이치 자이 개포",
+   "road": "서울 영동대로 22",
+   "households": 1996,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "2021-07-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025823": {
+   "code": "A10025823",
+   "name": "래미안개포루체하임",
+   "road": "서울 개포로110길 50",
+   "households": 850,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "2018-11-21",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13594702": {
+   "code": "A13594702",
+   "name": "상록수아파트",
+   "road": "서울 광평로10길 15",
+   "households": 740,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1993-03-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13593802": {
+   "code": "A13593802",
+   "name": "수서1-1단지아파트",
+   "road": "서울 양재대로55길 10",
+   "households": 2214,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1992-11-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13523003": {
+   "code": "A13523003",
+   "name": "수서가람",
+   "road": "서울 일원로 127",
+   "households": 496,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1993-03-09",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13593801": {
+   "code": "A13593801",
+   "name": "일원동 수서아파트",
+   "road": "서울 양재대로55길 12",
+   "households": 720,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1992-11-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13523005": {
+   "code": "A13523005",
+   "name": "일원목련타운",
+   "road": "서울 광평로19길 15",
+   "households": 650,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1993-09-25",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13523004": {
+   "code": "A13523004",
+   "name": "일원샘터마을",
+   "road": "서울 일원로 120",
+   "households": 628,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1994-02-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13594203": {
+   "code": "A13594203",
+   "name": "푸른마을아파트",
+   "road": "서울 일원로14길 25",
+   "households": 930,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1994-01-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13594701": {
+   "code": "A13594701",
+   "name": "한솔마을",
+   "road": "서울 광평로10길 6",
+   "households": 570,
+   "sigungu": "강남구",
+   "dong": "일원동",
+   "use_approval": "1994-06-03",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528105": {
+   "code": "A13528105",
+   "name": "개포1차2차우성",
+   "road": "서울 선릉로 120",
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1983-12-17",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528103": {
+   "code": "A13528103",
+   "name": "대치동부센트레빌",
+   "road": "서울 선릉로 206",
+   "households": 805,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2005-01-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024102": {
+   "code": "A10024102",
+   "name": "대치르엘",
+   "road": "서울 도곡로93길 23",
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2021-09-17",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528004": {
+   "code": "A13528004",
+   "name": "대치미도맨션",
+   "road": "서울 삼성로 150",
+   "households": 2436,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1983-11-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528003": {
+   "code": "A13528003",
+   "name": "대치삼성",
+   "road": "서울 도곡로78길 22",
+   "households": 960,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2000-07-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583604": {
+   "code": "A13583604",
+   "name": "대치선경",
+   "road": "서울 삼성로 151",
+   "households": 1034,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1983-12-12",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583402": {
+   "code": "A13583402",
+   "name": "대치쌍용2차",
+   "road": "서울 영동대로 220",
+   "households": 364,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1983-11-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528102": {
+   "code": "A13528102",
+   "name": "대치아이파크",
+   "road": "서울 선릉로 222",
+   "households": 768,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2008-06-03",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583403": {
+   "code": "A13583403",
+   "name": "대치우성1차아파트",
+   "road": "서울 영동대로 230",
+   "households": 476,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1984-01-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023162": {
+   "code": "A10023162",
+   "name": "대치푸르지오써밋",
+   "road": "서울 삼성로72길 12",
+   "households": 489,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2023-06-05",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583701": {
+   "code": "A13583701",
+   "name": "대치현대",
+   "road": "서울 삼성로64길 5",
+   "households": 630,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1999-06-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027800": {
+   "code": "A10027800",
+   "name": "래미안 대치 팰리스",
+   "road": "서울 삼성로51길 37",
+   "households": 1608,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2015-09-22",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528007": {
+   "code": "A13528007",
+   "name": "래미안대치하이스턴",
+   "road": "서울 도곡로93길 12",
+   "households": 354,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1989-12-06",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583404": {
+   "code": "A13583404",
+   "name": "쌍용대치1차",
+   "road": "서울 영동대로 210",
+   "households": 630,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1983-03-07",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13583507": {
+   "code": "A13583507",
+   "name": "은마",
+   "road": "서울 삼성로 212",
+   "households": 4424,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "1979-08-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13528005": {
+   "code": "A13528005",
+   "name": "테헤란로대우아이빌",
+   "road": "서울 테헤란로 428",
+   "households": 372,
+   "sigungu": "강남구",
+   "dong": "대치동",
+   "use_approval": "2004-04-29",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527013": {
+   "code": "A13527013",
+   "name": "개포4차우성",
+   "road": "서울 언주로 117",
+   "households": 459,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1985-12-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527007": {
+   "code": "A13527007",
+   "name": "도곡1차아이파크",
+   "road": "서울 도곡로28길 8",
+   "households": 321,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2007-03-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527016": {
+   "code": "A13527016",
+   "name": "도곡개포한신아파트",
+   "road": "서울 언주로 123",
+   "households": 620,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1985-12-14",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527008": {
+   "code": "A13527008",
+   "name": "도곡경남",
+   "road": "서울 논현로 209",
+   "households": 348,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2005-06-02",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527014": {
+   "code": "A13527014",
+   "name": "도곡대림아크로빌",
+   "road": "서울 언주로30길 13",
+   "households": 490,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1999-11-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527203": {
+   "code": "A13527203",
+   "name": "도곡렉슬",
+   "road": "서울 선릉로 221",
+   "households": 3002,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2006-01-27",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13550502": {
+   "code": "A13550502",
+   "name": "도곡삼성래미안",
+   "road": "서울 언주로 202",
+   "households": 732,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2001-12-01",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527019": {
+   "code": "A13527019",
+   "name": "도곡쌍용예가",
+   "road": "서울 남부순환로363길 30",
+   "households": 384,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1978-12-26",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527010": {
+   "code": "A13527010",
+   "name": "도곡우성아파트",
+   "road": "서울 남부순환로363길 49",
+   "households": 390,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1986-10-31",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13550403": {
+   "code": "A13550403",
+   "name": "도곡한신",
+   "road": "서울 논현로 205",
+   "households": 421,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1988-07-16",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13585404": {
+   "code": "A13585404",
+   "name": "래미안도곡카운티",
+   "road": "서울 도곡로 320",
+   "households": 397,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2016-09-02",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527011": {
+   "code": "A13527011",
+   "name": "아카데미스위트",
+   "road": "서울 언주로30길 21",
+   "households": 414,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2004-11-15",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13585804": {
+   "code": "A13585804",
+   "name": "역삼럭키",
+   "road": "서울 논현로 213",
+   "households": 1094,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "1995-12-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13527017": {
+   "code": "A13527017",
+   "name": "타워팰리스1차",
+   "road": "서울 언주로30길 56",
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2002-10-23",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13585402": {
+   "code": "A13585402",
+   "name": "타워팰리스2차",
+   "road": "서울 언주로30길 57",
+   "households": 813,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2003-02-28",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13585403": {
+   "code": "A13585403",
+   "name": "타워팰리스G동",
+   "road": "서울 언주로30길 26",
+   "households": 480,
+   "sigungu": "강남구",
+   "dong": "도곡동",
+   "use_approval": "2004-04-19",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13510103": {
+   "code": "A13510103",
+   "name": "삼성청담공원",
+   "road": "서울 도산대로96길 39",
+   "households": 391,
+   "sigungu": "강남구",
+   "dong": "청담동",
+   "use_approval": "1999-08-30",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13510005": {
+   "code": "A13510005",
+   "name": "청담삼성진흥",
+   "road": "서울 학동로87길 9",
+   "households": 630,
+   "sigungu": "강남구",
+   "dong": "청담동",
+   "use_approval": "1984-07-18",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13510104": {
+   "code": "A13510104",
+   "name": "청담삼익",
+   "road": "서울 학동로 609",
+   "households": 888,
+   "sigungu": "강남구",
+   "dong": "청담동",
+   "use_approval": "1980-04-29",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A13510102": {
+   "code": "A13510102",
+   "name": "청담현대3차",
+   "road": "서울 도산대로101길 29",
+   "households": 317,
+   "sigungu": "강남구",
+   "dong": "청담동",
+   "use_approval": "1999-06-19",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027118": {
+   "code": "A10027118",
+   "name": "경희궁자이2단지 아파트",
+   "road": "서울 송월길 99",
+   "households": 1148,
+   "use_approval": "2017-02-24",
+   "sigungu": "종로구",
+   "dong": "홍파동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10045302": {
+   "code": "A10045302",
+   "name": "신당남산타운(분양)",
+   "road": "서울 다산로 32",
+   "households": 3118,
+   "use_approval": "2002-05-25",
+   "sigungu": "중구",
+   "dong": "신당동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10045301": {
+   "code": "A10045301",
+   "name": "신당남산타운임대",
+   "road": "서울 다산로 32",
+   "households": 2034,
+   "use_approval": "2002-05-25",
+   "sigungu": "중구",
+   "dong": "신당동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10045404": {
+   "code": "A10045404",
+   "name": "신당약수하이츠",
+   "road": "서울 동호로10길 30",
+   "households": 1598,
+   "use_approval": "1999-07-29",
+   "sigungu": "중구",
+   "dong": "신당동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10044002": {
+   "code": "A10044002",
+   "name": "롯데캐슬베네치아",
+   "road": "서울 청계천로 400",
+   "households": 1534,
+   "use_approval": "2008-12-22",
+   "sigungu": "중구",
+   "dong": "황학동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026881": {
+   "code": "A10026881",
+   "name": "서울역센트럴자이아파트",
+   "road": "서울 만리재로 175",
+   "households": 1341,
+   "use_approval": "2017-08-07",
+   "sigungu": "중구",
+   "dong": "만리동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024691": {
+   "code": "A10024691",
+   "name": "용산센트럴파크",
+   "road": "서울 서빙고로 17",
+   "households": 1334,
+   "use_approval": "2020-08-20",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024333": {
+   "code": "A10024333",
+   "name": "용산 베르디움 프렌즈",
+   "road": "서울 백범로99길 40",
+   "households": 1086,
+   "use_approval": "2021-03-05",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026748": {
+   "code": "A10026748",
+   "name": "옥수파크힐스아파트",
+   "road": "서울 매봉길 50",
+   "households": 1636,
+   "use_approval": "2016-11-09",
+   "sigungu": "성동구",
+   "dong": "옥수동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026418": {
+   "code": "A10026418",
+   "name": "e편한세상금호파크힐스",
+   "road": "서울 금호로 140",
+   "households": 1467,
+   "use_approval": "2019-05-09",
+   "sigungu": "성동구",
+   "dong": "금호동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027920": {
+   "code": "A10027920",
+   "name": "텐즈힐1단지",
+   "road": "서울 무학로 33",
+   "households": 1369,
+   "use_approval": "2015-04-24",
+   "sigungu": "성동구",
+   "dong": "하왕십리동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027602": {
+   "code": "A10027602",
+   "name": "신금호파크자이아파트",
+   "road": "서울 금호로 173",
+   "households": 1156,
+   "use_approval": "2016-04-20",
+   "sigungu": "성동구",
+   "dong": "금호동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026207": {
+   "code": "A10026207",
+   "name": "서울숲리버뷰자이아파트",
+   "road": "서울 고산자로2길 65",
+   "households": 1034,
+   "use_approval": "2018-06-22",
+   "sigungu": "성동구",
+   "dong": "행당동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10020344": {
+   "code": "A10020344",
+   "name": "이문아이파크자이",
+   "road": "서울 이문로 120",
+   "households": 4169,
+   "use_approval": "2025-11-27",
+   "sigungu": "동대문구",
+   "dong": "이문동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023083": {
+   "code": "A10023083",
+   "name": "청량리역 롯데캐슬 SKY-L65",
+   "road": "서울 답십리로 27",
+   "households": 1425,
+   "use_approval": "2023-07-12",
+   "sigungu": "동대문구",
+   "dong": "전농동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023188": {
+   "code": "A10023188",
+   "name": "청량리역 한양수자인 그라시엘",
+   "road": "서울 고산자로32길 78",
+   "households": 1152,
+   "use_approval": "2023-06-02",
+   "sigungu": "동대문구",
+   "dong": "용두동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024741": {
+   "code": "A10024741",
+   "name": "사가정 센트럴 아이파크 아파트",
+   "road": "서울 동일로92길 40",
+   "households": 1505,
+   "use_approval": "2020-07-30",
+   "sigungu": "중랑구",
+   "dong": "면목동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023816": {
+   "code": "A10023816",
+   "name": "LH서울양원1단지",
+   "road": "서울 양원역로 92",
+   "households": 1216,
+   "use_approval": "2022-01-24",
+   "sigungu": "중랑구",
+   "dong": "망우동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025638": {
+   "code": "A10025638",
+   "name": "래미안길음센터피스",
+   "road": "서울 숭인로 50",
+   "households": 2352,
+   "use_approval": "2019-11-29",
+   "sigungu": "성북구",
+   "dong": "길음동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023926": {
+   "code": "A10023926",
+   "name": "롯데캐슬클라시아",
+   "road": "서울 숭인로8길 80",
+   "households": 2033,
+   "use_approval": "2022-01-27",
+   "sigungu": "성북구",
+   "dong": "길음동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024488": {
+   "code": "A10024488",
+   "name": "꿈의숲아이파크아파트",
+   "road": "서울 돌곶이로40길 46",
+   "households": 1711,
+   "use_approval": "2022-07-13",
+   "sigungu": "성북구",
+   "dong": "장위동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025245": {
+   "code": "A10025245",
+   "name": "래미안퍼스트하이",
+   "road": "서울 한천로 713",
+   "households": 1562,
+   "use_approval": "2020-11-03",
+   "sigungu": "성북구",
+   "dong": "장위동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025241": {
+   "code": "A10025241",
+   "name": "꿈의숲 해링턴 플레이스 아파트",
+   "road": "서울 오현로 45",
+   "households": 1028,
+   "use_approval": "2019-09-27",
+   "sigungu": "강북구",
+   "dong": "미아동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023991": {
+   "code": "A10023991",
+   "name": "태릉해링턴플레이스",
+   "road": "서울 공릉로34길 86",
+   "households": 1308,
+   "use_approval": "2022-01-18",
+   "sigungu": "노원구",
+   "dong": "공릉동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024547": {
+   "code": "A10024547",
+   "name": "포레나노원 아파트",
+   "road": "서울 노원로38길 76",
+   "households": 1062,
+   "use_approval": "2020-11-25",
+   "sigungu": "노원구",
+   "dong": "상계동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024831": {
+   "code": "A10024831",
+   "name": "녹번역e편한세상캐슬",
+   "road": "서울 은평로 220",
+   "households": 2569,
+   "use_approval": "2021-05-27",
+   "sigungu": "은평구",
+   "dong": "응암동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023076": {
+   "code": "A10023076",
+   "name": "DMC SKVIEW 아이파크포레",
+   "road": "서울 수색로 322",
+   "households": 1482,
+   "use_approval": "2023-07-31",
+   "sigungu": "은평구",
+   "dong": "수색동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025310": {
+   "code": "A10025310",
+   "name": "백련산 에스케이뷰 아이파크",
+   "road": "서울 응암로30길 16",
+   "households": 1305,
+   "use_approval": "2020-05-21",
+   "sigungu": "은평구",
+   "dong": "응암동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027817": {
+   "code": "A10027817",
+   "name": "DMC파크뷰자이아파트",
+   "road": "서울 가재울미래로 2",
+   "households": 4300,
+   "use_approval": "2015-10-26",
+   "sigungu": "서대문구",
+   "dong": "남가좌동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026370": {
+   "code": "A10026370",
+   "name": "e편한세상신촌아파트",
+   "road": "서울 북아현로1길 17",
+   "households": 1910,
+   "use_approval": "2018-05-03",
+   "sigungu": "서대문구",
+   "dong": "북아현동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024719": {
+   "code": "A10024719",
+   "name": "힐스테이트신촌",
+   "road": "서울 이화여대8길 123",
+   "households": 1252,
+   "use_approval": "2020-08-04",
+   "sigungu": "서대문구",
+   "dong": "북아현동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023959": {
+   "code": "A10023959",
+   "name": "홍제역 해링턴플레이스아파트",
+   "road": "서울 세무서8길 30",
+   "households": 1116,
+   "use_approval": "2024-03-27",
+   "sigungu": "서대문구",
+   "dong": "홍제동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025976": {
+   "code": "A10025976",
+   "name": "DMC센트럴아이파크",
+   "road": "서울 증가로 150",
+   "households": 1061,
+   "use_approval": "2018-12-31",
+   "sigungu": "서대문구",
+   "dong": "남가좌동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025130": {
+   "code": "A10025130",
+   "name": "DMC에코자이",
+   "road": "서울 거북골로 84",
+   "households": 1047,
+   "use_approval": "2019-12-27",
+   "sigungu": "서대문구",
+   "dong": "남가좌동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024347": {
+   "code": "A10024347",
+   "name": "마포프레스티지자이아파트",
+   "road": "서울 대흥로24길 24",
+   "households": 1694,
+   "use_approval": "2021-12-30",
+   "sigungu": "마포구",
+   "dong": "염리동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023508": {
+   "code": "A10023508",
+   "name": "마포더클래시",
+   "road": "서울 신촌로28길 50",
+   "households": 1419,
+   "use_approval": "2022-11-29",
+   "sigungu": "마포구",
+   "dong": "아현동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025003": {
+   "code": "A10025003",
+   "name": "마포그랑자이아파트",
+   "road": "서울 대흥로 175",
+   "households": 1248,
+   "use_approval": "2020-02-21",
+   "sigungu": "마포구",
+   "dong": "대흥동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024872": {
+   "code": "A10024872",
+   "name": "목동 센트럴 아이파크위브 아파트",
+   "road": "서울 남부순환로83길 18",
+   "households": 3045,
+   "use_approval": "2020-05-28",
+   "sigungu": "양천구",
+   "dong": "신월동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024398": {
+   "code": "A10024398",
+   "name": "래미안 목동아델리체",
+   "road": "서울 중앙로43길 14",
+   "households": 1497,
+   "use_approval": "2021-01-28",
+   "sigungu": "양천구",
+   "dong": "신정동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027375": {
+   "code": "A10027375",
+   "name": "목동힐스테이트",
+   "road": "서울특별시 중앙로36길 15",
+   "households": 1081,
+   "use_approval": "2016-05-19",
+   "sigungu": "양천구",
+   "dong": "신정동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024426": {
+   "code": "A10024426",
+   "name": "마곡엠밸리9단지",
+   "road": "서울 공항대로 103",
+   "households": 1529,
+   "use_approval": "2021-02-15",
+   "sigungu": "강서구",
+   "dong": "마곡동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026879": {
+   "code": "A10026879",
+   "name": "마곡13단지 힐스테이트마스터 아파트",
+   "road": "서울 마곡중앙1로 71",
+   "households": 1194,
+   "use_approval": "2017-04-10",
+   "sigungu": "강서구",
+   "dong": "마곡동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025614": {
+   "code": "A10025614",
+   "name": "항동하버라인3단지",
+   "road": "서울 항동로 43",
+   "households": 1170,
+   "use_approval": "2019-02-25",
+   "sigungu": "구로구",
+   "dong": "항동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027188": {
+   "code": "A10027188",
+   "name": "금천롯데캐슬골드파크1차아파트",
+   "road": "서울특별시 벚꽃로 40",
+   "households": 1743,
+   "use_approval": "2016-11-30",
+   "sigungu": "금천구",
+   "dong": "독산동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025946": {
+   "code": "A10025946",
+   "name": "금천롯데캐슬골드파크3차아파트",
+   "road": "서울 시흥대로 291",
+   "households": 1236,
+   "use_approval": "2018-10-30",
+   "sigungu": "금천구",
+   "dong": "독산동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10027073": {
+   "code": "A10027073",
+   "name": "래미안에스티움",
+   "road": "서울 신풍로 77",
+   "households": 1722,
+   "use_approval": "2017-04-12",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025070": {
+   "code": "A10025070",
+   "name": "보라매 sk뷰",
+   "road": "서울 여의대방로35가길 19",
+   "households": 1546,
+   "use_approval": "2020-01-29",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10024615": {
+   "code": "A10024615",
+   "name": "힐스테이트클래시안아파트",
+   "road": "서울 신길로28길 9",
+   "households": 1482,
+   "use_approval": "2020-12-28",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10026816": {
+   "code": "A10026816",
+   "name": "아크로타워스퀘어",
+   "road": "서울 국회대로54길 10",
+   "households": 1221,
+   "use_approval": "2017-08-30",
+   "sigungu": "영등포구",
+   "dong": "영등포동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025024": {
+   "code": "A10025024",
+   "name": "신길센트럴자이",
+   "road": "서울 신길로29길 17",
+   "households": 1008,
+   "use_approval": "2021-04-13",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025770": {
+   "code": "A10025770",
+   "name": "아크로 리버하임",
+   "road": "서울 현충로 52",
+   "households": 1073,
+   "use_approval": "2019-12-24",
+   "sigungu": "동작구",
+   "dong": "흑석동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10025092": {
+   "code": "A10025092",
+   "name": "e편한세상서울대입구아파트",
+   "road": "서울 청룡16길 43",
+   "households": 1276,
+   "use_approval": "2019-06-25",
+   "sigungu": "관악구",
+   "dong": "봉천동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
+  },
+  "A10023661": {
+   "code": "A10023661",
+   "name": "힐스테이트뉴포레",
+   "road": "서울 조원로 25",
+   "households": 1143,
+   "use_approval": "2022-08-29",
+   "sigungu": "관악구",
+   "dong": "신림동",
+   "info_checked": "2026-10-16",
+   "info_v": 3
   }
  },
  "names": {
@@ -995,7 +2782,10 @@
   "청담자이": "A13510007",
   "디에이치방배": "A10019911",
   "서초그랑자이": "A10024240",
-  "래미안리더스원": "A10024552"
+  "래미안리더스원": "A10024552",
+  "래미안힐스테이트고덕": "A10027207",
+  "송파시그니처롯데캐슬": "A10023887",
+  "힐스테이트e편한세상문정": "A10022403"
  },
  "areas": {
   "강남구 개포동": {
@@ -1035,6 +2825,282 @@
    ],
    "label": "반포(잠원)",
    "v": 3
+  },
+  "반포 대단지": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023043",
+    "A13776509",
+    "A13780006",
+    "A10019966",
+    "A13776301",
+    "A13704404",
+    "A13704901",
+    "A13704104",
+    "A10027205"
+   ],
+   "label": "반포 대단지",
+   "v": 3
+  },
+  "반포 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024254",
+    "A10022556",
+    "A10023043",
+    "A10026051",
+    "A10019966",
+    "A10026015"
+   ],
+   "label": "반포 신축",
+   "v": 3
+  },
+  "잠원 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10025418",
+    "A10023673",
+    "A10023143",
+    "A10026227"
+   ],
+   "label": "잠원 신축",
+   "v": 3
+  },
+  "방배 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10019911",
+    "A10024171",
+    "A10025927"
+   ],
+   "label": "방배 신축",
+   "v": 3
+  },
+  "서초(강남역) 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024552",
+    "A10024240",
+    "A10024574"
+   ],
+   "label": "서초(강남역) 신축",
+   "v": 3
+  },
+  "역삼(강남역) 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023825"
+   ],
+   "label": "역삼(강남역) 신축",
+   "v": 3
+  },
+  "개포 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024564",
+    "A10023348",
+    "A10025203",
+    "A10025675"
+   ],
+   "label": "개포 신축",
+   "v": 3
+  },
+  "일원 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023547",
+    "A10024216",
+    "A10025823"
+   ],
+   "label": "일원 신축",
+   "v": 3
+  },
+  "대치 신축": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023162"
+   ],
+   "label": "대치 신축",
+   "v": 3
+  },
+  "도곡 신축": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "label": "도곡 신축",
+   "v": 3
+  },
+  "청담 신축": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "label": "청담 신축",
+   "v": 3
+  }
+ },
+ "gus": {
+  "종로구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "중구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "용산구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024691",
+    "A10024333"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "성동구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "광진구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "동대문구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10020344",
+    "A10023083",
+    "A10023188"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "중랑구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024741",
+    "A10023816"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "성북구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023926",
+    "A10024488",
+    "A10025245"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "강북구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "도봉구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "노원구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023991",
+    "A10024547"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "은평구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024831",
+    "A10023076",
+    "A10025310"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "서대문구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024719",
+    "A10023959"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "마포구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024347",
+    "A10023508",
+    "A10025003"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "양천구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024872",
+    "A10024398"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "강서구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10024426"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "구로구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "금천구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "영등포구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10025070",
+    "A10024615",
+    "A10025024"
+   ],
+   "v": 3,
+   "complete": true
+  },
+  "동작구": {
+   "checked": "2026-10-16",
+   "codes": [],
+   "v": 3,
+   "complete": true
+  },
+  "관악구": {
+   "checked": "2026-10-16",
+   "codes": [
+    "A10023661"
+   ],
+   "v": 3,
+   "complete": true
   }
  }
 }
