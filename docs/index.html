@@ -47,6 +47,8 @@ td.empty{color:var(--muted)}
 .list{display:grid;gap:10px}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
 .card h3{margin:0 0 4px;font-size:15px;font-weight:500}
+.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+label.meta{display:flex;align-items:center;gap:6px;white-space:nowrap}
 .meta{color:var(--muted);font-size:13px}
 a{color:var(--accent)}
 .status{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
@@ -63,7 +65,6 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <nav><div class="in" role="tablist">
   <button role="tab" data-tab="rules" aria-selected="true">주제별 규정 비교</button>
   <button role="tab" data-tab="notices" aria-selected="false">다른 단지 공고</button>
-  <button role="tab" data-tab="presale" aria-selected="false">입주자모집공고</button>
   <button role="tab" data-tab="status" aria-selected="false">수집 상태</button>
 </div></nav>
 
@@ -75,24 +76,20 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 </section>
 
 <section id="notices">
-  <p class="lead">K-apt 입찰공고 중 주제 키워드가 들어간 공고를 매일 모읍니다. 원문은 K-apt에서 공고명으로 찾을 수 있습니다.</p>
+  <p class="lead">K-apt 서울 입찰공고 중 주제 키워드가 들어간 공고를 매일 모읍니다. 공고를 누르면 K-apt 원문과 첨부 공고문으로 이동합니다.</p>
   <div class="bar" id="noticeTopics"></div>
   <div class="bar" id="noticeFilters"></div>
-  <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색"></div>
+  <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색">
+    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사 공고 숨기기</label></div>
+  <p class="meta" id="noticeCount"></p>
   <div class="list" id="noticeList"></div>
-</section>
-
-<section id="presale">
-  <p class="lead">청약홈 서울 입주자모집공고입니다. 공고문 PDF에는 주차대수·커뮤니티 시설 구성이 실려 있는 경우가 많습니다.</p>
-  <div class="bar"><input type="search" id="pq" placeholder="단지명·주소 검색"></div>
-  <div class="tablewrap"><table id="presaleTable"></table></div>
 </section>
 
 <section id="status">
   <div class="status" id="statusGrid"></div>
 </section>
 </main>
-<footer>공공데이터포털(국토교통부 K-apt, 한국부동산원 청약홈) 자료를 자동 수집하며, 규정 비교표는 원문을 확인해 직접 정리합니다. 각 항목의 출처 링크를 함께 확인하세요.</footer>
+<footer>K-apt 공동주택관리정보시스템의 공개 입찰공고를 자동 수집하며, 규정 비교표는 원문을 확인해 직접 정리합니다. 각 항목의 출처 링크를 함께 확인하세요.</footer>
 
 <script>
 const TOPICS={parking:"주차규정",community:"커뮤니티",dining:"커뮤니티 식당",governance:"입대의·선관위"};
@@ -122,8 +119,8 @@ function chips(el,map,state,onChange,multi){
 }
 
 (async()=>{
-  const [rules,notices,presale,status]=await Promise.all([
-    get("data/rules.json"),get("data/notices.json"),get("data/presale.json"),get("data/run_status.json")]);
+  const [rules,notices,status]=await Promise.all([
+    get("data/rules.json"),get("data/notices.json"),get("data/run_status.json")]);
 
   // 규정 비교
   const rt=new Set(["parking"]);
@@ -142,41 +139,34 @@ function chips(el,map,state,onChange,multi){
   drawRules();
 
   // 공고
-  const nt=new Set(),nf=new Set(),q=document.getElementById("q");
+  const nt=new Set(),nf=new Set(),q=document.getElementById("q"),hw=document.getElementById("hideWorks");
   const drawNotices=()=>{
     const term=q.value.trim();
     const items=((notices?.items)||[]).filter(n=>
+      (!hw.checked||!n.is_works)&&
       (!nt.size||n.topics.some(x=>nt.has(x)))&&
       (!nf.size||(n.filters||[]).some(x=>nf.has(x)))&&
       (!term||(n.title+n.complex_name).includes(term)));
+    document.getElementById("noticeCount").textContent=notices?`${items.length}건 · 최근 수집 ${notices.updated?.slice(0,16).replace("T"," ")}`:"";
     const el=document.getElementById("noticeList");
-    el.innerHTML=items.length?items.slice(0,300).map(n=>`<article class="card">
-      <h3>${esc(n.title)}</h3>
-      <div class="meta">${esc(n.complex_name||"단지명 미상")} · 공고일 ${esc(n.date||"–")}${n.deadline?` · 마감 ${esc(n.deadline)}`:""}${n.method?` · ${esc(n.method)}`:""}</div>
+    el.innerHTML=items.length?items.slice(0,300).map(n=>{
+      const cx=[n.sigungu,n.households?`${n.households.toLocaleString()}세대`:"",n.use_approval?`${n.use_approval.slice(0,4)}년 승인`:""].filter(Boolean).join(" · ");
+      return `<article class="card">
+      <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
+      <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · 공고일 ${esc(n.date||"–")}${n.deadline?` · 마감 ${esc(n.deadline)}`:""}${n.category?` · ${esc(n.category)}`:""}</div>
       <div>${n.topics.map(x=>`<span class="tag">${TOPICS[x]||x}</span>`).join("")}${(n.filters||[]).map(x=>`<span class="tag">${FILTERS[x]||x}</span>`).join("")}</div>
-      </article>`).join(""):`<div class="empty-state">${notices?"조건에 맞는 공고가 없습니다.":"아직 수집된 공고가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
+      </article>`;}).join(""):`<div class="empty-state">${notices?"조건에 맞는 공고가 없습니다.":"아직 수집된 공고가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
   };
   chips(document.getElementById("noticeTopics"),TOPICS,nt,drawNotices,true);
   chips(document.getElementById("noticeFilters"),FILTERS,nf,drawNotices,true);
-  q.oninput=drawNotices; drawNotices();
-
-  // 모집공고
-  const pq=document.getElementById("pq");
-  const drawPresale=()=>{
-    const term=pq.value.trim(),items=((presale?.items)||[]).filter(p=>!term||(p.name+p.address).includes(term));
-    document.getElementById("presaleTable").innerHTML=items.length?
-      `<tr><th>단지</th><th>주소</th><th>공급세대</th><th>공고일</th><th>입주예정</th><th>링크</th></tr>`+
-      items.map(p=>`<tr><td>${esc(p.name)}</td><td>${esc(p.address)}</td><td>${p.households||"–"}</td><td>${esc(p.notice_date)}</td><td>${esc(p.move_in)}</td>
-      <td>${p.notice_url?`<a href="${esc(p.notice_url)}" target="_blank" rel="noopener">공고</a>`:""} ${p.homepage?`<a href="${esc(p.homepage)}" target="_blank" rel="noopener">홈페이지</a>`:""}</td></tr>`).join("")
-      :`<tr><td class="empty">아직 수집된 모집공고가 없습니다.</td></tr>`;
-  };
-  pq.oninput=drawPresale; drawPresale();
+  q.oninput=drawNotices; hw.onchange=drawNotices; drawNotices();
 
   // 상태
-  const names={kapt_bid:"K-apt 입찰공고",kapt_basis:"K-apt 단지 기본정보",applyhome:"청약홈 분양정보"};
-  document.getElementById("statusGrid").innerHTML=status?Object.entries(status.sources).map(([k,s])=>
-    `<div class="card"><h3>${names[k]||k}</h3><div class="${s.ok?"ok":"bad"}">${s.ok?`정상 · ${s.count}건`:"실패"}</div>${s.error?`<div class="meta">${esc(s.error)}</div>`:""}</div>`).join("")+
-    `<div class="card"><h3>마지막 실행</h3><div class="meta">${esc(status.ran_at)}</div></div>`
+  const names={search:"공고 검색",detail:"공고 상세",complex:"단지 정보(사용승인일)"};
+  const desc=s=>s.found!=null?`검색 ${s.found}건 → 주제 일치 ${s.matched}건`:s.new!=null?`새 공고 ${s.new}건`:s.updated!=null?`새로 확인 ${s.updated}곳`:"";
+  document.getElementById("statusGrid").innerHTML=status?Object.entries(status.steps||{}).map(([k,s])=>
+    `<div class="card"><h3>${names[k]||k}</h3><div class="${s.ok?"ok":"bad"}">${s.ok?"정상":"일부 실패"}</div><div class="meta">${esc(desc(s))}${s.error?` · ${esc(s.error)}`:""}${(s.errors&&s.errors.length)?` · 오류 ${esc(Array.isArray(s.errors)?s.errors.join(", "):s.errors)}`:""}</div></div>`).join("")+
+    `<div class="card"><h3>마지막 실행</h3><div class="meta">${esc(status.ran_at)}<br>누적 공고 ${status.totals?.notices??"–"}건 · 단지 ${status.totals?.complexes??"–"}곳</div></div>`
     :`<div class="empty-state">아직 수집을 실행하지 않았습니다.</div>`;
 })();
 </script>

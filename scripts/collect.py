@@ -1,44 +1,47 @@
 #!/usr/bin/env python3
-"""다른 아파트 단지의 공고를 주제별로 모으는 수집 스크립트.
+"""K-apt 입찰공고에서 다른 단지의 주제별 공고를 모으는 수집 스크립트.
 
-출처
-  1) K-apt 공동주택 입찰공고 (국토교통부 공공데이터 API)
-  2) K-apt 공동주택 기본정보 (입주연도·세대수 → 비교 단지 필터)
-  3) 청약홈 APT 분양정보 (입주자모집공고 페이지 링크)
+API 키 없이 K-apt 웹페이지를 그대로 읽습니다.
+  1) /bid/bidList.do      서울 지역 입찰공고를 주제 키워드로 검색
+  2) /bid/bidDetail.do    공고 상세 (입찰분류, 단지 주소·세대수)
+  3) /cmmn/selectKapt.do  단지 사용승인일 (비교 단지 필터용)
 
-표준 라이브러리만 사용합니다. 환경변수 DATA_GO_KR_API_KEY 가 필요합니다
-(공공데이터포털에서 위 API들의 활용신청 후 발급되는 '일반 인증키(Decoding)').
-
-결과
-  docs/data/notices.json    주제별로 분류된 공고 (누적, id 기준 중복 제거)
-  docs/data/complexes.json  단지 기본정보 캐시
-  docs/data/presale.json    서울 입주자모집공고 목록
-  docs/data/run_status.json 마지막 실행의 출처별 성공/실패 기록
+결과 (docs/data/)
+  notices.json     주제별로 분류된 공고 (누적, 공고번호 기준 중복 제거)
+  complexes.json   단지 정보 캐시
+  run_status.json  마지막 실행 기록
+표준 라이브러리만 사용합니다.
 """
 from __future__ import annotations
 
 import datetime as dt
+import html
+import http.cookiejar
 import json
-import os
 import re
 import sys
 import time
-import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8"))
+K = CONFIG["kapt"]
+BASE = K["base"]
 DATA = ROOT / "docs" / "data"
 DATA.mkdir(parents=True, exist_ok=True)
 
-KEY = os.environ.get("DATA_GO_KR_API_KEY", "").strip()
 KST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(KST)
-UA = {"User-Agent": "raeaon-collector/1.0 (+https://github.com/tallhee/raeaon)"}
+TODAY = NOW.strftime("%Y-%m-%d")
 
-status: dict[str, dict] = {}
+jar = http.cookiejar.CookieJar()
+opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+opener.addheaders = [
+    ("User-Agent", "Mozilla/5.0 (raeaon-collector; +https://github.com/tallhee/raeaon)"),
+    ("Accept-Language", "ko-KR,ko;q=0.9"),
+]
 
 
 # ---------------------------------------------------------------- utils
@@ -53,141 +56,131 @@ def load(name: str, default):
 
 
 def save(name: str, obj) -> None:
-    (DATA / name).write_text(
-        json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=False) + "\n",
-        encoding="utf-8",
-    )
+    (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def get_json(url: str, params: dict, tries: int = 3) -> dict:
-    qs = urllib.parse.urlencode(params, safe="[]:")
-    last: Exception | None = None
+def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 3) -> str:
+    url = BASE + path + ("?" + urllib.parse.urlencode(params) if params else "")
+    body = urllib.parse.urlencode(data).encode() if data is not None else None
+    last = None
     for i in range(tries):
         try:
-            req = urllib.request.Request(f"{url}?{qs}", headers=UA)
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with opener.open(urllib.request.Request(url, data=body), timeout=40) as r:
                 text = r.read().decode("utf-8", "replace")
-            if text.lstrip().startswith("<"):
-                # data.go.kr 은 오류를 XML 로 돌려줄 때가 많다
-                msg = re.search(r"<(returnAuthMsg|resultMsg|errMsg)>([^<]+)<", text)
-                raise RuntimeError(f"XML 응답: {msg.group(2) if msg else text[:200]}")
-            return json.loads(text)
-        except (urllib.error.URLError, RuntimeError, json.JSONDecodeError, TimeoutError) as e:
+            time.sleep(K["delay_seconds"])
+            return text
+        except Exception as e:  # 네트워크 오류는 잠시 쉬고 재시도
             last = e
-            time.sleep(2 * (i + 1))
-    raise RuntimeError(f"{url} 실패: {last}")
+            time.sleep(3 * (i + 1))
+    raise RuntimeError(f"{path} 요청 실패: {last}")
 
 
-def items_of(body: dict) -> tuple[list[dict], int]:
-    """data.go.kr 의 response.body.items(.item) 구조와 odcloud 의 data 구조를 모두 처리."""
-    if "data" in body and isinstance(body["data"], list):
-        return body["data"], int(body.get("matchCount") or body.get("totalCount") or 0)
-    b = body.get("response", body).get("body", body)
-    items = b.get("items", [])
-    if isinstance(items, dict):
-        items = items.get("item", [])
-    if isinstance(items, dict):
-        items = [items]
-    return items or [], int(b.get("totalCount") or 0)
+def text_of(fragment: str) -> str:
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", fragment))).strip()
 
 
-def pick(d: dict, *cands: str) -> str:
-    """API 필드명이 버전마다 조금씩 달라 후보 이름을 순서대로 찾는다."""
-    for c in cands:
-        if d.get(c) not in (None, ""):
-            return str(d[c]).strip()
-    low = {k.lower(): v for k, v in d.items()}
-    for c in cands:
-        if low.get(c.lower()) not in (None, ""):
-            return str(low[c.lower()]).strip()
-    return ""
+def csrf_token() -> str:
+    page = fetch("/bid/bidList.do")
+    m = re.search(r'name="_csrf"\s+content="([^"]+)"', page) or re.search(r'name="_csrf"\s+value="([^"]+)"', page)
+    if not m:
+        raise RuntimeError("K-apt 페이지에서 세션 토큰을 찾지 못했습니다 (페이지 구조 변경 가능성)")
+    return m.group(1)
 
 
-def classify(text: str) -> list[str]:
-    return [
-        key
-        for key, t in CONFIG["topics"].items()
-        if any(k in text for k in t["keywords"])
-    ]
+# ---------------------------------------------------------------- 목록
+ROW_RE = re.compile(r'<tr[^>]*class="notice-row"[^>]*dataid="([^"]+)"[^>]*>(.*?)</tr>', re.S | re.I)
+# K-apt 단지코드(A/B + 숫자 8자리)만 단지 상세 조회가 된다. KG2B 등 민간 전자입찰 코드는 제외.
+KAPT_CODE = re.compile(r"^[AB]\d{8}$")
 
 
-def norm_date(s: str) -> str:
-    digits = re.sub(r"\D", "", s or "")
-    if len(digits) >= 8:
-        return f"{digits[:4]}-{digits[4:6]}-{digits[6:8]}"
-    return s or ""
-
-
-# ---------------------------------------------------------------- K-apt 입찰공고
-def collect_kapt_bids() -> list[dict]:
-    url = CONFIG["endpoints"]["kapt_bid"]
-    since = (NOW - dt.timedelta(days=CONFIG["lookback_days"])).strftime("%Y%m%d")
-    out, page, rows = [], 1, 100
+def search(keyword: str, start: str, end: str) -> list[dict]:
+    out, page = [], 1
     while True:
-        body = get_json(url, {
-            "serviceKey": KEY, "pageNo": page, "numOfRows": rows, "_type": "json",
-            "searchDate": since, "startDate": since, "endDate": NOW.strftime("%Y%m%d"),
+        h = fetch("/bid/bidList.do", {
+            "pageSelect": K["page_size"], "searchBidGb": "bid_gb_1", "bidTitle": keyword,
+            "searchDateGb": "reg", "dateStart": start, "dateEnd": end,
+            "pageNo": page, "type": "3", "bidArea": K["bid_area"],
         })
-        items, total = items_of(body)
-        if not items:
-            break
-        for it in items:
-            title = pick(it, "bidTitle", "bidNm", "pblAncNm", "title", "bidSj")
-            topics = classify(title)
-            if not topics:
+        rows = ROW_RE.findall(h)
+        for bid_num, inner in rows:
+            cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", inner, re.S)]
+            code = re.search(r"initList\(\s*4\s*,\s*'([A-Z0-9]+)'", inner)
+            if len(cells) < 8:
                 continue
-            bid_no = pick(it, "bidNum", "bidNo", "pblAncNo", "bidSeq")
             out.append({
-                "id": f"kapt-bid-{bid_no or abs(hash(title))}",
-                "source": "kapt_bid",
-                "title": title,
-                "topics": topics,
-                "complex_code": pick(it, "kaptCode", "aptCode"),
-                "complex_name": pick(it, "kaptName", "aptName", "kaptNm"),
-                "date": norm_date(pick(it, "bidRegdate", "regDate", "pblAncDe", "bidDate")),
-                "deadline": norm_date(pick(it, "bidClosedate", "bidEndDate", "closeDate")),
-                "method": pick(it, "bidMethod", "bidKind", "bidType"),
-                "url": "https://www.k-apt.go.kr/bid/bidList.do",
-                "raw": it,
+                "bid_num": bid_num,
+                "channel": cells[1],
+                "award": cells[2],
+                "title": re.sub(r"^\[[^\]]+\]\s*", "", cells[3]),
+                "deadline": cells[4][:10],
+                "state": cells[5],
+                "complex_name": cells[6],
+                "date": cells[7][:10],
+                "complex_code": code.group(1) if code else "",
             })
-        if page * rows >= total or page >= 50:
+        if len(rows) < int(K["page_size"]) or page >= 20:
             break
         page += 1
     return out
 
 
-# ---------------------------------------------------------------- K-apt 기본정보
-def enrich_complexes(notices: list[dict], cache: dict) -> dict:
-    url = CONFIG["endpoints"]["kapt_basis"]
-    codes = {n["complex_code"] for n in notices if n.get("complex_code")} - set(cache)
-    for code in sorted(codes):
-        try:
-            body = get_json(url, {"serviceKey": KEY, "kaptCode": code, "_type": "json"})
-            b = body.get("response", body).get("body", body)
-            it = b.get("item", b.get("items", {}))
-            if isinstance(it, list):
-                it = it[0] if it else {}
-            addr = pick(it, "kaptAddr", "doroJuso")
-            cache[code] = {
-                "code": code,
-                "name": pick(it, "kaptName"),
-                "address": addr,
-                "sido": addr.split()[0] if addr else "",
-                "sigungu": addr.split()[1] if len(addr.split()) > 1 else "",
-                "use_approval": norm_date(pick(it, "kaptUsedate")),
-                "households": int(pick(it, "kaptdaCnt", "hoCnt") or 0),
-                "dong_count": int(pick(it, "kaptDongCnt") or 0),
-            }
-        except Exception as e:  # 한 단지 실패로 전체를 멈추지 않는다
-            cache[code] = {"code": code, "error": str(e)[:200]}
-        time.sleep(0.2)
-    return cache
+def classify(title: str) -> list[str]:
+    hits = []
+    for key, t in CONFIG["topics"].items():
+        if any(k in title for k in t["keywords"]) and not any(x in title for x in t.get("exclude", [])):
+            hits.append(key)
+    return hits
+
+
+# ---------------------------------------------------------------- 상세·단지
+def detail(bid_num: str) -> dict:
+    h = fetch("/bid/bidDetail.do", {"bidNum": bid_num, "type": "3"})
+    info: dict = {}
+    for th, td in re.findall(r"<th[^>]*>((?:(?!</?th).)*?)</th>\s*<td[^>]*>((?:(?!</?td).)*?)</td>", h, re.S):
+        k = text_of(th)
+        if k in ("입찰분류", "입찰종류", "입찰방법", "현장설명일시"):
+            info[k] = text_of(td)
+    # 단지 표: 헤더 행(단지명…세대수) 다음 행
+    m = re.search(r"세대수\s*</th>\s*</tr>\s*<tr>(.*?)</tr>", h, re.S)
+    if m:
+        tds = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)(?=<td|</tr>|$)", m.group(1), re.S)]
+        tds = [re.sub(r"</?td>", "", t).strip() for t in tds]
+        if len(tds) >= 6:
+            info["address"] = tds[1]
+            hh = int(re.sub(r"\D", "", tds[5]) or 0)
+            if hh:
+                info["households"] = hh
+            info["dong_count"] = int(re.sub(r"\D", "", tds[4]) or 0)
+    return info
+
+
+def complex_info(code: str, token: str) -> dict:
+    h = fetch("/cmmn/selectKapt.do", data={
+        "go_url": "/kaptinfo/openkaptinfo.do", "kapt_code": code,
+        "bjd_code": "", "search_date": "", "kaptDuty": "ALL", "_csrf": token,
+    })
+    t = text_of(h)
+    ua = re.search(r"사용승인일\(준공일\)\s*(\d{4}-\d{2}-\d{2})", t)
+    addr = re.search(r"법정동주소\s*(\S+\s+\S+)", t)
+    return {
+        "use_approval": ua.group(1) if ua else "",
+        "legal_address": addr.group(1) if addr else "",
+    }
+
+
+def region(addr: str) -> tuple[str, str]:
+    parts = (addr or "").split()
+    sido = parts[0] if parts else ""
+    sigungu = next((p for p in parts[1:3] if p.endswith(("구", "군", "시"))), "")
+    return sido, sigungu
+
+
+def norm_name(name: str) -> str:
+    return re.sub(r"(아파트|\s|\(.*?\))", "", name or "")
 
 
 def tag_filters(cx: dict) -> list[str]:
     tags = []
-    if not cx or "error" in cx:
-        return tags
     year = int((cx.get("use_approval") or "0")[:4] or 0)
     for key, f in CONFIG["filters"].items():
         if f.get("sido") and not cx.get("sido", "").startswith(f["sido"]):
@@ -196,88 +189,116 @@ def tag_filters(cx: dict) -> list[str]:
             continue
         if f.get("min_use_approval_year") and year < f["min_use_approval_year"]:
             continue
-        if f.get("min_households") and cx.get("households", 0) < f["min_households"]:
+        if f.get("min_households") and (cx.get("households") or 0) < f["min_households"]:
             continue
         tags.append(key)
     return tags
 
 
-# ---------------------------------------------------------------- 청약홈
-def collect_applyhome() -> list[dict]:
-    url = CONFIG["endpoints"]["applyhome_detail"]
-    since = (NOW - dt.timedelta(days=30 * CONFIG["applyhome_months_back"])).strftime("%Y-%m-%d")
-    out, page, per = [], 1, 100
-    while True:
-        body = get_json(url, {
-            "serviceKey": KEY, "page": page, "perPage": per,
-            "cond[SUBSCRPT_AREA_CODE_NM::EQ]": "서울",
-            "cond[RCRIT_PBLANC_DE::GTE]": since,
-        })
-        items, total = items_of(body)
-        for it in items:
-            out.append({
-                "id": f"applyhome-{pick(it, 'PBLANC_NO', 'HOUSE_MANAGE_NO')}",
-                "name": pick(it, "HOUSE_NM"),
-                "address": pick(it, "HSSPLY_ADRES"),
-                "households": int(pick(it, "TOT_SUPLY_HSHLDCO") or 0),
-                "notice_date": pick(it, "RCRIT_PBLANC_DE"),
-                "move_in": pick(it, "MVN_PREARNGE_YM"),
-                "builder": pick(it, "CNSTRCT_ENTRPS_NM"),
-                "notice_url": pick(it, "PBLANC_URL"),
-                "homepage": pick(it, "HMPG_ADRES"),
-            })
-        if not items or page * per >= total or page >= 30:
-            break
-        page += 1
-    return out
-
-
 # ---------------------------------------------------------------- main
-def run(name: str, fn):
-    try:
-        res = fn()
-        status[name] = {"ok": True, "count": len(res)}
-        return res
-    except Exception as e:
-        status[name] = {"ok": False, "error": str(e)[:300]}
-        print(f"[{name}] 실패: {e}", file=sys.stderr)
-        return None
-
-
 def main() -> int:
-    if not KEY:
-        print("DATA_GO_KR_API_KEY 가 없습니다. 저장소 Settings → Secrets 에 등록하세요.", file=sys.stderr)
-        return 1
-
+    status: dict = {"ran_at": NOW.isoformat(timespec="minutes"), "steps": {}}
     prev = {n["id"]: n for n in load("notices.json", {"items": []})["items"]}
-    new = run("kapt_bid", collect_kapt_bids) or []
-    for n in new:
-        n.setdefault("first_seen", NOW.strftime("%Y-%m-%d"))
-        if n["id"] in prev:
-            n["first_seen"] = prev[n["id"]].get("first_seen", n["first_seen"])
-        prev[n["id"]] = n
-
     complexes = load("complexes.json", {})
-    try:
-        complexes = enrich_complexes(list(prev.values()), complexes)
-        status["kapt_basis"] = {"ok": True, "count": len(complexes)}
-    except Exception as e:
-        status["kapt_basis"] = {"ok": False, "error": str(e)[:300]}
 
+    days = K["lookback_days"] if prev else K["first_run_lookback_days"]
+    start = (NOW - dt.timedelta(days=days)).strftime("%Y-%m-%d")
+
+    # 1) 키워드별 검색
+    found: dict[str, dict] = {}
+    errors = []
+    keywords = sorted({k for t in CONFIG["topics"].values() for k in t["keywords"]})
+    for kw in keywords:
+        try:
+            for r in search(kw, start, TODAY):
+                found.setdefault(r["bid_num"], r)
+        except Exception as e:
+            errors.append(f"{kw}: {e}")
+    matched = {b: r for b, r in found.items() if classify(r["title"])}
+    status["steps"]["search"] = {"ok": not errors or bool(found), "keywords": len(keywords),
+                                 "found": len(found), "matched": len(matched), "errors": errors[:5]}
+
+    # 2) 새 공고만 상세 조회
+    new_count, detail_err = 0, 0
+    for bid, r in matched.items():
+        nid = f"kapt-{bid}"
+        old = prev.get(nid, {})
+        item = {**old, **r, "id": nid, "source": "kapt_bid", "topics": classify(r["title"]),
+                "url": f"{BASE}/bid/bidDetail.do?bidNum={urllib.parse.quote(bid)}&type=3",
+                "first_seen": old.get("first_seen", TODAY)}
+        if "category" not in old:
+            try:
+                d = detail(bid)
+                item["category"] = d.get("입찰분류", "")
+                item["kind"] = d.get("입찰종류", "")
+                item["is_works"] = "공사" in item["category"]
+                code = r["complex_code"]
+                if code:
+                    cx = complexes.setdefault(code, {"code": code, "kapt": bool(KAPT_CODE.match(code))})
+                    cx["name"] = r["complex_name"]
+                    if d.get("address"):
+                        cx["address"] = d["address"]
+                        cx["sido"], cx["sigungu"] = region(d["address"])
+                    if d.get("households"):
+                        cx["households"] = d["households"]
+                        cx["dong_count"] = d.get("dong_count", 0)
+                new_count += 1
+            except Exception:
+                detail_err += 1
+        prev[nid] = item
+    status["steps"]["detail"] = {"ok": detail_err == 0, "new": new_count, "errors": detail_err}
+
+    # 3) 사용승인일이 없는 단지만 조회
+    need = [c for c, cx in complexes.items()
+            if KAPT_CODE.match(c) and not cx.get("use_approval") and not cx.get("ua_error")]
+    ua_ok = ua_err = 0
+    if need:
+        try:
+            token = csrf_token()
+            for code in need:
+                try:
+                    ci = complex_info(code, token)
+                    complexes[code].update({k: v for k, v in ci.items() if v})
+                    if not complexes[code].get("sido") and ci.get("legal_address"):
+                        complexes[code]["sido"], complexes[code]["sigungu"] = region(ci["legal_address"])
+                    if ci["use_approval"]:
+                        ua_ok += 1
+                    else:
+                        complexes[code]["ua_error"] = "사용승인일 없음"
+                        ua_err += 1
+                except Exception as e:
+                    ua_err += 1
+                    status.setdefault("complex_errors", []).append(f"{code}: {str(e)[:120]}")
+        except Exception as e:
+            status["steps"]["complex"] = {"ok": False, "error": str(e)[:200]}
+    status["steps"].setdefault("complex", {"ok": ua_err == 0, "updated": ua_ok, "errors": ua_err})
+
+    # 4) 같은 단지명의 정보 공유 → 수동 보정 → 필터 태그
+    by_name: dict[str, dict] = {}
+    for cx in complexes.values():
+        if cx.get("use_approval") or cx.get("households"):
+            by_name.setdefault(norm_name(cx.get("name", "")), {}).update(
+                {k: cx[k] for k in ("use_approval", "households", "sido", "sigungu") if cx.get(k)})
+    overrides = {norm_name(k): v for k, v in CONFIG.get("complex_overrides", {}).items() if not k.startswith("_")}
+    for cx in complexes.values():
+        key = norm_name(cx.get("name", ""))
+        for k, v in by_name.get(key, {}).items():
+            cx.setdefault(k, v)
+        cx.update(overrides.get(key, {}))
     for n in prev.values():
-        n["filters"] = tag_filters(complexes.get(n.get("complex_code", ""), {}))
-
-    items = sorted(prev.values(), key=lambda n: n.get("date", ""), reverse=True)
+        cx = complexes.get(n.get("complex_code", ""), {})
+        n["filters"] = tag_filters(cx)
+        n["households"] = cx.get("households")
+        n["use_approval"] = cx.get("use_approval", "")
+        n["sigungu"] = cx.get("sigungu", "")
+    items = sorted(prev.values(), key=lambda n: (n.get("date", ""), n["id"]), reverse=True)
     save("notices.json", {"updated": NOW.isoformat(timespec="minutes"), "items": items})
     save("complexes.json", complexes)
+    status["totals"] = {"notices": len(items), "complexes": len(complexes)}
+    save("run_status.json", status)
 
-    presale = run("applyhome", collect_applyhome)
-    if presale is not None:
-        save("presale.json", {"updated": NOW.isoformat(timespec="minutes"), "items": presale})
-
-    save("run_status.json", {"ran_at": NOW.isoformat(timespec="minutes"), "sources": status})
     print(json.dumps(status, ensure_ascii=False, indent=1))
-    return 0 if any(s.get("ok") for s in status.values()) else 2
+    return 0 if found or not errors else 2
 
 
 if __name__ == "__main__":

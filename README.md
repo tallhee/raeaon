@@ -11,39 +11,44 @@
 | 커뮤니티 식당 | 업체 선정 방식, 운영시간, 요금 |
 | 입대의·선관위 | 공고 모아보기 |
 
-비교 단지: 서울 2020년 이후 입주 단지, 송파·강남·서초·강동구 1,500세대 이상 대단지 (`config/sources.json` 에서 조정)
+비교 단지는 두 그룹입니다. 하나는 서울에서 2020년 이후 입주한 단지, 다른 하나는 송파·강남·서초·강동구의 1,500세대 이상 대단지입니다. 조건은 `config/sources.json`에서 바꿀 수 있습니다.
+
+## 어떻게 모으나
+
+API 키 없이, 누구나 볼 수 있는 [K-apt 입찰공고](https://www.k-apt.go.kr/bid/bidList.do) 페이지를 그대로 읽습니다.
+
+1. 서울 지역 입찰공고를 주제 키워드(주차관리, 방문차량, 커뮤니티, 식당 등)로 검색합니다.
+2. 제외어(도장, 방수, 청소 등)가 들어간 공고는 거릅니다. 처음 보는 공고는 상세 페이지에서 입찰분류와 단지 주소·세대수를 가져옵니다.
+3. 단지 정보 페이지에서 사용승인일을 가져와 비교 그룹에 속하는지 표시합니다.
+
+수집은 매일 06:47(KST)에 GitHub Actions에서 자동으로 돌아갑니다. 첫 실행은 1년치, 이후에는 최근 90일을 다시 확인합니다.
 
 ## 구조
 
 ```
-config/sources.json         주제 키워드, 비교 단지 조건, API 주소
-scripts/collect.py          수집 스크립트 (표준 라이브러리만 사용)
-.github/workflows/collect.yml  매일 06:47(KST) 자동 수집 + 수동 실행
-docs/                       GitHub Pages 사이트
-  data/rules.json           ← 원문 확인 후 직접 정리하는 규정 비교표
-  data/notices.json         자동 수집: K-apt 입찰공고 중 주제 관련 공고
-  data/complexes.json       자동 수집: 단지 기본정보 (입주연도·세대수)
-  data/presale.json         자동 수집: 청약홈 서울 입주자모집공고
-  data/run_status.json      자동 수집: 출처별 성공/실패
+config/sources.json            주제 키워드·제외어, 비교 단지 조건, 단지 정보 수동 보정
+scripts/collect.py             수집 스크립트 (표준 라이브러리만 사용)
+.github/workflows/collect.yml  매일 자동 수집 + 수동 실행
+docs/                          GitHub Pages 사이트
+  data/rules.json              ← 원문 확인 후 직접 정리하는 규정 비교표
+  data/notices.json            자동 수집: 주제별 공고
+  data/complexes.json          자동 수집: 단지 정보 (주소·세대수·사용승인일)
+  data/run_status.json         자동 수집: 마지막 실행 기록
 ```
 
 ## 처음 설정 (한 번만)
 
-1. **공공데이터포털 인증키**: [data.go.kr](https://www.data.go.kr)에서 아래 3개를 활용신청합니다. 보통 자동승인이며, 키 하나로 모두 쓸 수 있습니다.
-   - 국토교통부_공동주택 입찰공고 정보제공 서비스
-   - 국토교통부_공동주택 기본 정보제공 서비스
-   - 한국부동산원_청약홈 분양정보 조회 서비스
-2. **Secret 등록**: 저장소 Settings → Secrets and variables → Actions → New repository secret
-   이름 `DATA_GO_KR_API_KEY`, 값은 마이페이지의 **일반 인증키(Decoding)**.
-3. **Pages 켜기**: Settings → Pages → Source: Deploy from a branch → `main` / `/docs`.
-4. **첫 수집**: Actions → 공고 수집 → Run workflow. 결과는 사이트의 '수집 상태' 탭에서 확인합니다.
+1. **Pages 켜기**: Settings → Pages → Source: Deploy from a branch → `main` / `/docs`
+2. **Actions 쓰기 권한**: Settings → Actions → General → Workflow permissions → Read and write permissions
+3. **첫 수집**: Actions → 공고 수집 → Run workflow. 결과는 사이트의 '수집 상태' 탭에서 확인합니다.
 
-## 규정 비교표 채우기
+## 손으로 채우는 부분
 
-`docs/data/rules.json` 의 `complexes` 배열에 단지를 추가합니다. 원문에서 확인한 값만 적고, 모르는 칸은 `null` 로 둡니다. 항목마다 `source`(원문 링크)와 `checked`(확인일)를 남겨 주세요.
+- **규정 비교표** (`docs/data/rules.json`): 공고문·관리규약·커뮤니티 운영세칙을 읽고 확인한 값만 적습니다. 모르는 칸은 `null`로 두고, 항목마다 `source`(원문 링크)와 `checked`(확인일)를 남깁니다.
+- **단지 정보 보정** (`config/sources.json`의 `complex_overrides`): KG2B·아파트아이 같은 민간 전자입찰로 올라온 공고는 K-apt 단지코드가 없어 세대수·사용승인일을 자동으로 못 가져옵니다. 이런 단지는 여기에 적으면 비교 그룹 필터에 반영됩니다. 같은 단지명의 K-apt 공고가 한 번이라도 있으면 그 정보를 자동으로 빌려옵니다.
 
 ## 알려진 한계
 
-- **서울시 공동주택마당(openapt)**: 공개 API가 없어 자동 수집에서 빠져 있습니다. 찾은 공고는 rules.json의 `source` 링크로 남깁니다.
-- **K-apt 입찰공고 원문**: API에는 개별 공고 상세 링크가 없어 목록 페이지로 연결됩니다.
-- API 주소나 필드명이 바뀌면 '수집 상태'에 실패로 표시되며, `config/sources.json`의 `endpoints`만 고치면 됩니다.
+- K-apt 입찰공고에는 **입찰로 진행된 일**만 올라옵니다. 주차·커뮤니티 운영규정 자체는 대부분 관리규약이나 운영세칙에 있으므로, 공고는 "어느 단지가 어떤 운영을 외부에 맡기는지" 찾는 단서로 씁니다. 구체적인 규정은 첨부 공고문이나 각 단지 공지에서 확인합니다.
+- K-apt 화면 구조가 바뀌면 수집이 실패하고, '수집 상태' 탭에 표시됩니다.
+- GitHub Actions 서버는 해외에 있어서, K-apt가 해외 접속을 막으면 자동 수집이 되지 않습니다. 이 경우 집 컴퓨터에서 `python scripts/collect.py`를 실행한 뒤 커밋하는 방식으로 바꿀 수 있습니다.
