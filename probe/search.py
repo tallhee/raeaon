@@ -1,6 +1,6 @@
 import re,html,json,urllib.request,urllib.parse,http.cookiejar,sys
 B="https://openapt.seoul.go.kr"
-names=["올림픽선수촌아파트","선수기자촌","올림픽아이파크","잠실올림픽아이파크","올림픽파크포레온","메이플자이","래미안라그란데","헬리오시티","래미안솔베뉴","개포자이프레지던스","잠실"]
+names=["올림픽선수기자촌","잠실올림픽공원아이파크","올림픽파크포레온","메이플자이","래미안라그란데","헬리오시티","래미안솔베뉴","개포자이프레지던스"]
 _old=["올림픽파크포레온","올림픽선수촌","메이플자이","래미안라그란데","잠실올림픽아이파크","헬리오시티","래미안솔베뉴","개포자이프레지던스","올림픽파크","선수촌","자이프레지던스","솔베뉴","라그란데","잠실올림픽"]
 ret=sys.argv[1]
 op=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
