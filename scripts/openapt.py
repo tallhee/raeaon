@@ -193,7 +193,7 @@ def extract(path: Path, name: str) -> tuple[str, str]:
 
 # ---------------------------------------------------------------- 안건 나누기·주제
 AGENDA_HEAD = re.compile(
-    r"^\s*(?:제\s*\d+\s*호\s*(?:의안|안건)?|안건\s*\d+|\d{1,2}\s*[\.\)]\s*(?=\S)|[①-⑳]|[가-하]\s*[\.\)]\s*(?=\S))")
+    r"^\s*(?:제\s*\d+\s*호\s*(?:의안|안건)?|안건\s*\d+|\d{1,2}\s*[\.\)]\s*(?=\S)|[①-⑳])")
 AGENDA_TAIL = re.compile(r"(?:의\s*건|\s건|승인\s*건)\s*(?:[\[(][^\])]*[\])])?\s*$")
 VOTE = re.compile(r"(찬\s*성|반\s*대|기\s*권|보\s*류|가\s*결|부\s*결|원안\s*(?:가결|의결)|승인|의결)")
 
@@ -211,7 +211,12 @@ def clean(txt: str) -> str:
     return "\n".join(lines)
 
 
+GENERIC_HEAD = re.compile(r"의결\s*주문|안건\s*상정\s*및\s*토의|회의\s*개요|성원\s*보고|참석\s*현황|개회\s*선언|폐회")
+
+
 def is_head(ln: str) -> bool:
+    if GENERIC_HEAD.search(ln) or len(re.findall(r"[가-힣]", ln)) < 6:  # 목차·끊긴 줄은 안건 머리로 보지 않음
+        return False
     if AGENDA_HEAD.match(ln) and ("건" in ln or "의안" in ln or "안건" in ln or VOTE.search(ln)):
         return True
     return len(ln) <= 90 and bool(AGENDA_TAIL.search(ln))
@@ -373,6 +378,12 @@ def main() -> int:
     for it in items.values():
         if it.get("status") == "error" and it.get("retried") is None:
             it["status"], it["retried"] = "pending", True
+    # 규칙을 고치면 예전 글에도 반영되도록, 저장해 둔 글자로 안건 분석을 다시 한다
+    for it in items.values():
+        tp = TEXT_DIR / it["code"] / f"{it['nttId']}.txt"
+        if it.get("status") == "done" and tp.exists():
+            it["agenda"] = analyze(tp.read_text(encoding="utf-8"))
+            it["topics"] = sorted({t for a in it["agenda"] for t in a["topics"]})
     persist()
     status["totals"] = {
         "posts": len(items),
