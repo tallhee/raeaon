@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-15T23:09+09:00",
+ "ran_at": "2026-10-16T00:20+09:00",
  "complexes": {
   "잠실래미안아이파크": {
    "listed": 16,
@@ -40,73 +40,139 @@
   "올림픽선수기자촌아파트": {
    "listed": 20,
    "new": 0,
-   "done": 6,
+   "done": 0,
    "errors": []
   },
   "잠실올림픽공원아이파크": {
    "listed": 20,
    "new": 0,
-   "done": 5,
+   "done": 0,
    "errors": []
   },
   "올림픽파크포레온": {
    "listed": 20,
    "new": 0,
-   "done": 11,
+   "done": 0,
    "errors": []
   },
   "메이플자이": {
    "listed": 20,
    "new": 0,
-   "done": 7,
+   "done": 0,
    "errors": []
   },
   "래미안라그란데": {
    "listed": 20,
    "new": 0,
-   "done": 13,
+   "done": 0,
    "errors": []
   },
   "헬리오시티아파트": {
    "listed": 20,
    "new": 0,
-   "done": 14,
+   "done": 0,
    "errors": []
   },
   "래미안솔베뉴": {
    "listed": 20,
    "new": 0,
-   "done": 7,
+   "done": 0,
    "errors": []
   },
   "개포자이프레지던스": {
    "listed": 20,
    "new": 0,
-   "done": 12,
+   "done": 0,
    "errors": []
   },
   "잠실리센츠": {
    "listed": 20,
    "new": 0,
-   "done": 13,
+   "done": 0,
    "errors": []
   },
   "잠실엘스아파트": {
    "listed": 20,
    "new": 0,
-   "done": 11,
+   "done": 0,
    "errors": []
   },
   "잠실레이크팰리스": {
    "listed": 20,
    "new": 0,
+   "done": 0,
+   "errors": []
+  },
+  "잠실동트리지움": {
+   "listed": 39,
+   "new": 21,
+   "done": 11,
+   "errors": []
+  },
+  "청담르엘": {
+   "listed": 26,
+   "new": 15,
+   "done": 15,
+   "errors": []
+  },
+  "청담자이": {
+   "listed": 51,
+   "new": 26,
+   "done": 13,
+   "errors": []
+  },
+  "디에이치방배": {
+   "listed": 0,
+   "new": 0,
+   "done": 0,
+   "errors": []
+  },
+  "서초그랑자이": {
+   "listed": 20,
+   "new": 1,
+   "done": 0,
+   "errors": []
+  },
+  "래미안리더스원": {
+   "listed": 41,
+   "new": 21,
+   "done": 9,
+   "errors": []
+  },
+  "개포더샵트리에": {
+   "listed": 41,
+   "new": 17,
+   "done": 6,
+   "errors": []
+  },
+  "개포래미안포레스트": {
+   "listed": 31,
+   "new": 15,
+   "done": 7,
+   "errors": []
+  },
+  "디에이치 아너힐즈": {
+   "listed": 150,
+   "new": 72,
+   "done": 9,
+   "errors": []
+  },
+  "디에이치퍼스티어아이파크": {
+   "listed": 42,
+   "new": 21,
    "done": 10,
+   "errors": []
+  },
+  "래미안블레스티지": {
+   "listed": 38,
+   "new": 20,
+   "done": 8,
    "errors": []
   },
   "래미안퍼스티지": {
    "listed": 20,
    "new": 0,
-   "done": 9,
+   "done": 0,
    "errors": []
   },
   "반포경남": {
@@ -124,13 +190,13 @@
   "반포리체": {
    "listed": 20,
    "new": 0,
-   "done": 7,
+   "done": 0,
    "errors": []
   },
   "반포미도아파트": {
    "listed": 20,
    "new": 0,
-   "done": 7,
+   "done": 0,
    "errors": []
   },
   "반포본동아파트": {
@@ -142,30 +208,53 @@
   "반포자이": {
    "listed": 20,
    "new": 0,
-   "done": 7,
+   "done": 0,
    "errors": []
   },
   "아크로리버파크": {
    "listed": 20,
    "new": 0,
-   "done": 5,
+   "done": 0,
+   "errors": []
+  },
+  "반포 르엘 아파트": {
+   "listed": 34,
+   "new": 17,
+   "done": 10,
+   "errors": []
+  },
+  "아크로리버뷰 신반포": {
+   "listed": 47,
+   "new": 20,
+   "done": 10,
    "errors": []
   }
  },
  "complete": false,
  "resolve": {
-  "found": [],
-  "not_found": [],
-  "ambiguous": [],
-  "errors": [
-   "invalid literal for int() with base 10: ''"
-  ]
+  "found": [
+   "잠실트리지움 → A13822002",
+   "청담르엘 → A10020363",
+   "청담자이 → A13510007",
+   "디에이치방배 → A10019911",
+   "서초그랑자이 → A10024240",
+   "래미안리더스원 → A10024552",
+   "강남구 개포동: 6곳",
+   "서초구 반포동: 9곳",
+   "서초구 잠원동: 2곳"
+  ],
+  "not_found": [
+   "래미안힐스테이트고덕",
+   "송파시그니처롯데캐슬",
+   "힐스테이트e편한세상문정"
+  ],
+  "ambiguous": []
  },
  "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
  "totals": {
-  "posts": 390,
-  "done": 359,
-  "pending": 31,
-  "agenda_items": 2336
+  "posts": 656,
+  "done": 467,
+  "pending": 189,
+  "agenda_items": 2682
  }
 }
