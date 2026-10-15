@@ -1,0 +1,48 @@
+{
+ "ran_at": "2026-10-15T21:34+09:00",
+ "complexes": {
+  "잠실래미안아이파크": {
+   "listed": 16,
+   "new": 8,
+   "done": 8,
+   "errors": []
+  },
+  "잠실르엘": {
+   "listed": 28,
+   "new": 17,
+   "done": 17,
+   "errors": []
+  },
+  "원페를라": {
+   "listed": 10,
+   "new": 5,
+   "done": 5,
+   "errors": []
+  },
+  "원펜타스": {
+   "listed": 46,
+   "new": 19,
+   "done": 19,
+   "errors": []
+  },
+  "원베일리": {
+   "listed": 35,
+   "new": 18,
+   "done": 18,
+   "errors": []
+  },
+  "파크리오": {
+   "listed": 58,
+   "new": 25,
+   "done": 25,
+   "errors": []
+  }
+ },
+ "complete": true,
+ "totals": {
+  "posts": 92,
+  "done": 74,
+  "pending": 0,
+  "agenda_items": 421
+ }
+}
