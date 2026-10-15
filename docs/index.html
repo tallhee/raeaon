@@ -80,7 +80,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar" id="noticeTopics"></div>
   <div class="bar" id="noticeFilters"></div>
   <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색">
-    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사 공고 숨기기</label></div>
+    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사·취소 공고 숨기기</label></div>
   <p class="meta" id="noticeCount"></p>
   <div class="list" id="noticeList"></div>
 </section>
@@ -143,7 +143,7 @@ function chips(el,map,state,onChange,multi){
   const drawNotices=()=>{
     const term=q.value.trim();
     const items=((notices?.items)||[]).filter(n=>
-      (!hw.checked||!n.is_works)&&
+      (!hw.checked||(!n.is_works&&n.state!=="취소"))&&
       (!nt.size||n.topics.some(x=>nt.has(x)))&&
       (!nf.size||(n.filters||[]).some(x=>nf.has(x)))&&
       (!term||(n.title+n.complex_name).includes(term)));
@@ -153,7 +153,7 @@ function chips(el,map,state,onChange,multi){
       const cx=[n.sigungu,n.households?`${n.households.toLocaleString()}세대`:"",n.use_approval?`${n.use_approval.slice(0,4)}년 승인`:""].filter(Boolean).join(" · ");
       return `<article class="card">
       <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
-      <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · 공고일 ${esc(n.date||"–")}${n.deadline?` · 마감 ${esc(n.deadline)}`:""}${n.category?` · ${esc(n.category)}`:""}</div>
+      <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · ${n.date?`공고 ${esc(n.date)} · `:""}마감 ${esc(n.deadline||"–")}${n.state?` · ${esc(n.state)}`:""}${n.amount?` · 낙찰 ${n.amount.toLocaleString()}원`:""}${n.category?` · ${esc(n.category)}`:""}</div>
       <div>${n.topics.map(x=>`<span class="tag">${TOPICS[x]||x}</span>`).join("")}${(n.filters||[]).map(x=>`<span class="tag">${FILTERS[x]||x}</span>`).join("")}</div>
       </article>`;}).join(""):`<div class="empty-state">${notices?"조건에 맞는 공고가 없습니다.":"아직 수집된 공고가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
   };
@@ -163,7 +163,7 @@ function chips(el,map,state,onChange,multi){
 
   // 상태
   const names={search:"공고 검색",detail:"공고 상세",complex:"단지 정보(사용승인일)"};
-  const desc=s=>s.found!=null?`검색 ${s.found}건 → 주제 일치 ${s.matched}건`:s.new!=null?`새 공고 ${s.new}건`:s.updated!=null?`새로 확인 ${s.updated}곳`:"";
+  const desc=s=>s.found!=null?`검색 ${s.found}건 → 주제 일치 ${s.matched}건`:s.new!=null?`새 공고 ${s.new}건`:s.updated!=null?`새로 확인 ${s.updated}곳${s.without_code?` · 단지코드 없음 ${s.without_code}곳`:""}`:"";
   document.getElementById("statusGrid").innerHTML=status?Object.entries(status.steps||{}).map(([k,s])=>
     `<div class="card"><h3>${names[k]||k}</h3><div class="${s.ok?"ok":"bad"}">${s.ok?"정상":"일부 실패"}</div><div class="meta">${esc(desc(s))}${s.error?` · ${esc(s.error)}`:""}${(s.errors&&s.errors.length)?` · 오류 ${esc(Array.isArray(s.errors)?s.errors.join(", "):s.errors)}`:""}</div></div>`).join("")+
     `<div class="card"><h3>마지막 실행</h3><div class="meta">${esc(status.ran_at)}<br>누적 공고 ${status.totals?.notices??"–"}건 · 단지 ${status.totals?.complexes??"–"}곳</div></div>`
