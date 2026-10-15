@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+	
+		onInfoDetail('A10021122');
+	
+	
+	
+})
+</script>
+
+<!-- BBS -->
+<div class="schReLayerWrap row">
+	<div class="schReHeader row">
+		<div class="w-col-l">
+			<h4>올림픽파크포레온 <span class="txSubInfo hide1024">양재대로 (12,032세대)</span></h4>
+		</div>
+		<div class="w-col-c">
+			<div class="schReMenu">
+				<a href="javascript:void(0);" class="schReMenu01 on" onclick="onInfoDetail('A10021122')"><span>기본정보</span></a>
+				<a href="javascript:void(0);" class="schReMenu02"
+					onclick="selectBoardDetail('/portal/aMenu/aptInfo/detailComponent/bidNotice', null, 'poSupportNews.aptSupportNewsSelect', 'bidStat:bidCon', 'A10021122');">
+						<span>공사용역정보</span>
+				</a>
+				<a href="javascript:void(0);" class="schReMenu03"
+					onclick="selectBoardDetail('/portal/aMenu/aptInfo/detailComponent/leaderMeetingList', '02', 'openAptMngCommonBoard.openAptMngBoardList', null, 'A10021122');">
+						<span>입주자대표회의</span>
+				</a>
+			</div>
+		</div>
+		<div class="w-col-r">
+			<a href="/openApt/index.do?aptCode=A10021122" target="_blank" id="btnGoDangi"><img src="../images/portal/icoDangiHome.png" alt="단지홈 방문"></a>
+			<a href="javascript:void(0);" id="btnLayerClose" onclick="closeBtn();"><img src="../images/portal/btnClosePopG.png" alt="단지정보닫기"></a>
+		</div>
+	</div><!-- /schReHeader -->
+	<div class="infoDangiLayerWrap row">
+		<div id="frameContents" class="row"></div><!-- /frameContents -->
+	</div>
+</div>
