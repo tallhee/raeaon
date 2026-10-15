@@ -1,9 +1,7 @@
-name: 공고 수집
+name: K-apt 입찰공고 수집 (수동)
 
+# 자동 실행 중지: 주력은 openapt 입대의 회의결과. 필요할 때만 Actions에서 수동 실행.
 on:
-  schedule:
-    - cron: "47 21 * * *"   # 매일 06:47 KST
-    - cron: "17 3,9,15 * * *"  # 첫 수집이 끝날 때까지 이어받기 (12:17·18:17·00:17 KST, 완료 후엔 금방 끝남)
   workflow_dispatch:
 
 permissions:
