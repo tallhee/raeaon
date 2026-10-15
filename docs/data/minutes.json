@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:34+09:00",
+ "updated": "2026-10-15T21:58+09:00",
  "topics": {
   "parking": "주차",
   "community": "커뮤니티",
@@ -82,12 +82,91 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261013&physical=C550FB44C9364A0FB571E9E985DC68A8.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1485,
+   "agenda": [
+    {
+     "head": "제1호. 음식물쓰레기 자동이송설비 유지관리 업체 선정 건",
+     "text": "제1호. 음식물쓰레기 자동이송설비 유지관리 업체 선정 건\n> 재계약 요청 금액에 대한 유지관리 산출 내역을 검토 후에 재계약 USS 결정하기로 하여 보류함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "제2호. 커뮤니티 남녀 사우나 및 수영장 청소업체 선정 건",
+     "text": "제2호. 커뮤니티 남녀 사우나 및 수영장 청소업체 선정 건\n> 임찰공고문 HME 전자임찰을 통해 선정하기로 의결함.(일반경쟁 / 최저가격제 / 전자임찰)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 크리스마스트리 설치 및 용품 구매 건",
+     "text": "제5호. 크리스마스트리 설치 및 용품 구매 건\n> 단지 외부 크리스마스트리는 3번게이트 SEM 113동앞 잔디광장에 설치하기로 의결함.\n> 크리스마스트리 용품은 1백만원 내외로 구매를 하여 설치하기로 의결함.\n> 커뮤니티 로비의 크리스마스트리는 그린코리아(1,600,000원, VAT 별도)에 렌탈하여 설치하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 헬스장 운동기구 구매 변경 건",
+     "text": "제6호. 커뮤니티 헬스장 운동기구 구매 변경 건\n> 헬스장 SSH ALS 구매하기로 한 ”갤력시아514”이 한국 대리점 물품 판매 라이션스에 관한 As 중으로\n패소시 향후 A/S 등의 문제가 발생할 수 있으므로 소송 결과 후 FOS 결정하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호. 커뮤니티 남녀 독서실 에어컨 습식 청소 건",
+     "text": "제7호. 커뮤니티 남녀 독서실 에어컨 습식 청소 건\n> 남녀 독서실 에어컨 습식 BAS 최저가 제시엄체인 클린아르떼(3,366,000원, VAT 포함)를 통해 실시하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 커뮤니티 리빙센스 팝업 행사 건",
+     "text": "제8호. 커뮤니티 리빙센스 팝업 행사 건\n> 지상 카페에서 리빙센스의 BY 행사를 진행하기로 의결함.(3,000,000원, VAT 포함 / 수임)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호. 시설물 유지관리 업체 선정 논의 건",
+     "text": "제9호. 시설물 유지관리 업체 선정 논의 건\nD> '기계설비자동제어`와 、주차관제 및 LPREtEY Of 대해서만 유지관리 엄체를 선정하기로 의결함.\n> 아트큐브 LEDLS 수리에 Gol 의결함.((주)글로우원, 3,000,000원, VAT 별도)",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제10호. 지하주차장 출입구 3번게이트 YESS 차량 출입 혀용 건",
+     "text": "제10호. 지하주차장 출입구 3번게이트 YESS 차량 출입 혀용 건\n> 해당 안건에 대해서는 추가 논의하기로 하여 보류함.",
+     "topics": [
+      "parking"
+     ],
+     "votes": "보류"
+    }
+   ],
+   "topics": [
+    "community",
+    "operator",
+    "parking"
+   ],
+   "parser": 2
   },
   {
    "nttId": "3058662",
@@ -144,12 +223,78 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261006&physical=9FFDDB4CADBE4BDFB8C8C5957652D6A9.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1337,
+   "agenda": [
+    {
+     "head": "제2호. 다이닝(식당) 운영업체 계약 건",
+     "text": "제2호. 다이닝(식당) 운영업체 계약 건\n> 다이닝(식당) 운영엄체로 씨제이프레시웨이를 선정 의결함.\n기간 : 2026.09.23. ~ 2027.09.22(1년), 식단가 금액: 성인1식 71Z 13,0002(VAT 포함)",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 용역업체 계약만료 건",
+     "text": "제3호. 용역업체 계약만료 건\n> 용역엄제 재계약은 아래와 같이 의결함.\n임재 a\naa 3250.00\n206 26 되기 STO SOR, VAT HD\n> 귀무라미완경테크와 음식물쓰레기이송설비 유지관리 계약은 금액의 적정성에 대해 검토 후 차기회의에 재논의 하기로 함.\n> 커뮤니티 SIA 용역은 오성종합청소와 재계약을 하지 않기로 의결함.(임찰을 통해 엄체 선정 예정)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 커뮤니티 에어컨 습식 청소 건",
+     "text": "제4호. 커뮤니티 에어컨 습식 청소 건\n> 게스트하우스, 카페, 다목적실 등 에어컨 습식 YAL 클린아르떠(2.200,000원, VAT 별도) HE 동해 실시하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 스마트 가든 월 조화 구매 설치 건",
+     "text": "제5호. 스마트 가든 월 조화 구매 설치 건\n> 골프장과 카페의 스마트 가든 월에 조화는 성훈아트(323,000원, VAT 포함가)에서 구매하여 설치하기로 의결함.",
+     "topics": [
+      "community",
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 외벽 및 유리창 청소 건",
+     "text": "제6호. 외벽 및 유리창 청소 건\n> 해당 사안에 대해서는 관리규약 개정 등 실시할 수 있는 방안을 모색 후에 재논의 하기로 함.",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호. 공공개방시설 실태점검 논의 건",
+     "text": "제7호. 공공개방시설 실태점검 논의 건\n> 공공개방시설 실태점검을 실시할 회계사는 회계범인 예다움(2,500,000원, \\/&ㅣ 별도)을 선정 의결함.\n> 또한, 공동주택전문가 1인을 입주자대표회의에서 추천할 수 있도록 요청하기로 함.",
+     "topics": [
+      "public"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "operator",
+    "public",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "3055894",
@@ -1686,12 +1831,92 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261013&physical=88DA6A215BCE4C048896EF2E5C673B67.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    },
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260929&physical=DEE0E036A1E04A14A9B995F1092A9ABA.jpg&contentType=image/jpeg",
+     "name": "본문이미지2.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr"
+   ],
+   "chars": 2267,
+   "agenda": [
+    {
+     "head": "제1호. 장기수선계획 조정(안) 검토 건",
+     "text": "제1호. 장기수선계획 조정(안) 검토 건\n> 「공동주택관리법」제29조에 따라 장기수선계획서를 검토하여 아래와 같이 장기수선계획 조정(얀을 확정 의결함.\n장기수선계획의 수선기간 조정 : 40년에서 50년으로 변경.(2063년 — 2073년으로 변경)\n= 소액지출 금액 변경 : 3,000,000원 — 5,000,000원으로 변경\n긴금공사 금액 변경 : 100,000,000원으로 변경\n= 항목별 장기수선계획 수선 주기 변경.\n수선 항목 비 고\noy 수성 도료 2\n건물내부 수성도료칠\n하준차장 바닥 부분수 하자보증기간 3년차(2026년로\neS 시공사에서 하자보수로 인하여\n승강기 WSEAS 전면교체 SHRI WB.\n보안 방법시설(영상정보처리기기) 전면교체\n어린이늘이시설, BESS, 정화조, 안내표지판 부분수리",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "ABS. 예-적금 통장 만기 해지 및 신규 개설 건",
+     "text": "ABS. 예-적금 통장 만기 해지 및 신규 개설 건\n> 커뮤니티 적립금 및 장기수선충당금의 1년만기 OAS SIS 하나은행에 신규 개설하기로 의결함.\nzs a4\n정기예금 3.47\n82193 3.0\n정금 2.88",
+     "topics": [
+      "community",
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 용역 및 시설사용 업체 계약만료 건",
+     "text": "제6호. 용역 및 시설사용 업체 계약만료 건\n> 비씨아이티, 노블레스미디어인터내셔날, 우리커피 YAS 아래와 같이 재계약 하기로 의결함.\n2 = = 커피 원두 10kg(VAT 별도)\n> 감을유통(카페 SS 단가 남품)과는 남품하는 식품과 물품에 다해 재검토 후 재계약 OME 결정하기로 하여 보류함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "제7호. 스마트 가든 월 조화 구매 건",
+     "text": "제7호. 스마트 가든 월 조화 구매 건\n> 커뮤니티 담당 이사가 조화의 설치 구성과 엄체 및 가격에 대해 추가 확인 후 결정하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 커뮤니티 운영시간 조정(안) 건",
+     "text": "제8호. 커뮤니티 운영시간 조정(안) 건\n> 각 커뮤니티 업장별 퇴실시간을 정하여 규정에 추가하고 안내문을 부착하여 공지하도록 의결함.\n시우, 6, 사탕 | | 마산 108전 | 혈쓰징 | 924긴 108핀",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호. 커뮤니티 미화반장 급여 인상 건",
+     "text": "제9호. 커뮤니티 미화반장 급여 인상 건\n> 커뮤니티 미화반장 SHS 기존 2,575,000원에서 2,900,000원으로 인상 변경하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제12호. 관리규약 개정(안) 논의 건",
+     "text": "제12호. 관리규약 개정(안) 논의 건\n> 시간 관계상 차기 회의에서 논의하기로 함.\n2026. 8. 14. ae\nOF 워베잎 Ox 3] O 회상 -\n래미안 원베일리 입주자대표회의 회장 ㆍ\n개 [리레의희",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "3032463",
@@ -2902,12 +3127,60 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260807&physical=0F70AC5D113D469FB852391D7D1C5247.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1253,
+   "agenda": [
+    {
+     "head": "제1호. 다이닝(식당) 운영업체 선정 건",
+     "text": "제1호. 다이닝(식당) 운영업체 선정 건\n> 다이닝(식당) 운영엄제인 선정 관련하여 입주민 설문조사 실시하기로 의결함.\n씨제이프레시웨이와의 재계약 여부\n을 씨제이프레시웨이가 제안한 성인 TAL 기준 13,000원(\\#ㅠ FEO 다한 수응 여부\n> 설문조사 결과 씨제이프레시워이와의 재계약에 대해 다수의 찬성을 얻지 못하면 업체 선정을 위한 입찰을\n진행하기로 의결함.\n-. 제만경쟁 / 적격심사제 / 전자임찰(<020)\n-. 입찰공고문 중에서 음식 서빙 BAS “직원서빙\"에서 \"로봇서빙\"으로 변경 후 임찰 진행.",
+     "topics": [
+      "dining"
+     ],
+     "votes": "찬성을 얻지 못하면 업체 선정을 위한 입찰을"
+    },
+    {
+     "head": "제2호. 외곽보안문 관련 후속 논의 건",
+     "text": "제2호. 외곽보안문 관련 후속 논의 건\n> 위곽보안문 설지 행위허가 신청에 대안 서초구청의 반려 통보에 대해 소송비용으로 변호사 선임비용 500만원을\n『관리규약 제62조제5항4호』에 따라 사용하고, 변호사 선임은 차기회의에서 결정하기로 의결함.\n> 외곽보안문 설치 강랭 여부에 대해 입주민 설문조사 하기로 의결함.\n-. 설문조사 진행 전 강행 설치시 불이익 등에 대해 충분히 고지 후 진행.\n> 단지 외곽 출임 통로에는 AB 보드를 설치하고 비용은 차기회의에서 정하기로 의결함.",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "ABS. 승강기 내부 LCD 모니터 광고 업체 선정 건",
+     "text": "ABS. 승강기 내부 LCD 모니터 광고 업체 선정 건\nSA AVS 위한 US 진행하기로 함.(제한경쟁 / 최고가 낙찰 / 전자임찰(<020))\n2회 유찰시 최초 제안한 바움씨앤에이와 수의계약을 하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 지하공공보행통로 유지관리 논의 건",
+     "text": "제4호. 지하공공보행통로 유지관리 논의 건\n래미안 원베일리 공공개방시설의 운영권자인 서초구청에 지하공공보행통로를 포함하여 유지관리를 진행하도록\nSES 발송하기로 의결함.",
+     "topics": [
+      "public"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "dining",
+    "operator",
+    "public",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "3022741",
@@ -3474,12 +3747,103 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260724&physical=E4D5534216654AA08BF64F015EBF27BA.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    },
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260724&physical=072954D1EAA14BB99EDB2B251ABE75FD.jpg&contentType=image/jpeg",
+     "name": "본문이미지2.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr"
+   ],
+   "chars": 1918,
+   "agenda": [
+    {
+     "head": "ANS. 다이닝(식당) SSAA 선정 건",
+     "text": "ANS. 다이닝(식당) SSAA 선정 건\n> 다이닝(식당) SIAM 씨제이프레시웨이의 2,000원(성인 TA 기준) 인상 요청에 대해서 금액 인상 폭,\n운영시간, 투임 인력 조정 SS 씨제이프레시웨이와 YS 진랭하기로 함.\n> 재계약 협상이 안 될 경우에 다양한 업제가 참여할 수 있도록 임찰 공고문을 검토하기로 하며, 타 아파트의\n다이닝(식당)을 견학하여 음식 및 서비스 상태를 AMAT 함.",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 세무주치의 업체 계약만료 건",
+     "text": "제3호. 세무주치의 업체 계약만료 건\n기존 업체인 선율회계법인&.기융정보통신(연납, 770,000원, VAT 별되과 1년간(2026.9.15. ~ 2027.9.14.)\n재계약하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 세탁서비스(시설사용 BGI 단가계약) 계약만료 건",
+     "text": "제4호. 세탁서비스(시설사용 BGI 단가계약) 계약만료 건\n기존 YA! 그린어스코리아(유)와 WA 재계약하기로 의결함.\n3 39\n시설사용료 월 250000원(081 별도)\ntidied LLL 150,0008C8%4 부과)\nail 단가 계약 al 세탁 단가는 기존과 동일",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 커뮤니티 운영규정 개정 건",
+     "text": "제5호. 커뮤니티 운영규정 개정 건\n『개인정보보호범』제16조제3항(애인정보의 수집 제핸에 따라 안면인식 정보 ASH 동의하지 않거나 제공하지\n못할 경우 대체 수단을 제공에 대만 커뮤니티 운영규정 개정(안)에 의결함.",
+     "topics": [
+      "community",
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 미화 용역 전환 건",
+     "text": "제6호. 커뮤니티 미화 용역 전환 건\n커뮤니티 미화팀의 팀장을 신규로 구인하여 SYS 해보고 전환 여부를 결정하기로 하여 veg,\n= 뒷면에 계속\n(주)타워피엠씨\n===== 본문이미지2.jpg =====\n공고번호(005): 제2026-020호 RAEMIAN ONEBAILEY\n게시기간: 2026.7.10. ~ 2026.7.16.\n자 7A 이즈 이의 겨과 고고\n제2기 제7차 정기 입주사대표회의 결과 공고",
+     "topics": [
+      "community",
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 장기수선계획 조정 업체 선정 건",
+     "text": "제8호. 장기수선계획 조정 업체 선정 건\n래미안 원베일리 시공엄제인 삼성물산이 작성한 장기수선계획 정기조정을 위해 장기수선기술원(2,690,000원,\nVAT 별도) 엄체를 선정하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호. 관리규약 개정 건",
+     "text": "제9호. 관리규약 개정 건\n시간 관계상 추후 논의 하기로 함.",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제11호. 공공개방시설 개선을 위한 TF Team 조직 운영 건",
+     "text": "제11호. 공공개방시설 개선을 위한 TF Team 조직 운영 건\nTF 76007을 동대표 5명(장*, 이**, 김**, 이**, 김**)을 구성하여 운영하기로 의결함.\n2026. 7. 10. are\n의 베이 이즈 히의 3s Aga\n래미안 원베 일리 입주자대표회의 ics\n[리레의리",
+     "topics": [
+      "public"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "finance",
+    "operator",
+    "public",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "3008955",
@@ -3786,12 +4150,44 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260626&physical=8E1853948DEA47A8B0108896E993E91F.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1075,
+   "agenda": [
+    {
+     "head": "제1호. 외곽보안문 후속 조치 논의 건",
+     "text": "제1호. 외곽보안문 후속 조치 논의 건\n> 법적 대응을 진행하기 위한 소송비용(변호사 선임 비용: 착수금 1천만원 + 성공보수 1천만원)을 집행하기로 하며,\n소송비용 UBS 위해 '관리규약 제62조저5항4호」에 따라 YEAS 과반수 동의 절차 이후 업체를 선정 하기로 함.\n> 「관리규약 제71조 및 제71조의2조, O 따라 업체 선정을 위한 전자입찰 이후 적격심사를 통해 엄체를\n선정하며, 적격심사 위원은 7인(동대표 4인, 입주자등 3인)으로 구성하기로 Ze.\n> OM 단지 구역 경계에 안내 표시물(에 SHS, AY 보드 등) 등을 기술이사 주관하에 설치 하기로 의결함.",
+     "topics": [
+      "operator",
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 커뮤니티 설문조사 결과에 따른 운영 방법 심의 건",
+     "text": "제3호. 커뮤니티 설문조사 결과에 따른 운영 방법 심의 건\n설문조사 결과를 반영하여 커뮤니티 운영 방식 및 운영시간을 변경하기로 함.\n> 커뮤니티 운영 방안 설문조사 결과\n2 커뮤니티 운영 방식 : 월 사용 쿠폰제(세대 당 50회) - 58.5%\n@ 커뮤니티 연장 운영 : 일요일 2시간 연장 운영09:00 ~ 20:00) - 64.1%\n> 커뮤니티 운영 변경에 대한 개정(얀은 원안대로 개정하기로 함.\n-. 커뮤니티 운영 규정 별도 공지\n> 커뮤니티 운영 방식 및 운영시간은 변경은 2026년 8월 1일부터 시행하기로 함.\n-. 커뮤니티 변경 사항에 대해 홈닉 프로그램 개발 및 테스트 진행 예정.\n2026. 6. 26. Saal\n래미안 원베 일리 입주자대표회의 noice\n[리레의리",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "operator",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2998415",
@@ -4066,12 +4462,74 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260615&physical=5B6DDE696D8B4641929FBB1793B519AE.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1154,
+   "agenda": [
+    {
+     "head": "제1호. 소방시설 점검업체 선정 건",
+     "text": "제1호. 소방시설 점검업체 선정 건\n원안대로 소방시설 종합/작동 FACS 전자입찰을 통해 선정하기로 의결람.\n(제한경쟁 / 최저가낙찰 / 전자입찰)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호. 커뮤니티 운영에 관한 설문조사 건",
+     "text": "제2호. 커뮤니티 운영에 관한 설문조사 건\n커뮤니티 운영 방안 설문내용(운영 방식 및 연장 운영) 원안대로 UES 설문조사를 실시하기로 의결람.\n※ 설문조사 안내 공고문 참조.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 커뮤니티 스마트 가든월 공기청정기 조화 설치 운영 건",
+     "text": "제3호. 커뮤니티 스마트 가든월 공기청정기 조화 설치 운영 건\n각 업체의 조화 설치 예상 조감도 확인 및 해당 시설의 다양한 이용 방안을 추가 논의 후 결정하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 커뮤니티 헬스장 기구 구매 건",
+     "text": "제4호. 커뮤니티 헬스장 기구 구매 건\n기존에 사용중인 유산소 기구와 동일한 제품으로 1대 구매하기로 의결함.\n> 제조사 : 테크노짐, 비용 : 31,000,000원(커뮤니티 적립금 사용)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 커뮤니티 헬스장 및 로비 에어컨 습식 세척 건",
+     "text": "제5호. 커뮤니티 헬스장 및 로비 에어컨 습식 세척 건\n커뮤니티의 헬스장 및 로비 등 에어컨 습식 PAE 오성종함청소(3,542,000원, VAT 포함) YAS 통해\n실시하기로 의결람.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 알로 웰니스 데이 행사 진행 건",
+     "text": "제6호. 커뮤니티 알로 웰니스 데이 행사 진행 건\n중앙일보에서 주관하는 (AE 웰니스 데이> WHS 진랭하기로 의결함.(1,000,000원, VAT 별도, 수임)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "operator"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2982876",
@@ -4186,12 +4644,94 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260518&physical=4903F622A90F4368967E214380C725D4.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1278,
+   "agenda": [
+    {
+     "head": "제1호. 잠수교 개선사업 협조 요청 건",
+     "text": "제1호. 잠수교 개선사업 협조 요청 건\n서울시 잠수교 개선사엄인 지하공공보행통로 연결 공사 및 아파트 지하주차장과의 연결통로 AAS 위한 파손-철거\n및 증설에 따른 제반 공사에 대해 행위허가 신청을 위해 동의업무를 진행하기로 의결함.",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호. 외부 회계감사 업체 선정 건",
+     "text": "제2호. 외부 회계감사 업체 선정 건\n회계감사 엄체는 회계법인 예다움(0##3,900,000원, VATHE)S 선정하여 수의계약을 체결하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 조경유지관리 용역업체 계약만료 건",
+     "text": "제3호. 조경유지관리 용역업체 계약만료 건\n조경유지관리 SAE @케이지에코(0#276,000,000원, VAT 별도)와 수의계약을 체결하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 기계설비 성능점검 용역업체 선정 건",
+     "text": "제4호. 기계설비 성능점검 용역업체 선정 건\n기계설비 성능점검 SAS 기계성능기술원(주)(\\2,300,000원, VAT 별도)과 수의계약을 체결하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 커뮤니티 운영 방안 설문조사 건",
+     "text": "제5호. 커뮤니티 운영 방안 설문조사 건\n커뮤니티 운영에 대해 설문조사는 진행하나 설문조사의 내용에 대해서는 추가 논의 후 진행하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 잡지 비치 시설사용 계약 건",
+     "text": "제6호. 커뮤니티 잡지 비치 시설사용 계약 건\n신세계 매거진 잡지를 커뮤니티에 비치하기 위한 시설사용 계약을 체결함.(월\\400,000원, VAT 별도, 수임)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호. 커뮤니티 운영규정 개정 건",
+     "text": "제7호. 커뮤니티 운영규정 개정 건\n커뮤니티 단체수업의 폐강 및 추가 강슴료 신설 등에 대해 원안대로 의결함.",
+     "topics": [
+      "community",
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 시설실 소모품 단가계약 업체 선정 건",
+     "text": "제8호. 시설실 소모품 단가계약 업체 선정 건\n소모품 남품 단가계약 Sale 유신상사(단가 총액 \\802,150원, VAT 별되)를 선정 수의계약을 체결하기로 의결함.(1년)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator",
+    "parking",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2965757",
@@ -4582,12 +5122,50 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260410&physical=523C4F2447C9470EA6696B968A2F4D6F.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 887,
+   "agenda": [
+    {
+     "head": "제3호. 외부 회계감사 업체 선정 건",
+     "text": "제3호. 외부 회계감사 업체 선정 건\n회계감사 실시 후 입주자대표회의에 감사 AWS 별도 보고 가능 여부를 확인 후 YS 선정하기로 보류함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "제4호. 용역업체 계약만료 건",
+     "text": "제4호. 용역업체 계약만료 건\nㆍ 조경유지관리엄체 SAAN 재계약 여부는 상세 산출내역을 확인 후 재논의 하기로 함.\nㆍ 관리비부과명세서 제작은 바움씨앤에이와 무상제작(2,990부)으로 1년간 재계약 하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 상반기 저수조 청소업체 선정 건",
+     "text": "제5호. 상반기 저수조 청소업체 선정 건\n저수조 청소엄체는 OBSW3,450,000H, VAT 별도)과 수의계약 하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "finance",
+    "operator"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2951937",
@@ -4600,12 +5178,33 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260410&physical=5DEABE98DE1D456982E173567856525B.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 441,
+   "agenda": [
+    {
+     "head": "ANS. 하자진단전문업체 선정 사업설명회 건",
+     "text": "ANS. 하자진단전문업체 선정 사업설명회 건\n5개 업체별 사엄설명회 내용 및 제안서를 검토하여 적격심사 평가 후 상위 2개 엄체를 선정하여\n차기회의시 선정하기로 의결함.\nㆍ 참여 엄체 : 일신 CNA, 인명건설(주), 세일산업개발(주), @3건축과메트로, 준더원씨앤아이\n2026. 4. 1. Te\n래미안 원베일리 입주자대표회의 d 잘 |",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "operator"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2951260",
@@ -4772,12 +5371,84 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260323&physical=218253DF33C240AB830D65A3EAFF4C86.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1306,
+   "agenda": [
+    {
+     "head": "제1호. 회의 일정 및 진행 방식 결정 건",
+     "text": "제1호. 회의 일정 및 진행 방식 결정 건\nㆍ 정기회의 : 매월 두 번째 목요일 20:00\nㆍ 중계:녹화ㆍ녹음 : 줌(20010)을 이용하여 회의 중계 및 녹화녹음 진행.\n회의 중계 장비(3,650,000원, VAT 별도) 구매 및 줌(20014) 서비스를 가입 하기로 함.\nㆍ 기타 : 회의시 관리주체 참여 각종 행정(회의록 및 발언내용 작성 등) 지원.\n네이버 입주자대표회의 카페 SYS “관리이사\"가 담당하여 관리하기로 함.",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호. 제2기 입주자대표회의 이사 선임 건",
+     "text": "제2호. 제2기 입주자대표회의 이사 선임 건\nㆍ 제2기 입주자대표회의 이사는 4명을 선임하기로 함.\nㆍ 관리이사 : ASH, 기술이사 : MBS, 커뮤니티이사 : 장경원, 공동체활성화단체이사 : 이상호 동대표를\n각각 MBE.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 커뮤니티 남녀사우나 에어컨 세척 건",
+     "text": "제3호. 커뮤니티 남녀사우나 에어컨 세척 건\n남녀사우나 에어컨 MAS 전문엄체인 @초록우산하우스크리닝(2,670,000원, VAT 별도)에 수의계약\n하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 커뮤니티 잡지 비치를 위한 시설사용 계약 건",
+     "text": "제4호. 커뮤니티 잡지 비치를 위한 시설사용 계약 건\n@더북컴퍼니의 신한마6106 잡지 비치를 위한 시설사용 계약을 체결하기로 의결함.\nㆍ 기간: 2026.1.1. ~ 12.31.(1년), 금액 : 1,600,000원(분기당 400,000원, VAT 별도, 수입)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 커뮤니티 소모품 단가계약 업체 선정 건",
+     "text": "제5호. 커뮤니티 소모품 단가계약 업체 선정 건\n입찰 공고문 원안대로 일반경쟁/최저가 낙찰/전자임찰(0044.<920.<07)를 통해 선정하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 운영 방안 심의 건",
+     "text": "제6호. 커뮤니티 운영 방안 심의 건\n커뮤니티 운영 방안에 대해서는 현행 대비 다양한 안을 논의 후 입주민 설문조사를 향후 진행하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 장기수선충당금 및 커뮤니티적립금 예금 에치 건",
+     "text": "제8호. 장기수선충당금 및 커뮤니티적립금 예금 에치 건\n장기수선충당금(161,757,280원)과 커뮤니티적립금(250,000,000원)을 하나은행 1년 만기 정기에금에 에치\n커뮤니티적립금 중 보통예금(68,358,630원)은 하나은행 3개월 만기 정기에금에 에치하기로 의결함.\n2026. 3. 20. Soe\n워베잎 인즈 히의 후 Po ae\n래미안 원베 일리 입주자대표회의 nice",
+     "topics": [
+      "community",
+      "finance"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "finance"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2933646",
@@ -4948,12 +5619,99 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260223&physical=41EBB128EF6841C68C9C497760C6A9BD.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1201,
+   "agenda": [
+    {
+     "head": "제1호. 2025년 결산보고 및 이익잉여금 처분 건",
+     "text": "제1호. 2025년 결산보고 및 이익잉여금 처분 건\nㆍ 원안대로 2025년 결산을 승인하고, 이익잉여금 697,701,735원 처분하기로 의결함.\nㆍ 관리비차감적립금 535,950,455원은 세대수 비율로 12개월 정액 분할 차감하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호. 추가 경정 예산 승인 건",
+     "text": "제2호. 추가 경정 예산 승인 건\n횡주관 준설 비용(16,566,666원), 용역직원(보안/미화) 상여금(15,200,000원)을 추가 경정 예산에 반영하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 관리비 여유자금 예치 건",
+     "text": "제5호. 관리비 여유자금 예치 건\n관리비 통장에 있는 퇴직충당금(7억)에 대해서 단기성정기예금(1개월)상품에 예치하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "HES. 커뮤니티 남녀사우나 에어컨 세척 건",
+     "text": "HES. 커뮤니티 남녀사우나 에어컨 세척 건\n시간 관계상 차기 회의 재논의.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호. 설 명절 특근 및 용역직원 특별 상여금 지급 건",
+     "text": "제7호. 설 명절 특근 및 용역직원 특별 상여금 지급 건\n명절 연휴기간 미화팀 특근(2/16, 2/18) 및 용역직원[보안(29명)/미화(41)] 상여금(7/,000,000원을 지금하기로\n의결함.(임사 3개월 미만은 미지급)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호. 용역업체 계약 만료 건",
+     "text": "제8호. 용역업체 계약 만료 건\n용역엄체에 대해 아래와 같이 재계약을 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호. 전기직무고시 용역업체 계약(추인) 건",
+     "text": "제9호. 전기직무고시 용역업체 계약(추인) 건\n한국전기테스트(주) 엄체와 계약을 추인 의결함.(계약기간: 26.1.15.~27.1.14. 금액:1,600,000원 VATHS)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제10호. 커뮤니티 잡지 비치를 위한 시설사용 계약 건",
+     "text": "제10호. 커뮤니티 잡지 비치를 위한 시설사용 계약 건\n시간 관계상 차기 회의 재논의.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제11호. 커뮤니티 청소용품 단가계약 업체 선정 건",
+     "text": "제11호. 커뮤니티 청소용품 단가계약 업체 선정 건\n시간 관계상 차기 회의 재논의.\n2026. 2. 13. 리로애원\nOF 워베일 Ox fe) Agee\n래미 안 원베 일리 입주자대표회의 Eich =\n(주)타워피엠씨",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2915048",
@@ -4966,12 +5724,51 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260206&physical=CF0F364AAD0D4A2D995B540A90B829CF.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1056,
+   "agenda": [
+    {
+     "head": "제1호. 관리비 여유자금 에치 건",
+     "text": "제1호. 관리비 여유자금 에치 건\n재검토 후 차기회의에서 재논의하기로 함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호. 부대복리시설 사용규정 개정 건",
+     "text": "제2호. 부대복리시설 사용규정 개정 건\n부대복리시설 사용규정 개정(안)에 대해 의결함.\n2. 외부인이 부대:복리시설을 사용 시어는 임주자 | 2. 외부인이 부대:복리시설을 사용 시에는 임주\nHESS 사전 사용 SOE 받은 후 사용할 수 | 자등을 위한 행사, 홍보, 서비스 제공 일 경우에만 eo\n있다. 사용 시 기본 규정은 동일하게 적용하되 사용 | 가능하며 임주자대표회의에 승인을 받은 이후 사 | BESS\n요금 BARNES 임주자다표회의에서 규정 외 | BE 수 있다. 사용 시 기본 규정은 동얄하게 a] 기우 오아\n별도로 약정할 수 있다. gels] 시용 요금 및 Aja] 임주자대표회의 | BA Se\n에서 규정 외 별도로 약정할 수 있다.\n3. 시설 ABS 예약제로 한다. 사용 요금은 | 3. 시설 ABS 예약제로 한다. 사용 요금은 | 』 4, yes\n임주민은 관리비로 부과하며 외부인은 사전 예약 | 사용전에 미리 남부하여야 한다. pairs\n및 사용료를 선남한 순서로 사용한다. 나",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 커뮤니티 남녀사우나 에어컨 세척 건",
+     "text": "제3호. 커뮤니티 남녀사우나 에어컨 세척 건\n차기회의에서 재논의",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2913792",
@@ -5390,12 +6187,51 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260113&physical=36723343153B4564BCBBA1AA390B32D3.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1214,
+   "agenda": [
+    {
+     "head": "제2호. 커뮤니티 운영규정 개정 건",
+     "text": "제2호. 커뮤니티 운영규정 개정 건\n커뮤니티 운영규정 개정(안)을 아래와 같이 의결함.\n> 7세 이하 어린이는 부모동반시 입장 가능합니다.\n> BY 및 키오스크로 당일 예약 가능합니다.(주단위 예약 없음)\n> B42 통해서 당일, 주단위(1주일) 예약을 실시합니다.\n다목적체육관 이용 수칙 [> 예약은 안내데스크에서만 가능합니다.(당일, 일주일단위(화~차주 화요일)\n> 관리주체는 다음 각호에 해당하는 경우 구두동보 후 이용정지, 시설 이용자 등록삭제\n규정 위반 이용정지 (거부), 강제탈퇴 등의 한시적 또는 영구적 시설의 이용제만 AAS 취할 수 있다.\n관한 사랑 ((1회 위반시 1개월, 2회 3개월, 3회 6개월 이용정지 및 정도에 따라 대표회의 의결에\n의거 제한 조치할 수 있다. 추가 위반시 누적 적용됨)",
+     "topics": [
+      "community",
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 커뮤니티 남녀사우나 에어컨 세척 건",
+     "text": "제4호. 커뮤니티 남녀사우나 에어컨 세척 건\n남녀사우나 에어컨 ML 전문업체의 추가 AAS 받아서 재논의 하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 회의 중계 민원에 대한 관리규약 준수 행정지도 건",
+     "text": "제6호. 회의 중계 민원에 대한 관리규약 준수 행정지도 건\n해당 안건 부결됨.",
+     "topics": [
+      "rules"
+     ],
+     "votes": "부결"
+    }
+   ],
+   "topics": [
+    "community",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2898225",
@@ -5494,12 +6330,59 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260102&physical=63802EC9F90B40C1A0CF5F5AA311ADD5.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1047,
+   "agenda": [
+    {
+     "head": "제2호. 다목적실 흡음재 설치 재심의 건",
+     "text": "제2호. 다목적실 흡음재 설치 재심의 건\n다목적실에 대해서는 시공사에서 제안한 흡음재 아트보드를 시공사에 설치 요청하고,\n파인갤러리 카페에 대해서는 보류하기로 의결함.",
+     "topics": [
+      "dining"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "제4호. SBE 생활하수 횡주관 세정 작업 업체 선정 건",
+     "text": "제4호. SBE 생활하수 횡주관 세정 작업 업체 선정 건\n입찰공고문 원안대로 제한경쟁/최저가 낙찰/전자입찰(\\004/.<021).0077)를 통해 선정하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 회의 중계 민원에 대한 관리규약 준수 행정지도 건",
+     "text": "제5호. 회의 중계 민원에 대한 관리규약 준수 행정지도 건\n선거구 조정을 위한 관리규약 개정(안의 입주자등의 투표 결과 이후 차기 회의 재논의",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호. 시공사 시설사용 규정 예외 적용 심의 건",
+     "text": "제9호. 시공사 시설사용 규정 예외 적용 심의 건\n시공사(삼성물산)의 시설사용 비용은 1년간 면제하기로 의결함.\n2025. 12. 12. 라인란\n워베익 ox 히의 회장ㅋ=\n래미안 원베일리 입주자대표회의 회장.",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "dining",
+    "operator",
+    "rules"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2891865",
@@ -6389,12 +7272,67 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20251114&physical=267CDD9CADAB4EED92CA50BF4D2AAB9D.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1178,
+   "agenda": [
+    {
+     "head": "제1호. 2026년 사업계획서 및 예산안 승인 건",
+     "text": "제1호. 2026년 사업계획서 및 예산안 승인 건\n원안대로 2026년 사업계획서 및 예산안 승인 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": "승인 의결"
+    },
+    {
+     "head": "ABS. 다이닝(식당) 운영시간 변경 및 운영위원회 구성 건",
+     "text": "ABS. 다이닝(식당) 운영시간 변경 및 운영위원회 구성 건\n다이닝(식당) 운영시간 변경 및 운영위원회 구성은 아래와 같이 의결함.\n> 평일(중식) 운영시간 : 11:00 ~ 15:00 (30분 변경하기로 함, 실행일자는 재공지 예정)\n> 운영위원회 HIS 총 6명(동대표 4명, 관리주체 2명)으로 하며 매월 개최하기로 하되 동별대표자\n선거 이후 재구성.",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 다이닝(식당) 전열교환기 필터 교체 건",
+     "text": "제4호. 다이닝(식당) 전열교환기 필터 교체 건\n커뮤니티 다이닝(식당) 전열교환기 필터 교체 작업은 미래클레어에서 진행하기로 의결함.\n(비용 \\4,272,000원, VAT 별도)",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 커뮤니티 스타일러 팝업행사 건",
+     "text": "제5호. 커뮤니티 스타일러 팝업행사 건\n파인갤러리 카페에서 스타일러 팝업행사를 진행하기로 의결함.\n내용: 2025.11.21. ~ 11.22.(금) 2일간, W1,925,0002(VAT 포함, 수입)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 1프레시웨이 직원 카페 유료 이용 요청 건",
+     "text": "제6호. 1프레시웨이 직원 카페 유료 이용 요청 건\n이프레시웨이 다이닝(식당) 직원에 한해서 카페를 유료로 이용할 수 있도록 의결함.",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "finance"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2860975",
@@ -6579,12 +7517,42 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20251017&physical=57212B308C814CD281134FEE74FDE2C7.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 912,
+   "agenda": [
+    {
+     "head": "제3호. 복합기 렌탈 계약만료 건",
+     "text": "제3호. 복합기 렌탈 계약만료 건\n원안대로 복합기 렌탈 업체 비씨아이티와 재계약을 (추인)의결함.\n계약기간 : 2025.11.1.~2027.10.31.(2년)\n계약내용 : 기본요금 \\580,000원(월, VAT 별도) + 장당 추가요금\n0 ere =] 블랙: 5,000 | 블랙: 5원\nso 분기 ee 50004 |e Se",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 이동통신사 AG 전기요금 관리비 차감 건",
+     "text": "제4호. 이동통신사 AG 전기요금 관리비 차감 건\n이동통신사(56, KT, LGU+) 중계기 전기요금 소금분0#114,905,540원)은 공용전기요금에서\n공급면적별로 12개월 분할하여 차감하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "finance",
+    "operator"
+   ],
+   "parser": 2
   },
   {
    "nttId": "2847387",
@@ -7014,12 +7982,77 @@
    "bbs": "02",
    "board": "입주자대표회의",
    "first_seen": "2026-10-15",
-   "status": "no-text",
-   "files": [],
-   "methods": [],
-   "chars": 0,
-   "agenda": [],
-   "topics": []
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20250912&physical=9C54DEE8BA914DE2931F898ABE8AE367.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1246,
+   "agenda": [
+    {
+     "head": "제2호. 용역업체 계약만료 건(소독, 커뮤니티 탕청소)",
+     "text": "제2호. 용역업체 계약만료 건(소독, 커뮤니티 탕청소)\n아래와 같이 계약만료 업제와 재계약 하기로 의결함.\n> 소독 용역은 주식회사 블루써브와 1년간 재계약(\\#2,850,000원/월, VAT 면세)\n> 커뮤니티 SIA SAS 오성종합청소와 년간 재계약(\\8,000,000원/월, VAT 별도)",
+     "topics": [
+      "community",
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호. 커뮤니티 카페 부재료 단가 계약 건",
+     "text": "제3호. 커뮤니티 카페 부재료 단가 계약 건\n아래와 같이 1년간 물품 남품 단가 계약을 의결함.\n> 원두커피는 우리커피를 선정.(일반 원두 \\24,000원, 디카페인 원두 \\38,000원)\n카페 음료 및 부재료는 감을유통을 선정.(단가 총액 \\720,500원)",
+     "topics": [
+      "community",
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호. 커뮤니티 적립금 예치 건",
+     "text": "제4호. 커뮤니티 적립금 예치 건\n커뮤니티 적립금(0\\318,325,681원) 중에서 2억5천만원에 대해 2개의 정기예금 통장에 각각 6개월\n예치하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호. 사우나 탕 세관 작업 실시 건",
+     "text": "제5호. 사우나 탕 세관 작업 실시 건\n남녀 사우나 수질관리를 위하여 여재 교체 및 세관 BAS 주식회사 한배를 선정하여 시행하기로\n의결함.(0\\4,500,000원, VAT 별도)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호. 커뮤니티 전열교환기 청소 및 필터교체(헬스장, 로비) 추인 건",
+     "text": "제6호. 커뮤니티 전열교환기 청소 및 필터교체(헬스장, 로비) 추인 건\n커뮤니티 헬스장과 로비의 전열교환기 청소 및 필터교체 작업을 미래클레어에서 사전 진행사항에\n대해서 추인 의결함.0#3,388,000원)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "HSS. 추석 연휴 특근 및 용역직원 특별 상여금 지급 건",
+     "text": "HSS. 추석 연휴 특근 및 용역직원 특별 상여금 지급 건\n원안대로 추석 연휴 각팀별(관리/시설/커뮤니티/보안/미화) 특근을 시행하기로 의결함.\n보안(29명)/미화(47명) 각 1인당 100,000원의 추석 상여금을 지금하기로 의결함.(총 \\7,600,000원)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "operator"
+   ],
+   "parser": 2
   }
  ]
 }
