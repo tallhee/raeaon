@@ -262,7 +262,7 @@ def analyze(txt: str) -> list[dict]:
 
 # ---------------------------------------------------------------- 단지 찾기 (이름·지역 → aptCode)
 CX_CACHE = DATA / "openapt_complexes.json"
-INFO_VERSION = 2  # 기본정보 해석 방식을 바꾸면 올린다 (캐시된 단지를 다시 확인)
+INFO_VERSION = 3  # 기본정보 해석 방식을 바꾸면 올린다 (캐시된 단지를 다시 확인)
 REGION_PREFIX = re.compile(r"^(잠실|서초|반포|송파|청담|개포|강남|강동|고덕|문정|방배|둔촌|가락)")
 
 
@@ -295,7 +295,7 @@ class Portal(Session):
                                                     "searchValue": f"aptCode:{code}",
                                                     "returnUrl": "portal/aMenu/aptInfo/detailComponent/aptInfoBasic"}))
         ua = re.search(r"사용승인일\s*(\d{4})[-.](\d{2})[-.](\d{2})", t)
-        hh = re.search(r"세대수\s*([\d,]+)", t)
+        hh = re.search(r"세대수\s*(\d[\d,]*)\s*세대", t)
         addr = re.search(r"주소\s*(서울\S*\s+(\S+구)\s+(\S+동))", t)
         return {"use_approval": "-".join(ua.groups()) if ua else "",
                 "households": int(hh.group(1).replace(",", "")) if hh else 0,
@@ -358,6 +358,7 @@ def resolve_complexes(status: dict) -> list[dict]:
             return cx
 
         for name in tg.get("names", []):
+          try:
             if name in cache["names"]:
                 code = cache["names"][name]
                 if by_code.get(code, {}).get("info_v") != INFO_VERSION:
@@ -380,27 +381,36 @@ def resolve_complexes(status: dict) -> list[dict]:
             detail(best["code"], {"name": best["name"], "road": best["road"], "households": best["households"]})
             cache["names"][name] = best["code"]
             log["found"].append(f"{name} → {best['code']}")
+          except Stop:
+            raise
+          except Exception as e:
+            log.setdefault("errors", []).append(f"{name}: {str(e)[:120]}")
 
         for a in tg.get("areas", []):
-            key = a["area"]
-            prev_a = cache["areas"].get(key, {})
-            if prev_a.get("v") == INFO_VERSION and prev_a.get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
-                continue  # 지역 검색은 한 달에 한 번
-            gu, dong = key.split()
-            codes = []
-            for r in P().search(gu=gu, dong=dong):
-                if a.get("min_households") and r["households"] < a["min_households"] and not a.get("min_year"):
-                    continue
-                cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"],
-                                        "sigungu": gu, "dong": dong})
-                year = int((cx.get("use_approval") or "0")[:4] or 0)
-                if a.get("min_year") and year < a["min_year"]:
-                    continue
-                if a.get("min_households") and (cx.get("households") or 0) < a["min_households"]:
-                    continue
-                codes.append(r["code"])
-            cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key), "v": INFO_VERSION}
-            log["found"].append(f"{key}: {len(codes)}곳")
+          try:
+              key = a["area"]
+              prev_a = cache["areas"].get(key, {})
+              if prev_a.get("v") == INFO_VERSION and prev_a.get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
+                  continue  # 지역 검색은 한 달에 한 번
+              gu, dong = key.split()
+              codes = []
+              for r in P().search(gu=gu, dong=dong):
+                  if a.get("min_households") and r["households"] < a["min_households"] and not a.get("min_year"):
+                      continue
+                  cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"],
+                                          "sigungu": gu, "dong": dong})
+                  year = int((cx.get("use_approval") or "0")[:4] or 0)
+                  if a.get("min_year") and year < a["min_year"]:
+                      continue
+                  if a.get("min_households") and (cx.get("households") or 0) < a["min_households"]:
+                      continue
+                  codes.append(r["code"])
+              cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key), "v": INFO_VERSION}
+              log["found"].append(f"{key}: {len(codes)}곳")
+          except Stop:
+            raise
+          except Exception as e:
+            log.setdefault("errors", []).append(f"{a.get('area')}: {str(e)[:120]}")
     except Stop:
         raise
     except Exception as e:
