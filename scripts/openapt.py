@@ -464,11 +464,9 @@ def resolve_complexes(status: dict) -> list[dict]:
             for gu in gs.get("gus", []):
                 try:
                     prev_g = gcache.get(gu, {})
-                    if prev_g.get("v") == INFO_VERSION and prev_g.get("checked", "") > month_ago and prev_g.get("complete"):
+                    if prev_g.get("gv") == 2 and prev_g.get("checked", "") > month_ago and prev_g.get("complete"):
                         continue
                     res = [r for r in P().search(gu=gu) if r["households"] >= gs.get("min_households", 1000)]
-                    # 2020년 이후 단지는 대부분 새 코드(A10…)라 그쪽만 기본정보를 확인해 조회를 줄인다
-                    res = [r for r in res if r["code"].startswith("A10")]
                     picked = []
                     for r in sorted(res, key=lambda r: -r["households"]):
                         cx = detail(r["code"], {"name": r["name"], "road": r["road"], "households": r["households"]})
@@ -476,7 +474,7 @@ def resolve_complexes(status: dict) -> list[dict]:
                             picked.append(r["code"])
                         if len(picked) >= gs.get("top_per_gu", 3):
                             break
-                    gcache[gu] = {"checked": today, "codes": picked, "v": INFO_VERSION, "complete": True}
+                    gcache[gu] = {"checked": today, "codes": picked, "v": INFO_VERSION, "gv": 2, "complete": True}
                     log["found"].append(f"{gu}: {len(picked)}곳")
                 except Stop:
                     raise
