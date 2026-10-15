@@ -321,9 +321,7 @@
       "서초그랑자이",
       "래미안리더스원",
       "송파시그니처롯데캐슬",
-      "힐스테이트e편한세상문정",
-      "이문아이파크자이",
-      "래미안길음센터피스"
+      "힐스테이트e편한세상문정"
     ],
     "areas": [
       {
@@ -390,153 +388,6 @@
         "min_year": 2018,
         "min_households": 300,
         "label": "청담 신축"
-      },
-      {
-        "area": "종로구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "종로구 신축 대단지"
-      },
-      {
-        "area": "중구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "중구 신축 대단지"
-      },
-      {
-        "area": "용산구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "용산구 신축 대단지"
-      },
-      {
-        "area": "성동구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "성동구 신축 대단지"
-      },
-      {
-        "area": "광진구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "광진구 신축 대단지"
-      },
-      {
-        "area": "동대문구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "동대문구 신축 대단지"
-      },
-      {
-        "area": "중랑구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "중랑구 신축 대단지"
-      },
-      {
-        "area": "성북구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "성북구 신축 대단지"
-      },
-      {
-        "area": "강북구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "강북구 신축 대단지"
-      },
-      {
-        "area": "도봉구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "도봉구 신축 대단지"
-      },
-      {
-        "area": "노원구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "노원구 신축 대단지"
-      },
-      {
-        "area": "은평구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "은평구 신축 대단지"
-      },
-      {
-        "area": "서대문구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "서대문구 신축 대단지"
-      },
-      {
-        "area": "마포구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "마포구 신축 대단지"
-      },
-      {
-        "area": "양천구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "양천구 신축 대단지"
-      },
-      {
-        "area": "강서구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "강서구 신축 대단지"
-      },
-      {
-        "area": "구로구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "구로구 신축 대단지"
-      },
-      {
-        "area": "금천구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "금천구 신축 대단지"
-      },
-      {
-        "area": "영등포구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "영등포구 신축 대단지"
-      },
-      {
-        "area": "동작구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "동작구 신축 대단지"
-      },
-      {
-        "area": "관악구",
-        "min_year": 2020,
-        "min_households": 1000,
-        "top": 3,
-        "label": "관악구 신축 대단지"
       }
     ],
     "gu_scan": {
@@ -668,36 +519,6 @@
           "둔촌",
           "포레온",
           "강동"
-        ]
-      },
-      {
-        "label": "서울 기타 신축",
-        "sigungu": [
-          "종로구",
-          "중구",
-          "용산구",
-          "성동구",
-          "광진구",
-          "동대문구",
-          "중랑구",
-          "성북구",
-          "강북구",
-          "도봉구",
-          "노원구",
-          "은평구",
-          "서대문구",
-          "마포구",
-          "양천구",
-          "강서구",
-          "구로구",
-          "금천구",
-          "영등포구",
-          "동작구",
-          "관악구"
-        ],
-        "name": [
-          "이문",
-          "길음"
         ]
       },
       {

@@ -319,6 +319,21 @@ class Portal(Session):
                 "sigungu": addr.group(2) if addr else "", "dong": addr.group(3) if addr else ""}
 
 
+BRANDS = ["래미안", "힐스테이트", "롯데캐슬", "시그니처", "이편한세상", "자이", "아이파크", "푸르지오", "더샵",
+          "디에이치", "아크로", "르엘", "센트레빌", "호반써밋", "SK뷰", "에스케이뷰", "포레나", "그랑자이", "리더스원"]
+
+
+def name_tokens(name: str) -> list[str]:
+    n = norm(name).replace("e편한세상", "이편한세상")
+    toks = []
+    for b in sorted(BRANDS, key=len, reverse=True):
+        if b in n:
+            toks.append(b)
+            n = n.replace(b, " ")
+    toks += [w for w in n.split() if len(w) >= 2]
+    return toks
+
+
 def norm(n: str) -> str:
     return re.sub(r"(아파트|\s|\(.*?\))", "", n or "")
 
@@ -393,6 +408,13 @@ def resolve_complexes(status: dict) -> list[dict]:
                         [r for r in res if norm(q) in norm(r["name"])]
                 if exact:
                     break
+            if not exact:  # 단어 순서가 다른 경우: 브랜드·지명 조각으로 찾아 모든 조각이 들어간 단지
+                toks = name_tokens(name)
+                for q in sorted(toks, key=len, reverse=True)[:2]:
+                    res = P().search(name=q)
+                    exact = [r for r in res if all(t in norm(r["name"]).replace("e편한", "이편한") for t in toks)]
+                    if exact:
+                        break
             if not exact:
                 log["not_found"].append(name)
                 continue
@@ -483,7 +505,10 @@ def resolve_complexes(status: dict) -> list[dict]:
         merged = {**by_code.get(cx["code"], {}), **cx}
         out.append(merged)
         seen.add(cx["code"])
-    wanted = list(cache["names"].values()) + [c for a in cache["areas"].values() for c in a.get("codes", [])]
+    area_keys = {a.get("label") or a["area"] for a in tg.get("areas", [])}
+    name_keys = set(tg.get("names", []))
+    wanted = [v for k, v in cache["names"].items() if k in name_keys] + \
+             [c for k, a in cache["areas"].items() if k in area_keys for c in a.get("codes", [])]
     gu_codes = {c for g in cache.get("gus", {}).values() for c in g.get("codes", [])}
     wanted += [c for c in gu_codes if c not in wanted]
     for code in wanted:
@@ -491,7 +516,7 @@ def resolve_complexes(status: dict) -> list[dict]:
             continue
         seen.add(code)
         out.append({**by_code[code], **({"via": "gu_scan"} if code in gu_codes and code not in
-                                        set(cache["names"].values()) else {})})
+                                        {cache["names"][k] for k in name_keys if k in cache["names"]} else {})})
     pinned = {norm(x) for x in CFG.get("display", {}).get("pinned", [])}
     for cx in out:
         cx["groups"] = auto_groups(cx)
