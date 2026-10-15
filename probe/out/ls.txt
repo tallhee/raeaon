@@ -1,0 +1,26 @@
+total 1072
+drwxr-xr-x 2 runner runner   4096 Oct 15 12:13 .
+drwxr-xr-x 3 runner runner   4096 Oct 15 12:12 ..
+-rw-r--r-- 1 runner runner      4 Oct 15 12:12 code.txt
+-rw-r--r-- 1 runner runner  51746 Oct 15 12:13 hits.txt
+-rw-r--r-- 1 runner runner  95497 Oct 15 12:12 index.html
+-rw-r--r-- 1 runner runner    281 Oct 15 12:12 jar
+-rw-r--r-- 1 runner runner   1293 Oct 15 12:12 js_1.js
+-rw-r--r-- 1 runner runner  65401 Oct 15 12:13 js_10.js
+-rw-r--r-- 1 runner runner  56397 Oct 15 12:13 js_11.js
+-rw-r--r-- 1 runner runner  43892 Oct 15 12:13 js_12.js
+-rw-r--r-- 1 runner runner  12674 Oct 15 12:13 js_13.js
+-rw-r--r-- 1 runner runner  33168 Oct 15 12:13 js_14.js
+-rw-r--r-- 1 runner runner   2436 Oct 15 12:13 js_15.js
+-rw-r--r-- 1 runner runner     15 Oct 15 12:13 js_16.js
+-rw-r--r-- 1 runner runner   1293 Oct 15 12:12 js_2.js
+-rw-r--r-- 1 runner runner   2506 Oct 15 12:12 js_3.js
+-rw-r--r-- 1 runner runner  15649 Oct 15 12:12 js_4.js
+-rw-r--r-- 1 runner runner   7787 Oct 15 12:12 js_5.js
+-rw-r--r-- 1 runner runner  23798 Oct 15 12:12 js_6.js
+-rw-r--r-- 1 runner runner  12304 Oct 15 12:12 js_7.js
+-rw-r--r-- 1 runner runner 521643 Oct 15 12:12 js_8.js
+-rw-r--r-- 1 runner runner  88145 Oct 15 12:13 js_9.js
+-rw-r--r-- 1 runner runner      0 Oct 15 12:13 ls.txt
+-rw-r--r-- 1 runner runner    504 Oct 15 12:12 scripts.txt
+-rw-r--r-- 1 runner runner    921 Oct 15 12:13 scripts_map.txt

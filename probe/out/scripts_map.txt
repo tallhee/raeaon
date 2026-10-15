@@ -1,0 +1,16 @@
+1 https://openapt.seoul.go.kr//weblog.eseoul.go.kr/wlo/js/install2.js
+2 https://openapt.seoul.go.kr//www.seoul.go.kr/seoulgnb/gnb.js
+3 https://openapt.seoul.go.kr/js/common/csrf.js?ver=20260910
+4 https://openapt.seoul.go.kr/js/common/designCommon.js?ver=20231207
+5 https://openapt.seoul.go.kr/js/common/formdata.js
+6 https://openapt.seoul.go.kr/js/common/portalCommon.js?ver=20231207
+7 https://openapt.seoul.go.kr/js/commonCore/message.js?ver=20231207
+8 https://openapt.seoul.go.kr/js/jquery-1.12.1/jquery-ui.js
+9 https://openapt.seoul.go.kr/js/jquery-3.4.1.min.js
+10 https://openapt.seoul.go.kr/js/jquery.bxslider.js
+11 https://openapt.seoul.go.kr/js/jquery.flexslider.js
+12 https://openapt.seoul.go.kr/js/jquery.form.js
+13 https://openapt.seoul.go.kr/js/jquery.monthpicker.js?ver=20231207
+14 https://openapt.seoul.go.kr/js/plugin/qrcode.js
+15 https://anytalk.com/chatbot.js
+16 https://code.highcharts.com/highcharts.js

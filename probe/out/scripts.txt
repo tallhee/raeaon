@@ -1,0 +1,16 @@
+//weblog.eseoul.go.kr/wlo/js/install2.js
+//www.seoul.go.kr/seoulgnb/gnb.js
+/js/common/csrf.js?ver=20260910
+/js/common/designCommon.js?ver=20231207
+/js/common/formdata.js
+/js/common/portalCommon.js?ver=20231207
+/js/commonCore/message.js?ver=20231207
+/js/jquery-1.12.1/jquery-ui.js
+/js/jquery-3.4.1.min.js
+/js/jquery.bxslider.js
+/js/jquery.flexslider.js
+/js/jquery.form.js
+/js/jquery.monthpicker.js?ver=20231207
+/js/plugin/qrcode.js
+https://anytalk.com/chatbot.js
+https://code.highcharts.com/highcharts.js
