@@ -166,7 +166,7 @@ function chips(el,map,state,onChange,multi){
   const desc=s=>s.found!=null?`검색 ${s.found}건 → 주제 일치 ${s.matched}건`:s.new!=null?`새 공고 ${s.new}건`:s.updated!=null?`새로 확인 ${s.updated}곳${s.without_code?` · 단지코드 없음 ${s.without_code}곳`:""}`:"";
   document.getElementById("statusGrid").innerHTML=status?Object.entries(status.steps||{}).map(([k,s])=>
     `<div class="card"><h3>${names[k]||k}</h3><div class="${s.ok?"ok":"bad"}">${s.ok?"정상":"일부 실패"}</div><div class="meta">${esc(desc(s))}${s.error?` · ${esc(s.error)}`:""}${(s.errors&&s.errors.length)?` · 오류 ${esc(Array.isArray(s.errors)?s.errors.join(", "):s.errors)}`:""}</div></div>`).join("")+
-    `<div class="card"><h3>마지막 실행</h3><div class="meta">${esc(status.ran_at)}<br>누적 공고 ${status.totals?.notices??"–"}건 · 단지 ${status.totals?.complexes??"–"}곳</div></div>`
+    `<div class="card"><h3>마지막 실행</h3>${status.complete===false?`<div class="bad">이어서 수집 중</div><div class="meta">${esc(status.stopped||"")}</div>`:""}<div class="meta">${esc(status.ran_at)}<br>누적 공고 ${status.totals?.notices??"–"}건 · 단지 ${status.totals?.complexes??"–"}곳</div></div>`
     :`<div class="empty-state">아직 수집을 실행하지 않았습니다.</div>`;
 })();
 </script>

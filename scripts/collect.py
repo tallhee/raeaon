@@ -36,6 +36,14 @@ KST = dt.timezone(dt.timedelta(hours=9))
 NOW = dt.datetime.now(KST)
 TODAY = NOW.strftime("%Y-%m-%d")
 
+DEADLINE = time.monotonic() + 60 * K.get("time_budget_minutes", 25)
+_fail_streak = 0
+
+
+class Stop(BaseException):  # except Exception 에 잡히지 않도록
+    """시간 예산 초과 또는 연속 실패: 지금까지 받은 것을 저장하고 끝낸다."""
+
+
 jar = http.cookiejar.CookieJar()
 opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
 opener.addheaders = [
@@ -59,19 +67,26 @@ def save(name: str, obj) -> None:
     (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 3) -> str:
+def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2) -> str:
+    global _fail_streak
+    if time.monotonic() > DEADLINE:
+        raise Stop("시간 예산 소진 — 다음 실행에서 이어서 수집")
     url = BASE + path + ("?" + urllib.parse.urlencode(params) if params else "")
     body = urllib.parse.urlencode(data).encode() if data is not None else None
     last = None
     for i in range(tries):
         try:
-            with opener.open(urllib.request.Request(url, data=body), timeout=40) as r:
+            with opener.open(urllib.request.Request(url, data=body), timeout=20) as r:
                 text = r.read().decode("utf-8", "replace")
+            _fail_streak = 0
             time.sleep(K["delay_seconds"])
             return text
         except Exception as e:  # 네트워크 오류는 잠시 쉬고 재시도
             last = e
             time.sleep(3 * (i + 1))
+    _fail_streak += 1
+    if _fail_streak >= 5:
+        raise Stop(f"K-apt 응답이 연속 {_fail_streak}회 실패 — 잠시 후 다시 시도 ({last})")
     raise RuntimeError(f"{path} 요청 실패: {last}")
 
 
@@ -234,98 +249,124 @@ def main() -> int:
     days = K["lookback_days"] if len(prev) > 50 else K["first_run_lookback_days"]
     start = (NOW - dt.timedelta(days=days)).strftime("%Y-%m-%d")
 
-    # 1) 키워드별 검색: 기간 전체(결과 목록) + 최근 공고(단지코드 확보용)
-    found: dict[str, dict] = {}
-    name_codes: dict[str, str] = {}
-    errors = []
-    keywords = sorted({k for t in CONFIG["topics"].values() for k in t["keywords"]})
-    recent_start = (NOW - dt.timedelta(days=31)).strftime("%Y-%m-%d")
-    for kw in keywords:
-        for view, st in (("3", start), ("4", recent_start)):
-            try:
-                for r in search(kw, st, TODAY, view):
-                    if KAPT_CODE.match(r.get("complex_code", "")):
-                        name_codes.setdefault(norm_name(r["complex_name"]), r["complex_code"])
-                    cur = found.setdefault(r["bid_num"], r)
-                    for k, v in r.items():  # 두 목록의 정보를 합친다
-                        if v not in ("", None) and cur.get(k) in ("", None):
-                            cur[k] = v
-            except Exception as e:
-                errors.append(f"{kw}/{view}: {str(e)[:120]}")
-    matched = {b: r for b, r in found.items() if classify(r["title"])}
-    status["steps"]["search"] = {"ok": not errors or bool(found), "keywords": len(keywords),
-                                 "found": len(found), "matched": len(matched), "errors": errors[:5]}
-
-    # 2) 새 공고만 상세 조회 (입찰분류, 단지 주소·세대수)
-    new_count, detail_err = 0, 0
-    for bid, r in matched.items():
-        nid = f"kapt-{bid}"
-        old = prev.get(nid, {})
-        item = {**old, **{k: v for k, v in r.items() if v not in ("", None)}, "id": nid, "source": "kapt_bid",
-                "topics": classify(r["title"]),
-                "url": f"{BASE}/bid/bidDetail.do?bidNum={urllib.parse.quote(bid)}&type=3",
-                "first_seen": old.get("first_seen", TODAY)}
-        key = norm_name(item.get("complex_name", ""))
-        item["complex_key"] = key
-        cx = complexes.setdefault(key, {"name": item.get("complex_name", "")}) if key else {}
-        if "category" not in old:
-            try:
-                d = detail(bid)
-                item["category"] = d.get("입찰분류", "")
-                item["kind"] = d.get("입찰종류", "")
-                if key:
-                    if d.get("address") and not cx.get("address"):
-                        cx["address"] = d["address"]
-                        cx["sido"], cx["sigungu"] = region(d["address"])
-                    if d.get("households"):
-                        cx["households"] = d["households"]
-                        cx["dong_count"] = d.get("dong_count", 0)
-                    if d.get("kapt_code"):
-                        cx.setdefault("code", d["kapt_code"])
-                new_count += 1
-            except Exception:
-                detail_err += 1
-        item["is_works"] = "공사" in item.get("category", "")
-        if key:
-            code = r.get("complex_code", "")
-            if KAPT_CODE.match(code):
-                cx.setdefault("code", code)
-            elif key in name_codes:
-                cx.setdefault("code", name_codes[key])
-        prev[nid] = item
-        if new_count and new_count % 50 == 0:
-            persist(prev, complexes)
-    persist(prev, complexes)
-    status["steps"]["detail"] = {"ok": detail_err == 0, "new": new_count, "errors": detail_err}
-
-    # 3) 단지코드가 있고 사용승인일이 없는 단지만 조회
-    need = [k for k, cx in complexes.items()
-            if KAPT_CODE.match(cx.get("code", "")) and not cx.get("use_approval") and not cx.get("ua_error")]
-    ua_ok = ua_err = 0
-    if need:
-        try:
-            token = csrf_token()
-            for key in need:
-                cx = complexes[key]
+    complete = True
+    try:
+        # 1) 키워드별 검색: 기간 전체(결과 목록) + 최근 공고(단지코드 확보용)
+        found: dict[str, dict] = {}
+        name_codes: dict[str, str] = {}
+        errors = []
+        keywords = sorted({k for t in CONFIG["topics"].values() for k in t["keywords"]})
+        recent_start = (NOW - dt.timedelta(days=31)).strftime("%Y-%m-%d")
+        search_stop = None
+        for kw in keywords:
+            if search_stop:
+                break
+            for view, st in (("3", start), ("4", recent_start)):
                 try:
-                    ci = complex_info(cx["code"], token)
-                    if ci["use_approval"]:
-                        cx["use_approval"] = ci["use_approval"]
-                        ua_ok += 1
-                    else:
-                        cx["ua_error"] = "사용승인일 없음"
-                        ua_err += 1
-                    if not cx.get("sido") and ci.get("legal_address"):
-                        cx["sido"], cx["sigungu"] = region(ci["legal_address"])
+                    for r in search(kw, st, TODAY, view):
+                        if KAPT_CODE.match(r.get("complex_code", "")):
+                            name_codes.setdefault(norm_name(r["complex_name"]), r["complex_code"])
+                        cur = found.setdefault(r["bid_num"], r)
+                        for k, v in r.items():  # 두 목록의 정보를 합친다
+                            if v not in ("", None) and cur.get(k) in ("", None):
+                                cur[k] = v
                 except Exception as e:
-                    ua_err += 1
-                    status.setdefault("complex_errors", []).append(f"{cx['code']}: {str(e)[:120]}")
-                if (ua_ok + ua_err) % 50 == 0:
-                    persist(prev, complexes)
-        except Exception as e:
-            status["steps"]["complex"] = {"ok": False, "error": str(e)[:200]}
-    status["steps"].setdefault("complex", {"ok": ua_err == 0, "updated": ua_ok, "errors": ua_err,
-                                           "without_code": sum(1 for cx in complexes.values() if not cx.get("code"))})
+                    errors.append(f"{kw}/{view}: {str(e)[:120]}")
+                except Stop as e:  # 검색 중 멈추면 찾은 것까지만 저장하러 간다
+                    search_stop = e
+                    break
+        matched = {b: r for b, r in found.items() if classify(r["title"])}
+        if search_stop:
+            status["stopped_in_search"] = str(search_stop)
+        status["steps"]["search"] = {"ok": not errors or bool(found), "keywords": len(keywords),
+                                     "found": len(found), "matched": len(matched), "errors": errors[:5]}
+
+        # 2) 새 공고만 상세 조회 (입찰분류, 단지 주소·세대수)
+        # 상세 조회 전에 목록 정보부터 모두 담아 둔다 (중간에 멈춰도 공고 자체는 남도록)
+        for bid, r in matched.items():
+            nid = f"kapt-{bid}"
+            base = prev.get(nid, {})
+            prev[nid] = {**base, **{k: v for k, v in r.items() if v not in ("", None)}, "id": nid,
+                         "source": "kapt_bid", "topics": classify(r["title"]),
+                         "complex_key": norm_name(r.get("complex_name", "")),
+                         "url": f"{BASE}/bid/bidDetail.do?bidNum={urllib.parse.quote(bid)}&type=3",
+                         "first_seen": base.get("first_seen", TODAY)}
+        persist(prev, complexes)
+        if search_stop:
+            raise search_stop
+        new_count, detail_err = 0, 0
+        for bid, r in matched.items():
+            nid = f"kapt-{bid}"
+            old = prev.get(nid, {})
+            item = {**old, **{k: v for k, v in r.items() if v not in ("", None)}, "id": nid, "source": "kapt_bid",
+                    "topics": classify(r["title"]),
+                    "url": f"{BASE}/bid/bidDetail.do?bidNum={urllib.parse.quote(bid)}&type=3",
+                    "first_seen": old.get("first_seen", TODAY)}
+            key = norm_name(item.get("complex_name", ""))
+            item["complex_key"] = key
+            cx = complexes.setdefault(key, {"name": item.get("complex_name", "")}) if key else {}
+            if "category" not in old:
+                try:
+                    d = detail(bid)
+                    item["category"] = d.get("입찰분류", "")
+                    item["kind"] = d.get("입찰종류", "")
+                    if key:
+                        if d.get("address") and not cx.get("address"):
+                            cx["address"] = d["address"]
+                            cx["sido"], cx["sigungu"] = region(d["address"])
+                        if d.get("households"):
+                            cx["households"] = d["households"]
+                            cx["dong_count"] = d.get("dong_count", 0)
+                        if d.get("kapt_code"):
+                            cx.setdefault("code", d["kapt_code"])
+                    new_count += 1
+                except Exception:
+                    detail_err += 1
+            item["is_works"] = "공사" in item.get("category", "")
+            if key:
+                code = r.get("complex_code", "")
+                if KAPT_CODE.match(code):
+                    cx.setdefault("code", code)
+                elif key in name_codes:
+                    cx.setdefault("code", name_codes[key])
+            prev[nid] = item
+            if new_count and new_count % 50 == 0:
+                persist(prev, complexes)
+        persist(prev, complexes)
+        status["steps"]["detail"] = {"ok": detail_err == 0, "new": new_count, "errors": detail_err}
+
+        # 3) 단지코드가 있고 사용승인일이 없는 단지만 조회
+        need = [k for k, cx in complexes.items()
+                if KAPT_CODE.match(cx.get("code", "")) and not cx.get("use_approval") and not cx.get("ua_error")]
+        ua_ok = ua_err = 0
+        if need:
+            try:
+                token = csrf_token()
+                for key in need:
+                    cx = complexes[key]
+                    try:
+                        ci = complex_info(cx["code"], token)
+                        if ci["use_approval"]:
+                            cx["use_approval"] = ci["use_approval"]
+                            ua_ok += 1
+                        else:
+                            cx["ua_error"] = "사용승인일 없음"
+                            ua_err += 1
+                        if not cx.get("sido") and ci.get("legal_address"):
+                            cx["sido"], cx["sigungu"] = region(ci["legal_address"])
+                    except Exception as e:
+                        ua_err += 1
+                        status.setdefault("complex_errors", []).append(f"{cx['code']}: {str(e)[:120]}")
+                    if (ua_ok + ua_err) % 50 == 0:
+                        persist(prev, complexes)
+            except Exception as e:
+                status["steps"]["complex"] = {"ok": False, "error": str(e)[:200]}
+        status["steps"].setdefault("complex", {"ok": ua_err == 0, "updated": ua_ok, "errors": ua_err,
+                                               "without_code": sum(1 for cx in complexes.values() if not cx.get("code"))})
+    except Stop as e:
+        complete = False
+        status["stopped"] = str(e)
+    status["complete"] = complete
 
     # 4) 수동 보정 → 필터 태그
     overrides = {norm_name(k): v for k, v in CONFIG.get("complex_overrides", {}).items() if not k.startswith("_")}
