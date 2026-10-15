@@ -409,7 +409,8 @@ def resolve_complexes(status: dict) -> list[dict]:
               prev_a = cache["areas"].get(key, {})
               if prev_a.get("v") == INFO_VERSION and prev_a.get("checked", "") > (NOW - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
                   continue  # 지역 검색은 한 달에 한 번
-              gu, dong = a["area"].split()
+              parts = a["area"].split()
+              gu, dong = parts[0], (parts[1] if len(parts) > 1 else "")
               codes = []
               for r in P().search(gu=gu, dong=dong):
                   if a.get("min_households") and r["households"] and r["households"] < a["min_households"]:
@@ -422,6 +423,8 @@ def resolve_complexes(status: dict) -> list[dict]:
                   if a.get("min_households") and (cx.get("households") or 0) < a["min_households"]:
                       continue
                   codes.append(r["code"])
+              if a.get("top"):  # 구 단위: 조건에 맞는 단지 중 세대수 큰 순으로 몇 곳만
+                  codes = sorted(codes, key=lambda c: -(by_code.get(c, {}).get("households") or 0))[:a["top"]]
               cache["areas"][key] = {"checked": today, "codes": codes, "label": a.get("label", key), "v": INFO_VERSION}
               log["found"].append(f"{key}: {len(codes)}곳")
           except Stop:
