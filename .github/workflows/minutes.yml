@@ -15,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
 
@@ -29,8 +29,12 @@ jobs:
           sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-kor poppler-utils > /dev/null
           pip -q install pyhwp || true
 
-      - name: 수집 실행
+      - name: 회의결과 수집
         run: python scripts/openapt.py
+
+      - name: 관리규약 수집
+        if: always()
+        run: python scripts/bylaws.py
 
       - name: 변경분 커밋
         if: always()

@@ -164,7 +164,7 @@ def ocr_image(path: Path) -> str:
     return run(["tesseract", str(path), "-", "-l", "kor+eng", "--psm", "6"])
 
 
-def extract(path: Path, name: str) -> tuple[str, str]:
+def extract(path: Path, name: str, max_pages: int = 20) -> tuple[str, str]:
     kind = run(["file", "-b", str(path)]).strip()
     low = name.lower()
     if "PDF" in kind:
@@ -172,16 +172,24 @@ def extract(path: Path, name: str) -> tuple[str, str]:
         if len(txt.strip()) >= 150:
             return txt, "pdf-text"
         with tempfile.TemporaryDirectory() as td:  # 스캔 PDF → 쪽마다 그림으로 바꿔 글자 인식
-            run(["pdftoppm", "-r", "200", "-l", "20", "-png", str(path), f"{td}/p"], timeout=300)
+            run(["pdftoppm", "-r", "200", "-l", str(max_pages), "-png", str(path), f"{td}/p"], timeout=60 + 10 * max_pages)
             pages = sorted(Path(td).glob("p*.png"))
             return "\n\n".join(ocr_image(p) for p in pages), f"pdf-ocr({len(pages)}쪽)"
     if any(k in kind for k in ("image", "JPEG", "PNG", "TIFF", "GIF")):
         return ocr_image(path), "image-ocr"
+    if low.endswith(".docx"):
+        try:
+            with zipfile.ZipFile(path) as z:
+                xml = z.read("word/document.xml").decode("utf-8", "replace")
+                return html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"</w:p>", "\n", xml))), "docx"
+        except Exception:
+            return "", "docx-fail"
     if low.endswith(".hwpx") or ("Zip" in kind and low.endswith(".hwpx")):
         try:
             with zipfile.ZipFile(path) as z:
                 parts = [n for n in z.namelist() if n.startswith("Contents/section")]
-                return "\n".join(T(z.read(n).decode("utf-8", "replace")) for n in sorted(parts)), "hwpx"
+                return "\n".join(html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"</hp:p>", "\n", z.read(n).decode("utf-8", "replace"))))
+                                 for n in sorted(parts)), "hwpx"
         except Exception:
             return "", "hwpx-fail"
     if low.endswith(".hwp") or "Hangul" in kind or "Composite Document" in kind:

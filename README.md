@@ -33,6 +33,10 @@
 
 찾은 단지는 `docs/data/openapt_complexes.json`에 저장되고, 못 찾은 이름은 사이트 '수집 상태' 탭에 표시됩니다. "서울 2020년 이후 입주", "송파·강남권 대단지" 묶음은 사용승인일과 세대수로 자동으로 붙습니다. 선거관리위원회 게시판은 `boards.03.enabled`를 `true`로 바꾸면 함께 읽습니다.
 
+## 관리규약 조항
+
+단지홈 **정보공개 › 관리규약** 게시판에 올라온 관리규약·운영규정 파일(PDF·한글·워드)을 받아, 제○조와 별표 단위로 나눈 뒤 주차·커뮤니티·식당·공공개방시설·사용료 조항을 골라 사이트 '관리규약 조항' 탭에 단지별로 나란히 보여줍니다(`scripts/bylaws.py`). 단지마다 최신 관리규약 1건과 제목이 다른 최신 규정 몇 건을 읽고, 개정안·비교표 파일은 건너뜁니다. 게시판에 공개하지 않은 단지는 나오지 않습니다. 설정은 `config/openapt.json`의 `bylaws`에 있습니다.
+
 ## K-apt 입찰공고 (참고, 수동)
 
 예전에 만든 K-apt 입찰공고 수집(`scripts/collect.py`)은 자동 실행을 껐습니다. 필요할 때 Actions → "K-apt 입찰공고 수집 (수동)"에서 실행합니다.
@@ -42,7 +46,8 @@
 ```
 config/openapt.json            대상 단지, 주제어, 수집 범위
 scripts/openapt.py             입대의 회의결과 수집·글자 인식·안건 분류
-.github/workflows/minutes.yml  매일 2회 자동 수집
+.github/workflows/minutes.yml  3시간마다 회의결과·관리규약 수집
+scripts/bylaws.py              관리규약 조항 수집
 docs/                          GitHub Pages 사이트
   data/minutes.json            회의별 안건·주제·찬반 (사이트가 읽음)
   data/minutes_text/           첨부에서 뽑은 전체 글자

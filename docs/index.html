@@ -72,6 +72,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 </header>
 <nav><div class="in" role="tablist">
   <button role="tab" data-tab="minutes" aria-selected="true">입대의 회의결과</button>
+  <button role="tab" data-tab="bylaws" aria-selected="false">관리규약 조항</button>
   <button role="tab" data-tab="rules" aria-selected="false">규정 비교표</button>
   <button role="tab" data-tab="notices" aria-selected="false">입찰공고(참고)</button>
   <button role="tab" data-tab="status" aria-selected="false">수집 상태</button>
@@ -86,6 +87,15 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
   <div class="list" id="mList"></div>
+</section>
+
+<section id="bylaws">
+  <p class="lead">각 단지가 공동주택마당 ‹정보공개 › 관리규약›에 올린 관리규약·운영규정 파일에서 주제별 조항(제○조, 별표)을 뽑아 나란히 놓았습니다. 공개하지 않은 단지는 나오지 않습니다.</p>
+  <div class="bar" id="bTopics"></div>
+  <div class="bar" id="bComplex"></div>
+  <div class="bar"><input type="search" id="bq" placeholder="조항 내용 검색 (예: 방문차량, 외부 개방, 이용료)"></div>
+  <p class="meta" id="bCount"></p>
+  <div class="list" id="bList"></div>
 </section>
 
 <section id="rules">
@@ -178,6 +188,37 @@ function chips(el,map,state,onChange,multi){
     chips(document.getElementById("mGroup"),MG,mg,draw,true);
     chips(document.getElementById("mComplex"),cxMap,mc,draw,true);
     mq.oninput=draw; draw();
+  }
+
+  // 관리규약 조항
+  const bylaws=await get("data/bylaws.json");
+  {
+    const BT=bylaws?.topics||{}, cxs=(minutes?.complexes)||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
+    const bt=new Set(), bc=new Set(), bq=document.getElementById("bq");
+    const chipMap=Object.fromEntries([
+      ...cxs.filter(c=>c.pinned).sort((a,b)=>(b.home?1:0)-(a.home?1:0)).map(c=>["n:"+c.name,c.name+(c.home?" (우리 단지)":"")]),
+      ...((minutes?.regions)||[]).filter(r=>cxs.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r])]);
+    const hit=name=>{const c=cxBy[name]||{};return bc.has("n:"+name)||bc.has("r:"+c.region);};
+    const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
+    const draw=()=>{
+      const term=bq.value.trim(); const by={}; let n=0;
+      for(const d of (bylaws?.docs)||[]){
+        if(bc.size&&!hit(d.complex)) continue;
+        const cl=(d.clauses||[]).filter(c=>(!bt.size||c.topics.some(t=>bt.has(t)))&&(!term||c.text.includes(term)));
+        if(!cl.length) continue;
+        n+=cl.length; (by[d.complex]=by[d.complex]||[]).push({d,cl});
+      }
+      const names=Object.keys(by).sort((a,b)=>(cxBy[b]?.home?1:0)-(cxBy[a]?.home?1:0)||a.localeCompare(b,"ko"));
+      document.getElementById("bCount").textContent=bylaws?`조항 ${n}건 · ${names.length}개 단지 · 최근 수집 ${(bylaws.updated||"").slice(0,16).replace("T"," ")}`:"";
+      document.getElementById("bList").innerHTML=names.map(name=>`<article class="card${cxBy[name]?.home?" home":""}"><h3>${esc(name)}</h3>`+
+        by[name].map(({d,cl})=>`<div class="meta" style="margin-top:6px">${esc(d.title)} · ${esc(d.date)} ${(d.files||[]).filter(f=>f.url).map((f,i)=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">원문${d.files.length>1?i+1:""}</a>`).join(" ")}</div>`+
+          cl.map(c=>`<div class="agenda"><b>${hl(c.head.replace(/\s{2,}.*/,""),term)}</b><div>${c.topics.map(t=>`<span class="tag">${esc(BT[t]||t)}</span>`).join("")}</div>
+            <details${term?" open":""}><summary>조항 보기</summary><pre>${hl(c.text,term)}</pre></details></div>`).join("")).join("")+`</article>`).join("")
+        ||`<div class="empty-state">${bylaws?"조건에 맞는 조항이 없습니다.":"아직 수집된 관리규약이 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
+    };
+    chips(document.getElementById("bTopics"),BT,bt,draw,true);
+    chips(document.getElementById("bComplex"),chipMap,bc,draw,true);
+    bq.oninput=draw; draw();
   }
   // 규정 비교
   const rt=new Set(["parking"]);

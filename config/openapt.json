@@ -310,5 +310,84 @@
         "label": "기타"
       }
     ]
+  },
+  "bylaws": {
+    "_comment": "관리규약 게시판(정보공개 › 관리규약)에서 규약·규정 파일을 받아 주제별 조항을 뽑습니다.",
+    "doc_filter": {
+      "include": [
+        "규약",
+        "규정",
+        "세칙",
+        "준칙"
+      ],
+      "exclude": [
+        "개정안",
+        "의견청취",
+        "찬반",
+        "(안)"
+      ]
+    },
+    "topics": {
+      "parking": {
+        "label": "주차",
+        "keywords": [
+          "주차",
+          "방문차량",
+          "방문 차량",
+          "차량등록"
+        ],
+        "body_min": 3
+      },
+      "community": {
+        "label": "커뮤니티",
+        "keywords": [
+          "주민공동시설",
+          "커뮤니티",
+          "운동시설",
+          "피트니스",
+          "사우나",
+          "수영장",
+          "골프연습장"
+        ],
+        "body_min": 3
+      },
+      "dining": {
+        "label": "식당·카페",
+        "keywords": [
+          "식당",
+          "조식",
+          "카페",
+          "식사",
+          "다이닝"
+        ],
+        "body_min": 2
+      },
+      "public": {
+        "label": "공공개방시설",
+        "keywords": [
+          "공공개방",
+          "개방시설",
+          "외부인",
+          "지역주민"
+        ],
+        "body_min": 2
+      },
+      "fees": {
+        "label": "사용료·요금",
+        "keywords": [
+          "사용료",
+          "이용료",
+          "요금",
+          "부과기준"
+        ],
+        "body_min": 4
+      }
+    },
+    "max_docs_per_complex": 5,
+    "max_files_per_post": 3,
+    "max_file_mb": 40,
+    "ocr_max_pages": 80,
+    "clause_chars": 1800,
+    "time_budget_minutes": 20
   }
 }
