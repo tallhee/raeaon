@@ -190,7 +190,7 @@ function chips(el,map,state,onChange,multi){
       rows.map(r=>{const d=r[t]||{};
         return `<tr class="${r.is_home?"home":""}"><td><strong>${esc(r.name)}</strong><div class="meta">${esc(r.sigungu||"")}${r.households?` · ${r.households}세대`:""}${r.use_approval?` · ${esc(r.use_approval).slice(0,4)}년`:""}</div></td>`+
         cols.map(c=>d[c[0]]==null?`<td class="empty">–</td>`:`<td>${esc(d[c[0]])}</td>`).join("")+
-        `<td>${d.source?`<a href="${esc(d.source)}" target="_blank" rel="noopener">원문</a><div class="meta">${esc(d.checked||"")}</div>`:`<span class="meta">–</span>`}</td></tr>`;}).join("");
+        `<td>${d.source?`<a href="${esc(d.source)}" target="_blank" rel="noopener">${esc(d.source_text||"원문")}</a>`:d.source_text?`<span class="meta">${esc(d.source_text)}</span>`:`<span class="meta">–</span>`}${d.checked?`<div class="meta">${esc(d.checked)} 확인</div>`:""}</td></tr>`;}).join("");
   };
   chips(document.getElementById("ruleTopics"),{parking:TOPICS.parking,community:TOPICS.community,dining:TOPICS.dining},rt,drawRules,false);
   drawRules();

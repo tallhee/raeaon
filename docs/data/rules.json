@@ -8,28 +8,31 @@
    "use_approval": null,
    "is_home": true,
    "parking": {
-    "public_facility_users_allowed": null,
-    "visitor_fee": null,
-    "per_unit_by_area": null,
-    "notes": null,
+    "public_facility_users_allowed": "별도 조항 없음. 방문차량은 세대가 월패드·앱으로 사전 예약해야 입차, 예약 없으면 회차(제15조)",
+    "visitor_fee": "세대당 월 150시간 무료(이월 없음, 30분 내 회차 제외). 초과 시 30분당 1,000원 관리비 부과(별표 4)",
+    "per_unit_by_area": "주차지분에 따라 무료 1~3대: 43~84형 1대, 104~129형 2대, 135·157형 3대. 추가 1대는 5만 원에서 지분만큼 가감(84형 5,500원, 59형 34,000원), 추가 2대 +15만 원, 추가 3대 +30만 원, 4대 이상 불가(별표 3)",
+    "notes": "위반 시 2회 5만 원, 3회 10만 원 위반금. 어린이집·학원 등 외부 정기차량은 보증금 3만 원 + 월 1만 원",
     "source": null,
-    "checked": null
+    "source_text": "주차장 관리규정(2026.07.31 제정, 2026.09.04 개정)",
+    "checked": "2026-10-16"
    },
    "community": {
-    "hours": null,
-    "fee": null,
-    "entry_limit": null,
-    "notes": null,
+    "hours": "화~토 06:00~22:00, 일·공휴일 09:00~18:00. 매주 월요일, 설·추석 연휴 휴관",
+    "fee": "무료 횟수 초과 시 피트니스 1회 1,000원, 사우나·수영장 1회 2,000원. 골프 타석 58분 4,000원, 스크린 1시간 12,000원. 피트니스 락카 월 5,000원",
+    "entry_limit": "세대당 월 피트니스 50회, 사우나(수영장 포함) 20회(세대원 합산), 1회 3시간",
+    "notes": "외부인(비거주 직계가족 포함) 입장 불가. 전망카페(106동)·키즈카페는 공공개방시설. 규정 위반 시 무료 횟수 차감",
     "source": null,
-    "checked": null
+    "source_text": "커뮤니티센터 운영규정(2026.08.21 제정, 2026.09.04 개정)",
+    "checked": "2026-10-16"
    },
    "dining": {
-    "operator_selection": null,
+    "operator_selection": "조식업체를 제한경쟁·적격심사·전자입찰로 선정하기로 의결(2026.10.07 제7차 임시회의, 찬성 8·기권 2)",
     "hours": null,
     "price": null,
-    "notes": null,
-    "source": null,
-    "checked": null
+    "notes": "커뮤니티센터 운영규정에는 식당 조항이 없음",
+    "source": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0",
+    "source_text": "제7차 입주자대표회의 결과 공고",
+    "checked": "2026-10-16"
    }
   }
  ]
