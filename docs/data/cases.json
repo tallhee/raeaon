@@ -1,0 +1,846 @@
+{
+ "source": "직접 정리한 다른 아파트 벤치마킹 노트(노션)에서 옮김",
+ "updated": "2026-10-16",
+ "categories": [
+  {
+   "category": "식당",
+   "items": [
+    {
+     "complex": "원베일리",
+     "summary": "식당 재계약투표",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20240823&physical=F900EC34FBBF416B8D52ED65E8B12509.jpg&contentType=image/jpeg",
+       "text": "다이닝 시설(식당) 위탁운영을 위한 결정 입주민 투표 실시 공고"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20240925&physical=37021DBC204649F49EDC1BF7D331DAEC.jpg&contentType=image/jpeg",
+       "text": "보안미화 용역업체 선정을 위한 낙찰방법 결정 및 다이닝 위탁운영 입주민 투표 결과 공고"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20250714&physical=AB1F549842374BFBA02C73710779B095.jpg&contentType=image/jpeg",
+       "text": "다이닝(식당) 재계약 관련 입주민 설문조사 공고"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20250714&physical=9DCA236E98C6440C91D9BD6338C0B27D.jpg&contentType=image/jpeg",
+       "text": "다이닝(식당) 재계약 관련 입주민 설문조사 결과 공고"
+      }
+     ],
+     "captures": 4
+    },
+    {
+     "complex": "메이플자이",
+     "summary": "식당 업체 선정 투표(재계약)",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001899292&fileSn=1",
+       "text": "식당 위탁운영업체_전자투표1.8.13.JPG"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001899292&fileSn=0",
+       "text": "식당 위탁운영업체_전자투표2.8.13.JPG"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001906527&fileSn=0",
+       "text": "(선)26-031_카페테리아(식당) 위탁운영업체 선정결과 공고_20260806.jpg"
+      }
+     ],
+     "captures": 3
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "식당 업체 선정 투표(찬반)",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001669851&fileSn=1",
+       "text": "공고 2025-311  [입대의] 제7차 입주자대표회의 결과 공고(최종)002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001669851&fileSn=0",
+       "text": "공고 2025-311  [입대의] 제7차 입주자대표회의 결과 공고(최종)003.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001670305&fileSn=0",
+       "text": "공고 2025-330  [입대의] 제8차 입주자대표회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001697317&fileSn=0",
+       "text": "공고 2025-365  [입대의] 제10차 입주자대표회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001697311&fileSn=1",
+       "text": "공고 2025-366  [입대의] 카페테리아(식당+카페) 신규 위탁운영업체 선정 관련 입주민 동의 안내1.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001697311&fileSn=0",
+       "text": "공고 2025-366  [입대의] 카페테리아(식당+카페) 신규 위탁운영업체 선정 관련 입주민 동의 안내2.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001702367&fileSn=0",
+       "text": "공고 2025-387 [선관] 식당운영업체 선정 입주민 동의투표 개표 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001697319&fileSn=1",
+       "text": "공고 2025-371 [입대의] 직원의 카페테리아(식당+카페) 이용 관련 입주민 동의 안내_v2001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001697319&fileSn=0",
+       "text": "공고 2025-371 [입대의] 직원의 카페테리아(식당+카페) 이용 관련 입주민 동의 안내_v2002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001702367&fileSn=1",
+       "text": "공고 2025-388 [선관] 직원의 식당+카페 이용 입주민 동의투표 개표 결과 공고001.jpg"
+      }
+     ],
+     "captures": 10
+    },
+    {
+     "complex": "원페를라",
+     "summary": "식당업체선정 적격심사제(심사위원 10명 - 생활지원센터2+입대의8)",
+     "links": [],
+     "captures": 4
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "식당 선정 시 선호도조사 시행, 임대주택 의견도 반영됨",
+     "links": [],
+     "captures": 11
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "식당 업체선정(2026.5), 식당 원상복구(2026.6)",
+     "links": [],
+     "captures": 4
+    }
+   ]
+  },
+  {
+   "category": "주차규정",
+   "items": [
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "올림픽파크포레온",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001670904&fileSn=0",
+       "text": "공고문 올파포(입) 제2025-016호 제1기 4차 회의결과공고(임시회의 2025.09.26).pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001685694&fileSn=0",
+       "text": "공고문 올파포(입) 제2025-025호 제1기 6차 회의결과공고(정기회의 2025.10.21).pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001700532&fileSn=1",
+       "text": "공고문 올파포(입) 제2025-030호 제1기 8차 회의결과공고 및 회의록(정기회의 2025.11.18).pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001721617&fileSn=0",
+       "text": "공고문 올파포(입) 제2025-035호 제1기 10차 회의결과공고(정기회의 2025.12.16).pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260123&physical=53DF1DF1955849C49460AE7AB894E7F6.jpg&contentType=image/jpeg",
+       "text": "원문"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260226&physical=690738341EC44E23AAD4222BA054FF9E.jpg&contentType=image/jpeg",
+       "text": "26년 2월 정기 입주자대표회의 결과공고"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260327&physical=75C7A4A5BAD2479CAD96B46ABEC33AC6.jpg&contentType=image/jpeg",
+       "text": "주차비 부과 기준 선택 입주민 투표 안내"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260327&physical=A536163992B34AB5B21EDB0BEE914F38.jpg&contentType=image/jpeg",
+       "text": "주차비 부과 기준 입주민 투표 결과 공고"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260520&physical=F2FB68A34B4F4923B1F51E9F80E0CB48.jpg&contentType=image/jpeg",
+       "text": "원문"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260617&physical=9DE9A98B789440B8B7990AD15A10C93C.png&contentType=image/png",
+       "text": "원문"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260722&physical=61D3995E7B2E4A2790ADBDC7E6CB0BA7.jpg&contentType=image/jpeg",
+       "text": "원문"
+      },
+      {
+       "url": "https://blog.naver.com/oneul88/224399556643",
+       "text": "참고 글"
+      }
+     ],
+     "captures": 20
+    },
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "주차장 입차로 확장 행위신고",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260205&physical=034332E7A47B486E9783AC45F9BDD1DB.jpg&contentType=image/jpeg",
+       "text": "2026-02-05 26년 2월 임시 입주자대표회의 결과공고",
+       "auto": true,
+       "match": "10. 4단지 주차장 입차로 확장 행위신고의 건[찬성26, 반대0, 기권 0]"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260226&physical=8C0E9317D3E94AC1B6ACBC29178CAC3D.jpg&contentType=image/jpeg",
+       "text": "2026-02-26 26년 2월 정기 입주자대표회의 결과공고",
+       "auto": true,
+       "match": "8. 201동 주차장 출입구 차단기 이전설치 행위신고의 건 [찬성 32]"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "원페를라",
+     "summary": "방문차량 주차비 부과 기준 150시간+초과 1시간당 1000원",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001917569&fileSn=3",
+       "text": "2026-08-31 제1기 제3차 (정기)입주자대표회의 결과 공고",
+       "auto": true,
+       "match": "제2호 의안 : 세대 방문자량 주차비 부과 기준 수립 건"
+      }
+     ],
+     "captures": 4
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "방문차량 주차 월 160시간 _ 초과 10분당 100원 (1시간당 600원)",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001734598&fileSn=1",
+       "text": "2026-01-02 제1기 제8차(12월) 정기 회의 결과 공고"
+      }
+     ],
+     "captures": 2
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "세대 구분형(분리세대) 주차장 이용요금은 임대인-임차인 상호협의",
+     "links": [],
+     "captures": 2
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "공동시설 키즈카페 개설하면서 주차장 외부개방 찬성됨",
+     "links": [],
+     "captures": 5
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "주차 과태료",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001783320&fileSn=0",
+       "text": "공고 2026-052 [입대의] 제14차 입주자대표회의 결과 공고(최종).pdf"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "주차 반사경 추가 설치",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001758014&fileSn=2",
+       "text": "공고 2026-025  [입대의] 제13차 입주자대표회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001758014&fileSn=1",
+       "text": "공고 2026-025  [입대의] 제13차 입주자대표회의 결과 공고002.jpg"
+      }
+     ],
+     "captures": 2
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "지정주차제 소유주 대상 투표",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682302&fileSn=2",
+       "text": "공고 2025-350  [입대의] 제9차 입주자대표회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682302&fileSn=0",
+       "text": "공고 2025-350  [입대의] 제9차 입주자대표회의 결과 공고003.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682304&fileSn=1",
+       "text": "공고 2025-351 [입대의] 지정주차제 운영기준 변경(안)관련 입주민 투표 안내_201027001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682304&fileSn=0",
+       "text": "공고 2025-351 [입대의] 지정주차제 운영기준 변경(안)관련 입주민 투표 안내_201027002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001702369&fileSn=0",
+       "text": "공고 2025-391 [선관] 제15차 선거관리위원회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001707482&fileSn=0",
+       "text": "공고 2025-398 [선관] 제16차 선거관리위원회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001855411&fileSn=0",
+       "text": "공고 2026-164 [입대의] 제18차 입주자대표회의 결과 공고002.jpg"
+      }
+     ],
+     "captures": 7
+    },
+    {
+     "complex": "반포자이",
+     "summary": "합리적인 산식으로 요금을 산출함",
+     "links": [],
+     "captures": 3
+    }
+   ]
+  },
+  {
+   "category": "커뮤니티",
+   "items": [
+    {
+     "complex": "메이플자이",
+     "summary": "운영안 변경 투표",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001875322&fileSn=0",
+       "text": "전자투표 연기 안내_.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001889285&fileSn=2",
+       "text": "선_투표안내1.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001889285&fileSn=1",
+       "text": "선_투표안내2.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001898489&fileSn=0",
+       "text": "클럽자이안 이용요금 투표 결과8.12.jpg"
+      }
+     ],
+     "captures": 4
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "운영규정 개정, 헬스장 이용료 공동부과, 운영시간(사우나 금토일 10~22시)",
+     "links": [],
+     "captures": 5
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "문화센터 강좌개설 수요 조사, 헬스PT강습료 조정",
+     "links": [],
+     "captures": 3
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "작은도서관 운영규정",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "GX룸 바닥 교체 공사 or 쿠션 보강 공사",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001707881&fileSn=1",
+       "text": "공고 2025-399  [입대의] 제11차 입주자대표회의 결과 공고_v1001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001707881&fileSn=0",
+       "text": "공고 2025-399  [입대의] 제11차 입주자대표회의 결과 공고_v1002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812773&fileSn=0",
+       "text": "공고 2026-079 [입대의] 제15차 입주자대표회의 결과 공고002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812822&fileSn=0",
+       "text": "공고 2026-094 [입대의] GX룸 바닥 개선 공사에 관한 입주민 투표 안내.pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812841&fileSn=1",
+       "text": "공고 2026-097 [선관] 제17차 선거관리위원회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001824479&fileSn=0",
+       "text": "공고 2026-128 [선관] 제18차 선거관리위원회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872473&fileSn=1",
+       "text": "공고 2026-197 [입대의] 제19차 입주자대표회의 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001855408&fileSn=0",
+       "text": "공고 2026-139 [입대의] 제17차 입주자대표회의 결과 공고.pdf"
+      }
+     ],
+     "captures": 9
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "커뮤니티 운영규정 개정 검토",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001724616&fileSn=0",
+       "text": "공고 2025-421  [입대의] 제12차 입주자대표회의 결과 공고(수정)v1.pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001914917&fileSn=0",
+       "text": "공고 2026-0827-01 [입대의] 제21차 입주자대표회의 결과공고002.jpg"
+      }
+     ],
+     "captures": 2
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "커뮤니티 수익 증대방안 검토(여자 사우나 내 마사지실 +물품판매 자판기?)",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682302&fileSn=1",
+       "text": "공고 2025-350  [입대의] 제9차 입주자대표회의 결과 공고002.jpg"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "운영규정 패널티",
+     "links": [],
+     "captures": 2
+    }
+   ]
+  },
+  {
+   "category": "용도변경, 공간 구성 변경",
+   "items": [
+    {
+     "complex": "래미안라그란데",
+     "summary": "작은도서관 공간구성 변경 투표",
+     "links": [],
+     "captures": 3
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "문화센터, 스터디룸, 멀티미디어룸 → 회의실, 회장실, 창고, 사무공간",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001854313&fileSn=0",
+       "text": "2026-06-12 제4기 입주자대표회의 임시(12차) 회의 결과 공고",
+       "auto": true,
+       "match": "(문화센터 4번,5번룸 / 스터디룸 6번 / 멀티미디어룸 2번 / 린넨실) 결정의 건"
+      }
+     ],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "설문조사 전 주민 설명회 실시, 주민소통채널, TF팀",
+   "items": [
+    {
+     "complex": "헬리오시티",
+     "summary": "안면인식 시스템 관련 입주민 설문 미진행 → 안건 철회, 주민설명회 실시 후 재상정 결정",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "원페를라",
+     "summary": "홈닉을 주민소통채널로",
+     "links": [],
+     "captures": 6
+    },
+    {
+     "complex": "파크포레온",
+     "summary": "네이버카페",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "커뮤니티 운영 개선 TF팀, 외벽 균열보수 및 재도장 공사 TF",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001807091&fileSn=0",
+       "text": "2026-04-10 제4기 입주자대표회의 임시(9차) 회의 결과 공고",
+       "auto": true,
+       "match": "의결 외벽 균열보수 및 재도장 공사 감리업체 선정에 관한 건"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001790635&fileSn=0",
+       "text": "2026-03-20 제4기 입주자대표회의 임시(8차) 회의(긴급) 결과 공고",
+       "auto": true,
+       "match": "1 외벽 균열보수 및 재도장 공사 감리업체 선정의 건"
+      }
+     ],
+     "captures": 2
+    }
+   ]
+  },
+  {
+   "category": "입대의 회의결과 공고",
+   "items": [
+    {
+     "complex": "헬리오시티",
+     "summary": "입대의 개선 요청사항 및 관리사무소 업무보고 건 첨부됨",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "회의록 업로드는 다소 지연 있으나 업로드됨, **아파트너 실명 → [닉네임 + 동] 변경**",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "원페를라",
+     "summary": "입대의 구성 결과 공유 이사, 감사 구성과정 결과 공유",
+     "links": [],
+     "captures": 2
+    }
+   ]
+  },
+  {
+   "category": "입대의 회의록 양식",
+   "items": [
+    {
+     "complex": "원페를라",
+     "summary": "공동주택포털 회의록 O, 참석/불참/정족수 확인 가능, 안건별 동대표 의견, 찬/반 및 서명",
+     "links": [],
+     "captures": 2
+    },
+    {
+     "complex": "원페를라",
+     "summary": "기타 보고사항",
+     "links": [],
+     "captures": 2
+    }
+   ]
+  },
+  {
+   "category": "선관위 회의 결과 공고",
+   "items": [
+    {
+     "complex": "원페를라",
+     "summary": "회의록 O, 참석/불참/정족수 확인 가능",
+     "links": [],
+     "captures": 2
+    },
+    {
+     "complex": "잠올아",
+     "summary": "회의록은 X, 단독 입후보 찬반 결과 공개",
+     "links": [],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "선관위 회의록 공고",
+   "items": [
+    {
+     "complex": "올림픽선수촌",
+     "summary": "단독후보 당/낙선자 투표수 대비 득표율 공개",
+     "links": [],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "행정처분 사례",
+   "items": [
+    {
+     "complex": "리센츠",
+     "summary": "2021년 적격심사 시, 적격심사위 회의록 미작성",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "올림픽선수촌",
+     "summary": "2019년 입주민 동의 없이 주차장 유료 개방",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "올림픽선수촌",
+     "summary": "2019년 통합정보마당에 회의록 비공개",
+     "links": [],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "하자 수선",
+   "items": [
+    {
+     "complex": "원펜타스",
+     "summary": "바닥 재시공, 도색 공사",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001941314&fileSn=1",
+       "text": "공고 2026-1001-03 [입대의] 제22차 입주자대표회의 결과공고(최종)001.jpg"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "2년차 하자점검",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812823&fileSn=0",
+       "text": "공고 2026-105 [입대의] 2년차 하자점검 체크리스트 작성 및 제출 안내문(수정)001.jpg"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "보호수 안내간판 설치",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001724616&fileSn=0",
+       "text": "공고 2025-421  [입대의] 제12차 입주자대표회의 결과 공고(수정)v1.pdf"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "소방시설 점검 업체",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001669851&fileSn=2",
+       "text": "공고 2025-311  [입대의] 제7차 입주자대표회의 결과 공고(최종)001.jpg"
+      }
+     ],
+     "captures": 1
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "시공사와 정기하자점검 미팅 추진",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "하자진단 및 채권양도절차",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "재활용장 바닥 에폭시 도장",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "바닥재 공사",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "에어컨 설치",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "헬리오시티",
+     "summary": "수영장 수질, 석재침하 및 누수, 옥상 방수, 우수관 보수",
+     "links": [],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "체계적인 대응 위한 협상 주체 선정 투표(향후 초중학교 관련)",
+   "items": [
+    {
+     "complex": "원펜타스",
+     "summary": "공사 불편",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872469&fileSn=1",
+       "text": "공고 2026-174 [입대의] 공사 피해 손해배상 협상 주체 선정을 위한 입주민 재투표 안내001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872469&fileSn=0",
+       "text": "공고 2026-174 [입대의] 공사 피해 손해배상 협상 주체 선정을 위한 입주민 재투표 안내002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872471&fileSn=0",
+       "text": "공고 2026-196 [입대의] 공사장 소음,분진 손해배상 협상주체 선정 거주세대 찬,반 재투표 개표 결과 공고001.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872473&fileSn=0",
+       "text": "공고 2026-197 [입대의] 제19차 입주자대표회의 결과 공고002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001914917&fileSn=1",
+       "text": "공고 2026-0827-01 [입대의] 제21차 입주자대표회의 결과공고001.jpg"
+      }
+     ],
+     "captures": 5
+    }
+   ]
+  },
+  {
+   "category": "단지 보안/편의/안전",
+   "items": [
+    {
+     "complex": "원페를라",
+     "summary": "외부인 출입통제 방안으로 “CCTV 촬영중” 안내문 부착",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001890601&fileSn=3",
+       "text": "2026-07-27 제1기 제2차 (정기)입주자대표회의 결과 공고",
+       "auto": true,
+       "match": "제4호 의안 : 단지 내 외부인 출입통제 강화 방안 검토 건"
+      }
+     ],
+     "captures": 3
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "외곽 펜스 출입문, CCTV, 전기차 화재 상방향 자동직수장치(SH임대세대에 투표권 주는 내용 적혀있음)",
+     "links": [],
+     "captures": 4
+    },
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "스마트흡연부스",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "AED 추가 설치 (필요한 이유)",
+     "summary": "AED 추가 설치 (필요한 이유)",
+     "links": [],
+     "captures": 0
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "각 동 로비 AED 설치",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812809&fileSn=0",
+       "text": "공고 2026-087 [입대의] 자동심장충격기(AED)설치를 위한 입주민 투표 안내.pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001812841&fileSn=0",
+       "text": "공고 2026-097 [선관] 제17차 선거관리위원회의 결과 공고002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001824479&fileSn=1",
+       "text": "공고 2026-128 [선관] 제18차 선거관리위원회의 결과 공고002.jpg"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001855408&fileSn=0",
+       "text": "공고 2026-139 [입대의] 제17차 입주자대표회의 결과 공고.pdf"
+      }
+     ],
+     "captures": 5
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "수경시설 운영(5~9월, 10~21시)",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "공동주택 모범관리단지 지원사업 비품구매(책, 운동기구)",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "래미안라그란데",
+     "summary": "전기요금 절감(약0.5%) 전기료 납부 전용 법인카드 개설",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "원페를라",
+     "summary": "관리비 부과방법. 전기요금 및 수도요금 할인 위한 체크카드 신청",
+     "links": [],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "단지 축제/행사",
+   "items": [
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "가을축제, 서울시 커뮤니티 지원사업",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260617&physical=9DE9A98B789440B8B7990AD15A10C93C.png&contentType=image/png",
+       "text": "2026-06-17 26년 6월 정기 입주자대표회의 결과공고",
+       "auto": true,
+       "match": "9. 서울시 공동주택 지원사업 사업자 선정의 건 [찬성 24표, 반대 0표]"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260408&physical=51248245D2E0493DA019CB5E420047A9.jpg&contentType=image/jpeg",
+       "text": "2026-04-08 26년 4월 임시 입주자대표회의 결과공고",
+       "auto": true,
+       "match": "8. 서울시 공동주택 지원사업 신청의 건 [찬성 26, 반대 0, 기권 이"
+      }
+     ],
+     "captures": 3
+    },
+    {
+     "complex": "올림픽파크포레온",
+     "summary": "도서기부행사",
+     "links": [],
+     "captures": 1
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "소통화통데이 입주민 축제",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001855408&fileSn=0",
+       "text": "공고 2026-139 [입대의] 제17차 입주자대표회의 결과 공고.pdf"
+      },
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001941314&fileSn=0",
+       "text": "공고 2026-1001-03 [입대의] 제22차 입주자대표회의 결과공고(최종)002.jpg"
+      }
+     ],
+     "captures": 2
+    },
+    {
+     "complex": "원펜타스",
+     "summary": "와인클래스",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001758014&fileSn=0",
+       "text": "공고 2026-025  [입대의] 제13차 입주자대표회의 결과 공고003.jpg"
+      }
+     ],
+     "captures": 1
+    }
+   ]
+  },
+  {
+   "category": "아파트CI",
+   "items": [
+    {
+     "complex": "원펜타스",
+     "summary": "아파트CI, 네이밍 공모",
+     "links": [
+      {
+       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001682302&fileSn=0",
+       "text": "공고 2025-350  [입대의] 제9차 입주자대표회의 결과 공고003.jpg"
+      }
+     ],
+     "captures": 1
+    }
+   ]
+  }
+ ]
+}

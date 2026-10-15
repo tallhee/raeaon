@@ -91,6 +91,14 @@
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001700532&fileSn=1"
      },
      {
+      "text": "2026.03 투표 안내(1안·2안 설명)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260327&physical=75C7A4A5BAD2479CAD96B46ABEC33AC6.jpg&contentType=image/jpeg"
+     },
+     {
+      "text": "2026.03 주차비 부과 기준 입주민 투표 결과 공고",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260327&physical=A536163992B34AB5B21EDB0BEE914F38.jpg&contentType=image/jpeg"
+     },
+     {
       "text": "2026.05 결과공고(결정 방식)",
       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260520&physical=F2FB68A34B4F4923B1F51E9F80E0CB48.jpg&contentType=image/jpeg"
      },
@@ -101,6 +109,46 @@
      {
       "text": "2026.09 결과공고(방문차량 150시간)",
       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260916&physical=AE56872718104BA18CD7918C27BEA5F6.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "원페를라",
+   "sigungu": "서초구",
+   "as_of": "2026-08 의결",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 방문주차 월 150시간 무료, 초과 1시간당 1,000원(시행 시기는 시스템 협의 후 공지)",
+    "per_unit_by_area": null,
+    "notes": "같은 회의에서 입주자 명부·차량등록 재정비, 커뮤니티 부정 이용 벌칙(동행 외부인 적발 시 세대 1개월 이용 제한) 의결",
+    "sources": [
+     {
+      "text": "제1기 제3차 정기회의 결과 공고(2026.08.31)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001917569&fileSn=3"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "래미안라그란데",
+   "sigungu": "동대문구",
+   "as_of": "2026-01 의결",
+   "parking": {
+    "public_facility_users_allowed": "상가 정기차량 67대 무료, 46대는 대당 10만 원. 상가 방문차량은 호실당 160시간 후 10분당 3,000원(세부는 상가와 협의)",
+    "visitor_fee": "세대 방문차량 월 160시간 무료, 초과 시 10분당 100원(시간당 600원). 앱 사전등록 필수, 미등록 시 인터폰 확인 후 입차 외 회차",
+    "per_unit_by_area": "1·2단지 통합, 평형별 주차지분 기준으로 부과(금액은 공고에 없음). 지분 무료대수 안에서 서류 확인 후 가족 차량 등록 가능. 돌봄 목적 차량 대당 5만 원",
+    "notes": "주차규정 2차 개정을 위해 입주민 의견 수렴 진행",
+    "sources": [
+     {
+      "text": "제8차 정기회의 결과 공고(2026.01.02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001734598&fileSn=1"
+     },
+     {
+      "text": "제9차 정기회의 결과 공고(2026.01.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001753388&fileSn=1"
      }
     ],
     "checked": "2026-10-16"

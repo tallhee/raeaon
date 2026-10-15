@@ -76,6 +76,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 </header>
 <nav><div class="in" role="tablist">
   <button role="tab" data-tab="minutes" aria-selected="true">입대의 회의결과</button>
+  <button role="tab" data-tab="cases" aria-selected="false">직접 모은 사례</button>
   <button role="tab" data-tab="docs" aria-selected="false">장기수선·감사 자료</button>
   <button role="tab" data-tab="bylaws" aria-selected="false">관리규약 조항</button>
   <button role="tab" data-tab="rules" aria-selected="false">규정 비교표</button>
@@ -95,6 +96,12 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
   <div class="list" id="mList"></div>
+</section>
+
+<section id="cases">
+  <p class="lead">공동주택마당을 직접 둘러보며 모은 다른 단지 사례입니다. 원문 링크가 있는 것은 바로 확인할 수 있고, <span class="tag">자동 연결</span>은 수집한 회의결과에서 같은 내용을 찾아 붙인 링크라 한 번 확인이 필요합니다.</p>
+  <div class="bar"><input type="search" id="cq" placeholder="사례 검색 (예: 식당, 방문차량, 회의록)"></div>
+  <div id="cList"></div>
 </section>
 
 <section id="docs">
@@ -219,6 +226,22 @@ function chips(el,map,state,onChange,multi){
   }
 
 
+
+  // 직접 모은 사례
+  const cases=await get("data/cases.json");
+  {
+    const cq=document.getElementById("cq");
+    const draw=()=>{
+      const term=cq.value.trim();
+      document.getElementById("cList").innerHTML=((cases?.categories)||[]).map(c=>{
+        const items=c.items.filter(x=>!term||(c.category+x.complex+x.summary).includes(term));
+        if(!items.length) return "";
+        return `<h2>${esc(c.category)} <span class="meta">${items.length}</span></h2><div class="list" style="margin-bottom:18px">`+items.map(x=>`<article class="card"><h3>${esc(x.complex)}${x.summary!==x.complex?` · ${esc(x.summary)}`:""}</h3>
+          <div class="meta">${x.links.length?x.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)}</a>${l.auto?' <span class="tag">자동 연결</span>':""}`).join(" · "):"공개 원문 링크 없음"}${x.captures?` · 노션 캡처 ${x.captures}장`:""}</div></article>`).join("")+`</div>`;
+      }).join("")||`<div class="empty-state">${cases?"검색 결과가 없습니다.":"사례 자료를 불러오지 못했습니다."}</div>`;
+    };
+    cq.oninput=draw; draw();
+  }
   // 장기수선·감사 자료
   {
     const cxs=(minutes?.complexes)||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
