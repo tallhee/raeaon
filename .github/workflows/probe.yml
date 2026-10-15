@@ -1,0 +1,17 @@
+name: openapt 구조 점검 (임시)
+on:
+  push:
+    branches: [probe]
+    paths: [".github/workflows/probe.yml", "probe/probe.sh"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash probe/probe.sh
+      - run: |
+          git config user.name raeaon-bot; git config user.email raeaon-bot@users.noreply.github.com
+          git add probe/out; git commit -qm "probe output" || true; git push
