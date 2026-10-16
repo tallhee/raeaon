@@ -210,7 +210,7 @@ def extract(path: Path, name: str, max_pages: int = 20) -> tuple[str, str]:
                 try:
                     r = subprocess.run([soffice, "--headless", f"-env:UserInstallation=file://{os.environ.get('LO_PROFILE') or td + '/u'}", "--convert-to", "pdf",
                                         "--outdir", td, str(src)], capture_output=True, text=True, timeout=240)
-                    LAST_ERR = (r.stdout + r.stderr)[-400:]
+                    LAST_ERR = f"[{kind[:60]} {path.stat().st_size}B] " + (r.stdout + r.stderr)[-300:]
                 except Exception as e:
                     LAST_ERR = f"soffice: {e}"[:400]
                 pdf = Path(td) / "in.pdf"
