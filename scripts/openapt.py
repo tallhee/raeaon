@@ -661,13 +661,24 @@ def main() -> int:
 
     try:
         # 1) 목록: 모든 단지를 먼저 훑어 새 글을 등록 (단지 하나에 시간이 몰리지 않도록)
+        # 목록 훑기는 단지·게시판마다 하루 한 번만, 그리고 이번 실행에서 최대 list_budget 분만 쓴다
+        # (예전에는 매번 전 단지를 훑느라 시간 예산을 다 써서 첨부를 거의 못 읽었음)
         sessions = {}
-        for cx in complexes:
+        lpath = DATA / "openapt_list_state.json"
+        lstate = load(lpath, {})
+        relist_h = CFG.get("relist_hours", 20)
+        list_deadline = time.monotonic() + 60 * CFG.get("list_budget_minutes", 8)
+        cutoff = (NOW - dt.timedelta(hours=relist_h)).isoformat(timespec="minutes")
+        order = sorted(complexes, key=lambda c: min((lstate.get(f"{c['code']}-{b}", "") for b in CFG["boards"]), default=""))
+        for cx in order:
             st = status["complexes"].setdefault(cx["name"], {"listed": 0, "new": 0, "done": 0, "errors": []})
             try:
                 s = sessions[cx["code"]] = Session(cx["code"])
                 for bbs, b in CFG["boards"].items():
                     if not b.get("enabled"):
+                        continue
+                    lk = f"{cx['code']}-{bbs}"
+                    if lstate.get(lk, "") > cutoff or time.monotonic() > list_deadline:
                         continue
                     b_since = (NOW - dt.timedelta(days=b.get("lookback_days", CFG["lookback_days"]))).strftime("%Y-%m-%d")
                     taken = 0
@@ -701,10 +712,12 @@ def main() -> int:
                         if (oldest and oldest < b_since) or (known_hit and page > 1) or \
                                 (b.get("max_posts") and taken >= b["max_posts"]):
                             break
+                    lstate[lk] = NOW.isoformat(timespec="minutes")
             except Stop:
                 raise
             except Exception as e:
                 st["errors"].append(str(e)[:200])
+        save(lpath, lstate)
         # 1-2) 보강 자료: 게시판 범위 밖의 공개 공고 파일 (config/seeds.json)
         seeds = load(ROOT / "config" / "seeds.json", {"seeds": []}).get("seeds", [])
         known_urls = {f.get("url") for i in items.values() for f in i.get("files", [])}
@@ -728,6 +741,10 @@ def main() -> int:
         # 2) 첨부 읽기: 최근 글부터, 단지를 번갈아가며
         pending = sorted((i for i in items.values() if i.get("status") == "pending"),
                          key=lambda i: i.get("date", ""), reverse=True)
+        # 회의결과와 장기수선·감사 자료를 번갈아 읽어 한쪽이 밀리지 않게
+        _m = [i for i in pending if i.get("kind") != "doc"]
+        _d = [i for i in pending if i.get("kind") == "doc"]
+        pending = [x for pair in zip(_m, _d) for x in pair] + _m[len(_d):] + _d[len(_m):]
         for it in pending:
             s = sessions.get(it["code"])
             if not s:
