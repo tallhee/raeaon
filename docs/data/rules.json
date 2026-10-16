@@ -130,6 +130,19 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "dining": {
+    "operator_selection": "다이닝(식당+카페) 위탁업체를 제한경쟁·적격심사·전자입찰로 선정 의결(2026.09.29). 자격: 자본금 10억 이상, HACCP 인증 생산공장, 급식·구내식당 사업자, 식당 운영실적. 심사위원 10명(소장, 동대표 8, 선관위 1), 시식 한상차림 선택",
+    "hours": null,
+    "price": null,
+    "notes": null,
+    "sources": [
+     {
+      "text": "제1기 제5차 회의결과(2026.09.30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001939533&fileSn=3"
+     }
+    ],
+    "checked": "2026-10-17"
    }
   },
   {
@@ -455,6 +468,105 @@
     ],
     "checked": "2026-10-16"
    }
+  },
+  {
+   "name": "원펜타스",
+   "sigungu": "서초구",
+   "households": null,
+   "dining": {
+    "operator_selection": null,
+    "hours": "식당 내 카페 화~토 07:00~16:00, 일·공휴일 07:00~14:00. 2026년 7·8월은 휴관일(월)도 운영",
+    "price": null,
+    "notes": "추석 연휴에는 식당 휴장, 헬스장·독서실 등은 운영(2025.10)",
+    "sources": [
+     {
+      "text": "제19차 회의결과(2026.07.03)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001872473&fileSn=1"
+     },
+     {
+      "text": "제7차 회의결과(2025.10.10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001669851&fileSn=2"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "as_of": "회의결과 기준"
+  },
+  {
+   "name": "원베일리",
+   "sigungu": "서초구",
+   "households": null,
+   "dining": {
+    "operator_selection": "동대표 4명·관리주체 2명으로 다이닝 운영위원회 구성, 매월 개최",
+    "hours": "평일 중식 11:00~15:00로 30분 변경(2025.11 의결)",
+    "price": null,
+    "notes": null,
+    "sources": [
+     {
+      "text": "제1기 제33차 회의결과(2025.11.14)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20251114&physical=267CDD9CADAB4EED92CA50BF4D2AAB9D.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "as_of": "회의결과 기준"
+  },
+  {
+   "name": "대치푸르지오써밋",
+   "sigungu": "강남구",
+   "community": {
+    "hours": "프라이빗 샤워실 평일 06:00~21:30, 주말·공휴일 09:00~17:30(마지막 입장)",
+    "fee": "샤워실 1회 3,000원, 락카 월 5,000원",
+    "entry_limit": null,
+    "notes": "3개월 시범운영 후 재심의(2026.08 의결)",
+    "sources": [
+     {
+      "text": "제2기 8차 회의결과(2026.08.27)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001914819&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "as_of": "회의결과 기준",
+   "households": 489
+  },
+  {
+   "name": "강남센트럴아이파크",
+   "sigungu": "강남구",
+   "community": {
+    "hours": null,
+    "fee": "스크린골프 주중 오전(13시 입장까지) 개인타석 시간당 4,000→2,000원, 스크린룸 12,000→10,000원으로 인하(2026.08 의결)",
+    "entry_limit": null,
+    "notes": "이용률 제고 목적",
+    "sources": [
+     {
+      "text": "제2기 제27차 회의결과(2026.08.25)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001912570&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "as_of": "회의결과 기준",
+   "households": 499
+  },
+  {
+   "name": "개포래미안포레스트",
+   "sigungu": "강남구",
+   "community": {
+    "hours": null,
+    "fee": "독서실 일일권 신설: 밀폐형 6,000원, 개방형 4,000원. 월권 중도 취소 시 일권 금액으로 정산 후 환불",
+    "entry_limit": null,
+    "notes": "커뮤니티 운영규정 개정(2026.04, 찬성 11)",
+    "sources": [
+     {
+      "text": "제3기 제20차 회의결과(2026.04.29)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260429&physical=CC8A4BD3BA1F46979038149287BF0DC3.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "as_of": "회의결과 기준",
+   "households": 2296
   },
   {
    "name": "반포동 A아파트 (익명)",
