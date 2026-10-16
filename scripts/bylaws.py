@@ -141,6 +141,8 @@ def main() -> int:
                             p.write_bytes(data)
                             txt, kind = oa.extract(p, f["name"], max_pages=BC.get("ocr_max_pages", 80))
                         f["method"], f["chars"] = kind, len(txt)
+                        if kind == "hwp-fail":
+                            f["err"] = oa.LAST_ERR
                         tp = TEXT_DIR / cx["code"] / f"{r['nttId']}_{f['fileSn']}.txt"
                         tp.parent.mkdir(parents=True, exist_ok=True)
                         tp.write_text(txt, encoding="utf-8")

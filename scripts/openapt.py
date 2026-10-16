@@ -154,6 +154,9 @@ def parse_detail(h: str) -> tuple[list[dict], str]:
 
 
 # ---------------------------------------------------------------- 글자 뽑기
+LAST_ERR = ""
+
+
 def run(cmd: list[str], timeout=180) -> str:
     try:
         return subprocess.run(cmd, capture_output=True, text=True, timeout=timeout).stdout
@@ -202,7 +205,13 @@ def extract(path: Path, name: str, max_pages: int = 20) -> tuple[str, str]:
             with tempfile.TemporaryDirectory() as td:
                 src = Path(td) / ("in" + (".hwpx" if low.endswith(".hwpx") else ".hwp"))
                 shutil.copy(path, src)
-                run([soffice, "--headless", f"-env:UserInstallation=file://{td}/u", "--convert-to", "pdf", "--outdir", td, str(src)], timeout=240)
+                global LAST_ERR
+                try:
+                    r = subprocess.run([soffice, "--headless", f"-env:UserInstallation=file://{td}/u", "--convert-to", "pdf",
+                                        "--outdir", td, str(src)], capture_output=True, text=True, timeout=240)
+                    LAST_ERR = (r.stdout + r.stderr)[-400:]
+                except Exception as e:
+                    LAST_ERR = f"soffice: {e}"[:400]
                 pdf = Path(td) / "in.pdf"
                 if pdf.exists() and pdf.stat().st_size > 0:
                     t2, k2 = extract(pdf, "in.pdf", max_pages)
