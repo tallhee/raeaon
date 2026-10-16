@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T04:57+09:00",
+ "updated": "2026-10-16T12:32+09:00",
  "topics": {
   "ltr": "장기수선충당금·계획",
   "parking": "주차",
@@ -53,7 +53,7 @@
      "fileSn": "0",
      "name": "센트럴 관리규약 (2024).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001354112&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10023825/2602299_0.txt"
     }
@@ -9974,7 +9974,7 @@
      "fileSn": "0",
      "name": "관리규약원본.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001917617&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10024347/3037630_0.txt"
     }
@@ -13189,7 +13189,7 @@
      "fileSn": "0",
      "name": "시설물사용규정(2024.1.29)최종.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001275509&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10025927/2541301_0.txt"
     }
@@ -13216,7 +13216,7 @@
      "fileSn": "0",
      "name": "삼익신동아재건축관련 협상단 운영규정(2024.10.25)개정(최종).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001450775&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10025927/2676662_0.txt"
     }
@@ -13243,7 +13243,7 @@
      "fileSn": "0",
      "name": "관리규약(20266.2 개정확정)최종분.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001870774&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10025927/3001091_0.txt"
     }
@@ -15037,7 +15037,7 @@
      "fileSn": "0",
      "name": "아파트관리규약(서초센트럴아이파크아파트)221108.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001381490&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10024574/2622446_0.txt"
     }
@@ -16926,7 +16926,7 @@
      "fileSn": "0",
      "name": "제19차 관리규약](전문, 2024.10.7.).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001501130&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A13805002/2716276_0.txt"
     }
@@ -20573,7 +20573,7 @@
      "fileSn": "0",
      "name": "레이크팰리스관리규약(8차,20260424)_최종본_20240423.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001924630&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A13822001/3042574_0.txt"
     }
@@ -20600,7 +20600,7 @@
      "fileSn": "0",
      "name": "1. 관리규약-잠실르엘_발주본20260109.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001779254&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10020230/2930708_0.txt"
     }
@@ -20999,7 +20999,7 @@
      "fileSn": "1",
      "name": "인쇄본3_본문_잠실엘스(24.1.18).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001250695&fileSn=1",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A13822004/2522428_1.txt"
     }
@@ -21026,7 +21026,7 @@
      "fileSn": "0",
      "name": "잠실올림픽아이파크（15차, 2022.4.15.）.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001652961&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10025185/2833644_0.txt"
     }
@@ -22177,7 +22177,7 @@
      "fileSn": "3",
      "name": "8차-파크리오관리규약(2026.06.15).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001860542&fileSn=3",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A13824006/2993026_3.txt"
     }
@@ -22204,7 +22204,7 @@
      "fileSn": "0",
      "name": "공동주택 관리규약(포레나노원-5차개정2024.04.02) 전문_최종.hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001315858&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10024547/2572597_0.txt"
     }
@@ -23320,7 +23320,7 @@
      "fileSn": "0",
      "name": "관리규약240800제정 (1).hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001814330&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10022403/2957723_0.txt"
     }
@@ -23728,7 +23728,7 @@
      "fileSn": "0",
      "name": "층간소음 관리위원회 운영 규정 .hwp",
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001619394&fileSn=0",
-     "method": "hwp",
+     "method": "hwp-fail",
      "chars": 0,
      "text_path": "bylaws_text/A10023661/2808269_0.txt"
     }
