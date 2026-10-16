@@ -28,6 +28,11 @@ jobs:
           sudo apt-get -qq update
           sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-kor poppler-utils > /dev/null
           pip -q install pyhwp || true
+          # 한글(hwp) → PDF 변환용: LibreOffice + H2Orestart 확장
+          sudo apt-get -qq install -y --no-install-recommends libreoffice-writer default-jre-headless > /dev/null
+          gh release download -R ebandal/H2Orestart -p '*.oxt' -D /tmp/h2o && sudo unopkg add --shared /tmp/h2o/*.oxt || echo "H2Orestart 설치 실패"
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: 회의결과 수집
         run: python scripts/openapt.py

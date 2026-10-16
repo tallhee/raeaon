@@ -194,9 +194,20 @@ def extract(path: Path, name: str, max_pages: int = 20) -> tuple[str, str]:
         except Exception:
             return "", "hwpx-fail"
     if low.endswith(".hwp") or "Hangul" in kind or "Composite Document" in kind:
-        if shutil.which("hwp5txt"):
-            return run(["hwp5txt", str(path)]), "hwp"
-        return "", "hwp-no-tool"
+        txt = run(["hwp5txt", str(path)]) if shutil.which("hwp5txt") else ""
+        if len(txt.strip()) >= 150:
+            return txt, "hwp"
+        soffice = shutil.which("soffice") or shutil.which("libreoffice")
+        if soffice:  # 한글 파일 → PDF (LibreOffice + H2Orestart) → PDF처럼 읽기
+            with tempfile.TemporaryDirectory() as td:
+                src = Path(td) / ("in" + (".hwpx" if low.endswith(".hwpx") else ".hwp"))
+                shutil.copy(path, src)
+                run([soffice, "--headless", f"-env:UserInstallation=file://{td}/u", "--convert-to", "pdf", "--outdir", td, str(src)], timeout=240)
+                pdf = Path(td) / "in.pdf"
+                if pdf.exists() and pdf.stat().st_size > 0:
+                    t2, k2 = extract(pdf, "in.pdf", max_pages)
+                    return t2, f"hwp→{k2}"
+        return txt, "hwp" if txt else "hwp-fail"
     return "", f"skip({kind[:30]})"
 
 

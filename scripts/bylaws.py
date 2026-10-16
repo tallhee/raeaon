@@ -118,7 +118,9 @@ def main() -> int:
                 st["docs"] = len(chosen)
                 for r in chosen:
                     key = f"{cx['code']}-{r['nttId']}"
-                    if docs.get(key, {}).get("status") == "done":
+                    prev = docs.get(key, {})
+                    hwp_empty = any(f.get("method", "").startswith("hwp") and not f.get("chars") for f in prev.get("files", []))
+                    if prev.get("status") == "done" and not (hwp_empty or not prev.get("files")):
                         continue
                     d = s.post("/boardForm/boardDetail.do", {
                         "aptCode": cx["code"], "searchValue": f"aptCode:{cx['code']}|bbsCommCode:09|nttId:{r['nttId']}",
