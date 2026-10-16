@@ -16,6 +16,7 @@ import hashlib
 import html
 import http.cookiejar
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -207,7 +208,7 @@ def extract(path: Path, name: str, max_pages: int = 20) -> tuple[str, str]:
                 shutil.copy(path, src)
                 global LAST_ERR
                 try:
-                    r = subprocess.run([soffice, "--headless", f"-env:UserInstallation=file://{td}/u", "--convert-to", "pdf",
+                    r = subprocess.run([soffice, "--headless", f"-env:UserInstallation=file://{os.environ.get('LO_PROFILE') or td + '/u'}", "--convert-to", "pdf",
                                         "--outdir", td, str(src)], capture_output=True, text=True, timeout=240)
                     LAST_ERR = (r.stdout + r.stderr)[-400:]
                 except Exception as e:

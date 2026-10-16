@@ -30,17 +30,21 @@ jobs:
           pip -q install pyhwp || true
           # 한글(hwp) → PDF 변환용: LibreOffice + H2Orestart 확장
           sudo apt-get -qq install -y --no-install-recommends libreoffice-writer default-jre-headless > /dev/null
-          gh release download -R ebandal/H2Orestart -p '*.oxt' -D /tmp/h2o && sudo unopkg add --shared /tmp/h2o/*.oxt || echo "H2Orestart 설치 실패"
-          mkdir -p docs/data && { which soffice; ls /tmp/h2o; unopkg list --shared 2>&1 | grep -i -A2 h2o; } > docs/data/hwp_tool_check.txt 2>&1 || true
+          gh release download -R ebandal/H2Orestart -p '*.oxt' -D /tmp/h2o && unopkg add -env:UserInstallation=file:///tmp/lo_profile /tmp/h2o/*.oxt || echo "H2Orestart 설치 실패"
+          mkdir -p docs/data && { which soffice; unopkg list -env:UserInstallation=file:///tmp/lo_profile 2>&1 | grep -i -A3 "Identifier"; } > docs/data/hwp_tool_check.txt 2>&1 || true
         env:
           GH_TOKEN: ${{ github.token }}
 
       - name: 회의결과 수집
         run: python scripts/openapt.py
+        env:
+          LO_PROFILE: /tmp/lo_profile
 
       - name: 관리규약 수집
         if: always()
         run: python scripts/bylaws.py
+        env:
+          LO_PROFILE: /tmp/lo_profile
 
       - name: 변경분 커밋
         if: always()
