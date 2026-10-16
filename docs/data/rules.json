@@ -320,6 +320,24 @@
    }
   },
   {
+   "name": "잠실올림픽공원아이파크",
+   "sigungu": "송파구",
+   "as_of": "관리규약 2022.04.15",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 방문차량 월 150시간 무료, 초과 시 시간당 1,000원 익월 관리비 부과. 이의 제기 차량은 입차 거부 가능",
+    "per_unit_by_area": "세대당 최대 3대 등록(대수별 요금은 규약에 없음)",
+    "notes": "관리규약 안 주차 조항(한글 파일을 PDF로 바꿔 읽음)",
+    "sources": [
+     {
+      "text": "관리규약(22.4.15)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001652961&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
    "name": "방배그랑자이",
    "sigungu": "서초구",
    "households": 758,
