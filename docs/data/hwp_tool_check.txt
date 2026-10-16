@@ -1,0 +1,29 @@
+/usr/bin/soffice
+H2Orestart.oxt
+Identifier: ebandal.libreoffice.H2Orestart
+  Version: 0.7.14
+  URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt
+  is registered: no
+  Media-Type: application/vnd.sun.star.package-bundle
+--
+Please report bugs to https://github.com/ebandal/H2Orestart
+  bundled Packages: {
+      URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt/types.rdb
+      is registered: no
+      Media-Type: application/vnd.sun.star.uno-typelibrary;type=RDB
+--
+      URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt/H2Orestart.jar
+      is registered: no
+      Media-Type: application/vnd.sun.star.uno-component;type=Java
+--
+      URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt/registry/H2Orestart_types.xcu
+      is registered: no
+      Media-Type: application/vnd.sun.star.configuration-data
+--
+      URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt/registry/TypeDetection.xcu
+      is registered: no
+      Media-Type: application/vnd.sun.star.configuration-data
+--
+      URL: vnd.sun.star.expand:$UNO_SHARED_PACKAGES_CACHE/uno_packages/lu43191tqx.tmp_/H2Orestart.oxt/registry/H2Orestart_filters.xcu
+      is registered: no
+      Media-Type: application/vnd.sun.star.configuration-data

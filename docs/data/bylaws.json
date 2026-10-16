@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T12:32+09:00",
+ "updated": "2026-10-16T13:17+09:00",
  "topics": {
   "ltr": "장기수선충당금·계획",
   "parking": "주차",
@@ -55,6 +55,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001354112&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6861): dconf-CRITICAL **: 04:23:39.695: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6865): dconf-CRITICAL **: 04:23:39.830: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10023825/2602299_0.txt"
     }
    ],
@@ -9976,6 +9977,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001917617&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6919): dconf-CRITICAL **: 04:25:08.857: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6923): dconf-CRITICAL **: 04:25:08.967: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10024347/3037630_0.txt"
     }
    ],
@@ -13191,6 +13193,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001275509&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6808): dconf-CRITICAL **: 04:22:58.389: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6812): dconf-CRITICAL **: 04:22:58.519: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10025927/2541301_0.txt"
     }
    ],
@@ -13218,6 +13221,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001450775&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6781): dconf-CRITICAL **: 04:22:50.642: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6785): dconf-CRITICAL **: 04:22:50.831: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10025927/2676662_0.txt"
     }
    ],
@@ -13245,6 +13249,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001870774&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6756): dconf-CRITICAL **: 04:22:43.351: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6760): dconf-CRITICAL **: 04:22:43.456: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10025927/3001091_0.txt"
     }
    ],
@@ -15039,6 +15044,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001381490&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6834): dconf-CRITICAL **: 04:23:15.672: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6838): dconf-CRITICAL **: 04:23:15.780: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10024574/2622446_0.txt"
     }
    ],
@@ -16928,6 +16934,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001501130&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6617): dconf-CRITICAL **: 04:18:31.900: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6621): dconf-CRITICAL **: 04:18:32.006: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A13805002/2716276_0.txt"
     }
    ],
@@ -20575,6 +20582,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001924630&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6697): dconf-CRITICAL **: 04:20:04.137: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6701): dconf-CRITICAL **: 04:20:04.260: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A13822001/3042574_0.txt"
     }
    ],
@@ -20602,6 +20610,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001779254&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6561): dconf-CRITICAL **: 04:17:47.353: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6565): dconf-CRITICAL **: 04:17:47.466: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10020230/2930708_0.txt"
     }
    ],
@@ -21001,6 +21010,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001250695&fileSn=1",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6669): dconf-CRITICAL **: 04:19:48.903: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6673): dconf-CRITICAL **: 04:19:49.016: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A13822004/2522428_1.txt"
     }
    ],
@@ -21028,6 +21038,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001652961&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6644): dconf-CRITICAL **: 04:18:46.691: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6648): dconf-CRITICAL **: 04:18:46.944: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10025185/2833644_0.txt"
     }
    ],
@@ -22179,6 +22190,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001860542&fileSn=3",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6590): dconf-CRITICAL **: 04:18:15.332: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6594): dconf-CRITICAL **: 04:18:15.454: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A13824006/2993026_3.txt"
     }
    ],
@@ -22206,6 +22218,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001315858&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6950): dconf-CRITICAL **: 04:26:04.597: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6954): dconf-CRITICAL **: 04:26:04.704: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10024547/2572597_0.txt"
     }
    ],
@@ -23322,6 +23335,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001814330&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6728): dconf-CRITICAL **: 04:21:05.385: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6732): dconf-CRITICAL **: 04:21:05.509: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10022403/2957723_0.txt"
     }
    ],
@@ -23730,6 +23744,7 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001619394&fileSn=0",
      "method": "hwp-fail",
      "chars": 0,
+     "err": "failed to launch javaldx - java may not function correctly\n\n(process:6890): dconf-CRITICAL **: 04:24:50.070: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\n\n(process:6894): dconf-CRITICAL **: 04:24:50.187: unable to create file '/run/user/1001/dconf/user': Permission denied.  dconf will not work properly.\nError: source file could not be loaded\n",
      "text_path": "bylaws_text/A10023661/2808269_0.txt"
     }
    ],
