@@ -155,6 +155,290 @@
    }
   },
   {
+   "name": "개포자이프레지던스",
+   "sigungu": "강남구",
+   "households": 3375,
+   "use_approval": "2023-02-28",
+   "as_of": "주차 2025.12 · 커뮤니티 2026.08 개정",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 월 150시간 무료(이월 없음), 초과 시 30분당 1,000원 관리비 부과. 게스트하우스 이용자는 체크인~체크아웃 무료",
+    "per_unit_by_area": "주차면적÷12.5㎡로 배정비율 산정, 기본 무료 39~84형 1대, 102~132형 2대, 185P 3대. 추가 1대 3만 원·2대 6만 원에서 배정비율만큼 차감(예: 59A 21,600원·81,600원, 84A 6,000원·66,000원, 114A 16,800원·76,800원). 39·45형은 2대 추가 불가, 추가등록 최대 2대(별표 2)",
+    "notes": "어린이집·학원 등 외부 정기차량 보증금 3만 원 + 월 1만 원. 위반 2회 5만 원, 3회 10만 원",
+    "sources": [
+     {
+      "text": "주차장 관리규정(2025.12.11 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001718787&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": "화~일 06:00~22:00, 공휴일 09:00~18:00(입장 마감 30분 전). 매주 월요일 휴관, 설·추석 당일 휴관",
+    "fee": "세대당 기본 운영비 월 3만 원. 사우나 추가 1인 2,000원. 골프 28분 2,000원·58분 4,000원, 스크린골프 1시간 1만 원(주말 1만5천 원), 실내체육관 코트 1시간 1만 원, 인피니티풀 평일 1만5천 원·주말 2만5천 원",
+    "entry_limit": "사우나 세대당 월 30회 무료, 헬스 1회 3시간 10분 제한. 게스트하우스 연 10박 이하",
+    "notes": "외부인 부정사용 적발 시 2회 3개월~4회 12개월 이용정지",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정(2026.08.25 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001940979&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "dining": {
+    "operator_selection": "위탁 운영('식당 위탁계약 내용 적용')",
+    "hours": "화~일 중식 11:00~13:30, 석식 17:00~20:00(입장 기준), 월요일 휴무",
+    "price": "메뉴별 개별요금(위탁계약)",
+    "notes": "입주민·동일 세대 가족 중 안면 인증한 사람만 이용. 포장 도시락 반출 가능",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정 별표8 다이닝 이용수칙",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001940979&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "서초그랑자이",
+   "sigungu": "서초구",
+   "households": 1446,
+   "use_approval": "2021-06-29",
+   "as_of": "주차 2024.03 · 커뮤니티 2025.01",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 방문차량 월 200시간, 초과 시 시간당 1,000원",
+    "per_unit_by_area": "1대 무료. 2대째: 59형 11,500원, 74형 4,400원, 84형 이상 무료. 3대째: 59형 7만 원, 74형 24,400원, 84형 19,800원, 100형 12,300원, 119형 3,300원, 148형 무료. 4·5대는 형별 2만~7만 원, 59형 4대·74형 5대 불가(별표 4)",
+    "notes": "주차규격(폭 2.6m) 초과 차량은 2대로 간주",
+    "sources": [
+     {
+      "text": "주차관리규정(2024.03)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001326853&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": "사우나·헬스 화~토 06:00~22:00, 일·공휴일 09:00~18:00. 매주 월요일 휴관",
+    "fee": "세대당 기본 이용료 월 29,000원 관리비 일괄 부과. 초과 시 평일 5,000원·일·공휴일 10,000원. GDR 타석 60분 4,000원, 스크린골프 18홀 14,000원",
+    "entry_limit": "사우나·헬스 세대당 월 72회(평일 1회, 일·공휴일 2회 차감), 이월 없음. 1회 2시간",
+    "notes": "외부인 출입 금지",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정(2025.01 공개)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001488161&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "dining": {
+    "operator_selection": null,
+    "hours": "카페테리아 화~토 09:00~20:00, 일·공휴일 09:00~17:00",
+    "price": "메뉴별 개별요금",
+    "notes": null,
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001488161&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "래미안퍼스티지",
+   "sigungu": "서초구",
+   "households": 2444,
+   "use_approval": "2009-07-14",
+   "as_of": "2023.05.01 시행",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대당 월 200시간, 초과 시간당 1,000원. 세대방문 외 차량은 30분 후 10분당 1,000원",
+    "per_unit_by_area": "평형별 무료대수: 26평 1, 34평 1.33, 44평 1.83, 52평 2.14, 62평 2.65, 72평 3.10, 81평 3.48대. 초과 1대 3만 원, 2대 11만 원, 3대 31만 원, 4대 이상 불가(별표 6·7)",
+    "notes": "학원차량 학원당 월 2만 원(최대 7대)",
+    "sources": [
+     {
+      "text": "주차장 관리규정(2023.5.1 시행)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001125597&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "래미안솔베뉴",
+   "sigungu": "강동구",
+   "households": 1900,
+   "use_approval": "2019-06-24",
+   "as_of": "2023.06 공개",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대별 방문차량 월 100시간, 초과 시간당 1,000원(분 단위 계산)",
+    "per_unit_by_area": "타입별 허용대수: 49형 1, 59형 1.2, 78형 1.6, 84형 1.7, 103형 2대. 세대당 2대 한정, (2대 − 지분)×3만 원 부과. 3대는 추첨 10세대·103형만 월 6만 원",
+    "notes": null,
+    "sources": [
+     {
+      "text": "주차장 관리규정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001153465&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "잠실동트리지움",
+   "sigungu": "송파구",
+   "households": 3696,
+   "use_approval": "2007-08-24",
+   "as_of": "2026.01.28 시행",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대 방문 월 150시간 무료(이월 없음), 초과 1시간당 2,500원",
+    "per_unit_by_area": "1대 무료(54평 2대). 25평 2대 2만 원·3대 14만 원·4대 38만 원, 33평 2대 15,200원·3대 135,200원, 43평 2대 8,000원·3대 128,000원, 54평 3대 19,600원. 최대등록 25평 2대, 33평 3대, 43·54평 4대(별표 1·2)",
+    "notes": "전폭 2,050mm 이상은 2대로 환산",
+    "sources": [
+     {
+      "text": "제6차 주차관리규정(2026.1.28 시행)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001753596&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": "휘트니스 평일 06:00~23:00, 국경일·법정공휴일 휴관",
+    "fee": "헬스 1개월 19,900원, 운동복+수건 10,000원, 사물함 5,000원",
+    "entry_limit": null,
+    "notes": "휘트니스센터만 별도 규정",
+    "sources": [
+     {
+      "text": "휘트니스센터 운영규정(2025.12.15 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001717990&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "방배그랑자이",
+   "sigungu": "서초구",
+   "households": 758,
+   "use_approval": "2021-07-23",
+   "as_of": "2024.09.24 시행",
+   "parking": {
+    "public_facility_users_allowed": "상가·어린이집 기본 주차 각 5대, 그 방문차량은 입주자 방문차량 기준 적용",
+    "visitor_fee": "월 100시간 무료, 초과 1시간당 1,000원",
+    "per_unit_by_area": "타입별 주차지분 54형 0.59 ~ 84형 0.91 ~ 162형 2.01대(별표 3). 초과 차량 금액은 규정 원문에 표로 없음",
+    "notes": null,
+    "sources": [
+     {
+      "text": "주차장 관리규정(2024.08 3차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001406043&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "녹번역e편한세상캐슬",
+   "sigungu": "은평구",
+   "households": 2569,
+   "use_approval": "2021-05-27",
+   "as_of": "주차 2022.04 · 커뮤니티 3차 개정",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대별 월 150시간 무료(설·추석 각 3일 제외), 초과 1시간당 500원",
+    "per_unit_by_area": "세대당 1대 무료. 2대째 39~59형 2만, 84형 1만, 99형 5천, 114형 0원. 3대째 8만, 4대째 20만 원(누적 30만), 5대 이상 불가",
+    "notes": "돌봄 등 방문종사자 차량 08~21시 월 2만 원 정기등록",
+    "sources": [
+     {
+      "text": "주차장 관리규정(제2차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000942454&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": "화~금 06:00~22:00, 토·일 09:00~22:00. 매주 월요일·법정공휴일 휴관",
+    "fee": "커뮤니티 유지비 세대당 월 5,000원. 헬스 10회 8,000원·20회 15,000원·1회 1,500원, 사우나 10회 2만·20회 3만·1회 3,000원, 골프 1회 2,000원, 게스트룸 1박 6만 원",
+    "entry_limit": "쿠폰제(무료 횟수 없음)",
+    "notes": "외부인 판매행위 금지, 독서실 외부인 출입 금지",
+    "sources": [
+     {
+      "text": "커뮤니티센터 운영 규정(제3차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001671310&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "홍제역 해링턴플레이스",
+   "sigungu": "서대문구",
+   "households": 1116,
+   "use_approval": "2024-03-27",
+   "as_of": "주차 4차 개정 · 커뮤니티 2026.09.10",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "방문 시간 한도 조항 없음. 같은 차량 월 10회 초과 방문 등록 시 해당 월 20만 원",
+    "per_unit_by_area": "1대 무료. 2대째 39형 34,000·48형 31,000·59형 26,000·67형 23,000·84형 16,000·114형 4,000원, 3대째 20만 원, 4대 등록 불가(별표 4)",
+    "notes": "84 분리세대는 본세대와 합산",
+    "sources": [
+     {
+      "text": "주차장 관리규정(4차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001748912&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": "휘트니스·골프 평일 06:00~23:00, 주말 09:00~18:00. 도서관 08:00~24:00",
+    "fee": "기본료 세대당 월 5,000원. 헬스 1인 월 2만 원, 골프 1인 월 4만 원(일일권 50분 5,000원), 스크린골프 1시간 1만 원",
+    "entry_limit": "기본료로 세대당 월 2회 헬스 무료",
+    "notes": "입주자 전용, 방문자·외부인 회원 불가",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정(2026.09.10 일부개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001943538&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
+   "name": "마포프레스티지자이",
+   "sigungu": "마포구",
+   "households": 1694,
+   "use_approval": "2021-12-30",
+   "as_of": "2023.10.25",
+   "community": {
+    "hours": "화~금 06:00~23:00, 토·일·공휴일 09:00~20:00. 매주 월요일 휴관",
+    "fee": "운영비 세대당 월 28,000원. 초과 헬스 1회 1,000원, 사우나 1인 2,000원. 골프 57분 3,000원, 스크린 9홀 6,000원·18홀 12,000원, 게스트하우스 평일 16.5만·주말 19.5만 원",
+    "entry_limit": "세대당 헬스 월 30회(최대 2시간), 사우나 월 30회(최대 2시간 30분)",
+    "notes": "외부인 출입 금지",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정(2023.10.25)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001217706&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   },
+   "dining": {
+    "operator_selection": null,
+    "hours": "카페테리아 평일 09:30~20:30, 주말 09:30~19:30 주문",
+    "price": "아메리카노 2,500원 등, 파니니·샐러드·죽 포장 가능",
+    "notes": "입주민 결제 후 동반 이용 가능",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001217706&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-16"
+   }
+  },
+  {
    "name": "반포동 A아파트 (익명)",
    "sigungu": "1,119세대",
    "anonymous": true,
