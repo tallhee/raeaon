@@ -388,6 +388,18 @@
         "min_year": 2018,
         "min_households": 300,
         "label": "청담 신축"
+      },
+      {
+        "area": "강동구",
+        "min_year": 2016,
+        "min_households": 1000,
+        "label": "강동 신축 대단지"
+      },
+      {
+        "area": "송파구",
+        "min_year": 2016,
+        "min_households": 1000,
+        "label": "송파 신축 대단지"
       }
     ],
     "gu_scan": {
