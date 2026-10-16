@@ -379,6 +379,9 @@ def region_of(cx: dict) -> str:
         return next((r["label"] for r in CFG.get("display", {}).get("regions", []) if r.get("via") == "gu_scan"), "기타")
     for r in CFG.get("display", {}).get("regions", []):
         if r.get("via"):
+            # 송파·강남·서초·강동 밖 단지는 이름으로 넣었어도 '그 외 서울 신축'으로
+            if r["via"] == "gu_scan" and cx.get("sigungu") and cx["sigungu"] not in ("송파구", "강남구", "서초구", "강동구"):
+                return r["label"]
             continue
         if cx.get("dong") and cx["dong"] in r.get("dong", []):
             return r["label"]
