@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-18T02:32+09:00",
+ "ran_at": "2026-10-18T04:42+09:00",
  "complexes": {
   "강동 리버스트 7단지 아파트": {
    "listed": 0,
@@ -10,19 +10,19 @@
   "강동리버스트4단지": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 1,
    "errors": []
   },
   "고덕 그라시움 아파트": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 6,
    "errors": []
   },
   "강동헤리티지자이": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "고덕 아르테온 아파트": {
@@ -34,13 +34,13 @@
   "고덕롯데캐슬베네루체": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 5,
    "errors": []
   },
   "고덕센트럴 아이파크": {
    "listed": 0,
    "new": 0,
-   "done": 5,
+   "done": 2,
    "errors": []
   },
   "고덕자이 아파트": {
@@ -52,37 +52,37 @@
   "이편한세상 송파파크센트럴": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 3,
    "errors": []
   },
   "포레나송파": {
    "listed": 0,
    "new": 0,
-   "done": 6,
+   "done": 4,
    "errors": []
   },
   "잠실래미안아이파크": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "잠실르엘": {
    "listed": 0,
    "new": 0,
-   "done": 4,
+   "done": 0,
    "errors": []
   },
   "원페를라": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 5,
    "errors": []
   },
   "원펜타스": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 2,
    "errors": []
   },
   "원베일리": {
@@ -94,19 +94,19 @@
   "파크리오": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 1,
    "errors": []
   },
   "올림픽선수기자촌아파트": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 2,
    "errors": []
   },
   "잠실올림픽공원아이파크": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 3,
    "errors": []
   },
   "올림픽파크포레온": {
@@ -124,31 +124,31 @@
   "래미안라그란데": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 2,
    "errors": []
   },
   "헬리오시티아파트": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 1,
    "errors": []
   },
   "래미안솔베뉴": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 2,
    "errors": []
   },
   "개포자이프레지던스": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 1,
    "errors": []
   },
   "잠실리센츠": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "잠실엘스아파트": {
@@ -166,19 +166,19 @@
   "잠실동트리지움": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 4,
    "errors": []
   },
   "청담르엘": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 4,
    "errors": []
   },
   "청담자이": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "디에이치방배": {
@@ -208,19 +208,19 @@
   "래미안힐스테이트 고덕": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 4,
    "errors": []
   },
   "송파 시그니처 롯데캐슬아파트": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 1,
    "errors": []
   },
   "힐스테이트 e편한세상 문정아파트": {
    "listed": 0,
    "new": 0,
-   "done": 6,
+   "done": 4,
    "errors": []
   },
   "래미안퍼스티지": {
@@ -244,13 +244,13 @@
   "반포리체": {
    "listed": 0,
    "new": 0,
-   "done": 0,
+   "done": 1,
    "errors": []
   },
   "반포미도아파트": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "반포본동아파트": {
@@ -262,13 +262,13 @@
   "반포자이": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "아크로리버파크": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 0,
    "errors": []
   },
   "디에이치반포라클라스": {
@@ -280,13 +280,13 @@
   "반포래미안아이파크": {
    "listed": 0,
    "new": 0,
-   "done": 4,
+   "done": 2,
    "errors": []
   },
   "반포써밋": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 4,
    "errors": []
   },
   "래미안 신반포 리오센트": {
@@ -310,19 +310,19 @@
   "아크로리버뷰 신반포": {
    "listed": 0,
    "new": 0,
-   "done": 4,
+   "done": 2,
    "errors": []
   },
   "방배그랑자이아파트": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 2,
    "errors": []
   },
   "방배아트자이": {
    "listed": 0,
    "new": 0,
-   "done": 6,
+   "done": 0,
    "errors": []
   },
   "서초센트럴아이파크": {
@@ -364,7 +364,7 @@
   "디에이치 자이 개포": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 2,
    "errors": []
   },
   "래미안개포루체하임": {
@@ -376,85 +376,25 @@
   "대치푸르지오써밋": {
    "listed": 0,
    "new": 0,
-   "done": 2,
-   "errors": []
-  },
-  "청량리역 롯데캐슬 SKY-L65": {
-   "listed": 0,
-   "new": 0,
    "done": 5,
-   "errors": []
-  },
-  "포레나노원 아파트": {
-   "listed": 0,
-   "new": 0,
-   "done": 2,
-   "errors": []
-  },
-  "이문아이파크자이": {
-   "listed": 0,
-   "new": 0,
-   "done": 3,
-   "errors": []
-  },
-  "꿈의숲아이파크아파트": {
-   "listed": 0,
-   "new": 0,
-   "done": 2,
-   "errors": []
-  },
-  "마포프레스티지자이아파트": {
-   "listed": 0,
-   "new": 0,
-   "done": 0,
-   "errors": []
-  },
-  "래미안 목동아델리체": {
-   "listed": 0,
-   "new": 0,
-   "done": 4,
-   "errors": []
-  },
-  "신길센트럴자이": {
-   "listed": 0,
-   "new": 0,
-   "done": 6,
    "errors": []
   },
   "힐스테이트뉴포레": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 2,
    "errors": []
   },
-  "힐스테이트신촌": {
+  "녹번역e편한세상캐슬": {
    "listed": 0,
    "new": 0,
-   "done": 6,
+   "done": 4,
    "errors": []
   },
-  "래미안퍼스트하이": {
+  "이문아이파크자이": {
    "listed": 0,
    "new": 0,
-   "done": 1,
-   "errors": []
-  },
-  "용산 베르디움 프렌즈": {
-   "listed": 0,
-   "new": 0,
-   "done": 0,
-   "errors": []
-  },
-  "LH서울양원1단지": {
-   "listed": 0,
-   "new": 0,
-   "done": 0,
-   "errors": []
-  },
-  "태릉해링턴플레이스": {
-   "listed": 0,
-   "new": 0,
-   "done": 3,
+   "done": 5,
    "errors": []
   },
   "힐스테이트클래시안아파트": {
@@ -466,25 +406,49 @@
   "청량리역 한양수자인 그라시엘": {
    "listed": 0,
    "new": 0,
-   "done": 1,
+   "done": 4,
    "errors": []
   },
-  "녹번역e편한세상캐슬": {
+  "래미안 목동아델리체": {
    "listed": 0,
    "new": 0,
-   "done": 3,
+   "done": 4,
    "errors": []
   },
-  "롯데캐슬클라시아": {
+  "LH서울양원1단지": {
    "listed": 0,
    "new": 0,
-   "done": 5,
+   "done": 0,
+   "errors": []
+  },
+  "포레나노원 아파트": {
+   "listed": 0,
+   "new": 0,
+   "done": 2,
    "errors": []
   },
   "DMC SKVIEW 아이파크포레": {
    "listed": 0,
    "new": 0,
-   "done": 4,
+   "done": 5,
+   "errors": []
+  },
+  "래미안퍼스트하이": {
+   "listed": 0,
+   "new": 0,
+   "done": 1,
+   "errors": []
+  },
+  "힐스테이트신촌": {
+   "listed": 0,
+   "new": 0,
+   "done": 3,
+   "errors": []
+  },
+  "마포프레스티지자이아파트": {
+   "listed": 0,
+   "new": 0,
+   "done": 1,
    "errors": []
   },
   "용산센트럴파크": {
@@ -493,7 +457,37 @@
    "done": 1,
    "errors": []
   },
+  "롯데캐슬클라시아": {
+   "listed": 0,
+   "new": 0,
+   "done": 3,
+   "errors": []
+  },
+  "신길센트럴자이": {
+   "listed": 0,
+   "new": 0,
+   "done": 4,
+   "errors": []
+  },
+  "청량리역 롯데캐슬 SKY-L65": {
+   "listed": 0,
+   "new": 0,
+   "done": 4,
+   "errors": []
+  },
+  "목동 센트럴 아이파크위브 아파트": {
+   "listed": 0,
+   "new": 0,
+   "done": 1,
+   "errors": []
+  },
   "마포더클래시": {
+   "listed": 0,
+   "new": 0,
+   "done": 3,
+   "errors": []
+  },
+  "용산 베르디움 프렌즈": {
    "listed": 0,
    "new": 0,
    "done": 0,
@@ -502,25 +496,37 @@
   "보라매 sk뷰": {
    "listed": 0,
    "new": 0,
-   "done": 17,
+   "done": 50,
    "errors": []
   },
-  "목동 센트럴 아이파크위브 아파트": {
+  "꿈의숲아이파크아파트": {
    "listed": 0,
    "new": 0,
    "done": 5,
+   "errors": []
+  },
+  "태릉해링턴플레이스": {
+   "listed": 0,
+   "new": 0,
+   "done": 2,
    "errors": []
   },
   "마포그랑자이아파트": {
    "listed": 0,
    "new": 0,
-   "done": 5,
+   "done": 2,
+   "errors": []
+  },
+  "마곡엠밸리9단지": {
+   "listed": 0,
+   "new": 0,
+   "done": 2,
    "errors": []
   },
   "백련산 에스케이뷰 아이파크": {
    "listed": 0,
    "new": 0,
-   "done": 2,
+   "done": 3,
    "errors": []
   },
   "사가정 센트럴 아이파크 아파트": {
@@ -532,13 +538,7 @@
   "홍제역 해링턴플레이스아파트": {
    "listed": 0,
    "new": 0,
-   "done": 5,
-   "errors": []
-  },
-  "마곡엠밸리9단지": {
-   "listed": 0,
-   "new": 0,
-   "done": 1,
+   "done": 6,
    "errors": []
   }
  },
@@ -551,9 +551,9 @@
  "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
  "totals": {
   "posts": 5292,
-  "done": 2188,
-  "pending": 3103,
-  "agenda_items": 7587,
+  "done": 2395,
+  "pending": 2894,
+  "agenda_items": 8155,
   "docs": 761
  }
 }
