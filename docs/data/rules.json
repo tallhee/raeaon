@@ -300,6 +300,120 @@
    }
   },
   {
+   "name": "고덕그라시움",
+   "sigungu": "강동구",
+   "households": 4932,
+   "use_approval": "2019-09-27",
+   "as_of": "커뮤니티 규정 2021.12 공개",
+   "community": {
+    "hours": "수영·피트니스·골프·사우나 화~토 06:00~22:00, 일 09:00~18:00. 매주 월요일·법정공휴일·명절 휴관",
+    "fee": "세대당 운영비 월 1만 원 일괄. 기본 횟수 초과 1회 2,000원. 개인강습 월 20만~30만 원(8회)",
+    "entry_limit": "세대당 월 30회(피트니스·사우나·샤워실 합산), 사우나 1회 2시간",
+    "notes": "입주민 전용, 외부인 출입 제한",
+    "sources": [
+     {
+      "text": "커뮤니티센터 운영규정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000895101&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-17"
+   }
+  },
+  {
+   "name": "고덕아르테온",
+   "sigungu": "강동구",
+   "households": 4066,
+   "use_approval": "2020-02-26",
+   "as_of": "주차 2022.09 · 커뮤니티 2022.10 (사우나 2026.10 변경)",
+   "parking": {
+    "public_facility_users_allowed": "상가 주차장 46대 무료, 추가 등록 1대당 월 6만 원(최대 40대)",
+    "visitor_fee": "세대당 월 150시간 무료, 초과 1시간당 1,000원(1일 최대 1만 원). 명절·어버이날·공휴일·이사 차량은 합산 제외",
+    "per_unit_by_area": "1대 무료. 2대째 59형 8,000원·84형 3,000원·114형 무료, 3대째 6만 원(114형 42,000원), 4대째 15만 원(누적 부과)",
+    "notes": null,
+    "sources": [
+     {
+      "text": "주차관리규정(22.9.29 1차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001073834&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "community": {
+    "hours": "화~토 06:00~22:00, 일 09:00~18:00. 사우나는 화·목·토만 운영",
+    "fee": "기본 관리비 월 1만 원(전 세대). 스크린 타석 60분 3,000원, 일반 타석 60분 2,000원, 게스트룸 1박 6만~8만 원",
+    "entry_limit": "헬스장 세대원 제한 없음. 사우나 월 6회 무료, 1일 2시간(2026.10.1부터 1시간 30분에서 늘림)",
+    "notes": null,
+    "sources": [
+     {
+      "text": "커뮤니티운영규정 1차 개정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001115017&fileSn=0"
+     },
+     {
+      "text": "2026.09 회의결과(사우나 변경)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260916&physical=CAFCEBE27488494FAADAC4B73E208A23.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-17"
+   }
+  },
+  {
+   "name": "고덕자이",
+   "sigungu": "강동구",
+   "households": 1824,
+   "use_approval": "2021-01-07",
+   "as_of": "주차 2023.02 시행 · 커뮤니티 2022.01",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "특정 세대 방문이 월 150시간 초과 시 1시간당 500원(한도 없음). 방문차량 24시간 초과 주차 불가",
+    "per_unit_by_area": "1대 무료. 2대째 면적비율로 48형 2만 원 ~ 84형 5,000원, 101·118형 무료. 3대 5만, 4대 10만, 5대 15만 원(누적 합산)",
+    "notes": "카라반 1대 월 5만 원",
+    "sources": [
+     {
+      "text": "주차관리규정(2차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001165942&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-17"
+   },
+   "community": {
+    "hours": "피트니스·사우나·골프 화~토 06:00~22:00, 일·공휴일 09:00~18:00. 독서실 07:00~02:00. 월요일·명절 3일 휴관",
+    "fee": "기본 운영비 월 13,000원(전 세대). 피트니스 추가 이용 1회 3,000원, 골프 시간당 1,000~2,000원, 독서실 월 7만 원",
+    "entry_limit": null,
+    "notes": "외부인 이용·동반 불가",
+    "sources": [
+     {
+      "text": "커뮤니티센터 운영규정(1차 개정)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000905558&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-17"
+   }
+  },
+  {
+   "name": "용산센트럴파크",
+   "sigungu": "용산구",
+   "households": 1334,
+   "use_approval": "2020-08-20",
+   "as_of": "2026.07~08 운영비 승인",
+   "dining": {
+    "operator_selection": "라운지(식당) 삼성웰스토리 위탁 운영",
+    "hours": null,
+    "price": "중·석식 1식 7,150원, 미취학 3,575원(식재료비 정산 기준). 식당 몫 세대당 공동관리비 월 약 41,000~44,000원",
+    "notes": "매달 입대의가 커뮤니티·식당 용역비를 승인",
+    "sources": [
+     {
+      "text": "10차 회의결과(2026.08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001912976&fileSn=0"
+     },
+     {
+      "text": "11차 회의결과(2026.09)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001934428&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-17"
+   }
+  },
+  {
    "name": "잠실동트리지움",
    "sigungu": "송파구",
    "households": 3696,
