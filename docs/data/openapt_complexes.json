@@ -879,7 +879,9 @@
    "households": 2678,
    "sigungu": "송파구",
    "dong": "신천동",
-   "info_v": 3
+   "info_v": 3,
+   "name": "잠실래미안아이파크",
+   "road": "서울 올림픽로 393"
   },
   "A10020230": {
    "code": "A10020230",
@@ -887,7 +889,9 @@
    "households": 1865,
    "sigungu": "송파구",
    "dong": "신천동",
-   "info_v": 3
+   "info_v": 3,
+   "name": "잠실르엘",
+   "road": "서울 올림픽로 333"
   },
   "A10020358": {
    "code": "A10020358",
@@ -914,7 +918,9 @@
    "households": 6864,
    "sigungu": "송파구",
    "dong": "신천동",
-   "info_v": 3
+   "info_v": 3,
+   "name": "잠실파크리오",
+   "road": "서울 올림픽로 435"
   },
   "A13822002": {
    "code": "A13822002",
@@ -5249,6 +5255,448 @@
    "dong": "봉천동",
    "info_checked": "2026-10-16",
    "info_v": 3
+  },
+  "A10024421": {
+   "code": "A10024421",
+   "name": "강동 리버스트 7단지 아파트",
+   "road": "서울 아리수로93가길 70",
+   "households": 1025,
+   "sigungu": "강동구",
+   "use_approval": "2021-02-23",
+   "dong": "강일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10024468": {
+   "code": "A10024468",
+   "name": "강동리버스트4단지",
+   "road": "서울 아리수로93가길 110",
+   "households": 1239,
+   "sigungu": "강동구",
+   "use_approval": "2020-08-28",
+   "dong": "강일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10022851": {
+   "code": "A10022851",
+   "name": "힐스테이트리슈빌강일",
+   "road": "서울 아리수로93다길 80",
+   "sigungu": "강동구",
+   "use_approval": "2023-10-30",
+   "dong": "강일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10025263": {
+   "code": "A10025263",
+   "name": "고덕 그라시움 아파트",
+   "road": "서울 고덕로 333",
+   "households": 4932,
+   "sigungu": "강동구",
+   "use_approval": "2019-09-27",
+   "dong": "고덕동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10020628": {
+   "code": "A10020628",
+   "name": "고덕 온빛채",
+   "road": "서울 아리수로 385",
+   "sigungu": "강동구",
+   "use_approval": "2025-05-16",
+   "dong": "고덕동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13408003": {
+   "code": "A13408003",
+   "name": "고덕아이파크아파트",
+   "road": "서울 동남로79길 26",
+   "households": 1142,
+   "sigungu": "강동구",
+   "use_approval": "2011-12-28",
+   "dong": "고덕동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10022525": {
+   "code": "A10022525",
+   "name": "강동헤리티지자이",
+   "road": "서울 천중로 264",
+   "households": 1299,
+   "sigungu": "강동구",
+   "use_approval": "2024-06-27",
+   "dong": "길동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13470101": {
+   "code": "A13470101",
+   "name": "길동삼익파크",
+   "road": "서울 명일로 293",
+   "households": 1092,
+   "sigungu": "강동구",
+   "use_approval": "1982-09-04",
+   "dong": "길동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10020684": {
+   "code": "A10020684",
+   "name": "길동생활B",
+   "road": "서울 양재대로 1501",
+   "sigungu": "강동구",
+   "use_approval": "2024-12-04",
+   "dong": "길동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13482706": {
+   "code": "A13482706",
+   "name": "고덕주공9단지",
+   "road": "서울 상암로 251",
+   "households": 1320,
+   "sigungu": "강동구",
+   "use_approval": "1985-11-25",
+   "dong": "명일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13407104": {
+   "code": "A13407104",
+   "name": "명일삼익그린2차",
+   "road": "서울 고덕로 210",
+   "households": 2400,
+   "sigungu": "강동구",
+   "use_approval": "1983-12-17",
+   "dong": "명일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10025010": {
+   "code": "A10025010",
+   "name": "고덕 아르테온 아파트",
+   "road": "서울 고덕로 360",
+   "households": 4066,
+   "sigungu": "강동구",
+   "use_approval": "2020-02-26",
+   "dong": "상일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10025112": {
+   "code": "A10025112",
+   "name": "고덕롯데캐슬베네루체",
+   "road": "서울 상암로79길 88",
+   "households": 1859,
+   "sigungu": "강동구",
+   "use_approval": "2019-12-30",
+   "dong": "상일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13472701": {
+   "code": "A13472701",
+   "name": "고덕리엔파크3단지",
+   "road": "서울 상일로 74",
+   "households": 2283,
+   "sigungu": "강동구",
+   "use_approval": "2011-01-27",
+   "dong": "상일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10025104": {
+   "code": "A10025104",
+   "name": "고덕센트럴 아이파크",
+   "road": "서울 고덕로80길 99",
+   "households": 1745,
+   "sigungu": "강동구",
+   "use_approval": "2019-12-30",
+   "dong": "상일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10024473": {
+   "code": "A10024473",
+   "name": "고덕자이 아파트",
+   "road": "서울 상일로 55",
+   "households": 1824,
+   "sigungu": "강동구",
+   "use_approval": "2021-01-07",
+   "dong": "상일동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10020681": {
+   "code": "A10020681",
+   "name": "그란츠 리버파크",
+   "road": "서울 천호대로 1050",
+   "sigungu": "강동구",
+   "use_approval": "2025-03-28",
+   "dong": "성내동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13403101": {
+   "code": "A13403101",
+   "name": "성내삼성",
+   "road": "서울 풍성로38길 22",
+   "households": 1220,
+   "sigungu": "강동구",
+   "use_approval": "1999-09-01",
+   "dong": "성내동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13485302": {
+   "code": "A13485302",
+   "name": "강동롯데캐슬퍼스트아파트",
+   "road": "서울 고덕로 131",
+   "households": 3226,
+   "sigungu": "강동구",
+   "use_approval": "2008-09-25",
+   "dong": "암사동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13405201": {
+   "code": "A13405201",
+   "name": "암사선사현대",
+   "road": "서울 상암로 11",
+   "households": 2938,
+   "sigungu": "강동구",
+   "use_approval": "2000-06-15",
+   "dong": "암사동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13405003": {
+   "code": "A13405003",
+   "name": "프라이어팰리스",
+   "road": "서울 고덕로 130",
+   "households": 1622,
+   "sigungu": "강동구",
+   "use_approval": "2007-07-09",
+   "dong": "암사동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10022202": {
+   "code": "A10022202",
+   "name": "강동중흥S-클래스",
+   "road": "서울 올림픽로78길 60",
+   "sigungu": "강동구",
+   "use_approval": "2024-09-30",
+   "dong": "천호동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13402304": {
+   "code": "A13402304",
+   "name": "천호태영임대",
+   "road": "서울 천호대로 1055",
+   "sigungu": "강동구",
+   "use_approval": "1999-11-21",
+   "dong": "천호동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13880806": {
+   "code": "A13880806",
+   "name": "가락쌍용1차",
+   "road": "서울 동남로 193",
+   "households": 2064,
+   "sigungu": "송파구",
+   "use_approval": "1997-03-20",
+   "dong": "가락동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10020074": {
+   "code": "A10020074",
+   "name": "더샵송파루미스타",
+   "road": "서울 오금로 360",
+   "sigungu": "송파구",
+   "use_approval": "2026-05-08",
+   "dong": "가락동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13811206": {
+   "code": "A13811206",
+   "name": "거여1단지",
+   "road": "서울 양산로8길 8",
+   "households": 1004,
+   "sigungu": "송파구",
+   "use_approval": "1997-11-25",
+   "dong": "거여동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13811202": {
+   "code": "A13811202",
+   "name": "동아효성아파트(거여2단지)",
+   "road": "서울 양산로8길 24",
+   "sigungu": "송파구",
+   "use_approval": "1997-12-15",
+   "dong": "거여동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10024787": {
+   "code": "A10024787",
+   "name": "이편한세상 송파파크센트럴",
+   "road": "서울 오금로 551",
+   "households": 1199,
+   "sigungu": "송파구",
+   "use_approval": "2021-05-17",
+   "dong": "거여동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10024152": {
+   "code": "A10024152",
+   "name": "포레나송파",
+   "road": "서울 위례송파로 123",
+   "households": 1282,
+   "sigungu": "송파구",
+   "use_approval": "2021-08-06",
+   "dong": "거여동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13820006": {
+   "code": "A13820006",
+   "name": "문정래미안",
+   "road": "서울 문정로 83",
+   "households": 1696,
+   "sigungu": "송파구",
+   "use_approval": "2004-09-30",
+   "dong": "문정동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13820007": {
+   "code": "A13820007",
+   "name": "문정시영",
+   "road": "서울 송이로31길 56",
+   "households": 1316,
+   "sigungu": "송파구",
+   "use_approval": "1989-03-30",
+   "dong": "문정동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13820201": {
+   "code": "A13820201",
+   "name": "올림픽훼밀리타운",
+   "road": "서울 중대로 24",
+   "households": 4494,
+   "sigungu": "송파구",
+   "use_approval": "1988-12-21",
+   "dong": "문정동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10020796": {
+   "code": "A10020796",
+   "name": "잠실더샵루벤",
+   "road": "서울 송이로12길 11",
+   "sigungu": "송파구",
+   "use_approval": "2025-03-05",
+   "dong": "송파동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13824005": {
+   "code": "A13824005",
+   "name": "신천장미1차2차",
+   "road": "서울 올림픽로35길 104",
+   "households": 3402,
+   "sigungu": "송파구",
+   "use_approval": "1979-01-24",
+   "dong": "신천동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13813010": {
+   "code": "A13813010",
+   "name": "오금현대아파트",
+   "road": "서울 오금로35길 17",
+   "households": 1316,
+   "sigungu": "송파구",
+   "use_approval": "1984-12-26",
+   "dong": "오금동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13879102": {
+   "code": "A13879102",
+   "name": "잠실5단지아파트",
+   "road": "서울 송파대로 567",
+   "households": 3930,
+   "sigungu": "송파구",
+   "use_approval": "1978-04-15",
+   "dong": "잠실동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13822701": {
+   "code": "A13822701",
+   "name": "잠실아시아선수촌",
+   "road": "서울 올림픽로4길 15",
+   "households": 1356,
+   "sigungu": "송파구",
+   "use_approval": "1986-06-14",
+   "dong": "잠실동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13822702": {
+   "code": "A13822702",
+   "name": "잠실우성1,2,3차",
+   "road": "서울 올림픽로4길 42",
+   "households": 1842,
+   "sigungu": "송파구",
+   "use_approval": "1981-12-08",
+   "dong": "잠실동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13876114": {
+   "code": "A13876114",
+   "name": "송파꿈에그린아파트",
+   "road": "서울 위례광장로 121",
+   "households": 1810,
+   "sigungu": "송파구",
+   "use_approval": "2013-11-08",
+   "dong": "장지동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A13876113": {
+   "code": "A13876113",
+   "name": "송파더센트레아파트",
+   "road": "서울 위례광장로 163",
+   "households": 1139,
+   "sigungu": "송파구",
+   "use_approval": "2013-11-01",
+   "dong": "장지동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
+  },
+  "A10026682": {
+   "code": "A10026682",
+   "name": "위례포레샤인아파트",
+   "road": "서울 위례순환로 477",
+   "households": 2200,
+   "sigungu": "송파구",
+   "use_approval": "2017-09-28",
+   "dong": "장지동",
+   "info_checked": "2026-10-17",
+   "info_v": 3
   }
  },
  "names": {
@@ -5419,6 +5867,37 @@
    "checked": "2026-10-16",
    "codes": [],
    "label": "청담 신축",
+   "v": 3
+  },
+  "강동 신축 대단지": {
+   "checked": "2026-10-17",
+   "codes": [
+    "A10024421",
+    "A10024468",
+    "A10025263",
+    "A10027207",
+    "A10022525",
+    "A10021122",
+    "A10025415",
+    "A10025010",
+    "A10025112",
+    "A10025104",
+    "A10024473"
+   ],
+   "label": "강동 신축 대단지",
+   "v": 3
+  },
+  "송파 신축 대단지": {
+   "checked": "2026-10-17",
+   "codes": [
+    "A10025850",
+    "A10024787",
+    "A10024152",
+    "A10020294",
+    "A10020230",
+    "A10026682"
+   ],
+   "label": "송파 신축 대단지",
    "v": 3
   }
  },
