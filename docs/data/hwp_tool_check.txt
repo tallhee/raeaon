@@ -1,5 +1,5 @@
 /usr/bin/soffice
 Identifier: ebandal.libreoffice.H2Orestart
   Version: 0.8.0
-  URL: vnd.sun.star.expand:$UNO_USER_PACKAGES_CACHE/uno_packages/lu45841s7t.tmp_/H2Orestart.oxt
+  URL: vnd.sun.star.expand:$UNO_USER_PACKAGES_CACHE/uno_packages/lu43984cad.tmp_/H2Orestart.oxt
   is registered: yes
