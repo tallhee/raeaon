@@ -92,6 +92,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
     <div class="bar" id="mTerms"></div></details>
   <div class="bar" id="mGroup"></div>
   <div class="bar" id="mComplex"></div>
+  <div class="meta" id="mCxList" style="margin:-4px 0 8px"></div>
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
   <div class="list" id="mList"></div>
@@ -214,7 +215,10 @@ function chips(el,map,state,onChange,multi){
     };
     chips(document.getElementById("mTopics"),MT,mt,draw,true);
     chips(document.getElementById("mGroup"),MG,mg,draw,true);
-    chips(document.getElementById("mComplex"),cxMap,mc,draw,true);
+    const cxList=()=>{const el=document.getElementById("mCxList");
+      const rs=[...mc].filter(k=>k.startsWith("r:")).map(k=>k.slice(2));
+      el.innerHTML=rs.map(r=>`<strong>${esc(r)}</strong>: `+cxs.filter(c=>!c.pinned&&c.region===r).map(c=>esc(c.name)).join(", ")).join("<br>");};
+    chips(document.getElementById("mComplex"),cxMap,mc,()=>{cxList();draw();},true);
     mq.oninput=draw; newOnly.onchange=drawTerms; drawTerms(); draw();
   }
 
