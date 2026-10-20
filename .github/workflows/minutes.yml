@@ -2,7 +2,7 @@ name: 입대의 회의결과 수집
 
 on:
   schedule:
-    - cron: "37 * * * *"   # 1시간마다 (첫 수집 기간용. 다 읽은 뒤에는 "37 */3 * * *" 등으로 넓히기)
+    - cron: "37 * * * *"   # 매시 깨어나되, 밀린 글이 100건 미만이면 하루 2번(한국시간 07:37·19:37)만 실제 수집
   workflow_dispatch:
 
 permissions:
@@ -19,11 +19,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 수집 필요 여부 (밀린 글이 적으면 하루 2번만)
+        id: gate
+        run: |
+          P=$(python3 -c "import json;print(json.load(open('docs/data/minutes_status.json')).get('totals',{}).get('pending',999))" 2>/dev/null || echo 999)
+          H=$(date -u +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$P" -lt 100 ] && [ "$H" != "22" ] && [ "$H" != "10" ]; then
+            echo "run=false" >> $GITHUB_OUTPUT; echo "밀린 글 $P건 — 이번 시간은 건너뜀"
+          else
+            echo "run=true" >> $GITHUB_OUTPUT; echo "밀린 글 $P건 — 수집"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
         with:
           python-version: "3.12"
 
       - name: 글자 인식 도구 설치
+        if: steps.gate.outputs.run == 'true'
         run: |
           sudo apt-get -qq update
           sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-kor poppler-utils > /dev/null
@@ -36,18 +49,23 @@ jobs:
           GH_TOKEN: ${{ github.token }}
 
       - name: 회의결과 수집
+        if: steps.gate.outputs.run == 'true'
         run: python scripts/openapt.py
         env:
           LO_PROFILE: /tmp/lo_profile
 
       - name: 관리규약 수집
-        if: always()
+        if: always() && steps.gate.outputs.run == 'true'
         run: python scripts/bylaws.py
         env:
           LO_PROFILE: /tmp/lo_profile
 
+      - name: 규정 비교표 자동 추출
+        if: always() && steps.gate.outputs.run == 'true'
+        run: python scripts/auto_rules.py
+
       - name: 변경분 커밋
-        if: always()
+        if: always() && steps.gate.outputs.run == 'true'
         run: |
           git config user.name "raeaon-bot"
           git config user.email "raeaon-bot@users.noreply.github.com"
