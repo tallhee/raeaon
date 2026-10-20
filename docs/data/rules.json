@@ -361,32 +361,48 @@
    "sigungu": "강동구",
    "households": 1824,
    "use_approval": "2021-01-07",
-   "as_of": "주차 2023.02 시행 · 커뮤니티 2022.01",
+   "as_of": "주차 2023.02 시행(3차 개정 2026.09 시행) · 커뮤니티 2022.01(6차 개정 2026.09 시행)",
    "parking": {
     "public_facility_users_allowed": null,
     "visitor_fee": "특정 세대 방문이 월 150시간 초과 시 1시간당 500원(한도 없음). 방문차량 24시간 초과 주차 불가",
     "per_unit_by_area": "1대 무료. 2대째 면적비율로 48형 2만 원 ~ 84형 5,000원, 101·118형 무료. 3대 5만, 4대 10만, 5대 15만 원(누적 합산)",
-    "notes": "카라반 1대 월 5만 원",
+    "notes": "카라반 1대 월 5만 원. 3차 개정안 2026.06.24 의결, 2026.09.01 시행(회의결과). 개정 요금표는 게시판에 아직 없어 위 값은 2차 개정 기준. 규정 위반금은 10만 원으로 정함(2026.05 회의)",
     "sources": [
      {
       "text": "주차관리규정(2차 개정)",
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001165942&fileSn=0"
+     },
+     {
+      "text": "16차 임시회의 결과(2026.06.24)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001864439&fileSn=0"
+     },
+     {
+      "text": "18차 회의 결과(2026.07.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001891686&fileSn=0"
+     },
+     {
+      "text": "15차 회의 결과(2026.05.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001844880&fileSn=0"
      }
     ],
-    "checked": "2026-10-17"
+    "checked": "2026-10-20"
    },
    "community": {
     "hours": "피트니스·사우나·골프 화~토 06:00~22:00, 일·공휴일 09:00~18:00. 독서실 07:00~02:00. 월요일·명절 3일 휴관",
     "fee": "기본 운영비 월 13,000원(전 세대). 피트니스 추가 이용 1회 3,000원, 골프 시간당 1,000~2,000원, 독서실 월 7만 원",
     "entry_limit": null,
-    "notes": "외부인 이용·동반 불가",
+    "notes": "외부인 이용·동반 불가. 6차 개정안 2026.07.28 승인, 2026.09.01 시행(회의결과). 개정본은 게시판에 아직 없어 위 값은 1차 개정 기준",
     "sources": [
      {
       "text": "커뮤니티센터 운영규정(1차 개정)",
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000905558&fileSn=1"
+     },
+     {
+      "text": "18차 회의 결과(2026.07.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001891686&fileSn=0"
      }
     ],
-    "checked": "2026-10-17"
+    "checked": "2026-10-20"
    }
   },
   {
@@ -522,7 +538,7 @@
    "sigungu": "서대문구",
    "households": 1116,
    "use_approval": "2024-03-27",
-   "as_of": "주차 4차 개정 · 커뮤니티 2026.09.10",
+   "as_of": "주차 4차 개정 · 커뮤니티 10차 개정(2026.10.08 의결)",
    "parking": {
     "public_facility_users_allowed": null,
     "visitor_fee": "방문 시간 한도 조항 없음. 같은 차량 월 10회 초과 방문 등록 시 해당 월 20만 원",
@@ -539,15 +555,19 @@
    "community": {
     "hours": "휘트니스·골프 평일 06:00~23:00, 주말 09:00~18:00. 도서관 08:00~24:00",
     "fee": "기본료 세대당 월 5,000원. 헬스 1인 월 2만 원, 골프 1인 월 4만 원(일일권 50분 5,000원), 스크린골프 1시간 1만 원",
-    "entry_limit": "기본료로 세대당 월 2회 헬스 무료",
-    "notes": "입주자 전용, 방문자·외부인 회원 불가",
+    "entry_limit": "기본료로 세대당 월 2회 헬스 무료. 골프 타석은 앱 예약 하루 1회(1회 60분, 실제 50분). 평일 15시 전에는 직원 문의 시 추가 가능, 주말 추가 불가",
+    "notes": "입주자 전용, 방문자·외부인 회원 불가. 10차 개정(2026.10.08 의결)으로 골프 타석 예약제·하루 1회 제한 신설, 요금은 그대로",
     "sources": [
      {
       "text": "커뮤니티 운영규정(2026.09.10 일부개정)",
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001943538&fileSn=0"
+     },
+     {
+      "text": "3기 2차 회의록(2026.10.08) 제6안 커뮤니티 운영규정 10차 개정",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001946844&fileSn=1"
      }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-20"
    }
   },
   {
@@ -681,6 +701,135 @@
    },
    "as_of": "회의결과 기준",
    "households": 2296
+  },
+  {
+   "name": "방배아트자이",
+   "sigungu": "서초구",
+   "households": 353,
+   "use_approval": "2018-10-29",
+   "as_of": "시설물사용규정 2024.01.02 (요금표 2024.03.01 적용)",
+   "community": {
+    "hours": "실내시설(헬스·골프·탁구·작은도서관) 06:00~23:00. 회의실·문화강좌실 08:00~23:00",
+    "fee": "헬스장·골프연습장 무료. 스크린골프 30분 평일 3,500원·주말 6,000원, GDR 30분 평일 1,500원·주말 2,000원(월정기권 2만 원, 하루 1시간), 탁구장 시간당 500원, 골프백 보관 월 1만 원. 게스트룸 1박 6만~13만 원",
+    "entry_limit": null,
+    "notes": "353세대 소단지. 입주자 우선, 여유가 있으면 입대의 승인 받아 외부인 개방 가능",
+    "sources": [
+     {
+      "text": "시설물사용규정(24.1.2) 별표 1",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001275509&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "래미안힐스테이트 고덕",
+   "sigungu": "강동구",
+   "households": 3658,
+   "use_approval": "2016-12-29",
+   "as_of": "커뮤니티 운영규정 2019.01.23 (4차 개정, 게시판 최신본)",
+   "community": {
+    "hours": "사우나·골프·헬스 평일 06:00~22:00, 일·공휴일 09:00~18:00. 독서실 09:00~02:00",
+    "fee": "기본료 세대당 25,000원(전 세대 균등). 헬스·일반타석 무료, 사우나 초과 1회 2,500원, 지스윙타석 시간당 1,000원, 스크린골프 30분 주중 5,000원·주말 7,000원, 독서실 월 8만 원",
+    "entry_limit": "사우나 세대당 하루 2회 무료. 1회 4시간 넘으면 횟수 추가",
+    "notes": "외부인 이용 불가. 2019년 규정이라 지금과 다를 수 있음",
+    "sources": [
+     {
+      "text": "커뮤니티 운영규정 개정전문(2019.01)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000450148&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "강동헤리티지자이",
+   "sigungu": "강동구",
+   "households": 1299,
+   "use_approval": "2024-06-27",
+   "as_of": "커뮤니티 2026.10.01 시행 · 주차 2026.08~10 시행(회의결과)",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "월 15회 이상 들어오거나 7일 넘게 계속 주차한 미등록 차량은 초과 1일당 5,000원(2026.08.01 시행)",
+    "per_unit_by_area": null,
+    "notes": "2026.10.01부터 사전 예약 안 한 방문차량은 입차 금지(경비실 경유도 불가). 배달·택배 기사도 사전 예약 필요",
+    "sources": [
+     {
+      "text": "제20차 회의결과 수정공고(2026.08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001901266&fileSn=0"
+     },
+     {
+      "text": "제22차 회의결과(2026.09.16)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001929943&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-20"
+   },
+   "community": {
+    "hours": null,
+    "fee": "기본관리비 세대당 월 12,000원. 무료 횟수 초과 시 헬스 1회 1,000원, 사우나 1회 1,500원(2026.06). 스크린골프 평일 7,000원(종전 1만 원)·주말 12,000원, GDR 2,000원(종전 3,000원)",
+    "entry_limit": "세대당 헬스 월 30회, 사우나 월 15회 무료(2026.10.01부터. 종전 20회·12회)",
+    "notes": "적자 때문에 2026.01 헬스 무제한 → 월 15회로 바꾼 뒤, 2026.06·10월 두 번 횟수를 늘리고 요금을 내림. 카페 아메리카노 1,200원",
+    "sources": [
+     {
+      "text": "제22차 회의결과(2026.09.16)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001929943&fileSn=1"
+     },
+     {
+      "text": "제18차 회의결과(2026.05)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001838615&fileSn=0"
+     },
+     {
+      "text": "제11차 회의결과(2025.11)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001700695&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "고덕롯데캐슬베네루체",
+   "sigungu": "강동구",
+   "households": 1859,
+   "use_approval": "2019-12-30",
+   "as_of": "주차장 관리규정 개정 2025.07.14 의결, 2025.10.01 시행",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대 방문주차시간 150시간(종전 200시간. 상정안 100시간을 150시간으로 고쳐 의결)",
+    "per_unit_by_area": null,
+    "notes": "임시주차구역 허용시간·단속요일도 함께 조정(세부 시간은 별도 공지)",
+    "sources": [
+     {
+      "text": "3기 18차 임시회의 의결사항(2025.07.14)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001611685&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "고덕센트럴 아이파크",
+   "sigungu": "강동구",
+   "households": 1745,
+   "use_approval": "2019-12-30",
+   "as_of": "요금 개편 2026.07 주민투표 확정",
+   "community": {
+    "hours": null,
+    "fee": "개편 전 월 기본료 16,000원(헬스·사우나 통합 25회). 새 기본료는 공고 이미지에서 확인 안 됨",
+    "entry_limit": null,
+    "notes": "2026.06.25 입대의가 기본료 인하·횟수 조정안 의결(찬성 9) → 주민투표 찬성 78.9%, 3안 확정(2026.07.21 선관위)",
+    "sources": [
+     {
+      "text": "2026년 6월 입대의 결과",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260625&physical=2D9BE64B111E4618AFBD1F6E443AE70C.jpg&contentType=image/jpeg"
+     },
+     {
+      "text": "선관위 4기 6차 회의결과(2026.07.21)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260721&physical=BD930E3506F34542AF95256CBF37A5BF.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
   },
   {
    "name": "반포동 A아파트 (익명)",
