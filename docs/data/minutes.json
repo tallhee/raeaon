@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:55+09:00",
+ "updated": "2026-10-20T22:50+09:00",
  "topics": {
   "parking": "주차",
   "community": "커뮤니티",
@@ -901,90 +901,6 @@
    "pinned": false
   },
   {
-   "name": "DMC SKVIEW 아이파크포레",
-   "code": "A10023076",
-   "sigungu": "은평구",
-   "dong": "수색동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1482,
-   "use_approval": "2023-07-31",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "포레나노원 아파트",
-   "code": "A10024547",
-   "sigungu": "노원구",
-   "dong": "상계동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1062,
-   "use_approval": "2020-11-25",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "꿈의숲아이파크아파트",
-   "code": "A10024488",
-   "sigungu": "성북구",
-   "dong": "장위동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1711,
-   "use_approval": "2022-07-13",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마포프레스티지자이아파트",
-   "code": "A10024347",
-   "sigungu": "마포구",
-   "dong": "염리동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1694,
-   "use_approval": "2021-12-30",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "청량리역 롯데캐슬 SKY-L65",
-   "code": "A10023083",
-   "sigungu": "동대문구",
-   "dong": "전농동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1425,
-   "use_approval": "2023-07-12",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "용산센트럴파크",
-   "code": "A10024691",
-   "sigungu": null,
-   "dong": null,
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1334,
-   "use_approval": "2020-08-20",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "태릉해링턴플레이스",
    "code": "A10023991",
    "sigungu": "노원구",
@@ -1027,76 +943,6 @@
    "pinned": false
   },
   {
-   "name": "마곡엠밸리9단지",
-   "code": "A10024426",
-   "sigungu": "강서구",
-   "dong": "마곡동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1529,
-   "use_approval": "2021-02-15",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "용산 베르디움 프렌즈",
-   "code": "A10024333",
-   "sigungu": null,
-   "dong": null,
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1086,
-   "use_approval": "2021-03-05",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "래미안 목동아델리체",
-   "code": "A10024398",
-   "sigungu": "양천구",
-   "dong": "신정동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1497,
-   "use_approval": "2021-01-28",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트클래시안아파트",
-   "code": "A10024615",
-   "sigungu": "영등포구",
-   "dong": "신길동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1482,
-   "use_approval": "2020-12-28",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "목동 센트럴 아이파크위브 아파트",
-   "code": "A10024872",
-   "sigungu": "양천구",
-   "dong": "신월동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 3045,
-   "use_approval": "2020-05-28",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "사가정 센트럴 아이파크 아파트",
    "code": "A10024741",
    "sigungu": "중랑구",
@@ -1107,6 +953,48 @@
    ],
    "households": 1505,
    "use_approval": "2020-07-30",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "DMC SKVIEW 아이파크포레",
+   "code": "A10023076",
+   "sigungu": "은평구",
+   "dong": "수색동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1482,
+   "use_approval": "2023-07-31",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "래미안퍼스트하이",
+   "code": "A10025245",
+   "sigungu": "성북구",
+   "dong": "장위동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1562,
+   "use_approval": "2020-11-03",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "힐스테이트뉴포레",
+   "code": "A10023661",
+   "sigungu": "관악구",
+   "dong": "신림동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1143,
+   "use_approval": "2022-08-29",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1125,44 +1013,30 @@
    "pinned": false
   },
   {
-   "name": "마포더클래시",
-   "code": "A10023508",
-   "sigungu": "마포구",
-   "dong": "아현동",
+   "name": "꿈의숲아이파크아파트",
+   "code": "A10024488",
+   "sigungu": "성북구",
+   "dong": "장위동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1419,
-   "use_approval": "2022-11-29",
+   "households": 1711,
+   "use_approval": "2022-07-13",
    "region": "그 외 서울 신축",
    "pinned": false
   },
   {
-   "name": "백련산 에스케이뷰 아이파크",
-   "code": "A10025310",
-   "sigungu": "은평구",
-   "dong": "응암동",
+   "name": "포레나노원 아파트",
+   "code": "A10024547",
+   "sigungu": "노원구",
+   "dong": "상계동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1305,
-   "use_approval": "2020-05-21",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "녹번역e편한세상캐슬",
-   "code": "A10024831",
-   "sigungu": "은평구",
-   "dong": "응암동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 2569,
-   "use_approval": "2021-05-27",
+   "households": 1062,
+   "use_approval": "2020-11-25",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1181,16 +1055,198 @@
    "pinned": false
   },
   {
-   "name": "힐스테이트뉴포레",
-   "code": "A10023661",
-   "sigungu": "관악구",
-   "dong": "신림동",
+   "name": "힐스테이트클래시안아파트",
+   "code": "A10024615",
+   "sigungu": "영등포구",
+   "dong": "신길동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1143,
-   "use_approval": "2022-08-29",
+   "households": 1482,
+   "use_approval": "2020-12-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "녹번역e편한세상캐슬",
+   "code": "A10024831",
+   "sigungu": "은평구",
+   "dong": "응암동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 2569,
+   "use_approval": "2021-05-27",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "래미안 목동아델리체",
+   "code": "A10024398",
+   "sigungu": "양천구",
+   "dong": "신정동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1497,
+   "use_approval": "2021-01-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "용산센트럴파크",
+   "code": "A10024691",
+   "sigungu": null,
+   "dong": null,
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1334,
+   "use_approval": "2020-08-20",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "백련산 에스케이뷰 아이파크",
+   "code": "A10025310",
+   "sigungu": "은평구",
+   "dong": "응암동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1305,
+   "use_approval": "2020-05-21",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "청량리역 한양수자인 그라시엘",
+   "code": "A10023188",
+   "sigungu": "동대문구",
+   "dong": "용두동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1152,
+   "use_approval": "2023-06-02",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "청량리역 롯데캐슬 SKY-L65",
+   "code": "A10023083",
+   "sigungu": "동대문구",
+   "dong": "전농동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1425,
+   "use_approval": "2023-07-12",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포프레스티지자이아파트",
+   "code": "A10024347",
+   "sigungu": "마포구",
+   "dong": "염리동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1694,
+   "use_approval": "2021-12-30",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포더클래시",
+   "code": "A10023508",
+   "sigungu": "마포구",
+   "dong": "아현동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1419,
+   "use_approval": "2022-11-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "용산 베르디움 프렌즈",
+   "code": "A10024333",
+   "sigungu": null,
+   "dong": null,
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1086,
+   "use_approval": "2021-03-05",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "신길센트럴자이",
+   "code": "A10025024",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1008,
+   "use_approval": "2021-04-13",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "목동 센트럴 아이파크위브 아파트",
+   "code": "A10024872",
+   "sigungu": "양천구",
+   "dong": "신월동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 3045,
+   "use_approval": "2020-05-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "홍제역 해링턴플레이스아파트",
+   "code": "A10023959",
+   "sigungu": "서대문구",
+   "dong": "홍제동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1116,
+   "use_approval": "2024-03-27",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마곡엠밸리9단지",
+   "code": "A10024426",
+   "sigungu": "강서구",
+   "dong": "마곡동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1529,
+   "use_approval": "2021-02-15",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1219,62 +1275,6 @@
    ],
    "households": 1252,
    "use_approval": "2020-08-04",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "신길센트럴자이",
-   "code": "A10025024",
-   "sigungu": "영등포구",
-   "dong": "신길동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1008,
-   "use_approval": "2021-04-13",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "래미안퍼스트하이",
-   "code": "A10025245",
-   "sigungu": "성북구",
-   "dong": "장위동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1562,
-   "use_approval": "2020-11-03",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "홍제역 해링턴플레이스아파트",
-   "code": "A10023959",
-   "sigungu": "서대문구",
-   "dong": "홍제동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1116,
-   "use_approval": "2024-03-27",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "청량리역 한양수자인 그라시엘",
-   "code": "A10023188",
-   "sigungu": "동대문구",
-   "dong": "용두동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1152,
-   "use_approval": "2023-06-02",
    "region": "그 외 서울 신축",
    "pinned": false
   }
