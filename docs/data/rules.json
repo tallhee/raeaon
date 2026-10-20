@@ -112,6 +112,19 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "dining": {
+    "operator_selection": "4단지 카페테리아: 제한경쟁입찰 1·2차 모두 참여업체 부족으로 유찰, 기존업체(준푸드앤컬처)와 수의계약(2026.05 의결, 찬성 24)",
+    "hours": "조식 서비스 06:30~08:30 신설",
+    "price": null,
+    "notes": null,
+    "sources": [
+     {
+      "text": "2026년 5월 임시회의 결과 7번",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260511&physical=80C616AB056D487382DB6F5A7DB7C0E5.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-20"
    }
   },
   {
@@ -277,6 +290,19 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": null,
+    "fee": "골프 타석 이용료 1시간 5,000원(종전 3,000원), 스크린골프는 그대로(2025.09 의결)",
+    "entry_limit": null,
+    "sources": [
+     {
+      "text": "8기 19차 회의결과(2025.09) 제2호",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20250919&physical=C9C9EED4AF3D4068AB908A8D155AD955.jpg&contentType=image/jpeg"
+     }
+    ],
+    "notes": null,
+    "checked": "2026-10-20"
    }
   },
   {
@@ -297,6 +323,19 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "community": {
+    "hours": null,
+    "fee": "공용이용료 세대당 월 1만 원 정액(2024년 5,000원에서 인상)",
+    "entry_limit": null,
+    "notes": "2025년 기준 월평균 사우나 −1,265만, 카페 −785만, 헬스 −439만 원 적자. 월 15,000원 통합플러스권(세대원 1인 헬스·사우나 15회 추가) 제안 논의(2026.07)",
+    "sources": [
+     {
+      "text": "제4기 6차 임시회의 회의록(2026.07)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001897756&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
    }
   },
   {
@@ -427,6 +466,19 @@
      }
     ],
     "checked": "2026-10-17"
+   },
+   "community": {
+    "hours": null,
+    "fee": null,
+    "entry_limit": "사우나는 기본운영비로 세대별 월 30회 쿠폰, 하루 횟수 제한 없음. 게스트룸 월 6박 이내. 스크린룸 4명 이내",
+    "notes": "2026.07.06 개정 시행. 미전입 실거주자도 회원 인정. 피트니스·골프·카페·키즈룸은 월요일 휴관에서 빠지고 09:00~18:00 운영. 사물함은 분기별 추첨, 세대당 1개",
+    "sources": [
+     {
+      "text": "8차(6월) 회의결과 안건9",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001863104&fileSn=3"
+     }
+    ],
+    "checked": "2026-10-20"
    }
   },
   {
@@ -520,17 +572,21 @@
     "checked": "2026-10-16"
    },
    "community": {
-    "hours": "화~금 06:00~22:00, 토·일 09:00~22:00. 매주 월요일·법정공휴일 휴관",
-    "fee": "커뮤니티 유지비 세대당 월 5,000원. 헬스 10회 8,000원·20회 15,000원·1회 1,500원, 사우나 10회 2만·20회 3만·1회 3,000원, 골프 1회 2,000원, 게스트룸 1박 6만 원",
+    "hours": "화~금 06:00~22:00, 토·일 09:00~22:00. 사우나는 09:00~22:00(2026.07.01부터). 매주 월요일·법정공휴일 휴관",
+    "fee": "커뮤니티 유지비 세대당 월 5,000원. 헬스 10회 8,000원·20회 15,000원·1회 1,500원, 사우나 1회 5,000원·10회 4만·20회 7만 원(2026.07.01부터), 골프 1회 2,000원, 게스트룸 1박 6만 원",
     "entry_limit": "쿠폰제(무료 횟수 없음)",
-    "notes": "외부인 판매행위 금지, 독서실 외부인 출입 금지",
+    "notes": "외부인 판매행위 금지, 독서실 외부인 출입 금지. 사우나 적자로 2026.05 이용료 인상·시간 단축 의결(종전 1회 3,000원·10회 2만·20회 3만 원)",
     "sources": [
      {
       "text": "커뮤니티센터 운영 규정(제3차 개정)",
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001671310&fileSn=1"
+     },
+     {
+      "text": "제3기 31차 회의록(2026.05) 1호안건",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001843182&fileSn=0"
      }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-20"
    }
   },
   {
@@ -606,7 +662,7 @@
   {
    "name": "원펜타스",
    "sigungu": "서초구",
-   "households": null,
+   "households": 641,
    "dining": {
     "operator_selection": null,
     "hours": "식당 내 카페 화~토 07:00~16:00, 일·공휴일 07:00~14:00. 2026년 7·8월은 휴관일(월)도 운영",
@@ -624,12 +680,26 @@
     ],
     "checked": "2026-10-17"
    },
-   "as_of": "회의결과 기준"
+   "as_of": "회의결과 기준",
+   "use_approval": "2024-06-13",
+   "community": {
+    "hours": "06:00~22:00, 일·공휴일 09:00~18:00. 수영장·사우나 입장 마감 평일 21:30, 주말·공휴일 17:30",
+    "fee": null,
+    "entry_limit": null,
+    "notes": "수영장 마감시간 지정(2026.07 의결)",
+    "sources": [
+     {
+      "text": "제20차 회의결과(2026.07.30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001901298&fileSn=1"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
   },
   {
    "name": "원베일리",
    "sigungu": "서초구",
-   "households": null,
+   "households": 2990,
    "dining": {
     "operator_selection": "동대표 4명·관리주체 2명으로 다이닝 운영위원회 구성, 매월 개최",
     "hours": "평일 중식 11:00~15:00로 30분 변경(2025.11 의결)",
@@ -643,7 +713,21 @@
     ],
     "checked": "2026-10-17"
    },
-   "as_of": "회의결과 기준"
+   "as_of": "회의결과 기준",
+   "use_approval": "2023-08-30",
+   "community": {
+    "hours": "일요일 2시간 연장해 09:00~20:00(2026.08.01부터)",
+    "fee": null,
+    "entry_limit": "월 사용 쿠폰제, 세대당 월 50회(2026.08.01부터)",
+    "notes": "입주민 설문 결과(쿠폰제 58.5%, 일요일 연장 64.1%)대로 규정 개정(2026.06 의결)",
+    "sources": [
+     {
+      "text": "제2기 6차 회의결과(2026.06)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260626&physical=8E1853948DEA47A8B0108896E993E91F.jpg&contentType=image/jpeg"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
   },
   {
    "name": "대치푸르지오써밋",
@@ -662,7 +746,21 @@
     "checked": "2026-10-17"
    },
    "as_of": "회의결과 기준",
-   "households": 489
+   "households": 489,
+   "use_approval": "2023-06-05",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": null,
+    "per_unit_by_area": "등록은 주차요금 조견표에 따라 세대당 3대까지. 전용 107㎡ 이상은 추가 1대(4대째) 허용, 요금 30만 원, 1년마다 연장",
+    "notes": "실거주·실보유 확인 전제. 주차장이 붐비면 4대 허용 기준 다시 검토(2026.09 의결)",
+    "sources": [
+     {
+      "text": "제2기 9차 회의결과(2026.09) 제3호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001929195&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
   },
   {
    "name": "강남센트럴아이파크",
@@ -828,6 +926,223 @@
       "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260721&physical=BD930E3506F34542AF95256CBF37A5BF.jpg&contentType=image/jpeg"
      }
     ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "래미안개포루체하임",
+   "sigungu": "강남구",
+   "households": 850,
+   "use_approval": "2018-11-21",
+   "as_of": "주차관리규정 개정 2026.04 의결",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대별 월 방문 무료시간을 다 쓰면 10분당 100원(무료시간 숫자는 공고 글자가 깨져 확인 안 됨)",
+    "per_unit_by_area": "추가 차량 사용부담금 1대 추가 3만, 2대 추가 6만, 3대 추가 18만 원",
+    "notes": "그 밖의 개정 사항은 게시판 공고 후 절차대로 진행",
+    "sources": [
+     {
+      "text": "제4기 16차 회의결과(2026.04.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001821835&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "롯데캐슬클라시아",
+   "sigungu": "성북구",
+   "households": 2033,
+   "use_approval": "2022-01-27",
+   "as_of": "주차관리규정 개정 2025.10 의결",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대 무료 방문주차 150시간(종전 200시간)",
+    "per_unit_by_area": null,
+    "notes": "주차위반 3회마다 무료시간 50시간 차감, 3개월 위반 없으면 150시간 복구(매년 1월 초기화). 무료시간 판매·양도·대여 차량 제재",
+    "sources": [
+     {
+      "text": "2기 18차 의결 공고(2025.10) 제3호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001671244&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "청량리역 한양수자인 그라시엘",
+   "sigungu": "동대문구",
+   "households": 1152,
+   "use_approval": "2023-06-02",
+   "as_of": "주차 2025.06 · 식당 2026.01 주민투표",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": "세대 방문차량 무료 100시간(종전 150시간)",
+    "per_unit_by_area": null,
+    "notes": "근무자 주차 취소, 어린이집 교사 차량만 허가, 2년마다 등록차량 정비(2025.06 의결)",
+    "sources": [
+     {
+      "text": "제1기 45차 회의결과(2025.06) 제4호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001601380&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   },
+   "dining": {
+    "operator_selection": null,
+    "hours": null,
+    "price": "월 관리비 2만 원(무료 식사 없음) + 1식 8,000원",
+    "notes": "주민투표 69.35%로 1안 선택. 2안(월 3만 원·월 1식 무료 + 1식 7,500원)은 30.65%",
+    "sources": [
+     {
+      "text": "선관위 2기 8차 회의결과(2025.12.30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001743465&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "힐스테이트클래시안",
+   "sigungu": "영등포구",
+   "households": 1482,
+   "use_approval": "2020-12-28",
+   "as_of": "주차장 관리 운영규정 개정 2026.01 의결",
+   "parking": {
+    "public_facility_users_allowed": "상가 주차 허용 59대(장비 설치비 50% 상가 부담). 상가 방문차량 요금은 상가관리단과 협의 예정",
+    "visitor_fee": null,
+    "per_unit_by_area": null,
+    "sources": [
+     {
+      "text": "제3기 14회차 회의결과(2026.01) 제8호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001878956&fileSn=0"
+     }
+    ],
+    "notes": null,
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "송파 시그니처 롯데캐슬",
+   "sigungu": "송파구",
+   "households": null,
+   "use_approval": "2021-12-31",
+   "as_of": "2026.04 의결",
+   "community": {
+    "hours": null,
+    "fee": "탁구장 월 정기권 1만 원(종전 25,000원, 정기권 공유 금지)",
+    "entry_limit": null,
+    "notes": "2026.05.01부터 운영시간 외 커뮤니티 출입문 통제",
+    "sources": [
+     {
+      "text": "제2기 40차 회의결과(2026.04.28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001822183&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "아크로리버파크",
+   "sigungu": "서초구",
+   "households": 1612,
+   "use_approval": "2016-08-30",
+   "as_of": "커뮤니티 운영규정 개정 2025.10 의결",
+   "community": {
+    "hours": "하늘도서관 화~토 10:00~21:00(2025.12부터)",
+    "fee": null,
+    "entry_limit": "지역주민 스포츠회원 하루 2회. 게스트하우스 세대당 월 1회, 최장 4박 5일",
+    "notes": "지역주민 이용 횟수는 서초구 공공개방시설 협약 준수 요청에 따른 것",
+    "sources": [
+     {
+      "text": "2025년 10월 회의결과 제17호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001676593&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "청량리역 롯데캐슬 SKY-L65",
+   "sigungu": "동대문구",
+   "households": 1425,
+   "use_approval": "2023-07-12",
+   "as_of": "2026.01 의결",
+   "community": {
+    "hours": "일요일 헬스장·골프장 06:00~23:00(2026.02.01부터)",
+    "fee": "헬스장 신발장 사물함 월 2,000원",
+    "entry_limit": null,
+    "sources": [
+     {
+      "text": "제2기 2차 회의결과(2026.01)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001750558&fileSn=0"
+     }
+    ],
+    "notes": null,
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "헬리오시티",
+   "sigungu": "송파구",
+   "households": 9510,
+   "use_approval": "2018-12-28",
+   "as_of": "커뮤니티 운영규정 개정 2026.04 의결",
+   "community": {
+    "hours": "스터디룸·동호회실 화~금 09:00~22:00, 토·일·공휴일 09:00~21:00",
+    "fee": null,
+    "entry_limit": "스터디룸·동호회실 1회 최대 3시간 55분",
+    "notes": "성범죄 적발 시 모든 시설 영구 이용 제한, 폭행·절도는 1년 제한",
+    "sources": [
+     {
+      "text": "4기 10차 회의결과(2026.04) 8호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001819064&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "힐스테이트신촌",
+   "sigungu": "서대문구",
+   "households": 1252,
+   "use_approval": "2020-08-04",
+   "as_of": "커뮤니티 운영규정 개정 2025.10.01 시행",
+   "community": {
+    "hours": "평일 06:00~22:00, 일·법정공휴일 09:00~18:00",
+    "fee": "기본운영비 2만 원으로 인상(분리세대 1만 원). 골프 개인강습 월 4회 14만 원",
+    "entry_limit": "세대별 사우나 하루 4회 무료(종전 2회)",
+    "notes": "당구장 명절 2일 휴무",
+    "sources": [
+     {
+      "text": "제3기 21차 회의록(2025.08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001645131&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "name": "이편한세상 송파파크센트럴",
+   "sigungu": "송파구",
+   "households": 1199,
+   "use_approval": "2021-05-17",
+   "as_of": "조식 배달 2025.03 의결",
+   "dining": {
+    "operator_selection": "조식 배달 서비스: 3개 업체 중 2곳 추린 뒤 수요조사(218세대 신청 의사)로 캐리힐에프앤비 선정",
+    "hours": null,
+    "price": null,
+    "sources": [
+     {
+      "text": "3-03차 회의결과",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001532070&fileSn=0"
+     },
+     {
+      "text": "3-04차 회의결과",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001532090&fileSn=0"
+     }
+    ],
+    "notes": null,
     "checked": "2026-10-20"
    }
   },
