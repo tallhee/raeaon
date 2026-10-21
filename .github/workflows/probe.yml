@@ -1,0 +1,12 @@
+name: probe
+on: {push: {branches: [probe]}}
+permissions: {contents: write}
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 probe/p.py || true
+      - run: |
+          git config user.name bot; git config user.email bot@x
+          git add -f probe/out.txt; git commit -m "probe output"; git push
