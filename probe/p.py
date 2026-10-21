@@ -1,13 +1,10 @@
 import re,sys
 sys.path.insert(0,'scripts')
 import collect as c
-out=[]
-for nm in ("잠실래미안아이파크","올림픽파크포레온"):
-  h=c.fetch("/bid/privateContractList.do",{"pageSelect":100,"aptName":nm,"searchDateGb":"reg","dateStart":"2025-01-01","dateEnd":"2026-10-21","pageNo":1,"bidArea":"11","area":"11"})
-  trs=re.findall(r'<tr[^>]*>(.*?)</tr>',h,re.S)
-  out.append(f"== {nm} trs={len(trs)}")
-  heads=re.findall(r'<th[^>]*>(.*?)</th>',h,re.S); out.append("TH: "+" | ".join(c.text_of(x) for x in heads[:20]))
-  for t in trs[:4]: out.append("ROWRAW: "+re.sub(r'\s+',' ',t)[:900])
-h=c.fetch("/bid/bidList.do",{"pageSelect":100,"searchBidGb":"bid_gb_1","bidTitle":"","searchDateGb":"reg","dateStart":"2024-01-01","dateEnd":"2026-10-21","pageNo":1,"type":"3","bidArea":"11","aptName":"잠실래미안아이파크"})
-for b,inner in c.ROW_RE.findall(h): out.append("BID: "+b+" "+" | ".join(c.text_of(x) for x in re.findall(r"<td[^>]*>(.*?)</td>",inner,re.S)))
-open('probe/out.txt','w').write("\n".join(out))
+h=c.fetch("/bid/privateContractDetail.do",{"pcNum":"20260928181740077"},timeout=60)
+t=c.text_of(h)
+i=t.find("KT")
+open('probe/out.txt','w').write(f"len={len(h)} title={re.findall(r'<title>(.*?)</title>',h)} has_KT={'KT 임대차' in t}\n"+t[max(0,i-300):i+600])
+h2=c.fetch("/bid/privateContractList.do",{"aptName":"잠실래미안아이파크"},timeout=60)
+m=re.search(r"function\s+goView\s*\([^)]*\)\s*\{(.{0,800}?)\}",h2,re.S)
+open('probe/out.txt','a').write("\nGOVIEW:"+(m.group(0) if m else "none"))
