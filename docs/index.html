@@ -123,7 +123,8 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 </section>
 
 <section id="notices">
-  <p class="lead">K-apt 서울 입찰공고 중 주제 키워드가 들어간 공고를 매일 모읍니다. 공고를 누르면 K-apt 원문과 첨부 공고문으로 이동합니다.</p>
+  <p class="lead">K-apt 서울 입찰공고 중 주제 키워드가 들어간 공고와, 수집 대상 단지(우리 단지·비교 단지)의 모든 입찰공고·수의계약 결과를 매일 모읍니다. 공고를 누르면 K-apt 원문으로 이동합니다.</p>
+  <div class="bar" id="noticeStates"></div>
   <div class="bar" id="noticeTopics"></div>
   <div class="bar" id="noticeFilters"></div>
   <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색">
@@ -315,11 +316,24 @@ function chips(el,map,state,onChange,multi){
     ...NCX.filter(c=>c.pinned).sort((a,b)=>(b.home?1:0)-(a.home?1:0)).map(c=>["n:"+c.name,c.name+(c.home?" (우리 단지)":"")]),
     ...((minutes?.regions)||[]).filter(r=>NCX.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r])]);
   const nfHit=n=>n._cx&&(nf.has("n:"+n._cx.name)||(!n._cx.pinned&&nf.has("r:"+n._cx.region)));
+  const contracts=await get("data/contracts.json");
+  for(const c of (contracts?.items)||[]) c._cx=cxOfNotice(c);
+  const ST={all:"전체",open:"진행 중",fail:"유찰",win:"낙찰",cancel:"취소",pc:"수의계약"}, ns=new Set(["all"]);
+  const stOk=n=>{const k=[...ns][0];return k==="all"||(k==="open"&&/신규|재공고|마감|진행/.test(n.state||""))||(k==="fail"&&n.state==="유찰")||(k==="win"&&n.state==="낙찰")||(k==="cancel"&&n.state==="취소");};
   const drawNotices=()=>{
-    const term=q.value.trim();
-    const items=((notices?.items)||[]).filter(n=>
-      (!hw.checked||(!n.is_works&&n.state!=="취소"))&&
-      (!nt.size||n.topics.some(x=>nt.has(x)))&&
+    const term=q.value.trim(), sk=[...ns][0];
+    if(sk==="pc"){
+      const cs=((contracts?.items)||[]).filter(c=>(!nf.size||nfHit(c))&&(!term||(c.title+c.complex_name+(c.vendor||"")).includes(term)));
+      document.getElementById("noticeCount").textContent=contracts?`수의계약 ${cs.length}건 · 대상 단지만 · 최근 수집 ${(contracts.updated||"").slice(0,16).replace("T"," ")}`:"아직 수집된 수의계약이 없습니다. 다음 수집(매일 06:23) 뒤 나타납니다.";
+      document.getElementById("noticeList").innerHTML=cs.slice(0,300).map(c=>`<article class="card">
+        <h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
+        <div class="meta"><strong>${esc(c.complex_name)}</strong> · 계약 ${esc(c.date||"–")} · ${esc(c.vendor||"")}${c.amount?` · ${c.amount.toLocaleString()}원`:""}${c.period?` · 기간 ${esc(c.period)}`:""}</div>
+        <div><span class="tag">수의계약</span>${c._cx?`<span class="tag">${esc(c._cx.pinned?c._cx.name:c._cx.region)}</span>`:""}</div></article>`).join("")||`<div class="empty-state">조건에 맞는 수의계약이 없습니다.</div>`;
+      return;
+    }
+    const items=((notices?.items)||[]).filter(n=>stOk(n)&&
+      (!hw.checked||(!n.is_works&&(n.state!=="취소"||sk==="cancel")))&&
+      (!nt.size||(n.topics||[]).some(x=>nt.has(x)))&&
       (!nf.size||nfHit(n))&&
       (!term||(n.title+n.complex_name).includes(term)));
     document.getElementById("noticeCount").textContent=notices?`${items.length}건 · 최근 수집 ${notices.updated?.slice(0,16).replace("T"," ")}`:"";
@@ -329,9 +343,10 @@ function chips(el,map,state,onChange,multi){
       return `<article class="card">
       <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
       <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · ${n.date?`공고 ${esc(n.date)} · `:""}마감 ${esc(n.deadline||"–")}${n.state?` · ${esc(n.state)}`:""}${n.amount?` · 낙찰 ${n.amount.toLocaleString()}원`:""}${n.category?` · ${esc(n.category)}`:""}</div>
-      <div>${n.topics.map(x=>`<span class="tag">${TOPICS[x]||x}</span>`).join("")}${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
+      <div>${n.target?'<span class="tag">대상 단지</span>':""}${(n.topics||[]).map(x=>`<span class="tag">${TOPICS[x]||x}</span>`).join("")}${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
       </article>`;}).join(""):`<div class="empty-state">${notices?"조건에 맞는 공고가 없습니다.":"아직 수집된 공고가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
   };
+  chips(document.getElementById("noticeStates"),ST,ns,drawNotices,false);
   chips(document.getElementById("noticeTopics"),TOPICS,nt,drawNotices,true);
   chips(document.getElementById("noticeFilters"),NF,nf,drawNotices,true);
   q.oninput=drawNotices; hw.onchange=drawNotices; drawNotices();
