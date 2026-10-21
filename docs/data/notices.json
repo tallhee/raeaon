@@ -1,6 +1,58 @@
 {
- "updated": "2026-10-15T20:44+09:00",
+ "updated": "2026-10-21T20:22+09:00",
  "items": [
+  {
+   "bid_num": "20261019153916603",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "주차관제시스템 교체공사",
+   "deadline": "2026-11-03",
+   "state": "신규공고",
+   "complex_code": "B11118551",
+   "complex_name": "디엠씨자이1단지(DMC자이1)",
+   "date": "2026-10-19",
+   "id": "kapt-20261019153916603",
+   "source": "kapt_bid",
+   "topics": [
+    "parking"
+   ],
+   "complex_key": "디엠씨자이1단지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261019153916603&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 209,
+   "use_approval": "",
+   "sigungu": "은평구"
+  },
+  {
+   "bid_num": "kg2b_142234",
+   "channel": "KG2B전자입찰",
+   "award": "최고 낙찰",
+   "title": "승강기내 미디어보느 광고대행및 운영업체 선정 입찰 공고",
+   "deadline": "2026-10-27",
+   "state": "신규공고",
+   "complex_code": "A12012101",
+   "complex_name": "래미안남가좌2차",
+   "date": "2026-10-16",
+   "id": "kapt-kg2b_142234",
+   "source": "kapt_bid",
+   "topics": [
+    "community"
+   ],
+   "complex_key": "래미안남가좌2차",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_142234&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 기타 - 잡수입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 503,
+   "use_approval": "2005-10-26",
+   "sigungu": "서대문구"
+  },
   {
    "bid_num": "kg2b_141475",
    "channel": "KG2B전자입찰",
@@ -25,7 +77,7 @@
     "songpa_gangnam_large"
    ],
    "households": 1900,
-   "use_approval": "",
+   "use_approval": "2019-06-24",
    "sigungu": "강동구"
   },
   {
@@ -61,7 +113,7 @@
    "award": "최고 낙찰",
    "title": "알뜰시장 운영업체 선정 입찰 공고",
    "deadline": "2026-10-26",
-   "state": "신규공고",
+   "state": "취소",
    "complex_code": "A13590602",
    "complex_name": "압구정한양3단지",
    "date": "2026-10-14",
@@ -141,7 +193,7 @@
    "award": "적격심사",
    "title": "주차관제시스템 교체공사",
    "deadline": "2026-10-27",
-   "state": "신규공고",
+   "state": "취소",
    "complex_code": "B11118551",
    "complex_name": "디엠씨자이1단지(DMC자이1)",
    "date": "2026-10-13",
@@ -324,7 +376,7 @@
    "award": "적격심사",
    "title": "주민공동시설(커뮤니티)위탁운영 사업자 선정 입찰공고",
    "deadline": "2026-10-19",
-   "state": "신규공고",
+   "state": "입찰마감",
    "complex_code": "A10020964",
    "complex_name": "힐스테이트관악센트씨엘",
    "date": "2026-10-12",
@@ -376,7 +428,7 @@
    "award": "적격심사",
    "title": "아파트 커뮤니티 RESTAURANT(식당) 위탁 운영업체 선정 입찰 공고",
    "deadline": "2026-10-20",
-   "state": "신규공고",
+   "state": "유찰",
    "complex_code": "A10020294",
    "complex_name": "잠실래미안아이파크",
    "date": "2026-10-08",
@@ -403,7 +455,7 @@
    "award": "최저 낙찰",
    "title": "방문차량 사전방문예약시스템 구축공사 업체선정",
    "deadline": "2026-10-20",
-   "state": "신규공고",
+   "state": "유찰",
    "complex_code": "B11125317",
    "complex_name": "구일우성아파트",
    "date": "2026-10-08",
@@ -482,7 +534,7 @@
    "award": "최고 낙찰",
    "title": "기 사용 커뮤니티 운동기구 매각 입찰 재공고",
    "deadline": "2026-10-19",
-   "state": "신규공고",
+   "state": "유찰",
    "complex_code": "A12013003",
    "complex_name": "DMC래미안e편한세상",
    "date": "2026-10-07",
@@ -533,7 +585,7 @@
    "award": "최저 낙찰",
    "title": "주차관제시스템 유지보수 업체 선정 입찰공고",
    "deadline": "2026-10-19",
-   "state": "재공고",
+   "state": "유찰",
    "complex_code": "A10027205",
    "complex_name": "아크로리버파크",
    "date": "2026-10-06",
@@ -612,7 +664,7 @@
    "award": "최저 낙찰",
    "title": "차량번호인식 주차관제시스템 공사 입찰공고",
    "deadline": "2026-10-20",
-   "state": "신규공고",
+   "state": "낙찰",
    "complex_code": "A13372102",
    "complex_name": "성수쌍용",
    "date": "2026-10-02",
@@ -630,7 +682,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "amount": 44987000
   },
   {
    "bid_num": "kg2b_141694",
@@ -638,7 +691,7 @@
    "award": "적격심사",
    "title": "커뮤니티시설 위탁 운영업체 선정 입찰공고",
    "deadline": "2026-10-16",
-   "state": "신규공고",
+   "state": "낙찰",
    "complex_code": "A10025415",
    "complex_name": "래미안솔베뉴",
    "date": "2026-10-01",
@@ -654,11 +707,12 @@
     "songpa_gangnam_large"
    ],
    "households": 1900,
-   "use_approval": "",
+   "use_approval": "2019-06-24",
    "sigungu": "강동구",
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "amount": 489199200
   },
   {
    "bid_num": "20261001155930311",
@@ -878,7 +932,7 @@
    "award": "적격심사",
    "title": "주차관제시스템 교체 공사 입찰 공고",
    "deadline": "2026-10-12",
-   "state": "입찰마감",
+   "state": "낙찰",
    "complex_code": "A13585804",
    "complex_name": "역삼럭키",
    "date": "2026-09-29",
@@ -896,7 +950,8 @@
    "sigungu": "강남구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "amount": 78300000
   },
   {
    "bid_num": "kg2b_141420",
@@ -9202,7 +9257,7 @@
    "is_works": false,
    "filters": [],
    "households": 11,
-   "use_approval": "",
+   "use_approval": "1991-05-18",
    "sigungu": ""
   },
   {
@@ -9409,7 +9464,7 @@
    "first_seen": "2026-10-15",
    "filters": [],
    "households": 11,
-   "use_approval": "",
+   "use_approval": "1991-05-18",
    "sigungu": ""
   },
   {
