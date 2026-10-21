@@ -67,7 +67,7 @@ def save(name: str, obj) -> None:
     (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2) -> str:
+def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2, timeout: int = 20) -> str:
     global _fail_streak
     if time.monotonic() > DEADLINE:
         raise Stop("시간 예산 소진 — 다음 실행에서 이어서 수집")
@@ -76,7 +76,7 @@ def fetch(path: str, params: dict | None = None, data: dict | None = None, tries
     last = None
     for i in range(tries):
         try:
-            with opener.open(urllib.request.Request(url, data=body), timeout=20) as r:
+            with opener.open(urllib.request.Request(url, data=body), timeout=timeout) as r:
                 text = r.read().decode("utf-8", "replace")
             _fail_streak = 0
             time.sleep(K["delay_seconds"])
@@ -120,7 +120,7 @@ def search(keyword: str, start: str, end: str, view: str = "3", apt: str = "", m
             "pageSelect": K["page_size"], "searchBidGb": "bid_gb_1", "bidTitle": keyword,
             "searchDateGb": "reg", "dateStart": start, "dateEnd": end,
             "pageNo": page, "type": view, "bidArea": K["bid_area"], **({"aptName": apt} if apt else {}),
-        })
+        }, timeout=60 if apt else 20)
         rows = ROW_RE.findall(h)
         for bid_num, inner in rows:
             cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", inner, re.S)]
@@ -159,7 +159,7 @@ def pc_search(apt: str, start: str, end: str) -> list[dict]:
     out, page = [], 1
     while True:
         h = fetch("/bid/privateContractList.do", {"pageSelect": K["page_size"], "aptName": apt, "searchDateGb": "reg",
-                                                  "dateStart": start, "dateEnd": end, "pageNo": page, "area": K["bid_area"]})
+                                                  "dateStart": start, "dateEnd": end, "pageNo": page, "area": K["bid_area"]}, timeout=60)
         if not PC_DETAIL["path"]:
             m = re.search(r"function\s+goView\s*\([^)]*\)\s*\{(.{0,600}?)\}", h, re.S)
             dm = re.search(r"(/bid/[A-Za-z]+\.do)", m.group(1)) if m else None
@@ -335,7 +335,7 @@ def main() -> int:
             key = norm_name(nm)
             if tdone.get(nm) == TODAY:
                 continue
-            t_start = (NOW - dt.timedelta(days=40 if tdone.get(nm) else K.get("target_lookback_days", 730))).strftime("%Y-%m-%d")
+            t_start = (NOW - dt.timedelta(days=40 if tdone.get(nm) else K.get("target_lookback_days", 400))).strftime("%Y-%m-%d")
             try:
                 for r in search("", t_start, TODAY, "3", apt=nm, max_pages=3):
                     if key and key not in norm_name(r.get("complex_name", "")):
