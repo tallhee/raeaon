@@ -1,32 +1,36 @@
 {
- "ran_at": "2026-10-21T21:56+09:00",
+ "ran_at": "2026-10-21T22:07+09:00",
  "steps": {
   "targets": {
    "ok": true,
    "complexes": 90,
-   "bids": 0,
-   "contracts": 0,
+   "bids": 54,
+   "contracts": 3626,
    "errors": []
   },
   "search": {
-   "ok": false,
+   "ok": true,
    "keywords": 29,
-   "found": 0,
-   "matched": 0,
-   "errors": [
-    "골프/3: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "골프/4: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "공공개방/3: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "공공개방/4: /bid/bidList.do 요청 실패: <urlopen error timed out>"
-   ]
+   "found": 309,
+   "matched": 192,
+   "errors": []
+  },
+  "detail": {
+   "ok": true,
+   "new": 45,
+   "errors": 0
   }
  },
- "targets_stopped": "잠실래미안아이파크",
- "stopped_in_search": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (<urlopen error timed out>)",
- "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (<urlopen error timed out>)",
+ "complex_errors": [
+  "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11127107: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11127799: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
+ ],
+ "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
  "complete": false,
  "totals": {
-  "notices": 494,
-  "complexes": 115
+  "notices": 539,
+  "complexes": 138
  }
 }

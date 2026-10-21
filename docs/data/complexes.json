@@ -1018,8 +1018,8 @@
   "address": "반포래미안아이파크",
   "sido": "반포래미안아이파크",
   "sigungu": "",
-  "households": 11,
-  "dong_count": 25338035,
+  "households": 829,
+  "dong_count": 11,
   "code": "A10026051",
   "use_approval": "2018-08-31"
  },
@@ -1088,5 +1088,205 @@
   "households": 679,
   "dong_count": 7,
   "code": "B11115905"
+ },
+ "래미안원베일리": {
+  "name": "래미안원베일리",
+  "code": "A10023043"
+ },
+ "잠실파크리오": {
+  "name": "잠실파크리오",
+  "address": "송파구 올림픽로 435 관리동",
+  "sido": "송파구",
+  "sigungu": "",
+  "households": 6864,
+  "dong_count": 66,
+  "code": "A13824006"
+ },
+ "잠실리센츠": {
+  "name": "잠실리센츠",
+  "address": "서울 송파구 올림픽로 135(리센츠아파트)",
+  "sido": "서울",
+  "sigungu": "송파구",
+  "households": 5563,
+  "dong_count": 65,
+  "code": "B11122664"
+ },
+ "잠실동트리지움": {
+  "name": "잠실동트리지움",
+  "address": "잠실동트리지움",
+  "sido": "잠실동트리지움",
+  "sigungu": "",
+  "households": 46,
+  "dong_count": 24257161,
+  "code": "A13822002"
+ },
+ "청담르엘": {
+  "name": "청담르엘",
+  "address": "청담르엘",
+  "sido": "청담르엘",
+  "sigungu": "",
+  "households": 9,
+  "dong_count": 269520630,
+  "code": "A10020363"
+ },
+ "청담자이": {
+  "name": "청담자이",
+  "address": "청담자이",
+  "sido": "청담자이",
+  "sigungu": "",
+  "households": 5,
+  "dong_count": 25147024,
+  "code": "A13510007"
+ },
+ "서초그랑자이": {
+  "name": "서초그랑자이",
+  "address": "서초그랑자이",
+  "sido": "서초그랑자이",
+  "sigungu": "",
+  "households": 9,
+  "dong_count": 25229924,
+  "code": "A10024240"
+ },
+ "송파시그니처롯데캐슬": {
+  "name": "송파 시그니처 롯데캐슬아파트",
+  "address": "서울특별시 송파구 거마로 56(거여동, 송파시그니처롯데캐슬)",
+  "sido": "서울특별시",
+  "sigungu": "송파구",
+  "households": 1945,
+  "dong_count": 17,
+  "code": "B11118321"
+ },
+ "래미안퍼스티지": {
+  "name": "래미안퍼스티지",
+  "address": "래미안퍼스티지",
+  "sido": "래미안퍼스티지",
+  "sigungu": "",
+  "households": 28,
+  "dong_count": 25999935,
+  "code": "A13776509"
+ },
+ "반포리체": {
+  "name": "반포리체",
+  "address": "반포리체",
+  "sido": "반포리체",
+  "sigungu": "",
+  "households": 9,
+  "dong_count": 25960306,
+  "code": "A13776301"
+ },
+ "반포자이": {
+  "name": "반포자이",
+  "address": "반포자이",
+  "sido": "반포자이",
+  "sigungu": "",
+  "households": 44,
+  "dong_count": 25334075,
+  "code": "A13704104"
+ },
+ "강남센트럴아이파크": {
+  "name": "강남센트럴아이파크",
+  "address": "서울특별시 강남구 테헤란로44길 26 생활지원센터",
+  "sido": "서울특별시",
+  "sigungu": "강남구",
+  "code": "A10023825"
+ },
+ "래미안블레스티지": {
+  "name": "래미안블레스티지",
+  "address": "래미안블레스티지",
+  "sido": "래미안블레스티지",
+  "sigungu": "",
+  "households": 23,
+  "dong_count": 220581972,
+  "code": "A10025675"
+ },
+ "래미안개포루체하임": {
+  "name": "래미안개포루체하임",
+  "address": "래미안개포루체하임",
+  "sido": "래미안개포루체하임",
+  "sigungu": "",
+  "households": 12,
+  "dong_count": 24512288,
+  "code": "A10025823"
+ },
+ "강동리버스트7단지": {
+  "name": "강동 리버스트 7단지 아파트",
+  "address": "강동 리버스트 7단지 아파트",
+  "sido": "강동",
+  "sigungu": "",
+  "households": 2,
+  "dong_count": 24294322,
+  "code": "A10024421"
+ },
+ "녹번역e편한세상캐슬": {
+  "name": "녹번역e편한세상캐슬",
+  "address": "녹번역e편한세상캐슬",
+  "sido": "녹번역e편한세상캐슬",
+  "sigungu": "",
+  "households": 32,
+  "dong_count": 23898562,
+  "code": "A10024831"
+ },
+ "힐스테이트뉴포레": {
+  "name": "힐스테이트뉴포레",
+  "address": "힐스테이트뉴포레",
+  "sido": "힐스테이트뉴포레",
+  "sigungu": "",
+  "households": 7,
+  "dong_count": 28536403,
+  "code": "A10023661"
+ },
+ "이문아이파크자이": {
+  "name": "이문아이파크자이",
+  "address": "이문아이파크자이",
+  "sido": "이문아이파크자이",
+  "sigungu": "",
+  "households": 18,
+  "dong_count": 29300208,
+  "code": "A10020344"
+ },
+ "마포더클래시": {
+  "name": "마포더클래시",
+  "address": "서울시 마포구 신촌로28길50, 28길8",
+  "sido": "서울시",
+  "sigungu": "마포구",
+  "households": 1419,
+  "dong_count": 17,
+  "code": "B11117444"
+ },
+ "신길센트럴자이": {
+  "name": "신길센트럴자이",
+  "address": "서울 영등포구 신길로29길 17 신길센트럴자이",
+  "sido": "서울",
+  "sigungu": "영등포구",
+  "households": 1008,
+  "dong_count": 12,
+  "code": "A10025024"
+ },
+ "태릉해링턴플레이스": {
+  "name": "태릉해링턴플레이스",
+  "address": "태릉해링턴플레이스",
+  "sido": "태릉해링턴플레이스",
+  "sigungu": "",
+  "households": 15,
+  "dong_count": 29720105,
+  "code": "A10023991"
+ },
+ "마포그랑자이": {
+  "name": "마포그랑자이아파트",
+  "address": "마포그랑자이아파트",
+  "sido": "마포그랑자이아파트",
+  "sigungu": "",
+  "households": 1248,
+  "dong_count": 18,
+  "code": "A10025003"
+ },
+ "롯데캐슬클라시아": {
+  "name": "롯데캐슬클라시아",
+  "address": "롯데캐슬클라시아",
+  "sido": "롯데캐슬클라시아",
+  "sigungu": "",
+  "households": 19,
+  "dong_count": 29898493,
+  "code": "A10023926"
  }
 }

@@ -1,6 +1,57 @@
 {
- "updated": "2026-10-21T21:56+09:00",
+ "updated": "2026-10-21T22:07+09:00",
  "items": [
+  {
+   "bid_num": "kg2b_142124",
+   "channel": "KG2B전자입찰",
+   "award": "최저 낙찰",
+   "title": "커뮤니티 남녀 사우나 및 수영장 청소업체 선정 입찰 공고",
+   "deadline": "2026-10-26",
+   "state": "취소",
+   "complex_code": "A10023043",
+   "complex_name": "래미안원베일리",
+   "target": true,
+   "id": "kapt-kg2b_142124",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안원베일리",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_142124&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 청소",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": null,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20261020162009299",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "단지내 산책로 포장 등 공사업체 선정 입찰공고",
+   "deadline": "2026-11-02",
+   "state": "취소",
+   "complex_code": "B11118321",
+   "complex_name": "송파 시그니처 롯데캐슬아파트",
+   "date": "2026-10-20",
+   "target": true,
+   "id": "kapt-20261020162009299",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "송파시그니처롯데캐슬",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261020162009299&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 1945,
+   "use_approval": "",
+   "sigungu": "송파구"
+  },
   {
    "bid_num": "20261019153916603",
    "channel": "K-APT",
@@ -25,7 +76,8 @@
    "filters": [],
    "households": 209,
    "use_approval": "",
-   "sigungu": "은평구"
+   "sigungu": "은평구",
+   "target": false
   },
   {
    "bid_num": "kg2b_142234",
@@ -51,7 +103,8 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
   },
   {
    "bid_num": "kg2b_141475",
@@ -78,7 +131,8 @@
    ],
    "households": 1900,
    "use_approval": "2019-06-24",
-   "sigungu": "강동구"
+   "sigungu": "강동구",
+   "target": true
   },
   {
    "bid_num": "20261015161858503",
@@ -105,6 +159,57 @@
    "filters": [],
    "households": 16,
    "use_approval": "2025-11-25",
+   "sigungu": "",
+   "target": false
+  },
+  {
+   "bid_num": "20261014163446004",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "커뮤니티 남·여 사우나 및 수영장 샤워실 청소용역 사업자 선정 입찰공고",
+   "deadline": "2026-10-26",
+   "state": "취소",
+   "complex_code": "A10020363",
+   "complex_name": "청담르엘",
+   "date": "2026-10-14",
+   "target": true,
+   "id": "kapt-20261014163446004",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "청담르엘",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261014163446004&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 청소",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 9,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20261014155317003",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "주택관리업자 선정 입찰 공고",
+   "deadline": "2026-10-27",
+   "state": "취소",
+   "complex_code": "B11119732",
+   "complex_name": "반포래미안아이파크",
+   "date": "2026-10-14",
+   "target": true,
+   "id": "kapt-20261014155317003",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "반포래미안아이파크",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261014155317003&type=3",
+   "first_seen": "2026-10-21",
+   "category": "주택관리업자 - 공동주택위탁관리",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 829,
+   "use_approval": "2018-08-31",
    "sigungu": ""
   },
   {
@@ -131,7 +236,8 @@
    "sigungu": "강남구",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20261014150412446",
@@ -159,7 +265,8 @@
    "sigungu": "강동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261014144021233",
@@ -185,7 +292,8 @@
    "sigungu": "노원구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261013142221959",
@@ -211,7 +319,8 @@
    "sigungu": "은평구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261013102557697",
@@ -237,7 +346,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261013101509659",
@@ -263,7 +373,57 @@
    "sigungu": "은평구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
+  },
+  {
+   "bid_num": "kg2b_141591",
+   "channel": "KG2B전자입찰",
+   "award": "적격심사",
+   "title": "다목적실 1 및 다목적실 2 조성공사 업체 선정공고",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "A10025024",
+   "amount": 73200000,
+   "complex_name": "신길센트럴자이",
+   "target": true,
+   "id": "kapt-kg2b_141591",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "신길센트럴자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_141591&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 1008,
+   "use_approval": "",
+   "sigungu": "영등포구"
+  },
+  {
+   "bid_num": "kg2b_141581",
+   "channel": "KG2B전자입찰",
+   "award": "적격심사",
+   "title": "다목적실 1 및 다목적실 2 조성공사 업체 선정공고",
+   "deadline": "2026-10-12",
+   "state": "취소",
+   "complex_code": "A10025024",
+   "complex_name": "신길센트럴자이",
+   "target": true,
+   "id": "kapt-kg2b_141581",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "신길센트럴자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_141581&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 1008,
+   "use_approval": "",
+   "sigungu": "영등포구"
   },
   {
    "bid_num": "kg2b_141464",
@@ -289,7 +449,8 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": "강동구"
+   "sigungu": "강동구",
+   "target": false
   },
   {
    "bid_num": "20261012173124293",
@@ -315,7 +476,8 @@
    "sigungu": "도봉구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261012172349810",
@@ -341,7 +503,8 @@
    "filters": [],
    "households": 15,
    "use_approval": "2021-07-30",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20261012134631750",
@@ -368,7 +531,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20261012132620415",
@@ -394,7 +558,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20261012131512314",
@@ -420,7 +585,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20261008164345847",
@@ -444,6 +610,32 @@
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
    "is_works": false,
+   "filters": [],
+   "households": 23,
+   "use_approval": "2025-12-30",
+   "sigungu": "",
+   "target": true
+  },
+  {
+   "bid_num": "20261008163816229",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "2차)커뮤니티센터 신발장(개인사물함) 추가 설치업체 선정 입찰 재공고",
+   "deadline": "2026-10-20",
+   "state": "유찰",
+   "complex_code": "A10020294",
+   "complex_name": "잠실래미안아이파크",
+   "date": "2026-10-08",
+   "target": true,
+   "id": "kapt-20261008163816229",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실래미안아이파크",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261008163816229&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "일반경쟁",
+   "is_works": true,
    "filters": [],
    "households": 23,
    "use_approval": "2025-12-30",
@@ -473,7 +665,8 @@
    "filters": [],
    "households": 829,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20261007165626920",
@@ -500,7 +693,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261007112434122",
@@ -526,7 +720,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261007095757146",
@@ -552,7 +747,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 매각",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "kg2b_141637",
@@ -577,7 +773,57 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
+  },
+  {
+   "bid_num": "kg2b_141286",
+   "channel": "KG2B전자입찰",
+   "award": "적격심사",
+   "title": "외부 데크 테두리 철거 및 경계석 설치 공사",
+   "deadline": "2026-10-06",
+   "state": "유찰",
+   "complex_code": "A10023825",
+   "complex_name": "강남센트럴아이파크",
+   "target": true,
+   "id": "kapt-kg2b_141286",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "강남센트럴아이파크",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=kg2b_141286&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": null,
+   "use_approval": "",
+   "sigungu": "강남구"
+  },
+  {
+   "bid_num": "20261006173927050",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "린넨 세탁 단가계약 업체 선정",
+   "deadline": "2026-10-19",
+   "state": "유찰",
+   "complex_code": "A10020557",
+   "complex_name": "메이플자이",
+   "date": "2026-10-06",
+   "target": true,
+   "id": "kapt-20261006173927050",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "메이플자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261006173927050&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 29,
+   "use_approval": "2025-06-27",
+   "sigungu": ""
   },
   {
    "bid_num": "20261006173505532",
@@ -603,7 +849,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": true
   },
   {
    "bid_num": "20261006173445471",
@@ -629,7 +876,33 @@
    "sigungu": "도봉구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
+  },
+  {
+   "bid_num": "20261006094922011",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "커뮤니티 사우나 청소 용역업체 선정",
+   "deadline": "2026-10-19",
+   "state": "유찰",
+   "complex_code": "A10020358",
+   "complex_name": "래미안 원페를라",
+   "date": "2026-10-06",
+   "target": true,
+   "id": "kapt-20261006094922011",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안원페를라",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261006094922011&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 16,
+   "use_approval": "2025-11-25",
+   "sigungu": ""
   },
   {
    "bid_num": "20261002192528346",
@@ -656,7 +929,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261002162548756",
@@ -683,7 +957,33 @@
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
    "is_works": true,
-   "amount": 44987000
+   "amount": 44987000,
+   "target": false
+  },
+  {
+   "bid_num": "20261002160303776",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "주택관리업자 선정 입찰 공고",
+   "deadline": "2026-10-13",
+   "state": "유찰",
+   "complex_code": "B11119732",
+   "complex_name": "반포래미안아이파크",
+   "date": "2026-10-02",
+   "target": true,
+   "id": "kapt-20261002160303776",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "반포래미안아이파크",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261002160303776&type=3",
+   "first_seen": "2026-10-21",
+   "category": "주택관리업자 - 공동주택위탁관리",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 829,
+   "use_approval": "2018-08-31",
+   "sigungu": ""
   },
   {
    "bid_num": "kg2b_141694",
@@ -712,7 +1012,33 @@
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
    "is_works": false,
-   "amount": 489199200
+   "amount": 489199200,
+   "target": true
+  },
+  {
+   "bid_num": "20261001163233157",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "커뮤니티센터 신발장(개인사물함) 추가 설치업체 선정 입찰 공고",
+   "deadline": "2026-10-15",
+   "state": "취소",
+   "complex_code": "A10020294",
+   "complex_name": "잠실래미안아이파크",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001163233157",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실래미안아이파크",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001163233157&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 23,
+   "use_approval": "2025-12-30",
+   "sigungu": ""
   },
   {
    "bid_num": "20261001155930311",
@@ -740,7 +1066,8 @@
    "sigungu": "강동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261001145046769",
@@ -766,7 +1093,8 @@
    "sigungu": "노원구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20261001135429881",
@@ -791,6 +1119,59 @@
    "is_works": true,
    "filters": [],
    "households": 829,
+   "use_approval": "",
+   "sigungu": "",
+   "target": false
+  },
+  {
+   "bid_num": "20261001134917614",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "fcu 냉난방기 분해세척 업체 선정",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "A10024831",
+   "amount": 5480000,
+   "complex_name": "녹번역e편한세상캐슬",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001134917614",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "녹번역e편한세상캐슬",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001134917614&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 32,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20261001134917065",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "경비 용역업체 선정 입찰공고",
+   "deadline": "2026-10-14",
+   "state": "낙찰",
+   "complex_code": "A13704104",
+   "amount": 5582686850,
+   "complex_name": "반포자이",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001134917065",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "반포자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001134917065&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 경비",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 44,
    "use_approval": "",
    "sigungu": ""
   },
@@ -819,6 +1200,82 @@
    "filters": [],
    "households": 16,
    "use_approval": "2025-11-25",
+   "sigungu": "",
+   "target": true
+  },
+  {
+   "bid_num": "20261001095631759",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "미화(청소)용역업체 선정 입찰",
+   "deadline": "2026-10-15",
+   "state": "취소",
+   "complex_code": "A10020358",
+   "complex_name": "래미안 원페를라",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001095631759",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안원페를라",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001095631759&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 청소",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 16,
+   "use_approval": "2025-11-25",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20261001095210125",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "보안용역업체 선정 입찰",
+   "deadline": "2026-10-15",
+   "state": "유찰",
+   "complex_code": "A10020358",
+   "complex_name": "래미안 원페를라",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001095210125",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안원페를라",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001095210125&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 경비",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 16,
+   "use_approval": "2025-11-25",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20261001093516051",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "커뮤니티 사우나 바닥 등 줄눈 보수공사 업체 선정 입찰 공고",
+   "deadline": "2026-10-19",
+   "state": "유찰",
+   "complex_code": "A10023926",
+   "complex_name": "롯데캐슬클라시아",
+   "date": "2026-10-01",
+   "target": true,
+   "id": "kapt-20261001093516051",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "롯데캐슬클라시아",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261001093516051&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "일반경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 19,
+   "use_approval": "",
    "sigungu": ""
   },
   {
@@ -845,7 +1302,8 @@
    "sigungu": "강남구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_141023",
@@ -870,7 +1328,110 @@
    "sigungu": "강남구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
+  },
+  {
+   "bid_num": "20260930170350354",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "수목 생육 환경개선 조경 공사 업체 선정 공고",
+   "deadline": "2026-10-16",
+   "state": "취소",
+   "complex_code": "A10025003",
+   "complex_name": "마포그랑자이아파트",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930170350354",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "마포그랑자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930170350354&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 1248,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930165745749",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "경관조명 및 잔디등 설치공사 업체 선정 공고",
+   "deadline": "2026-10-20",
+   "state": "취소",
+   "complex_code": "B11120842",
+   "complex_name": "마포그랑자이아파트",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930165745749",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "마포그랑자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930165745749&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "일반경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 1248,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930162544883",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "승강기 보양재 물품구매",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "A10025850",
+   "amount": 34740000,
+   "complex_name": "헬리오시티아파트",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930162544883",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "헬리오시티",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930162544883&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 84,
+   "use_approval": "2018-12-28",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930160722516",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "청소용품 연간 단가계약 납품업체 선정 입찰",
+   "deadline": "2026-10-13",
+   "state": "낙찰",
+   "complex_code": "A10020557",
+   "amount": 112613750,
+   "complex_name": "메이플자이",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930160722516",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "메이플자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930160722516&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 29,
+   "use_approval": "2025-06-27",
+   "sigungu": ""
   },
   {
    "bid_num": "20260930155007374",
@@ -896,7 +1457,235 @@
    "sigungu": "도봉구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
+  },
+  {
+   "bid_num": "20260930154158349",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "키즈룸 리모델링공사 사업자 선정공고(재공고)",
+   "deadline": "2026-10-13",
+   "state": "유찰",
+   "complex_code": "A10025675",
+   "complex_name": "래미안블레스티지",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930154158349",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안블레스티지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930154158349&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 23,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930152558553",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "골프연습장 장비 렌탈 및 타석 수정공사",
+   "deadline": "2026-10-14",
+   "state": "유찰",
+   "complex_code": "A10025823",
+   "complex_name": "래미안개포루체하임",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930152558553",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안개포루체하임",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930152558553&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 12,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930151822122",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "소방시설 점검(종합 및 작동) 업체선정",
+   "deadline": "2026-10-14",
+   "state": "낙찰",
+   "complex_code": "A10020358",
+   "amount": 5200000,
+   "complex_name": "래미안 원페를라",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930151822122",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안원페를라",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930151822122&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 16,
+   "use_approval": "2025-11-25",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930151549070",
+   "channel": "K-APT",
+   "award": "최고 낙찰",
+   "title": "승강기내 미디어보드 계약의 건",
+   "deadline": "2026-10-15",
+   "state": "유찰",
+   "complex_code": "A10023661",
+   "complex_name": "힐스테이트뉴포레",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930151549070",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "힐스테이트뉴포레",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930151549070&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 기타 - 잡수입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 7,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930145420117",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "야외 휴게공간 테이블 및 의자 목재 교체 공사 업체 선정 입찰 공고",
+   "deadline": "2026-10-14",
+   "state": "유찰",
+   "complex_code": "A13510007",
+   "complex_name": "청담자이",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930145420117",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "청담자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930145420117&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "일반경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 5,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930144521063",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "기계경비(시스템경비) 용역업체 선정 입찰 공고",
+   "deadline": "2026-10-12",
+   "state": "취소",
+   "complex_code": "A13822002",
+   "complex_name": "잠실동트리지움",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930144521063",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실동트리지움",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930144521063&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 경비",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 46,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930133657120",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "골프연습장 장비 렌탈 및 타석 수정공사",
+   "deadline": "2026-10-14",
+   "state": "취소",
+   "complex_code": "A10025823",
+   "complex_name": "래미안개포루체하임",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930133657120",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안개포루체하임",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930133657120&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 12,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930132239314",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "단지 내 지상도로 도색 및 지하 주차장 시설개선공사 업체선정",
+   "deadline": "2026-10-14",
+   "state": "낙찰",
+   "complex_code": "B11124688",
+   "amount": 305000000,
+   "complex_name": "잠실동트리지움",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930132239314",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실동트리지움",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930132239314&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 46,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260930120714188",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "조경유지관리업체 선정 입찰 공고",
+   "deadline": "2026-10-15",
+   "state": "취소",
+   "complex_code": "A10024421",
+   "complex_name": "강동 리버스트 7단지 아파트",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930120714188",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "강동리버스트7단지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930120714188&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 2,
+   "use_approval": "",
+   "sigungu": ""
   },
   {
    "bid_num": "20260930115241455",
@@ -924,7 +1713,34 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": true
+  },
+  {
+   "bid_num": "20260930104619862",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "옥외 LED 사인물 경관조명 설치공사 업체선정",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "A13822002",
+   "amount": 61500000,
+   "complex_name": "잠실동트리지움",
+   "date": "2026-09-30",
+   "target": true,
+   "id": "kapt-20260930104619862",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실동트리지움",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260930104619862&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 46,
+   "use_approval": "",
+   "sigungu": ""
   },
   {
    "bid_num": "kg2b_141542",
@@ -951,7 +1767,8 @@
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
    "is_works": true,
-   "amount": 78300000
+   "amount": 78300000,
+   "target": false
   },
   {
    "bid_num": "kg2b_141420",
@@ -976,7 +1793,8 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
   },
   {
    "bid_num": "kg2b_141419",
@@ -1001,7 +1819,84 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
+  },
+  {
+   "bid_num": "20260929164705944",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "헬스장 운동기구(자전거,스텝밀) 납품 및 설치업체 선정 입찰 재공고",
+   "deadline": "2026-10-14",
+   "state": "유찰",
+   "complex_code": "A13824006",
+   "complex_name": "잠실파크리오",
+   "date": "2026-09-29",
+   "target": true,
+   "id": "kapt-20260929164705944",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실파크리오",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260929164705944&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 구입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 6864,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260929155430565",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "cctv추가설치 사업자 선정 입찰 공고",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "B11117444",
+   "amount": 57000000,
+   "complex_name": "마포더클래시",
+   "date": "2026-09-29",
+   "target": true,
+   "id": "kapt-20260929155430565",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "마포더클래시",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260929155430565&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 1419,
+   "use_approval": "",
+   "sigungu": "마포구"
+  },
+  {
+   "bid_num": "20260929125705250",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "골프연습장 장비 렌탈 및 타석 수정공사",
+   "deadline": "2026-10-13",
+   "state": "취소",
+   "complex_code": "A10025823",
+   "complex_name": "래미안개포루체하임",
+   "date": "2026-09-29",
+   "target": true,
+   "id": "kapt-20260929125705250",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안개포루체하임",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260929125705250&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 12,
+   "use_approval": "",
+   "sigungu": ""
   },
   {
    "bid_num": "20260928164927628",
@@ -1026,6 +1921,109 @@
    "is_works": true,
    "filters": [],
    "households": 829,
+   "use_approval": "",
+   "sigungu": "",
+   "target": false
+  },
+  {
+   "bid_num": "20260928150423532",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "청소용역사업자 선정",
+   "deadline": "2026-10-13",
+   "state": "낙찰",
+   "complex_code": "A10023991",
+   "amount": 929784000,
+   "complex_name": "태릉해링턴플레이스",
+   "date": "2026-09-28",
+   "target": true,
+   "id": "kapt-20260928150423532",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "태릉해링턴플레이스",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260928150423532&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 청소",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 15,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260928145415810",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "소방시설 점검사업자 선정",
+   "deadline": "2026-10-13",
+   "state": "낙찰",
+   "complex_code": "A10023991",
+   "amount": 4100000,
+   "complex_name": "태릉해링턴플레이스",
+   "date": "2026-09-28",
+   "target": true,
+   "id": "kapt-20260928145415810",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "태릉해링턴플레이스",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260928145415810&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 15,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260928140919654",
+   "channel": "K-APT",
+   "award": "최고 낙찰",
+   "title": "재활용품 수거업체 선정공고",
+   "deadline": "2026-10-12",
+   "state": "유찰",
+   "complex_code": "A10020344",
+   "complex_name": "이문아이파크자이",
+   "date": "2026-09-28",
+   "target": true,
+   "id": "kapt-20260928140919654",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "이문아이파크자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260928140919654&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 물품 - 매각",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 18,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260928134742052",
+   "channel": "K-APT",
+   "award": "최고 낙찰",
+   "title": "제횔용품 수거업체 선정공고",
+   "deadline": "2026-10-12",
+   "state": "취소",
+   "complex_code": "A10020344",
+   "complex_name": "이문아이파크자이",
+   "date": "2026-09-28",
+   "target": true,
+   "id": "kapt-20260928134742052",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "이문아이파크자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260928134742052&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 18,
    "use_approval": "",
    "sigungu": ""
   },
@@ -1053,7 +2051,8 @@
    "filters": [],
    "households": 18,
    "use_approval": "2024-03-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": true
   },
   {
    "bid_num": "20260923162707673",
@@ -1080,6 +2079,61 @@
    "filters": [],
    "households": 7,
    "use_approval": "2019-08-29",
+   "sigungu": "",
+   "target": false
+  },
+  {
+   "bid_num": "20260923162202165",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "단지내 빗물받이 측구 정비공사 업체 선정",
+   "deadline": "2026-10-06",
+   "state": "낙찰",
+   "complex_code": "B11122664",
+   "amount": 252000000,
+   "complex_name": "잠실리센츠",
+   "date": "2026-09-23",
+   "target": true,
+   "id": "kapt-20260923162202165",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실리센츠",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923162202165&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 5563,
+   "use_approval": "",
+   "sigungu": "송파구"
+  },
+  {
+   "bid_num": "20260923160902741",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "4경로당 내부 인테리어 공사 업체선정 공고",
+   "deadline": "2026-10-12",
+   "state": "낙찰",
+   "complex_code": "A13824006",
+   "amount": 7400000,
+   "complex_name": "잠실파크리오",
+   "date": "2026-09-23",
+   "target": true,
+   "id": "kapt-20260923160902741",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "잠실파크리오",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923160902741&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "일반경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 6864,
+   "use_approval": "",
    "sigungu": ""
   },
   {
@@ -1107,7 +2161,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260923144803896",
@@ -1133,7 +2188,86 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 매각",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
+  },
+  {
+   "bid_num": "20260923133119961",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "공용부 FCU 및 시스템에어컨 청소 및 드레인배관 세척 입찰공고",
+   "deadline": "2026-10-06",
+   "state": "낙찰",
+   "complex_code": "A10024240",
+   "amount": 34412000,
+   "complex_name": "서초그랑자이",
+   "date": "2026-09-23",
+   "target": true,
+   "id": "kapt-20260923133119961",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "서초그랑자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923133119961&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 용역 - 기타 용역",
+   "kind": "일반경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 9,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260923130328515",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "커뮤니티 키즈룸 리모델링 공사 사업자 선정 입찰 재공고",
+   "deadline": "2026-10-07",
+   "state": "낙찰",
+   "complex_code": "A13776509",
+   "amount": 48600000,
+   "complex_name": "래미안퍼스티지",
+   "date": "2026-09-23",
+   "target": true,
+   "id": "kapt-20260923130328515",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안퍼스티지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923130328515&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 28,
+   "use_approval": "",
+   "sigungu": ""
+  },
+  {
+   "bid_num": "20260923125312240",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "커뮤니티 사우나 리모델링 공사 사업자 선정 입찰 재공고",
+   "deadline": "2026-10-07",
+   "state": "낙찰",
+   "complex_code": "A13776509",
+   "amount": 776000000,
+   "complex_name": "래미안퍼스티지",
+   "date": "2026-09-23",
+   "target": true,
+   "id": "kapt-20260923125312240",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안퍼스티지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260923125312240&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 28,
+   "use_approval": "",
+   "sigungu": ""
   },
   {
    "bid_num": "20260923103335075",
@@ -1160,7 +2294,8 @@
    "filters": [],
    "households": 23,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": true
   },
   {
    "bid_num": "20260922195003486",
@@ -1187,7 +2322,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260922170450943",
@@ -1213,7 +2349,61 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": true
+  },
+  {
+   "bid_num": "20260922165116249",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "캐노피 시설물 설치 업체선정 공고",
+   "deadline": "2026-10-07",
+   "state": "유찰",
+   "complex_code": "B11118321",
+   "complex_name": "송파 시그니처 롯데캐슬아파트",
+   "date": "2026-09-22",
+   "target": true,
+   "id": "kapt-20260922165116249",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "송파시그니처롯데캐슬",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260922165116249&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 1945,
+   "use_approval": "",
+   "sigungu": "송파구"
+  },
+  {
+   "bid_num": "20260922140359137",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "횡주관 세정 공사 업체 선정 입찰 공고",
+   "deadline": "2026-10-08",
+   "state": "낙찰",
+   "complex_code": "A13776301",
+   "amount": 14400000,
+   "complex_name": "반포리체",
+   "date": "2026-09-22",
+   "target": true,
+   "id": "kapt-20260922140359137",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "반포리체",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260922140359137&type=3",
+   "first_seen": "2026-10-21",
+   "category": "사업자 - 공사 - 일반보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [],
+   "households": 9,
+   "use_approval": "",
+   "sigungu": ""
   },
   {
    "bid_num": "20260922134839744",
@@ -1240,7 +2430,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260921141810874",
@@ -1266,7 +2457,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260917162823967",
@@ -1292,7 +2484,8 @@
    "sigungu": "도봉구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260916151537175",
@@ -1320,7 +2513,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_140813",
@@ -1345,7 +2539,8 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
   },
   {
    "bid_num": "20260915110054424",
@@ -1372,7 +2567,8 @@
    "sigungu": "양천구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_140504",
@@ -1400,7 +2596,8 @@
    ],
    "households": null,
    "use_approval": "2025-01-03",
-   "sigungu": "동대문구"
+   "sigungu": "동대문구",
+   "target": false
   },
   {
    "bid_num": "20260911153158681",
@@ -1426,7 +2623,8 @@
    "filters": [],
    "households": 18,
    "use_approval": "2024-03-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260910163655867",
@@ -1452,7 +2650,8 @@
    "filters": [],
    "households": 24,
    "use_approval": "2019-11-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260909193638681",
@@ -1478,7 +2677,8 @@
    "sigungu": "강남구",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260909193149463",
@@ -1504,7 +2704,8 @@
    "sigungu": "강남구",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260909131922071",
@@ -1531,7 +2732,8 @@
    "filters": [],
    "households": 7,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260909095020633",
@@ -1558,7 +2760,8 @@
    "filters": [],
    "households": 12,
    "use_approval": "2022-10-31",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "kg2b_140532",
@@ -1583,7 +2786,8 @@
    "filters": [],
    "households": 503,
    "use_approval": "2005-10-26",
-   "sigungu": "서대문구"
+   "sigungu": "서대문구",
+   "target": false
   },
   {
    "bid_num": "20260908155043525",
@@ -1609,7 +2813,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260908135936156",
@@ -1635,7 +2840,8 @@
    "filters": [],
    "households": 12,
    "use_approval": "2022-10-31",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260908094916881",
@@ -1661,7 +2867,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260908094418822",
@@ -1687,7 +2894,8 @@
    "filters": [],
    "households": 23,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260908092629658",
@@ -1713,7 +2921,8 @@
    "filters": [],
    "households": 23,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260908085717050",
@@ -1739,7 +2948,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "kg2b_140434",
@@ -1764,7 +2974,8 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": "강북구"
+   "sigungu": "강북구",
+   "target": false
   },
   {
    "bid_num": "kg2b_140068",
@@ -1790,7 +3001,8 @@
    "sigungu": "노원구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260907143911187",
@@ -1816,7 +3028,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260907111428217",
@@ -1842,7 +3055,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260903164757457",
@@ -1869,7 +3083,8 @@
    "filters": [],
    "households": 6,
    "use_approval": "2022-08-31",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260902172622866",
@@ -1895,7 +3110,8 @@
    "filters": [],
    "households": 3002,
    "use_approval": "2006-01-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260902132219851",
@@ -1922,7 +3138,8 @@
    "filters": [],
    "households": 22,
    "use_approval": "2011-06-24",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260902112750691",
@@ -1949,7 +3166,8 @@
    "sigungu": "성동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_139967",
@@ -1977,7 +3195,8 @@
    ],
    "households": null,
    "use_approval": "2025-01-03",
-   "sigungu": "동대문구"
+   "sigungu": "동대문구",
+   "target": false
   },
   {
    "bid_num": "20260901114344178",
@@ -2003,7 +3222,8 @@
    "filters": [],
    "households": 6,
    "use_approval": "2022-08-31",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260901113724714",
@@ -2029,7 +3249,8 @@
    "filters": [],
    "households": 3002,
    "use_approval": "2006-01-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260901101204416",
@@ -2056,7 +3277,8 @@
    "sigungu": "서초구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_139897",
@@ -2081,7 +3303,8 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": "강북구"
+   "sigungu": "강북구",
+   "target": false
   },
   {
    "bid_num": "kg2b_139845",
@@ -2106,7 +3329,8 @@
    "sigungu": "강동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260831134604774",
@@ -2132,7 +3356,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260831131801971",
@@ -2158,7 +3383,8 @@
    "filters": [],
    "households": 12,
    "use_approval": "2022-10-31",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260831125339511",
@@ -2185,7 +3411,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260828161327082",
@@ -2212,7 +3439,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "일반경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260828102933099",
@@ -2238,7 +3466,8 @@
    "filters": [],
    "households": 24,
    "use_approval": "2019-11-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "A20260814115231944",
@@ -2264,7 +3493,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260827163329132",
@@ -2291,7 +3521,8 @@
    "filters": [],
    "households": 7,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260827142154429",
@@ -2317,7 +3548,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260826195657347",
@@ -2344,7 +3576,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260826154114481",
@@ -2371,7 +3604,8 @@
    "filters": [],
    "households": 15,
    "use_approval": "2024-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260826132737556",
@@ -2397,7 +3631,8 @@
    "filters": [],
    "households": 23,
    "use_approval": "2019-08-29",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260826110545275",
@@ -2424,7 +3659,8 @@
    "sigungu": "서초구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260825172258441",
@@ -2450,7 +3686,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260825161406984",
@@ -2476,7 +3713,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260825150152069",
@@ -2502,7 +3740,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260824173129751",
@@ -2528,7 +3767,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260824135430439",
@@ -2554,7 +3794,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 주민운동시설의 위탁",
    "kind": "제한경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260822112659711",
@@ -2581,7 +3822,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260820141939520",
@@ -2608,7 +3850,8 @@
    "sigungu": "성동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_139485",
@@ -2633,7 +3876,8 @@
    "filters": [],
    "households": 1330,
    "use_approval": "2010-05-28",
-   "sigungu": "강북구"
+   "sigungu": "강북구",
+   "target": false
   },
   {
    "bid_num": "20260818072253900",
@@ -2659,7 +3903,8 @@
    "filters": [],
    "households": 3002,
    "use_approval": "2006-01-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260814143254340",
@@ -2686,7 +3931,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "kg2b_139593",
@@ -2711,7 +3957,8 @@
    "sigungu": "마포구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "A20260731141635113",
@@ -2736,7 +3983,8 @@
    "sigungu": "송파구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "A20260731204010990",
@@ -2762,7 +4010,8 @@
    "sigungu": "영등포구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "A20260731195007644",
@@ -2787,7 +4036,8 @@
    "sigungu": "영등포구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260812174128248",
@@ -2809,12 +4059,13 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260812174128248&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 11,
+   "households": 829,
    "use_approval": "2018-08-31",
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260811115820776",
@@ -2841,7 +4092,8 @@
    "filters": [],
    "households": 28,
    "use_approval": "1988-05-13",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260811103951981",
@@ -2867,7 +4119,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260810114301579",
@@ -2894,7 +4147,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260810113113435",
@@ -2921,7 +4175,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260810112506481",
@@ -2948,7 +4203,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260807092639796",
@@ -2975,7 +4231,8 @@
    "filters": [],
    "households": 15,
    "use_approval": "2018-02-19",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "kg2b_139234",
@@ -3000,7 +4257,8 @@
    "sigungu": "마포구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260806154152723",
@@ -3027,7 +4285,8 @@
    "sigungu": "강북구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260806140049725",
@@ -3054,7 +4313,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260806105520308",
@@ -3081,7 +4341,8 @@
    "sigungu": "서초구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260806100016916",
@@ -3107,7 +4368,8 @@
    "filters": [],
    "households": 198,
    "use_approval": "",
-   "sigungu": "영등포구"
+   "sigungu": "영등포구",
+   "target": false
   },
   {
    "bid_num": "kg2b_138909",
@@ -3132,7 +4394,8 @@
    "sigungu": "강동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "kg2b_138890",
@@ -3157,7 +4420,8 @@
    "sigungu": "노원구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260805155235077",
@@ -3179,12 +4443,13 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260805155235077&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 11,
+   "households": 829,
    "use_approval": "2018-08-31",
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260805110015811",
@@ -3210,7 +4475,8 @@
    "filters": [],
    "households": 28,
    "use_approval": "1988-05-13",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260805092721396",
@@ -3236,7 +4502,8 @@
    "sigungu": "성동구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260805091232693",
@@ -3262,7 +4529,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260804131016647",
@@ -3288,7 +4556,8 @@
    "filters": [],
    "households": 29,
    "use_approval": "2025-06-27",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "kg2b_138720",
@@ -3341,7 +4610,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260731103504718",
@@ -3368,7 +4638,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "kg2b_139010",
@@ -3395,7 +4666,8 @@
    "filters": [],
    "households": null,
    "use_approval": "",
-   "sigungu": "서초구"
+   "sigungu": "서초구",
+   "target": false
   },
   {
    "bid_num": "20260730154212353",
@@ -3422,7 +4694,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260730152746625",
@@ -3449,7 +4722,8 @@
    "sigungu": "은평구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260729112204012",
@@ -3475,7 +4749,8 @@
    "sigungu": "광진구",
    "category": "사업자 - 용역 - 회계감사",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260728163631752",
@@ -3501,7 +4776,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 일반보수",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260728150449917",
@@ -3527,7 +4803,8 @@
    "filters": [],
    "households": 15,
    "use_approval": "2018-02-19",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260728150312205",
@@ -3554,7 +4831,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260728145318820",
@@ -3581,7 +4859,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260727174522640",
@@ -3608,7 +4887,8 @@
    "filters": [],
    "households": 12,
    "use_approval": "1995-12-30",
-   "sigungu": ""
+   "sigungu": "",
+   "target": false
   },
   {
    "bid_num": "20260724174759416",
@@ -3635,7 +4915,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260724174142308",
@@ -3662,7 +4943,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260724170422165",
@@ -3689,7 +4971,8 @@
    "sigungu": "",
    "category": "사업자 - 물품 - 구입",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260724170041472",
@@ -3715,7 +4998,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260724165355778",
@@ -3741,7 +5025,8 @@
    "sigungu": "강북구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260724161355799",
@@ -3767,7 +5052,8 @@
    "sigungu": "",
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260724132752689",
@@ -3793,7 +5079,8 @@
    "sigungu": "강북구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260723133213974",
@@ -3820,7 +5107,8 @@
    "sigungu": "",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260723130548604",
@@ -3847,7 +5135,8 @@
    "sigungu": "노원구",
    "category": "사업자 - 용역 - 회계감사",
    "kind": "일반경쟁",
-   "is_works": false
+   "is_works": false,
+   "target": false
   },
   {
    "bid_num": "20260723112346108",
@@ -3874,7 +5163,8 @@
    "sigungu": "관악구",
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
-   "is_works": true
+   "is_works": true,
+   "target": false
   },
   {
    "bid_num": "20260722162245563",
@@ -3926,7 +5216,8 @@
    "filters": [],
    "households": 198,
    "use_approval": "",
-   "sigungu": "영등포구"
+   "sigungu": "영등포구",
+   "target": false
   },
   {
    "bid_num": "kg2b_138348",
@@ -4595,7 +5886,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260701134947609&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 6864,
    "use_approval": "",
    "sigungu": ""
   },
@@ -4917,7 +6208,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260624110623056&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 6864,
    "use_approval": "",
    "sigungu": ""
   },
@@ -5482,7 +6773,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260610104356260&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -5528,7 +6819,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260609130851051&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 6864,
    "use_approval": "",
    "sigungu": ""
   },
@@ -6048,7 +7339,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260528144747473&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 32,
    "use_approval": "",
    "sigungu": ""
   },
@@ -6952,7 +8243,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260507163830663&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 11,
+   "households": 829,
    "use_approval": "2018-08-31",
    "sigungu": ""
   },
@@ -9395,7 +10686,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260206132021259&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 23,
    "use_approval": "",
    "sigungu": ""
   },
@@ -9767,7 +11058,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260115143108708&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 23,
    "use_approval": "",
    "sigungu": ""
   },
@@ -10661,7 +11952,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251211100354040&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 12,
    "use_approval": "",
    "sigungu": ""
   },
@@ -10966,10 +12257,12 @@
    "complex_key": "잠실리센츠",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251201172847064&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 5563,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구"
   },
   {
    "bid_num": "20251201165943623",
@@ -11063,7 +12356,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251127105021323&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 12,
    "use_approval": "",
    "sigungu": ""
   },
@@ -11791,7 +13084,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251031165505667&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
+   "households": 46,
    "use_approval": "",
    "sigungu": ""
   },
@@ -11864,10 +13157,12 @@
    "complex_key": "잠실리센츠",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20251030173437517&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 5563,
    "use_approval": "",
-   "sigungu": ""
+   "sigungu": "송파구"
   },
   {
    "bid_num": "20251030100037273",
