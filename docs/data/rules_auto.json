@@ -458,6 +458,23 @@
     "as_of": "2026-05-22",
     "checked": null,
     "auto_run": "2026-10-22"
+   },
+   "parking": {
+    "visitor_fee": null,
+    "per_unit_by_area": null,
+    "public_facility_users_allowed": "집 4대, BES 어린이집 2대로 주차등록을 의결한다.",
+    "sources": [
+     {
+      "text": "회의결과: 가. 어린이집 직원 주차 대수 논의 건 (2024-08-16)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20240816&physical=BC7F289955F8464E9743731BACD04778.jpg&contentType=image/jpeg",
+      "code": "A10024398",
+      "bbs": "02",
+      "post": "제2기 제7차 입주자대표회의 회의록 공고_24.07.26"
+     }
+    ],
+    "as_of": "2024-08-16",
+    "checked": null,
+    "auto_run": "2026-10-22"
    }
   },
   {
