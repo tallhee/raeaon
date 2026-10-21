@@ -75,16 +75,16 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <p>서울시 공동주택마당에 올라온 각 단지의 입주자대표회의 회의결과 공고를 안건 단위로 읽어, 주제별로 우리 단지와 나란히 봅니다.</p>
 </header>
 <nav><div class="in" role="tablist">
-  <button role="tab" data-tab="minutes" aria-selected="true">입대의 회의결과</button>
+  <button role="tab" data-tab="notices" aria-selected="true">입찰공고</button>
+  <button role="tab" data-tab="minutes" aria-selected="false">입대의 회의결과</button>
   <button role="tab" data-tab="docs" aria-selected="false">장기수선·감사 자료</button>
   <button role="tab" data-tab="bylaws" aria-selected="false">관리규약 조항</button>
   <button role="tab" data-tab="rules" aria-selected="false">규정 비교표</button>
-  <button role="tab" data-tab="notices" aria-selected="false">입찰공고(참고)</button>
   <button role="tab" data-tab="status" aria-selected="false">수집 상태</button>
 </div></nav>
 
 <main>
-<section id="minutes" class="on">
+<section id="minutes">
   <p class="lead">회의결과 공고 첨부파일(스캔 이미지·PDF)에서 글자를 읽어 안건별로 주제를 붙였습니다. 글자 인식이라 표나 숫자가 틀릴 수 있으니, 중요한 내용은 <strong>원문</strong> 링크로 확인하세요.</p>
   <div class="bar" id="mTopics"></div>
   <details class="termbox" open><summary>다른 단지들이 많이 다룬 안건 주제어 <span class="meta">(숫자 = 다룬 단지 수, <b class="new">새</b> = 우리 단지는 아직 안 다룸)</span></summary>
@@ -122,7 +122,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="tablewrap"><table id="ruleTable"></table></div>
 </section>
 
-<section id="notices">
+<section id="notices" class="on">
   <p class="lead">K-apt 서울 입찰공고 중 주제 키워드가 들어간 공고와, 수집 대상 단지(우리 단지·비교 단지)의 모든 입찰공고·수의계약 결과를 매일 모읍니다. 공고를 누르면 K-apt 원문으로 이동합니다.</p>
   <div class="bar" id="noticeStates"></div>
   <div class="bar" id="noticeTopics"></div>
