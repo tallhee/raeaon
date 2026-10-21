@@ -1,7 +1,9 @@
-name: K-apt 입찰공고 수집 (수동)
+name: K-apt 입찰공고 수집
 
-# 자동 실행 중지: 주력은 openapt 입대의 회의결과. 필요할 때만 Actions에서 수동 실행.
+# 하루 1번(한국시간 06:23) 최근 공고를 이어서 수집. Actions에서 수동 실행도 가능.
 on:
+  schedule:
+    - cron: "23 21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,5 +37,6 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "data: 공고 수집 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase origin main
             git push
           fi
