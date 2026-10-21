@@ -111,7 +111,7 @@ KAPT_CODE = re.compile(r"^[AB]\d{8}$")
 AMOUNT_RE = re.compile(r"^(-|[\d,]+)$")
 
 
-def search(keyword: str, start: str, end: str, view: str = "3", apt: str = "") -> list[dict]:
+def search(keyword: str, start: str, end: str, view: str = "3", apt: str = "", max_pages: int = 20) -> list[dict]:
     """view 3 = 기간 전체(입찰결과 목록: 낙찰금액 열, 단지코드 없음)
     view 4 = 최근 공고(공고일 열, 단지코드 있음). 열 구성이 달라 각각 해석한다."""
     out, page = [], 1
@@ -145,7 +145,7 @@ def search(keyword: str, start: str, end: str, view: str = "3", apt: str = "") -
                 r["complex_name"] = cells[6]
                 r["date"] = cells[7][:10]
             out.append(r)
-        if len(rows) < int(K["page_size"]) or page >= 20:
+        if len(rows) < int(K["page_size"]) or page >= max_pages:
             break
         page += 1
     return out
@@ -324,13 +324,20 @@ def main() -> int:
         matched = {b: r for b, r in found.items() if classify(r["title"])}
         # 1-2) 대상 단지는 주제와 상관없이 모든 입찰공고 + 수의계약 결과
         tnames = target_names()
-        t_start = (NOW - dt.timedelta(days=K.get("target_lookback_days", 730))).strftime("%Y-%m-%d")
-        contracts = {c["id"]: c for c in load("contracts.json", {"items": []})["items"]}
+        cstore = load("contracts.json", {"items": [], "done": {}})
+        contracts = {c["id"]: c for c in cstore["items"]}
+        tdone = cstore.get("done", {})  # 단지별 마지막 조회일: 처음엔 2년치, 이후엔 최근 40일만
         t_err, t_bids = [], 0
-        for nm in tnames:
+        def save_contracts():
+            save("contracts.json", {"updated": NOW.isoformat(timespec="minutes"), "detail_path": PC_DETAIL["path"], "done": tdone,
+                                    "items": sorted(contracts.values(), key=lambda c: (c.get("date", ""), c["id"]), reverse=True)})
+        for nm in sorted(tnames, key=lambda n: tdone.get(n, "")):
             key = norm_name(nm)
+            if tdone.get(nm) == TODAY:
+                continue
+            t_start = (NOW - dt.timedelta(days=40 if tdone.get(nm) else K.get("target_lookback_days", 730))).strftime("%Y-%m-%d")
             try:
-                for r in search("", t_start, TODAY, "3", apt=nm):
+                for r in search("", t_start, TODAY, "3", apt=nm, max_pages=3):
                     if key and key not in norm_name(r.get("complex_name", "")):
                         continue
                     cur = found.setdefault(r["bid_num"], r)
@@ -346,12 +353,13 @@ def main() -> int:
                                       "url": (f"{BASE}{path}?pcNum={r['pc_num']}" if path else
                                               f"{BASE}/bid/privateContractList.do?aptName={urllib.parse.quote(nm)}"),
                                       "first_seen": contracts.get(cid, {}).get("first_seen", TODAY)}
-            except Stop:
-                raise
+                tdone[nm] = TODAY
+            except Stop:  # 시간이 다 되면 남은 단지는 다음 실행에서
+                status["targets_stopped"] = nm
+                break
             except Exception as e:
                 t_err.append(f"{nm}: {str(e)[:100]}")
-        save("contracts.json", {"updated": NOW.isoformat(timespec="minutes"), "detail_path": PC_DETAIL["path"],
-                                "items": sorted(contracts.values(), key=lambda c: (c.get("date", ""), c["id"]), reverse=True)})
+        save_contracts()
         status["steps"]["targets"] = {"ok": not t_err, "complexes": len(tnames), "bids": t_bids,
                                       "contracts": len(contracts), "errors": t_err[:5]}
         if search_stop:
