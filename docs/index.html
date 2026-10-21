@@ -128,7 +128,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar" id="noticeTopics"></div>
   <div class="bar" id="noticeFilters"></div>
   <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색">
-    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사·취소 공고 숨기기</label></div>
+    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사·취소 공고 숨기기 (대상 단지 공고는 항상 표시)</label></div>
   <p class="meta" id="noticeCount"></p>
   <div class="list" id="noticeList"></div>
 </section>
@@ -324,7 +324,7 @@ function chips(el,map,state,onChange,multi){
     const term=q.value.trim(), sk=[...ns][0];
     if(sk==="pc"){
       const cs=((contracts?.items)||[]).filter(c=>(!nf.size||nfHit(c))&&(!term||(c.title+c.complex_name+(c.vendor||"")).includes(term)));
-      document.getElementById("noticeCount").textContent=contracts?`수의계약 ${cs.length}건 · 대상 단지만 · 최근 수집 ${(contracts.updated||"").slice(0,16).replace("T"," ")}`:"아직 수집된 수의계약이 없습니다. 다음 수집(매일 06:23) 뒤 나타납니다.";
+      document.getElementById("noticeCount").textContent=contracts?`${cs.length}건 · 대상 단지만 · 최근 수집 ${(contracts.updated||"").slice(0,16).replace("T"," ")}`:"아직 수집된 수의계약이 없습니다. 다음 수집(매일 06:23) 뒤 나타납니다.";
       document.getElementById("noticeList").innerHTML=cs.slice(0,300).map(c=>`<article class="card">
         <h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
         <div class="meta"><strong>${esc(c.complex_name)}</strong> · 계약 ${esc(c.date||"–")} · ${esc(c.vendor||"")}${c.amount?` · ${c.amount.toLocaleString()}원`:""}${c.period?` · 기간 ${esc(c.period)}`:""}</div>
@@ -332,7 +332,7 @@ function chips(el,map,state,onChange,multi){
       return;
     }
     const items=((notices?.items)||[]).filter(n=>stOk(n)&&
-      (!hw.checked||(!n.is_works&&(n.state!=="취소"||sk==="cancel")))&&
+      (!hw.checked||n.target||(!n.is_works&&(n.state!=="취소"||sk==="cancel")))&&
       (!nt.size||(n.topics||[]).some(x=>nt.has(x)))&&
       (!nf.size||nfHit(n))&&
       (!term||(n.title+n.complex_name).includes(term)));
