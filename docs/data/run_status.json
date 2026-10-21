@@ -1,28 +1,7 @@
 {
- "ran_at": "2026-10-21T20:22+09:00",
- "steps": {
-  "search": {
-   "ok": true,
-   "keywords": 29,
-   "found": 276,
-   "matched": 147,
-   "errors": []
-  },
-  "detail": {
-   "ok": true,
-   "new": 2,
-   "errors": 0
-  }
- },
- "complex_errors": [
-  "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11127107: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11127799: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11119955: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11121544: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
- ],
- "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
+ "ran_at": "2026-10-21T21:30+09:00",
+ "steps": {},
+ "stopped": "시간 예산 소진 — 다음 실행에서 이어서 수집",
  "complete": false,
  "totals": {
   "notices": 494,
