@@ -2,17 +2,12 @@ import re,sys
 sys.path.insert(0,'scripts')
 import collect as c
 out=[]
-h=c.fetch("/bid/bidList.do")
-out.append("FORM FIELDS: "+", ".join(sorted(set(re.findall(r'name="([A-Za-z_]+)"',h)))))
-out.append("LINKS: "+"\n".join(sorted(set(re.findall(r'href="(/[a-zA-Z/]+\.do[^"]*)"',h)))[:200]))
-for kw in ("kaptName","searchKaptName","aptName","kaptCode"):
-  try:
-    h2=c.fetch("/bid/bidList.do",{"pageSelect":100,"searchBidGb":"bid_gb_1","bidTitle":"","searchDateGb":"reg","dateStart":"2025-06-01","dateEnd":"2026-10-21","pageNo":1,"type":"3","bidArea":"11",kw:"잠실래미안아이파크"})
-    rows=c.ROW_RE.findall(h2); names=[c.text_of(x) for x in re.findall(r"<td[^>]*>(.*?)</td>",rows[0][1],re.S)] if rows else []
-    out.append(f"{kw}: rows={len(rows)} first={names}")
-  except Exception as e: out.append(f"{kw}: ERR {e}")
-for path in ("/bid/privateContractList.do","/bid/pContractList.do","/bid/contractList.do","/bid/bidList.do?searchBidGb=bid_gb_2"):
-  try:
-    h3=c.fetch(path); out.append(f"{path}: len={len(h3)} title={re.findall(r'<title>(.*?)</title>',h3)} rows={len(c.ROW_RE.findall(h3))} fields={sorted(set(re.findall(r'name=\"([A-Za-z_]+)\"',h3)))[:40]}")
-  except Exception as e: out.append(f"{path}: ERR {e}")
+for nm in ("잠실래미안아이파크","올림픽파크포레온"):
+  h=c.fetch("/bid/privateContractList.do",{"pageSelect":100,"aptName":nm,"searchDateGb":"reg","dateStart":"2025-01-01","dateEnd":"2026-10-21","pageNo":1,"bidArea":"11","area":"11"})
+  trs=re.findall(r'<tr[^>]*>(.*?)</tr>',h,re.S)
+  out.append(f"== {nm} trs={len(trs)}")
+  heads=re.findall(r'<th[^>]*>(.*?)</th>',h,re.S); out.append("TH: "+" | ".join(c.text_of(x) for x in heads[:20]))
+  for t in trs[:4]: out.append("ROWRAW: "+re.sub(r'\s+',' ',t)[:900])
+h=c.fetch("/bid/bidList.do",{"pageSelect":100,"searchBidGb":"bid_gb_1","bidTitle":"","searchDateGb":"reg","dateStart":"2024-01-01","dateEnd":"2026-10-21","pageNo":1,"type":"3","bidArea":"11","aptName":"잠실래미안아이파크"})
+for b,inner in c.ROW_RE.findall(h): out.append("BID: "+b+" "+" | ".join(c.text_of(x) for x in re.findall(r"<td[^>]*>(.*?)</td>",inner,re.S)))
 open('probe/out.txt','w').write("\n".join(out))
