@@ -150,16 +150,16 @@
     "auto_run": "2026-10-21"
    },
    "parking": {
-    "visitor_fee": "⦁입주자 방문차량 : ① 세대당 월 150시간 무료",
-    "per_unit_by_area": "⦁입주자 방문차량 : ① 세대당 월 150시간 무료 / ② 상가 추가 등록차량 1대당 월60,000원 부과(최대 40대 이내) / 1대 무료 무료 무료",
-    "public_facility_users_allowed": "⦁상가 등록차량 : ① 상가주차장 면수 46대 무료주차 / ② 상가 추가 등록차량 1대당 월60,000원 부과(최대 40대 이내) / ⦁상가 방문차량 : ① 최초 30분 무료",
+    "visitor_fee": null,
+    "per_unit_by_area": null,
+    "public_facility_users_allowed": "2. 상가관리단은 25.1.1.자부터 매월 50만원을 아파트측에 SSH 시설이용료로 납부하며, / 상가관리사무소가 상가건물 내 건축되면 매월 150만원을 아파트측에 납부한다. 이후 시설",
     "sources": [
      {
-      "text": "아르테온 주차관리규정(22.9.29_1차개정) (2023-01-31)",
-      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001073834&fileSn=1"
+      "text": "회의결과: 1. 상가관리단에서 24.1.26.자에 제기한 「주차방해금지 7A, 사건 (2024-11-21)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20241121&physical=108A66CE77114889AD8F83463D39F01D.jpg&contentType=image/jpeg"
      }
     ],
-    "as_of": "2023-01-31",
+    "as_of": "2024-11-21",
     "checked": null,
     "auto_run": "2026-10-21"
    }
@@ -468,16 +468,16 @@
    "households": 3658,
    "auto": true,
    "community": {
-    "hours": "화 ~ 토 (09:00~21:00), 일/공휴일 (09:00~18:00) 외부업체 (4시간 기준) / 사 우 나 공휴일(일)09:00~18:00 / 골프장/헬스장 공휴일(일)09:00~18:00",
-    "fee": "사 우 나 세대별 1일2회 무료 /초과시 회당 2,500원 별도 부과 추가 산정 / 1회입장 : 4,000원 0~7세 입장가능 / 2. 입주민이 하나의 원패스 카드로 2인 이상 부정 입장 시 1명당, 회당 25,000원의 벌금을 그 해 당",
-    "entry_limit": "사 우 나 세대별 1일2회 무료 /초과시 회당 2,500원 별도 부과 추가 산정 / * 독서지수Test 1회 무료진행가능 * 독서지수Test 1회 진행가능",
+    "hours": null,
+    "fee": null,
+    "entry_limit": "①안 25,000원 1개월 20회 ②안 30,000원 1개월 25회 / ③안 35,000원 1개월 30회",
     "sources": [
      {
-      "text": "[19.01개정] 커뮤니티 운영규정 개정전문 (2019-01-25)",
-      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000450148&fileSn=0"
+      "text": "회의결과: 제4호 커뮤니티 운영방안 조정의 건 료를 현실화하기로 하고, 아래 3개  (2024-12-23)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001475738&fileSn=0"
      }
     ],
-    "as_of": "2019-01-25",
+    "as_of": "2024-12-23",
     "checked": null,
     "auto_run": "2026-10-21"
    }
@@ -1009,6 +1009,26 @@
    }
   },
   {
+   "name": "포레나송파",
+   "sigungu": "송파구",
+   "households": 1282,
+   "auto": true,
+   "parking": {
+    "visitor_fee": null,
+    "per_unit_by_area": "현재 1대 무료, 2대 3만원, 3대 합산하여 23만원인데 주차책정에 과",
+    "public_facility_users_allowed": null,
+    "sources": [
+     {
+      "text": "회의결과: 제1호 안건 주차장 관리운영 규정 개정 건입니다. (2024-12-02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001462194&fileSn=1"
+     }
+    ],
+    "as_of": "2024-12-02",
+    "checked": null,
+    "auto_run": "2026-10-21"
+   }
+  },
+  {
    "name": "헬리오시티아파트",
    "sigungu": "송파구",
    "households": 9510,
@@ -1092,6 +1112,20 @@
      }
     ],
     "as_of": "2025-08-28",
+    "checked": null,
+    "auto_run": "2026-10-21"
+   },
+   "parking": {
+    "visitor_fee": ">방문주차의 경우 100시간 초과시, 시간",
+    "per_unit_by_area": null,
+    "public_facility_users_allowed": null,
+    "sources": [
+     {
+      "text": "회의결과: 1. 주차장 관리규정 검토건 (2024-11-27)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001460104&fileSn=0"
+     }
+    ],
+    "as_of": "2024-11-27",
     "checked": null,
     "auto_run": "2026-10-21"
    }
