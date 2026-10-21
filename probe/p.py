@@ -14,3 +14,4 @@ try:
   out.append("GOVIEW:"+(m.group(0) if m else "none"))
 except Exception as e: out.append(f"list ERR {e}")
 open('probe/out.txt','w').write("\n".join(out)+"\n#"+str(__import__('time').time()))
+# 1792591195

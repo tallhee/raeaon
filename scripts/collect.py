@@ -67,7 +67,7 @@ def save(name: str, obj) -> None:
     (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2) -> str:
+def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2, timeout: int = 20) -> str:
     global _fail_streak
     if time.monotonic() > DEADLINE:
         raise Stop("시간 예산 소진 — 다음 실행에서 이어서 수집")
@@ -76,7 +76,7 @@ def fetch(path: str, params: dict | None = None, data: dict | None = None, tries
     last = None
     for i in range(tries):
         try:
-            with opener.open(urllib.request.Request(url, data=body), timeout=20) as r:
+            with opener.open(urllib.request.Request(url, data=body), timeout=timeout) as r:
                 text = r.read().decode("utf-8", "replace")
             _fail_streak = 0
             time.sleep(K["delay_seconds"])
@@ -111,7 +111,7 @@ KAPT_CODE = re.compile(r"^[AB]\d{8}$")
 AMOUNT_RE = re.compile(r"^(-|[\d,]+)$")
 
 
-def search(keyword: str, start: str, end: str, view: str = "3") -> list[dict]:
+def search(keyword: str, start: str, end: str, view: str = "3", apt: str = "", max_pages: int = 20) -> list[dict]:
     """view 3 = 기간 전체(입찰결과 목록: 낙찰금액 열, 단지코드 없음)
     view 4 = 최근 공고(공고일 열, 단지코드 있음). 열 구성이 달라 각각 해석한다."""
     out, page = [], 1
@@ -119,8 +119,8 @@ def search(keyword: str, start: str, end: str, view: str = "3") -> list[dict]:
         h = fetch("/bid/bidList.do", {
             "pageSelect": K["page_size"], "searchBidGb": "bid_gb_1", "bidTitle": keyword,
             "searchDateGb": "reg", "dateStart": start, "dateEnd": end,
-            "pageNo": page, "type": view, "bidArea": K["bid_area"],
-        })
+            "pageNo": page, "type": view, "bidArea": K["bid_area"], **({"aptName": apt} if apt else {}),
+        }, timeout=60 if apt else 20)
         rows = ROW_RE.findall(h)
         for bid_num, inner in rows:
             cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", inner, re.S)]
@@ -145,10 +145,56 @@ def search(keyword: str, start: str, end: str, view: str = "3") -> list[dict]:
                 r["complex_name"] = cells[6]
                 r["date"] = cells[7][:10]
             out.append(r)
-        if len(rows) < int(K["page_size"]) or page >= 20:
+        if len(rows) < int(K["page_size"]) or page >= max_pages:
             break
         page += 1
     return out
+
+
+PC_DETAIL = {"path": ""}
+
+
+def pc_search(apt: str, start: str, end: str) -> list[dict]:
+    """사업자 선정(수의계약) 결과 공개 목록 (단지명으로 검색)."""
+    out, page = [], 1
+    while True:
+        h = fetch("/bid/privateContractList.do", {"pageSelect": K["page_size"], "aptName": apt, "searchDateGb": "reg",
+                                                  "dateStart": start, "dateEnd": end, "pageNo": page, "area": K["bid_area"]}, timeout=60)
+        if not PC_DETAIL["path"]:
+            m = re.search(r"function\s+goView\s*\([^)]*\)\s*\{(.{0,600}?)\}", h, re.S)
+            dm = re.search(r"(/bid/[A-Za-z]+\.do)", m.group(1)) if m else None
+            PC_DETAIL["path"] = dm.group(1) if dm else "-"
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", h, re.S)
+        got = 0
+        for inner in rows:
+            num = re.search(r"goView\('(\d+)'\)", inner)
+            cells = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", inner, re.S)]
+            if not num or len(cells) < 7:
+                continue
+            got += 1
+            code = re.search(r"initList\('([A-Z0-9]+)'\)", inner)
+            amt = re.sub(r"\D", "", cells[5])
+            out.append({"pc_num": num.group(1), "complex_name": cells[1], "complex_code": code.group(1) if code else "",
+                        "vendor": cells[2], "title": re.sub(r"^\[[^\]]+\]\s*", "", cells[3]), "date": cells[4][:10],
+                        "amount": int(amt) if amt else None, "period": cells[6]})
+        if got < int(K["page_size"]) or page >= 10:
+            break
+        page += 1
+    return out
+
+
+def target_names() -> list[str]:
+    """회의결과 수집 대상 단지(우리 단지·비교 단지) 이름 — 이 단지들은 주제와 상관없이 모든 공고를 모은다."""
+    try:
+        cxs = json.loads((DATA / "minutes.json").read_text(encoding="utf-8")).get("complexes", [])
+    except Exception:
+        cxs = []
+    names = []
+    for c in sorted(cxs, key=lambda c: not c.get("home")):
+        n = re.sub(r"\(.*?\)", "", c.get("name", "")).replace("아파트", "").strip()
+        if n and n not in names:
+            names.append(n)
+    return names
 
 
 def reg_date(bid_num: str) -> str:
@@ -276,6 +322,46 @@ def main() -> int:
                     search_stop = e
                     break
         matched = {b: r for b, r in found.items() if classify(r["title"])}
+        # 1-2) 대상 단지는 주제와 상관없이 모든 입찰공고 + 수의계약 결과
+        tnames = target_names()
+        cstore = load("contracts.json", {"items": [], "done": {}})
+        contracts = {c["id"]: c for c in cstore["items"]}
+        tdone = cstore.get("done", {})  # 단지별 마지막 조회일: 처음엔 2년치, 이후엔 최근 40일만
+        t_err, t_bids = [], 0
+        def save_contracts():
+            save("contracts.json", {"updated": NOW.isoformat(timespec="minutes"), "detail_path": PC_DETAIL["path"], "done": tdone,
+                                    "items": sorted(contracts.values(), key=lambda c: (c.get("date", ""), c["id"]), reverse=True)})
+        for nm in sorted(tnames, key=lambda n: tdone.get(n, "")):
+            key = norm_name(nm)
+            if tdone.get(nm) == TODAY:
+                continue
+            t_start = (NOW - dt.timedelta(days=40 if tdone.get(nm) else K.get("target_lookback_days", 400))).strftime("%Y-%m-%d")
+            try:
+                for r in search("", t_start, TODAY, "3", apt=nm, max_pages=3):
+                    if key and key not in norm_name(r.get("complex_name", "")):
+                        continue
+                    cur = found.setdefault(r["bid_num"], r)
+                    matched[r["bid_num"]] = cur
+                    cur["target"] = True
+                    t_bids += 1
+                for r in pc_search(nm, t_start, TODAY):
+                    if key and key not in norm_name(r.get("complex_name", "")):
+                        continue
+                    cid = f"pc-{r['pc_num']}"
+                    path = PC_DETAIL["path"] if PC_DETAIL["path"] not in ("", "-") else ""
+                    contracts[cid] = {**contracts.get(cid, {}), **r, "id": cid, "complex_key": norm_name(r["complex_name"]),
+                                      "url": (f"{BASE}{path}?pcNum={r['pc_num']}" if path else
+                                              f"{BASE}/bid/privateContractList.do?aptName={urllib.parse.quote(nm)}"),
+                                      "first_seen": contracts.get(cid, {}).get("first_seen", TODAY)}
+                tdone[nm] = TODAY
+            except Stop:  # 시간이 다 되면 남은 단지는 다음 실행에서
+                status["targets_stopped"] = nm
+                break
+            except Exception as e:
+                t_err.append(f"{nm}: {str(e)[:100]}")
+        save_contracts()
+        status["steps"]["targets"] = {"ok": not t_err, "complexes": len(tnames), "bids": t_bids,
+                                      "contracts": len(contracts), "errors": t_err[:5]}
         if search_stop:
             status["stopped_in_search"] = str(search_stop)
         status["steps"]["search"] = {"ok": not errors or bool(found), "keywords": len(keywords),
@@ -287,7 +373,7 @@ def main() -> int:
             nid = f"kapt-{bid}"
             base = prev.get(nid, {})
             prev[nid] = {**base, **{k: v for k, v in r.items() if v not in ("", None)}, "id": nid,
-                         "source": "kapt_bid", "topics": classify(r["title"]),
+                         "source": "kapt_bid", "topics": classify(r["title"]), "target": bool(r.get("target")),
                          "complex_key": norm_name(r.get("complex_name", "")),
                          "url": f"{BASE}/bid/bidDetail.do?bidNum={urllib.parse.quote(bid)}&type=3",
                          "first_seen": base.get("first_seen", TODAY)}
