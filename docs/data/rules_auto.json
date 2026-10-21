@@ -503,6 +503,26 @@
    }
   },
   {
+   "name": "마포그랑자이아파트",
+   "sigungu": "마포구",
+   "households": 1248,
+   "auto": true,
+   "community": {
+    "hours": null,
+    "fee": "커뮤니티 운영비를 세대당 매월 30,000원으로 정액부과하기로 의결함.",
+    "entry_limit": null,
+    "sources": [
+     {
+      "text": "회의결과: 제1호 의안 : 커뮤니티 운영비의 건 (2024-10-02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001424396&fileSn=0"
+     }
+    ],
+    "as_of": "2024-10-02",
+    "checked": null,
+    "auto_run": "2026-10-21"
+   }
+  },
+  {
    "name": "마포더클래시",
    "sigungu": "마포구",
    "households": 1419,
