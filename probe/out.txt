@@ -1,4 +1,28 @@
-get: ERR fetch() got an unexpected keyword argument 'timeout'
-post: ERR fetch() got an unexpected keyword argument 'timeout'
-list ERR fetch() got an unexpected keyword argument 'timeout'
-#1792591150.8896873
+get: len=257840 has=True 계약명 KT 임대차 통신설비 설치·운영 계약서 계약업체명 주식회사 케이티 업체대표자명 박윤영 업체전화번호 1577-6168 사업자등록번호 1028142945 업체주소 경기도 성남시 분당구 정자동 206번지 계약(예정)일 2026-08-31 계약기간 2026-03-31 ~ 2028-03-30 계약금액 18,900,000원 (부가세 별도) 등록일 2026-10-02 08:55:53 분 류 사업자 - 용역 - 기타 용역 수의계약 체결사유 주택관리업자 및 사업자 선정지침(국토교통부 고시 제2024-196호) 제4조제3항[별표 2] 목록 개
+post: len=28700 has=False const contextPath = ""; const progrmUrl = location.pathname; const token = $("meta[name='_csrf']").attr("content"); const header = $("meta[name='_csrf_header']").attr("content"); var allowedExt = '.gif.jpg.jpeg.png.xls.xlsx.pdf.txt.doc.docx.hwp.hwpx'; var allowedSize = '10485760'; $.ajaxSetup({ befo
+GOVIEW:goView(pc_num) {
+        applyReadPush(pc_num)
+
+        document.searchForm.pcNum.value = pc_num;
+        document.searchForm.action = "/bid/privateContractDetail.do";
+        document.searchForm.submit();
+    }
+
+    function goList(pageNum) {
+        $(".subCbox").showLoading();
+		$("input[name=pageSelect]").val($("#pageSelect").val());
+        $("[name=pcNum]").val($("[name=pcTitle]").val());
+        document.searchForm.pageNo.value = pageNum;
+        document.searchForm.action = "/bid/privateContractList.do";
+        document.searchForm.submit();
+    }
+
+    function initList(kaptCode) {
+
+        $("#mainKaptCode").val(kaptCode);
+		$("input[name=pageSelect]").val($("#pageSelect").val());
+
+        if (!$("#areaCount li").hasClass("on")) {
+            alert("검색할 지역을 선택하세요.");
+     
+#1792591406.5394175
