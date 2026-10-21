@@ -125,10 +125,10 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <section id="notices" class="on">
   <p class="lead">K-apt 서울 입찰공고 중 주제 키워드가 들어간 공고와, 수집 대상 단지(우리 단지·비교 단지)의 모든 입찰공고·수의계약 결과를 매일 모읍니다. 공고를 누르면 K-apt 원문으로 이동합니다.</p>
   <div class="bar" id="noticeStates"></div>
-  <div class="bar" id="noticeTopics"></div>
   <div class="bar" id="noticeFilters"></div>
-  <div class="bar"><input type="search" id="q" placeholder="단지명·공고명 검색">
-    <label class="meta"><input type="checkbox" id="hideWorks" checked> 시설 공사·취소 공고 숨기기 (대상 단지 공고는 항상 표시)</label></div>
+  <div class="bar"><input type="search" id="q" placeholder="단지명·공고명·업체명 검색">
+</div>
+  <details class="termbox"><summary>자주 나오는 낱말로 걸러 보기 <span class="meta">(숫자 = 공고 수)</span></summary><div class="bar" id="noticeWords"></div></details>
   <p class="meta" id="noticeCount"></p>
   <div class="list" id="noticeList"></div>
 </section>
@@ -305,7 +305,7 @@ function chips(el,map,state,onChange,multi){
   drawRules();
 
   // 공고
-  const nt=new Set(),nf=new Set(),q=document.getElementById("q"),hw=document.getElementById("hideWorks");
+  const nf=new Set(),q=document.getElementById("q");
   // 단지 필터: 회의결과 탭과 같은 목록(고정 단지 + 지역). 공고 단지명을 수집 대상 단지와 이름으로 맞춘다.
   const NCX=(minutes?.complexes)||[];
   const nkey=n=>nrm((n||"").replace(/\(.*?\)/g,""));
@@ -320,36 +320,35 @@ function chips(el,map,state,onChange,multi){
   for(const c of (contracts?.items)||[]) c._cx=cxOfNotice(c);
   const ST={all:"전체",open:"진행 중",fail:"유찰",win:"낙찰",cancel:"취소",pc:"수의계약"}, ns=new Set(["all"]);
   const stOk=n=>{const k=[...ns][0];return k==="all"||(k==="open"&&/신규|재공고|마감|진행/.test(n.state||""))||(k==="fail"&&n.state==="유찰")||(k==="win"&&n.state==="낙찰")||(k==="cancel"&&n.state==="취소");};
-  const drawNotices=()=>{
-    const term=q.value.trim(), sk=[...ns][0];
-    if(sk==="pc"){
-      const cs=((contracts?.items)||[]).filter(c=>(!nf.size||nfHit(c))&&(!term||(c.title+c.complex_name+(c.vendor||"")).includes(term)));
-      document.getElementById("noticeCount").textContent=contracts?`${cs.length}건 · 대상 단지만 · 최근 수집 ${(contracts.updated||"").slice(0,16).replace("T"," ")}`:"아직 수집된 수의계약이 없습니다. 다음 수집(매일 06:23) 뒤 나타납니다.";
-      document.getElementById("noticeList").innerHTML=cs.slice(0,300).map(c=>`<article class="card">
-        <h3><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></h3>
-        <div class="meta"><strong>${esc(c.complex_name)}</strong> · 계약 ${esc(c.date||"–")} · ${esc(c.vendor||"")}${c.amount?` · ${c.amount.toLocaleString()}원`:""}${c.period?` · 기간 ${esc(c.period)}`:""}</div>
-        <div><span class="tag">수의계약</span>${c._cx?`<span class="tag">${esc(c._cx.pinned?c._cx.name:c._cx.region)}</span>`:""}</div></article>`).join("")||`<div class="empty-state">조건에 맞는 수의계약이 없습니다.</div>`;
-      return;
-    }
-    const items=((notices?.items)||[]).filter(n=>stOk(n)&&
-      (!hw.checked||n.target||(!n.is_works&&(n.state!=="취소"||sk==="cancel")))&&
-      (!nt.size||(n.topics||[]).some(x=>nt.has(x)))&&
-      (!nf.size||nfHit(n))&&
-      (!term||(n.title+n.complex_name).includes(term)));
-    document.getElementById("noticeCount").textContent=notices?`${items.length}건 · 최근 수집 ${notices.updated?.slice(0,16).replace("T"," ")}`:"";
-    const el=document.getElementById("noticeList");
-    el.innerHTML=items.length?items.slice(0,300).map(n=>{
-      const cx=[n.sigungu,n.households?`${n.households.toLocaleString()}세대`:"",n.use_approval?`${n.use_approval.slice(0,4)}년 승인`:""].filter(Boolean).join(" · ");
+  // 자주 나오는 공고 낱말 (접어 둔 필터)
+  const STOPW=new Set(["서울","입찰","공고","선정","업체","입찰공고","재공고","아파트","관리","사업자","용역","공사","및","의","건","위한","2차","3차","차","계약","계약서","체결","건의","관련"]);
+  const allTitles=[...((notices?.items)||[]).map(n=>n.title),...((contracts?.items)||[]).map(c=>c.title)];
+  const wc={};for(const t of allTitles)for(const w of new Set((t||"").replace(/[\[\]()（）·,.\-\/]/g," ").split(/\s+/)))if(w.length>=2&&!STOPW.has(w)&&!/^\d/.test(w))wc[w]=(wc[w]||0)+1;
+  const NW=Object.fromEntries(Object.entries(wc).sort((a,b)=>b[1]-a[1]).slice(0,24).map(([w,n])=>[w,`${w} ${n}`])), nw=new Set();
+  const card=x=>x.pc_num?`<article class="card">
+        <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></h3>
+        <div class="meta"><strong>${esc(x.complex_name)}</strong> · 계약 ${esc(x.date||"–")} · ${esc(x.vendor||"")}${x.amount?` · ${x.amount.toLocaleString()}원`:""}${x.period?` · 기간 ${esc(x.period)}`:""}</div>
+        <div><span class="tag">수의계약</span>${x._cx?`<span class="tag">${esc(x._cx.pinned?x._cx.name:x._cx.region)}</span>`:""}</div></article>`
+    :(()=>{const n=x,cx=[n.sigungu,n.households?`${n.households.toLocaleString()}세대`:"",n.use_approval?`${n.use_approval.slice(0,4)}년 승인`:""].filter(Boolean).join(" · ");
       return `<article class="card">
       <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
-      <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · ${n.date?`공고 ${esc(n.date)} · `:""}마감 ${esc(n.deadline||"–")}${n.state?` · ${esc(n.state)}`:""}${n.amount?` · 낙찰 ${n.amount.toLocaleString()}원`:""}${n.category?` · ${esc(n.category)}`:""}</div>
-      <div>${n.target?'<span class="tag">대상 단지</span>':""}${(n.topics||[]).map(x=>`<span class="tag">${TOPICS[x]||x}</span>`).join("")}${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
-      </article>`;}).join(""):`<div class="empty-state">${notices?"조건에 맞는 공고가 없습니다.":"아직 수집된 공고가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
+      <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · ${n.date?`공고 ${esc(n.date)} · `:""}마감 ${esc(n.deadline||"–")}${n.amount?` · 낙찰 ${n.amount.toLocaleString()}원`:""}${n.category?` · ${esc(n.category)}`:""}</div>
+      <div><span class="tag">${esc(n.state||"입찰")}</span>${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
+      </article>`;})();
+  const drawNotices=()=>{
+    const term=q.value.trim(), sk=[...ns][0];
+    const txt=x=>x.title+x.complex_name+(x.vendor||"");
+    const ok=x=>(!nf.size||nfHit(x))&&(!term||txt(x).includes(term))&&(!nw.size||[...nw].some(w=>(x.title||"").includes(w)));
+    const bids=sk==="pc"?[]:((notices?.items)||[]).filter(n=>stOk(n)&&ok(n));
+    const pcs=(sk==="all"||sk==="pc")?((contracts?.items)||[]).filter(ok):[];
+    const items=[...bids,...pcs].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+    document.getElementById("noticeCount").textContent=`${items.length}건${sk==="all"?` (입찰 ${bids.length} · 수의계약 ${pcs.length})`:""} · 최근 수집 ${(notices?.updated||"").slice(0,16).replace("T"," ")}${items.length>300?" · 최근 300건만 표시, 검색·필터로 좁혀 보세요":""}`;
+    document.getElementById("noticeList").innerHTML=items.slice(0,300).map(card).join("")||`<div class="empty-state">조건에 맞는 공고가 없습니다.</div>`;
   };
   chips(document.getElementById("noticeStates"),ST,ns,drawNotices,false);
-  chips(document.getElementById("noticeTopics"),TOPICS,nt,drawNotices,true);
+  chips(document.getElementById("noticeWords"),NW,nw,drawNotices,true);
   chips(document.getElementById("noticeFilters"),NF,nf,drawNotices,true);
-  q.oninput=drawNotices; hw.onchange=drawNotices; drawNotices();
+  q.oninput=drawNotices; drawNotices();
 
   // 회의결과 수집 상태
   const ms=await get("data/minutes_status.json");
