@@ -1170,8 +1170,8 @@
   "address": "반포리체",
   "sido": "반포리체",
   "sigungu": "",
-  "households": 9,
-  "dong_count": 25960306,
+  "households": 1119,
+  "dong_count": 9,
   "code": "A13776301"
  },
  "반포자이": {
@@ -1222,8 +1222,8 @@
   "address": "녹번역e편한세상캐슬",
   "sido": "녹번역e편한세상캐슬",
   "sigungu": "",
-  "households": 32,
-  "dong_count": 23898562,
+  "households": 2569,
+  "dong_count": 32,
   "code": "A10024831"
  },
  "힐스테이트뉴포레": {
@@ -1288,5 +1288,32 @@
   "households": 19,
   "dong_count": 29898493,
   "code": "A10023926"
+ },
+ "방배아트자이": {
+  "name": "방배아트자이",
+  "address": "방배아트자이",
+  "sido": "방배아트자이",
+  "sigungu": "",
+  "households": 5,
+  "dong_count": 234873742,
+  "code": "A10025927"
+ },
+ "고덕그라시움": {
+  "name": "고덕 그라시움 아파트",
+  "address": "서울 강동구 고덕로 333 고덕그라시움아파트",
+  "sido": "서울",
+  "sigungu": "강동구",
+  "households": 4932,
+  "dong_count": 53,
+  "code": "A10025263"
+ },
+ "힐스테이트신촌": {
+  "name": "힐스테이트신촌",
+  "address": "힐스테이트신촌",
+  "sido": "힐스테이트신촌",
+  "sigungu": "",
+  "households": 15,
+  "dong_count": 23134552,
+  "code": "A10024719"
  }
 }
