@@ -129,7 +129,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="q" placeholder="단지명·공고명·업체명 검색">
 </div>
   <details class="termbox"><summary>자주 나오는 낱말로 걸러 보기 <span class="meta">(숫자 = 공고 수)</span></summary><div class="bar" id="noticeWords"></div></details>
-  <p class="meta" id="noticeCount"></p>
+  <p class="meta"><span id="noticeCount"></span> <button class="chip" id="noticeCopy" title="지금 보이는 목록을 단지명·링크로 복사 (카톡용)" style="padding:1px 8px;font-size:12px">목록 복사</button></p>
   <div class="list" id="noticeList"></div>
 </section>
 
@@ -354,6 +354,7 @@ function altLink(code,bbs,post){ if(!code) return "";
       <div class="meta"><strong>${esc(n.complex_name||"단지명 미상")}</strong>${cx?` (${esc(cx)})`:""} · ${n.date?`공고 ${esc(n.date)} · `:""}마감 ${esc(n.deadline||"–")}${n.amount?` · 낙찰 ${n.amount.toLocaleString()}원`:""}${n.category?` · ${esc(n.category)}`:""}</div>
       <div><span class="tag">${esc(n.state||"입찰")}</span>${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
       </article>`;})();
+  let shownNotices=[];
   const drawNotices=()=>{
     const term=q.value.trim(), sk=[...ns][0];
     const txt=x=>x.title+x.complex_name+(x.vendor||"");
@@ -361,12 +362,20 @@ function altLink(code,bbs,post){ if(!code) return "";
     const bids=sk==="pc"?[]:((notices?.items)||[]).filter(n=>stOk(n)&&ok(n));
     const pcs=(sk==="all"||sk==="pc")?((contracts?.items)||[]).filter(ok):[];
     const items=[...bids,...pcs].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+    shownNotices=items;
     document.getElementById("noticeCount").textContent=`${items.length}건${sk==="all"?` (입찰 ${bids.length} · 수의계약 ${pcs.length})`:""} · 최근 수집 ${(notices?.updated||"").slice(0,16).replace("T"," ")}${items.length>300?" · 최근 300건만 표시, 검색·필터로 좁혀 보세요":""}`;
     document.getElementById("noticeList").innerHTML=items.slice(0,300).map(card).join("")||`<div class="empty-state">조건에 맞는 공고가 없습니다.</div>`;
   };
   chips(document.getElementById("noticeStates"),ST,ns,drawNotices,false);
   chips(document.getElementById("noticeWords"),NW,nw,drawNotices,true);
   chips(document.getElementById("noticeFilters"),NF,nf,drawNotices,true);
+  document.getElementById("noticeCopy").onclick=async e=>{
+    const it=shownNotices.slice(0,100), head=[...ns][0]==="all"?"":`[${ST[[...ns][0]]}]`;
+    const text=(head||q.value.trim()?`${head}${q.value.trim()?` '${q.value.trim()}' 검색`:""} ${shownNotices.length}건${shownNotices.length>100?" 중 최근 100건":""}\n\n`:"")+
+      it.map(x=>`${(x.complex_name||"").trim()} · ${x.title}${x.date?` (${x.date})`:""}\n${x.url}`).join("\n\n");
+    try{await navigator.clipboard.writeText(text);}catch(_){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();}
+    e.target.textContent="복사됨"; setTimeout(()=>e.target.textContent="목록 복사",1500);
+  };
   q.oninput=drawNotices; drawNotices();
 
   // 회의결과 수집 상태
