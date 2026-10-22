@@ -474,15 +474,15 @@ def main() -> int:
             for k in ("households", "use_approval", "sigungu"):
                 if o.get(k):
                     cx[k] = o[k]
-        if cx.get("address") and "서울" not in cx["address"] and " " not in cx["address"]:
+        if cx.get("address") and "서울" not in cx["address"]:
             cx.pop("address", None)
-            if cx.get("sido") == cx.get("name"):
+            if cx.get("sido") and cx["sido"] not in ("서울", "서울특별시"):
                 cx.pop("sido", None)
         if (cx.get("dong_count") or 0) > 300:  # 열이 어긋나 읽힌 흔적: 세대수도 믿을 수 없음
             cx.pop("dong_count", None)
             if not o:
                 cx.pop("households", None)
-        if not o and (cx.get("households") or 0) < 60 and not cx.get("hh_checked"):
+        if not (o and o.get("households")) and (cx.get("households") or 0) < 60 and not cx.get("hh_checked"):
             cx.pop("households", None)  # 예전 해석 오류(동 수를 세대수로 읽음) 정리
         cx.update(overrides.get(key, {}))
     for n in prev.values():
