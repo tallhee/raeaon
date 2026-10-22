@@ -224,17 +224,21 @@ def detail(bid_num: str) -> dict:
         or re.search(r'value="([AB]\d{8})"[^>]*name="(?:mainKaptCode|aptCode|kapt_code|kaptCode)"', h)
     if code:
         info["kapt_code"] = code.group(1)
-    # 단지 표: 헤더 행(단지명…세대수) 다음 행
-    m = re.search(r"세대수\s*</th>\s*</tr>\s*<tr>(.*?)</tr>", h, re.S)
+    # 단지 표: 헤더(th) 이름으로 열을 찾는다 (단지마다 열 구성이 달라 위치로 읽으면 어긋남)
+    m = re.search(r"<tr>((?:(?!</tr>).)*?세대수\s*</th>)\s*</tr>\s*<tr>(.*?)</tr>", h, re.S)
     if m:
-        tds = [text_of(c) for c in re.findall(r"<td[^>]*>(.*?)(?=<td|</tr>|$)", m.group(1), re.S)]
-        tds = [re.sub(r"</?td>", "", t).strip() for t in tds]
-        if len(tds) >= 6:
-            info["address"] = tds[1]
-            hh = int(re.sub(r"\D", "", tds[5]) or 0)
-            if hh:
-                info["households"] = hh
-            info["dong_count"] = int(re.sub(r"\D", "", tds[4]) or 0)
+        heads = [text_of(x) for x in re.findall(r"<th[^>]*>(.*?)</th>", m.group(1), re.S)]
+        tds = [re.sub(r"</?td>", "", text_of(c)).strip() for c in re.findall(r"<td[^>]*>(.*?)(?=<td|</tr>|$)", m.group(2), re.S)]
+        col = {hd: tds[i] for i, hd in enumerate(heads) if i < len(tds)}
+        addr = next((v for k, v in col.items() if "주소" in k), "")
+        if "서울" in addr or "시 " in addr:
+            info["address"] = addr
+        hh = int(re.sub(r"\D", "", next((v for k, v in col.items() if "세대" in k), "")) or 0)
+        dn = int(re.sub(r"\D", "", next((v for k, v in col.items() if k.startswith("동")), "")) or 0)
+        if 0 < hh < 20000:
+            info["households"] = hh
+        if 0 < dn < 300:
+            info["dong_count"] = dn
     return info
 
 
@@ -456,7 +460,24 @@ def main() -> int:
 
     # 4) 수동 보정 → 필터 태그
     overrides = {norm_name(k): v for k, v in CONFIG.get("complex_overrides", {}).items() if not k.startswith("_")}
+    # 공동주택마당에서 확인한 세대수·사용승인일이 있으면 그 값을 쓴다 (K-apt 상세표 해석 오류 방지)
+    try:
+        oa = json.loads((DATA / "openapt_complexes.json").read_text(encoding="utf-8")).get("by_code", {})
+    except Exception:
+        oa = {}
+    oa_by_name = {norm_name(v.get("name", "")): v for v in oa.values()}
     for key, cx in complexes.items():
+        o = oa.get(cx.get("code", "")) or oa_by_name.get(key)
+        if o:
+            for k in ("households", "use_approval", "sigungu"):
+                if o.get(k):
+                    cx[k] = o[k]
+        if cx.get("address") and "서울" not in cx["address"] and " " not in cx["address"]:
+            cx.pop("address", None)
+            if cx.get("sido") == cx.get("name"):
+                cx.pop("sido", None)
+        if (cx.get("dong_count") or 0) > 300:
+            cx.pop("dong_count", None)
         cx.update(overrides.get(key, {}))
     for n in prev.values():
         cx = complexes.get(n.get("complex_key") or norm_name(n.get("complex_name", "")), {})
