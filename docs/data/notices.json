@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T16:44+09:00",
+ "updated": "2026-10-22T16:53+09:00",
  "items": [
   {
    "bid_num": "kg2b_142124",
@@ -9928,9 +9928,9 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": null,
-   "use_approval": "2014-08-11",
-   "sigungu": ""
+   "households": 329,
+   "use_approval": "2006-01-19",
+   "sigungu": "서초구"
   },
   {
    "bid_num": "20260329104529701",
@@ -10004,9 +10004,9 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": null,
-   "use_approval": "2014-08-11",
-   "sigungu": ""
+   "households": 329,
+   "use_approval": "2006-01-19",
+   "sigungu": "서초구"
   },
   {
    "bid_num": "20260326150100557",
