@@ -13,7 +13,6 @@
   "address": "힐스테이트서울숲리버",
   "sido": "힐스테이트서울숲리버",
   "sigungu": "",
-  "households": 15,
   "code": "A10026470",
   "use_approval": "2018-02-19"
  },
@@ -29,7 +28,6 @@
  "덕수궁롯데캐슬": {
   "name": "덕수궁롯데캐슬아파트",
   "sigungu": "",
-  "households": 2,
   "code": "A10027364",
   "use_approval": "2016-08-31"
  },
@@ -43,7 +41,6 @@
  "래미안베라힐즈": {
   "name": "래미안베라힐즈",
   "sigungu": "",
-  "households": 20,
   "code": "A10025846",
   "use_approval": "2018-12-27"
  },
@@ -57,7 +54,6 @@
  "트리마제": {
   "name": "트리마제",
   "sigungu": "",
-  "households": 4,
   "code": "A10026988",
   "use_approval": "2017-05-29"
  },
@@ -116,14 +112,12 @@
  "한남더힐": {
   "name": "한남더힐",
   "sigungu": "",
-  "households": 32,
   "code": "A14077902",
   "use_approval": "2011-01-07"
  },
  "흑석자이": {
   "name": "흑석자이",
   "sigungu": "",
-  "households": 26,
   "code": "A10023350",
   "use_approval": "2023-02-27"
  },
@@ -196,7 +190,6 @@
   "address": "마포 아이파크 포레 아파트",
   "sido": "마포",
   "sigungu": "",
-  "households": 7,
   "code": "A10024974",
   "use_approval": "2019-08-29"
  },
@@ -217,7 +210,6 @@
  "고척아이파크MD": {
   "name": "고척아이파크MD",
   "sigungu": "",
-  "households": 6,
   "code": "A10023604",
   "use_approval": "2022-08-31"
  },
@@ -241,7 +233,6 @@
   "address": "북서울자이 폴라리스 아파트",
   "sido": "북서울자이",
   "sigungu": "",
-  "households": 15,
   "code": "A10022391",
   "use_approval": "2024-08-29"
  },
@@ -272,7 +263,6 @@
  "중계건영3차": {
   "name": "중계건영3차",
   "sigungu": "",
-  "households": 12,
   "code": "A13986013",
   "use_approval": "1995-12-30"
  },
@@ -308,7 +298,6 @@
   "address": "새절역 두산위브트레지움",
   "sido": "새절역",
   "sigungu": "",
-  "households": 6,
   "code": "A10020307",
   "use_approval": "2025-11-27"
  },
@@ -322,7 +311,6 @@
  "래미안장위포레카운티": {
   "name": "래미안장위포레카운티아파트",
   "sigungu": "",
-  "households": 10,
   "code": "A10025461",
   "use_approval": "2021-05-31"
  },
@@ -336,7 +324,6 @@
  "세운푸르지오헤리시티": {
   "name": "세운푸르지오헤리시티",
   "sigungu": "",
-  "households": 1,
   "code": "A10023352",
   "use_approval": "2023-01-16"
  },
@@ -345,7 +332,6 @@
   "address": "래미안 엘리니티",
   "sido": "래미안",
   "sigungu": "",
-  "households": 16,
   "code": "A10023633",
   "use_approval": "2022-08-30"
  },
@@ -371,7 +357,6 @@
   "address": "리버센 SK VIEW 롯데캐슬 아파트",
   "sido": "리버센",
   "sigungu": "",
-  "households": 8,
   "code": "A10020555",
   "use_approval": "2025-06-12"
  },
@@ -409,7 +394,6 @@
  "고덕숲아이파크": {
   "name": "고덕숲아이파크아파트",
   "sigungu": "",
-  "households": 13,
   "code": "A10026403",
   "use_approval": "2018-03-08"
  },
@@ -437,14 +421,12 @@
  "래미안신당하이베르": {
   "name": "래미안신당하이베르",
   "sigungu": "",
-  "households": 15,
   "code": "A10078901",
   "use_approval": "2011-10-28"
  },
  "송파파크데일1단지": {
   "name": "송파파크데일1단지",
   "sigungu": "",
-  "households": 15,
   "code": "A13881701",
   "use_approval": "2011-01-27"
  },
@@ -464,7 +446,6 @@
  "서초더샵포레": {
   "name": "서초더샵포레",
   "sigungu": "",
-  "households": 26,
   "code": "A13718001",
   "use_approval": "2014-08-11"
  },
@@ -478,7 +459,6 @@
  "신내엘지쌍용": {
   "name": "신내엘지쌍용",
   "sigungu": "",
-  "households": 9,
   "code": "A13186305",
   "use_approval": "1996-03-27"
  },
@@ -524,7 +504,6 @@
  "힐스테이트관악센트씨엘": {
   "name": "힐스테이트관악센트씨엘",
   "sigungu": "",
-  "households": 9,
   "code": "A10020964",
   "use_approval": "2024-12-30"
  },
@@ -570,7 +549,6 @@
  "금호어울림센터힐": {
   "name": "금호어울림센터힐아파트",
   "sigungu": "",
-  "households": 6,
   "code": "A10028001",
   "use_approval": "2014-10-31"
  },
@@ -628,7 +606,6 @@
   "address": "용산 KCC 웰츠타워",
   "sido": "용산",
   "sigungu": "",
-  "households": 2,
   "code": "A10027901",
   "use_approval": "2015-03-27"
  },
@@ -653,7 +630,6 @@
  "냉천동부센트레빌": {
   "name": "냉천동부센트레빌",
   "sigungu": "",
-  "households": 3,
   "code": "A12005001",
   "use_approval": "2002-03-21"
  },
@@ -670,7 +646,6 @@
   "address": "방화동 개화아파트",
   "sido": "방화동",
   "sigungu": "",
-  "households": 7,
   "code": "A15785608",
   "use_approval": "1994-03-31"
  },
@@ -688,13 +663,11 @@
   "address": "서울특별시 송파구 충민로4길 6 관리사무소",
   "sido": "서울특별시",
   "sigungu": "송파구",
-  "households": 5,
   "code": "B11120499"
  },
  "문래두산위브": {
   "name": "문래두산위브",
   "sigungu": "",
-  "households": 3,
   "code": "A15009505",
   "use_approval": "1988-11-08"
  },
@@ -717,7 +690,6 @@
  "래미안트윈파크": {
   "name": "래미안트윈파크",
   "sigungu": "",
-  "households": 5,
   "code": "A15606007",
   "use_approval": "2011-11-04"
  },
@@ -752,14 +724,12 @@
  "고척대우": {
   "name": "고척대우",
   "sigungu": "",
-  "households": 13,
   "code": "A15279404",
   "use_approval": "1999-02-24"
  },
  "강일리버파크9단지": {
   "name": "강일리버파크9단지",
   "sigungu": "",
-  "households": 13,
   "code": "A13410007",
   "use_approval": "2009-04-06"
  },
@@ -794,7 +764,6 @@
  "오류푸르지오": {
   "name": "오류푸르지오",
   "sigungu": "",
-  "households": 6,
   "code": "A15210209",
   "use_approval": "2004-04-16"
  },
@@ -810,7 +779,6 @@
  "성수쌍용": {
   "name": "성수쌍용",
   "sigungu": "",
-  "households": 9,
   "code": "A13372102",
   "use_approval": "1997-10-07"
  },
@@ -838,7 +806,6 @@
   "address": "서울특별시 강남구 삼성로85갈 33",
   "sido": "서울특별시",
   "sigungu": "강남구",
-  "households": 49,
   "dong_count": 1,
   "code": "A10020281"
  },
@@ -867,7 +834,6 @@
  "월계센트럴아이파크": {
   "name": "월계센트럴아이파크아파트",
   "sigungu": "",
-  "households": 7,
   "code": "A10025097",
   "use_approval": "2020-01-30"
  },
