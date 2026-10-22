@@ -406,6 +406,7 @@ def main() -> int:
                             cx["sido"], cx["sigungu"] = region(d["address"])
                         if d.get("households"):
                             cx["households"] = d["households"]
+                            cx["hh_checked"] = True
                             cx["dong_count"] = d.get("dong_count", 0)
                         if d.get("kapt_code"):
                             cx.setdefault("code", d["kapt_code"])
@@ -476,8 +477,12 @@ def main() -> int:
             cx.pop("address", None)
             if cx.get("sido") == cx.get("name"):
                 cx.pop("sido", None)
-        if (cx.get("dong_count") or 0) > 300:
+        if (cx.get("dong_count") or 0) > 300:  # 열이 어긋나 읽힌 흔적: 세대수도 믿을 수 없음
             cx.pop("dong_count", None)
+            if not o:
+                cx.pop("households", None)
+        if not o and (cx.get("households") or 0) < 60 and not cx.get("hh_checked"):
+            cx.pop("households", None)  # 예전 해석 오류(동 수를 세대수로 읽음) 정리
         cx.update(overrides.get(key, {}))
     for n in prev.values():
         cx = complexes.get(n.get("complex_key") or norm_name(n.get("complex_name", "")), {})
