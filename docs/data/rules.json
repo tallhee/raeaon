@@ -1167,6 +1167,58 @@
    }
   },
   {
+   "name": "마포그랑자이",
+   "sigungu": "마포구",
+   "households": 1248,
+   "use_approval": "2020-02-21",
+   "as_of": "커뮤니티 운영비 2024.09 의결(2024.10 부과부터)",
+   "community": {
+    "hours": null,
+    "fee": "커뮤니티 운영비 세대당 매월 30,000원 정액 부과",
+    "entry_limit": null,
+    "notes": "시설 노후화 비용 부담을 줄이려고 2024년 10월분부터 정액으로 바꿈. 2025.03 입대의에서 가족관계증명서상 가족까지 등록 허용(3인 넘으면 1명당 3만원 추가, 최대 5인)안을 주민투표에 올리기로 의결함(투표 결과는 아직 확인 못 함). 2026년 5월분은 수영장·사우나 공사로 15,000원만 부과",
+    "sources": [
+     {
+      "text": "제3기 3차 입대의 결과(2024.10) 1호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001424396&fileSn=0"
+     },
+     {
+      "text": "제3기 11차 입대의 결과(2025.03) 1호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001538635&fileSn=0"
+     },
+     {
+      "text": "제3기 28차 입대의 결과(2026.04) 5호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001805437&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-22"
+   }
+  },
+  {
+   "name": "디에이치 자이 개포",
+   "sigungu": "강남구",
+   "households": 1996,
+   "use_approval": "2021-07-30",
+   "as_of": "식당 재계약 2024.10.22 의결",
+   "dining": {
+    "operator_selection": "신세계푸드 재계약(기존 업체 사업수행실적평가 공고 후). 관리비제에서 총괄위임제로 바꿔 식당·카페 손익을 업체가 부담",
+    "hours": "기존 시간대로 운영. 석식은 수요 보고 30분 정도 연장 예정",
+    "price": "1식 판매가 10,500원 중 입주민 9,500원 부담, 1,000원은 커뮤니티(웰니스) 수익으로 보전. 의무식 2식 부과비용 19,000원",
+    "notes": "월 1회 이상 특식, 6천원 정도 키즈 메뉴 신설. 수도광열비는 단지 부담. 재계약 표결 찬성 6·반대 1",
+    "sources": [
+     {
+      "text": "제2기 17차 입대의 결과(2024.09)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001422638&fileSn=1"
+     },
+     {
+      "text": "제2기 18차 입대의 결과(2024.10.22) 4호",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001436293&fileSn=0"
+     }
+    ],
+    "checked": "2026-10-22"
+   }
+  },
+  {
    "name": "반포동 A아파트 (익명)",
    "sigungu": "1,119세대",
    "anonymous": true,
