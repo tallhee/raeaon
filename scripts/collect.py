@@ -233,7 +233,7 @@ def detail(bid_num: str) -> dict:
         addr = next((v for k, v in col.items() if "주소" in k), "")
         if "서울" in addr or "시 " in addr:
             info["address"] = addr
-        hh = int(re.sub(r"\D", "", next((v for k, v in col.items() if "세대" in k), "")) or 0)
+        hh = int(re.sub(r"\D", "", col.get("세대수") or next((v for k, v in col.items() if k.endswith("세대수")), "")) or 0)
         dn = int(re.sub(r"\D", "", next((v for k, v in col.items() if k.startswith("동")), "")) or 0)
         if 0 < hh < 20000:
             info["households"] = hh
@@ -468,7 +468,8 @@ def main() -> int:
         oa = {}
     oa_by_name = {norm_name(v.get("name", "")): v for v in oa.values()}
     for key, cx in complexes.items():
-        o = oa.get(cx.get("code", "")) or oa_by_name.get(key)
+        o = oa.get(cx.get("code", "")) or oa_by_name.get(key) or next(
+            (v for k2, v in oa_by_name.items() if len(k2) >= 4 and len(key) >= 4 and (k2 in key or key in k2)), None)
         if o:
             for k in ("households", "use_approval", "sigungu"):
                 if o.get(k):
