@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T16:53+09:00",
+ "updated": "2026-10-22T17:03+09:00",
  "items": [
   {
    "bid_num": "kg2b_142124",
@@ -293,7 +293,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구",
    "target": false
@@ -319,7 +319,7 @@
    "kind": "일반경쟁",
    "is_works": false,
    "filters": [],
-   "households": 9,
+   "households": null,
    "use_approval": "2025-10-31",
    "sigungu": "강남구"
   },
@@ -963,7 +963,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -1042,7 +1042,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -1340,7 +1340,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구",
    "target": false
@@ -1366,7 +1366,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -1391,7 +1391,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -1571,7 +1571,7 @@
    "kind": "일반경쟁",
    "is_works": false,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -1674,7 +1674,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -2703,7 +2703,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -2781,7 +2781,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -2861,7 +2861,7 @@
    "kind": "일반경쟁",
    "is_works": true,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -2886,7 +2886,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 16,
+   "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구"
   },
@@ -5029,7 +5029,7 @@
    "kind": "일반경쟁",
    "is_works": false,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구",
    "target": false
@@ -5884,7 +5884,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260714171242388&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -6429,7 +6429,7 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260629150055218&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
@@ -6997,7 +6997,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "filters": [],
-   "households": 29,
+   "households": null,
    "use_approval": "2025-06-27",
    "sigungu": "서초구"
   },
