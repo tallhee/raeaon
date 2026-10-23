@@ -108,7 +108,7 @@
    "sigungu": "송파구",
    "households": 6864,
    "use_approval": "2008-08-29",
-   "as_of": "2026.08 의결",
+   "as_of": "주차 2026.08 의결 · 커뮤니티 2022~2023 회의결과",
    "parking": {
     "public_facility_users_allowed": null,
     "visitor_fee": null,
@@ -118,6 +118,39 @@
      {
       "text": "2026.08 회의결과 공고",
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001916292&fileSn=0",
+      "code": "A13824006",
+      "bbs": "02"
+     }
+    ],
+    "checked": "2026-10-24"
+   },
+   "community": {
+    "hours": "탁구장 아파트너 예약제: 주간 06:00~19:00 1회 2시간, 야간 19:00~23:00 1회 1시간(2023.07). 아이두레터(키즈) 10시~20시대 운영(위탁, 2023 입찰공고)",
+    "fee": "골프장 월 5만 원(화·목·토 / 수·금·일 2개 반, 2023.01부터). 스크린골프 1회 12,000원 → 10,000원, 빈 시간 연습 8,000원(2022.09). 독서실 월 70,000원(2023.09부터). 제2휘트니스 회의실 시간당 3,000원(2022.09)",
+    "entry_limit": "헬스장 회원 과다로 회원 수 2,000명 제한을 검토(2023.07, 결론 미확인)",
+    "notes": "제1·제2 휘트니스(헬스·골프·GX·탁구), 독서실, 아이두레터, 테니스장 운영. 휘트니스는 적자·흑자에 따라 요금을 조정하기로 함. 2022~2023년 회의결과 기준이라 이후 바뀌었을 수 있음(2026.06~08 운동기구 교체, 커뮤니티 운영관리 시스템 입찰 진행)",
+    "sources": [
+     {
+      "text": "2022.09 회의결과(스크린골프·회의실 요금)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001004650&fileSn=0",
+      "code": "A13824006",
+      "bbs": "02"
+     },
+     {
+      "text": "2022.10 회의결과(골프장 월 5만 원)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001012849&fileSn=0",
+      "code": "A13824006",
+      "bbs": "02"
+     },
+     {
+      "text": "2023.07 회의결과(탁구장 예약제·독서실 요금)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001172076&fileSn=0",
+      "code": "A13824006",
+      "bbs": "02"
+     },
+     {
+      "text": "2023.09 회의자료(아이두레터 입찰)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001192788&fileSn=1",
       "code": "A13824006",
       "bbs": "02"
      }
