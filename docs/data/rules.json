@@ -48,6 +48,84 @@
    }
   },
   {
+   "name": "잠실리센츠",
+   "sigungu": "송파구",
+   "households": 5563,
+   "use_approval": "2008-07-31",
+   "as_of": "2026.10 회의결과 기준",
+   "community": {
+    "hours": null,
+    "fee": null,
+    "entry_limit": null,
+    "notes": "커뮤니티센터 새로 개관 중(운영규정은 아직 검토 단계, 2026.07). 센터 내 스타벅스 카페는 입주민 외 단지 안 교육기관 교직원·학생·관리사무소 직원도 이용하도록 의결(2026.04, 찬성 188). 카페 외부인 이용·판매는 송파구청 행정지도에 따라 운영 방안 협의(2026.10). 요금·횟수는 운영규정 공개 전이라 미확인",
+    "sources": [
+     {
+      "text": "카페 이용 범위 의결(2026.04.29 공고)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260429&physical=31B9E12A99BC405286B20D5CC0496779&contentType=image/jpeg",
+      "code": "A13822003",
+      "bbs": "02"
+     },
+     {
+      "text": "운영규정 검토(2026.07.15 공고)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20260715&physical=A9D110B967E448319E1E65DF8F799008&contentType=image/jpeg",
+      "code": "A13822003",
+      "bbs": "02"
+     },
+     {
+      "text": "구청 행정지도 협의(2026.10.21 공고)",
+      "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261021&physical=C7596D8CD09D409EADB54F382FA75013&contentType=image/jpeg",
+      "code": "A13822003",
+      "bbs": "02"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실엘스",
+   "sigungu": "송파구",
+   "households": 5678,
+   "use_approval": "2008-09-30",
+   "as_of": "2026.08 회의결과 기준",
+   "community": {
+    "hours": null,
+    "fee": null,
+    "entry_limit": null,
+    "notes": "커뮤니티센터를 새로 짓는 중: 169동 선큰가든 자리 증축 승인·행위허가(2026.06), 용도변경·철거 입주자 동의 개표(2026.08). 운영규정·요금은 아직 없음",
+    "sources": [
+     {
+      "text": "용도변경·철거 동의 개표(2026.08.07 선관위)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001899320&fileSn=0",
+      "code": "A13822004",
+      "bbs": "03"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "파크리오",
+   "sigungu": "송파구",
+   "households": 6864,
+   "use_approval": "2008-08-29",
+   "as_of": "2026.08 의결",
+   "parking": {
+    "public_facility_users_allowed": null,
+    "visitor_fee": null,
+    "per_unit_by_area": null,
+    "notes": "주차관리규정 개정안을 일부 수정해 의결(2026.08.28, 찬성 28·반대 1). 공고에는 개정 내용(요금·시간)이 없고 개정 규정도 아직 공개 전",
+    "sources": [
+     {
+      "text": "2026.08 회의결과 공고",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001916292&fileSn=0",
+      "code": "A13824006",
+      "bbs": "02"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
    "name": "반포자이",
    "sigungu": "서초구",
    "households": 3410,
