@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:14+09:00",
+ "updated": "2026-10-24T07:37+09:00",
  "topics": {
   "parking": "주차",
   "community": "커뮤니티",
@@ -901,48 +901,6 @@
    "pinned": false
   },
   {
-   "name": "용산 베르디움 프렌즈",
-   "code": "A10024333",
-   "sigungu": null,
-   "dong": null,
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1086,
-   "use_approval": "2021-03-05",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마포더클래시",
-   "code": "A10023508",
-   "sigungu": "마포구",
-   "dong": "아현동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1419,
-   "use_approval": "2022-11-29",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "신길센트럴자이",
-   "code": "A10025024",
-   "sigungu": "영등포구",
-   "dong": "신길동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1008,
-   "use_approval": "2021-04-13",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "힐스테이트클래시안아파트",
    "code": "A10024615",
    "sigungu": "영등포구",
@@ -957,62 +915,6 @@
    "pinned": false
   },
   {
-   "name": "래미안 목동아델리체",
-   "code": "A10024398",
-   "sigungu": "양천구",
-   "dong": "신정동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1497,
-   "use_approval": "2021-01-28",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트신촌",
-   "code": "A10024719",
-   "sigungu": "서대문구",
-   "dong": "북아현동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1252,
-   "use_approval": "2020-08-04",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "꿈의숲아이파크아파트",
-   "code": "A10024488",
-   "sigungu": "성북구",
-   "dong": "장위동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1711,
-   "use_approval": "2022-07-13",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "포레나노원 아파트",
-   "code": "A10024547",
-   "sigungu": "노원구",
-   "dong": "상계동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1062,
-   "use_approval": "2020-11-25",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "사가정 센트럴 아이파크 아파트",
    "code": "A10024741",
    "sigungu": "중랑구",
@@ -1023,62 +925,6 @@
    ],
    "households": 1505,
    "use_approval": "2020-07-30",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "태릉해링턴플레이스",
-   "code": "A10023991",
-   "sigungu": "노원구",
-   "dong": "공릉동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1308,
-   "use_approval": "2022-01-18",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "목동 센트럴 아이파크위브 아파트",
-   "code": "A10024872",
-   "sigungu": "양천구",
-   "dong": "신월동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 3045,
-   "use_approval": "2020-05-28",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "백련산 에스케이뷰 아이파크",
-   "code": "A10025310",
-   "sigungu": "은평구",
-   "dong": "응암동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1305,
-   "use_approval": "2020-05-21",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마포그랑자이아파트",
-   "code": "A10025003",
-   "sigungu": "마포구",
-   "dong": "대흥동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1248,
-   "use_approval": "2020-02-21",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1111,34 +957,6 @@
    "pinned": false
   },
   {
-   "name": "청량리역 한양수자인 그라시엘",
-   "code": "A10023188",
-   "sigungu": "동대문구",
-   "dong": "용두동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1152,
-   "use_approval": "2023-06-02",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "이문아이파크자이",
-   "code": "A10020344",
-   "sigungu": "동대문구",
-   "dong": "이문동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 4169,
-   "use_approval": "2025-11-27",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "마곡엠밸리9단지",
    "code": "A10024426",
    "sigungu": "강서구",
@@ -1153,86 +971,30 @@
    "pinned": false
   },
   {
-   "name": "보라매 sk뷰",
-   "code": "A10025070",
-   "sigungu": "영등포구",
-   "dong": "신길동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1546,
-   "use_approval": "2020-01-29",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "청량리역 롯데캐슬 SKY-L65",
-   "code": "A10023083",
-   "sigungu": "동대문구",
-   "dong": "전농동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1425,
-   "use_approval": "2023-07-12",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트뉴포레",
-   "code": "A10023661",
-   "sigungu": "관악구",
-   "dong": "신림동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1143,
-   "use_approval": "2022-08-29",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "LH서울양원1단지",
-   "code": "A10023816",
-   "sigungu": "중랑구",
-   "dong": "망우동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1216,
-   "use_approval": "2022-01-24",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마포프레스티지자이아파트",
-   "code": "A10024347",
+   "name": "마포그랑자이아파트",
+   "code": "A10025003",
    "sigungu": "마포구",
-   "dong": "염리동",
+   "dong": "대흥동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1694,
-   "use_approval": "2021-12-30",
+   "households": 1248,
+   "use_approval": "2020-02-21",
    "region": "그 외 서울 신축",
    "pinned": false
   },
   {
-   "name": "롯데캐슬클라시아",
-   "code": "A10023926",
-   "sigungu": "성북구",
-   "dong": "길음동",
+   "name": "용산 베르디움 프렌즈",
+   "code": "A10024333",
+   "sigungu": null,
+   "dong": null,
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 2033,
-   "use_approval": "2022-01-27",
+   "households": 1086,
+   "use_approval": "2021-03-05",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1251,16 +1013,44 @@
    "pinned": false
   },
   {
-   "name": "DMC SKVIEW 아이파크포레",
-   "code": "A10023076",
-   "sigungu": "은평구",
-   "dong": "수색동",
+   "name": "힐스테이트뉴포레",
+   "code": "A10023661",
+   "sigungu": "관악구",
+   "dong": "신림동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1482,
-   "use_approval": "2023-07-31",
+   "households": 1143,
+   "use_approval": "2022-08-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포프레스티지자이아파트",
+   "code": "A10024347",
+   "sigungu": "마포구",
+   "dong": "염리동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1694,
+   "use_approval": "2021-12-30",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "청량리역 롯데캐슬 SKY-L65",
+   "code": "A10023083",
+   "sigungu": "동대문구",
+   "dong": "전농동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1425,
+   "use_approval": "2023-07-12",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1277,13 +1067,223 @@
    "use_approval": "2021-05-27",
    "region": "그 외 서울 신축",
    "pinned": false
+  },
+  {
+   "name": "힐스테이트신촌",
+   "code": "A10024719",
+   "sigungu": "서대문구",
+   "dong": "북아현동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1252,
+   "use_approval": "2020-08-04",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "보라매 sk뷰",
+   "code": "A10025070",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1546,
+   "use_approval": "2020-01-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "이문아이파크자이",
+   "code": "A10020344",
+   "sigungu": "동대문구",
+   "dong": "이문동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 4169,
+   "use_approval": "2025-11-27",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "태릉해링턴플레이스",
+   "code": "A10023991",
+   "sigungu": "노원구",
+   "dong": "공릉동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1308,
+   "use_approval": "2022-01-18",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "롯데캐슬클라시아",
+   "code": "A10023926",
+   "sigungu": "성북구",
+   "dong": "길음동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 2033,
+   "use_approval": "2022-01-27",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "꿈의숲아이파크아파트",
+   "code": "A10024488",
+   "sigungu": "성북구",
+   "dong": "장위동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1711,
+   "use_approval": "2022-07-13",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "청량리역 한양수자인 그라시엘",
+   "code": "A10023188",
+   "sigungu": "동대문구",
+   "dong": "용두동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1152,
+   "use_approval": "2023-06-02",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "포레나노원 아파트",
+   "code": "A10024547",
+   "sigungu": "노원구",
+   "dong": "상계동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1062,
+   "use_approval": "2020-11-25",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "DMC SKVIEW 아이파크포레",
+   "code": "A10023076",
+   "sigungu": "은평구",
+   "dong": "수색동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1482,
+   "use_approval": "2023-07-31",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포더클래시",
+   "code": "A10023508",
+   "sigungu": "마포구",
+   "dong": "아현동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1419,
+   "use_approval": "2022-11-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "목동 센트럴 아이파크위브 아파트",
+   "code": "A10024872",
+   "sigungu": "양천구",
+   "dong": "신월동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 3045,
+   "use_approval": "2020-05-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "신길센트럴자이",
+   "code": "A10025024",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1008,
+   "use_approval": "2021-04-13",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "래미안 목동아델리체",
+   "code": "A10024398",
+   "sigungu": "양천구",
+   "dong": "신정동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1497,
+   "use_approval": "2021-01-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "LH서울양원1단지",
+   "code": "A10023816",
+   "sigungu": "중랑구",
+   "dong": "망우동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1216,
+   "use_approval": "2022-01-24",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "백련산 에스케이뷰 아이파크",
+   "code": "A10025310",
+   "sigungu": "은평구",
+   "dong": "응암동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1305,
+   "use_approval": "2020-05-21",
+   "region": "그 외 서울 신축",
+   "pinned": false
   }
  ],
  "terms": [
   {
    "term": "재계약",
    "n": 66,
-   "count": 774,
+   "count": 775,
    "first": "2024-08-08",
    "first_cx": "홍제역 해링턴플레이스아파트",
    "home": true
@@ -1291,7 +1291,7 @@
   {
    "term": "승강기",
    "n": 65,
-   "count": 786,
+   "count": 787,
    "first": "2024-08-09",
    "first_cx": "고덕 그라시움 아파트",
    "home": true
@@ -1307,7 +1307,7 @@
   {
    "term": "관리규약",
    "n": 57,
-   "count": 326,
+   "count": 327,
    "first": "2024-08-13",
    "first_cx": "DMC SKVIEW 아이파크포레",
    "home": false
@@ -1315,7 +1315,7 @@
   {
    "term": "장기수선충당금",
    "n": 56,
-   "count": 484,
+   "count": 485,
    "first": "2024-08-09",
    "first_cx": "힐스테이트신촌",
    "home": false
@@ -1339,7 +1339,7 @@
   {
    "term": "커뮤니티",
    "n": 51,
-   "count": 670,
+   "count": 672,
    "first": "2024-08-08",
    "first_cx": "홍제역 해링턴플레이스아파트",
    "home": false
@@ -1627,7 +1627,7 @@
   {
    "term": "민원",
    "n": 32,
-   "count": 67,
+   "count": 68,
    "first": "2024-09-13",
    "first_cx": "고덕센트럴 아이파크",
    "home": false
@@ -1779,7 +1779,7 @@
   {
    "term": "단지내",
    "n": 29,
-   "count": 60,
+   "count": 61,
    "first": "2024-09-03",
    "first_cx": "고덕센트럴 아이파크",
    "home": false
@@ -1859,7 +1859,7 @@
   {
    "term": "분기",
    "n": 27,
-   "count": 170,
+   "count": 171,
    "first": "2024-08-21",
    "first_cx": "신길센트럴자이",
    "home": false
@@ -1915,13 +1915,419 @@
   {
    "term": "결산서",
    "n": 27,
-   "count": 75,
+   "count": 76,
    "first": "2024-08-26",
    "first_cx": "고덕자이 아파트",
    "home": false
   }
  ],
  "items": [
+  {
+   "nttId": "3069090",
+   "category": "회의결과",
+   "title": "2026년 10월 임시 입주자대표회의 결과 공고_2026.10.22",
+   "date": "2026-10-23",
+   "first_file": [
+    [
+     "FILE_000000001958021",
+     "0"
+    ]
+   ],
+   "code": "A10025024",
+   "complex": "신길센트럴자이",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001958021",
+     "fileSn": "0",
+     "name": "2026년 10월 22일 임시 회의결과 공고 (제 4기12차)001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001958021&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1136,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제 1 호의 OF 신길가족행복타운 건설 공사 소음 분진 피해 대응 방안 논의의 건(6명중 명 ZH)",
+     "text": "제 1 호의 OF 신길가족행복타운 건설 공사 소음 분진 피해 대응 방안 논의의 건(6명중 명 ZH)",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "1) 신길가족 BSS 건설사인 주식회사 녹십자 이엠의 공사피해 협상 방안 회신공문 내용에",
+     "text": "1) 신길가족 BSS 건설사인 주식회사 녹십자 이엠의 공사피해 협상 방안 회신공문 내용에\n대한 대응 방안을 논의함,\n#회신공문에 대하여 동의 할 수 없고 회의요청 Bee 발송하기로 at",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제 2 호의 Of 커뮤니티 시설 확충 및 개선 축하 행사 진행의 건 (6평중 6명 찬성)",
+     "text": "제 2 호의 Of 커뮤니티 시설 확충 및 개선 축하 행사 진행의 건 (6평중 6명 찬성)\n1) 커뮤니티 시설 확충 및 개선 축하 행사 진행에 대하여 논의함.\n2) 11월 8일 행사 진행하기로 하며 행사 세부계획을 논의함.\n> 11월 8일 행사 진행하기로 하며 세부 진행계획을 협의 의결함.",
+     "topics": [
+      "community",
+      "event"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "제 3 호의 안 커뮤니티 간판 보수의 건 (CYS 6평 찬성)",
+     "text": "제 3 호의 안 커뮤니티 간판 보수의 건 (CYS 6평 찬성)\n1) 필라테스 간판, 엘리시안 하우스 간판 엠블럼 보수 및 각동 공동현관등 유리 게시판 엠블럼\n보수 교체에 대하여 견적서등 검토 Holst\n> 1) 필라테스 간판, 엘리시안 하우스 간판 엠블럼 보수를 커뮤니티 운영비로 견적금액 저가업체인\n떠간판공작소 (견적금액 720,0000원(4 별도))를 선정 의결함.\n2) .곽동 공동현관등 유리. WAT 엠블럼보수를 수선 유저비로 견적금액 저가업체인\n떠간판공작소 (견적금액 1,060,0000A (VAT 별도))를 선정 zat.\n※신길센트렬자이 관리규약 제42조(재심의) 제1항 FAO 따라 입주자등(10인 이상으로 대표인을\n지정)은 [별지 제13호 서식]의 재심의 요청서를 제출할 수 있습니다.\n2026. 10. 23.\n신길센트럴자이아파트 입주자대표회의 회장.",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성"
+    }
+   ],
+   "topics": [
+    "community",
+    "event"
+   ]
+  },
+  {
+   "nttId": "3069074",
+   "category": "회의결과",
+   "title": "제9기 제28차 정기 입주자대표회의 결과공고",
+   "date": "2026-10-23",
+   "first_file": [
+    [
+     "FILE_000000001957981",
+     "0"
+    ]
+   ],
+   "code": "A13824006",
+   "complex": "파크리오",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001957981",
+     "fileSn": "0",
+     "name": "제28차 정기 입주자대표회의 결과공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001957981&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 5702,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "O 긴급공사에 따른 선보수 후 추인 승인 건",
+     "text": "O 긴급공사에 따른 선보수 후 추인 승인 건\n- 심의 결과 부서별 안전사고 발생 , 2차 피해 , 민원발생 등의 우려로\n1 긴급공사한 조경·\n영선과 5건 (10,599,600원 )의 선보수 내역을 원안대로 가결\n추인 승인 의결함\n(찬 성 22명 / 반대 2명 / 보류 명 / 기권 1명 )",
+     "topics": [],
+     "votes": "찬 성 22명 / 반대 2명 / 보류 명 / 기권 1명"
+    },
+    {
+     "head": "O 어린이집 임대보증금 예치 만기 갱신 건",
+     "text": "O 어린이집 임대보증금 예치 만기 갱신 건\n- 심의 결과 어린이집 임대보증금 3천 만원을 원안대로 금리가 제일 높은\n2 가결\n은행으로 재예치하기로 의결함\n(잔 성 23명 / 반대 2명 / 보류 명 / 기권 명)",
+     "topics": [],
+     "votes": "가결"
+    },
+    {
+     "head": "O 승강기 수입료 예치 건",
+     "text": "O 승강기 수입료 예치 건\n- 심의 결과 승강기 수입로 중 3억 원을 원안대로 금리가 제일 높은\n3 가결\n은행으로 정기예금을 가입하기로 의결함\n(찬 성 23명 / 반대 2명 / 보류 명 I' 기권 명)",
+     "topics": [],
+     "votes": "찬 성 23명 / 반대 2명 / 보류 명 I' 기권 명"
+    },
+    {
+     "head": "○ 독서실· 피트니스 통장 해지 건",
+     "text": "○ 독서실· 피트니스 통장 해지 건\n- 심의 결과 독서실·피트니스 이용료를 효율적으로 관리하고자 독서실\n4 가결\n·피트니스 통장을 해지하는 것으로 의결함\n(찬 성 23명 / 반대 2명 / 보류 명 / 기권 명)",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬 성 23명 / 반대 2명 / 보류 명 / 기권 명"
+    },
+    {
+     "head": "○ (옥 상)중 계기 임대차 재계약의 건(LGU+,KT)",
+     "text": "○ (옥 상)중 계기 임대차 재계약의 건(LGU+,KT)\n- 심의 결과 LGU+와 KT의 임대차 재계약을 원안대로 2027년 1월\n5 1일～ 2028년 12월 31 일까지 각 70,900,000원 (년 ), 44,000,000원 (년 )에 가결\n재계약하기로 의결함\n(찬 성 23명 / 반대 2명 /' 보류 명 / 기권 명)",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬 성 23명 / 반대 2명 /' 보류 명 / 기권 명"
+    },
+    {
+     "head": "○ 보건관리자 선임업무 위탁업체 선정 기의결(2026.09.22.) 변경 건",
+     "text": "○ 보건관리자 선임업무 위탁업체 선정 기의결(2026.09.22.) 변경 건\n6 - 심의 결과 기의결했던 업체인 ㈜한국보건환경연구소의 법정 관리 한도 가결\n안건 상정 및 의결 사항 비고\n초과로 인하여 새로운 업체인 ㈊해숄안전보건연구소(3,823,200원 /년 )과\n관련 계약을 진행하기로 의결함\nι: 2 4 / 반대 1명 / 보류 명 / 기권",
+     "topics": [
+      "operator"
+     ],
+     "votes": "가결"
+    },
+    {
+     "head": "O 아파트 세무대행업체 계약 추인 건",
+     "text": "O 아파트 세무대행업체 계약 추인 건\n- 심의 결과 세무서비스의 연속성 및 호율적 관리를 위해 기존 업체인\n7 가결\n신우회계법인, 기웅정보통신(주 )와 재계약을 추인 승인함\n(찬 성 23명 / 반대 2명 / 보류 명 / 기권 명)",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬 성 23명 / 반대 2명 / 보류 명 / 기권 명"
+    },
+    {
+     "head": "O 화재감지기 구입 건",
+     "text": "O 화재감지기 구입 건\n- 심의 결과 비교견적 최저가 업체인 금성소방기기산업(주 )(2,912,900원\n8 가결\n/VAT별 도)에 서 구입하기로 의결함\n(찬 성 20명 / 반대 5명 / 보류 명 / 기권 명)",
+     "topics": [
+      "safety"
+     ],
+     "votes": "찬 성 20명 / 반대 5명 / 보류 명 / 기권 명"
+    },
+    {
+     "head": "O 체력단련비 지급 건",
+     "text": "O 체력단련비 지급 건\n9 - 심의 결과 정확한 지급대상 인원수를 파악하여 다시 상정하기로 함 ㅂ 겨\n(찬 성 7명 / 반대 16명 / 보류 명 / 기권 2명 )",
+     "topics": [],
+     "votes": "찬 성 7명 / 반대 16명 / 보류 명 / 기권 2명"
+    },
+    {
+     "head": "O 관리직원 보직변경 관련 건",
+     "text": "O 관리직원 보직변경 관련 건\n1 0 - 심의 결과 원안대로 보직 변경을 의결함 가결\n(찬 성 18명 / 반대 7명 / 보류 명 / 기권 명)",
+     "topics": [],
+     "votes": "찬 성 18명 / 반대 7명 / 보류 명 / 기권 명"
+    },
+    {
+     "head": "○ 관리동 2층 소회의실 민원 관련 건",
+     "text": "○ 관리동 2층 소회의실 민원 관련 건\n1 1 - 심의 결과 안건상정을 보류하기로 함\n(찬 성 명 / 반대 명 / 보류 명 / 기권 명)\n전기차충전기 계약 변경·\n갱신 관련 건\n심의 결과 기존 업체인 ⑸파워큐브코리아와의 계약 변경·\n갱신은 ㅂ 켜\n1 2 - '\n전기차총전기 추가설치 전까지 한시적으로 연장하기로 함\n(잔 성 명 / 반대 25명 / 보류 명 / 기권 명)",
+     "topics": [],
+     "votes": "찬 성 명 / 반대 명 / 보류 명 / 기권 명"
+    },
+    {
+     "head": "○ 단지내 공중전화 부스 철거 추진의 건",
+     "text": "○ 단지내 공중전화 부스 철거 추진의 건\n1 3 - 안건제안자가 찹석하지 않아 상정 제외함\n(잔 성 명 / 반대 명 /' 보류 명 / 기권 명)\n2026. 10. 23.\n잠 실 파 크 리오 입주 자 대표회 의 회 장 e또\n김 철 :P",
+     "topics": [],
+     "votes": "보류"
+    }
+   ],
+   "topics": [
+    "community",
+    "operator",
+    "safety"
+   ]
+  },
+  {
+   "nttId": "3068775",
+   "category": "회의결과",
+   "title": "제4기 6차 정기입대의 결과 공고",
+   "date": "2026-10-23",
+   "first_file": [
+    [
+     "FILE_000000001957621",
+     "0"
+    ]
+   ],
+   "code": "A10025070",
+   "complex": "보라매 sk뷰",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001957621",
+     "fileSn": "0",
+     "name": "제4기6차 정기회의 결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001957621&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 6808,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "만기 건에 대한 운영 건",
+     "text": "만기 건에 대한 운영 건\n합리적인 방법으로 판단되어 본 안건을 원안대로 심의 의결한\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n§ 관리규약 제38조 및 사업자선정지침｢별표2｣수의계약 사항 6호\n에 의거.\n우리 아파트 준공 이후 7년간 방치(정화조실 등 공용부 비트 내\n부)되었던 폐기물을 전문 폐기물 처리업체를 선정하여 아파트\n안전 및 화재예방, 위생 및 환경개선, 시설물 관리 정상화를 위\n단지 내 각종 폐자재\n3 하여 필요하다는 안건을 논의한 결과 필요하다고 판단됨. 견적\n처리 건 서를 제출한 2개 업체를 비교하여 태우건설로 수의계약을 체결\n하는 원안대로 심의 의결한다.\n비용추계 : 수선유지비 계정 ₩4,490,000(부가세포함)\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n§ 기계설비법 제17조2항, 제30조, 기계설비법 시행령 제14조 및\n사업자선정지침｢별표2｣수의계약 사항 6호에 의거.\n우리 아파트는 매년 1회 이상 기계설비 성능검사를 의무적으로\n실시해야 하는 사항을 논의한 결과 성능검사가 필요하다고 판단\n기계설비성능점검 업체\n4 됨. 견적서를 제출한 3개 업체를 비교하여 ㈜더원이엔지로 수의\n선정 건 계약을 체결하는 원안대로 심의 의결한다.\n비용추계 : 수선유지비 계정 ₩2,530,000(부가세포함)\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n§ 관리규약 제38조 및 사업자선정지침｢별표2｣수의계약 사항 6호에\n의거.\n우리 아파트 단지 내 보도블럭 침하가 심한 5곳(106동, 107동,\n112동)을 우선적으로 보행자 안전사고 및 단지 미관을 위하여 보\n단지내 보도블럭 수공사를 실시해야 한다는 안건에 대해 논의한 결과 필요하다고\n5\n지반침하 보수 건 판단됨. 견적서를 제출한 2개 업체를 비교하여 대성이앤씨로 수\n의계약을 체결하는 원안대로 심의 의결한다.\n비용추계 ",
+     "topics": [
+      "parking",
+      "operator",
+      "rules",
+      "finance",
+      "safety"
+     ],
+     "votes": "찬성 : 6명, 반대 : 0명, 기권 : 0명】"
+    },
+    {
+     "head": "10 제설용 염화칼슘 구매 건",
+     "text": "10 제설용 염화칼슘 구매 건\n는 것으로 하며, 견적서를 제출한 2개 업체를 비교하여 자재피아\n업체와 수의계약을 체결하는 것으로 심의 의결한다.\n비용추계 : 수선유지비 계정 ₩2,040,000(부가세포함)\n20kg 200포 구매\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n§ 관리규약 제38조에 의거.\n생활지원센터 직원의 장기근속과 사기 진작을 위해 직원 급여 인\n상에 관한 안건을 논의한 결과, 최저임금분 3.7% 인상과 더불어\n상이했던 직책수당 금액을 직책별로 통일(팀장 30만원, 과장\n2027년도 생활지원센터\n11 20만원, 대리 5만원)하여 조정하는 것에 대해 원안대로 심의 의\n직원 급여 조정 건 결한다.\n비용추계 : 일반관리비 계정\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n§ 관리규약 제38조에 의거 및 주민공동(커뮤니티) 시설 운영 규정.\n우리 아파트 주민공동(커뮤니티) 시설 이용 건에 관하여 규정을\n개정한다는 안건에 대해, GX프로그램 및 독서실의 형평성 문제,\n골프타석의 예약시간 이상 초과 이용 문제, 헬스장 사용시 타인\n의 운동을 방해하는 문제 등을 심도 깊게 논의한 결과 주민공동\n주민공동(커뮤니티) 시설 (커뮤니티) 시설 운영 규정을 일부 개정하는 것으로 원안대로 심\n12\n운영 규정 개정 건 의 의결한다.\n｢주요 개정 내용｣\n- 독서실, GX룸 6개월 단위로 신규회원 우선등록\n- 헬스장, 골프장, GX룸, 독서실 이용수칙 위반 조치\n【찬성 : 6명, 반대 : 0명, 기권 : 0명】\n2026년 10월 23일\n보라매SK뷰아파트 입주자대표회의회장",
+     "topics": [
+      "community",
+      "operator",
+      "rules",
+      "finance"
+     ],
+     "votes": "찬성 : 6명, 반대 : 0명, 기권 : 0명】"
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator",
+    "parking",
+    "rules",
+    "safety"
+   ]
+  },
+  {
+   "nttId": "3067895",
+   "category": "회의결과",
+   "title": "제3기 제30차 2026년 10월 정기 입주자대표회의 결과 공고",
+   "date": "2026-10-23",
+   "first_file": [],
+   "code": "A10024615",
+   "complex": "힐스테이트클래시안아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261023&physical=FBA9C9BA9F13405B9C10441A4B66A757.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 2364,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제2호 의안 | 컴퓨터방송(알리미)업체 계약 만료에 떠른 업체 선정(안) 심의의 건 찬성6/반대0/기권0",
+     "text": "제2호 의안 | 컴퓨터방송(알리미)업체 계약 만료에 떠른 업체 선정(안) 심의의 건 찬성6/반대0/기권0\n기존계약업체와의 재계약 관련 절차는 관리규약에 근거하여 사업수행실적 평가를 실시하고 이의신청이 전체 입주자등의\n10분의 1미만인 경우 차기 회의에서 의결하기로 함.\n1. 업체명: (5엠앤엠 2. APIPE 기간: 2027년 1월 1일 ~ 2029년 12월 31일(3년 3. ARE 금액: 총 11636,380원(7 별도",
+     "topics": [
+      "operator",
+      "rules"
+     ],
+     "votes": "찬성6/반대0/기권0"
+    },
+    {
+     "head": "제3호 의안 | 장기수선충당금 사용계획 주인의 건(승강기 인버터 교체 건) 찬성6/반대0/기권0",
+     "text": "제3호 의안 | 장기수선충당금 사용계획 주인의 건(승강기 인버터 교체 건) 찬성6/반대0/기권0\n승강기 운행 중 메인 인버터 불량으로 고장이 발생하여 승강기 운행이 중단됨에 따라, 입주민의 안전사고를 예방하고 승강기의\n정상적인 운행을 조속히 복구하기 위하여 긴급 보수공사를 진행하였으며, 이에 대하여 긴급 교체공사 시행 내용을 추인하고\n장기수선충당금 사용계획을 승인하기로 의결함.\n1. 업체명: 현대엘리베이터(주) 2. 금액: 17,010,000원(021 별도) 3. 비용계정: 장기수선충당금\n4. 교체내역: 승강기 메인 인버터 종 3개(106동 3호기, 112동 2호기, 109동 2호기)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": "찬성6/반대0/기권0"
+    },
+    {
+     "head": "제4호 의안 | 지하수조 레벨센서 교체 심의의 건 | a",
+     "text": "제4호 의안 | 지하수조 레벨센서 교체 심의의 건 | a\n센서 자체의 문제로 단정하기 어렵다는 소견이 있어 설비 및 작동상태를 재 점검하여 고장원인을 확인 후 재 논의하기로 함.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제5호 의안 | 염화칼슴 및 제설함 구입 심의의 건 찬성6/반대0/기권0",
+     "text": "제5호 의안 | 염화칼슴 및 제설함 구입 심의의 건 찬성6/반대0/기권0\n동절기 제설 작업에 필요한 염화칼슴 및 제설함을 구입하기로 의결함.\n1. 염화칼슴 구입: 업체명_자재피아 / 수량.100포(2010) / 금액_1,060,000원(\\/ 별도\n2. 제설함 구입: 업체명_토탈리빙 / 수량_.46ㅅ / 금액_1,070,909원(ㅣ 별도",
+     "topics": [],
+     "votes": "찬성6/반대0/기권0"
+    },
+    {
+     "head": "제6호 의안 | 2026년 3분기 세입.세출 결산서 심의의 건 、 찬성6/반대0/기권0",
+     "text": "제6호 의안 | 2026년 3분기 세입.세출 결산서 심의의 건 、 찬성6/반대0/기권0\n원안에 의거하여 2026년 3분기 세입/세출 결산서를 심의 ㆍ의결하고 입주민에게 공고 게시하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성6/반대0/기권0"
+    },
+    {
+     "head": "제7호 의안 ｜집기비품 및 공기구비품 손망실 처리(안) 심의의 건 찬성5/반대1/기권0",
+     "text": "제7호 의안 ｜집기비품 및 공기구비품 손망실 처리(안) 심의의 건 찬성5/반대1/기권0\n2026년 7월 6일 기준 집기 및 공기구비품 실물 재고조사 결과, 망실 및 분실 등의 사유로 실물이 확인되지 않은 물품이\n확인됨에 따라, 관련 자료를 검토하여 해당 물품을 자산관리대장에 반영하고 관련 회계자료를 정비하는 것으로 의결함.\n향후 정기적인 재고조사를 실시하여 물품관리 투명성과 및 회계처리의 정확성을 확보하도록 의결함.",
+     "topics": [],
+     "votes": "찬성5/반대1/기권0"
+    },
+    {
+     "head": "제8호 의안 | 퇴사 경비대원 퇴직금 지급요청 심의의 건 찬성6/반대0/기권0",
+     "text": "제8호 의안 | 퇴사 경비대원 퇴직금 지급요청 심의의 건 찬성6/반대0/기권0\n당 아파트 퇴사 경비원 김** 외 2명의 퇴직금 지급 건에 대하여 근무기간, 퇴직금 지급 요건 등 내용을 검토한 결과,\n퇴직금을 지급하는 것으로 의결함.",
+     "topics": [],
+     "votes": "찬성6/반대0/기권0"
+    },
+    {
+     "head": "제9호 의안 | 관리규약 개정(안) 오기 정정의 건 찬성6/반대0/기권0",
+     "text": "제9호 의안 | 관리규약 개정(안) 오기 정정의 건 찬성6/반대0/기권0\n관리규약 1차 개정(안) 중 제62조제5항제6호 및 제7호의 조항 인용 오류를 정정(안)과 같이 바로잡는 것으로 의결함\n정정 전: 제62조(잡수입의 집행 및 회계처리 공개) @)항제6호 제95조제3항 및 제7항 제88조제7항\n> 정정 후: 제62조(잡수입의 집행 및 회계처리 공개) @항제6호 제100조제3항 및 제7항 제88조제8항\n2026년 10월 23일\na = 이즈 S/O} | Six\n힐스테이트클래시안아파트 입주자대표회의|회장--\nUs 우리관리",
+     "topics": [
+      "rules"
+     ],
+     "votes": "찬성6/반대0/기권0"
+    }
+   ],
+   "topics": [
+    "finance",
+    "ltr",
+    "operator",
+    "rules"
+   ]
+  },
+  {
+   "nttId": "3067646",
+   "category": "회의결과",
+   "title": "10월 정기 입주자대표회의 결과(2)",
+   "date": "2026-10-23",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261023&physical=1916AC02C28B4AD58063425085301BDC.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1731,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
+  {
+   "nttId": "3067645",
+   "category": "회의결과",
+   "title": "10월 정기 입주자대표회의 결과(1)",
+   "date": "2026-10-23",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261023&physical=F370A10997DA448F96DA98695A177429.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1970,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
   {
    "nttId": "3067552",
    "category": "회의결과",
@@ -2450,6 +2856,290 @@
    ]
   },
   {
+   "nttId": "3066827",
+   "category": "외부감사",
+   "title": "23년도 외부 회계감사 결과보고서",
+   "date": "2026-10-22",
+   "first_file": [
+    [
+     "FILE_000000001955324",
+     "0"
+    ]
+   ],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001955324",
+     "fileSn": "0",
+     "name": "목센아 2023년 회계감사_감사보고서_최종.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001955324&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 44943,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "회계 관련 규정의 준수와 관련된 중요한 발견사항\n1. 장기수선충당부채 적립금액 현실화\n2023년말 현재 귀 아파트의 장기수선충당부채 적립액은 552,291,690원으로 2023년",
+     "topics": [
+      "rules",
+      "ltr"
+     ],
+     "key": true
+    },
+    {
+     "text": "- 17 -\n(주1) 위 관리비 발생액에서 차감된 당기 및 전기 관리비차감적립금과 합계잔액시산\n표의 당기 및 전기 관리비차감적립금 감소액의 차이는 임대분 보험료 지급에 사용한",
+     "topics": [
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": "해 적기에 수선공사를 하지 못하는 상황이 발생할 수도 있습니다. 이러한 상황을 방\n지하기 위하여 장기수선충당부채 적립액의 현실화가 필요한 것은 아닌지 검토하시는\n것을 권고드립니다.",
+     "topics": [
+      "ltr"
+     ],
+     "key": true
+    },
+    {
+     "text": "내 용 금 액\n소방작동기능점검 지적사항보수공사 171,020\n소방작동기능점검 지적사항보수공사 2,850,390",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "어린이놀이터 벤치설치 공사비 임대부담분 (270,440)\n소방종합정밀점검 지적사항보수 자재 366,205\n소방종합정밀점검 지적사항 보수공사 2,405,938",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "TV공청 수신설비 보수공사비 1,328,580\n소방작동점검 지적사항 보수자재 구입 1,077,797\n4단지 승강기 메인로프 교체공사 3,478,464",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "4단지 승강기 메인로프 교체공사 3,478,464\n소방작동점검 지적사항 보수자재 구입 3,478,464\n402동 2호기 메인인버터 교체 4,628,290",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "재무제표에 대한 주석 3에 기술된 바와 같이, 공동주택관리법 시행령 제19조의 요구\n에 따라 관리규약에는 관리비 및 사용료 등의 세대별 부담액의 산정방법이 정해져 있\n습니다. 관리비 및 사용료 등의 세대별 부담액이 관리규약에 따라 산정되지 않는 경",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "습니다. 관리비 및 사용료 등의 세대별 부담액이 관리규약에 따라 산정되지 않는 경\n우에는 세대별 관리비 및 사용료 등이 부당하게 청구될 수 있으며 재무제표에 유의적\n인 영향을 미칠 수 있어 세대별 관리비 및 사용료 등 부과의 적정성을 핵심감사사항",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "핵심감사사항에 대응하기 위한 우리의 감사절차는 다음을 포함합니다.\n-관리비 및 사용료 등의 월별 발생내역 확인\n-관리규약에서 규정한 관리비 및 사용료 등의 세대별 부담액 산정방법의 이해",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "-관리규약에서 규정한 관리비 및 사용료 등의 세대별 부담액 산정방법의 이해\n-관리주체가 관리비 및 사용료 등에 대하여 적용한 세대별 부담액 산정방법과 관리\n규약으로 정한 세대별 부담액 산정방법간의 대사",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "8.단기보증금 2,940,000 1,600,000\n9.수선충당금 16,284,950 30,222,550\n10.커뮤니티충당금 - 6,080,956",
+     "topics": [
+      "community",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "4.미화퇴직급여충당부채 91,589,471 63,011,349\n5.커뮤니티퇴직급여충당부채 39,235,724 22,443,720\n6.장기수선충당부채 552,291,690 406,845,221",
+     "topics": [
+      "community",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "5.승강기유지비 72,369,000 62,878,700\n6.수선유지비 162,625,852 146,285,800\n7.위탁관리수수료 16,483,368 16,483,368",
+     "topics": [
+      "operator",
+      "ltr"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "community",
+    "finance",
+    "ltr",
+    "operator",
+    "rules"
+   ]
+  },
+  {
+   "nttId": "3066812",
+   "category": "외부감사",
+   "title": "24년도 외부 회계감사 결과보고서",
+   "date": "2026-10-22",
+   "first_file": [
+    [
+     "FILE_000000001955307",
+     "0"
+    ]
+   ],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001955307",
+     "fileSn": "0",
+     "name": "2024년 회계감사_감사보고서_최종.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001955307&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 47924,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "내 용 금 액\n소방작동점검 지적사항 보수 4,657,277\n102동 동피트 배수펌프 수리 628,056",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "내 용 금 액\n소방작동기능점검 지적사항보수공사 171,020\n소방작동기능점검 지적사항보수공사 2,850,390",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "어린이놀이터 벤치설치 공사비 임대부담분 (270,440)\n소방종합정밀점검 지적사항보수 자재 366,205\n소방종합정밀점검 지적사항 보수공사 2,405,938",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "TV공청 수신설비 보수공사비 1,328,580\n소방작동점검 지적사항 보수자재 구입 1,077,797\n4단지 승강기 메인로프 교체공사 3,478,464",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "4단지 승강기 메인로프 교체공사 3,478,464\n소방작동점검 지적사항 보수자재 구입 3,478,464\n402동 2호기 메인인버터 교체 4,628,290",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "주차수입 340,242,100 338,894,310\n커뮤니티운영수입 500,133,750 485,309,160\n관리비차감적립금(주1) (476,811,272) (435,364,630)",
+     "topics": [
+      "parking",
+      "community",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "주차수입 27,688,040 29,347,990\n커뮤니티운영수입 46,089,160 41,326,840\n관리비차감적립금 (40,712,572) (39,578,730)",
+     "topics": [
+      "parking",
+      "community",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "재무제표에 대한 주석 3에 기술된 바와 같이, 공동주택관리법 시행령 제19조의 요구\n에 따라 관리규약에는 관리비 및 사용료 등의 세대별 부담액의 산정방법이 정해져 있\n습니다. 관리비 및 사용료 등의 세대별 부담액이 관리규약에 따라 산정되지 않는 경",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "습니다. 관리비 및 사용료 등의 세대별 부담액이 관리규약에 따라 산정되지 않는 경\n우에는 세대별 관리비 및 사용료 등이 부당하게 청구될 수 있으며 재무제표에 유의적\n인 영향을 미칠 수 있어 세대별 관리비 및 사용료 등 부과의 적정성을 핵심감사사항",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "핵심감사사항에 대응하기 위한 우리의 감사절차는 다음을 포함합니다.\n-관리비 및 사용료 등의 월별 발생내역 확인\n-관리규약에서 규정한 관리비 및 사용료 등의 세대별 부담액 산정방법의 이해",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "-관리규약에서 규정한 관리비 및 사용료 등의 세대별 부담액 산정방법의 이해\n-관리주체가 관리비 및 사용료 등에 대하여 적용한 세대별 부담액 산정방법과 관리\n규약으로 정한 세대별 부담액 산정방법간의 대사",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "4.미화퇴직급여충당부채 36,492,751 91,589,471\n5.커뮤니티퇴직급여충당부채 26,113,568 39,235,724\n6.장기수선충당부채 671,986,943 552,291,690",
+     "topics": [
+      "community",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "5.승강기유지비 72,369,000 72,369,000\n6.수선유지비 269,851,690 162,625,852\n7.위탁관리수수료 35,040,563 16,483,368",
+     "topics": [
+      "operator",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "1.예비비적립금 58,556,682 52,390,229\n2.관리비차감적립금 535,600,364 479,708,672\n3.장기수선충당부채 62,053,060 59,209,730",
+     "topics": [
+      "ltr",
+      "finance"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "community",
+    "finance",
+    "ltr",
+    "operator",
+    "parking",
+    "rules"
+   ]
+  },
+  {
    "nttId": "3066715",
    "category": "외부감사",
    "title": "2025년 회계감사보고서 결과공고",
@@ -2596,6 +3286,35 @@
     "ltr",
     "operator"
    ]
+  },
+  {
+   "nttId": "3066428",
+   "category": "회의결과",
+   "title": "9월 정기회의 결과 공고",
+   "date": "2026-10-22",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261022&physical=67CB02B64C1D4252A6B2E37AC3944F1C.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1374,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3066382",
@@ -3087,6 +3806,253 @@
      "topics": [
       "community",
       "operator"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "community",
+    "finance",
+    "ltr",
+    "operator",
+    "parking",
+    "rules",
+    "safety"
+   ]
+  },
+  {
+   "nttId": "3066248",
+   "category": "회의결과",
+   "title": "선관위 회의결과공고(10.20)",
+   "date": "2026-10-22",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261022&physical=504483A166B244F181CAEA218CB4B62A.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1088,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
+  {
+   "nttId": "3066244",
+   "category": "회의결과",
+   "title": "선관위 회의결과공고(10.12)",
+   "date": "2026-10-22",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261022&physical=E074D364A915499DB3ADDA79ECAD4FB2.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 936,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "및 차기 회의 소집의 건",
+     "text": "및 차기 회의 소집의 건\neal - 미선출 7개 선거구에 대해 동별대표자 선출\n7 MAAS 추진하기로 하고, 이를 위한 세부일정 | 7\n기타 안건 심의 건 공고안 확정을 위해 2026년 10월 20일(화) 제9차\n선관위 회의를 소집하기로 의결함.\n* 미선출 2개 선거구의 입주민이 동별대표자 입후보\n의사를 표시해옴(10.12)\n2026. 10. 13.\n목동센트럴아이파크위브아파트 선거관리위월장의\n목동센트럴아이파크위브아파트 선거관리위 a",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": []
+  },
+  {
+   "nttId": "3066234",
+   "category": "회의결과",
+   "title": "제4기 제16선거구 당선인 공고",
+   "date": "2026-10-22",
+   "first_file": [],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261022&physical=F5F839222B4E4E3E811C595605A7E95B.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 611,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
+  {
+   "nttId": "3066200",
+   "category": "외부감사",
+   "title": "25년 외부 회계감사 결과 공고",
+   "date": "2026-10-22",
+   "first_file": [
+    [
+     "FILE_000000001954588",
+     "0"
+    ]
+   ],
+   "code": "A10024872",
+   "complex": "목동 센트럴 아이파크위브 아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-10-24",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001954588",
+     "fileSn": "0",
+     "name": "[회계법인 예다움]서울_목동센트럴아이파크위브_감사보고서 최종.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001954588&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 54499,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "∙ 핵심감사사항으로 결정한 이유 :\n재무제표 주석 6-가에 표시된 바와 같이 당기말 현재 제예금 및 예치금 잔액은 재무상태표에\n서 차지하는 비중이 유의적이며, 제예금이 적절히 관리되지 않는 경우 재무제표에 유의적인 영",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "예금통장의 관리와 관련된 업무의 승인 및 통제절차의 이해, 주기적으로 관리주체가 지정금융\n기관으로부터 예금잔액증명을 발급 받아 관계장부와 대조하는지 여부에 대해 검토, 금융기관별\n명세서상 제예금 및 예치금 잔액과 금융기관조회서와 대사.",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "비교표시된 2024년 12월 31일로 종료된 회계연도의 재무제표는 타 감사인이 감사하였으며, 이\n감사인의 2025년 6월 23일자 감사보고서에는 적정의견이 표명되었습니다.\n-7-",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "일 자 내 역 금 액\n2024-01-10 소방 작동점검 지적사항 보수 공사 4,657,277\n2024-01-10 배수펌프 고장 수리 628,056",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "실비정산으로 지급하고 있습니다.\n(주2) 경비용역 계약금액 중 월 8,374,000원은 시스템운영비(주차관제, 원패스, 커뮤니티 출입통제)\n성격으로 장기수선충당금, 수선비 및 휘트니스운영비용으로 구분하여 부과하고 있습니다.",
+     "topics": [
+      "parking",
+      "community",
+      "operator",
+      "ltr",
+      "safety"
+     ],
+     "key": false
+    },
+    {
+     "text": "귀 단지가 경비업체에 지급하는 내역에는 경비 인적 용역비 이외 시스템운영비(주차관제,\n원패스, 커뮤니티 출입통제) 금액이 포함되어 있습니다. 동 시스템운영서비스 내역에는 장\n기수선충당금으로 부담해야할 성격들이 포함되어 있으므로 장기간 계약을 유지하는 것은",
+     "topics": [
+      "parking",
+      "community",
+      "operator",
+      "ltr",
+      "safety"
+     ],
+     "key": false
+    },
+    {
+     "text": "가. 수익인식의 기준\n관리주체는 관리규약에 따라 부과되는 공용관리비 및 개별사용료와 징수권자를\n대행하여 징수하는 전기료, 수도료 등의 개별사용료 및 장기수선충당금의 장기",
+     "topics": [
+      "rules",
+      "ltr",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "회계 관련 규정의 준수와 관련된 중요한 발견사항\n1. 경비용역 시스템운영비 계약\n귀 단지가 경비업체에 지급하는 내역에는 경비 인적 용역비 이외 시스템운영비(주차관제,",
+     "topics": [
+      "parking",
+      "operator",
+      "rules"
+     ],
+     "key": false
+    },
+    {
+     "text": "(핵심감사사항 2)\n장기수선충당금은 관리규약 규정에 따라 적정하게 징수 되어 지정금융기관에 예치되고 있는지\n여부",
+     "topics": [
+      "rules",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "∙ 핵심감사사항으로 결정한 이유 :\n재무제표 주석 3에 기술된 바와 같이 장기수선충당금은 공동주택관리법 제30조 규정에 의해\n적립되며 관리규약에서 정한 산정방법에 따라 세대별부담액이 부과됩니다. 장기수선충당금의",
+     "topics": [
+      "rules",
+      "ltr"
+     ],
+     "key": false
+    },
+    {
+     "text": "(핵심감사사항 3)\n장기수선충당금에서 지출할 비용 중 관리비로 부과된 금액이 있는지 여부와 이 경우 관리비로\n부과되는 것이 합리적인지 여부",
+     "topics": [
+      "ltr",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "∙ 핵심감사사항으로 결정한 이유 :\n재무제표 주석 3에 기술된 바와 같이 공동주택관리법 제30조(장기수선계획의 수립)에 따라 장\n기수선충당금에서 지출할 금액은 관리비가 아닌 장기수선충당금의 감소로 회계처리 되어야 합",
+     "topics": [
+      "ltr",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "기수선충당금에서 지출할 금액은 관리비가 아닌 장기수선충당금의 감소로 회계처리 되어야 합\n니다. 장기수선계획서상의 항목이 수선비로 회계처리 되는 경우에는 관리비로 부당청구될 수\n있습니다. 장기수선충당금에서 지출할 비용과 수선비의 구분은 관리주체의 유의적인 판단이 요",
+     "topics": [
+      "ltr",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "계획서상 항목별수립기준(공동주택관리법시행규칙 별표1)의 이해, 장기수선충당금에서 지출한\n비용에 대해 표본 추출하여 장기수선계획서의 항목과 대사, 관리비내 수선유지비 중 표본 추출\n하여 장기수선계획서의 항목과 대사.",
+     "topics": [
+      "ltr",
+      "finance"
      ],
      "key": false
     }
