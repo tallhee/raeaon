@@ -302,7 +302,8 @@ function altLink(code,bbs,post){ if(!code) return "";
     // 우리 단지 → 옆 단지(아래 순서) → 나머지
     const NEAR=["잠실르엘","파크리오","잠실올림픽공원아이파크","트리지움","리센츠","엘스"];
     const rank=r=>r.is_home?-1:(i=>i<0?99:i)(NEAR.findIndex(n=>nrm(r.name).includes(n)));
-    out.forEach((r,i)=>r._i=i); out.sort((a,b)=>rank(a)-rank(b)||a._i-b._i);
+    const GU=["송파구","강남구","서초구","강동구"], gu=r=>(i=>i<0?9:i)(GU.indexOf(r.sigungu||""));
+    out.forEach((r,i)=>r._i=i); out.sort((a,b)=>rank(a)-rank(b)||gu(a)-gu(b)||(a.anonymous?1:0)-(b.anonymous?1:0)||a._i-b._i);
     out.forEach(r=>r._near=rank(r)>=0&&rank(r)<99);
     return {man,rows:out};};
   const nrm=n=>(n||"").replace(/\s|아파트|\(.*?\)/g,"").replace(/e편한세상/g,"이편한세상");
