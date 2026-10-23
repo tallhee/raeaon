@@ -64,7 +64,9 @@ def load(name: str, default):
 
 
 def save(name: str, obj) -> None:
-    (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    compact = name in ("contracts.json", "notices.json")  # 사이트가 첫 화면에서 받는 큰 파일은 줄바꿈 없이
+    (DATA / name).write_text(json.dumps(obj, ensure_ascii=False, **({"separators": (",", ":")} if compact else {"indent": 1}))
+                             + "\n", encoding="utf-8")
 
 
 def fetch(path: str, params: dict | None = None, data: dict | None = None, tries: int = 2, timeout: int = 20) -> str:

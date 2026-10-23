@@ -67,6 +67,10 @@ a{color:var(--accent)}
 .ok{color:var(--accent)} .bad{color:var(--warn)}
 .empty-state{padding:24px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:10px}
 footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:13px}
+.pager{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin:14px 0}
+.pager button{min-width:34px;padding:4px 8px;border:1px solid #ccd3dc;background:#fff;border-radius:6px;cursor:pointer}
+.pager button[aria-current="true"]{background:#16294a;color:#fff;border-color:#16294a}
+.pager .gap{padding:4px 2px;color:#888}
 </style>
 </head>
 <body>
@@ -96,6 +100,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="mq" placeholder="안건 내용 검색 (예: 조식, 방문차량, 이용료)"></div>
   <p class="meta" id="mCount"></p>
   <div class="list" id="mList"></div>
+  <div class="pager" id="mPager"></div>
 </section>
 
 <section id="docs">
@@ -105,6 +110,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="dq" placeholder="내용 검색 (예: 적립요율, 잔액, 지적)"></div>
   <p class="meta" id="dCount"></p>
   <div class="list" id="dList"></div>
+  <div class="pager" id="dPager"></div>
 </section>
 
 <section id="bylaws">
@@ -114,6 +120,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <div class="bar"><input type="search" id="bq" placeholder="조항 내용 검색 (예: 방문차량, 외부 개방, 이용료)"></div>
   <p class="meta" id="bCount"></p>
   <div class="list" id="bList"></div>
+  <div class="pager" id="bPager"></div>
 </section>
 
 <section id="rules">
@@ -134,6 +141,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
   <details class="termbox"><summary>자주 나오는 낱말로 걸러 보기 <span class="meta">(숫자 = 공고 수)</span></summary><div class="bar" id="noticeWords"></div></details>
   <p class="meta"><span id="noticeCount"></span> <button class="chip" id="noticeCopy" title="지금 보이는 목록을 단지명·링크로 복사 (카톡용)" style="padding:1px 8px;font-size:12px">목록 복사</button></p>
   <div class="list" id="noticeList"></div>
+  <div class="pager" id="noticePager"></div>
 </section>
 
 <section id="status">
@@ -153,11 +161,27 @@ const COLS={
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const get=p=>fetch(p,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
 
+const LAZY={}, LAZY_DONE=new Set();
+const runLazy=tab=>{ if(LAZY[tab]&&!LAZY_DONE.has(tab)){ LAZY_DONE.add(tab); LAZY[tab](); } };
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected",x===b));
   document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id===b.dataset.tab));
+  runLazy(b.dataset.tab);
 });
 
+// 페이지 나누기: 한 쪽에 PER개씩
+const PER=10;
+function pager(id,total,page,go){
+  const el=document.getElementById(id), n=Math.ceil(total/PER);
+  if(n<=1){el.innerHTML="";return;}
+  const nums=[...new Set([1,page-2,page-1,page,page+1,page+2,n])].filter(x=>x>=1&&x<=n).sort((a,b)=>a-b);
+  let html=page>1?`<button data-p="${page-1}">이전</button>`:"", prev=0;
+  for(const x of nums){ if(x-prev>1) html+='<span class="gap">…</span>'; html+=`<button data-p="${x}"${x===page?' aria-current="true"':""}>${x}</button>`; prev=x; }
+  if(page<n) html+=`<button data-p="${page+1}">다음</button>`;
+  el.innerHTML=html;
+  el.onclick=e=>{const b=e.target.closest("button[data-p]"); if(!b) return; go(+b.dataset.p); el.previousElementSibling?.scrollIntoView({block:"start"}); window.scrollBy(0,-120);};
+}
+const pg=x=>typeof x==="number"?x:1;
 function chips(el,map,state,onChange,multi){
   el.innerHTML="";
   Object.entries(map).forEach(([k,v])=>{
@@ -183,8 +207,10 @@ function altLink(code,bbs,post){ if(!code) return "";
 
 
   // 입대의 회의결과
-  const minutes=await get("data/minutes.json");
-  {
+  const minutes=await get("data/site/meta.json");
+  LAZY.minutes=async()=>{
+    document.getElementById("mCount").textContent="불러오는 중…";
+    const MI=await get("data/site/minutes.json");
     const MT=minutes?.topics||{}, cxs=minutes?.complexes||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
     const mt=new Set(), mc=new Set(), mg=new Set(), mterm=new Set(), mq=document.getElementById("mq"), newOnly=document.getElementById("mNewOnly");
     const termHit=(a)=>[...mterm].some(t=>t.split(" ").every(w=>a.head.includes(w)));
@@ -204,25 +230,26 @@ function altLink(code,bbs,post){ if(!code) return "";
       ...(minutes?.regions||[]).filter(r=>cxs.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r+" ("+cxs.filter(c=>!c.pinned&&c.region===r).length+")"])]);
     const cxHit=name=>{const c=cxBy[name]||{};return mc.has("n:"+name)||mc.has("r:"+c.region);};
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
-    const draw=()=>{
-      const term=mq.value.trim();
-      const posts=((minutes?.items)||[]).filter(p=>p.status==="done"&&p.kind!=="doc"&&(!mc.size||cxHit(p.complex))
+    const draw=(x)=>{
+      const page=pg(x), term=mq.value.trim();
+      const posts=((MI?.items)||[]).filter(p=>(!mc.size||cxHit(p.complex))
         &&(!mg.size||(cxBy[p.complex]?.groups||[]).some(g=>mg.has(g))||cxBy[p.complex]?.home));
       let n=0;
-      const html=posts.map(p=>{
-        const ag=(p.agenda||[]).filter(a=>(!mt.size||a.topics.some(t=>mt.has(t)))&&(!mterm.size||termHit(a))&&(!term||a.text.includes(term)));
-        if(!ag.length) return "";
-        n+=ag.length;
+      const hits=[];
+      for(const p of posts){const ag=(p.agenda||[]).filter(a=>(!mt.size||(a.topics||[]).some(t=>mt.has(t)))&&(!mterm.size||termHit(a))&&(!term||(a.text||"").includes(term)));
+        if(ag.length){n+=ag.length;hits.push([p,ag]);}}
+      const html=hits.slice((page-1)*PER,page*PER).map(([p,ag])=>{
         const home=cxs.find(c=>c.name===p.complex)?.home;
         const files=(p.files||[]).filter(f=>f.url).map((f,i)=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">원문${p.files.length>1?i+1:""}</a>`).join(" ")+altLink(p.code,p.bbs,p.title);
         return `<article class="card${home?" home":""}">
           <h3>${esc(p.complex)} · ${esc(p.title)}</h3>
           <div class="meta">${esc(p.date)} · ${esc(p.category||p.board)} ${files?"· "+files:""}</div>
-          ${ag.map(a=>`<div class="agenda"><b>${hl(a.head,term)}</b>${a.votes?`<span class="vote">${esc(a.votes)}</span>`:""}
+          ${ag.map(a=>{a.text=a.text||a.head;a.topics=a.topics||[];return a;}).map(a=>`<div class="agenda"><b>${hl(a.head,term)}</b>${a.votes?`<span class="vote">${esc(a.votes)}</span>`:""}
             <div>${a.topics.map(t=>`<span class="tag">${esc(MT[t]||t)}</span>`).join("")}</div>
             ${a.text.length>a.head.length+5?`<details><summary>안건 내용 보기</summary><pre>${hl(a.text,term)}</pre></details>`:""}</div>`).join("")}
         </article>`;}).join("");
-      document.getElementById("mCount").textContent=minutes?`안건 ${n}건 · 회의 ${posts.length}건 읽음 · 최근 수집 ${(minutes.updated||"").slice(0,16).replace("T"," ")}`:"";
+      pager("mPager",hits.length,page,draw);
+      document.getElementById("mCount").textContent=MI?`안건 ${n}건 · 회의 ${hits.length}건 · ${page}/${Math.max(1,Math.ceil(hits.length/PER))}쪽 · 최근 수집 ${(minutes.updated||"").slice(0,16).replace("T"," ")}`:"";
       document.getElementById("mList").innerHTML=html||`<div class="empty-state">${minutes?"조건에 맞는 안건이 없습니다.":"아직 수집된 회의결과가 없습니다. 첫 수집이 끝나면 여기에 나타납니다."}</div>`;
     };
     chips(document.getElementById("mTopics"),MT,mt,draw,true);
@@ -232,14 +259,16 @@ function altLink(code,bbs,post){ if(!code) return "";
       el.innerHTML=rs.map(r=>`<strong>${esc(r)}</strong>: `+cxs.filter(c=>!c.pinned&&c.region===r).map(c=>esc(c.name)).join(", ")).join("<br>");};
     chips(document.getElementById("mComplex"),cxMap,mc,()=>{cxList();draw();},true);
     mq.oninput=draw; newOnly.onchange=drawTerms; drawTerms(); draw();
-  }
+  };
 
 
 
   // 장기수선·감사 자료
-  {
+  LAZY.docs=async()=>{
+    document.getElementById("dCount").textContent="불러오는 중…";
+    const DI=await get("data/site/docs.json");
     const cxs=(minutes?.complexes)||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
-    const docs=((minutes?.items)||[]).filter(i=>i.kind==="doc"&&i.status==="done");
+    const docs=(DI?.items)||[];
     const boards=[...new Set(docs.map(d=>d.board))];
     const db=new Set(), dc=new Set(), dq=document.getElementById("dq");
     const chipMap=Object.fromEntries([
@@ -248,11 +277,12 @@ function altLink(code,bbs,post){ if(!code) return "";
     const hit=name=>{const c=cxBy[name]||{};return dc.has("n:"+name)||dc.has("r:"+c.region);};
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
     const MT=minutes?.topics||{};
-    const draw=()=>{
-      const term=dq.value.trim();
+    const draw=(x)=>{
+      const page=pg(x), term=dq.value.trim();
       const list=docs.filter(d=>(!db.size||db.has(d.board))&&(!dc.size||hit(d.complex))&&(!term||(d.title+(d.snips||[]).map(x=>x.text).join(" ")).includes(term)));
-      document.getElementById("dCount").textContent=minutes?`자료 ${list.length}건`:"";
-      document.getElementById("dList").innerHTML=list.map(d=>{
+      document.getElementById("dCount").textContent=DI?`자료 ${list.length}건 · ${page}/${Math.max(1,Math.ceil(list.length/PER))}쪽`:"";
+      pager("dPager",list.length,page,draw);
+      document.getElementById("dList").innerHTML=list.slice((page-1)*PER,page*PER).map(d=>{
         const files=(d.files||[]).filter(f=>f.url).map((f,i)=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">원문${d.files.length>1?i+1:""}</a>`).join(" ")+altLink(d.code,d.bbs,d.title);
         const sn=(d.snips||[]).filter(x=>!term||x.text.includes(term));
         return `<article class="card${cxBy[d.complex]?.home?" home":""}"><h3>${esc(d.complex)} · ${esc(d.title)}</h3>
@@ -263,10 +293,11 @@ function altLink(code,bbs,post){ if(!code) return "";
     chips(document.getElementById("dBoards"),Object.fromEntries(boards.map(b=>[b,b])),db,draw,true);
     chips(document.getElementById("dComplex"),chipMap,dc,draw,true);
     dq.oninput=draw; draw();
-  }
+  };
   // 관리규약 조항
-  const bylaws=await get("data/bylaws.json");
-  {
+  LAZY.bylaws=async()=>{
+    document.getElementById("bCount").textContent="불러오는 중…";
+    const bylaws=await get("data/site/bylaws.json");
     const BT=bylaws?.topics||{}, cxs=(minutes?.complexes)||[], cxBy=Object.fromEntries(cxs.map(c=>[c.name,c]));
     const bt=new Set(), bc=new Set(), bq=document.getElementById("bq");
     const chipMap=Object.fromEntries([
@@ -274,8 +305,8 @@ function altLink(code,bbs,post){ if(!code) return "";
       ...((minutes?.regions)||[]).filter(r=>cxs.some(c=>!c.pinned&&c.region===r)).map(r=>["r:"+r,r])]);
     const hit=name=>{const c=cxBy[name]||{};return bc.has("n:"+name)||bc.has("r:"+c.region);};
     const hl=(s,t)=>{s=esc(s);return t?s.split(esc(t)).join(`<mark>${esc(t)}</mark>`):s;};
-    const draw=()=>{
-      const term=bq.value.trim(); const by={}; let n=0;
+    const draw=(x)=>{
+      const page=pg(x), term=bq.value.trim(); const by={}; let n=0;
       for(const d of (bylaws?.docs)||[]){
         if(bc.size&&!hit(d.complex)) continue;
         const cl=(d.clauses||[]).filter(c=>(!bt.size||c.topics.some(t=>bt.has(t)))&&(!term||c.text.includes(term)));
@@ -283,8 +314,9 @@ function altLink(code,bbs,post){ if(!code) return "";
         n+=cl.length; (by[d.complex]=by[d.complex]||[]).push({d,cl});
       }
       const names=Object.keys(by).sort((a,b)=>(cxBy[b]?.home?1:0)-(cxBy[a]?.home?1:0)||a.localeCompare(b,"ko"));
-      document.getElementById("bCount").textContent=bylaws?`조항 ${n}건 · ${names.length}개 단지 · 최근 수집 ${(bylaws.updated||"").slice(0,16).replace("T"," ")}`:"";
-      document.getElementById("bList").innerHTML=names.map(name=>`<article class="card${cxBy[name]?.home?" home":""}"><h3>${esc(name)}</h3>`+
+      pager("bPager",names.length,page,draw);
+      document.getElementById("bCount").textContent=bylaws?`조항 ${n}건 · ${names.length}개 단지 · ${page}/${Math.max(1,Math.ceil(names.length/PER))}쪽 · 최근 수집 ${(bylaws.updated||"").slice(0,16).replace("T"," ")}`:"";
+      document.getElementById("bList").innerHTML=names.slice((page-1)*PER,page*PER).map(name=>`<article class="card${cxBy[name]?.home?" home":""}"><h3>${esc(name)}</h3>`+
         by[name].map(({d,cl})=>`<div class="meta" style="margin-top:6px">${esc(d.title)} · ${esc(d.date)} ${(d.files||[]).filter(f=>f.url).map((f,i)=>`<a href="${esc(f.url)}" target="_blank" rel="noopener">원문${d.files.length>1?i+1:""}</a>`).join(" ")}${altLink(d.code,"09",d.title)}</div>`+
           cl.map(c=>`<div class="agenda"><b>${hl(c.head.replace(/\s{2,}.*/,""),term)}</b><div>${c.topics.map(t=>`<span class="tag">${esc(BT[t]||t)}</span>`).join("")}</div>
             <details${term?" open":""}><summary>조항 보기</summary><pre>${hl(c.text,term)}</pre></details></div>`).join("")).join("")+`</article>`).join("")
@@ -293,7 +325,7 @@ function altLink(code,bbs,post){ if(!code) return "";
     chips(document.getElementById("bTopics"),BT,bt,draw,true);
     chips(document.getElementById("bComplex"),chipMap,bc,draw,true);
     bq.oninput=draw; draw();
-  }
+  };
   // 규정 비교
   const rulesAuto=await get("data/rules_auto.json"), rulesExt=await get("data/rules_external.json");
   const sameCx=(a,b)=>{a=nrm(a).replace(/^래미안/,"");b=nrm(b).replace(/^래미안/,"");return a===b||(a.length>=4&&b.length>=4&&(a.includes(b)||b.includes(a)));};
@@ -393,16 +425,17 @@ function altLink(code,bbs,post){ if(!code) return "";
       <div><span class="tag">${esc(n.state||"입찰")}</span>${n._cx?`<span class="tag">${esc(n._cx.pinned?n._cx.name:n._cx.region)}</span>`:""}</div>
       </article>`;})();
   let shownNotices=[];
-  const drawNotices=()=>{
-    const term=q.value.trim(), sk=[...ns][0];
+  const drawNotices=(x)=>{
+    const page=pg(x), term=q.value.trim(), sk=[...ns][0];
     const txt=x=>x.title+x.complex_name+(x.vendor||"");
     const ok=x=>(!nf.size||nfHit(x))&&(!term||txt(x).includes(term))&&(!nw.size||[...nw].some(w=>(x.title||"").includes(w)));
     const bids=sk==="pc"?[]:((notices?.items)||[]).filter(n=>stOk(n)&&ok(n));
     const pcs=(sk==="all"||sk==="pc")?((contracts?.items)||[]).filter(ok):[];
     const items=[...bids,...pcs].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
     shownNotices=items;
-    document.getElementById("noticeCount").textContent=`${items.length}건${sk==="all"?` (입찰 ${bids.length} · 수의계약 ${pcs.length})`:""} · 최근 수집 ${(notices?.updated||"").slice(0,16).replace("T"," ")}${items.length>300?" · 최근 300건만 표시, 검색·필터로 좁혀 보세요":""}`;
-    document.getElementById("noticeList").innerHTML=items.slice(0,300).map(card).join("")||`<div class="empty-state">조건에 맞는 공고가 없습니다.</div>`;
+    document.getElementById("noticeCount").textContent=`${items.length}건${sk==="all"?` (입찰 ${bids.length} · 수의계약 ${pcs.length})`:""} · 최근 수집 ${(notices?.updated||"").slice(0,16).replace("T"," ")}${items.length>PER?` · ${page}/${Math.ceil(items.length/PER)}쪽`:""}`;
+    pager("noticePager",items.length,page,drawNotices);
+    document.getElementById("noticeList").innerHTML=items.slice((page-1)*PER,page*PER).map(card).join("")||`<div class="empty-state">조건에 맞는 공고가 없습니다.</div>`;
   };
   chips(document.getElementById("noticeStates"),ST,ns,drawNotices,false);
   chips(document.getElementById("noticeWords"),NW,nw,drawNotices,true);

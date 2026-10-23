@@ -64,6 +64,10 @@ jobs:
         if: always() && steps.gate.outputs.run == 'true'
         run: python scripts/auto_rules.py
 
+      - name: 사이트용 가벼운 데이터
+        if: always() && steps.gate.outputs.run == 'true'
+        run: python scripts/site_data.py
+
       - name: 변경분 커밋
         if: always() && steps.gate.outputs.run == 'true'
         run: |
