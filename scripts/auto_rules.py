@@ -102,7 +102,8 @@ def main() -> int:
                 lines = tp_path.read_text(encoding="utf-8").splitlines()
                 fields = {k: " / ".join(pick(lines, pats)) or None for k, pats in FIELDS[topic].items()}
                 offer(d["complex"], topic, d.get("date", ""), fields,
-                      {"text": f"{title} ({d.get('date', '')})", "url": f["url"]})
+                      {"text": f"{title} ({d.get('date', '')})", "url": f["url"], "code": d.get("code"), "bbs": "09",
+                       "post": title})
                 break
 
     # 2) 회의결과: 해당 주제로 분류되고 부결이 아닌 안건
@@ -120,7 +121,8 @@ def main() -> int:
                 fields = {k: " / ".join(pick(lines, pats, 2)) or None for k, pats in FIELDS[topic].items()}
                 if url:
                     offer(it["complex"], topic, it.get("date", ""), fields,
-                          {"text": f"회의결과: {clean(a.get('head', ''))[:40]} ({it.get('date', '')})", "url": url})
+                          {"text": f"회의결과: {clean(a.get('head', ''))[:40]} ({it.get('date', '')})", "url": url,
+                           "code": it.get("code"), "bbs": it.get("bbs"), "post": it.get("title")})
 
     rows: dict[str, dict] = {}
     for (cx, topic), v in sorted(found.items()):
