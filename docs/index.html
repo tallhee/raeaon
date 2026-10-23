@@ -314,7 +314,7 @@ function altLink(code,bbs,post){ if(!code) return "";
       `확인 ${man.length} · 자동 추출 ${rows.length-man.length-nExt} · 외부 정리 ${nExt}개 단지 · '확인' 행은 원문을 읽고 적은 값입니다. '자동 추출' 행은 수집 프로그램이 공식 원문 줄을 그대로 옮긴 것이라 틀릴 수 있습니다. 파란 '외부 정리' 행은 네이버 부동산스터디 카페 '오키옥희나와하'님이 정리한 비공식 자료(${rulesExt?.source_url||''})로 신뢰도가 낮습니다(확인·자동 추출 행이 있는 단지는 그쪽을 씁니다). 익명 사례는 다른 단지 공고에 인용된 것입니다.`;
     const codeOf=r=>{const c=((minutes?.complexes)||[]).find(c=>nrm(c.name)===nrm(r.name));return c?.code;};
     const src=(d,r)=>(d.sources||[]).map(s=>(s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text||"원문")}</a>`:`<span class="meta">${esc(s.text||"")}</span>`)+
-      (s.url&&/openapt/.test(s.url)?altLink(s.code||codeOf(r),s.bbs||(/FileDown/.test(s.url)?"":""),s.post):"")).join("<br>");
+      (s.url&&/openapt/.test(s.url)?altLink(s.code||codeOf(r),s.bbs||(/규정|규약/.test(s.text||"")?"09":/회의|결과|공고/.test(s.text||"")?"02":""),s.post):"")).join("<br>");
     document.getElementById("ruleTable").innerHTML=
       `<tr><th>단지</th>${cols.map(c=>`<th><label style="cursor:pointer;white-space:nowrap"><input type="checkbox" class="selbox" data-col="${c[0]}"${selCols.has(c[0])?" checked":""}> ${c[1]}</label></th>`).join("")}<th><label style="cursor:pointer"><input type="checkbox" class="selbox" data-col="__src"${selCols.has("__src")?" checked":""}> 근거</label></th></tr>`+
       rows.map(r=>{const d=r[t]||{};
@@ -341,7 +341,13 @@ function altLink(code,bbs,post){ if(!code) return "";
     const cols=all.filter(c=>!selCols.size||selCols.has(c[0]));
     const {rows}=mergeRows(t);
     const val=(r,c)=>{const d=r[t]||{};
-      if(c[0]==="__src"){const ls=(d.sources||[]).filter(x=>x.url).map(x=>`${x.text||"원문"}: ${absU(x.url)}`);return ls.length?ls.join("\n"):null;}
+      if(c[0]==="__src"){const code=((minutes?.complexes)||[]).find(c=>nrm(c.name)===nrm(r.name))?.code;
+        const ls=(d.sources||[]).filter(x=>x.url).map(x=>{let l=`${x.text||"원문"}: ${absU(x.url)}`;
+          const cd=x.code||code;
+          if(/openapt\.seoul\.go\.kr/.test(x.url)&&cd){const bb=x.bbs||(/규정|규약/.test(x.text||"")?"09":/회의|결과|공고/.test(x.text||"")?"02":"");const b=BOARD[bb];
+            l+=`\n  (안 열리면 단지홈 ${OA}/openApt/index.do?aptCode=${cd}${b?` › ${b[0]==="기타공개자료"?"알림마당":"정보공개"} › ${b[0]}`:""}에서 찾기)`;}
+          return l;});
+        return ls.length?ls.join("\n"):null;}
       return d[c[0]]==null?null:String(d[c[0]]).replace(/ \/ /g,"\n");};
     const picked=rows.filter(r=>!selRows.size||selRows.has(r.name));
     const blocks=picked.map(r=>{const ls=cols.map(c=>{const v=val(r,c);return v?`${cols.length>1?`- ${c[1]}: `:""}${v}`:null;}).filter(Boolean);
