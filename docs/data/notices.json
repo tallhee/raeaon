@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:03+09:00",
+ "updated": "2026-10-23T09:01+09:00",
  "items": [
   {
    "bid_num": "kg2b_142124",
@@ -51,6 +51,60 @@
    "households": 552,
    "use_approval": "",
    "sigungu": "서대문구"
+  },
+  {
+   "bid_num": "20261022230802729",
+   "channel": "K-APT",
+   "award": "최고 낙찰",
+   "title": "알뜰시장 운영업체 선정 입찰 공고",
+   "deadline": "2026-11-03",
+   "state": "신규공고",
+   "complex_code": "A13590602",
+   "complex_name": "압구정한양3단지",
+   "date": "2026-10-22",
+   "id": "kapt-20261022230802729",
+   "source": "kapt_bid",
+   "topics": [
+    "community"
+   ],
+   "target": false,
+   "complex_key": "압구정한양3단지",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261022230802729&type=3",
+   "first_seen": "2026-10-23",
+   "category": "사업자 - 기타 - 잡수입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 582,
+   "use_approval": "1979-11-13",
+   "sigungu": "강남구"
+  },
+  {
+   "bid_num": "20261022175126480",
+   "channel": "K-APT",
+   "award": "최저 낙찰",
+   "title": "옥상방수 공사업체선정 재입찰공고",
+   "deadline": "2026-11-03",
+   "state": "취소",
+   "complex_code": "B11119552",
+   "complex_name": "래미안힐스테이트 고덕",
+   "date": "2026-10-22",
+   "target": true,
+   "id": "kapt-20261022175126480",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "래미안힐스테이트고덕",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261022175126480&type=3",
+   "first_seen": "2026-10-23",
+   "category": "사업자 - 공사 - 장기수선",
+   "kind": "일반경쟁",
+   "is_works": true,
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 3658,
+   "use_approval": "2016-12-29",
+   "sigungu": "강동구"
   },
   {
    "bid_num": "20261022133050344",
@@ -161,6 +215,34 @@
    "sigungu": "도봉구"
   },
   {
+   "bid_num": "20261021171927561",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "단지 내 조경수 및 초화류 식재공사 사업자 선정",
+   "deadline": "2026-11-02",
+   "state": "취소",
+   "complex_code": "B11118321",
+   "complex_name": "송파 시그니처 롯데캐슬아파트",
+   "date": "2026-10-21",
+   "target": true,
+   "id": "kapt-20261021171927561",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "송파시그니처롯데캐슬",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261021171927561&type=3",
+   "first_seen": "2026-10-23",
+   "category": "사업자 - 공사 - 하자보수",
+   "kind": "제한경쟁",
+   "is_works": true,
+   "filters": [
+    "seoul_new",
+    "songpa_gangnam_large"
+   ],
+   "households": 1945,
+   "use_approval": "2021-12-31",
+   "sigungu": "송파구"
+  },
+  {
    "bid_num": "20261020162009299",
    "channel": "K-APT",
    "award": "적격심사",
@@ -268,7 +350,34 @@
    "households": 1900,
    "use_approval": "2019-06-24",
    "sigungu": "강동구",
-   "target": false
+   "target": true
+  },
+  {
+   "bid_num": "20261015172417877",
+   "channel": "K-APT",
+   "award": "최고 낙찰",
+   "title": "승강기내 미디어보드 계약의 건",
+   "deadline": "2026-10-23",
+   "state": "취소",
+   "complex_code": "A10023661",
+   "complex_name": "힐스테이트뉴포레",
+   "date": "2026-10-15",
+   "target": true,
+   "id": "kapt-20261015172417877",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "힐스테이트뉴포레",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261015172417877&type=3",
+   "first_seen": "2026-10-23",
+   "category": "사업자 - 기타 - 잡수입",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [
+    "seoul_new"
+   ],
+   "households": 1143,
+   "use_approval": "2022-08-29",
+   "sigungu": "관악구"
   },
   {
    "bid_num": "20261015161858503",
@@ -729,6 +838,33 @@
    "target": false
   },
   {
+   "bid_num": "20261009142538768",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "주택관리업자 선정 공고",
+   "deadline": "2026-10-22",
+   "state": "유찰",
+   "complex_code": "B11115175",
+   "complex_name": "이문아이파크자이",
+   "date": "2026-10-09",
+   "target": true,
+   "id": "kapt-20261009142538768",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "이문아이파크자이",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261009142538768&type=3",
+   "first_seen": "2026-10-23",
+   "category": "주택관리업자 - 공동주택위탁관리",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [
+    "seoul_new"
+   ],
+   "households": 4169,
+   "use_approval": "2025-11-27",
+   "sigungu": "동대문구"
+  },
+  {
    "bid_num": "20261008164345847",
    "channel": "K-APT",
    "award": "적격심사",
@@ -754,7 +890,7 @@
    "households": 2678,
    "use_approval": "2025-12-30",
    "sigungu": "송파구",
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20261008163816229",
@@ -992,7 +1128,7 @@
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
    "is_works": false,
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20261006173445471",
@@ -1128,6 +1264,32 @@
    "sigungu": "서초구"
   },
   {
+   "bid_num": "20261002143002032",
+   "channel": "K-APT",
+   "award": "적격심사",
+   "title": "청소용역 업체 선정 입찰공고",
+   "deadline": "2026-10-14",
+   "state": "낙찰",
+   "complex_code": "A10026015",
+   "amount": 293012160,
+   "complex_name": "반포써밋",
+   "date": "2026-10-02",
+   "target": true,
+   "id": "kapt-20261002143002032",
+   "source": "kapt_bid",
+   "topics": [],
+   "complex_key": "반포써밋",
+   "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20261002143002032&type=3",
+   "first_seen": "2026-10-23",
+   "category": "사업자 - 용역 - 청소",
+   "kind": "제한경쟁",
+   "is_works": false,
+   "filters": [],
+   "households": 764,
+   "use_approval": "2018-09-21",
+   "sigungu": "서초구"
+  },
+  {
    "bid_num": "kg2b_141694",
    "channel": "KG2B전자입찰",
    "award": "적격심사",
@@ -1155,7 +1317,7 @@
    "kind": "제한경쟁",
    "is_works": false,
    "amount": 489199200,
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20261001163233157",
@@ -1343,7 +1505,7 @@
    "households": null,
    "use_approval": "2025-11-25",
    "sigungu": "서초구",
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20261001095631759",
@@ -1698,7 +1860,9 @@
    "category": "사업자 - 기타 - 잡수입",
    "kind": "제한경쟁",
    "is_works": false,
-   "filters": [],
+   "filters": [
+    "seoul_new"
+   ],
    "households": 1143,
    "use_approval": "2022-08-29",
    "sigungu": "관악구"
@@ -1856,7 +2020,7 @@
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
    "is_works": true,
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20260930104619862",
@@ -2141,7 +2305,9 @@
    "category": "사업자 - 물품 - 매각",
    "kind": "제한경쟁",
    "is_works": false,
-   "filters": [],
+   "filters": [
+    "seoul_new"
+   ],
    "households": 4169,
    "use_approval": "2025-11-27",
    "sigungu": "동대문구"
@@ -2166,7 +2332,9 @@
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "제한경쟁",
    "is_works": false,
-   "filters": [],
+   "filters": [
+    "seoul_new"
+   ],
    "households": 4169,
    "use_approval": "2025-11-27",
    "sigungu": "동대문구"
@@ -2196,7 +2364,7 @@
    "households": 1116,
    "use_approval": "2024-03-27",
    "sigungu": "서대문구",
-   "target": false
+   "target": true
   },
   {
    "bid_num": "kg2b_141133",
@@ -2465,7 +2633,7 @@
    "households": 1320,
    "use_approval": "2019-08-29",
    "sigungu": "강남구",
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20260922195003486",
@@ -2520,7 +2688,7 @@
    "category": "사업자 - 용역 - 기타 용역",
    "kind": "일반경쟁",
    "is_works": false,
-   "target": false
+   "target": true
   },
   {
    "bid_num": "20260922165116249",
@@ -2812,7 +2980,7 @@
    "category": "사업자 - 공사 - 장기수선",
    "kind": "제한경쟁",
    "is_works": true,
-   "target": false
+   "target": true
   },
   {
    "bid_num": "kg2b_140813",
@@ -8204,10 +8372,12 @@
    "complex_key": "래미안힐스테이트고덕",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260521120747005&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
-   "use_approval": "",
-   "sigungu": ""
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 3658,
+   "use_approval": "2016-12-29",
+   "sigungu": "강동구"
   },
   {
    "bid_num": "20260521120600462",
@@ -9109,10 +9279,12 @@
    "complex_key": "래미안힐스테이트고덕",
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260428085022274&type=3",
    "first_seen": "2026-10-15",
-   "filters": [],
-   "households": null,
-   "use_approval": "",
-   "sigungu": ""
+   "filters": [
+    "songpa_gangnam_large"
+   ],
+   "households": 3658,
+   "use_approval": "2016-12-29",
+   "sigungu": "강동구"
   },
   {
    "bid_num": "kg2b_134700",
@@ -10922,9 +11094,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260212094351157&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
-   "use_approval": "",
-   "sigungu": ""
+   "households": 764,
+   "use_approval": "2018-09-21",
+   "sigungu": "서초구"
   },
   {
    "bid_num": "20260212092829995",
@@ -11322,9 +11494,9 @@
    "url": "https://www.k-apt.go.kr/bid/bidDetail.do?bidNum=20260128104831257&type=3",
    "first_seen": "2026-10-15",
    "filters": [],
-   "households": null,
-   "use_approval": "",
-   "sigungu": ""
+   "households": 764,
+   "use_approval": "2018-09-21",
+   "sigungu": "서초구"
   },
   {
    "bid_num": "20260127113755618",

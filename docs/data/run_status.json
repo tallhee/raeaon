@@ -1,31 +1,36 @@
 {
- "ran_at": "2026-10-22T17:03+09:00",
+ "ran_at": "2026-10-23T09:01+09:00",
  "steps": {
   "targets": {
    "ok": true,
    "complexes": 90,
-   "bids": 0,
-   "contracts": 3626,
+   "bids": 73,
+   "contracts": 3639,
    "errors": []
   },
   "search": {
-   "ok": false,
+   "ok": true,
    "keywords": 29,
-   "found": 0,
-   "matched": 0,
-   "errors": [
-    "골프/3: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "골프/4: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "공공개방/3: /bid/bidList.do 요청 실패: <urlopen error timed out>",
-    "공공개방/4: /bid/bidList.do 요청 실패: <urlopen error timed out>"
-   ]
+   "found": 309,
+   "matched": 202,
+   "errors": []
+  },
+  "detail": {
+   "ok": true,
+   "new": 6,
+   "errors": 0
   }
  },
- "stopped_in_search": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (<urlopen error timed out>)",
- "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (<urlopen error timed out>)",
+ "complex_errors": [
+  "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11119955: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11123601: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
+ ],
+ "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
  "complete": false,
  "totals": {
-  "notices": 557,
-  "complexes": 145
+  "notices": 563,
+  "complexes": 147
  }
 }

@@ -476,7 +476,8 @@
   "households": 582,
   "dong_count": 6,
   "code": "A13590602",
-  "use_approval": "1979-11-13"
+  "use_approval": "1979-11-13",
+  "hh_checked": true
  },
  "힐스테이트관악센트씨엘": {
   "name": "힐스테이트관악센트씨엘",
@@ -913,7 +914,8 @@
   "households": 1945,
   "dong_count": 17,
   "code": "B11118321",
-  "use_approval": "2021-12-31"
+  "use_approval": "2021-12-31",
+  "hh_checked": true
  },
  "래미안퍼스티지": {
   "name": "래미안퍼스티지",
@@ -980,14 +982,22 @@
   "sigungu": "관악구",
   "households": 1143,
   "code": "A10023661",
-  "use_approval": "2022-08-29"
+  "use_approval": "2022-08-29",
+  "address": "서울특별시 관악구 조원로 25",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 7
  },
  "이문아이파크자이": {
   "name": "이문아이파크자이",
   "sigungu": "동대문구",
   "households": 4169,
   "code": "A10020344",
-  "use_approval": "2025-11-27"
+  "use_approval": "2025-11-27",
+  "address": "서울시 동대문구 이문로 120",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 18
  },
  "마포더클래시": {
   "name": "마포더클래시",
@@ -1091,5 +1101,27 @@
   "households": 552,
   "dong_count": 8,
   "code": "A10026604"
+ },
+ "래미안힐스테이트고덕": {
+  "name": "래미안힐스테이트 고덕",
+  "address": "서울시 강동구 아리수로 50길 50 (고덕동, 래미안힐스테이트 고덕)",
+  "sido": "서울시",
+  "sigungu": "강동구",
+  "households": 3658,
+  "hh_checked": true,
+  "dong_count": 51,
+  "code": "B11119552",
+  "use_approval": "2016-12-29"
+ },
+ "반포써밋": {
+  "name": "반포써밋",
+  "address": "서울시 서초구 고무래로 89",
+  "sido": "서울시",
+  "sigungu": "서초구",
+  "households": 764,
+  "hh_checked": true,
+  "dong_count": 8,
+  "code": "A10026015",
+  "use_approval": "2018-09-21"
  }
 }
