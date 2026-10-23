@@ -308,7 +308,7 @@ function altLink(code,bbs,post){ if(!code) return "";
     const src=(d,r)=>(d.sources||[]).map(s=>(s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text||"원문")}</a>`:`<span class="meta">${esc(s.text||"")}</span>`)+
       (s.url&&/openapt/.test(s.url)?altLink(s.code||codeOf(r),s.bbs||(/FileDown/.test(s.url)?"":""),s.post):"")).join("<br>");
     document.getElementById("ruleTable").innerHTML=
-      `<tr><th>단지</th>${cols.map(c=>`<th>${c[1]} <button class="chip copybtn" data-col="${c[0]}" title="단지별 ${c[1]}을 카톡에 붙여넣기 좋은 글로 복사" style="padding:1px 6px;font-size:12px">복사</button></th>`).join("")}<th>근거</th></tr>`+
+      `<tr><th>단지</th>${cols.map(c=>`<th>${c[1]} <button class="chip copybtn" data-col="${c[0]}" title="단지별 ${c[1]}을 카톡에 붙여넣기 좋은 글로 복사" style="padding:1px 6px;font-size:12px">복사</button></th>`).join("")}<th>근거 <button class="chip copybtn" data-col="__src" title="단지별 근거 링크를 카톡용으로 복사" style="padding:1px 6px;font-size:12px">복사</button></th></tr>`+
       rows.map(r=>{const d=r[t]||{};
         return `<tr class="${r.is_home?"home":""}"${r.anonymous?' style="opacity:.8"':""}><td><strong>${esc(r.name)}</strong>${r.auto?'<div><span class="tag" style="background:#fff3cd;color:#7a5b00">자동 추출 · 원문 확인 필요</span></div>':""}${r.external?'<div><span class="tag" style="background:#e3f0ff;color:#1d4f91">외부 정리(오키옥희나와하) · 비공식 · 신뢰도 낮음</span></div>':""}<div class="meta">${esc(r.sigungu||"")}${r.households?` · ${Number(r.households).toLocaleString()}세대`:""}${r.as_of?`<br>${esc(r.as_of)}`:""}</div></td>`+
         cols.map(c=>d[c[0]]==null?`<td class="empty">–</td>`:`<td>${esc(d[c[0]])}</td>`).join("")+
@@ -318,6 +318,13 @@ function altLink(code,bbs,post){ if(!code) return "";
     const btn=e.target.closest(".copybtn"); if(!btn) return;
     const t=[...rt][0], col=btn.dataset.col, label=(COLS[t].find(c=>c[0]===col)||[])[1]||"";
     const {rows}=mergeRows(t);
+    const absU=u=>/^https?:/.test(u)?u:new URL(u,location.href).href;
+    if(col==="__src"){
+      const text=`[${TOPICS[t]} · 근거 링크]\n\n`+rows.filter(r=>(r[t].sources||[]).some(x=>x.url)).map(r=>`${r.name}${r.is_home?" (우리 단지)":""}${r.auto?" (자동 추출·확인 필요)":""}${r.external?" (비공식 외부 정리·신뢰도 낮음)":""}\n`+
+        r[t].sources.filter(x=>x.url).map(x=>`${x.text||"원문"}: ${absU(x.url)}`).join("\n")).join("\n\n");
+      try{await navigator.clipboard.writeText(text);}catch(_){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();}
+      btn.textContent="복사됨"; setTimeout(()=>btn.textContent="복사",1500); return;
+    }
     const text=`[${TOPICS[t]} · ${label}]\n\n`+rows.filter(r=>r[t][col]).map(r=>`${r.name}${r.is_home?" (우리 단지)":""}${r.auto?" (자동 추출·확인 필요)":""}${r.external?" (비공식 외부 정리·신뢰도 낮음)":""}\n${String(r[t][col]).replace(/ \/ /g,"\n")}`).join("\n\n");
     try{await navigator.clipboard.writeText(text);}catch(_){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();}
     const o=btn.textContent; btn.textContent="복사됨"; setTimeout(()=>btn.textContent=o,1500);
