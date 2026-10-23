@@ -1,0 +1,666 @@
+{
+ "updated": "2026-10-23",
+ "note": "다른 사람이 모아 정리한 자료(네이버 부동산스터디 카페, 2026.10.21). 원문 미확인, 금액은 범위·추정 포함.",
+ "complexes": [
+  {
+   "name": "래미안대치팰리스1단지",
+   "sigungu": "강남구",
+   "households": 1278,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 약 2~3만 원. 초과 1회 2,000원",
+    "entry_limit": "헬스·수영·사우나 1일 2회 무료, 3시간 내 연계 이용 가능",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "디에이치아너힐즈",
+   "sigungu": "강남구",
+   "households": 1320,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 약 3만 원. 각 시설 초과 1회 3,000~4,000원",
+    "entry_limit": "헬스·수영·사우나·농구·당구 등 1일 2회 무료",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안블레스티지",
+   "sigungu": "강남구",
+   "households": 1957,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 초과 1회 3,000원 / 식사 1끼 8,000~9,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 월 20~30회 통합 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "디에이치자이개포",
+   "sigungu": "강남구",
+   "households": 1996,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 1.5만 원. 수영 10분당 100원(사우나 포함), 골프 시간당 4,500원, 독서실 하루 3,000원, 음악연습실 시간당 8,000원, 의무식 월 2식 17,000원(카페 대체 가능), 추가 식사 1끼 9,500원. 기본료+의무식 월 32,000원",
+    "entry_limit": "헬스장 횟수 제한 없이 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "디에이치퍼스티어아이파크",
+   "sigungu": "강남구",
+   "households": 6702,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 초과 이용료 미확인",
+    "entry_limit": "헬스·수영장 등 모든 시설 월 40회",
+    "notes": "수영장 10레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "개포자이프레지던스",
+   "sigungu": "강남구",
+   "households": 3375,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 인피니티풀 1회 20,000원 / 식사 입주민 9,000원·외부인 10,000원, 의무부과 없음",
+    "entry_limit": "헬스·수영·사우나 하루 2회, 1회당 4시간 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "청담르엘",
+   "sigungu": "강남구",
+   "households": 1261,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 4~5만 원. 미확인",
+    "entry_limit": "피트니스 센터 내 시설 이용 가능(확인 필요)",
+    "notes": "수영장 5레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 1/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p1.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안리더스원",
+   "sigungu": "서초구",
+   "households": 1317,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2.9만 원. 중식·석식 1끼 9,000원",
+    "entry_limit": "헬스·수영·사우나 등 피트니스 시설 이용",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "아크로리버파크",
+   "sigungu": "서초구",
+   "households": 1612,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2~3만 원. 초과 1회 3,000원 / 골프 60분 3,000원 / 탁구 1시간 2,000~4,000원 / 필라테스·골프레슨 별도",
+    "entry_limit": "헬스·수영·사우나 1일 2회 무료",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안원베일리",
+   "sigungu": "서초구",
+   "households": 2990,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 4.5만 원. 초과 1회 3,000원 / 골프 50분 5,000원 / 스크린골프 60분 18,000원 / 식사 1끼 11,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안퍼스티지",
+   "sigungu": "서초구",
+   "households": 2444,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2만 원. 수영·사우나 초과 1회 3,000원 / 골프 30분 1,000원",
+    "entry_limit": "헬스 무제한 무료, 수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "반포자이",
+   "sigungu": "서초구",
+   "households": 3410,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2만 원. 헬스·수영·사우나 1회 1,500~3,000원 / 골프연습장 2,000~3,000원",
+    "entry_limit": "시설 이용료 미포함",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "서초그랑자이",
+   "sigungu": "서초구",
+   "households": 1446,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 없음. 헬스·수영·사우나 1회 2,000~4,000원 / 골프 1회 3,000원 / 식사 8,000~9,000원 / CGV살롱 1인 15,000원",
+    "entry_limit": "시설별 이용료 부과",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "메이플자이",
+   "sigungu": "서초구",
+   "households": 3307,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 초과 1회 3,000~4,000원 / 식사 1끼 9,000~10,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안원페를라",
+   "sigungu": "서초구",
+   "households": 1097,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 초과 1회 약 2,000~4,000원 / 골프 등 1회 2,000~4,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 월 30~40회(차감 방식)",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안트리니원",
+   "sigungu": "서초구",
+   "households": 2091,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 4~5만 원. 초과 1회 3,000~4,000원 / 골프 1시간 4,000~5,000원 / 식사 1끼 9,000~11,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "디에이치방배",
+   "sigungu": "서초구",
+   "households": 3064,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3~4만 원. 수영·사우나 초과 1회 3,000~4,000원 / 식사 1끼 8,500~10,000원",
+    "entry_limit": "헬스 무제한, 수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 5레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "래미안원펜타스",
+   "sigungu": "서초구",
+   "households": 641,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 5~6만 원. 초과 1회 2,000~3,000원 / 의무식 월 5끼 약 55,000원 별도 / 추가 식사 1끼 10,000원. 기본료+의무식 월 약 105,000~115,000원",
+    "entry_limit": "세대당 헬스 월 40회, 수영+사우나 월 40회",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 2/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p2.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "잠실갤러리아팰리스",
+   "sigungu": "송파구",
+   "households": 741,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 없음. 미확인",
+    "entry_limit": "헬스·수영·사우나 세대 가족 전체 무제한 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "헬리오시티",
+   "sigungu": "송파구",
+   "households": 9510,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2만 원. 수영 1회 3,000원 / 월 정기권 40,000원",
+    "entry_limit": "헬스: 세대원 지정 1인 1일 1회 무료, 사우나: 세대당 월 12회 무료쿠폰",
+    "notes": "수영장 6레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "잠실래미안아이파크",
+   "sigungu": "송파구",
+   "households": 2678,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3~4만 원. 초과 1회 3,000~4,000원 / 식사 1끼 9,000~11,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "잠실르엘",
+   "sigungu": "송파구",
+   "households": 1865,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3~4만 원. 초과 1회 3,000~4,000원 / 식사 1끼 9,000~11,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 1일 2회 무료",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "올림픽파크포레온",
+   "sigungu": "강동구",
+   "households": 12032,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 보통 8,000~10,000원(월별 변동). 유료 강습료·식당(2개소)·카페(4개소) 수입을 반영해 매월 기본료 변동 / 필라테스 등 강습 별도",
+    "entry_limit": "헬스 월 26회 / 수영·사우나 월 15회 무료, 나머지 시설 무료 이용",
+    "notes": "수영장 11레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "고덕그라시움",
+   "sigungu": "강동구",
+   "households": 4932,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 5,000원. 수영 1회 3,000~4,000원 / 월 40,000원 / 헬스+사우나 1회 2,000~3,000원",
+    "entry_limit": "없음. 모든 시설 이용료 별도",
+    "notes": "수영장 6레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "흑석자이",
+   "sigungu": "동작구",
+   "households": 1772,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 3만 원. 초과 1회 3,000~4,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 2인까지 하루 2시간 무료",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 3/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p3.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "마포그랑자이",
+   "sigungu": "마포구",
+   "households": 1248,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2.5~2.8만 원. 초과 1회 2,000원 / 골프 1시간 2,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 월 50회 무료(차감 방식)",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "마포프레스티지자이",
+   "sigungu": "마포구",
+   "households": 1694,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 2.8만 원. 헬스·사우나 각각 초과 1회 3,000원 / 수영 무료 없음 1회 3,000원 / 골프 1회 3,000원",
+    "entry_limit": "세대당 헬스 월 30회, 사우나 월 30회 무료",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "공덕자이",
+   "sigungu": "마포구",
+   "households": 1164,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 약 2만 원. 초과 1회 2,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 월 25회 무료(차감 방식)",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "보문파크뷰자이",
+   "sigungu": "성북구",
+   "households": 1186,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 1.1만 원. 수영 일일 대인 4,000원·소인 3,000원 / 수영 월 정기권 20,000원",
+    "entry_limit": "헬스장 세대 구성원 수 제한 없이 무제한 이용",
+    "notes": "수영장 4레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "꿈의숲아이파크",
+   "sigungu": "성북구",
+   "households": 1711,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 약 1.5만 원. 수영 1회 3,000원 / 헬스+사우나 1회 2,000~3,000원 / 헬스+사우나 월 정기권 약 20,000원",
+    "entry_limit": "없음. 모든 시설 이용료 별도",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "DMC센트럴아이파크",
+   "sigungu": "은평구",
+   "households": 1061,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 1.7만 원. 자유수영 1일 5,000원, 시간제한 없음",
+    "entry_limit": "수영장 제외 모든 시설 무료 이용",
+    "notes": "수영장 5레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "DMC파크뷰자이",
+   "sigungu": "서대문구",
+   "households": 4300,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 약 1.5만 원. 초과 1회 3,000원",
+    "entry_limit": "헬스·수영·사우나 세대당 인원 제한 없이 월 총 30회",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  },
+  {
+   "name": "북한산힐스테이트3차",
+   "sigungu": "은평구",
+   "households": 1185,
+   "external": true,
+   "community": {
+    "hours": null,
+    "fee": "월 기본료 없음. 헬스 월 50,000원 / 수영 일일 6,600원 / 사우나 시설 없음",
+    "entry_limit": "무료 이용 범위 미확인",
+    "notes": "수영장 3레인. 전용 84㎡ 기준",
+    "sources": [
+     {
+      "text": "네이버 부동산스터디 카페 정리(2026.10.21) 4/4쪽",
+      "url": "evidence/cafe_pool_community_20261021_p4.png"
+     }
+    ],
+    "as_of": "2026-10-21",
+    "checked": null
+   }
+  }
+ ]
+}
