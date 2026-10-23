@@ -1,19 +1,25 @@
-import sys,re,json
+import sys,re,tempfile
+from pathlib import Path
 sys.path.insert(0,'scripts')
 import openapt as oa
-oa.DEADLINE=oa.time.monotonic()+1500
+oa.DEADLINE=oa.time.monotonic()+2400
 out=[]
 s=oa.Session("A13824006")
-for bbs,ret in (("09","/openApt/aMenu/mngAgree/mngAgreeList.open"),("17","/openApt/eMenu/etc/mngEtcList.open"),("02","/openApt/aMenu/aptLeaderMeeting/leaderMeetingList.open")):
-  for page in range(1,40):
-    try:
-      h=s.post("/boardForm/selectBoardList.do",{"aptCode":"A13824006","returnUrl":ret,"query":"openAptMngCommonBoard.openAptMngBoardList","bbsCommCode":bbs,"pageIndex":str(page)})
-    except Exception as e:
-      out.append(f"{bbs} p{page} ERR {e}");break
-    rows=oa.parse_list(h)
-    if not rows: break
-    for r in rows:
-      if bbs!="02" or re.search(r"커뮤니티|주민공동|피트니스|헬스|운영규정|운영세칙|이용료|사우나|수영|독서실",r["title"]):
-        out.append(f"{bbs}|{r['date']}|{r['nttId']}|{r['title']}")
-open('probe/out.txt','w').write("\n".join(out))
-# 1792767911
+for ntt in ("2350296","2328351","201425","2102819","42236"):
+  try:
+    d=s.post("/boardForm/boardDetail.do",{"aptCode":"A13824006","searchValue":f"aptCode:A13824006|bbsCommCode:09|nttId:{ntt}","query":"openAptMngCommonBoard.openAptMngBoardDetail","returnUrl":"/openApt/aMenu/mngAgree/mngAgreeDetail.open"})
+    files,_=oa.parse_detail(d)
+    for f in files:
+      if f.get("inline"): continue
+      url=f"{oa.B}/open/FileDown.do?atchFileId={f['atchFileId']}&fileSn={f['fileSn']}"
+      data=s._open(url,timeout=120)
+      with tempfile.TemporaryDirectory() as td:
+        p=Path(td)/("f"+Path(f["name"]).suffix[:6]); p.write_bytes(data)
+        txt,kind=oa.extract(p,f["name"],max_pages=60)
+      out.append(f"=== {ntt} {f['name']} {kind} {len(txt)} {url}")
+      for i,ln in enumerate(txt.splitlines()):
+        if re.search(r"(피트니스|헬스|사우나|수영|독서실|골프|주민공동시설|커뮤니티).{0,40}([\d,]{3,}\s*원|\d+\s*회|\d{1,2}\s*:\s*\d\d|\d+\s*시)",ln) or re.search(r"이용료|운영시간|별표.{0,10}(주민공동|커뮤니티|복리)",ln):
+          out.append(f"{i}: {ln.strip()[:170]}")
+  except Exception as e: out.append(f"{ntt} ERR {e}")
+open('probe/out.txt','w').write("\n".join(out)[:200000])
+# 1792768039

@@ -4,9 +4,15 @@ permissions: {contents: write}
 jobs:
   p:
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+      - run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y tesseract-ocr tesseract-ocr-kor poppler-utils libreoffice-writer libreoffice-java-common default-jre-headless >/dev/null
+          gh release download -R ebandal/H2Orestart -p "*.oxt" -D /tmp/h2o && unopkg add -env:UserInstallation=file:///tmp/lo_profile /tmp/h2o/*.oxt || true
+        env: {GH_TOKEN: "${{ github.token }}"}
       - run: python3 probe/p.py || true
+        env: {LO_PROFILE: /tmp/lo_profile}
       - run: |
           git config user.name bot; git config user.email bot@x
           git add -f probe/out.txt; git commit -m "probe output"; git push
