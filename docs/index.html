@@ -151,12 +151,13 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 40px;color:var(--muted);fon
 <footer>서울시 공동주택마당(openapt.seoul.go.kr)에 공개된 입주자대표회의 공고를 자동 수집합니다. 안건 요약은 글자 인식 결과라 원문과 다를 수 있으니 원문 링크로 확인하세요.</footer>
 
 <script>
-const TOPICS={parking:"주차규정",community:"커뮤니티",dining:"커뮤니티 식당",governance:"입대의·선관위"};
+const TOPICS={parking:"주차규정",community:"커뮤니티",dining:"커뮤니티 식당",governance:"입대의·선관위",allowance:"입대의 운영비(수당)"};
 const FILTERS={seoul_new:"서울 2020년 이후 입주",songpa_gangnam_large:"송파·강남권 대단지"};
 const COLS={
   parking:[["public_facility_users_allowed","공공개방시설 이용자 주차"],["visitor_fee","방문차량 요금"],["per_unit_by_area","면적별 세대당 대수·요금"],["notes","비고"]],
   community:[["hours","운영시간"],["fee","요금"],["entry_limit","입장 횟수"],["notes","비고"]],
-  dining:[["operator_selection","업체 선정"],["hours","운영시간"],["price","요금"],["notes","비고"]]
+  dining:[["operator_selection","업체 선정"],["hours","운영시간"],["price","요금"],["notes","비고"]],
+  allowance:[["attend","회의 출석수당"],["chair","회장 직책수당"],["others","감사·이사 등 직책수당"],["notes","비고"]]
 };
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const get=p=>fetch(p,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
@@ -385,12 +386,12 @@ function altLink(code,bbs,post){ if(!code) return "";
     const picked=rows.filter(r=>!selRows.size||selRows.has(r.name));
     const blocks=picked.map(r=>{const ls=cols.map(c=>{const v=val(r,c);return v?`${cols.length>1?`- ${c[1]}: `:""}${v}`:null;}).filter(Boolean);
       return ls.length?`${r.name}${tagOf(r)}\n${ls.join("\n")}`:null;}).filter(Boolean);
-    const text=`[${TOPICS[t]}${cols.length===1?` · ${cols[0][1]}`:""}]\n\n`+blocks.join("\n\n");
+    const text=`[${TOPICS[t]||"입대의 운영비(수당)"}${cols.length===1?` · ${cols[0][1]}`:""}]\n\n`+blocks.join("\n\n");
     try{await navigator.clipboard.writeText(text);}catch(_){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();}
     const o=e.target.textContent; e.target.textContent=`복사됨 (${blocks.length}개 단지)`; setTimeout(()=>e.target.textContent=o,1800);
   };
   const rtWrap=()=>{selCols.clear();selRows.clear();drawRules();selInfo();};
-  chips(document.getElementById("ruleTopics"),{parking:TOPICS.parking,community:TOPICS.community,dining:TOPICS.dining},rt,rtWrap,false);
+  chips(document.getElementById("ruleTopics"),{parking:TOPICS.parking,community:TOPICS.community,dining:TOPICS.dining,allowance:"입대의 운영비(수당)"},rt,rtWrap,false);
   drawRules();
 
   // 공고

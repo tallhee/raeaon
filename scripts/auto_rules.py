@@ -22,6 +22,7 @@ TODAY = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y-%m-%d")
 
 NUM_WON = r"[\d,]{3,}\s*원|\d+\s*만\s*원|\d+천\s*원"
 FIELDS = {
+    "allowance": {},
     "parking": {
         "visitor_fee": [r"방문.{0,40}\d+\s*시간", r"방문.{0,60}(?:" + NUM_WON + ")", r"무료\s*주차\s*시간.{0,40}\d"],
         "per_unit_by_area": [r"(?:[1-5]\s*대\s*(?:추가|째|보유|이상|초과|무료|부과|:)|추가\s*[1-5]\s*대|기본\s*대수|대당).{0,40}(?:" + NUM_WON + "|무료)"],
@@ -123,6 +124,46 @@ def main() -> int:
                     offer(it["complex"], topic, it.get("date", ""), fields,
                           {"text": f"회의결과: {clean(a.get('head', ''))[:40]} ({it.get('date', '')})", "url": url,
                            "code": it.get("code"), "bbs": it.get("bbs"), "post": it.get("title")})
+
+    # 3) 입대의 운영비(출석수당·직책수당): 단지별 최신 관리규약의 '운영비' 조항
+    def fixamt(t: str) -> str:
+        t = re.sub(r"\s+", " ", t).strip()
+        t = re.sub(r"만\s*원?\s*(\d[\d,]*)\s*원", r"\1만 원", t)  # '매월 만 100 원' 처럼 깨진 배치
+        return t
+    latest: dict[str, dict] = {}
+    for d in bylaws.get("docs", []):
+        if "규약" in d.get("title", "") and not re.search(r"비교|개정안|\(안\)|제안서", d.get("title", "")):
+            if d.get("date", "") >= latest.get(d["complex"], {}).get("date", ""):
+                latest[d["complex"]] = d
+    for cx, d in latest.items():
+        f = next((f for f in d.get("files", []) if (DATA / f.get("text_path", "-")).exists()), None)
+        if not f:
+            continue
+        lines = (DATA / f["text_path"]).read_text(encoding="utf-8").splitlines()
+        start = next((i for i, l in enumerate(lines) if re.search(r"제\s*\d+\s*조\s*\(?\s*(입주자대표회의\s*)?운영비", l)
+                      and not re.search(r"[·…\-]{4,}", l)), None)
+        if start is None:
+            continue
+        block = lines[start:start + 80]
+        def grab(pat, n=1):
+            outl = []
+            for i, l in enumerate(block):
+                if re.search(pat, l):
+                    t = fixamt(" ".join(block[i:i + n]))
+                    if re.search(r"\d", t):
+                        outl.append(t[:110])
+            return " / ".join(outl[:3]) or None
+        def tidy(v, cut=True):
+            if not v:
+                return v
+            v = v if not cut else re.split(r"\s\d\s*\.\s*(?:회장|감사|이사|다음|그 밖)|\s-\s*\d+\s*-", v)[0]
+            return re.sub(r"(^|/ )\d\s*\.\s*", r"\1", v).strip()
+        fields = {"attend": tidy(grab(r"출\s*석", 4)), "chair": tidy(grab(r"회장\s*(직책|업무)\S*\s*:"), False),
+                  "others": tidy(grab(r"(부회장|감사|이사|총무)\s*(직책|업무)\S*\s*:"), False)}
+        if any(fields.values()) and f.get("url"):
+            offer(cx, "allowance", d.get("date", ""), fields,
+                  {"text": f"{d.get('title', '')} 운영비 조항 ({d.get('date', '')})", "url": f["url"], "code": d.get("code"),
+                   "bbs": "09", "post": d.get("title")})
 
     rows: dict[str, dict] = {}
     for (cx, topic), v in sorted(found.items()):

@@ -45,6 +45,21 @@
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001945063&fileSn=0"
      }
     ]
+   },
+   "allowance": {
+    "attend": "1회 10만 원(월 20만 원 한도)",
+    "chair": "매월 100만 원",
+    "others": "감사 매월 30만 원, 이사 매월 30만 원",
+    "notes": "회장 직책수당은 대행자에게 줄 수 있으나 대행자 본래 직책수당과 이중 지급 불가. 교육비 등 그 밖의 운영비는 실비 정산",
+    "sources": [
+     {
+      "text": "잠실래미안아이파크 관리규약 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001832969&fileSn=0",
+      "code": "A10020294",
+      "bbs": "09"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {

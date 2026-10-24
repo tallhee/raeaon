@@ -7,6 +7,23 @@
    "sigungu": "강남구",
    "households": 499,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1 회 5 만원(월 10 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 40 만원",
+    "others": "감사 직책수당: 매월 15 만원(인당)",
+    "sources": [
+     {
+      "text": "강남센트럴아이파크관리규약(1차개정본) 운영비 조항 (2024-06-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001354112&fileSn=0",
+      "code": "A10023825",
+      "bbs": "09",
+      "post": "강남센트럴아이파크관리규약(1차개정본)"
+     }
+    ],
+    "as_of": "2024-06-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "@개인타석 이용료 시간당 4,000원에서 20008 &@스크린룸 OBES 시간당",
@@ -26,10 +43,50 @@
    }
   },
   {
+   "name": "강동리버스트4단지",
+   "sigungu": "강동구",
+   "households": 1239,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 50만원",
+    "others": "감사 직책수당: 매월 30만원 / 이사 직책수당: 매월 30만원",
+    "sources": [
+     {
+      "text": "[분양] 관리규약 개정(2025.05.14. 3차개정) 운영비 조항 (2025-05-16)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001571450&fileSn=0",
+      "code": "A10024468",
+      "bbs": "09",
+      "post": "[분양] 관리규약 개정(2025.05.14. 3차개정)"
+     }
+    ],
+    "as_of": "2025-05-16",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "강동헤리티지자이",
    "sigungu": "강동구",
    "households": 1299,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 10 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50 만원",
+    "others": "감사 직책수당 : 매월 10 만원 / 이사 직책수당 : 매월 10 만원",
+    "sources": [
+     {
+      "text": "관리규약 개정[2026.06.10] 운영비 조항 (2026-06-11)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001853402&fileSn=0",
+      "code": "A10022525",
+      "bbs": "09",
+      "post": "관리규약 개정[2026.06.10]"
+     }
+    ],
+    "as_of": "2026-06-11",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -53,6 +110,23 @@
    "sigungu": "강남구",
    "households": 2296,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석수당 : 1회 5 만원(월 10 만 원을 초 할 없 과 수 다)",
+    "chair": "회장 직책수당 :매 월 100 만 원",
+    "others": "감사 직책수당 :매 월 50 만 원 / 이사 직책수당 :매 월 30 만 원",
+    "sources": [
+     {
+      "text": "개포래미안포레스트 2차 개정 관리규약(2024.02.02) 운영비 조항 (2024-04-19)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001278059&fileSn=1",
+      "code": "A10024564",
+      "bbs": "09",
+      "post": "개포래미안포레스트 2차 개정 관리규약(2024.02.02)"
+     }
+    ],
+    "as_of": "2024-04-19",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "회계ㆍ세무 전산프로그램 업그레이드에 따라 2026년 9월부터 월 이용료가 30,000원",
@@ -133,6 +207,23 @@
    "sigungu": "강동구",
    "households": 4932,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당(적격심사평가회의 포함) : 1회 5만원(1회당 최대 5만원 이내로 하되, 월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 70만원",
+    "others": "감사 직책수당 : 매월 10만원(1인당) / 이사 직책수당 : 매월 10만원(1인당)",
+    "sources": [
+     {
+      "text": "고덕그라시움 관리규약(제3차 개정, 2026.7.20.부) 운영비 조항 (2026-08-14)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001903720&fileSn=0",
+      "code": "A10025263",
+      "bbs": "09",
+      "post": "고덕그라시움 관리규약(제3차 개정, 2026.7.20.부)"
+     }
+    ],
+    "as_of": "2026-08-14",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -156,6 +247,23 @@
    "sigungu": "강동구",
    "households": 4066,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원 ( 월 10 만원 을 초과할 수 없다) 없다)",
+    "chair": "회장 직책수당 : 매월 100 만원",
+    "others": "감사 직책수당 : 매월 15 만원(1 / 이사 직책수당 : 매월 10 만원(1",
+    "sources": [
+     {
+      "text": "관리규약 5차 개정 운영비 조항 (2025-10-01)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001667549&fileSn=0",
+      "code": "A10025010",
+      "bbs": "09",
+      "post": "관리규약 5차 개정"
+     }
+    ],
+    "as_of": "2025-10-01",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "나. 운영시간 : 06:00~22:00",
     "fee": null,
@@ -196,6 +304,23 @@
    "sigungu": "강동구",
    "households": 1859,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 40만원",
+    "others": "감사 직책수당: 매월 10만원 / 이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "제2차 고덕롯데캐슬베네루체아파트 관리규약(2024년 8월 29일) 운영비 조항 (2024-09-30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001423286&fileSn=1",
+      "code": "A10025112",
+      "bbs": "09",
+      "post": "제2차 고덕롯데캐슬베네루체아파트 관리규약(2024년 8월 29일)"
+     }
+    ],
+    "as_of": "2024-09-30",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "parking": {
     "visitor_fee": "▶ 「주차장 관리규정 개정」에 대하여 상정된 내용 중 방문주차시간 100시간에서 150시간으로 수정하여",
     "per_unit_by_area": null,
@@ -219,6 +344,23 @@
    "sigungu": "강동구",
    "households": 1745,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 20 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50 만원",
+    "others": "감사 직책수당 : 매월 10 만원",
+    "sources": [
+     {
+      "text": "고덕센트럴아이파크 관리규약(2025.01.15) 운영비 조항 (2025-04-23)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001557506&fileSn=0",
+      "code": "A10025104",
+      "bbs": "09",
+      "post": "고덕센트럴아이파크 관리규약(2025.01.15)"
+     }
+    ],
+    "as_of": "2025-04-23",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": ": 임시공휴일(10월 1일 국군의 날) 운영에 대해 논의 결과, 일요일과 동일한 시간(09:00 ~ 18:00)",
     "fee": null,
@@ -242,6 +384,23 @@
    "sigungu": "강동구",
    "households": 1824,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 10 만원(월 20 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 100 만원",
+    "others": "감사 직책수당 : 매월 30 만원 / 이사 직책수당 : 매월 30 만원",
+    "sources": [
+     {
+      "text": "관리규약 (4차개정) 운영비 조항 (2026-08-12)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001901279&fileSn=0",
+      "code": "A10024473",
+      "bbs": "09",
+      "post": "관리규약 (4차개정)"
+     }
+    ],
+    "as_of": "2026-08-12",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "피트니스 센터 / G.X 룸 / 사우나 화요일~토요일 06:00 ~ 22:00 / 골프 연습장 / 스크린 골프 / 세탁실 일요일 / 법정공휴일 09:00 ~ 18:00 / 북카페 / 작은 도서관 화요일~토요일 09:00 ~ 21:00",
     "fee": "이용료 3,500원/회 500원/10분 4,000원/회 각 500원/개",
@@ -282,6 +441,23 @@
    "sigungu": "성북구",
    "households": 1711,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원",
+    "others": "감사 직책수당 : 매월 10만원 / 이사 직책수당 : 매월 5만원",
+    "sources": [
+     {
+      "text": "꿈의숲아아파크 2024년 관리규약 개정본( 2024.11.08 ) 운영비 조항 (2024-11-11)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001447715&fileSn=1",
+      "code": "A10024488",
+      "bbs": "09",
+      "post": "꿈의숲아아파크 2024년 관리규약 개정본( 2024.11.08 )"
+     }
+    ],
+    "as_of": "2024-11-11",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "dining": {
     "operator_selection": null,
     "hours": null,
@@ -305,6 +481,23 @@
    "sigungu": "은평구",
    "households": 2569,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 수당 1회 10 만 월 만 원( 20 원을 초 할 과 수 없 다)",
+    "chair": "회장 직책수당 : 매월 60 만원",
+    "others": "감사 직책수당 : 매월 20 만원 / 이사 직책수당 : 매월 10 만원",
+    "sources": [
+     {
+      "text": "관리규약 4차개정 공포 운영비 조항 (2025-07-07)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001608040&fileSn=1",
+      "code": "A10024831",
+      "bbs": "09",
+      "post": "관리규약 4차개정 공포"
+     }
+    ],
+    "as_of": "2025-07-07",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "1. 사우나 이 용 료 : 1회권 - 5천원 / 10회권 - 40,000원 /",
@@ -362,6 +555,23 @@
    "sigungu": "강남구",
    "households": 489,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "대치푸르지오써밋 공동주택관리규약(2차개정_20260630) 운영비 조항 (2026-07-02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001871471&fileSn=0",
+      "code": "A10023162",
+      "bbs": "09",
+      "post": "대치푸르지오써밋 공동주택관리규약(2차개정_20260630)"
+     }
+    ],
+    "as_of": "2026-07-02",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "1) 샤워실 이용료 : 회당 @3,000원 / 3) 샤워실 내 락카 이용료 : 월 @5,000원",
@@ -415,10 +625,73 @@
    }
   },
   {
+   "name": "디에이치 아너힐즈",
+   "sigungu": "강남구",
+   "households": 1320,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사, 총무이사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약(제5차 개정) 운영비 조항 (2024-03-07)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001293667&fileSn=0",
+      "code": "A10025203",
+      "bbs": "09",
+      "post": "관리규약(제5차 개정)"
+     }
+    ],
+    "as_of": "2024-03-07",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "디에이치 자이 개포",
+   "sigungu": "강남구",
+   "households": 1996,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 8만원(월 32만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 30만원 / 이사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약 2차 개정 운영비 조항 (2026-03-17)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001785938&fileSn=1",
+      "code": "A10024216",
+      "bbs": "09",
+      "post": "관리규약 2차 개정"
+     }
+    ],
+    "as_of": "2026-03-17",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "디에이치반포라클라스",
    "sigungu": "서초구",
    "households": 848,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 15만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 60만원",
+    "others": "감사 직책수당 : 매월 20만원 / 이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "디에이치반포라클라스 관리규약(2024.4 개정) 운영비 조항 (2024-06-26)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001365621&fileSn=0",
+      "code": "A10024254",
+      "bbs": "09",
+      "post": "디에이치반포라클라스 관리규약(2024.4 개정)"
+     }
+    ],
+    "as_of": "2024-06-26",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "dining": {
     "operator_selection": null,
     "hours": null,
@@ -433,6 +706,29 @@
      }
     ],
     "as_of": "2026-07-31",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "디에이치퍼스티어아이파크",
+   "sigungu": null,
+   "households": null,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 200만원",
+    "others": "감사 직책수당 : 매월 30만원 / 이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "디에이치퍼스티어아이파크 관리규약 (2024.04.30) 운영비 조항 (2024-12-18)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001472501&fileSn=0",
+      "code": "A10022859",
+      "bbs": "09",
+      "post": "디에이치퍼스티어아이파크 관리규약 (2024.04.30)"
+     }
+    ],
+    "as_of": "2024-12-18",
     "checked": null,
     "auto_run": "2026-10-24"
    }
@@ -482,6 +778,23 @@
    "sigungu": "강남구",
    "households": 850,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 10만원 월20만원 초 할 수당 1회 ( 을 과 수 없 다)",
+    "chair": "회장 직책수당 : 매월 30만 원",
+    "others": "감사 직책수당 : 매월 10만 원 / 이사 직책수당 : 매월 10만 원",
+    "sources": [
+     {
+      "text": "관리규약 제5차 개정(2026.07.24) 운영비 조항 (2026-08-05)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001897416&fileSn=0",
+      "code": "A10025823",
+      "bbs": "09",
+      "post": "관리규약 제5차 개정(2026.07.24)"
+     }
+    ],
+    "as_of": "2026-08-05",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "parking": {
     "visitor_fee": "(0 세다탕 월 방문 차량 종 FAA 1008S 부여하며 FAA! 소진 후 10분당 100원의 요금을 부과신샐",
     "per_unit_by_area": "O 주차시설 사용부담금 부과는 1대 추가 : 3만원 2대 추가 : 6만원 3대 추가 : 18만원 Soe 조정하기로 함",
@@ -501,10 +814,50 @@
    }
   },
   {
+   "name": "래미안블레스티지",
+   "sigungu": "강남구",
+   "households": 1957,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 60만원",
+    "others": "감사 직책수당 : 매월 25만원 / 이사 직책수당 : 매월 15만원 다만, 총무이사는 매월 25만원으로 한다.",
+    "sources": [
+     {
+      "text": "래미안블레스티지 관리규약(2025.04.07.개정) 운영비 조항 (2025-12-24)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001727366&fileSn=0",
+      "code": "A10025675",
+      "bbs": "09",
+      "post": "래미안블레스티지 관리규약(2025.04.07.개정)"
+     }
+    ],
+    "as_of": "2025-12-24",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "래미안솔베뉴",
    "sigungu": "강동구",
    "households": 1900,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "관리규약 전문(3차 개정) 운영비 조항 (2026-01-28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001753257&fileSn=0",
+      "code": "A10025415",
+      "bbs": "09",
+      "post": "관리규약 전문(3차 개정)"
+     }
+    ],
+    "as_of": "2026-01-28",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "이용료를 각 세대당 1만원씩 정액부과하고 있습니다. 적자해소방안에 대해서는",
@@ -541,10 +894,50 @@
    }
   },
   {
+   "name": "래미안퍼스트하이",
+   "sigungu": "성북구",
+   "households": 1562,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 10만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약 (4차 개정, 2026.7.17) 운영비 조항 (2026-07-21)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001883722&fileSn=0",
+      "code": "A10025245",
+      "bbs": "09",
+      "post": "관리규약 (4차 개정, 2026.7.17)"
+     }
+    ],
+    "as_of": "2026-07-21",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "래미안퍼스티지",
    "sigungu": "서초구",
    "households": 2444,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 7만원(임원회의 포함)",
+    "chair": "회장 직책수당 : 매월 70만원",
+    "others": "감사 직책수당 : 매월 50만원(각 25만원) / 이사 직책수당 : 매월 50만원(각 10만원)",
+    "sources": [
+     {
+      "text": "관리규약(2023.1.31.개정) 운영비 조항 (2023-04-28)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001125596&fileSn=0",
+      "code": "A13776509",
+      "bbs": "09",
+      "post": "관리규약(2023.1.31.개정)"
+     }
+    ],
+    "as_of": "2023-04-28",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": ".608이용료들 변경(1시간 3,000원ㄷ>5,000원) 하기로 의결함, 스크린골프 이용료는 현행 유지",
@@ -585,6 +978,23 @@
    "sigungu": "강동구",
    "households": 3658,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 30만원 / 이사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "제4차 관리규약개정 전문 입니다. 운영비 조항 (2026-02-13)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001762331&fileSn=1",
+      "code": "A10027207",
+      "bbs": "09",
+      "post": "제4차 관리규약개정 전문 입니다."
+     }
+    ],
+    "as_of": "2026-02-13",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -608,6 +1018,23 @@
    "sigungu": "성북구",
    "households": 2033,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 10만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 80만원",
+    "others": "감사 직책수당 : 매월 20만원 / 이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "제3차 관리규약 개정 전문 운영비 조항 (2026-02-03)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001757213&fileSn=1",
+      "code": "A10023926",
+      "bbs": "09",
+      "post": "제3차 관리규약 개정 전문"
+     }
+    ],
+    "as_of": "2026-02-03",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "parking": {
     "visitor_fee": "및 세대 무료주차시간 차감 관련사항 개정 결정함. <찬성 9명, 반대 1명> / 차 시간을 50시간씩 차감하고, 3개월 후 위반 사실이 없으면 무료주차시간 150시간을",
     "per_unit_by_area": null,
@@ -627,10 +1054,50 @@
    }
   },
   {
+   "name": "마곡엠밸리9단지",
+   "sigungu": "강서구",
+   "households": 1529,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원",
+    "others": "감사 직책수당 : 매월 10만원 / 총무이사 직책수당 : 매월 10만원 / 공동체활성화이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "마곡엠밸리9단지아파트 관리규약 4차 개정본 운영비 조항 (2024-12-30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001481620&fileSn=1",
+      "code": "A10024426",
+      "bbs": "09",
+      "post": "마곡엠밸리9단지아파트 관리규약 4차 개정본"
+     }
+    ],
+    "as_of": "2024-12-30",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "마포그랑자이아파트",
    "sigungu": "마포구",
    "households": 1248,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 수당 1회 10 만 원(월 20 만원을 초 할 과 수 없 다)",
+    "chair": "회장 직책수당 :매 월 50 만 원",
+    "others": "감사 직책수당 :매 월 20 만 원 / 이사 직책수당 :매 월 20 만 원",
+    "sources": [
+     {
+      "text": "마포그랑자이 관리규약(24.5.2) 운영비 조항 (2024-08-02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001390270&fileSn=0",
+      "code": "A10025003",
+      "bbs": "09",
+      "post": "마포그랑자이 관리규약(24.5.2)"
+     }
+    ],
+    "as_of": "2024-08-02",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "커뮤니티 운영비를 세대당 매월 30,000원으로 정액부과하기로 의결함.",
@@ -654,6 +1121,23 @@
    "sigungu": "마포구",
    "households": 1419,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "마포더클래시 공동주택관리규약 운영비 조항 (2023-02-17)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001081845&fileSn=0",
+      "code": "A10023508",
+      "bbs": "09",
+      "post": "마포더클래시 공동주택관리규약"
+     }
+    ],
+    "as_of": "2023-02-17",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -677,6 +1161,23 @@
    "sigungu": "마포구",
    "households": 1694,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1 회 10 만원(월 20 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 70 만원",
+    "others": "감사 직책수당: 매월 30 만원 / 이사 직책수당: 매월 15 만원",
+    "sources": [
+     {
+      "text": "관리규약 운영비 조항 (2026-08-31)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001917617&fileSn=0",
+      "code": "A10024347",
+      "bbs": "09",
+      "post": "관리규약"
+     }
+    ],
+    "as_of": "2026-08-31",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "화요일~금요일 06:00 ~ 23:00 / 토. 일요일 및 공휴일 운영 09:00 ~ 20:00 / 골프장, 스크린 골프 - 토,일요일 및 공휴일 09:00 ~ 20:00",
     "fee": "③ 기본 사용횟수 초과 시 1회 초과 시마다 헬스장 1,000원, 사우나 1인당 2,000원 추가 부과한 / 2. 피트니스, 사우나는 세대당 월 30회 무료이용이며, 1회 초과시 마다 피트니스는 1,000원, 사우 / 추가 이용 1회 1,000원",
@@ -713,10 +1214,50 @@
    }
   },
   {
+   "name": "메이플자이",
+   "sigungu": "서초구",
+   "households": null,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 7만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 100만원",
+    "others": "감사 직책수당 : 매월 20만원 / 이사 직책수장 : 매월 10만원",
+    "sources": [
+     {
+      "text": "메이플자이_공동주택관리규약 운영비 조항 (2026-05-22)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001839293&fileSn=0",
+      "code": "A10020557",
+      "bbs": "09",
+      "post": "메이플자이_공동주택관리규약"
+     }
+    ],
+    "as_of": "2026-05-22",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "목동 센트럴 아이파크위브 아파트",
    "sigungu": "양천구",
    "households": 3045,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석 : 1회 5만원(월 10만원을 초과할 없 수당 수 다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약 (2025.04.28) 운영비 조항 (2025-09-22)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001659863&fileSn=0",
+      "code": "A10024872",
+      "bbs": "09",
+      "post": "관리규약 (2025.04.28)"
+     }
+    ],
+    "as_of": "2025-09-22",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "3) 이용료 중 부착료 건당/20.000원은 부착자 (경비",
@@ -736,10 +1277,188 @@
    }
   },
   {
+   "name": "반포 르엘 아파트",
+   "sigungu": "서초구",
+   "households": 596,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원 (월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 20만원 / 이사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "관리규약 제1차 개정 운영비 조항 (2024-03-19)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001300659&fileSn=0",
+      "code": "A10023673",
+      "bbs": "09",
+      "post": "관리규약 제1차 개정"
+     }
+    ],
+    "as_of": "2024-03-19",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포래미안아이파크",
+   "sigungu": "서초구",
+   "households": 829,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 1인당 10만원(최대 월 20만원이하)",
+    "chair": "회장 직책수당 : 매월 50만원(직무대행자 포함)",
+    "others": "감사 직책수당 : 1인당 매월 20만원 / 이사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약(4차 개정) 운영비 조항 (2023-09-25)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001201809&fileSn=0",
+      "code": "A10026051",
+      "bbs": "09",
+      "post": "관리규약(4차 개정)"
+     }
+    ],
+    "as_of": "2023-09-25",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포리체",
+   "sigungu": "서초구",
+   "households": 1119,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 10만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 70만원",
+    "others": "감사 직책수당: 매월 20만원 / 총무이사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "2024년 관리규약 개정 운영비 조항 (2024-05-07)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001334424&fileSn=0",
+      "code": "A13776301",
+      "bbs": "09",
+      "post": "2024년 관리규약 개정"
+     }
+    ],
+    "as_of": "2024-05-07",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포미도아파트",
+   "sigungu": "서초구",
+   "households": 1260,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 15만원(월 30만원을 초과할수 없다)",
+    "chair": "회장 직책수당 : 매월 35만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "2026년 관리규약 개정 운영비 조항 (2026-04-08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001805469&fileSn=0",
+      "code": "A13704404",
+      "bbs": "09",
+      "post": "2026년 관리규약 개정"
+     }
+    ],
+    "as_of": "2026-04-08",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포본동아파트",
+   "sigungu": "서초구",
+   "households": 3610,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 190만원",
+    "others": "감사 직책수당 : 매월 20만원",
+    "sources": [
+     {
+      "text": "관리규약(2020.9.9) 개정 운영비 조항 (2020-10-14)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000000708312&fileSn=1",
+      "code": "A13704901",
+      "bbs": "09",
+      "post": "관리규약(2020.9.9) 개정"
+     }
+    ],
+    "as_of": "2020-10-14",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포써밋",
+   "sigungu": "서초구",
+   "households": 764,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 수당 1회 10 만 월 만 원( 20 원을 초과 할 수 없 다)",
+    "chair": "회장 직책수당 : 매월 50만 원",
+    "others": "감사 직책수당 : 매월 20만 원(1인당) / 이사 직책수당 : 매월 10만 원",
+    "sources": [
+     {
+      "text": "제4차 관리규약 개정 운영비 조항 (2026-07-31)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001894494&fileSn=0",
+      "code": "A10026015",
+      "bbs": "09",
+      "post": "제4차 관리규약 개정"
+     }
+    ],
+    "as_of": "2026-07-31",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "반포자이",
+   "sigungu": "서초구",
+   "households": 3410,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원 (임원회의 출석수당은 월 3회, 입주자대표회의 출석수당은 월 2 회 한도 지급하며, 총 회의시간 과반 참여 시 지급한다.)",
+    "chair": "회장 업무추진비 : 매월 100만원 / 부회장 업무추진비 : 매월 30만원",
+    "others": "부회장 업무추진비 : 매월 30만원 / 감사 업무추진비 : 매월 20만원",
+    "sources": [
+     {
+      "text": "2022년 반포자이아파트 관리규약 운영비 조항 (2022-12-13)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001048924&fileSn=0",
+      "code": "A13704104",
+      "bbs": "09",
+      "post": "2022년 반포자이아파트 관리규약"
+     }
+    ],
+    "as_of": "2022-12-13",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "방배그랑자이아파트",
    "sigungu": "서초구",
    "households": 758,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원 (월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "2023년 관리규약 2차 개정본 운영비 조항 (2023-05-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001129000&fileSn=0",
+      "code": "A10024171",
+      "bbs": "09",
+      "post": "2023년 관리규약 2차 개정본"
+     }
+    ],
+    "as_of": "2023-05-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "parking": {
     "visitor_fee": "⑤ 방문차량은 월 100시간 이내 무료로 주차하고, 매 1시간 초과 시 1.000원의 주차료를 부과한다.",
     "per_unit_by_area": null,
@@ -759,10 +1478,50 @@
    }
   },
   {
+   "name": "방배아트자이",
+   "sigungu": "서초구",
+   "households": 353,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 10 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30 만원",
+    "others": "감사 직책수당 : 매월 15 만원 (2 명 30 만원)",
+    "sources": [
+     {
+      "text": "관리규약[2026년] 운영비 조항 (2026-07-02)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001870774&fileSn=0",
+      "code": "A10025927",
+      "bbs": "09",
+      "post": "관리규약[2026년]"
+     }
+    ],
+    "as_of": "2026-07-02",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "백련산 에스케이뷰 아이파크",
    "sigungu": "은평구",
    "households": 1305,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 각1인당 15만원 / 이사 직책수당 : 매월 각1인당 10만원",
+    "sources": [
+     {
+      "text": "제3차 관리규약 개정(2026.01.27) 운영비 조항 (2026-02-20)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001766866&fileSn=0",
+      "code": "A10025310",
+      "bbs": "09",
+      "post": "제3차 관리규약 개정(2026.01.27)"
+     }
+    ],
+    "as_of": "2026-02-20",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "헬스장 이용료 인상 방안 1 10,000원 -> 13,000원으로 인상/월 ○ / 헬스장 이용료 인상 방안 2 10,000원 -> 15,000원으로 인상/월",
@@ -782,10 +1541,73 @@
    }
   },
   {
+   "name": "보라매 sk뷰",
+   "sigungu": "영등포구",
+   "households": 1546,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30만원(회의출석수당 별도)",
+    "others": "감사 직책수당 : 매월 10만원(회의출석수당 별도)",
+    "sources": [
+     {
+      "text": "보라매SK뷰 제6차 관리규약 (2026.7. 개정) 운영비 조항 (2026-08-14)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001903365&fileSn=0",
+      "code": "A10025070",
+      "bbs": "09",
+      "post": "보라매SK뷰 제6차 관리규약 (2026.7. 개정)"
+     }
+    ],
+    "as_of": "2026-08-14",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "사가정 센트럴 아이파크 아파트",
+   "sigungu": "중랑구",
+   "households": 1505,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 만 월 만 수당 1회 5 원( 10 원을 초 할 과 수 없다)",
+    "chair": "회장 직책수당 : 매월 40만 원",
+    "others": "감사 직책수당 : 매월 만 / 20 원 인",
+    "sources": [
+     {
+      "text": "관리규약 개정 운영비 조항 (2024-12-17)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001471262&fileSn=0",
+      "code": "A10024741",
+      "bbs": "09",
+      "post": "관리규약 개정"
+     }
+    ],
+    "as_of": "2024-12-17",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "서초그랑자이",
    "sigungu": "서초구",
    "households": 1446,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 5만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 50만원",
+    "others": "감사 직책수당: 매월 20만원",
+    "sources": [
+     {
+      "text": "서초그랑자이 관리규약(2024.09.05 개정) - 제1차 운영비 조항 (2024-09-05)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001410438&fileSn=0",
+      "code": "A10024240",
+      "bbs": "09",
+      "post": "서초그랑자이 관리규약(2024.09.05 개정) - 제1차"
+     }
+    ],
+    "as_of": "2024-09-05",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "스튜디오/아트룸 화~토 10:00 ~ 20:50 10:00 ~ 16:50 매주 월요일 / 화~토 06:00~22:00 (21:40 발권정지) / ■ 기본 시설 이용료 : 세대 당 29,000원/월 -일.공휴일 09:00~18:00 (17:40 발권정지)",
     "fee": "■ 기본 시설 이용료 : 세대 당 29,000원/월 -일.공휴일 09:00~18:00 (17:40 발권정지) / 초과시 평일 5,000원,일·공휴일 10,000원 -36개월 이상 남녀 혼탕 입장 금지 / ■ GDR 타석 : 1회(60분) 당 4,000원",
@@ -800,6 +1622,29 @@
      }
     ],
     "as_of": "2025-01-13",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "서초센트럴아이파크",
+   "sigungu": "서초구",
+   "households": 318,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 10 만원(월 10 만원을 초과할 수 없다)",
+    "chair": "회장 업무추진수당 : 매월 20 만원",
+    "others": "감사 업무추진수당 : 매월 10 만원",
+    "sources": [
+     {
+      "text": "공동주택관리규약 1차 개정 운영비 조항 (2024-07-22)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001381490&fileSn=0",
+      "code": "A10024574",
+      "bbs": "09",
+      "post": "공동주택관리규약 1차 개정"
+     }
+    ],
+    "as_of": "2024-07-22",
     "checked": null,
     "auto_run": "2026-10-24"
    }
@@ -832,6 +1677,23 @@
    "sigungu": "영등포구",
    "households": 1008,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 1회 5만원(월10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 20만원 / 총무 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "관리규약(신길센트럴자이)_5차개정(2026.06.10.) 운영비 조항 (2026-07-20)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001881665&fileSn=0",
+      "code": "A10025024",
+      "bbs": "09",
+      "post": "관리규약(신길센트럴자이)_5차개정(2026.06.10.)"
+     }
+    ],
+    "as_of": "2026-07-20",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "> 입주민의 서비스 만족향상과 원혈한 SIS 위해 토요일 카페 보조 1명(09:00~18:00), 일요일",
     "fee": null,
@@ -851,10 +1713,73 @@
    }
   },
   {
+   "name": "신반포르엘",
+   "sigungu": "서초구",
+   "households": 330,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "관리규약 개정(1차) 운영비 조항 (2026-03-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001780337&fileSn=0",
+      "code": "A10023143",
+      "bbs": "09",
+      "post": "관리규약 개정(1차)"
+     }
+    ],
+    "as_of": "2026-03-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "아크로리버뷰 신반포",
+   "sigungu": "서초구",
+   "households": 595,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 60만원",
+    "others": "감사 직책수당: 매월 30만원 / 이사 직책수당: 매월 30만원",
+    "sources": [
+     {
+      "text": "아크로리버뷰 신반포아파트 공동주택 관리규약(26.07.24) 운영비 조항 (2026-07-30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001890337&fileSn=2",
+      "code": "A10026227",
+      "bbs": "09",
+      "post": "아크로리버뷰 신반포아파트 공동주택 관리규약(26.07.24)"
+     }
+    ],
+    "as_of": "2026-07-30",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "아크로리버파크",
    "sigungu": "서초구",
    "households": 1612,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 10만원(월20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 20만원(인당) / 이사 직책수당 : 매월 20만원(인당)",
+    "sources": [
+     {
+      "text": "아크로리버파크 관리규약[2026.05.18.개정] 운영비 조항 (2026-06-26)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001866295&fileSn=1",
+      "code": "A10027205",
+      "bbs": "09",
+      "post": "아크로리버파크 관리규약[2026.05.18.개정]"
+     }
+    ],
+    "as_of": "2026-06-26",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -874,10 +1799,50 @@
    }
   },
   {
+   "name": "올림픽선수기자촌아파트",
+   "sigungu": "송파구",
+   "households": 5540,
+   "auto": true,
+   "allowance": {
+    "attend": "회의비 : 정기회의, 임시회의 등 회의진행 시 필요한 다과․음료․식비, 기타용품 구입비 및 회의출석수당 2. 직책수당 : 회장, 감사의 직무수행에 따른 수당 3. 실비보상금 : 입주자대표회의  / 회의출석수당 및 직책수당은 개별 동별 대표자(임원 포함)가 지정하는 금융기관의 계좌로 이체하여 지급한다. 5. 제 45 조제 2 항제 4 호에 따른 실비 정산해야 하는 운영비는 신용카드를 우선",
+    "chair": null,
+    "others": null,
+    "sources": [
+     {
+      "text": "제19차 관리규약(전문) 운영비 조항 (2025-02-04)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001501130&fileSn=0",
+      "code": "A13805002",
+      "bbs": "09",
+      "post": "제19차 관리규약(전문)"
+     }
+    ],
+    "as_of": "2025-02-04",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "올림픽파크포레온",
    "sigungu": "강동구",
    "households": 12032,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 200만원",
+    "others": "감사 직책수당 : 매월 30만원 / 이사 직책수당 : 매월 15만원",
+    "sources": [
+     {
+      "text": "올림픽파크포레온 관리규약 (제정) 운영비 조항 (2025-06-12)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001590276&fileSn=0",
+      "code": "A10021122",
+      "bbs": "09",
+      "post": "올림픽파크포레온 관리규약 (제정)"
+     }
+    ],
+    "as_of": "2025-06-12",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "dining": {
     "operator_selection": "4단지 카페테리아 위탁 운영업체를 기존업체인 준푸드앤 컬처와 수의계약 / (제안이유: 카페테리아 위탁운영 계약기간 만료가 도래되어 제한경쟁입찰을",
     "hours": "하기로 함. 조식서비스(6:30 ~ 8:30)를 신규 제안하므로 승인함",
@@ -958,6 +1923,23 @@
    "sigungu": "서초구",
    "households": 2990,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 수당 : 1회 10만 월 만 원( 20 원을 초과 할 수 없 다)",
+    "chair": "회장 직책수당 : 매월 100만 원",
+    "others": "감사 직책수당 : 매월 30만 원",
+    "sources": [
+     {
+      "text": "관리규약 2차 개정본 운영비 조항 (2025-03-27)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001539416&fileSn=0",
+      "code": "A10023043",
+      "bbs": "09",
+      "post": "관리규약 2차 개정본"
+     }
+    ],
+    "as_of": "2025-03-27",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "@ 커뮤니티 연장 운영 : 일요일 2시간 연장 운영09:00 ~ 20:00) - 64.1%",
     "fee": null,
@@ -1038,6 +2020,23 @@
    "sigungu": "서초구",
    "households": 641,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 50만원",
+    "others": "감사, 이사 직책수당: 매월 각 10만원",
+    "sources": [
+     {
+      "text": "래미안원펜타스 관리규약 제정 운영비 조항 (2025-10-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001670034&fileSn=0",
+      "code": "A10022556",
+      "bbs": "09",
+      "post": "래미안원펜타스 관리규약 제정"
+     }
+    ],
+    "as_of": "2025-10-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "09:00 ~ 18:00 일요일(공휴일) 09:00 ~ 18:00",
     "fee": null,
@@ -1074,10 +2073,50 @@
    }
   },
   {
+   "name": "이문아이파크자이",
+   "sigungu": "동대문구",
+   "households": 4169,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 70만원",
+    "others": "감사 직책수당 : 매월 30만원",
+    "sources": [
+     {
+      "text": "이문아이파크자이 관리규약 (제정 2026.02.01) 운영비 조항 (2026-02-27)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001774477&fileSn=0",
+      "code": "A10020344",
+      "bbs": "09",
+      "post": "이문아이파크자이 관리규약 (제정 2026.02.01)"
+     }
+    ],
+    "as_of": "2026-02-27",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "이편한세상 송파파크센트럴",
    "sigungu": "송파구",
    "households": 1199,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 수당 :1회 5만 월 만 원( 10 원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 70만 원",
+    "others": "감사 직책수당 : 매월 10만 원(1인당) / 이사 직책수당 : 매월 10만 원(1인당)",
+    "sources": [
+     {
+      "text": "관리규약 개정 운영비 조항 (2026-06-08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001850317&fileSn=0",
+      "code": "A10024787",
+      "bbs": "09",
+      "post": "관리규약 개정"
+     }
+    ],
+    "as_of": "2026-06-08",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "운영시간 : 09:00~18:00",
     "fee": null,
@@ -1118,6 +2157,23 @@
    "sigungu": "송파구",
    "households": 3696,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월15만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 80만원",
+    "others": "감사 직책수당 : 1인당 매월 20만원",
+    "sources": [
+     {
+      "text": "제12차 관리규약 (시행일 : 2026.9.29.) 운영비 조항 (2026-10-06)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001942224&fileSn=0",
+      "code": "A13822002",
+      "bbs": "09",
+      "post": "제12차 관리규약 (시행일 : 2026.9.29.)"
+     }
+    ],
+    "as_of": "2026-10-06",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "1) 헬스장 이용료 변경 : 회원권 월 19,900원으로 통일",
@@ -1158,6 +2214,23 @@
    "sigungu": "송파구",
    "households": 2678,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 만 월 만 수당 1회 10 원( 20 원을 초 할 과 수 없 다) / 바. 입주자대표회의 의결로 구성 된 위원회 등 회의 출 석 수당 1회 5 만 원 이내( 월 10 만 원을 초 할 과 수 없 다. 회의 시 다과, 음료, 식비 등 회의 1회 1인 당 3 만원이내 / 사. 입주민 등 적격심사 평가자 출 석 수당 1회 5 만원 이내 ③ 관리주체는 운영비 사용규정에 따라 입주자대표회의에서 제출한 사용내역을 매월 도 별",
+    "chair": "회장 직책수당 : 매월 100만 원",
+    "others": "감사 직책수당 : 매월 30만 원 / 이사 직책수당 : 매월 30만 원",
+    "sources": [
+     {
+      "text": "잠실래미안아이파크 관리규약 운영비 조항 (2026-05-15)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001832969&fileSn=0",
+      "code": "A10020294",
+      "bbs": "09",
+      "post": "잠실래미안아이파크 관리규약"
+     }
+    ],
+    "as_of": "2026-05-15",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "dining": {
     "operator_selection": "1. 조식업체 선정의 건 [찬성 8, 기권 2] / 제고하기 위하여 식당 SSAMS 제한경쟁, 적격심사제, 전자입찰로 선정하기로 함.",
     "hours": null,
@@ -1177,10 +2250,119 @@
    }
   },
   {
+   "name": "잠실레이크팰리스",
+   "sigungu": "송파구",
+   "households": 2678,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 20 만원을 초과할 수 없다) 명예감사(출석 시)1 회 5 만원",
+    "chair": "회장 직책수당 : 매월 80 만원",
+    "others": "감사 직책수당 : 매월 20 만원(임원회의 출석수당 없음) / 총무이사 업무지원수당: 매월 20 만원(임원회의 출석수당 없음) / 이사 업무지원수당 : 매월 10 만원(임원회의 출석수당 없음)",
+    "sources": [
+     {
+      "text": "제8차 관리규약 개정 운영비 조항 (2026-09-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001924630&fileSn=0",
+      "code": "A13822001",
+      "bbs": "09",
+      "post": "제8차 관리규약 개정"
+     }
+    ],
+    "as_of": "2026-09-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실르엘",
+   "sigungu": "송파구",
+   "households": 1865,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 10 만원(1 회당 최대 10 만원 이내로 하되, 월 20 만원을 초과할 수 없고, 동별대표자의 사퇴 등으로 구성원 과반수가 되지 않을 경우에도 회의가 개최될 경우 출 / 구성원 과반수가 되지 않을 경우에도 회의가 개최될 경우 출석수당을 지급할 수 있다.)",
+    "chair": "회장 직책수당 : 매월 50 만원 한도 내(직책수당은 제 19 조제 5 항에 따른 대행자에게 지급할 수 있으나, 대행자 본래의",
+    "others": "감사 직책수당 : 매월 20 만원 한도 내 / 이사 직책수당 : 매월 10 만원 한도 내(총무이사, 기술이사)",
+    "sources": [
+     {
+      "text": "잠실르엘아파트 관리규약 제정입니다. 운영비 조항 (2026-03-06)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001779254&fileSn=0",
+      "code": "A10020230",
+      "bbs": "09",
+      "post": "잠실르엘아파트 관리규약 제정입니다."
+     }
+    ],
+    "as_of": "2026-03-06",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실엘스아파트",
+   "sigungu": "송파구",
+   "households": 5678,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 8 만원(월 16 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 80 만원",
+    "others": "감사 직책수당 : 매월 30 만원",
+    "sources": [
+     {
+      "text": "관리규약(6차개정:2023.11.) 운영비 조항 (2024-01-18)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001250695&fileSn=1",
+      "code": "A13822004",
+      "bbs": "09",
+      "post": "관리규약(6차개정:2023.11.)"
+     }
+    ],
+    "as_of": "2024-01-18",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실올림픽공원아이파크",
+   "sigungu": "송파구",
+   "households": 697,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 15 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30 만원",
+    "others": "감사 직책수당 : 매월 15 만원",
+    "sources": [
+     {
+      "text": "관리규약(22.4.15) 운영비 조항 (2025-09-11)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001652961&fileSn=0",
+      "code": "A10025185",
+      "bbs": "09",
+      "post": "관리규약(22.4.15)"
+     }
+    ],
+    "as_of": "2025-09-11",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "청량리역 롯데캐슬 SKY-L65",
    "sigungu": "동대문구",
    "households": 1425,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 5만 월 10만 수당 1회 원( 원을 초 할 없 과 수 다)",
+    "chair": "회장 직책수당 : 매월 40만 원",
+    "others": "감사 직책수당 : 매월 10만 원",
+    "sources": [
+     {
+      "text": "청량리역 롯데캐슬 SKY-L65 개정 관리규약(2026년 6월 4일 개정) 운영비 조항 (2026-06-08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001850431&fileSn=0",
+      "code": "A10023083",
+      "bbs": "09",
+      "post": "청량리역 롯데캐슬 SKY-L65 개정 관리규약(2026년 6월 4일 개정)"
+     }
+    ],
+    "as_of": "2026-06-08",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": "1. 일요일 헬스장 및 골프장 운영시간은 06:00 ~ 23:00까지로 2026년 2월",
     "fee": null,
@@ -1240,10 +2422,96 @@
    }
   },
   {
+   "name": "태릉해링턴플레이스",
+   "sigungu": "노원구",
+   "households": 1308,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 10만원(월 20만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 30만원",
+    "sources": [
+     {
+      "text": "2024년 관리규약 (개정) 운영비 조항 (2024-06-10)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001354419&fileSn=0",
+      "code": "A10023991",
+      "bbs": "09",
+      "post": "2024년 관리규약 (개정)"
+     }
+    ],
+    "as_of": "2024-06-10",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "파크리오",
+   "sigungu": "송파구",
+   "households": 6864,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 인당 1 회 10 만원(월 20 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 100 만원",
+    "others": "감사 및 총무이사 직책수당 : 1 인당 매월 30 만원",
+    "sources": [
+     {
+      "text": "파크리오아파트 관리규약 전문개정 2026.06.15 운영비 조항 (2026-06-22)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001860542&fileSn=3",
+      "code": "A13824006",
+      "bbs": "09",
+      "post": "파크리오아파트 관리규약 전문개정 2026.06.15"
+     }
+    ],
+    "as_of": "2026-06-22",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "포레나노원 아파트",
+   "sigungu": "노원구",
+   "households": 1062,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1 회 5 만원(월 10 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 30 만원",
+    "others": "감사,이사 직책수당 : 매월 각 10 만원",
+    "sources": [
+     {
+      "text": "포레나노원 공동주택 관리규약(24.04.02 5차 개정) 운영비 조항 (2024-04-08)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001315858&fileSn=0",
+      "code": "A10024547",
+      "bbs": "09",
+      "post": "포레나노원 공동주택 관리규약(24.04.02 5차 개정)"
+     }
+    ],
+    "as_of": "2024-04-08",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "포레나송파",
    "sigungu": "송파구",
    "households": 1282,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 50만원",
+    "others": "감사 직책수당 : 매월 10만원",
+    "sources": [
+     {
+      "text": "관리규약 운영비 조항 (2025-05-19)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001573338&fileSn=0",
+      "code": "A10024152",
+      "bbs": "09",
+      "post": "관리규약"
+     }
+    ],
+    "as_of": "2025-05-19",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "parking": {
     "visitor_fee": null,
     "per_unit_by_area": "현재 1대 무료, 2대 3만원, 3대 합산하여 23만원인데 주차책정에 과",
@@ -1267,6 +2535,23 @@
    "sigungu": "송파구",
    "households": 9510,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월20만원을 초과할 수 없다)",
+    "chair": "회장 업무추진비 : 매월 100만원",
+    "others": "감사 업무추진비 : 매월 30만원 / 이사 업무추진비 : 매월 30만원",
+    "sources": [
+     {
+      "text": "관리규약 (1차 개정-2026.03.26) 운영비 조항 (2026-03-30)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001798719&fileSn=1",
+      "code": "A10025850",
+      "bbs": "09",
+      "post": "관리규약 (1차 개정-2026.03.26)"
+     }
+    ],
+    "as_of": "2026-03-30",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": null,
@@ -1343,10 +2628,73 @@
    }
   },
   {
+   "name": "힐스테이트 e편한세상 문정아파트",
+   "sigungu": "송파구",
+   "households": null,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당: 1 회 7 만원(월 15 만원을 초과할 수 없다)",
+    "chair": "회장 직책수당: 매월 40 만원",
+    "others": "감사 직책수당: 매월 15 만원",
+    "sources": [
+     {
+      "text": "관리규약 제정본 운영비 조항 (2026-04-21)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001814330&fileSn=0",
+      "code": "A10022403",
+      "bbs": "09",
+      "post": "관리규약 제정본"
+     }
+    ],
+    "as_of": "2026-04-21",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
+   "name": "힐스테이트뉴포레",
+   "sigungu": "관악구",
+   "households": 1143,
+   "auto": true,
+   "allowance": {
+    "attend": "회의 출석수당 : 1회 5만원(월 10만원을 초과할 수 없다)",
+    "chair": "회장 직책수당 : 매월 25만원 / 회장 업무추진비 : 매월 25만원",
+    "others": "감사 직책수당 : 매월 각각 15만원 / 이사 직책수당 : 매월 각각 10만원",
+    "sources": [
+     {
+      "text": "관리규약_20250123 운영비 조항 (2025-01-23)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001497098&fileSn=0",
+      "code": "A10023661",
+      "bbs": "09",
+      "post": "관리규약_20250123"
+     }
+    ],
+    "as_of": "2025-01-23",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   }
+  },
+  {
    "name": "힐스테이트신촌",
    "sigungu": "서대문구",
    "households": 1252,
    "auto": true,
+   "allowance": {
+    "attend": "회의 출 석 : 수당 1회 5 만 원(월 20 만 원을 초 할 과 수 없 다)",
+    "chair": "회장 직책수당 :매 월 30 만 원",
+    "others": "감사 직책수당 :매 월 10 만 / / 이사 직책수당 :매 월 10 만 /",
+    "sources": [
+     {
+      "text": "공동주택 관리규약 운영비 조항 (2024-01-24)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001268382&fileSn=0",
+      "code": "A10024719",
+      "bbs": "09",
+      "post": "공동주택 관리규약"
+     }
+    ],
+    "as_of": "2024-01-24",
+    "checked": null,
+    "auto_run": "2026-10-24"
+   },
    "community": {
     "hours": null,
     "fee": "① 기본운영비 -> 20,000원으로 인상",
