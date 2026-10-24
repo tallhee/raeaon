@@ -145,7 +145,11 @@
   "sigungu": "강남구",
   "households": 1996,
   "code": "A10024216",
-  "use_approval": "2021-07-30"
+  "use_approval": "2021-07-30",
+  "address": "서울특별시 강남구 영동대로 22",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 15
  },
  "잠실래미안아이파크": {
   "name": "잠실래미안아이파크",
@@ -188,7 +192,9 @@
   "sigungu": "강남구",
   "households": 1703,
   "code": "A10023547",
-  "use_approval": "2022-10-31"
+  "use_approval": "2022-10-31",
+  "hh_checked": true,
+  "dong_count": 12
  },
  "고척아이파크MD": {
   "name": "고척아이파크MD",
@@ -967,7 +973,11 @@
   "sigungu": "강동구",
   "households": 1025,
   "code": "A10024421",
-  "use_approval": "2021-02-23"
+  "use_approval": "2021-02-23",
+  "address": "서울시 강동구 아리수로 93가길 70",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 2
  },
  "녹번역e편한세상캐슬": {
   "name": "녹번역e편한세상캐슬",
@@ -1046,7 +1056,11 @@
   "sigungu": "서초구",
   "households": 353,
   "code": "A10025927",
-  "use_approval": "2018-10-29"
+  "use_approval": "2018-10-29",
+  "address": "서울시 서초구 명달로 9길 57",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 5
  },
  "고덕그라시움": {
   "name": "고덕 그라시움 아파트",
@@ -1056,7 +1070,8 @@
   "households": 4932,
   "dong_count": 53,
   "code": "A10025263",
-  "use_approval": "2019-09-27"
+  "use_approval": "2019-09-27",
+  "hh_checked": true
  },
  "힐스테이트신촌": {
   "name": "힐스테이트신촌",
@@ -1123,5 +1138,27 @@
   "dong_count": 8,
   "code": "A10026015",
   "use_approval": "2018-09-21"
+ },
+ "등촌3단지주공": {
+  "name": "등촌3단지주공아파트",
+  "address": "서울특별시 강서구 강서로56나길 37",
+  "sido": "서울특별시",
+  "sigungu": "강서구",
+  "households": 1016,
+  "hh_checked": true,
+  "dong_count": 9,
+  "code": "A15703308",
+  "use_approval": "1995-10-10"
+ },
+ "백련산에스케이뷰아이파크": {
+  "name": "백련산 에스케이뷰 아이파크",
+  "address": "서울시 은평구 응암로 30길 16",
+  "sido": "서울시",
+  "sigungu": "은평구",
+  "households": 1305,
+  "hh_checked": true,
+  "dong_count": 11,
+  "code": "A10025310",
+  "use_approval": "2020-05-21"
  }
 }
