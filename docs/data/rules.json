@@ -94,6 +94,21 @@
      }
     ],
     "checked": "2026-10-24"
+   },
+   "allowance": {
+    "attend": "1회 10만 원(월 20만 원 한도)",
+    "chair": "매월 100만 원(별도로 체크카드 30만 원)",
+    "others": "감사 매월 30만 원, 기술이사 매월 30만 원, 이사 매월 20만 원",
+    "notes": "세후 지급액 기준. 임원회의 출석수당 1회 10만 원(월 20만 원 이내), TFT 회의 수당 1회 5만 원",
+    "sources": [
+     {
+      "text": "잠실리센츠 관리규약 6차 개정(2025.11.27) 제45조(운영비)·제34조의2",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001802386&fileSn=0",
+      "code": "A13822003",
+      "bbs": "09"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
@@ -113,6 +128,22 @@
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001899320&fileSn=0",
       "code": "A13822004",
       "bbs": "03"
+     }
+    ],
+    "checked": "2026-10-24"
+   },
+   "allowance": {
+    "attend": "1회 8만 원(월 16만 원 한도)",
+    "chair": "매월 80만 원",
+    "others": "감사 매월 30만 원(감사보고서 연 4회, 1회 10만 원 추가), 이사 매월 20만 원",
+    "notes": "소위원회 회당 3만 원(총 30만 원 한도), 회의 식비 1인 1만5천 원 이내",
+    "sources": [
+     {
+      "text": "잠실엘스 관리규약(6차 개정, 2023.11) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001250695&fileSn=1",
+      "code": "A13822004",
+      "bbs": "09",
+      "post": "관리규약(6차개정:2023.11.)"
      }
     ],
     "checked": "2026-10-24"
@@ -168,6 +199,22 @@
       "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001192788&fileSn=1",
       "code": "A13824006",
       "bbs": "02"
+     }
+    ],
+    "checked": "2026-10-24"
+   },
+   "allowance": {
+    "attend": "1회 10만 원(월 20만 원 한도)",
+    "chair": "매월 100만 원",
+    "others": "감사·총무이사 각 매월 30만 원",
+    "notes": "임원회의 출석수당 1회 5만 원(월 10만 원 한도). 확인·점검·견학 교통비 등은 실비 보상",
+    "sources": [
+     {
+      "text": "파크리오 관리규약(2026.06.15 전문개정) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001860542&fileSn=3",
+      "code": "A13824006",
+      "bbs": "09",
+      "post": "파크리오아파트 관리규약 전문개정 2026.06.15"
      }
     ],
     "checked": "2026-10-24"
@@ -638,6 +685,22 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "allowance": {
+    "attend": "1회 5만 원(월 15만 원 한도)",
+    "chair": "매월 80만 원",
+    "others": "감사 1인당 매월 20만 원",
+    "notes": "교육비 연 200만 원 이내, 회의 다과 1인 5천 원 이내",
+    "sources": [
+     {
+      "text": "잠실동트리지움 제12차 관리규약(2026.9.29 시행) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001942224&fileSn=0",
+      "code": "A13822002",
+      "bbs": "09",
+      "post": "제12차 관리규약 (시행일 : 2026.9.29.)"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
@@ -656,6 +719,22 @@
      }
     ],
     "checked": "2026-10-16"
+   },
+   "allowance": {
+    "attend": "1회 5만 원(월 15만 원 한도)",
+    "chair": "매월 30만 원",
+    "others": "감사 매월 15만 원",
+    "notes": "교육 참석 시 1인 5만 원 이내, 회의 다과·식비 1인 1만 원 이내",
+    "sources": [
+     {
+      "text": "잠실올림픽공원아이파크 관리규약(2022.4.15) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001652961&fileSn=0",
+      "code": "A10025185",
+      "bbs": "09",
+      "post": "관리규약(22.4.15)"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
@@ -886,6 +965,22 @@
      }
     ],
     "checked": "2026-10-20"
+   },
+   "allowance": {
+    "attend": "1회 5만 원(월 20만 원 한도)",
+    "chair": "매월 30만 원",
+    "others": "감사 매월 10만 원",
+    "notes": null,
+    "sources": [
+     {
+      "text": "대치푸르지오써밋 관리규약(2차 개정, 2026.06.30) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001871471&fileSn=0",
+      "code": "A10023162",
+      "bbs": "09",
+      "post": "대치푸르지오써밋 공동주택관리규약(2차개정_20260630)"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
@@ -905,7 +1000,23 @@
     "checked": "2026-10-17"
    },
    "as_of": "회의결과 기준",
-   "households": 499
+   "households": 499,
+   "allowance": {
+    "attend": "1회 5만 원(월 10만 원 한도)",
+    "chair": "매월 40만 원",
+    "others": "감사 1인당 매월 15만 원",
+    "notes": "회의 다과·식비 1인 2만 원 이내",
+    "sources": [
+     {
+      "text": "강남센트럴아이파크 관리규약(1차 개정) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001354112&fileSn=0",
+      "code": "A10023825",
+      "bbs": "09",
+      "post": "강남센트럴아이파크관리규약(1차개정본)"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
   },
   {
    "name": "개포래미안포레스트",
@@ -1230,6 +1341,22 @@
      }
     ],
     "checked": "2026-10-20"
+   },
+   "allowance": {
+    "attend": "1회 5만 원(월 20만 원 한도)",
+    "chair": "업무추진비 매월 100만 원",
+    "others": "감사·이사 업무추진비 각 매월 30만 원",
+    "notes": "임원회의 1회 1만 원. 특별·분과위원회·입찰심사 출석 1회 5만 원(월 10만 원 한도)",
+    "sources": [
+     {
+      "text": "헬리오시티 관리규약(1차 개정, 2026.03.26) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001798719&fileSn=1",
+      "code": "A10025850",
+      "bbs": "09",
+      "post": "관리규약 (1차 개정-2026.03.26)"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
@@ -1346,6 +1473,132 @@
      }
     ],
     "checked": "2026-10-22"
+   },
+   "allowance": {
+    "attend": "1회 8만 원(월 32만 원 한도)",
+    "chair": "매월 50만 원",
+    "others": "감사 매월 30만 원, 이사 매월 20만 원",
+    "notes": null,
+    "sources": [
+     {
+      "text": "디에이치 자이 개포 관리규약 2차 개정 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001785938&fileSn=1",
+      "code": "A10024216",
+      "bbs": "09",
+      "post": "관리규약 2차 개정"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실르엘",
+   "sigungu": "송파구",
+   "households": 1865,
+   "use_approval": "2025-12-30",
+   "allowance": {
+    "attend": "1회 10만 원(월 20만 원 한도)",
+    "chair": "매월 50만 원 한도",
+    "others": "감사 매월 20만 원 한도, 이사(총무·기술) 매월 10만 원 한도",
+    "notes": "구성원 과반수가 안 돼도 회의가 열리면 출석수당 지급 가능. 회장 직책수당은 대행자에게 줄 수 있으나 이중 지급 불가",
+    "sources": [
+     {
+      "text": "잠실르엘 관리규약(제정) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001779254&fileSn=0",
+      "code": "A10020230",
+      "bbs": "09",
+      "post": "잠실르엘아파트 관리규약 제정입니다."
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "올림픽선수기자촌",
+   "sigungu": "송파구",
+   "households": 5540,
+   "use_approval": "1988-06-14",
+   "allowance": {
+    "attend": "1회 5만 원(월 10만 원 한도)",
+    "chair": "매월 90만 원",
+    "others": "감사 매월 30만 원, 총무이사 매월 30만 원, 이사 매월 10만 원",
+    "notes": "임원회의 1회 2만 원, 소위원회 1회 5만 원, 입찰·현장설명회 입회 1회 1만 원",
+    "sources": [
+     {
+      "text": "올림픽선수기자촌 제19차 관리규약 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001501130&fileSn=0",
+      "code": "A13805002",
+      "bbs": "09",
+      "post": "제19차 관리규약(전문)"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "잠실레이크팰리스",
+   "sigungu": "송파구",
+   "households": 2678,
+   "use_approval": "2006-12-28",
+   "allowance": {
+    "attend": "1회 5만 원(월 20만 원 한도)",
+    "chair": "매월 80만 원",
+    "others": "감사 매월 20만 원, 총무이사 업무지원수당 매월 20만 원, 이사 업무지원수당 매월 10만 원",
+    "notes": "명예감사 출석 시 1회 5만 원. 감사·이사는 임원회의 출석수당 없음",
+    "sources": [
+     {
+      "text": "잠실레이크팰리스 제8차 관리규약 개정 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001924630&fileSn=0",
+      "code": "A13822001",
+      "bbs": "09",
+      "post": "제8차 관리규약 개정"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "포레나송파",
+   "sigungu": "송파구",
+   "households": 1282,
+   "use_approval": "2021-08-06",
+   "allowance": {
+    "attend": "1회 5만 원(월 10만 원 한도)",
+    "chair": "매월 50만 원",
+    "others": "감사 매월 10만 원",
+    "notes": "교육비 연 100만 원 이내",
+    "sources": [
+     {
+      "text": "포레나송파 관리규약 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001573338&fileSn=0",
+      "code": "A10024152",
+      "bbs": "09",
+      "post": "관리규약"
+     }
+    ],
+    "checked": "2026-10-24"
+   }
+  },
+  {
+   "name": "힐스테이트 e편한세상 문정",
+   "sigungu": "송파구",
+   "households": null,
+   "use_approval": "2024-08-30",
+   "allowance": {
+    "attend": "1회 7만 원(월 15만 원 한도)",
+    "chair": "매월 40만 원",
+    "others": "감사 매월 15만 원",
+    "notes": "회의 다과·식비 1인 2만 원 이내",
+    "sources": [
+     {
+      "text": "힐스테이트 e편한세상 문정 관리규약(제정본) 제45조(운영비)",
+      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001814330&fileSn=0",
+      "code": "A10022403",
+      "bbs": "09",
+      "post": "관리규약 제정본"
+     }
+    ],
+    "checked": "2026-10-24"
    }
   },
   {
