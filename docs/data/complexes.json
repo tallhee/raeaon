@@ -115,7 +115,12 @@
   "name": "래미안 원페를라",
   "sigungu": "서초구",
   "code": "A10020358",
-  "use_approval": "2025-11-25"
+  "use_approval": "2025-11-25",
+  "address": "서울특별시 서초구 서초대로19길 77",
+  "sido": "서울특별시",
+  "households": 1097,
+  "hh_checked": true,
+  "dong_count": 16
  },
  "래미안라그란데": {
   "name": "래미안라그란데",
@@ -130,7 +135,11 @@
   "sigungu": "강동구",
   "households": 12032,
   "code": "A10021122",
-  "use_approval": "2024-11-25"
+  "use_approval": "2024-11-25",
+  "address": "서울특별시 강동구 양재대로 1300",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 85
  },
  "래미안원펜타스": {
   "name": "래미안원펜타스",
@@ -896,7 +905,12 @@
   "name": "청담르엘",
   "sigungu": "강남구",
   "code": "A10020363",
-  "use_approval": "2025-10-31"
+  "use_approval": "2025-10-31",
+  "address": "서울특별시 강남구 학동로 607",
+  "sido": "서울특별시",
+  "households": 1261,
+  "hh_checked": true,
+  "dong_count": 9
  },
  "청담자이": {
   "name": "청담자이",
@@ -928,7 +942,11 @@
   "sigungu": "서초구",
   "households": 2444,
   "code": "A13776509",
-  "use_approval": "2009-07-14"
+  "use_approval": "2009-07-14",
+  "address": "서울특별시 서초구 반포대로 275",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 28
  },
  "반포리체": {
   "name": "반포리체",
@@ -1160,5 +1178,16 @@
   "dong_count": 11,
   "code": "A10025310",
   "use_approval": "2020-05-21"
+ },
+ "힐스테이트클래시안": {
+  "name": "힐스테이트클래시안아파트",
+  "address": "서울시 영등포구 신길로 28길 9",
+  "sido": "서울시",
+  "sigungu": "영등포구",
+  "households": 1482,
+  "hh_checked": true,
+  "dong_count": 14,
+  "code": "B11115954",
+  "use_approval": "2020-12-28"
  }
 }
