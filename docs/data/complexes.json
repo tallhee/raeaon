@@ -45,7 +45,11 @@
   "sigungu": "송파구",
   "households": 9510,
   "code": "A10025850",
-  "use_approval": "2018-12-28"
+  "use_approval": "2018-12-28",
+  "address": "서울시 송파구 송파대로345",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 84
  },
  "트리마제": {
   "name": "트리마제",
@@ -165,7 +169,11 @@
   "sigungu": "송파구",
   "households": 2678,
   "code": "A10020294",
-  "use_approval": "2025-12-30"
+  "use_approval": "2025-12-30",
+  "address": "서울특별시 송파구 올림픽로 393",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 23
  },
  "래미안솔베뉴": {
   "name": "래미안솔베뉴",
@@ -232,7 +240,10 @@
   "sido": "북서울자이",
   "sigungu": "",
   "code": "A10022391",
-  "use_approval": "2024-08-29"
+  "use_approval": "2024-08-29",
+  "households": 1045,
+  "hh_checked": true,
+  "dong_count": 15
  },
  "상계주공6단지": {
   "name": "상계주공6단지",
@@ -788,7 +799,8 @@
   "households": 2678,
   "dong_count": 25,
   "code": "B11118392",
-  "use_approval": "1995-09-30"
+  "use_approval": "1995-09-30",
+  "hh_checked": true
  },
  "현대썬앤빌테헤란": {
   "name": "현대썬앤빌테헤란",
@@ -917,7 +929,11 @@
   "sigungu": "강남구",
   "households": 708,
   "code": "A13510007",
-  "use_approval": "2011-10-21"
+  "use_approval": "2011-10-21",
+  "address": "서울시 강남구 영동대로 138길12",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 5
  },
  "서초그랑자이": {
   "name": "서초그랑자이",
@@ -984,7 +1000,11 @@
   "sigungu": "강남구",
   "households": 850,
   "code": "A10025823",
-  "use_approval": "2018-11-21"
+  "use_approval": "2018-11-21",
+  "address": "서울시 강남구 개포로110길 50",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 12
  },
  "강동리버스트7단지": {
   "name": "강동 리버스트 7단지 아파트",
@@ -1189,5 +1209,26 @@
   "dong_count": 14,
   "code": "B11115954",
   "use_approval": "2020-12-28"
+ },
+ "성산2차현대": {
+  "name": "성산2차현대",
+  "address": "서울특별시 마포구 성암로7길 3 203-203호",
+  "sido": "서울특별시",
+  "sigungu": "마포구",
+  "households": 282,
+  "hh_checked": true,
+  "dong_count": 3,
+  "code": "A12187703"
+ },
+ "당산삼성래미안": {
+  "name": "당산삼성래미안",
+  "address": "서울시 영등포구 당산로214",
+  "sido": "서울시",
+  "sigungu": "영등포구",
+  "households": 1391,
+  "hh_checked": true,
+  "dong_count": 25,
+  "code": "B11124885",
+  "use_approval": "2003-12-30"
  }
 }

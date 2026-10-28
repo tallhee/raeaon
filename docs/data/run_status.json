@@ -1,39 +1,36 @@
 {
- "ran_at": "2026-10-27T09:36+09:00",
+ "ran_at": "2026-10-28T09:34+09:00",
  "steps": {
   "targets": {
-   "ok": false,
+   "ok": true,
    "complexes": 90,
-   "bids": 75,
-   "contracts": 3669,
-   "errors": [
-    "신길센트럴자이: /bid/privateContractList.do 요청 실패: <urlopen error [Errno 104] Connection reset by peer>",
-    "용산센트럴파크: /bid/bidList.do 요청 실패: Remote end closed connection without response"
-   ]
+   "bids": 79,
+   "contracts": 3681,
+   "errors": []
   },
   "search": {
    "ok": true,
    "keywords": 29,
-   "found": 310,
-   "matched": 202,
+   "found": 318,
+   "matched": 211,
    "errors": []
   },
   "detail": {
    "ok": true,
-   "new": 6,
+   "new": 12,
    "errors": 0
   }
  },
  "complex_errors": [
   "B11125317: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
   "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11119955: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
+  "B11119955: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
   "B11123601: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
  ],
  "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
  "complete": false,
  "totals": {
-  "notices": 576,
-  "complexes": 150
+  "notices": 588,
+  "complexes": 152
  }
 }
