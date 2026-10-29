@@ -19,7 +19,11 @@
   "sigungu": "강북구",
   "households": 1028,
   "code": "A10025241",
-  "use_approval": "2019-09-27"
+  "use_approval": "2019-09-27",
+  "address": "서울시 강북구 오현로 45",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 17
  },
  "덕수궁롯데캐슬": {
   "name": "덕수궁롯데캐슬아파트",
@@ -823,7 +827,10 @@
   "households": 829,
   "dong_count": 11,
   "code": "A10026051",
-  "use_approval": "2018-08-31"
+  "use_approval": "2018-08-31",
+  "address": "서울시 서초구 서초중앙로 220",
+  "sido": "서울시",
+  "hh_checked": true
  },
  "DMC래미안e편한세상": {
   "name": "DMC래미안e편한세상",
@@ -894,7 +901,8 @@
   "households": 6864,
   "dong_count": 66,
   "code": "A13824006",
-  "use_approval": "2008-08-29"
+  "use_approval": "2008-08-29",
+  "hh_checked": true
  },
  "잠실리센츠": {
   "name": "잠실리센츠",
@@ -911,7 +919,11 @@
   "sigungu": "송파구",
   "households": 3696,
   "code": "A13822002",
-  "use_approval": "2007-08-24"
+  "use_approval": "2007-08-24",
+  "address": "서울시 송파구 잠실로 62",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 46
  },
  "청담르엘": {
   "name": "청담르엘",
@@ -1230,5 +1242,46 @@
   "dong_count": 25,
   "code": "B11124885",
   "use_approval": "2003-12-30"
+ },
+ "마포웨스트리버태영데시앙": {
+  "name": "마포 웨스트리버 태영데시앙아파트",
+  "address": "서울시 마포구 서강로3길 32",
+  "sido": "서울시",
+  "sigungu": "마포구",
+  "households": 276,
+  "hh_checked": true,
+  "dong_count": 4,
+  "code": "B11124495"
+ },
+ "개봉현대홈타운2단지": {
+  "name": "개봉현대홈타운2단지",
+  "address": "서울 구로구 개봉동 개봉로20길158",
+  "sido": "서울",
+  "sigungu": "구로구",
+  "households": 964,
+  "hh_checked": true,
+  "dong_count": 11,
+  "code": "A15209206"
+ },
+ "호반써밋개봉": {
+  "name": "호반써밋개봉아파트",
+  "address": "서울시 구로구 고척로22길 36",
+  "sido": "서울시",
+  "sigungu": "구로구",
+  "households": 317,
+  "hh_checked": true,
+  "dong_count": 3,
+  "code": "A10020958"
+ },
+ "꿈의숲아이파크": {
+  "name": "꿈의숲아이파크아파트",
+  "address": "서울 성북구 돌곶이로40길 46",
+  "sido": "서울",
+  "sigungu": "성북구",
+  "households": 1711,
+  "hh_checked": true,
+  "dong_count": 19,
+  "code": "A10024488",
+  "use_approval": "2022-07-13"
  }
 }
