@@ -1283,5 +1283,16 @@
   "dong_count": 19,
   "code": "A10024488",
   "use_approval": "2022-07-13"
+ },
+ "개포래미안포레스트": {
+  "name": "개포래미안포레스트",
+  "address": "서울시 강남구 개포로264 개포래미안포레스트 생활지원센터",
+  "sido": "서울시",
+  "sigungu": "강남구",
+  "households": 2296,
+  "hh_checked": true,
+  "dong_count": 31,
+  "code": "A10024564",
+  "use_approval": "2020-09-28"
  }
 }
