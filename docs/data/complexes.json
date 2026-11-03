@@ -270,7 +270,12 @@
   "name": "메이플자이",
   "sigungu": "서초구",
   "code": "A10020557",
-  "use_approval": "2025-06-27"
+  "use_approval": "2025-06-27",
+  "address": "서울시 서초구 신반포로 251",
+  "sido": "서울시",
+  "households": 3307,
+  "hh_checked": true,
+  "dong_count": 29
  },
  "중계건영3차": {
   "name": "중계건영3차",
@@ -575,7 +580,11 @@
   "sigungu": "서초구",
   "households": 1612,
   "code": "A10027205",
-  "use_approval": "2016-08-30"
+  "use_approval": "2016-08-30",
+  "address": "서울시 서초구 신반포로 15길 19 113동",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 15
  },
  "풍납시티극동": {
   "name": "풍납시티극동",
@@ -693,9 +702,14 @@
  },
  "래미안트윈파크": {
   "name": "래미안트윈파크",
-  "sigungu": "",
+  "sigungu": "동작구",
   "code": "A15606007",
-  "use_approval": "2011-11-04"
+  "use_approval": "2011-11-04",
+  "address": "서울시 동작구 본동 494번지",
+  "sido": "서울시",
+  "households": 523,
+  "hh_checked": true,
+  "dong_count": 5
  },
  "현대멤피스": {
   "name": "현대멤피스아파트",
@@ -1005,7 +1019,11 @@
   "sigungu": "강남구",
   "households": 1957,
   "code": "A10025675",
-  "use_approval": "2019-02-26"
+  "use_approval": "2019-02-26",
+  "address": "서울 강남구 선릉로8 래미안블레스티지 생활지원센타",
+  "sido": "서울",
+  "hh_checked": true,
+  "dong_count": 23
  },
  "래미안개포루체하임": {
   "name": "래미안개포루체하임",
@@ -1294,5 +1312,15 @@
   "dong_count": 31,
   "code": "A10024564",
   "use_approval": "2020-09-28"
+ },
+ "상계극동늘푸른": {
+  "name": "상계극동늘푸른",
+  "address": "서울시 노원구 동일로246길 39",
+  "sido": "서울시",
+  "sigungu": "노원구",
+  "households": 299,
+  "hh_checked": true,
+  "dong_count": 4,
+  "code": "B11124152"
  }
 }
