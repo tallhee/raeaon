@@ -538,7 +538,8 @@
   "households": 5678,
   "dong_count": 72,
   "code": "B11127799",
-  "use_approval": "2008-09-30"
+  "use_approval": "2008-09-30",
+  "hh_checked": true
  },
  "서초삼성래미안": {
   "name": "서초삼성래미안",
