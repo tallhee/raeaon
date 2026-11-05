@@ -1118,7 +1118,11 @@
   "sigungu": "성북구",
   "households": 2033,
   "code": "A10023926",
-  "use_approval": "2022-01-27"
+  "use_approval": "2022-01-27",
+  "address": "서울시 성북구 숭인로8길 80",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 19
  },
  "방배아트자이": {
   "name": "방배아트자이",
@@ -1184,7 +1188,8 @@
   "sigungu": "서대문구",
   "households": 552,
   "dong_count": 8,
-  "code": "A10026604"
+  "code": "A10026604",
+  "hh_checked": true
  },
  "래미안힐스테이트고덕": {
   "name": "래미안힐스테이트 고덕",
@@ -1323,5 +1328,45 @@
   "hh_checked": true,
   "dong_count": 4,
   "code": "B11124152"
+ },
+ "신공덕2차삼성래미안": {
+  "name": "신공덕2차삼성래미안",
+  "households": 458,
+  "hh_checked": true,
+  "dong_count": 7,
+  "code": "B11126266"
+ },
+ "신내6단지": {
+  "name": "신내6단지",
+  "address": "서울시 중랑구 신내로19길 42",
+  "sido": "서울시",
+  "sigungu": "중랑구",
+  "households": 1609,
+  "hh_checked": true,
+  "dong_count": 16,
+  "code": "B11127006",
+  "use_approval": "1996-03-13"
+ },
+ "잠실레이크팰리스": {
+  "name": "잠실레이크팰리스",
+  "address": "서울 송파구 잠실로 88 (잠실동 44) 레이크팰리스아파트 관리사무소",
+  "sido": "서울",
+  "sigungu": "송파구",
+  "households": 2678,
+  "hh_checked": true,
+  "dong_count": 35,
+  "code": "A13822001",
+  "use_approval": "2006-12-28"
+ },
+ "목동센트럴아이파크위브": {
+  "name": "목동 센트럴 아이파크위브 아파트",
+  "address": "서울특별시양천구남부순환로83길18",
+  "sido": "서울특별시양천구남부순환로83길18",
+  "sigungu": "양천구",
+  "households": 3045,
+  "hh_checked": true,
+  "dong_count": 35,
+  "code": "A10024872",
+  "use_approval": "2020-05-28"
  }
 }
