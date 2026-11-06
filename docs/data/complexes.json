@@ -1368,5 +1368,16 @@
   "dong_count": 35,
   "code": "A10024872",
   "use_approval": "2020-05-28"
+ },
+ "고덕아르테온": {
+  "name": "고덕 아르테온 아파트",
+  "address": "서울 강동구 고덕로 360 고덕 아르테온아파트",
+  "sido": "서울",
+  "sigungu": "강동구",
+  "households": 4066,
+  "hh_checked": true,
+  "dong_count": 41,
+  "code": "A10025010",
+  "use_approval": "2020-02-26"
  }
 }
