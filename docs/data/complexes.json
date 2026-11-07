@@ -105,7 +105,8 @@
   "households": 503,
   "dong_count": 10,
   "code": "A12012101",
-  "use_approval": "2005-10-26"
+  "use_approval": "2005-10-26",
+  "hh_checked": true
  },
  "한남더힐": {
   "name": "한남더힐",
