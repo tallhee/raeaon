@@ -464,10 +464,14 @@
  },
  "용산센트럴파크": {
   "name": "용산센트럴파크",
-  "sigungu": "",
+  "sigungu": "용산구",
   "households": 1334,
   "code": "A10024691",
-  "use_approval": "2020-08-20"
+  "use_approval": "2020-08-20",
+  "address": "서울 용산구 한강로3가 63-70",
+  "sido": "서울",
+  "hh_checked": true,
+  "dong_count": 5
  },
  "신내엘지쌍용": {
   "name": "신내엘지쌍용",
