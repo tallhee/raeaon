@@ -88,7 +88,11 @@
   "sigungu": "강남구",
   "households": 1320,
   "code": "A10025203",
-  "use_approval": "2019-08-29"
+  "use_approval": "2019-08-29",
+  "address": "서울특별시 강남구 삼성로 11",
+  "sido": "서울특별시",
+  "hh_checked": true,
+  "dong_count": 23
  },
  "청량리역한양수자인그라시엘": {
   "name": "청량리역 한양수자인 그라시엘",
@@ -1384,5 +1388,38 @@
   "dong_count": 41,
   "code": "A10025010",
   "use_approval": "2020-02-26"
+ },
+ "월계청백1단지": {
+  "name": "월계청백1단지",
+  "address": "서울 노원구 초안산로 89",
+  "sido": "서울",
+  "sigungu": "노원구",
+  "households": 1147,
+  "hh_checked": true,
+  "dong_count": 8,
+  "code": "A13985106",
+  "use_approval": "1998-07-14"
+ },
+ "래미안크레시티": {
+  "name": "래미안크레시티",
+  "address": "서울시 동대문구 사가정로 65",
+  "sido": "서울시",
+  "sigungu": "동대문구",
+  "households": 2397,
+  "hh_checked": true,
+  "dong_count": 31,
+  "code": "A13071302",
+  "use_approval": "2014-10-23"
+ },
+ "e편한세상신촌": {
+  "name": "e편한세상신촌아파트",
+  "address": "서울특별시 서대문구 북아현로1길 17",
+  "sido": "서울특별시",
+  "sigungu": "서대문구",
+  "households": 1910,
+  "hh_checked": true,
+  "dong_count": 22,
+  "code": "A10026370",
+  "use_approval": "2018-05-03"
  }
 }
