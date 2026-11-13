@@ -1436,5 +1436,31 @@
   "dong_count": 16,
   "code": "A15780806",
   "use_approval": "1992-11-30"
+ },
+ "한화포레나미아": {
+  "name": "한화포레나미아아파트",
+  "address": "서울특별시 강북구 솔샘로53길 21 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "강북구"
+ },
+ "상계조합대림": {
+  "name": "상계조합대림",
+  "address": "서울시 노원구 상계로 193-14",
+  "sido": "서울시",
+  "sigungu": "노원구",
+  "households": 675,
+  "hh_checked": true,
+  "dong_count": 5,
+  "code": "B11123853"
+ },
+ "수서한아름": {
+  "name": "수서한아름",
+  "address": "서울특별시 강남구 광평로51길 22 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "강남구",
+  "households": 498,
+  "hh_checked": true,
+  "dong_count": 7,
+  "code": "B11122576"
  }
 }
