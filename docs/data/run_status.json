@@ -1,23 +1,23 @@
 {
- "ran_at": "2026-11-13T10:58+09:00",
+ "ran_at": "2026-11-14T10:29+09:00",
  "steps": {
   "targets": {
    "ok": true,
    "complexes": 90,
-   "bids": 89,
-   "contracts": 3871,
+   "bids": 92,
+   "contracts": 3881,
    "errors": []
   },
   "search": {
    "ok": true,
    "keywords": 29,
-   "found": 332,
-   "matched": 220,
+   "found": 334,
+   "matched": 222,
    "errors": []
   },
   "detail": {
    "ok": true,
-   "new": 7,
+   "new": 3,
    "errors": 0
   }
  },
@@ -30,7 +30,7 @@
  "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
  "complete": false,
  "totals": {
-  "notices": 670,
+  "notices": 673,
   "complexes": 170
  }
 }
