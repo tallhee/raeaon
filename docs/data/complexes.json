@@ -4,7 +4,11 @@
   "sigungu": "서대문구",
   "households": 1116,
   "code": "A10023959",
-  "use_approval": "2024-03-27"
+  "use_approval": "2024-03-27",
+  "address": "서울시 서대문구 세무서8길 30",
+  "sido": "서울시",
+  "hh_checked": true,
+  "dong_count": 18
  },
  "힐스테이트서울숲리버": {
   "name": "힐스테이트서울숲리버",
@@ -1026,7 +1030,9 @@
   "sigungu": "강남구",
   "code": "A10023825",
   "households": 499,
-  "use_approval": "2022-04-28"
+  "use_approval": "2022-04-28",
+  "hh_checked": true,
+  "dong_count": 5
  },
  "래미안블레스티지": {
   "name": "래미안블레스티지",
@@ -1462,5 +1468,13 @@
   "hh_checked": true,
   "dong_count": 7,
   "code": "B11122576"
+ },
+ "힐스테이트메디알레": {
+  "name": "힐스테이트메디알레",
+  "address": "서울 은평구 역말로 150 (대조동, 힐스테이트메디알레)",
+  "sido": "서울",
+  "sigungu": "은평구",
+  "households": 2451,
+  "use_approval": "2026-10-30"
  }
 }
