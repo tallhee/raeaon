@@ -1476,5 +1476,16 @@
   "sigungu": "은평구",
   "households": 2451,
   "use_approval": "2026-10-30"
+ },
+ "방배그랑자이": {
+  "name": "방배그랑자이아파트",
+  "address": "서울시 서초구 방배로 21",
+  "sido": "서울시",
+  "sigungu": "서초구",
+  "households": 758,
+  "hh_checked": true,
+  "dong_count": 8,
+  "code": "B11118660",
+  "use_approval": "2021-07-23"
  }
 }
