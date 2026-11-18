@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:05+09:00",
+ "updated": "2026-11-19T07:47+09:00",
  "topics": {
   "ltr": "장기수선충당금·계획",
   "parking": "주차",
@@ -6329,6 +6329,33 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001447715&fileSn=1"
     }
    ]
+  },
+  {
+   "nttId": "3083502",
+   "category": "",
+   "title": "2026년 관리규약 개정 제안서 (3단 비교표)",
+   "date": "2026-11-18",
+   "first_file": [
+    [
+     "FILE_000000001976943",
+     "0"
+    ]
+   ],
+   "code": "A10024488",
+   "complex": "꿈의숲아이파크아파트",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001976943",
+     "fileSn": "1",
+     "name": "261118_관리규약 개정에 관한 공지.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001976943&fileSn=1",
+     "method": "pdf-text",
+     "chars": 533,
+     "text_path": "bylaws_text/A10024488/3083502_1.txt"
+    }
+   ],
+   "status": "done",
+   "clauses": []
   },
   {
    "nttId": "2282642",
@@ -25852,6 +25879,33 @@
      "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001944887&fileSn=1"
     }
    ]
+  },
+  {
+   "nttId": "3083061",
+   "category": "",
+   "title": "[3차 개정] 관리규약 회의록 및 회의자료 첨부",
+   "date": "2026-11-17",
+   "first_file": [
+    [
+     "FILE_000000001976433",
+     "0"
+    ]
+   ],
+   "code": "A10024691",
+   "complex": "용산센트럴파크",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001976433",
+     "fileSn": "1",
+     "name": "8월 회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001976433&fileSn=1",
+     "method": "pdf-ocr(2쪽)",
+     "chars": 1684,
+     "text_path": "bylaws_text/A10024691/3083061_1.txt"
+    }
+   ],
+   "status": "done",
+   "clauses": []
   },
   {
    "nttId": "2746975",

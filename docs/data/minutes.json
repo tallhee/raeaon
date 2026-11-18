@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:30+09:00",
+ "updated": "2026-11-19T07:18+09:00",
  "topics": {
   "parking": "주차",
   "community": "커뮤니티",
@@ -915,30 +915,16 @@
    "pinned": false
   },
   {
-   "name": "LH서울양원1단지",
-   "code": "A10023816",
-   "sigungu": "중랑구",
-   "dong": "망우동",
+   "name": "래미안퍼스트하이",
+   "code": "A10025245",
+   "sigungu": "성북구",
+   "dong": "장위동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1216,
-   "use_approval": "2022-01-24",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "용산센트럴파크",
-   "code": "A10024691",
-   "sigungu": null,
-   "dong": null,
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1334,
-   "use_approval": "2020-08-20",
+   "households": 1562,
+   "use_approval": "2020-11-03",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -957,30 +943,16 @@
    "pinned": false
   },
   {
-   "name": "포레나노원 아파트",
-   "code": "A10024547",
-   "sigungu": "노원구",
-   "dong": "상계동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1062,
-   "use_approval": "2020-11-25",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "청량리역 롯데캐슬 SKY-L65",
-   "code": "A10023083",
+   "name": "이문아이파크자이",
+   "code": "A10020344",
    "sigungu": "동대문구",
-   "dong": "전농동",
+   "dong": "이문동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1425,
-   "use_approval": "2023-07-12",
+   "households": 4169,
+   "use_approval": "2025-11-27",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -999,44 +971,16 @@
    "pinned": false
   },
   {
-   "name": "마포더클래시",
-   "code": "A10023508",
-   "sigungu": "마포구",
-   "dong": "아현동",
+   "name": "홍제역 해링턴플레이스아파트",
+   "code": "A10023959",
+   "sigungu": "서대문구",
+   "dong": "홍제동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1419,
-   "use_approval": "2022-11-29",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트메디알레아파트",
-   "code": "A10019865",
-   "sigungu": "은평구",
-   "dong": "대조동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 2451,
-   "use_approval": "2026-10-30",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트뉴포레",
-   "code": "A10023661",
-   "sigungu": "관악구",
-   "dong": "신림동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1143,
-   "use_approval": "2022-08-29",
+   "households": 1116,
+   "use_approval": "2024-03-27",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1055,76 +999,6 @@
    "pinned": false
   },
   {
-   "name": "꿈의숲아이파크아파트",
-   "code": "A10024488",
-   "sigungu": "성북구",
-   "dong": "장위동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1711,
-   "use_approval": "2022-07-13",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "용산 베르디움 프렌즈",
-   "code": "A10024333",
-   "sigungu": null,
-   "dong": null,
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1086,
-   "use_approval": "2021-03-05",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "태릉해링턴플레이스",
-   "code": "A10023991",
-   "sigungu": "노원구",
-   "dong": "공릉동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1308,
-   "use_approval": "2022-01-18",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마포그랑자이아파트",
-   "code": "A10025003",
-   "sigungu": "마포구",
-   "dong": "대흥동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1248,
-   "use_approval": "2020-02-21",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "마곡엠밸리9단지",
-   "code": "A10024426",
-   "sigungu": "강서구",
-   "dong": "마곡동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1529,
-   "use_approval": "2021-02-15",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
    "name": "힐스테이트클래시안아파트",
    "code": "A10024615",
    "sigungu": "영등포구",
@@ -1139,86 +1013,30 @@
    "pinned": false
   },
   {
-   "name": "신길센트럴자이",
-   "code": "A10025024",
-   "sigungu": "영등포구",
-   "dong": "신길동",
+   "name": "포레나노원 아파트",
+   "code": "A10024547",
+   "sigungu": "노원구",
+   "dong": "상계동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1008,
-   "use_approval": "2021-04-13",
+   "households": 1062,
+   "use_approval": "2020-11-25",
    "region": "그 외 서울 신축",
    "pinned": false
   },
   {
-   "name": "DMC SKVIEW 아이파크포레",
-   "code": "A10023076",
-   "sigungu": "은평구",
-   "dong": "수색동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1482,
-   "use_approval": "2023-07-31",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "래미안퍼스트하이",
-   "code": "A10025245",
+   "name": "꿈의숲아이파크아파트",
+   "code": "A10024488",
    "sigungu": "성북구",
    "dong": "장위동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1562,
-   "use_approval": "2020-11-03",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "사가정 센트럴 아이파크 아파트",
-   "code": "A10024741",
-   "sigungu": "중랑구",
-   "dong": "면목동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1505,
-   "use_approval": "2020-07-30",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "힐스테이트신촌",
-   "code": "A10024719",
-   "sigungu": "서대문구",
-   "dong": "북아현동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 1252,
-   "use_approval": "2020-08-04",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "이문아이파크자이",
-   "code": "A10020344",
-   "sigungu": "동대문구",
-   "dong": "이문동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 4169,
-   "use_approval": "2025-11-27",
+   "households": 1711,
+   "use_approval": "2022-07-13",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1237,30 +1055,16 @@
    "pinned": false
   },
   {
-   "name": "홍제역 해링턴플레이스아파트",
-   "code": "A10023959",
+   "name": "힐스테이트신촌",
+   "code": "A10024719",
    "sigungu": "서대문구",
-   "dong": "홍제동",
+   "dong": "북아현동",
    "home": null,
    "groups": [
     "seoul_new"
    ],
-   "households": 1116,
-   "use_approval": "2024-03-27",
-   "region": "그 외 서울 신축",
-   "pinned": false
-  },
-  {
-   "name": "목동 센트럴 아이파크위브 아파트",
-   "code": "A10024872",
-   "sigungu": "양천구",
-   "dong": "신월동",
-   "home": null,
-   "groups": [
-    "seoul_new"
-   ],
-   "households": 3045,
-   "use_approval": "2020-05-28",
+   "households": 1252,
+   "use_approval": "2020-08-04",
    "region": "그 외 서울 신축",
    "pinned": false
   },
@@ -1279,6 +1083,62 @@
    "pinned": false
   },
   {
+   "name": "힐스테이트뉴포레",
+   "code": "A10023661",
+   "sigungu": "관악구",
+   "dong": "신림동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1143,
+   "use_approval": "2022-08-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "목동 센트럴 아이파크위브 아파트",
+   "code": "A10024872",
+   "sigungu": "양천구",
+   "dong": "신월동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 3045,
+   "use_approval": "2020-05-28",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "용산 베르디움 프렌즈",
+   "code": "A10024333",
+   "sigungu": null,
+   "dong": null,
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1086,
+   "use_approval": "2021-03-05",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "힐스테이트메디알레아파트",
+   "code": "A10019865",
+   "sigungu": "은평구",
+   "dong": "대조동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 2451,
+   "use_approval": "2026-10-30",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
    "name": "롯데캐슬클라시아",
    "code": "A10023926",
    "sigungu": "성북구",
@@ -1291,13 +1151,153 @@
    "use_approval": "2022-01-27",
    "region": "그 외 서울 신축",
    "pinned": false
+  },
+  {
+   "name": "용산센트럴파크",
+   "code": "A10024691",
+   "sigungu": null,
+   "dong": null,
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1334,
+   "use_approval": "2020-08-20",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포더클래시",
+   "code": "A10023508",
+   "sigungu": "마포구",
+   "dong": "아현동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1419,
+   "use_approval": "2022-11-29",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "신길센트럴자이",
+   "code": "A10025024",
+   "sigungu": "영등포구",
+   "dong": "신길동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1008,
+   "use_approval": "2021-04-13",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마곡엠밸리9단지",
+   "code": "A10024426",
+   "sigungu": "강서구",
+   "dong": "마곡동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1529,
+   "use_approval": "2021-02-15",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "태릉해링턴플레이스",
+   "code": "A10023991",
+   "sigungu": "노원구",
+   "dong": "공릉동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1308,
+   "use_approval": "2022-01-18",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "청량리역 롯데캐슬 SKY-L65",
+   "code": "A10023083",
+   "sigungu": "동대문구",
+   "dong": "전농동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1425,
+   "use_approval": "2023-07-12",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "LH서울양원1단지",
+   "code": "A10023816",
+   "sigungu": "중랑구",
+   "dong": "망우동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1216,
+   "use_approval": "2022-01-24",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "마포그랑자이아파트",
+   "code": "A10025003",
+   "sigungu": "마포구",
+   "dong": "대흥동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1248,
+   "use_approval": "2020-02-21",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "DMC SKVIEW 아이파크포레",
+   "code": "A10023076",
+   "sigungu": "은평구",
+   "dong": "수색동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1482,
+   "use_approval": "2023-07-31",
+   "region": "그 외 서울 신축",
+   "pinned": false
+  },
+  {
+   "name": "사가정 센트럴 아이파크 아파트",
+   "code": "A10024741",
+   "sigungu": "중랑구",
+   "dong": "면목동",
+   "home": null,
+   "groups": [
+    "seoul_new"
+   ],
+   "households": 1505,
+   "use_approval": "2020-07-30",
+   "region": "그 외 서울 신축",
+   "pinned": false
   }
  ],
  "terms": [
   {
    "term": "승강기",
    "n": 66,
-   "count": 817,
+   "count": 828,
    "first": "2024-08-09",
    "first_cx": "고덕 그라시움 아파트",
    "home": true
@@ -1305,15 +1305,15 @@
   {
    "term": "재계약",
    "n": 66,
-   "count": 806,
+   "count": 808,
    "first": "2024-08-08",
    "first_cx": "홍제역 해링턴플레이스아파트",
    "home": true
   },
   {
    "term": "투표",
-   "n": 59,
-   "count": 369,
+   "n": 60,
+   "count": 373,
    "first": "2024-08-08",
    "first_cx": "잠실동트리지움",
    "home": true
@@ -1321,7 +1321,7 @@
   {
    "term": "관리규약",
    "n": 58,
-   "count": 332,
+   "count": 333,
    "first": "2024-08-13",
    "first_cx": "DMC SKVIEW 아이파크포레",
    "home": false
@@ -1329,7 +1329,7 @@
   {
    "term": "장기수선충당금",
    "n": 57,
-   "count": 494,
+   "count": 499,
    "first": "2024-08-09",
    "first_cx": "힐스테이트신촌",
    "home": false
@@ -1337,7 +1337,7 @@
   {
    "term": "입주자등",
    "n": 56,
-   "count": 195,
+   "count": 197,
    "first": "2024-08-08",
    "first_cx": "잠실동트리지움",
    "home": false
@@ -1345,7 +1345,7 @@
   {
    "term": "예산",
    "n": 53,
-   "count": 179,
+   "count": 180,
    "first": "2024-08-22",
    "first_cx": "롯데캐슬클라시아",
    "home": false
@@ -1353,7 +1353,7 @@
   {
    "term": "커뮤니티",
    "n": 51,
-   "count": 700,
+   "count": 712,
    "first": "2024-08-08",
    "first_cx": "홍제역 해링턴플레이스아파트",
    "home": false
@@ -1361,7 +1361,7 @@
   {
    "term": "관리비",
    "n": 51,
-   "count": 536,
+   "count": 538,
    "first": "2024-08-13",
    "first_cx": "고덕센트럴 아이파크",
    "home": true
@@ -1369,7 +1369,7 @@
   {
    "term": "임원",
    "n": 51,
-   "count": 183,
+   "count": 185,
    "first": "2024-08-09",
    "first_cx": "마포그랑자이아파트",
    "home": false
@@ -1377,7 +1377,7 @@
   {
    "term": "동별대표자",
    "n": 48,
-   "count": 316,
+   "count": 320,
    "first": "2024-08-16",
    "first_cx": "래미안 목동아델리체",
    "home": false
@@ -1385,7 +1385,7 @@
   {
    "term": "선거관리위원회",
    "n": 48,
-   "count": 129,
+   "count": 131,
    "first": "2024-08-21",
    "first_cx": "아크로리버뷰 신반포",
    "home": true
@@ -1393,7 +1393,7 @@
   {
    "term": "장기수선계획",
    "n": 47,
-   "count": 174,
+   "count": 177,
    "first": "2024-08-12",
    "first_cx": "반포래미안아이파크",
    "home": false
@@ -1401,7 +1401,7 @@
   {
    "term": "지하주차장",
    "n": 45,
-   "count": 135,
+   "count": 137,
    "first": "2024-08-28",
    "first_cx": "힐스테이트신촌",
    "home": true
@@ -1415,6 +1415,22 @@
    "home": true
   },
   {
+   "term": "주택관리업자",
+   "n": 43,
+   "count": 177,
+   "first": "2024-08-08",
+   "first_cx": "잠실동트리지움",
+   "home": true
+  },
+  {
+   "term": "전기차",
+   "n": 43,
+   "count": 126,
+   "first": "2024-08-21",
+   "first_cx": "신길센트럴자이",
+   "home": false
+  },
+  {
    "term": "저수조",
    "n": 43,
    "count": 94,
@@ -1425,58 +1441,58 @@
   {
    "term": "기계설비",
    "n": 43,
-   "count": 76,
+   "count": 77,
    "first": "2024-08-28",
    "first_cx": "포레나노원 아파트",
    "home": false
   },
   {
-   "term": "주택관리업자",
-   "n": 42,
-   "count": 176,
-   "first": "2024-08-08",
-   "first_cx": "잠실동트리지움",
-   "home": true
-  },
-  {
    "term": "일정",
    "n": 42,
-   "count": 139,
+   "count": 141,
    "first": "2024-08-21",
    "first_cx": "이편한세상 송파파크센트럴",
    "home": true
   },
   {
-   "term": "전기차",
-   "n": 42,
-   "count": 122,
-   "first": "2024-08-21",
-   "first_cx": "신길센트럴자이",
-   "home": false
-  },
-  {
    "term": "소방시설",
    "n": 42,
-   "count": 102,
+   "count": 104,
    "first": "2024-09-24",
    "first_cx": "신길센트럴자이",
    "home": true
   },
   {
+   "term": "선거구",
+   "n": 41,
+   "count": 178,
+   "first": "2024-08-13",
+   "first_cx": "DMC SKVIEW 아이파크포레",
+   "home": true
+  },
+  {
    "term": "선거",
    "n": 41,
-   "count": 161,
+   "count": 166,
    "first": "2024-08-13",
    "first_cx": "DMC SKVIEW 아이파크포레",
    "home": false
   },
   {
-   "term": "선거구",
+   "term": "개표",
    "n": 40,
-   "count": 173,
-   "first": "2024-08-13",
-   "first_cx": "DMC SKVIEW 아이파크포레",
-   "home": true
+   "count": 216,
+   "first": "2024-08-19",
+   "first_cx": "청량리역 한양수자인 그라시엘",
+   "home": false
+  },
+  {
+   "term": "용역업체",
+   "n": 40,
+   "count": 150,
+   "first": "2024-09-02",
+   "first_cx": "디에이치반포라클라스",
+   "home": false
   },
   {
    "term": "운영규정",
@@ -1484,6 +1500,14 @@
    "count": 111,
    "first": "2024-09-02",
    "first_cx": "고덕롯데캐슬베네루체",
+   "home": true
+  },
+  {
+   "term": "조경",
+   "n": 40,
+   "count": 97,
+   "first": "2024-08-23",
+   "first_cx": "강동리버스트4단지",
    "home": true
   },
   {
@@ -1503,49 +1527,25 @@
    "home": true
   },
   {
-   "term": "개표",
-   "n": 39,
-   "count": 213,
-   "first": "2024-08-19",
-   "first_cx": "청량리역 한양수자인 그라시엘",
-   "home": false
-  },
-  {
-   "term": "용역업체",
-   "n": 39,
-   "count": 149,
-   "first": "2024-09-02",
-   "first_cx": "디에이치반포라클라스",
-   "home": false
-  },
-  {
    "term": "주차장",
    "n": 39,
-   "count": 139,
+   "count": 140,
    "first": "2024-08-08",
    "first_cx": "홍제역 해링턴플레이스아파트",
    "home": true
   },
   {
-   "term": "조경",
-   "n": 39,
-   "count": 96,
-   "first": "2024-08-23",
-   "first_cx": "강동리버스트4단지",
-   "home": true
-  },
-  {
    "term": "입주자",
    "n": 38,
-   "count": 119,
+   "count": 122,
    "first": "2024-08-21",
    "first_cx": "청량리역 롯데캐슬 SKY-L65",
    "home": false
   },
   {
    "term": "보험",
-   "n": 37,
-   "count": 74,
+   "n": 38,
+   "count": 75,
    "first": "2024-10-23",
    "first_cx": "래미안개포루체하임",
    "home": false
@@ -1553,7 +1553,7 @@
   {
    "term": "사우나",
    "n": 36,
-   "count": 190,
+   "count": 191,
    "first": "2024-08-26",
    "first_cx": "고덕자이 아파트",
    "home": false
@@ -1561,7 +1561,7 @@
   {
    "term": "에어컨",
    "n": 36,
-   "count": 136,
+   "count": 138,
    "first": "2024-11-01",
    "first_cx": "고덕롯데캐슬베네루체",
    "home": false
@@ -1585,7 +1585,7 @@
   {
    "term": "확인",
    "n": 35,
-   "count": 106,
+   "count": 109,
    "first": "2024-09-23",
    "first_cx": "래미안 신반포 리오센트",
    "home": false
@@ -1609,7 +1609,7 @@
   {
    "term": "동별 대표자",
    "n": 34,
-   "count": 192,
+   "count": 196,
    "first": "2024-08-21",
    "first_cx": "이편한세상 송파파크센트럴",
    "home": true
@@ -1639,6 +1639,14 @@
    "home": true
   },
   {
+   "term": "방법",
+   "n": 33,
+   "count": 71,
+   "first": "2024-08-23",
+   "first_cx": "원베일리",
+   "home": true
+  },
+  {
    "term": "소방",
    "n": 33,
    "count": 61,
@@ -1657,7 +1665,7 @@
   {
    "term": "사업계획",
    "n": 32,
-   "count": 125,
+   "count": 127,
    "first": "2024-10-23",
    "first_cx": "태릉해링턴플레이스",
    "home": false
@@ -1673,18 +1681,10 @@
   {
    "term": "정화조",
    "n": 32,
-   "count": 78,
+   "count": 79,
    "first": "2024-08-21",
    "first_cx": "신길센트럴자이",
    "home": false
-  },
-  {
-   "term": "방법",
-   "n": 32,
-   "count": 69,
-   "first": "2024-08-23",
-   "first_cx": "원베일리",
-   "home": true
   },
   {
    "term": "회계감사",
@@ -1697,7 +1697,7 @@
   {
    "term": "수의계약",
    "n": 31,
-   "count": 155,
+   "count": 157,
    "first": "2024-08-22",
    "first_cx": "롯데캐슬클라시아",
    "home": false
@@ -1721,7 +1721,7 @@
   {
    "term": "경로당",
    "n": 30,
-   "count": 115,
+   "count": 116,
    "first": "2024-08-21",
    "first_cx": "신길센트럴자이",
    "home": false
@@ -1729,15 +1729,23 @@
   {
    "term": "헬스장",
    "n": 30,
-   "count": 91,
+   "count": 93,
    "first": "2024-09-25",
    "first_cx": "방배그랑자이아파트",
    "home": false
   },
   {
+   "term": "식재",
+   "n": 30,
+   "count": 58,
+   "first": "2024-09-24",
+   "first_cx": "신길센트럴자이",
+   "home": true
+  },
+  {
    "term": "부품",
    "n": 29,
-   "count": 278,
+   "count": 279,
    "first": "2024-08-30",
    "first_cx": "마포그랑자이아파트",
    "home": false
@@ -1775,9 +1783,17 @@
    "home": true
   },
   {
+   "term": "등록",
+   "n": 29,
+   "count": 82,
+   "first": "2024-08-13",
+   "first_cx": "DMC SKVIEW 아이파크포레",
+   "home": true
+  },
+  {
    "term": "유지보수",
    "n": 29,
-   "count": 80,
+   "count": 81,
    "first": "2024-09-05",
    "first_cx": "방배아트자이",
    "home": true
@@ -1807,17 +1823,9 @@
    "home": false
   },
   {
-   "term": "식재",
-   "n": 29,
-   "count": 57,
-   "first": "2024-09-24",
-   "first_cx": "신길센트럴자이",
-   "home": true
-  },
-  {
    "term": "차량",
    "n": 29,
-   "count": 51,
+   "count": 53,
    "first": "2024-08-23",
    "first_cx": "강동리버스트4단지",
    "home": false
@@ -1825,7 +1833,7 @@
   {
    "term": "월분 관리비",
    "n": 28,
-   "count": 241,
+   "count": 242,
    "first": "2024-08-22",
    "first_cx": "롯데캐슬클라시아",
    "home": false
@@ -1833,7 +1841,7 @@
   {
    "term": "분기",
    "n": 28,
-   "count": 178,
+   "count": 180,
    "first": "2024-08-21",
    "first_cx": "신길센트럴자이",
    "home": false
@@ -1847,17 +1855,9 @@
    "home": false
   },
   {
-   "term": "등록",
-   "n": 28,
-   "count": 81,
-   "first": "2024-08-13",
-   "first_cx": "DMC SKVIEW 아이파크포레",
-   "home": true
-  },
-  {
    "term": "결산서",
    "n": 28,
-   "count": 78,
+   "count": 79,
    "first": "2024-08-26",
    "first_cx": "고덕자이 아파트",
    "home": false
@@ -1913,7 +1913,7 @@
   {
    "term": "하자보수",
    "n": 27,
-   "count": 103,
+   "count": 107,
    "first": "2024-08-30",
    "first_cx": "대치푸르지오써밋",
    "home": false
@@ -1921,7 +1921,7 @@
   {
    "term": "외벽",
    "n": 27,
-   "count": 92,
+   "count": 94,
    "first": "2024-08-30",
    "first_cx": "디에이치 자이 개포",
    "home": false
@@ -1929,13 +1929,591 @@
   {
    "term": "라인",
    "n": 27,
-   "count": 92,
+   "count": 93,
    "first": "2024-09-24",
    "first_cx": "신길센트럴자이",
    "home": true
   }
  ],
  "items": [
+  {
+   "nttId": "3084173",
+   "category": "회의결과",
+   "title": "제4기 제5차 정기 입주자대표회의 결과 공고",
+   "date": "2026-11-18",
+   "first_file": [
+    [
+     "FILE_000000001977790",
+     "0"
+    ]
+   ],
+   "code": "A10025003",
+   "complex": "마포그랑자이아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001977790",
+     "fileSn": "0",
+     "name": "회의결과(26.11.17).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001977790&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 2627,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 의안: 주택관리업자 재계약의 건",
+     "text": "제1호 의안: 주택관리업자 재계약의 건\n>의결사항: - 차기 회의에서 재논의하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호 의안: 조경 수목 환경 개선 공사 업체 선정의 건",
+     "text": "제2호 의안: 조경 수목 환경 개선 공사 업체 선정의 건\n>의결사항: - 소나무 20주에 대한 전지를 우선 실시하고, 지주목 철거 및 재설치와 수목 외과수술은 추후 재논의\n하기로 의결함.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제3호 의안: 경관 조명 공사 업체 선정의 건",
+     "text": "제3호 의안: 경관 조명 공사 업체 선정의 건\n>의결사항: - 1단지 경관 조명 및 잔디등 공사업체 선정 입찰결과 2개 업체가 응찰하여 유효한 2개 업체 중\n최저가 업체인 ㈜에스티엔으로 선정의결함. (부가가치세 별도)\n업체명 입찰가격(원) 비고\n㈜에스티엔 11,645,000 낙찰\nA업체 14,850,000",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호 의안: 골프연습장 바닥재 공사 업체 선저의 건",
+     "text": "제4호 의안: 골프연습장 바닥재 공사 업체 선저의 건\n>의결사항: - 골프연습장 바닥재 공사 업체 선정 입찰 결과 3개 업체가 응찰하여 유효한 3개업체 중 최저가업체\n㈜와이엠건설산업으로 선정의결함. (부가가치세 별도)\n업체명 입찰가격(원) 비고\n㈜와이엠건설산업 15,900,000 낙찰\nA업체 37,000,000\nB업체 17,000,000",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호 의안: 탁자 및 의자 구매의 건",
+     "text": "제5호 의안: 탁자 및 의자 구매의 건\n>의결사항: - 1, 2단지내 편의시설 확충을 위하여 원형테이블 6세트, 사각테이블 3세트 및 의자2개를 구매하고\n구매 업체는 ㈜다다그룹으로 선정의결함.\n- 비치장소는 107동과 108동사이 , 1단지 티하우스, 102동 놀이터휴게소, 배드민턴장, 2단지\n- 구매금액(부가가치세 별도)은 10,81 6 , 3 6 4 원으 로 의결함.\n2026. 11. 18.\n마포그랑자이 입주자대표회의 회장\n게시기간: 2026.11.18~2026.12.2.\n(정기)입주자대표회의 결과 공고(2/2)\n마포그랑자이 제4기 제5차 정기 입주자대표회의 결과를 다음과 공고합니다.\n| 참석 | 구성원 6명, 참석 6명\n| 일시 | 2026년 11월 17일(화) 19시\n| 장소 | 103동 멀티룸\n| 안건 |",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제6호 의안: 승강기 부품 교체의 건",
+     "text": "제6호 의안: 승강기 부품 교체의 건\n>의결사항: - 승강기 부품(브레이크 1대)을 교체하기로 하고, 업체 선정방법은 제한경쟁/ 적격심사평가제/전\n자입찰(k-apt . go . kr ) 로 진행하기로 의결함.\n- 제한사항은 자본금 5억이상, 최근5년간 동일기종 승강기 500대 이상 관리중인 업체와 그 외 내\n용은 공고(안)대로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호 의안: 2027년 최저임금 고시에 따른 용역비 및 직원급여 조정의 건",
+     "text": "제7호 의안: 2027년 최저임금 고시에 따른 용역비 및 직원급여 조정의 건\n>의결사항: - 고용노동부의 2027년 적용 최저임금 인상률(3.7% )을 반영하여 보안, 미화 용역비 및 생활지원\n센터(커뮤니티 포함) 직원의 급여를 3.7% 인상하기로 의결함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제8호 의안: 2027년 사업계획 및 예산(안) 심의의 건",
+     "text": "제8호 의안: 2027년 사업계획 및 예산(안) 심의의 건\n>의결사항: - 2027 년 사업계획 및 예산(안)은 제7호 의안에서 의결한 임금 인상분(3.7% ) 을 반영하여 보안,\n미화 용역비와 일반관리비 중 직원 급여(생활지원센터 및 커뮤니티)항목을 수정하고, 그 외 사항\n은 원안대로 심의 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제9호 의안: 커뮤니티 운영비 논의의 건",
+     "text": "제9호 의안: 커뮤니티 운영비 논의의 건\n>의결사항: - 차기 회의에서 재논의하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "① ¾분기 결산서 보고의 건",
+     "text": "① ¾분기 결산서 보고의 건\n>의결사항: - 3/4분기 세입·세출 결산서를 검토하고, 해당 결산서를 게시판에 공고하기로 의결함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "② 공 용부 및 커 뮤 니 티관 련 추인 의 건",
+     "text": "② 공 용부 및 커 뮤 니 티관 련 추인 의 건\n>의결사항 : 공용부 및 커뮤니티 사용·지출 내역을 추인하기로 함.\n2026. 11. 18.\n마포그랑자이 입주자대표회의 회장",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator"
+   ]
+  },
+  {
+   "nttId": "3082973",
+   "category": "회의결과",
+   "title": "제4기 입주자대표회의 공동체활성화이사 선출 결과 공고",
+   "date": "2026-11-17",
+   "first_file": [
+    [
+     "FILE_000000001976300",
+     "0"
+    ]
+   ],
+   "code": "A10024691",
+   "complex": "용산센트럴파크",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001976300",
+     "fileSn": "0",
+     "name": "60. 제4기 입주자대표회의 임원 선출 결과 공고_공동체활성화이사001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001976300&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 495,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
+  {
+   "nttId": "3082971",
+   "category": "회의결과",
+   "title": "17차 선거관리위원회 회의 결과 공고",
+   "date": "2026-11-17",
+   "first_file": [
+    [
+     "FILE_000000001976298",
+     "0"
+    ]
+   ],
+   "code": "A10024691",
+   "complex": "용산센트럴파크",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001976298",
+     "fileSn": "0",
+     "name": "59. 17차 선거관리위원회 회의결과 공고001001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001976298&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 731,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호의 건 : 제4기 입주자대표회의 공동체활성화이사 선출의 건",
+     "text": "제1호의 건 : 제4기 입주자대표회의 공동체활성화이사 선출의 건\n- 입주자대표회의 구성원의 과반수가 참석하고 참석자의 과반수 찬성 요\nHol 따라 선출\n- 입주자대표회의 참석자 5명 중 선출 대상자를 제외한 4명이 거수하여\n찬성 4명, 반대 0명으로 선출\naa | 성명 | 등호 ㅣ a\n년 11월 162\n공동체활성회 ㆍ 2026년 일\n이 ri 「 박지현 103-3505 ~\n2027년 10월 13일\n2026.11.17.\n용산센트렬파크 선거관리위원회 Seas\n[홈페이지 주소 = http://www.homeknocktown.co.kr/web-front/yscentral/] B02: 79\nWe 우리관리",
+     "topics": [
+      "event"
+     ],
+     "votes": "찬성 요"
+    }
+   ],
+   "topics": [
+    "event"
+   ]
+  },
+  {
+   "nttId": "3082699",
+   "category": "자체감사",
+   "title": "2026년 3분기 자체 회계 감사보고서",
+   "date": "2026-11-17",
+   "first_file": [
+    [
+     "FILE_000000001975948",
+     "0"
+    ]
+   ],
+   "code": "A10024398",
+   "complex": "래미안 목동아델리체",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001975948",
+     "fileSn": "0",
+     "name": "자체감사 결과보고서 2026년3분기.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001975948&fileSn=0",
+     "method": "pdf-ocr(4쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(4쪽)"
+   ],
+   "chars": 3890,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "- 관리비 입출금 통장 내역과 장부 A 내역과 일치함을 확인함\n- 예금 잔고 내역이 장부상 잔액과 일치함을 확인함\n- 관리비 미수금 관리가 양호하며, 4개월 이상 관리비 미수 세대 6세대 (임대 5세대 : 재계약시 정산)",
+     "topics": [
+      "operator",
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": ", | 계정별 원장 확인 계정별원장 출력물 ae\n(총 계정별 원장출력 확인) (합계잔액시산표와 확인) \"\n관리비부과명세서",
+     "topics": [
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": "사유 발생 시점에 해당자에 대하여 정산 지급하고 있음\nㅇ 재무제표 잔액 대비 명세서 일치 확인\n- 관리비 입출금 통장 내역과 장부 A 내역과 일치함을 확인함",
+     "topics": [
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": "[별지 제3-2호서식]\n금융기관 예금잔액 및 관계장부 대조확인 결과 보고서\n비고",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "본 감사는 위에 기재된 재무제표의 금응기관 계좌의 장부금액과 재무제표에 표시되는 금액의\n일치여부 및 계좌별 잔액증명서 상의 잔액을 확인하였고, 차이금액은 위와 ASS 확인합니다.\n2026 년 11월 16 일",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "재무상태표\nAAPA 잔액 대비 명세서 일치 확인 | Ae EA coy\n(예금잔액, 미수금 등 잔액에 따른 명세 | Sete, 예금잔액증명 .",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "1 00002 재무제표(주석, 재무상태표, 운영성과표) | 적합\n관리업체, 청소, 보안 직원에 대한 퇴직.\n2 |연차수당 정산 기준 준수 여부 퇴직.연차충당금 지출내역서 확인 정한",
+     "topics": [
+      "operator",
+      "safety"
+     ],
+     "key": false
+    },
+    {
+     "text": "대표회의 회의록(의결사항)\n잡수입의 징수 및 사용현황 잡수입별 징수관리대장\n7 | (잡수입의 관리 및 지출시 관리규약기준 | 관리비부과명세서(공개현황) 적합",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "7 | (잡수입의 관리 및 지출시 관리규약기준 | 관리비부과명세서(공개현황) 적합\n준수여부 확인) 관리규약\n이브이 “",
+     "topics": [
+      "rules",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "진행되고 있음.\nO 관리업체, 청소, 보안 직원에 대한 퇴직금, 연차수당 정산 기준 준수 여부\n- 퇴직금,연차수당 충당 입출금 통장 내역과 장부상 내역 일치함을 확인",
+     "topics": [
+      "operator",
+      "safety"
+     ],
+     "key": false
+    },
+    {
+     "text": "- 잡수입 징수 내역을 확인함\n- 세대 기준초과 주차등록 주차비 및 방문자 주차시간 초과에 따른 주차비 징수 확인함\nO 계약현황 집행",
+     "topics": [
+      "parking",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "===== 자체감사 결과보고서 2026년3분기.pdf =====\n입주자대표회의 감사규정 [별지 3-1서식]\n감사 결과 보고서",
+     "topics": [
+      "rules"
+     ],
+     "key": false
+    },
+    {
+     "text": "결과 적합함 결과 적합함\n감사내용 |*＊ 지출에대한 관리비부과 확인결과 | + 지출에대한 관리비부과 확인결과\n. 적합함 적합함",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "포함) 이상 없음 이상 없음\n* 위탁관리 재계약(2025.7.1.) 이전 계약|* 위탁관리 재계약(2025.7.1.) 이전 계약\n연장기간 4개월(25.3~6월)에 대해 기존| . 연장기간 4개월(25.3~6월)에 대해 기존",
+     "topics": [
+      "operator"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "finance",
+    "operator",
+    "parking",
+    "rules",
+    "safety"
+   ]
+  },
+  {
+   "nttId": "3082375",
+   "category": "회의결과 (회의록)",
+   "title": "제3기 4차 정기 입주자대표회의 회의록",
+   "date": "2026-11-16",
+   "first_file": [
+    [
+     "FILE_000000001975555",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001975555",
+     "fileSn": "0",
+     "name": "32-제3기 4차 정기 입주자대표회의  회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001975555&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 17675,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "n 제1안 골프 중고기기 처분 진행의 건",
+     "text": "n 제1안 골프 중고기기 처분 진행의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제2안 단지 내 공용부 라탄의자 및 소파 교체의 건",
+     "text": "n 제2안 단지 내 공용부 라탄의자 및 소파 교체의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제3안 승강기 내 에어컨 설치 논의의 건",
+     "text": "n 제3안 승강기 내 에어컨 설치 논의의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제4안 장기수선 계획 수시조정의 건",
+     "text": "n 제4안 장기수선 계획 수시조정의 건",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제5안 홈 네트워크 단지서버 유지보수 용역업체 선정의 건",
+     "text": "n 제5안 홈 네트워크 단지서버 유지보수 용역업체 선정의 건",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제6안 승강기 미디어보드 설치 사업자선정 입찰의 건",
+     "text": "n 제6안 승강기 미디어보드 설치 사업자선정 입찰의 건",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제7안 전기요금 계약방식 논의의 건",
+     "text": "n 제7안 전기요금 계약방식 논의의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "아파트보험 가입의 건",
+     "text": "아파트보험 가입의 건\nn 제8안\n(어린이 놀이시설 배상책임보험, 화재보험, 영업배상보험, 승강기보험)",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제9안 기계설비 성능점검 업체 선정의 건",
+     "text": "n 제9안 기계설비 성능점검 업체 선정의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제10안 경비용역 변경계약 승인의 건 (최저임금 인상)",
+     "text": "n 제10안 경비용역 변경계약 승인의 건 (최저임금 인상)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제11안 청소용역 변경계약 승인의 건 (최저임금 인상)",
+     "text": "n 제11안 청소용역 변경계약 승인의 건 (최저임금 인상)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제12안 109동 횡주관 긴급 청소 추인의 건",
+     "text": "n 제12안 109동 횡주관 긴급 청소 추인의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제13안 112동 정화조 배기휀 불량모터 교체의 건(재상정)",
+     "text": "n 제13안 112동 정화조 배기휀 불량모터 교체의 건(재상정)",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "장기수선충당금 사용계획서 승인의 건 (재상정)",
+     "text": "장기수선충당금 사용계획서 승인의 건 (재상정)\nn 제14안\n(어린이놀이터 바닥 고무칩 보수공사)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제15안 2027년 사업계획 및 예산안 심의의 건",
+     "text": "n 제15안 2027년 사업계획 및 예산안 심의의 건\nn 보고 및 논의사항",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "① 기존사업자 사업수행실적평가의 건( XpERP, 경비용역, 청소용역, 세대소독)",
+     "text": "① 기존사업자 사업수행실적평가의 건( XpERP, 경비용역, 청소용역, 세대소독)\n② 관리주체 업무보고 ( 9월 관리비 부과 및 10월 관리사무소 업무보고)",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "③ 입주자대표회의 10월 3차 임시회의 의결 결과 이행보고 및 12월 정기회의",
+     "text": "③ 입주자대표회의 10월 3차 임시회의 의결 결과 이행보고 및 12월 정기회의\n예정 안건\n제3기 제4차 임시 입주자대표회의 회의록\n회의일시 26년 11월 12일(목) 19시 30분 ~ 23시 00분 회의장소 작은도서관\n주 관 입주자대표회의 회장 작성자 관리부장\n안건 및 심의(토의) 내용 가/부 의 결 사 항\n(결정사항 및 표결내용)\n▸주요발언내용\nŸ 중고 스크린골프 장비 일괄 매각기준.\n품명 예상수익 비고\n스크린골프 키오스크 150,000원 6대\n오토 티업기 150,000원 10대\n빔 프로젝터 60,000원 6대\n골프 중고기기 처 합계 396,000원 부가세포함\n1 가결\n분 진행의 건\n▸결정사항\nŸ 중고 스크린골프 장비 수의계약으로 일괄 매각 의결함.\n회사명 예상수익 비고\n주식회사 씨케이앤푸드 396,000원 부가세포함\n▸표결내용 : 찬성 7 반대 기권\n▸주요발언내용\nŸ 큰원형 테이블 및 의자 총 11세트 및 벤치형 의자 10개 구매\n필요.\nŸ 신규 구매품은 회의자료 배치도에 의함.\nŸ 큰 원형테이블은 중국으로부터 수입품으로 수입관세 및 부가세\n단지 내 공용부 라\n2 탄의자 및 소파 교 별도 발생.\n가결\n체의 건\n▸결정사항\nŸ 큰원형 테이블 세트 (11세트)와 밴치형 의자(10개) 원안대로 구\n매하되, 먼저 샘플로 각 1대를 구매하여 품질 및 내구성을 확인\n후 일괄구매 결정하는 방식으로 진행할 것.\n▸표결내용 : 찬성 7 반대 기권\n▸주요발언내용\nŸ 소유자 대상(외부거주 소유자 포함) 의견 청취\nŸ 2027년 1월 초 소유자 의견청취 후 대표회의 재논의\n승강기 내 에어컨 Ÿ 2026년 장기수선충당금 수시조정 항목에서 제외함.\n3 확인",
+     "topics": [
+      "community",
+      "operator"
+     ],
+     "votes": "찬성 7 반대 기권"
+    },
+    {
+     "head": "설치 논의의 건",
+     "text": "설치 논의의 건\n▸결정사항\nŸ 2027년 1월 초 소유자 의견청취 후 대표회의 재논의.\nŸ 2026년 장기수선충당금 수시조정 항목에서 제외함.\n▸표결내용 : 확인 7 반대 기권\n▸주요발언내용\nŸ 외벽 균열 보수공사는 하자 지급보증공사로 진행하기로 함.\n→ 장기수선충당금 수시조정에서 삭제\nŸ 승강기 에어컨 설치 3안 결정 내용에 따라 장기수선충당금\n수시 조정에서 제외\nŸ 커뮤니티 헬스장 운동기구 부분교체 예산 2천만원으로 증액\n장기수선 계획 수\n4 가결\n시조정의 건\n▸결정사항\nŸ 외벽 균열 보수공사는 하자 지급보증공사로 진행하기로 함.\n→ 장기수선충당금 수시조정에서 삭제\nŸ 승강기 에어컨 설치 장기수선충당금 수시조정에서 제외\nŸ 커뮤니티 헬스장 운동기구 부분교체 예산 2천만원으로 증액\nŸ 장기수선충당금 수시조정안 상기 내용 수정 의결함.\n▸표결내용 : 찬성 7 반대 기권\n▸주요발언내용\nŸ 기존 장비 사용을 위해서 HDC랩스 독점 공급 서버 사용 필요\n(세대당 1,500원 부담)\nŸ 타 아파트 개인정보 유출 사례 있음\nŸ 홈네트워크 유지관리 관련 안내문 별도 게시 필요\n홈 네트워크 단지서\n5 버 유지보수 용역업 가결 ▸결정사항\n체 선정의 건\nŸ HDC랩스와 수의계약 진행하기로함.\n회사명 금액 비고\n60,264,000원/3년\nHDC랩스 부가세별도\n(1,674,000원)\nŸ 계약기간 : 2026.12.1.~2029.11.30. (3년)\nŸ 홈네트워크 유지관리 관련 안내문 별도 게시 필요\n▸표결내용 : 찬성 7 반대 기권\n▸주요발언내용\nŸ 승강기 미디어보드 업체들의 사업이 안정적이 않는 경우가\n있으나, 사업자가 한정되어 제한경쟁보다는 일반경쟁 방식\n으로 입찰 진행.\nŸ 2기 입주자대표회의시 부결원인 : 가독성 부족\n승강기 미디어보드\nŸ 승강기 내 사다리 사용에 문제없도록 설치 필요\n6 설치 사",
+     "topics": [
+      "community",
+      "operator",
+      "finance",
+      "defect",
+      "safety"
+     ],
+     "votes": "찬성 7 반대 기권"
+    }
+   ],
+   "topics": [
+    "community",
+    "defect",
+    "finance",
+    "ltr",
+    "operator",
+    "safety"
+   ]
+  },
+  {
+   "nttId": "3082374",
+   "category": "회의결과",
+   "title": "제3기 입주자대표회의 4차 정기회의 결과공고",
+   "date": "2026-11-16",
+   "first_file": [
+    [
+     "FILE_000000001975554",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001975554",
+     "fileSn": "0",
+     "name": "33-제3기 입주자대표회의 4차 정기회의 결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001975554&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 5901,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "① 기존사업자 사업수행실적평가의 건( XpERP, 경비용역, 청소용역, 세대소독) - 확인",
+     "text": "① 기존사업자 사업수행실적평가의 건( XpERP, 경비용역, 청소용역, 세대소독) - 확인\nŸ 재계약을 위한 사업수행실적 평가 진행하기로 함.\n1. 전산용역 및 S/W공급업체 : XpERP\n2. 경비용역 : ㈜ 듀델코리아\n3. 세대소독 : 에이스나무병원\nŸ 청소용역업체에 대한 재계약 여부는 11월26일 입주자대표회의 임시회의시 재논의하여 결정.\n* 인원조정, 처후개건 및 시설개설 등 협의\n② 관리주체 업무보고 ( 9월 관리비 부과 및 10월 관리사무소 업무보고) - 확인\nŸ 11월 임시회의시 재보고 예정",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "③ 입주자대표회의 10월 3차 임시회의 의결 결과 이행보고 및 12월 정기회의 예정 안건 - 확인",
+     "text": "③ 입주자대표회의 10월 3차 임시회의 의결 결과 이행보고 및 12월 정기회의 예정 안건 - 확인\nŸ 12월 예정 안건중 3~4건은 11월26일 입주자대표회의 임시회의때 논의 하도록 상정 요망\n홍제역해링턴플레이스아파트 입주자대표회의",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "operator"
+   ]
+  },
   {
    "nttId": "3082293",
    "category": "회의결과",
@@ -2265,6 +2843,100 @@
    "topics": []
   },
   {
+   "nttId": "3081701",
+   "category": "회의결과",
+   "title": "제3차 선거관리위원회 긴급 회의 결과(26.11.13)",
+   "date": "2026-11-13",
+   "first_file": [
+    [
+     "FILE_000000001974690",
+     "0"
+    ]
+   ],
+   "code": "A10026227",
+   "complex": "아크로리버뷰 신반포",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001974690",
+     "fileSn": "1",
+     "name": "20261113_제3차선관위회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001974690&fileSn=1",
+     "method": "pdf-ocr(20쪽)"
+    },
+    {
+     "atchFileId": "FILE_000000001974690",
+     "fileSn": "0",
+     "name": "슬라이드1.PNG",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001974690&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(20쪽)",
+    "image-ocr"
+   ],
+   "chars": 30812,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 : 제5선거구 동대표당선인 무효에 관한 건.",
+     "text": "제1호 : 제5선거구 동대표당선인 무효에 관한 건.\n> 의결사항 : 0 2224, / 8, AWA Bork\n키로그 ga gown dle HOe ®,",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "6) Kays Reyer AA 제1 2% 안건에 대하여 친성표",
+     "text": "6) Kays Reyer AA 제1 2% 안건에 대하여 친성표\n\"| 될 관99락 게그조제3랑에 하라 Arama 가 반대 OH, 기권? 표로\n의결 AAS\n에 Zager ora} #4가 4) F gam ( of ola 결정함.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제2호 : 제5선거구 재선거 공고에 관한 건.",
+     "text": "제2호 : 제5선거구 재선거 공고에 관한 건.\n> 의결사항 : 37 제으선거구 aie} AAS.\n, 90 44nes) Bane dave 수 ge . ee 대하여 stag 표\n3 반대 oF, 기권 ㅇ 표로\n@ Arseqao 하락 Zo 이미 a *r ( oprla 결정함\nA JA» 036 12.) 스 2026. IROOM\nO AA 32 게시\nABS: 임원(회장,감사) 선출 공고 취소에 관한 건.\n> 의결사항: QD $주랙관리넘제령령 A 안건에 대하여 찬성 표\n3 | aztol 따라 인 01839 구위 7% | 가 | waon, nae ue\n이산 AB) 않아 MBBS Bs 4b. ( 기 )의결 결정함.\n※ 기타 안건은 구성원 5명 전원 참석 시 의결 가능함.\n상기 안건이 위와 같이 의결되었음을 확인하고 서명(또는 날인) 한다.\n세 | [of Powel [os | 세\n덜배딜새미토\npee | | 95004 [wm [레디 가\nfae | o | cum |< 르기\n제3자 긴급 선거관리위원회 회의록[1-3]\n2026. 11. 13. (금)\n. 회 의 일 자 : 2026년 11월 13일 작성자 : 업무협조 임기병센터장\n발언자 발 언 내 용\n© 임기병센터장 ?006년 11월 13일 8시 제3차 선거관리위원회의 총원 5명 구성원 5명 의결 정족수 3명으로 '\n| 지금 Ul 분이 참석하시고 한 분은 of 올라오신다고 하십니다. |\n| , 성원이 되었음을 보고드립니다. |\n| ”지금부터 제3차 선거관리위원회를 시작하겠습니다. |\n. 강수자위원장 오늘의 안건은 세 가지인데요. 일단 1호 안건은 제5선거구 공대표 당선인 Pao] 관한 |\n| | 건이고 그것에 대한 URS 센터장님이 설명해 주시겠습니다. |\n03:55 |\n네 일단 저희가 이 서류를 갖다가 또 2018년도 이제 변명 같지만은 지금부터 이제 한 10년",
+     "topics": [
+      "rules",
+      "defect"
+     ],
+     "votes": "찬성 표"
+    },
+    {
+     "head": ", 안 했던 사람이 하면 좋지 AY 그래야 아이디어도 나오고 그러지 했던 사람이 하는 건",
+     "text": ", 안 했던 사람이 하면 좋지 AY 그래야 아이디어도 나오고 그러지 했던 사람이 하는 건\n: 근데 지금도 동 대표 여자분이 3명이죠. 그렇죠 지금 현재 나온 사람이 |\n. 아니 여자분이 두 분 잠깐만요.\n, 남자 하나 104동은 남자분이 되고 근데 이번에 기존 돼 있는 1동 3동 4동은 끝난 거잖아.\n(18 35 4동은 끝나갔다. 4동 5동 5동하고 252 이제\n, 이게 이 앞에 맨 앞에다가 이 BS 사람 |\n“Ala 건설 시행 하는 이런 겁니까 안 그러면\n, 아니요. 저는 저는 성당 쪽에 공사하고 그냥 일반 건축 설계 건축 설계 시행 그거 다 사기꾼들이야. |\n(2a 돼 돈만 들어가 우리 교수님은 a 교수 |\n: 임기병센터장 |\n© 35:45 |\n연애 a\n(A 맞아요. 향후 계획 우선 도입 개시후 추후 계획에 따라 예 맞아요. |\nFo] 좋아요. 좋아요. 근데 이 안에 들어간 거가 이 안에 들어간 거가 저희는 이제 두 번이면 안 된다라는 걸\n. 알잖아요. . |\n근데 중임이라고 하면 두 번 이게 몇 번부터가 중임인가를 모르기 때문에 |\n, 두 번부터가 중임이죠. |\n근데 두 번까지는 되니까 아니죠. 두 번까지는 돼요. |\n= 번까지 번지 |\n: 36:14 |\n. 아니 이분은 두 번 하세 했어요. 아니 두 번까지는 제외 |\n, 네네 두 번까지는 되죠. 되는 거죠. 그러니까 그 주임 가 네네 이제 |\n, 이것도 이제 이 이 내용이 지금 제가 눈이 잘 안 보여서 그래 아까 자세히 보자고 한 거가 이 내용에 우리가\n, 알고 있는 정보가 아니라 정보가 전혀 없는 ASO] 봤을 때 이제 두 번까지는 되는데 세 번째부터 안 된다라는 :\n| 그거가 어디엔가 안내가 들어가서 |\n이게 요 무효 사유에 이게 지금 안내가 들어가 있어 무효 내용\n근데 이 내용이 원래는 잠깐만요. 여기 이쪽 3회의 AS 권",
+     "topics": [
+      "community",
+      "rules"
+     ],
+     "votes": "찬성을 다시 선출할 수 있다. |"
+    },
+    {
+     "head": "제2호 : 제5선거구 재선거 공고에 관한 건.",
+     "text": "제2호 : 제5선거구 재선거 공고에 관한 건.\n> 의결 : 6 제5선거구(105동/104세대) 동별 대표자 대한 재선거를 실시함.\n@ Belo 제32조제1항 단서에 따라 새로운 1차 선줄공고로 진행하며, 당선 무효된 SAAS\n재선거에 입후보할 수 없음.\n@ 선거관리규정 제47조제2항에 따라 당선무효 결정 사유가 발생한 날부터 30일 이내에 실시함.\n@ 임기 : 2026.127. ~ 2028.12.6.0년)\n@ 선출 일정 (별도 선줄공고 게시기간 2026.11.13. ~ 11.26.)",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호 : 임원(회장, 감사) 선출 공고 취소에 관한 건.",
+     "text": "제3호 : 임원(회장, 감사) 선출 공고 취소에 관한 건.\n> 의결 : @ 2026년 11월 10일 실시한 입주자대표회의 임원(회장-감사) 선줄공고를 취소함.\n@AANG : 「공동주택관리법 시행령」제4조제3항 및 관리규약 제27조제3항에 따라\n입주자대표회의 구성원의 3분의 2 이상 선출되지않음,\n2026년 11월 13일 .\n아크로리버뷰 신반포아파트 선거관리위원회의 we",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "defect",
+    "rules"
+   ]
+  },
+  {
    "nttId": "3081688",
    "category": "자체감사",
    "title": "2026년 3/4분기 감사보고서",
@@ -2520,6 +3192,83 @@
    "topics": [
     "community",
     "defect",
+    "operator"
+   ]
+  },
+  {
+   "nttId": "3081207",
+   "category": "회의결과",
+   "title": "제4기 20차 입주자대표회의 결과공고",
+   "date": "2026-11-13",
+   "first_file": [
+    [
+     "FILE_000000001974096",
+     "0"
+    ]
+   ],
+   "code": "A10025927",
+   "complex": "방배아트자이",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001974096",
+     "fileSn": "1",
+     "name": "제4기 20차 임시입주자대표회의 회의록(2026.11.12).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001974096&fileSn=1",
+     "method": "pdf-ocr(3쪽)"
+    },
+    {
+     "atchFileId": "FILE_000000001974096",
+     "fileSn": "0",
+     "name": "제4기20차 임시 입주자대표회의 결과 공고(요약분).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001974096&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(3쪽)",
+    "pdf-text"
+   ],
+   "chars": 2805,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "1) 승강기 메인로프 교체업체 선정 및 수의계약 체결 의결의 건 (재상정) '",
+     "text": "1) 승강기 메인로프 교체업체 선정 및 수의계약 체결 의결의 건 (재상정) '",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "2) 론도코리아 보일러실 내부 방수공사 업체 선정 의결의 건",
+     "text": "2) 론도코리아 보일러실 내부 방수공사 업체 선정 의결의 건\n4. 폐 회 : 회의가 종료되어 의장이 BAS\n' 2026. 11, 12\n방배아트자이 입주자대표회의\n' 입주자대표희의 출석을 확인하고 참석위원 서명(또는 날인) 한다.\nen 고 참석위원 서명(또는 날인) 한다.\n동 | 쥐칙 | 성명 ， 서며\n101동 회 장 ㅣ | i\n108동(저층) 이 자 E ^ .\n102동(고충) #4 z 4 ; § 석\n103 | 감사 so\n1045 | 감 자 | 가\n105동 ㅣ 이사 |\n※ 배석자 ：생황지원센터장 김영준\n1 -\n7 2026년 11월 129) 제4기 20%} 임시 입주자대표회의 회의록[2-2] ㅠㅠ\n안건및심의내용 FY 의 결 사 항 |\n| 회장이 먼저 o|av|so] 승강기 로프 교체공사를 맡기는 ㅣ\n| | 것이 우리에게 유리하다고 언급함.\n| | 2 근거로 claw s 4천만원을 제시했으나, 그동안\n| 우리가 지급하지 않은 미정산 부품대금 6.387.260원을\n0” | 받지 않겠다고 함에 따라, 실제 우리가 지급할 비용은 |“\n(2271 AVES SABA ㅣ | 이 이이 반면 SAO] 의뢰할 경우, 견적비용\n| a9 건 (재상정) 29,800,000원과 별도로 미프비시측에 지불할 부품비용\n| | 6,387,260원을 합치게 되면 실제 36,187,260원이 =.\n| | 다른 대표들 모두 이에 동의람에 따라 승강기 로프교체\n| | 업체로 YRYYAS 선정 하기로 의결함\n| | : . | | 찬성 : 5명\n| ad: 08\n| 기권 : 0 |\n| | 우리 아파트가 관리하는 근린생활시설이라는 점에서 론도코리아\n때 | 보월러실 방수 공시를 해 주는 것이 맞다는 데 공감대가 형성된\n| | | 가운데 조잉방수만이 AS 1년에 대한 하지보증보험증권을 WEA\n| 매기 uaa WP | SF 있다고 한 점과",
+     "topics": [
+      "comm"
+     ],
+     "votes": "찬성 : 5명"
+    },
+    {
+     "head": "제 1호 안건 : 승강기 메인로프 교체업체 선정 및 수의계약 체결 의결의 건 (재상정)",
+     "text": "제 1호 안건 : 승강기 메인로프 교체업체 선정 및 수의계약 체결 의결의 건 (재상정)\n> 의결사항 : 비용과 안전성 등을 종합 검토한 결과, 미쯔비시에 승강기 메인로프 교체\n공사를 의뢰하는 수의계약을 체결하도록 의결함",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제 2호 안건 : 론도코리아 보일러실 내부 방수공사 업체 선정 의결의 건",
+     "text": "제 2호 안건 : 론도코리아 보일러실 내부 방수공사 업체 선정 의결의 건\n> 의결사항 : 우리 아파트가 관리하는 근린생활시설이라는 점에서 론도코리아 보일러실 방수 공사와\n관련 가장 합리적인 견적을 제시한 조양방수에 공사를 의뢰하도록 의결함\n2026. 11. 13\n방배아트자이 입주자대표회의 회장",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "comm",
     "operator"
    ]
   },
@@ -2804,6 +3553,153 @@
    "topics": []
   },
   {
+   "nttId": "3080776",
+   "category": "회의결과",
+   "title": "제4기 제18차 선거관리위원회 회의 결과 공고",
+   "date": "2026-11-12",
+   "first_file": [],
+   "code": "A10026015",
+   "complex": "반포써밋",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261112&physical=A2F4A0EC3374436B9D2B346916F2C071.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1231,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 의안 : 장기수선계획 수시조정 동의 업무 건.",
+     "text": "제1호 의안 : 장기수선계획 수시조정 동의 업무 건.\n의결사한 ABE 원안에 따라 투표를 시행하고 전자투표와 동의서 접수를 병행하며 중복 시\n동의서를 우선한다.\n[보지 제12-2호서시] <제61주제3화 가려)\n좌기수선계의 수시 조정 서면동의서\n- 자키추선계최 초정<검토> 연혀\n좌기수선계최 수리인 2018년 om 인\n직전 조정<겸토일 202441 om 원\n다음 정기 조정<겸토> 예정인 : 20274 om 인\nS 좌기수선계최 수시 EON 대한 임주자대표회의 의결 사화\n의결 인자: 20264 10m 2181\n의결 결과: ㅜ시조점만 소유자 동의절차 진해\n조적 사라\nAS 사유 : 커듀니티의 RRA! AEBS 위해 승임장치들\n만면인식으로 교체\n사세 내여\nua 하록 uaa ua\n술임통제시스템 커뮤니티 SSIS 한면힌시\n네트워크기기 2028년 설치 2027년 설치\n19.090.000원 26.000.000원\n1. 주저 좌기수서계외서 뭐라 바버\n2024.12.27, 개절된 공동주택관리법 시행규칙 WHIM 반영하여 장기수\n시기 삭서플 전체적으로 조정하였으면그 낸용이 바대하고(아00여 페이\n지) 찰기주선계희서 점분를 인괴하는 vise 고려하여. 조정된 장기수선\nAis 난지 종페이저에 고지 하오니 열함하시! 바랍니다\n2. Sera ele 제29조 제3화에 따라 자기수선계의 수시조정에 대라\n서머 SSIS 배포하모니 저극 려조라여 주시기 바라니다.\n더 서면동의자\n= 우시 = =",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호 의안 : 유리창 청소 주민투표 업무 건.",
+     "text": "제2호 의안 : 유리창 청소 주민투표 업무 건.\nPBA S 제출된 원안에 따라 투표를 시행한다.\n2026.11.12.\nBEEN OL 선거관리위원회위원장,(직인생략)",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "ltr"
+   ]
+  },
+  {
+   "nttId": "3080749",
+   "category": "회의결과",
+   "title": "제3기 17차 임시 입주자대표회의 결과 공고",
+   "date": "2026-11-12",
+   "first_file": [
+    [
+     "FILE_000000001973497",
+     "1"
+    ]
+   ],
+   "code": "A10024254",
+   "complex": "디에이치반포라클라스",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001973497",
+     "fileSn": "2",
+     "name": "슬라이드1.JPG",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001973497&fileSn=2",
+     "method": "image-ocr"
+    },
+    {
+     "atchFileId": "FILE_000000001973497",
+     "fileSn": "1",
+     "name": "슬라이드1.JPG",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001973497&fileSn=1",
+     "method": "image-ocr"
+    },
+    {
+     "atchFileId": "FILE_000000001973497",
+     "fileSn": "3",
+     "name": "제3기 17차 11월 임시 입주자대표회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001973497&fileSn=3",
+     "method": "pdf-ocr(1쪽)"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr",
+    "pdf-ocr(1쪽)"
+   ],
+   "chars": 2591,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호의 안: 승강기 HALE 교체공사에 대한 자문 신청 의결의 건",
+     "text": "제1호의 안: 승강기 HALE 교체공사에 대한 자문 신청 의결의 건\n의결사항 : 단지 내 동 승강기 6대의 노후 부품 교체공사를 실시코자 업체선정을 위한\n입찰을 진행하기 위하여 관공서에 전문가 자문 요청을 신청 하기로 의결함",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호의 안 : 5년 차 공용부분 하자보수 관련 협의(6차) 건",
+     "text": "제2호의 안 : 5년 차 공용부분 하자보수 관련 협의(6차) 건\n5년차 하자보수 합의종결을 위해 시공사에 요구할 공사 목록에 대하여 관리주체\n검토안 외 추가로 각동대표들이 제시한 사항을 면밀히 검토하기로 협의함.\n0000 ….\n디에이치 반포 라클라스 입주자대표회의 회장: |\n전화 02-592-0848 0008888\n===== 슬라이드1.JPG =====\n공고번호(입) THE 게시기간;\n를 2026.11.12.~2026.11.18\n제3기 17차 임시 입주자대표회의 결과 공고\n정기 입주자대표회의 결과를 아래와 같이 공고합니다.\n참석: 입주자대표회의(정원 6명 전원 참석)\n=) 일 시: 2026년 11월 11일(수) 19:00 ~ 20:15\n리장 소 : 클럽 라클라스 연회장(104동)",
+     "topics": [
+      "defect"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제1호의 안: 승강기 HALE 교체공사에 대한 자문 신청 의결의 건",
+     "text": "제1호의 안: 승강기 HALE 교체공사에 대한 자문 신청 의결의 건\n의결사항 : 단지 내 동 승강기 6대의 노후 부품 교체공사를 실시코자 업체선정을 위한\n입찰을 진행하기 위하여 관공서에 전문가 자문 요청을 신청 하기로 의결함",
+     "topics": [
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제2호의 안 : 5년 차 공용부분 하자보수 관련 협의(6차) 건",
+     "text": "제2호의 안 : 5년 차 공용부분 하자보수 관련 협의(6차) 건\n5년차 하자보수 합의종결을 위해 시공사에 요구할 공사 목록에 대하여 관리주체\n검토안 외 추가로 각동대표들이 제시한 사항을 면밀히 검토하기로 협의함.\n0000 ….\n디에이치 반포 라클라스 입주자대표회의 회장: |\n전화 02-592-0848 0008888\n===== 제3기 17차 11월 임시 입주자대표회의록.pdf =====\n제3기 17차(2026년 11월) 임시 입주자대표회의 회의록[1-21\nMm 회의 일시 : 2026년 11월 11일(수) 19:00\nm 회의 장소 : 클럽 라클라스 연회장(104동)\nm 참석 명단 : 입주자대표회의(정원 6명 전원참석)\n* 참석자 : 센터장 . . ,관리팀장 , 시설실장 , 커뮤니터팀장",
+     "topics": [
+      "defect"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "승강기 쉬브로프 교체공사에 대한 자문 신청 의결의 건",
+     "text": "승강기 쉬브로프 교체공사에 대한 자문 신청 의결의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "5년 차 공용부분 하자보수 관련 협의(6자) 건",
+     "text": "5년 차 공용부분 하자보수 관련 협의(6자) 건\n7\net 4a 의결사항 및 표결내용\nㅁ 일부 동 승강기 6대의 노후 부품 교체공사를 실시코자 업\n체선정을 위한 입찰을 진행하기 위하여 관공서에 전문가 자문\n요청건의 승인 여부\n찬성 : 참석자 6명 전원 찬성\n반대 :\n- 승강기 유지관리업체(현대엘리베이터)로부터 동 내부 승강기 |\n를 대상으로 실시한 정밀진단메인로프 파단 정밀 측정) 결과,\nao 안전상 즉시 교체가 필요하다고 보고받은 총 11대의 승강기 | ㆍ\n승근 쉬브:로프 = 때 7\nmis |S o7 cir ag | 가 | 3 Sa 자금이 SEA 않은 이유로, 파단 정도가 심한 6다의 | ㆍ |\n이안 | 시청 의결의 건 승강가(102동 1호기(208), 102동 5H7|(L04), 103동 3호기(10), |\n1045 3호기(014), 1058 2호기(22), 1053 3호기([19))에 대\n하여 우선 SAS 준비하고, 남은 5대의 승강기(101동 2호기\n(LO1), 102동 2호기(009), 102동 4호기(107), 104동 2호기([18),\n106동 2호기(.29))에 대해서는 순자적으로 SAS 진행하며,\n이에 대한 전문가 자문을 받기로 의결 함.\n- 승강기 ARSE 교체공사의 MAS 확보하기 위한 방법으\n로 현대건설과의 하자협의, 또는 장기수선 중당금 수시조정\n및 요율 변경 등의 방안을 차후 고려하기로 함\naie [Sat 공용부분 - 5년차 하자보수 합의종결을 위해 시공사에 요구할 공사 목록\n시혼 | 하자보수 관련 빨 | 중 일부항목의 우선순위를 조정 하여 협의하기로 하고, 차후 |\n염의(6차) 건 현대건설 담당자와의 회의 WIS 잡기로 함.\n제3기 17차 11월 임시 입주자대표회의록.1\\0ㅁ 2",
+     "topics": [
+      "defect"
+     ],
+     "votes": "찬성 : 참석자 6명 전원 찬성"
+    }
+   ],
+   "topics": [
+    "defect",
+    "operator"
+   ]
+  },
+  {
    "nttId": "3080683",
    "category": "회의결과",
    "title": "제3기 제55차 입주자대표회의 임시회의 회의록",
@@ -2837,6 +3733,77 @@
    "parser": 2,
    "agenda": [],
    "topics": []
+  },
+  {
+   "nttId": "3080545",
+   "category": "자체감사",
+   "title": "2026년도 3분기 내부 감사 결과 보고서",
+   "date": "2026-11-12",
+   "first_file": [
+    [
+     "FILE_000000001973257",
+     "0"
+    ]
+   ],
+   "code": "A13704404",
+   "complex": "반포미도아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001973257",
+     "fileSn": "0",
+     "name": "2026년도 3분기 내부 감사 결과 보고서.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001973257&fileSn=0",
+     "method": "pdf-ocr(1쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(1쪽)"
+   ],
+   "chars": 943,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "람사내용 3. 수선비/시설유지비 주요 집행내역 서류 Sols,\n(지적 및 위반 ㅣ - 3/4분기 총사용금액 : 52.783.958원\n사항 포함) - 주요내역 * 소방점검비 및 지적사항 관련 비용 기안 및 증빙 확인",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "4. 기타관리외비용 사용 내역 확인 및 주요 지출서류 확인함.\n- 3/4분기 총사용금액 : 5, 188,9002\n- 주요내역 ＊ 층간소음관리위원회 회의비 지급 기안 확인 완료",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "6. 전표관리 및 지출증빙 확인 - 적정함.\n7. 시재 확인 결과 : 잔액 125,780원 ARH - 이상없음\n2026 년 /06 월 29k",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "- 주요내역 ＊ 층간소음관리위원회 회의비 지급 기안 확인 완료\n* 복날 관리실,경비실,미화원 중식대 영수증 확인\n5. 관리비부과명세서 및 재무제표 작성의 적정성 - 적정함.",
+     "topics": [
+      "dining",
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "결과를 보고 드리고자 합니다\n1. 장기수선충당금 집행내역 확인 - 집행기만 및 집행 증빙서류 sole.\n- 3/4분기 총사용금액 : 2,475,0008",
+     "topics": [
+      "ltr"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "dining",
+    "finance",
+    "ltr"
+   ]
   },
   {
    "nttId": "3080475",
@@ -3437,6 +4404,86 @@
    ]
   },
   {
+   "nttId": "3079412",
+   "category": "회의결과",
+   "title": "제2차 선거관리위원회 회의 결과 및 회의록(26.11.09)",
+   "date": "2026-11-10",
+   "first_file": [
+    [
+     "FILE_000000001971662",
+     "0"
+    ]
+   ],
+   "code": "A10026227",
+   "complex": "아크로리버뷰 신반포",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001971662",
+     "fileSn": "0",
+     "name": "20261110_제2차선관위회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001971662&fileSn=0",
+     "method": "pdf-ocr(20쪽)"
+    },
+    {
+     "atchFileId": "FILE_000000001971662",
+     "fileSn": "1",
+     "name": "슬라이드1.PNG",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001971662&fileSn=1",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(20쪽)",
+    "image-ocr"
+   ],
+   "chars": 39339,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "3 . 반대 OH, 기권 프로",
+     "text": "3 . 반대 OH, 기권 프로\n23} J% 22 A Ae Be A ( A )의결 결정함.\n@ NAAM 마라 FA svoj aa\nRie ste) 섰성 (BS. 감사 > Aaa. Yana}\n※ 기타 AS 구성원 5명 전원 참석 시 의결 가능함.\n상기 안건이 위와 같이 의결되었음을 확인하고 서명(또는 날인) 한다\n세] 5 | fw Pele fo Dw\nPee | 9 | 때 ble | = | 에 10\n22\n4% [ve | wm | seal ge\n“2.\n20264 1128 92 선거관리위원회의 회의록[1-3]\n: 회 의 일 자 : 20264 118 9일 작성자 : 업무협조 임기병센터장\n이 VISHAS sagas 보고드립니다. 7 |\n| 강수자위원장 20264 11g 9일 AIS] 제2차 선거관리위원회 회의를 개최토록 하겠습니다.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제1호 : 제5기 선거관리위원회 위원 구성에 관한 건. |",
+     "text": "제1호 : 제5기 선거관리위원회 위원 구성에 관한 건. |\n| 261109-제2차선관위희의\n| 2026.11.09 월 오후 9:02 ㆍ 56분 3초 임기병\n: 참석자 1 00:04\n. 오동이 궁금하네 오동이 세 표 차이라고 하시던데 그래서 누가 되셨어요? |\n| 은대서님이 되셨어요 1번이 2번 2번이 |\n| 참석자 2 00136 |\n그럼 제차 선거관리위원회 회의 성원 보고를 드리겠습니다. |\n(20264 118 9일 월요일 of 지금 9시에 회의 개최를 시작하겠습니다.\n(of 금일 회의는 관리규약 제34조에 따라 주민 회의실에서 소집되었으며 선거관리위원회 총 총원은 네 분입니다.\n. 현재 참석 ACS 세 분이고 불참 위원은 한 분이며 의결 정족수는 3명 이상이 충족되어 회의가 성원되었음을 .\n. 보고드리겠습니다.\n. 갑자기 그래서 지금부터 제6차 선거관리위원회를 시작하겠습니다. |\n“PAE 1 01:38\n, 안건 심의에서 제1호에서는 제5기 선거관리위원회 위원 위촉에 관한 건에 대해서 심의가 주어져 있으니까 |\n, 참석자 2 01:50 |\n, 네 어 저희 아파트 관리 규약 제47조에 따라 선거관리위원회는 입주자 등 중에서 5명의 위원으로 구성하며 어\n. 그 지금 우리 신청하신 윤선화 전 선거관리 위원님이 ARS 하셨습니다. |\n| 그래서 여기 오신 분들 거기서 AM] 위촉하도록 되어 있습니다. |\n“EY 저기 위원님들 심의 부탁드리겠습니다.\n참석자 3 02:30 ㆍ\n. 원래 우리 4년을 했어요. 같이 |\n참석자 4 02:34\n. 사업비 좀 내려고 그랬는데 너무 감동했다\n| 참석자 1 02:39 |\n: 그러셨어요 예예 그러면 제가 |\n참석자 2 02:44 |\n. 에 지금 재적위원 과반수 찬성으로 위원으로 위촉되었음을 이거 선포해 주십시오.\n| 참석자 1 02:52 |\n| 맨 마지막에 뭐",
+     "topics": [
+      "community",
+      "rules",
+      "defect",
+      "comm"
+     ],
+     "votes": "찬성으로 위원으로 위촉되었음을 이거 선포해 주십시오."
+    },
+    {
+     "head": "제1호 : 제5기 선거관리위원회 위원 위족의 건.",
+     "text": "제1호 : 제5기 선거관리위원회 위원 위족의 건.\n> 의결 : MASA 과반수 찬성으로 가결, 1명 추가 위촉.\n제2호 : 제5기 동별 대표자 선출 ㆍ투개표\n> 의결 : 선거 AAG] 문제없음을 확인하고 101동, 103동, 104동, 105동\n당선자 확정",
+     "topics": [],
+     "votes": "찬성으로 가결, 1명 추가 위촉."
+    },
+    {
+     "head": "제3호 : 102동 동별 대표자 2차 선출 공고의 건.",
+     "text": "제3호 : 102동 동별 대표자 2차 선출 공고의 건.\n> 의결: @ 1025 후보 등록자가 없어 att 선출 공고를 추가 시행하기로 결정.\n@ 관리규약 제27조항 영 제4조제3항에 따라 입주자대표회의 구성\n원은 이 조 제1항에서 정한 정원을 말하며, 해당 입주자대표회의 구성원의 3분\n의 2 이상이 선출되었을 때에 따라 입주자대표회의의 임원(이하 “임원\"이라 한\n다) 선줄하기 위하여 임원(회장,감사) 선출 SUS 병행한다.\n2026년 11월 10일 09099\n아크로리버뷰 신반포아파트 선거관리위원회의 ee",
+     "topics": [
+      "rules"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "comm",
+    "community",
+    "defect",
+    "rules"
+   ]
+  },
+  {
    "nttId": "3079351",
    "category": "회의결과",
    "title": "제4기 제4차 선거관리위원회 회의 결과 공고",
@@ -3555,6 +4602,68 @@
    ]
   },
   {
+   "nttId": "3078953",
+   "category": "회의결과",
+   "title": "2026.11.09. 장기수선공사에 대한 투표 결과 공고",
+   "date": "2026-11-10",
+   "first_file": [
+    [
+     "FILE_000000001971005",
+     "0"
+    ]
+   ],
+   "code": "A13704404",
+   "complex": "반포미도아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001971005",
+     "fileSn": "0",
+     "name": "장기수선공사에 대한 투표 결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001971005&fileSn=0",
+     "method": "pdf-ocr(5쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(5쪽)"
+   ],
+   "chars": 2710,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "4. 회의 인건및 결정사항",
+     "text": "4. 회의 인건및 결정사항\n1.장기수선계획의 수시조정에 대한 입주자의 투표진행\n1)전자투표 : 2026. 11. 04 ~ 11. 05. 18:00\n장기수선 2)현장투표 : 2026. 11. 06. 11:00 ~11. 09. 17:00\n계획 3)개 표 : 2026. 11. 09. 17:10\n수시조정 | 4)개표장소 : 입주자대표회의실\n투표진행 |2. 투표내용 :\n1) 2026년 장기수선계획공사인 도로 부분보수 비용을\n주차차단기 설치비용으로 전환함에 대한 동의여부.\n*.투표참여세대 : 747세대 (전체세대투표율, 59.2%)\n동의 세대 : 644세대 (“ 동의율, 51.1%)\n비동의 세대 : 102세대 ( “ 비동의율, 8%)\n무효 세대 : 1세대\n투표결과 | 5) 2026년 장기수선계획의 ㅇㅇ7\\교체공사를 실시하지\n않는다에 대한 동의여부 :\n*.투표참여세대 : 747세대 (전체세대투표율,59.2%)\n동의 세대 : 524세대 ( “ 동의율,41.6%)\n비동의 세대 : 119세대 ( “ 비동의율,9.4%)\n무효 세대 : 104세대\n근거 : @공동주택관리법시행령제14조\n@)관리규약제38조, 제50조, AlG1=\n에피리리르\n반포미도아파트 선거관리위원희 위원 삐리키르의|\n위월해운\n허빼히너\n선거관리위원회 임시 회의\n@.회의일자 : 2026. 11. 09. 17:00 ~\n@.장 A: 입주자대표회의실\n@.안 A: 장기수선공사에 대한 입주자동의에 대한",
+     "topics": [
+      "parking",
+      "rules",
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "투표의 개표 건",
+     "text": "투표의 개표 건\n@.참석인원 : 8명 중 명 참석\n@.참석자 서명\n4 309 / 205 위 원장 박현정 a\n2 | 305 /1208 ㅣ 위 원 백수정 ^\n3 | 305 /1103 | 위 @ 조 영 |H5rt*\n반포미도아파트 선거관리위원회\n선거관리위원회 회의록\n일 시 : 2026. 11. 09. 19:00 ~. 21:00 ｜|회의 구분 : 정기(_)임시(0)\n회의장소 : 입주자대표회의실 | 주관자 : 선거관리위원장 |작성자 :\n1. 장기수선계획의 수시조정에 대한 입주자의 투표진행 :\n1)전자투표 : 2026. 11. 04. ~ 11. 05. 18:00\n2)현장투표 : 2026. 11. 06. ~ 11. 09. 17:00\n3)개 표 : 2026. 11. 09. 17:10\n1.투표 AAD ㅣ 4)개표장소 : 입주자대표회의실\n개표 결과\n2.투표내용 : 1)2026년 장기수선계획공사인 도로 부분보수 wee\n주차차단기 설치비용으로 전환함에 대한 동의여부 :\n@동의 세대 : Lut mrad (저제아%, 이.1 < )\n@비통의세대 : 14646 Ce HH /// % )\n2)2026년 장기수선계획의 007\\/교체공사를 실시하지 않는다에 대\n한 동의여부 : @동의세대 : 524 nen < AV %)\n@비동의세대 : ||9 세대 《?.부 %>\n@ He sod arm (40.5 7.)\n근거 : @공동주택관리법시행령제14조\n@관리규약제38조, 제50조, 제61조\n위와 같이 결정 되었음을 확인하고 아래의 확인란에 각각 서명함\n0” 상기 안건의 결과를 확인하며 명확을 기하기 위하여 서명함\n| 박현정 | 백수정 | 조영은 ㅣ 이소연 | 홍명희 | 정명순 | 이정익 | 이가영\n| (위원장) | GX) (위원) (위원) (위원) (위원) (위원) (위원)\n선관위 2 | y | |\n확인란 / ^~ ayer 10 / /",
+     "topics": [
+      "parking",
+      "community",
+      "rules",
+      "ltr"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "ltr",
+    "parking",
+    "rules"
+   ]
+  },
+  {
    "nttId": "3078654",
    "category": "회의결과",
    "title": "제4기 선거관리위원회 제24차 회의록",
@@ -3611,6 +4720,100 @@
    "topics": [
     "operator"
    ]
+  },
+  {
+   "nttId": "3078598",
+   "category": "회의결과",
+   "title": "2026년 11월 선거관리위원회 결과공고(1차/ 1-1~1-4)",
+   "date": "2026-11-09",
+   "first_file": [
+    [
+     "FILE_000000001970505",
+     "0"
+    ]
+   ],
+   "code": "A10027205",
+   "complex": "아크로리버파크",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001970505",
+     "fileSn": "3",
+     "name": "2026년 11월 선거관리위원회 결과공고(1차 1-1).jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001970505&fileSn=3",
+     "method": "image-ocr"
+    },
+    {
+     "atchFileId": "FILE_000000001970505",
+     "fileSn": "2",
+     "name": "2026년 11월 선거관리위원회 결과공고(1차 1-2).jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001970505&fileSn=2",
+     "method": "image-ocr"
+    },
+    {
+     "atchFileId": "FILE_000000001970505",
+     "fileSn": "1",
+     "name": "2026년 11월 선거관리위원회 결과공고(1차 1-3).jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001970505&fileSn=1",
+     "method": "image-ocr"
+    },
+    {
+     "atchFileId": "FILE_000000001970505",
+     "fileSn": "0",
+     "name": "2026년 11월 선거관리위원회 결과공고(1차 1-4).jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001970505&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr",
+    "image-ocr",
+    "image-ocr"
+   ],
+   "chars": 2819,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
+  },
+  {
+   "nttId": "3078595",
+   "category": "회의결과",
+   "title": "2026년 10월 선거관리위원회 결과공고(4차)",
+   "date": "2026-11-09",
+   "first_file": [
+    [
+     "FILE_000000001970502",
+     "0"
+    ]
+   ],
+   "code": "A10027205",
+   "complex": "아크로리버파크",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001970502",
+     "fileSn": "0",
+     "name": "2026년 10월 선거관리위원회 결과공고(4차).jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001970502&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1049,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3078275",
@@ -3675,6 +4878,60 @@
     "operator",
     "rules"
    ]
+  },
+  {
+   "nttId": "3077977",
+   "category": "회의결과",
+   "title": "제4기 제11차 선거관리위원회 회의 결과 공고",
+   "date": "2026-11-06",
+   "first_file": [],
+   "code": "A10026051",
+   "complex": "반포래미안아이파크",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261106&physical=5D42AE3BEC5E42A3B1CE579FFBB32A48.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1918,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제5기 선거관리위원 서류심사 및 추가모집 건",
+     "text": "제5기 선거관리위원 서류심사 및 추가모집 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "1) 재5기 선거관리위원 서류 심사 : 가결",
+     "text": "1) 재5기 선거관리위원 서류 심사 : 가결\n- 4명의 선거관리위원을 선출 함. ㆍ",
+     "topics": [],
+     "votes": "가결"
+    },
+    {
+     "head": "2) 제5기 선거관리위원 추가 모집 : 가결",
+     "text": "2) 제5기 선거관리위원 추가 모집 : 가결\n| (1)신청자 접수기간 : 2026. 11. 06.(금) ~ 11. 12.(목) 18시 까지\n제1호 | (2)접수장소 : 관리사무소 |\n(3)선거관리위원 모집 인원 : 1명 |\n(4)선거관리위원 임기 : 24 (2026.12.18.(금)~ 2028.12.17.(일))\n(5)공개추첨 일시 : 2026년 11월 13일(금) 오후 7시\n(6)공개추첨 장소 : 102동 지하1증 회의실(전 현산45센터)\n| * 의결과정 : S 5B 중 5B 참석 ( 찬성 5B, 반대 0명, 기권 08) 가결 |",
+     "topics": [],
+     "votes": "찬성 5B, 반대 0명, 기권 08"
+    },
+    {
+     "head": "제5기 동별대표자 모집 일정 건",
+     "text": "제5기 동별대표자 모집 일정 건\n- 공 고 일: 11월 6일 |\n- 선거인명부작성: 11 9S ~ 11H 128\n- 선거인명부열람: 11월 13일 ~ 11월 17일 18시 까지 |\n- 선거인명부확정: 118 182 18A |\n| - 후보자등록 : ( 8일간 ) 118 192 ~ 118 262 18시 까지 |\n별 | ~ Ett ZISFS : 118 272 204] (MAA BS AA) |\n| 제2호 | . 전자투표 (62h 128 32 10시 ~ 128 8일 18시, 세대구성원 투표(만19세이상) | |\n| - ASEH: ( 1일간 ) 12H 8A 16시 ~ 18시(2시간) |\n- 개 표: 12월 82 19시 이후 |\n- 선거운동방법 |\n| 후보자 약력(후보자의 인적사항, 공약 SS 43로 공고하는 것으로 함. |\n(제출은 44로 하며, 양식에 맞추어 본인이 직접제작하여 제출 가능) |\n: * 의결과정 : 종 5명 중 5명 참석 ( 찬성 5B, 반대 0명, 기권 0명 ) 가결 |\n| * 관리사무소를 방문하시면, 상세한 사항을 열람하실 수 있습니다. |\n, 2026년 11월 06일 「\n반포 RAEMIAN IPARK 선거관리위원장40444 |\n>» @ 02-594-8033~4",
+     "topics": [],
+     "votes": "찬성 5B, 반대 0명, 기권 0명"
+    }
+   ],
+   "topics": []
   },
   {
    "nttId": "3077716",
@@ -3950,6 +5207,97 @@
    "topics": []
   },
   {
+   "nttId": "3077263",
+   "category": "회의결과",
+   "title": "제4기 제30차 임시 입주자대표회의 결과 공고",
+   "date": "2026-11-05",
+   "first_file": [],
+   "code": "A10026051",
+   "complex": "반포래미안아이파크",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261111&physical=D1EE2A814EDE43FD9996E3D945878905.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    },
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261111&physical=B3D207AC17914409A7CB707D0A858F50.jpg&contentType=image/jpeg",
+     "name": "본문이미지2.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr"
+   ],
+   "chars": 2438,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "2) 항소여부 심의 건 |",
+     "text": "2) 항소여부 심의 건 |\n- 상기의 질의 내용에 대한 답변으로 볼 때 YAS 진행함이 실익이 있다고 판단\n되어 항소하기로 의결함.\n* 의결과정 : 종 4명 중 3명 참석 (3명 찬성, 0명 반대, 0명 기권) 가결\n20264 11월 052\n® 02-594-8033 |\nee. 이이 이이 이이",
+     "topics": [],
+     "votes": "찬성, 0명 반대, 0명 기권"
+    }
+   ],
+   "topics": []
+  },
+  {
+   "nttId": "3077225",
+   "category": "회의결과",
+   "title": "제3기 29차 선거관리위원회 회의결과공고",
+   "date": "2026-11-05",
+   "first_file": [
+    [
+     "FILE_000000001968483",
+     "0"
+    ]
+   ],
+   "code": "A10024171",
+   "complex": "방배그랑자이아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001968483",
+     "fileSn": "0",
+     "name": "26-81(제3기-29차 선거관리위원회 회의결과공고)001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001968483&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 834,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제 1 호 의안 동의서 제출 동의서 결 과",
+     "text": "제 1 호 의안 동의서 제출 동의서 결 과\n장기수선계획 수시 종집계(제출율) 찬성(찬성율) =\n조정 WAALS AL) 가결 418(55.15%) | 382(50.39%)\nMH 동의 개표 및 =\n관련 일정 협의 건 2. 향후 진행사항\n동의서 제출 안내 공고에 기술된 제출 기간(10월14일\n~11월4일)에 우편으로 제출한 동의서 수신을 위해\n2026.11.09.(월) 업무종료시까지 도착분을 주가로 집계\n하는 것으로 의결함.\n참석 ( 4 )명, 찬성 ( 4 )명, 반대 ( )\nfrwe | 이베이\n20264 112 052\nXQ 방배그랑자이아파트 선거관리위원회 ae",
+     "topics": [
+      "ltr",
+      "event"
+     ],
+     "votes": "찬성(찬성율"
+    }
+   ],
+   "topics": [
+    "event",
+    "ltr"
+   ]
+  },
+  {
    "nttId": "3077221",
    "category": "회의결과",
    "title": "제4기 선거관리위원회 21차 회의 결과 공고(긴급)",
@@ -4214,6 +5562,213 @@
    ],
    "topics": [
     "defect"
+   ]
+  },
+  {
+   "nttId": "3076695",
+   "category": "회의결과",
+   "title": "제3기 17차 선거관리위원회 회의 결과 공고",
+   "date": "2026-11-04",
+   "first_file": [
+    [
+     "FILE_000000001967760",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001967760",
+     "fileSn": "0",
+     "name": "107- 제3기 17차 회의결과 공고(행위허가 신청을 위한 입주자동의 투표안내)001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001967760&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1486,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "@ 커뮤니티 온수 보일러 증설의 건",
+     "text": "@ 커뮤니티 온수 보일러 증설의 건\n투표안건 (3건) © 커뮤니티 온수 보일러 전기증설(분전)의 건 동시투표 진행",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "© 주차관리 출차인식 시스템 구축의 건",
+     "text": "© 주차관리 출차인식 시스템 구축의 건\n© 전자투표\nARR 2006.4 TY TILK 0800 ~ 종일 2026-4 Tl 1324) 12007!\n동의율 미 충족시 26.11.14(E). 09:00~11.23.(월) 17시까지 연장\n투표기간 및 장소 | 6 현장투표: 투표기간내 관리사무소 내방 : 오전 10시~오후 17시까지.\n주말 공휴일 제외하고 상시 운영 (관리사무소 방문하여 관리\n사무소에 비치된 컴퓨터 기기로 전자투표 진행 하거나 본인\n휴대폰을 가지고 오시면 투표방법 안내해 드림.)\n모바일 SHS 진행 (60600 사용) | 그\nSHO! 명부 관련 사항 © 투표인 명부 작성일: 20264 11월 05일 (목요일) 주말 제외\n© 열람 및 정정기간: 2026년 11월 06일(금요일) ~ 11월 10일(화요일)\n= Aue ane || C852! 요건)\nARUEL 온수보일러 | oe) wert aa ERS || Se easily\n안건별 설치 장소 및 증설의 건 2분의1이상 동의 | | )00령 [별표 3]\n법정동의 요건 커뮤니티 온수보일러 | eer wort 전체 입주자등 || Hes Sse)\n전기증설 (분전)의건 = “| 2분의1이상 동의 |] 나목(부대시설\n주차관리 출차시스템 단지출입구 전체 입주자등 | | 주 gui\nFao 건 2Me,82 32) | seco 동의 | |. FAN\n(표결결과 : 가결 4B)\n홍제역해링턴플레이스아파트 선거관리위원회위원장 =\nWe 우리관리",
+     "topics": [
+      "parking"
+     ],
+     "votes": "가결"
+    }
+   ],
+   "topics": [
+    "community",
+    "parking"
+   ]
+  },
+  {
+   "nttId": "3076643",
+   "category": "회의결과",
+   "title": "제3기 제17차 선거관리위원회 회의록",
+   "date": "2026-11-04",
+   "first_file": [
+    [
+     "FILE_000000001967713",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "03",
+   "board": "선거관리위원회",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001967713",
+     "fileSn": "0",
+     "name": "106-제 16차 선관위 회의록(행위허가 신청을 위한 입주자 동의 투표안내).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001967713&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 6010,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "1. 행위허가 신청을 위한 입주자등 투표 진행의 건",
+     "text": "1. 행위허가 신청을 위한 입주자등 투표 진행의 건",
+     "topics": [
+      "space"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "① 커뮤니티 온수 보일러 증설의 건",
+     "text": "① 커뮤니티 온수 보일러 증설의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "② 커뮤니티 온수 보일러 전기증설(분전)의 건",
+     "text": "② 커뮤니티 온수 보일러 전기증설(분전)의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "③ 주차관리 출차인식 시스템 구축의 건",
+     "text": "③ 주차관리 출차인식 시스템 구축의 건\n- 2 -\n제3기 제17차 선거관리위원회 회의록\n회의일시 26년 11월 03일(화) 19시 30분 ~20시 30분 회의장소 관리사무소\n주 관 선거관리위원회 위원장 작성자 관리부장\n안건 및 심의(토의) 가/ 의 결 사 항\n내 용 부 (결정사항 및 표결내용)",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "1. 투표 방법 : 하기 3개 안건을 동시투표 진행",
+     "text": "1. 투표 방법 : 하기 3개 안건을 동시투표 진행",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "1. 행위허가 신청을 위한 입주자등 투표 진행의 건",
+     "text": "1. 행위허가 신청을 위한 입주자등 투표 진행의 건",
+     "topics": [
+      "space"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "① 커뮤니티 온수 보일러 증설의 건",
+     "text": "① 커뮤니티 온수 보일러 증설의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "② 커뮤니티 온수 보일러 전기증설(분전)의 건",
+     "text": "② 커뮤니티 온수 보일러 전기증설(분전)의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "③ 주차관리 출차인식 시스템 구축의 건",
+     "text": "③ 주차관리 출차인식 시스템 구축의 건",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "2. 근거: 2026.09.10. 1차 입주자대표회의 의결, 2026.10.08. 2차",
+     "text": "2. 근거: 2026.09.10. 1차 입주자대표회의 의결, 2026.10.08. 2차\n입주자대표회의 의결, 26.11.03 17차 선거과리위원회 회의\n3. 투표대상\n① 홍제역해링턴플레이스 전체 입주자등(입주자 및 사용자)\n▶ “입주자”란 공동주택의 소유자 또는 소유자를 대리하는 배우자나 직계존비속을 뜻함\n② SH 동의 – SH 임차세대 투표도 동일 일정으로 진행 (①항과 별도진행)\n4. 투표 기간 및 장소\n① 전자투표\n시작일: 2026년 11월 11일 09:00~종료일: 2026년 11월 13일 17:00까지\n행위허가 ② 동의기간 연장 : 동의율 미 충족시 26.11.14(토). 09:00~11.23.(월) 17시까지 연장\n③ 현장투표: 투표기간내 관리사무소 내방 : 오전 10시~오후 17시까지.\n신청을 위한 ※ 주말 공휴일 제외하고 상시 운영\n1 입주자등 투표 * 관리사무소 방문하여 관리사무소에 비치된 컴퓨터 기기로 전자투표\n진행의 건 진행 하거나 본인 휴대폰을 가지고 오시면 투표방법 안내해 드림.\n5. 투표방법 : 모바일 투표로 진행 (XpERP 사용)\n6. 투표인 명부 관련 사항\n① 투표인 명부 작성일 : 2026년 11월 05일 (목요일)\n② 열람 및 정정기간\n2026년 11월 06일(금요일) ~ 11월 10일(화요일) (주말 제외)",
+     "topics": [
+      "space"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "7. 안건별 설치 장소 및 법정동의 요건",
+     "text": "7. 안건별 설치 장소 및 법정동의 요건\n안건명 설치장소 법정동의 요건\n커뮤니티 온수보일러 전체 입주자등\n1 커뮤니티 보일러실\n증설의 건 2분의1이상 동의\n커뮤니티 온수보일러 전체 입주자등\n2 커뮤니티 보일러실\n전기증설 (분전)의건 2분의1이상 동의\n주차관리 출차시스템 단지출입구 전체 입주자등\n3\n구축의 건 (동문,서문,남문 3곳) 3분의2이상 동의\n- 3 -\n제3기 제17차 선거관리위원회 회의록\n회의일시 26년 11월 03일(화) 19시 30분 ~ 20시 30분 회의장소 관리사무소\n주 관 선거관리위원회 위원장 작성자 관리부장\n안건 및 심의(토의) 가/ 의 결 사 항\n내 용 부 (결정사항 및 표결내용)",
+     "topics": [
+      "parking",
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "8. 법적근거: (법정동의 요건) 공동주택관리법 시행령 [별표 3] 제6호(증축·증설)",
+     "text": "8. 법적근거: (법정동의 요건) 공동주택관리법 시행령 [별표 3] 제6호(증축·증설)\n나목(부대시설 및 입주자 공유인 복리시설)\n▶ 건축물 내부 시설 증설: 전체 입주자등 2분의 1 이상 동의\n▶ 그 밖의 시설(옥외 등) 증설: 전체 입주자등 3분의 2 이상 동의\n9. 사업개요 (참조)\nn 예상비용: 4,950,000원 (부가세별도/가견적)\nn 사업개요: 샤워실 온수부족 해결을 위한 증설.\n기존 변경후\n커뮤니티 온수\n보일러 증설의 건 3,000리터 기존 3,000리터 1개 +\n보일러 용량\n1개 신규 200리터 1개 증설\n행위허가\n가열용량 30KW 30KW 2개\n신청을 위한\n1 입주자등 투표 n 예상비용: 1,349,000원(부가세별도/가견적)\nn 사업개요: 가열용량 30KW 사용을 위해 사우나\n진행의 건\n배전함에서 분전반 추가 설치공사 필요 → 현재 차단기\n용량 부족으로 전기 보일러 증설 불가 상태.\n커뮤니티 온수\n보일러 전기",
+     "topics": [
+      "community",
+      "space"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "증설(분전)의 건",
+     "text": "증설(분전)의 건\nn 예상비용: 20,000,000원(부가세별도/가견적)\nn 사업개요: 주차 차단기 출차측(동문,서문,남문 3개소)에\n주차관리 출차\n번호 인식 일체형 차단기로 교체하여 방문차량 및 입주민",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "시스템 구축의 건",
+     "text": "시스템 구축의 건\n주차관리 의 효율성을 도모하고자 함.\n※ 117,118동 외부 주차장은 입주민 전용으로 활용\n상기 안건이 위와 같이 의결 되었음을 확인하고 서명(또는 날인) 한다.\n직 책 동 성 명 서 명 직 책 동 성 명 서 명\n선거관리 109 이영수 위 원 107 박정혁\n위원장\n원본서명 원본서명\n위 원 103 신현진 위 원 116 김미조\n위 원 106 김수훈 불참",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "parking",
+    "space"
    ]
   },
   {
@@ -5478,6 +7033,88 @@
    ]
   },
   {
+   "nttId": "3075689",
+   "category": "자체감사",
+   "title": "2026년 9월 감사결과보고서",
+   "date": "2026-11-03",
+   "first_file": [
+    [
+     "FILE_000000001966397",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001966397",
+     "fileSn": "0",
+     "name": "1000020003.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001966397&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 960,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "1. 감사내용\n1-1. 회계업무 감사(현금시재예금 및 예치금 잔액 현황, 월말결산 등)\n1-2, 관리업무 감사",
+     "topics": [
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": "2. 감사 세부내용\n2-1. 2026년 98 30일 기준 현금시재 예금 및 각종 예금잔액 확인\n2-2. 관리비 미남세대(2026년 10@ 18일 기준) 확인",
+     "topics": [
+      "finance"
+     ],
+     "key": true
+    },
+    {
+     "text": "감사내용 j\nNUNS | - 1개월이상 관리비 체납세대: 11세대(2개월이상 2세대) 확인\nMa wey | 7 8개월 이상 장기 연제세대 없음",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "Ma wey | 7 8개월 이상 장기 연제세대 없음\n2-3. 2026년 9월 결산내역(재무제표의 예금 잔고현황 및 현금시재 관리상황) 점검\n- 당기순이익(#217.889,347원)",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "- 당기순이익(#217.889,347원)\n2-4. 관리비 부과내역 및 각종 지출결의서 점검\n8. 기타 SAN 점검",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "1. 세대별 전유부분 매월 소독 실적현황을 감사시에 제출 요구함.\n2. 커뮤니티센터 월별 OSH 및 매출현황 분석자료(헬스와 골프 개인레슨 수입\n조치계획 | 지출내역)를 제출토록 요구항.(컴뮤니티센터 팀장에게 재요구)",
+     "topics": [
+      "community"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "community",
+    "finance"
+   ]
+  },
+  {
    "nttId": "3075522",
    "category": "자체감사",
    "title": "26년 9월 입대의 감사보고서",
@@ -5846,6 +7483,81 @@
    ]
   },
   {
+   "nttId": "3075440",
+   "category": "자체감사",
+   "title": "2026년 9월 자체감사 결과 보고서",
+   "date": "2026-11-02",
+   "first_file": [
+    [
+     "FILE_000000001966070",
+     "0"
+    ]
+   ],
+   "code": "A10024347",
+   "complex": "마포프레스티지자이아파트",
+   "bbs": "05",
+   "board": "감사보고서",
+   "kind": "doc",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001966070",
+     "fileSn": "0",
+     "name": "자체감사결과 보고서(26년9월).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001966070&fileSn=0",
+     "method": "pdf-ocr(2쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(2쪽)"
+   ],
+   "chars": 1970,
+   "parser": 2,
+   "snips": [
+    {
+     "text": "[별지 제3-2호서식]\n금융기관 예금잔액 및 관계장부 대조확인 결과 보고서\n( 2026 )년 (8 )월 (31 )일 기준 재무제표 금융기관 잔액증명서 비고",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "우리은행 서강대 정기 1020-617-546563 500,000,000 500,000,000 <\n본 감사는 위에 기재된 PAHO] 금융기관 ASO] 장부금액과 재무제표에 표시되는 금액의 일치여부 및 계좌별 잔액증명\n서 상의 잔액을 확인하였고, 차이금액은 위와 ASS 확인합니다.",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "(1) 금융기관의 이름 (2) 계좌의 사용 용도 (3) 금융상품의 종류)예, 보통예금, 정기적금 등)\n(4) 금융상품의 계좌번호 (5) 기준일 현재 재무제표 상의 잔액\n(6) 확인자가 잔액증명서를 통해 확인한 금액 (7) 차이 금액",
+     "topics": [],
+     "key": true
+    },
+    {
+     "text": "0) (2) (3) (4) (5) (6) 0)\n신한은행 ME ㅣ 관리비 보통 100-035-019416 700,376,804 700,376,804 0\n신한은행 신촌 | AMS | 보통 100-036-688812 1,146,463 1,146,463 7",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "신한은행 신촌 | AMS | 보통 100-036-688812 1,146,463 1,146,463 7\n우러은행 Aa) 관리비 | 보통 1005-804-156622 58,983,462 58,983,462 ~\n국민은행 아현동| 관리비 보통 019601-04-359374 103,484,227 103,484,227 J",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    },
+    {
+     "text": "국민은행 아현동| 관리비 보통 019601-04-359374 103,484,227 103,484,227 J\n하나은행 SAS | 관리비 보통 415-910033-55704 19,053,872 19,053,872 ~\n농협은행 마포금융| 관리비 | 보통 301-0317-3958-61 51,770,178 51,770,178 ^",
+     "topics": [
+      "finance"
+     ],
+     "key": false
+    }
+   ],
+   "agenda": [],
+   "topics": [
+    "finance"
+   ]
+  },
+  {
    "nttId": "3075436",
    "category": "회의결과",
    "title": "제2기 제13차 정기입주자대표회의 결과공고",
@@ -6209,6 +7921,256 @@
     "community",
     "parking",
     "rules"
+   ]
+  },
+  {
+   "nttId": "3075172",
+   "category": "회의결과",
+   "title": "제3기 입주자대표회의 3차 임시회의 결과공고",
+   "date": "2026-11-02",
+   "first_file": [
+    [
+     "FILE_000000001965738",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001965738",
+     "fileSn": "0",
+     "name": "29-제3기 임시 입주자대표회의 3차 정기회의 결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001965738&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 7341,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "④ 제3기 2차 대표회의 의결사항 이행 보고 및 차기 안건 보고 - 확인",
+     "text": "④ 제3기 2차 대표회의 의결사항 이행 보고 및 차기 안건 보고 - 확인\nŸ 특이사항 없음\n홍제역해링턴플레이스아파트 입주자대표회의",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": []
+  },
+  {
+   "nttId": "3075128",
+   "category": "회의결과 (회의록)",
+   "title": "제3기 입주자대표회 3차 임시회의 회의록",
+   "date": "2026-11-02",
+   "first_file": [
+    [
+     "FILE_000000001965704",
+     "0"
+    ]
+   ],
+   "code": "A10023959",
+   "complex": "홍제역 해링턴플레이스아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001965704",
+     "fileSn": "0",
+     "name": "1102.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001965704&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 20032,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "n 제1안 주차관리 출차인식 시스템구축 관련 구청 자문의 건",
+     "text": "n 제1안 주차관리 출차인식 시스템구축 관련 구청 자문의 건",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "승강기 장기수선충당금 사용계획서 추인 및 승인의 건",
+     "text": "승강기 장기수선충당금 사용계획서 추인 및 승인의 건\nn 제2안\n(107동 승강기 밸런스체인 교체, 관리승강기PCB-ASY교체)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제3안 106동 3라인 승강기 SRC릴레이 교체의 건",
+     "text": "n 제3안 106동 3라인 승강기 SRC릴레이 교체의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제4안 복합기(프린터) 임대사업자 선정의 건",
+     "text": "n 제4안 복합기(프린터) 임대사업자 선정의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제5안 정수기 임대사업자 선정의 건",
+     "text": "n 제5안 정수기 임대사업자 선정의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제6안 크리스마스 트리 설치 운영의 건 (커뮤니티센터, 아파트 지상층)",
+     "text": "n 제6안 크리스마스 트리 설치 운영의 건 (커뮤니티센터, 아파트 지상층)",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제7안 2026년 추가경정예산 승인의 건 (3분기 세입세출 결산 보고)",
+     "text": "n 제7안 2026년 추가경정예산 승인의 건 (3분기 세입세출 결산 보고)",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제8안 골프 중고기기 매각 입찰결과 보고 및 신규입찰/처분 진행의 건",
+     "text": "n 제8안 골프 중고기기 매각 입찰결과 보고 및 신규입찰/처분 진행의 건",
+     "topics": [
+      "community",
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "어린이놀이터 장기수선충당금 사용계획서 추인 및 승인의 건",
+     "text": "어린이놀이터 장기수선충당금 사용계획서 추인 및 승인의 건\nn 제9안\n(어린이 놀이터 바닥 고무칩 구입, 놀이터 보수자재 구매)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제10안 커뮤니티 온수보일러 전기증설 비용계정 수정의 건",
+     "text": "n 제10안 커뮤니티 온수보일러 전기증설 비용계정 수정의 건",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제11안 지하주차장 방한 도어 커튼 설치 및 커뮤니티 계단 렉산 설치 논의의 건",
+     "text": "n 제11안 지하주차장 방한 도어 커튼 설치 및 커뮤니티 계단 렉산 설치 논의의 건",
+     "topics": [
+      "parking",
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제12안 주차장 관리규정 개정의 건 (아이돌봄 및 실버케어 등 차량 지원 관련)",
+     "text": "n 제12안 주차장 관리규정 개정의 건 (아이돌봄 및 실버케어 등 차량 지원 관련)",
+     "topics": [
+      "parking",
+      "rules"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제13안 단지 내 공용부 라탄의자 및 소파 교체의 건",
+     "text": "n 제13안 단지 내 공용부 라탄의자 및 소파 교체의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제14안 승강기 내 에어컨 설치 논의의 건",
+     "text": "n 제14안 승강기 내 에어컨 설치 논의의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제15안 장기수선계획 수시 조정 논의의 건",
+     "text": "n 제15안 장기수선계획 수시 조정 논의의 건",
+     "topics": [
+      "ltr"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "n 제16안 홈네트워크 유지관리업자 선정의 건",
+     "text": "n 제16안 홈네트워크 유지관리업자 선정의 건",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "n 제17안 PHP 보안업데이트 업체 선정의 건",
+     "text": "n 제17안 PHP 보안업데이트 업체 선정의 건\nn 보고 및 논의사항\n① 세대창고 구축 방안 논의 (제2차)\n② 전기설비 안전점검 분기 보고서\n③ 비둘기 기피제 약품 설치 논의",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "④ 입주자대표회의 의결 결과 이행보고 및 11월 임시회의 예정 안건",
+     "text": "④ 입주자대표회의 의결 결과 이행보고 및 11월 임시회의 예정 안건\n제3기 제3차 임시 입주자대표회의 회의록\n회의일시 26년 10월 29(목) 19시 30분 ~ 23시 00분 회의장소 작은도서관\n주 관 입주자대표회의 회장 작성자 관리부장\n안건 및 심의(토의) 내용 가 / 부 의 결 사 항\n(결정사항 및 표결내용)\n▸주요발언내용\nŸ 입찰공고문의 내용이 과도한 제한에 해당하는지 구청 자문 필\n요( 의무 자문대상은 아님)\n주차관리 출차인식\n1 시스템구축 관련 가결 ▸결정사항\n구청 자문의 건 Ÿ 의무자문 대상은 아니나 출차인식 시스템 구축관련 입찰공고문\n의 내용이 “과도한 제한”에 해당하는지 서대문구청에 자문 하기\n로 의결함(단, 의무 자문대상은 아님)\n▸표결내용 : 찬성 8 반대 기권\n▸주요발언내용\nŸ 107동 승강기 밸런스체인 보호커버(고무재질)가 50%이상 손\n상되어 과도한 출렁거림 발생으로 주변 시설물을 타격함에따\n라 과도한 소음발생으로 이용시 불안에 대하여 민원이 수시로\n접수되어 교체 필요함.\nŸ 관리동 승강기 표시창 동작불량으로 PCB ASY 교체해야 함.\n▸결정사항\nŸ 107동 밸런스체인 교체 및 관리동 승강기 PCB ASY\n승강기 장기수선충당금\n장기수선충당금 사용계획서 추인 및 승인 가결됨\n사용계획서 추인 및\n승인의 건 (107동 Ÿ 107동 승강기 밸런스 체인 교체 공사\n2 가결\n승강기 밸런스체인 업체명 품명 규격 금액(부가세포함)\n교체, 관리승강기 Ÿ COMP,CHAIN Ÿ D8, NRC-8, TK(1本) 분양 2,139,540원\nPCB-ASY교체) 서강\nŸ COMPEN, Ÿ B/K SET(볼트,슈벨, SH 247,460원\n엘리베이터\nCHAIN B/K SET 컨넥팅링크) 합계 2,387,000원\nŸ 관리동 승강기 PCB-ASY교체 보수\n업체명 품명 규격 금액(부가세포함)\nŸ",
+     "topics": [
+      "parking",
+      "community",
+      "operator",
+      "rules",
+      "ltr",
+      "finance",
+      "comm"
+     ],
+     "votes": "찬성 8 반대 기권"
+    },
+    {
+     "head": "설치 논의의 건",
+     "text": "설치 논의의 건\n▸결정사항\nŸ 승강기 설치 여부는 의견이 팽팽하여 11월 정기 입주자대표회\n의시 재논의하기로 함.\nŸ 장기수선계획에 반영을 위해서도 11월 정기 회의 시 결정필요\n▸표결내용 : 확인 8 반대 기권\n▸주요발언내용\nŸ 수시조정에 따른 장기수선충당금 부과금은 27년에 소폭 상승 예상\n장기수선계획 수시 ▸결정사항\n15 가결\n조정 논의의 건 Ÿ 26년 내 소유자 과반수 동의까지 받아야 하므로 11월 정기\n입주자대표회의시 논의 확정 하기로 의결함\n▸표결내용 : 찬성 8 반대 기권\n▸주요발언내용\nŸ HDC 랩스와 입주후 홈네트워크 유지관리 서비스 계약기간 종료\n로 계약없이 우리아파트 자체적으로 임기응변식 대응하고 있음.\nŸ 유지관리 계약을 하지 않으면 A/S를 위한 유료 출장서비스도 오\n지 않는 상황임\n홈네트워크 유지 Ÿ 관리사무소는 정보통신유지관리 전문가가 없어 보안 및 서버관리\n16 관리업자 선정의 가결 에 취약함.\nŸ 유지관리 계약을 한다면 입찰공고가 필요함.\n건 ▸결정사항\nŸ 홈네트워크에 문제 발생시 입주민의 큰 불편을 초래하는 반면 관리\n사무소는 유지관리에 한계가 있어 신속대응이 불가하므로 유지관\n리업자 선정을 위한 입찰을 준비하여 차기 회의 시 의결하기로 함.\n▸표결내용 : 찬성 8 반대 기권\n▸주요발언내용\nŸ PHP에서 로그인 없이 외부에서 서버에 원하는 명령을 실\n행할 수 있는 치명적 보안 취약점 발견으로 전 세계적 이\n슈가 되고 있는 상황으로 우리아파트도 PHP보안 업데이트\n가 필요함.\nŸ 정부에서도 필수 대응 항목으로 정하여 벤처기업 및 유관기관\nPHP 보안업데이트 에 PHP보안 업데이트 대응 관련 무상 지원하는 상황임.\n17 가결\n업체 선정의 건 ▸결정사항\nŸ 본건은 당장 PHP 보안업데이트 대응하지 않고, 제16안 홈네트워\n크 유지관리업자 선정의 건과 연계하여",
+     "topics": [
+      "parking",
+      "community",
+      "operator",
+      "rules",
+      "ltr",
+      "safety",
+      "comm"
+     ],
+     "votes": "찬성 8 반대 기권"
+    },
+    {
+     "head": "② 등록 요건 및 주차 허용시간",
+     "text": "② 등록 요건 및 주차 허용시간\n제4-1조\n가. 어린이 돌봄 (주차 허용시간: 오전7시~ 저녁8시)\n(신고 및\n제출서류: 가족일 경우 가족관계 증명서, 고용관계일 경우 근로계약서, 해당세대 주민등록 등본(공통)\n등록-외부\n나. 실버케어 (주차 허용시간: 고용관계일 경우 근로계약서에 의하고 자녀의 돌봄일 경우 치료 기간 내)\n차량)\n제출서류: 고용관계일 경우 근로계약서, 질병으로 인한 자녀 돌봄일 경우 진단서 제출\n다. 단지내 어린이집 직원(당일 주정차)\n(신설)\n제출서류: 근로계약서\n라. 정수기 점검, 학습지 교사 등(당일 주정차)\n제출서류: 재직증명서, 사업자등록증 등\n③ 주차요금(관리비에 부과함.)\n가. 어린이 돌봄 (미취학 아동 대상): 월10만원\n나. 실버케어 (요양보호사 또는 병중에 있는 부모의 간호를 위한 자녀의 정기적 방문): 월10만원\n다. 단지내 어린이집: 무상\n라. 정수기 점검, 학습지 교사 등: 무상\n① 관리주체는 제4조에 따라 등록한 차량에 대하여 차량 스티커를 발급할 수 있으 신설\n며, 발급된 차량 스티커의 경우 차량운전자는 외부에서 확인이 가능하도록 전면유리 ④ 외부등록 차량은 관리사무소에서 발급하는 별도의 표지를 지급받아 진입 시 경비실에 확\n제8조\n의 적정한 장소(조수석 중간부)에 부착하여야 한다. 인을 거친 후 경비원이 식별이 가능하도록\n(차량 스티\n② 차량 스티커의 서식(형태 ․ 모양)은 홍제역 해링턴플레이스아파트 고유의 색상과 디 대시보드위에 게시하여야 한다.\n커 발급\n자인으로 도안하되 동 서식에는 동 ․ 호수를 기록할 수 있다. ⑤ 외부 차량은 이용 기간이 지나면 외부차량 출입 표지증을 관리사무소에 반납하여야 한다.\n및 부착)\n③ 차량 보유자는 당 아파트에서 전출(이사)할 때에는 관리비 정산 시 차량 스티커를 ⑥ 관리주체는 외부 차량 출입 표지에 대",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "comm",
+    "community",
+    "finance",
+    "ltr",
+    "operator",
+    "parking",
+    "rules",
+    "safety"
    ]
   },
   {
@@ -10038,7 +12000,23 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001962746",
+     "fileSn": "0",
+     "name": "10-25차정기입주자대표회의회의록.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962746&fileSn=0",
+     "method": "pdf-ocr(4쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(4쪽)"
+   ],
+   "chars": 2773,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3072843",
@@ -10196,7 +12174,54 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001962462",
+     "fileSn": "1",
+     "name": "20261029092135.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962462&fileSn=1",
+     "method": "pdf-ocr(7쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(7쪽)"
+   ],
+   "chars": 7291,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "2) 안전보건경영시스템 인증서(160 45001.2018) 보유업체",
+     "text": "2) 안전보건경영시스템 인증서(160 45001.2018) 보유업체\n3) 사업 제만서(디자인 시안, 시공계획서 등) 제출업체\n- 유찰될 경무 원안대로 재공고를 진행한다.\n본 안건에 대하여 원안과 같이 하기로 의결함.\n2026년 장기수선계획ㅣ /원안일부내용>\n제후 호시 조르시철물 보|_ 입찰방식 : 제한경쟁입찰, 적격심사제, 전자입찰 | 가 | 15| 15\n수 공사 업체 선정 : ’\n(3) - 사업내용 : 조경시설물 보수 공사\n- 서류제출마감일 : 2026년 11월 25일(수) 10시\n- 3 o\n구분 안건 의결내용 큰 총|찬|반|기\n원|성|대|권\n- 입잘참가 자격\nㆍ BETES! 고시 제224-196호 저조에 해당하지 않는 업체\nㆍ 조경시설물 설치공사업 면허보유 업체\nㆍ 자본금 7억 이상인 업체\nㆍ 사업실적 : 입찰공고윌로부터 최근 5년간 공동주택\n3,000AICH 이상 1개 단지 포함하여 5건 이상 완료\n실적이 있는 업제\nㆍ 현장 설명회에 잠석한 업제(현장 설명회 미 참가\n2026년 BAM a | 업체는 입찰 자격 배제함)\npits | 청사 조경시설물 S| ㆍ프리젠테이션(01) : 26년 11월 25밀(수) 어시 구결\n수 공사 업체 선정 설명:15분, Jose\n건(장충) - 2026년 장기수선계획에 따라 RANE 보수 공사\n업체 선정 적격심사제 세부평가배점표 입찰가격\n배점 점수 가중치는 1로 정합\n- 솜파구청 공동주택 전문가 자문 신청 후 입찰 진행\n- 전문가 자문 신청 후 자문결과에 따라 입주자대표\n회의에서 재의결이 필요하지 않을 경우, 원안대로\n입찰공고를 진행함\n- sag 경우 원안대로 재공고를 진행한다.\n※ 장기수선충당금 사용계획서를 의결함\n본 안건에 대하여 뭔안과 같이 하기로 의결함.\n<원안일부내용>\n때 - 보수내용 : 지하주차장 급ㆍ배기헨 보수\nNS) 바기헨 - 보수업체 : ",
+     "topics": [
+      "parking",
+      "operator",
+      "ltr",
+      "comm"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제14호 | 부스터 펌프 교체 건|- 보수업체 : 윌로펌프서비스 북서물센터 가",
+     "text": "제14호 | 부스터 펌프 교체 건|- 보수업체 : 윌로펌프서비스 북서물센터 가\n(장충) - 금액 : 4,200,000원(\\/1별도)\n- 계정과목 : 장기수선충당금\n※ 장기수선충당금 사용계획서를 의결함\n= 4 -\n구분 안건 의결 내용 과 총|찬|반\n원|성|대\n본 안건에 대하여 원안과 같이 하기로 의결함.\n<원안일부내용>\n- 입찰방식 : 제한경쟁입찰, 적격심사제, 전자입찰\n- 시업내용 : 어린이 SOLAS 및 HIE 교제 공새(총패소)\n- 입찰상한금맥 : BOOM OFS! (VATE A)\n- 국토교통부고시 제2024-196호(제24조 제5항)에 의거\n입주자대표회의에서 의결한 바, 상한금액을 초과하여\n입찰할 경우 무효처리함.\n- 서류제출마감일 : 2026년 1181 25일 (수) 10시\n- 입찰참가 자격\nㆍ 국토교통부 고시 제2024-196호 제26조(참가자격의\n제한)에 해당하지 않는 업체\nㆍ 전문건설업(조경시설물 설치공사업) 면허를 보유업체\nㆍ 기술인력 산정인원이 5인 이상인 업체\n이이 ㅣ (4대보험 가입 증명 기준)\n공사 어린이놀이시설 | . SES 8S 이상인 입제\n허사 aH Ge aa | 7 입잘공고일로부터 최근 5년간 1,000세대 이상 공동주택 | 가\nare 단지의 어린이 놀이시설 설치 완료 실적이 52! 이상인\n업체(실적증명원 기준)\nㆍ ANSI WAHHD NSE 201 이상인 업제(준대 재해 여븐준수 언제)\n: 직접생산증명서 제출 가능 업체\n(세부품명 :조합놀이대,야외문동기구, 디자인서비스)\nㆍ 현장설명희에 참석한 업체\nㆍ 프리젠테이션(01) : 26년 11뭘 25일(수) 19시30분\n설명:15분, 질의응답:5분\n- 2026년 장기수선계획에 따라 어린이놀이시설\n보수 BA 업체 선정 적격심사제 세부평가배점표\n입찰가격 배점 점수 가중치는 1로 정함\n- 전문가 자문 신청 후 자문결",
+     "topics": [
+      "community",
+      "operator",
+      "ltr",
+      "comm",
+      "space"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "comm",
+    "community",
+    "ltr",
+    "operator",
+    "parking",
+    "space"
+   ]
   },
   {
    "nttId": "3072651",
@@ -10210,7 +12235,133 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261028&physical=ADE979EE7BBF4FAD90D0B05965C09C5E.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    },
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261028&physical=1B39AB8A68A043B799FDC1E3FAEF3013.jpg&contentType=image/jpeg",
+     "name": "본문이미지2.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    },
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261028&physical=7FD7ABD147C246B38645E16CBA5E13B9.jpg&contentType=image/jpeg",
+     "name": "본문이미지3.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr",
+    "image-ocr",
+    "image-ocr"
+   ],
+   "chars": 4529,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "2026년 9월 각 부서별 자금 집행 Fel 건",
+     "text": "2026년 9월 각 부서별 자금 집행 Fel 건\n- 9월 각 부서별 수선자재 및 소모품 등으로 집행한 자금을 검토하고 추인함. 가절\n- 총 7건, 집행금액 : 19351,360{부가세 포함) 널\n> 참여 : 19명 - 찬성 : 19명, 반대: 명, 기권: 명",
+     "topics": [],
+     "votes": "찬성 : 19명, 반대: 명, 기권: 명"
+    },
+    {
+     "head": "선조치(긴급) 공사 주인 건",
+     "text": "선조치(긴급) 공사 주인 건\n- 급수, 배수 시설, 소방시설, 안전사고 발생 Soe 선조치(긴급)한 작업에\n대하여 검토하고 추인함. (사전 보고 완료) 가결\n- 총 6건(집수정 배수펌프 긴급 교체 외) 「결\n- 추인 금액 : 수선유지비(14135,000원), 장기수선충당금(3,648,000원)\n> 참여 : 19명 - 찬성 : 19명, 반대: 명, 기권 : 명",
+     "topics": [],
+     "votes": "찬성 : 19명, 반대: 명, 기권 : 명"
+    },
+    {
+     "head": "기존사업자 재계약 건(관리비 고지서 인쇄, 저수조 청소 용역)",
+     "text": "기존사업자 재계약 건(관리비 고지서 인쇄, 저수조 청소 용역)\n- 계약만료가 도래하는 기존사업자와의 재계약 2건을 검토하고 이전 계약과\n동일한 조건으로 재계약 하기로 의결함. 가결\n- 제삼인쇄사(관리비 고지서 인쇄), 더민영(저수조 청소)\n> 참여 : 20명 - 찬성 : 20명, 반대: 명, 기권 : 명",
+     "topics": [
+      "operator",
+      "finance"
+     ],
+     "votes": "찬성 : 20명, 반대: 명, 기권 : 명"
+    },
+    {
+     "head": "비상계단 출입 시스템 개선 건",
+     "text": "비상계단 출입 시스템 개선 건\n- 외부 비상계단 출입시스템의 노후화 및 외부인의 무단출입 문제 개선과\n4 입주민 편의 확보를 위해 출입시스템을 개선하기로 함. 가결\n- 개선 방안 : 내부에서 외부로 출입은 가능, 외부에서는 출입 제한\n> HO: 20명 - 찬성 : 20명, 반대: 명, 기권 : 명",
+     "topics": [
+      "public"
+     ],
+     "votes": "찬성 : 20명, 반대: 명, 기권 : 명"
+    },
+    {
+     "head": "연말연시 트리 장식물 설치 건",
+     "text": "연말연시 트리 장식물 설치 건\n- 연말연시 및 크리스마스트리 설지를 진행하기로 함.\n- 설치 예산은 전년과 같이 1전만원 이내에 집행하기로 하고, 세부 디자인은 가결\n기존 자재 재활용 및 미관을 최대한 고려하여 결정하기로 함.\n> HO: 20명 - 찬성 : 20명, 반대: 명, 기권 : 명",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성 : 20명, 반대: 명, 기권 : 명"
+    },
+    {
+     "head": "장기수선계획 조정 건",
+     "text": "장기수선계획 조정 건\n- 4월 정기 검토한 장기수선계획에 따른 공사 집행 과정에서 예산 및 공사\n우선 순위에 따른 일부 변경이 있어 최종 조정안을 안건 상정하고, 이를 가결\n의결함.\n> 참여 : 21명 - 찬성 : 21명, 반대: 명, 기권 : 명\n===== 본문이미지2.jpg =====\n안건 및 의결 사항(세9-24차 정기회의 2026. 10. 27) - (2/3)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": "찬성 : 21명, 반대: 명, 기권 : 명"
+    },
+    {
+     "head": "노후 운동시설 교체 건",
+     "text": "노후 운동시설 교체 건\n- 단지 내 야외 운동기구 중 노후화 및 파손으로 이용이 불가능한 운동기구를\n7 철거 및 교체하기로 함. (예상 교체 대수 : 13대) 가결\n- 업체 선정 방법 : 제한경쟁입찰, 최저가 낙찰 .\n- 20264 장기수선계획 SSA. (예산 5.500만원, 부가세 포함)\n> 참여 : 21명 - 찬성 : 21명, 반대: 명, AA: 명",
+     "topics": [
+      "operator",
+      "ltr",
+      "finance"
+     ],
+     "votes": "찬성 : 21명, 반대: 명, AA: 명"
+    },
+    {
+     "head": "기초질서 위반행위 관련 세부 부과 금액 결정 건",
+     "text": "기초질서 위반행위 관련 세부 부과 금액 결정 건\n- 쾌적하고 안전한 공동체 생활의 ATH 확립을 위해 기초질서 위반행위에\n대한 세부 위반금액을 결정함,무단투기, 주차질서 위반 등)\n- 폐기물 무단배출 : 50,000원 ~ 300,000원\n- 주차질서 위반 : 100,000원 가결\n※ 조속한 질서 SAS 위하여 2-STRIKE OUT MES 시행하기로 하고, 세부 .\n내용은 SUES 통하여 공지하기로 함.\n- 별도로 주차장 이용 편의를 위하여 통로(벽) 공간의 야간 주차 허용의 시행\nBers 검토하여 보고하기로 함.\n> 참여 : 21명 - 찬성 : 21명, 반대: 명, AA: 명",
+     "topics": [
+      "parking",
+      "event"
+     ],
+     "votes": "찬성 : 21명, 반대: 명, AA: 명"
+    },
+    {
+     "head": "보안대원 순찰 중 차량 손상 사고 배상 지원 건",
+     "text": "보안대원 순찰 중 차량 손상 사고 배상 지원 건\n- 새벽 순찰 근무 중 자전거 미끄러짐으로 차량 접촉 사고로 근무자가 개인적\n으로 HSS 비용에 대하여 지원하기로 의결함. (지원금액 : 180 만원) 가결\n- 추후 단지내 근무자들이 업무상 발생한 불의의 사고에 대하여 보험 가입 등을 .\n통해 제도적으로 보상 할 수 있는 방안을 마련할 것.\n> 참여 : 21명 - 찬성 : 21명, Ho: 명, 기권 : 명",
+     "topics": [
+      "safety"
+     ],
+     "votes": "찬성 : 21명, Ho: 명, 기권 : 명"
+    },
+    {
+     "head": "입대의 회장 및 관리소장 상대 고소 관련 소송 대응 건",
+     "text": "입대의 회장 및 관리소장 상대 고소 관련 소송 대응 건\n- 입주자대표회의 의결과 절차에 따라 집행된 주요사업에 대하여 특정 입주민\n이 입대의회장과 관리소장을 상대로 경찰에 고발하는 건이 발생함에 따라 규\n약에 따라 소송으로 대응하기로 WA HAA Merz)\n- 예상비용 : 500만원 이하\n- 입주민 SA 반하는 상습적인 고소, 고발 및 민원 제기 행위가 중단 될 수 가 결\n있도록 강력한 대응 방안을 함께 검토 및 진행하기로 함.\n- 통합경비용역 관련 과태료 처분 소송의 최종 판결시 판결 내용에 따라 일부 시설\n공사비를 장충금으로 ABS 변환해야 할 경우 해당 공사 금액에 대한 세입자\n부담분에 대하여 이자포함 환급 조치 예정임.\n> 참여 : 21명 - 찬성 : 21명, 반대 : 명, 기권 : 명",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 : 21명, 반대 : 명, 기권 : 명"
+    },
+    {
+     "head": "통합경비용역 시스템 운영비 조정 건",
+     "text": "통합경비용역 시스템 운영비 조정 건\n- 재계약하기로 의결한 통합경비업체에서 제안한 시설 투자 중 일부 항목 축소에 따라\n시스템 운영비를 조정하기로 AS. 가결\n- 공동현관로비폰 공사는 2027년 1월 최종 결정 예정이며, 제외될 경우 비율에 따라 님\n시스템 운영비를 감액 조정 예정임.\n> 참여 : 21명 - 찬성 : 21명, 반대: 명, AA: 명\n1) | - 커뮤니티 카페의 외부인 이용 제한에 대한 민원 발생으로 이를 보고하고 개선방안을 | 협의 완료\n준비하기로 함.\n2026. 10. 28. a\n리센츠아파트 입주자대표회장\" =!\n===== 본문이미지3.jpg =====\n관리 주체 업무 보고(제9-24차 정기회의 2026. 10. 27.) - (3/3)\n1. 입찰 및 개찰 진행 현황 (27)\n1] 소방시설 지적사항 보수공사 업체 선정(제한경쟁, 긴급입찰)\n- ASAE, 공사금액 : 10,000,000원(부가세 별도), 업체명 : 55대영방재시스템\n[2] 배수로측구 교체공사 업제 선정(제한경쟁, 최저가)\n- 입찰마감 10. 6. 계약완료 : 252,000,000원(부가세 별도), AAS: 주부흥종합건설\n2. NICE PARK 시스템 운영(69. 1.~ 9. 30)\nse 대비 감소\n3. 관리사무소 민원 처리 및 승강기 민원 접수 현황 보고\n= [81 ~ 930 위\n핀원저리 부서 [ae | 전용 ㅣ ga) Seneeas\n| 전기 팀 | 655 | 113 | 768 | 운행정시 ㅣ 12 |\n| Sao | 916 | 43 | 959 | aaa | 6 |\n| 설비 es ㅣ 506 ㅣ 132 | 638 | 소음및진동민원기타\n| ste _ | 251 | 102 | 353 fT\n2.328 amg | 할 계 | 43 |\n4. 관리사무소 주요 보수 및 작업 현황\n- 커뮤니티 3층 승강기 공사준비, 커뮤니",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 : 21명, 반대: 명, AA: 명"
+    }
+   ],
+   "topics": [
+    "event",
+    "finance",
+    "ltr",
+    "operator",
+    "parking",
+    "public",
+    "safety"
+   ]
   },
   {
    "nttId": "3072589",
@@ -10229,7 +12380,238 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001962389",
+     "fileSn": "0",
+     "name": "14차 회의록 .pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962389&fileSn=0",
+     "method": "pdf-ocr(3쪽)"
+    },
+    {
+     "atchFileId": "FILE_000000001962389",
+     "fileSn": "1",
+     "name": "슬라이드1.JPG",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962389&fileSn=1",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(3쪽)",
+    "image-ocr"
+   ],
+   "chars": 5596,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호의 안 | 전기안전관리 직무고시 정기점검업체 선정 논의 건.",
+     "text": "제1호의 안 | 전기안전관리 직무고시 정기점검업체 선정 논의 건.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제2호의 안 | 강남구청 전기차 화재대비 소화기 지원 요청 건.",
+     "text": "제2호의 안 | 강남구청 전기차 화재대비 소화기 지원 요청 건.",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호의 안 | 커뮤니티 운영 관련 안건. | |",
+     "text": "제3호의 안 | 커뮤니티 운영 관련 안건. | |\n르엘 카페(식당) 운영업체 입찰 관련 논의 건. ||\n북카페 커피 대신 구입 논의 건. ㅣ\n| 4 | ADS 자동제세동기) 설치 논의 건. | |\n잡지(더북컴퍼니 스타일러) 비치 논의 건. | |",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호의 안 | 세대 방문차량 사용시간 조정 요청 건.(입주민 제안 안건) | |",
+     "text": "제4호의 안 | 세대 방문차량 사용시간 조정 요청 건.(입주민 제안 안건) | |",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호의 안 | 관리주체 제안 안건.",
+     "text": "제5호의 안 | 관리주체 제안 안건.\n국민은행 관리비계좌 개설 논의 건. | |\n공용부 배관 긴급 통수 작업 추인 건. | |\n보안실(정,후문) 460(심장 자동제세동기) 설치 논의 건. | |",
+     "topics": [
+      "finance",
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호의 안 | 입주자 제안 안건. ㅣ",
+     "text": "제6호의 안 | 입주자 제안 안건. ㅣ\n주차장 사용 지정제 운영 요청 건. | |\na ae een apm ad) ey age aetna 은교\nco (ja 번 의 그 사 항 x tt ea 내용\n전기설비 안전진단(직무고시 점검) 용역업체 선정 승인\n찬성 : 참석자 전원\n반대 :\nis |S 7 O ee 지우고 1. 업체명 : GS-Aolaria7y 견적업체 중 최저가 업체)\n의안 시 2 | ae i 1) 7t) >. 계약금액0/47포함) : 1.350,000원\n을 = = 3. 계약기간 : 2026.11.1.~2027.10.31.\n4. 계약내용 : 반기 점검(1회), 분기 점검(2회)\n5. 계정과목 : 수선유지비\n입주자대표회의록.1\\0 2\n전기차 화재 대비 소화기 보조금 강남구청 지원사업 신청\n및 업체 선정 승인\nHA: 참석자 전원",
+     "topics": [
+      "parking",
+      "operator",
+      "safety",
+      "event"
+     ],
+     "votes": "찬성 : 참석자 전원"
+    },
+    {
+     "head": "제2호 강남구청 전기차 반대 :",
+     "text": "제2호 강남구청 전기차 반대 :\n2] w\n의안 | 화재대비 소화기 가 ㅣ 1. 업체명 : 이지에스(주)\n그 | 지원 요청 건 2. 계약금액(/41별도) : 4,950,0002!\n(종9900,000원 선지급 후 50%지원금 4.,950,000원\n보조금 받음)\n3. 계정과목 : 재해예방비\n제3호\n시라 | 커뮤니티 운영 관련 안건\n르엘 카페(식당) 식당 선호도 조사 결과를 입주민에게 안내하고, 조사 결과\n1 운영업체 입찰 관련 가ㅣ 에 따라 입찰공고 및 YAS 선정하기로 의결함.\n논의 건. (입찰공고문 승인, 제한경쟁, 적격심사, 전자입찰)\n골프락카 설치 승인\n찬성 : 참석자 전원\n반대 :\n> | 콜프락카 설치 논의 | 5) 1. 업체명 : 베스트공간(3개 견적업체 중 최저가 업체)\n건 2. 설치비용(/4&7포함) : 4.538,600원\n3. 설치장소 : 109동 BIF 골프장 통로\n4. 설치수량 : 24개 락카(전자 번호키 포함)\n5. 계정과목 : 커뮤니티운영비\n북카페 커피 머신 구입 승인\n찬성 : 참석자 전원\n북카페 커피 머신 노토\n3 구입 논의 건 = 가 | 1. 업체명 : 선일금속(3개 견적업체 중 최저가 업체)\noa 2. 구입비용(/41포함) : 14,000,0002!\n3. 설치장소 : 108동 8 북카페\n4. 계정과목 : 커뮤니티운영비\n^&50(심장 자동제세동기)설치 승인\n찬성 : 참석자 전원\n&60(심장자동제세 |, | ㅠㅠ :\n1 | 동기)설치 논의 건 | 가 ㅣ 1. PAB: 자재피야03개 젼적업체 중 최저가 업체)\n2. 구입비용(/47포함) : 3.102,000원\n3. 설치장소 : 수영장, 헬스장\n4. 계정과목 : 커뮤니티운영비\n잡지(더북컴피니 스타일러)비치 승인\n찬성 : 참석자 전원\n잡지(더북컴퍼니 A 반대 :\n5 | 아이어 이 오이 Slo | 1. 업체명 : 더북컴퍼니",
+     "topics": [
+      "parking",
+      "community",
+      "dining",
+      "operator",
+      "rules",
+      "finance",
+      "safety"
+     ],
+     "votes": "찬성 : 참석자 전원"
+    },
+    {
+     "head": "제6호 입주자 제안 안건",
+     "text": "제6호 입주자 제안 안건\n의안 HT cc ow\n입주민 간 HBAS 고려ㅎ 주차장 지정제는 시행하지\n주차장 사용 지정제 eT ABMS 고려하여 주차장 |정 |\n1 부 ｜ㅣ않되, 지하4층 주차장 활용 방안은 계속 논의 하기로 의\n운영 요청 건\n결함.\n그린테라스 운영 그린테라스 운영 관련 입주민 간 이견이 있으므로 법률\n2\n요청 건 자문을 받은 후 차기 회의에서 재논의 하기로 의결함.\n입주자대표회의록1\\ 4\n===== 슬라이드1.JPG =====\n공고번호(입):제2026-113오\n게시기간: 2026.10.28 ~2026.11.4. Ｌ E | E IL,\n제1기 144 (20264 102)\n정기 입주자대표회의결과를 아래와 같이 공고합니다.\n정련 7S 전원 절식 시 | 202644 10월 27일(화) 1800 ㅣ징수 | 관리사무소",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제1호 의안 :전기안전관리직무고시 정기점검업체선정 논의 건",
+     "text": "제1호 의안 :전기안전관리직무고시 정기점검업체선정 논의 건\n로 의결사항: 사업자선정지침 별표2의 6항에 의거 비교견적 최저가 업체인 뚜한경이엔지와 1년 계약체결하여\n직무고시 정기점검 받기로 의결함.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제2호 의안: 강남구청 전기차 화재대비 소화기 지원 요청 건.",
+     "text": "제2호 의안: 강남구청 전기차 화재대비 소화기 지원 요청 건.\n로 의결사항: 전기차 화재 대비 소화기 구입 관련 강남구청 지원사엽을 신청하고. 사업자선정지침 별표2\n제4항에 의거 강남구청 연계 업체인 이지에스뚜에서 구매하기로 의결함.",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제3호 의안 : 커뮤니티 운영 관련 안건,",
+     "text": "제3호 의안 : 커뮤니티 운영 관련 안건,",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "1. 르엘 카페(식당) 운영업체 입찰 관련 논의 건",
+     "text": "1. 르엘 카페(식당) 운영업체 입찰 관련 논의 건\n로 의결사항: 식당 선호도 조사 결과 대로 입찰공고하여 업체선정하기로 의결암.\n(입찰공고문 승인/제한경쟁, 적격심사.전자입찰)",
+     "topics": [
+      "dining",
+      "operator"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "2. 골프락카 설치 논의 건.",
+     "text": "2. 골프락카 설치 논의 건.\n로 의결사항: 골프락카 견적 비교 결과, 최저가를 MALE 베스트공간에서 구매 및 설치하기로 의결함.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "3. 북카페 커피 머신 구입 논의 건",
+     "text": "3. 북카페 커피 머신 구입 논의 건\n로 의결사항: 북카페 OS 위한 커피 머신 견적 비교 결과, 최저가를 제시한 선일금속에서 커피 머신\n구매하기로 의결함.",
+     "topics": [
+      "dining"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "4. 싸0(심장자동제세동기)설치 논의 건,",
+     "text": "4. 싸0(심장자동제세동기)설치 논의 건,\n로 의결사항: 심장 자동제세동기 최저가 구매하여 수영장, 엘스장에 설치하기로 의결함",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "5. 잡지(더북컴피니 스타일러)비치 논의 건",
+     "text": "5. 잡지(더북컴피니 스타일러)비치 논의 건\n로 의결사항: 2027년 1월부터 입주민 복지 STS 위해 월간지(더북컴퍼니 스타일러)를 무상 제공받아\n커뮤니티 시설내 비치하고, 장소 제공료 월 330.000원의 잡수익을 입금받기로 의결암.",
+     "topics": [
+      "community"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제4호 의안:세대 방문차량 사용시간 조정 요청 건",
+     "text": "제4호 의안:세대 방문차량 사용시간 조정 요청 건\n로 의결사항: 방문차량 무료주차 시간은 입주자대표회의에서 정한 규정을 단기간 내 변경하는 것은 적절하지\n않다고 판단하여 기존대로 유지하되 게스트하우스이용 시 BES 1대 등록 허용하기로 의결함.",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제5호 의안: 관리주체 제안 안건.",
+     "text": "제5호 의안: 관리주체 제안 안건.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "1. 국민은행 관리비계좌 개설 논의 건",
+     "text": "1. 국민은행 관리비계좌 개설 논의 건\n로 의결사항: 국민은행 관리비계좌 개설하고 입주민에게안내ㆍ홍보하기로 의결암.",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "2. 공용부 배관 긴급 통수 작업 추인 건.",
+     "text": "2. 공용부 배관 긴급 통수 작업 추인 건.\n로 의결사항: 공용부 오수배관 막임으로 인한 최하승 세대 역류 피해에 따라 긴급 동수 작업을 실시하고,\n관련 비용 집행을 추인하기로 UB.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "3. 대리석 파손 교체 승인 건",
+     "text": "3. 대리석 파손 교체 승인 건\n로 의결사항: 105동 줄입구 대리석 파손에 대해 입주민 안전사고 예방 및 시설물유지관리를 위해 대리석\n교체하기로 의결함.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "4 보안실(정,후문) AEDS 자동제세동기)설치 논의건",
+     "text": "4 보안실(정,후문) AEDS 자동제세동기)설치 논의건\n로 의결사항: AEDE 커뮤니티 시설 내 설치 -운영하기로 하고, 보안실(정 후문)에는 설치하지 않기로 OB.",
+     "topics": [
+      "safety"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제6호 의안: 입주자 제안 안건.",
+     "text": "제6호 의안: 입주자 제안 안건.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "1. 주자장 사용 지정제 운영 요청 건",
+     "text": "1. 주자장 사용 지정제 운영 요청 건\n로 의결사항: 입주민 Zt 형평성을 고려하여주차장 지정제는 시행하지 않되, MOMS 주차장 활용 were\n계속 논의 하기로 OBE.",
+     "topics": [
+      "parking"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "2. 그린테라스 운영 요청 건.",
+     "text": "2. 그린테라스 운영 요청 건.\n로 의결사항: 그린테라스 운영 관련 입주민 Zt 이견이 있으므로 법률 ALS 받은 후 차기 회의에서재논의\n하기로 의결함.\n청담르엘입주자대표회의 회장.",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "event",
+    "finance",
+    "operator",
+    "parking",
+    "rules",
+    "safety"
+   ]
   },
   {
    "nttId": "3072546",
@@ -10379,7 +12761,23 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001962329",
+     "fileSn": "0",
+     "name": "20차 결과 공고 2 (26.10.28)001.jpg",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962329&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 776,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3072489",
@@ -10508,7 +12906,46 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001962195",
+     "fileSn": "0",
+     "name": "261028-1 제4기 제3차 선거관리위원회 회의결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001962195&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 2084,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 의안 : 제4기 입주자대표회의 임원 선거 개표의 건",
+     "text": "제1호 의안 : 제4기 입주자대표회의 임원 선거 개표의 건\n<의결사항> 제4기 입주자대표회의 임원 당선자를 다음과 같이 확정함(가결 – 찬성 5명)\n1. 입주자대표회의 회장 후보자 개표결과 및 당선자 확정\n후보자 반 대 당선\n선거명 기호 후보자 선거인수 투표자수 기권자수\n득표수 투표수 여부\n1 강봉기 223 낙선\n입주자대표\n2 김철수 2,171 1,116 237 - 1,055 낙선\n회장\n3 백민현 656 당선\n2. 입주자대표회의 감사 후보자 개표결과 및 당선자 확정\n후보자 반 대 당선\n선거명 기호 후보자 선거인수 투표자수 기권자수\n득표수 투표수 여부\n입주자대표 단독 강찬성 1,139 1,044 95 1,032 당선\n2,171\n감사 단독 유성민 1,069 978 91 1,102 당선",
+     "topics": [],
+     "votes": "찬성 5명"
+    },
+    {
+     "head": "제2호 의안 : 제4기 동별대표자 선거 개표의 건",
+     "text": "제2호 의안 : 제4기 동별대표자 선거 개표의 건\n<의결사항> 제4기 동별대표자 당선자를 다음과 같이 확정함(가결 – 찬성 5명)\n후보자 반 대 당선\n선거명 기호 후보자 선거인수 투표자수 기권자수\n득표수 투표수 여부\n7선거구 단독 송경준 114 62 56 6 52 당선\n12선거구 단독 전시진 114 62 56 6 52 당선\n-이 어 서 -\n녹번역e편한세상캐슬\n선거관리위원회 회의 결과 공고(2/2)",
+     "topics": [],
+     "votes": "찬성 5명"
+    },
+    {
+     "head": "제3호 의안 : 미선출 선거구 동별대표자 선거 지속여부 협의 건",
+     "text": "제3호 의안 : 미선출 선거구 동별대표자 선거 지속여부 협의 건\n<의결사항> 입주자대표회의 구성원 정수의 3분의 2이상이 선출됨에 따라 관리규약 제32조\n제2항 의거하여 재선거를 실시하지 않기 함. 다만 제32조 제3항에 의거하여 공고기간 중\n입후보 의사를 표현하는 경우 선출공고를 진행하기로 의결 함. (가결 – 찬성 5명)\n2026. 10. 28.\n녹번역e편한세상캐슬 선거관리위원회 위원장",
+     "topics": [
+      "rules"
+     ],
+     "votes": "찬성 5명"
+    }
+   ],
+   "topics": [
+    "rules"
+   ]
   },
   {
    "nttId": "3072426",
@@ -10852,7 +13289,93 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001961904",
+     "fileSn": "0",
+     "name": "공고_261027 제3기 제40차 입대의 회의결과 공고.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001961904&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 987,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 의안 : 관리비부과명세서 보고의 건",
+     "text": "제1호 의안 : 관리비부과명세서 보고의 건\n<의결사항> 원안과 같이 의결함. (가결-찬성 11명)\n<심의사항> 입주자대표회의 감사는 관리비부과명세서, 재무제표 등 회계 관련 서류가 적정하게\n작성되었음을 확인하였고, 생활지원센터장으로부터 관련 내용을 보고 받음",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성 11명"
+    },
+    {
+     "head": "제2호 의안 : 2026년 3/4분기 세입·세출 결산보고의 건",
+     "text": "제2호 의안 : 2026년 3/4분기 세입·세출 결산보고의 건\n<의결사항> 원안과 같이 의결함. (가결- 찬성 11명)\n<심의사항> 생활지원센터장으로부터 2026년 3/4분기 세입·세출 집행실적을 보고받음",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성 11명"
+    },
+    {
+     "head": "제3호 의안 : 장기수선충당금 사용의 건",
+     "text": "제3호 의안 : 장기수선충당금 사용의 건\n<의결사항> 다음과 같이 의결함. (가결-찬성 11명)\n1. 107동 2호기, 113동 1호기, 115동 2호기, 120동 3호기, 129동 2호기 승강기 인버터\n고장이 발생하여, 제조사인 현대엘리베이터에 의뢰하여 선 교체 함.\n인버터 교체비 28,350,000원(VAT별도)은 장기수선계획의 긴급공사 대상으로 선 조치\n하고, 입주자대표회의에서 추인함.",
+     "topics": [
+      "ltr"
+     ],
+     "votes": "찬성 11명"
+    },
+    {
+     "head": "2. 어린이 놀이터 그네 줄 구입비로 220,000원(VAT별도)을 의결함",
+     "text": "2. 어린이 놀이터 그네 줄 구입비로 220,000원(VAT별도)을 의결함\n2026. 10. 27.\n녹번역e편한세상캐슬 입주자대표회의 회장",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "finance",
+    "ltr"
+   ]
+  },
+  {
+   "nttId": "3072182",
+   "category": "회의결과",
+   "title": "제3기 제16차 10월 정기 입주자대표회의 회의결과 공고(26.10.27)",
+   "date": "2026-10-28",
+   "first_file": [],
+   "code": "A10024347",
+   "complex": "마포프레스티지자이아파트",
+   "bbs": "02",
+   "board": "입주자대표회의",
+   "kind": "minutes",
+   "first_seen": "2026-11-19",
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261028&physical=C743298B6C494A10A618C1A6B4D47AD8.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1828,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "1.347,500원을 추인하기로 의결함. (찬성8명, 반대0명)",
+     "text": "1.347,500원을 추인하기로 의결함. (찬성8명, 반대0명)\n상기 안건이 위와 같이 의결 되었음을 확인하고 서명(또는 날인) 한다.\nposs | ose | 서영 | as | se | xe |\npes | ase [7 | 50944 | ass | 73222 |\n이지 | 59904 [ees | Lox\n2026. 10. 28.\n|쏘패플리|\nao) 이애손동외\n마포프레스티지자이아파트 입주자대표회의 회장.",
+     "topics": [],
+     "votes": "찬성8명, 반대0명"
+    }
+   ],
+   "topics": []
   },
   {
    "nttId": "3072131",
@@ -11161,7 +13684,22 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261027&physical=DB1680619281492DAC0B22C467D32B34.png&contentType=image/png",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 309,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3071550",
@@ -11742,7 +14280,30 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001960878",
+     "fileSn": "0",
+     "name": "20261027164334.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001960878&fileSn=0",
+     "method": "pdf-ocr(1쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(1쪽)"
+   ],
+   "chars": 1566,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제9기 동별대표자 재선거 FSH 선거 건",
+     "text": "제9기 동별대표자 재선거 FSH 선거 건\nㆍ의결내용 : 본 안건에 대하여 원안과 같이 하기로 의결함\n<원안 일부내용>\n- 임기 : 선술일 ~ 2027. 04. 10.\n= 재선거 또는 SMHS ABE 동별대표자의 임기가 6개월 미만인 경우에는 중임\n횟수에 포함되지 않습니다.\n- 12개 선거구에 재ㆍ보결 선거를 실시하고자 St\n. _ 선거구 We 동 구분 | 선거구 | 해당 동 ㅣ 쿠분\n제 1선거구 ㅣ 101, 102 재선거 =| 제10선거구 | 131, 133 | SHAD\n제 2선거구 | 103, 104 재선거 제18선거구 | 134,196 | SAA\n제 4선거구 | 107, 109 보결선거 | 제21선거구 ee\n제 7선거구 | 113, 114 보결선거 | 제26선거구 | 151, 152 | 재선거\n제 8선거구 | 115, 116 | MMA | 제29선거구 | 155, 161 | RAH\n제18선거구 ㅣ 125, 127 ㅣ 재선거 | 제30선거구 재선거\n- 루보등록신청일시 및 장소\n0) 일시 : 2026. 11. 03 [화| ~ 2026. 11. 04 [수 (2224 09:00~18:00\n- 선거인명부 열람 일시 및 장소\n0) 일시 : 2026년 11월 1일 [일] ~ 11월 5일 [목] [5일간] 09:00~18:00\n@) BA : 간리사무소, 관리사무소 근무 시간 외에는 관리동 지하1층 방재실에서 열람 가능함\n- 투표방법\n© 전자투표 - 휴대폰을 통한 전자투표00000[6를 통한 투표 독려문자 발송병행],\n현장투표, 방문투표, 투표독려전화 방식 병행\n@ 현장투표 일시 및 장소 : 2026년 11월 13 (Bl 09시~12시, 관리동 3충 입주자대표회의실\n- 선거[투표]일시 : 2026. 11. 11 [수] ~ 2026. 11. 13 [금] 09:00~18:00\n- MESH [공동주택관",
+     "topics": [],
+     "votes": "찬성, 명 반대, OB 기권"
+    }
+   ],
+   "topics": []
   },
   {
    "nttId": "3071337",
@@ -11756,7 +14317,41 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261027&physical=869B0DCF13D94746AD462BBF9D9E744B.png&contentType=image/png",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 877,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 안건 ; 제2기 동별 대표자 선출에 관한 건",
+     "text": "제1호 안건 ; 제2기 동별 대표자 선출에 관한 건\n- 제2기 SUH AB 6차 공고하기로 의결함\n- 후보 등록기간 ; 2026.10.26.(월)~11.04(수) 17,0071\n- 기타 공고 USES 제5차 공고문 내용과 Sue.\nㅣ 제2호 안건 ; 선거관리위원 지원자 제외 및 동대표 해임절차 기각처리에",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "관한 구청민원 소명자료 제출의 건",
+     "text": "관한 구청민원 소명자료 제출의 건\n- 위 우리 선거관리위원 신청인 여수현은 선거관리위원회 위원 신청서에\n제시된 구비서류를 기일내 제줄하지 Bets.\n- 구비서류의 보완여부는 지원자들과의 형평성 문제로 불가함.\n- 해임 절차 기각 처리 건은 제41차 선거관리위원회 회의결과(2026105)|\n공고문 (제1호안건)의 의결내용과 동일하게 의결하고 구청에 소명자료|\n제출 하기로 et.",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "제3호 안건 ; 제 2선거구 102동 동대표(회장 직무대행 이경화) 사퇴서 제출",
+     "text": "제3호 안건 ; 제 2선거구 102동 동대표(회장 직무대행 이경화) 사퇴서 제출\n의 건\n| - 해당 동대표(회장 직무대행 이경화)의 사퇴사항을 YEAS 에게 공고\n하기로 의결함.\n2026.10.27.\nPAH O| SeHStM SS AOS M7 FHA] | AS| casey\nAdocemeves 71S CoD 오99549",
+     "topics": [],
+     "votes": ""
+    }
+   ],
+   "topics": []
   },
   {
    "nttId": "3071329",
@@ -11977,7 +14572,49 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001960732",
+     "fileSn": "0",
+     "name": "10월 정기 입주자대표회의 회의록 26 10 26001.png",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001960732&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 1945,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제3호 안건 : 104ㆍ105동 | 원안대로 외벽 수평형 금속몰딩 조명 구간에 대한 중대하자에 대하여 시공",
+     "text": "제3호 안건 : 104ㆍ105동 | 원안대로 외벽 수평형 금속몰딩 조명 구간에 대한 중대하자에 대하여 시공\n외벽 경관조명 하자보수 및 | 사인 뚜데코피아에 전면 재시공을 요구하는 최고서를 입주자대표회의 명의로\n전면 재시공 최고서 발송 | 발송하기로 의결함.\n관리규약 제72조에 따른 사업수행실적 평가 적합판정 및 입주민 의견 수\nMas 안건 : 전산 휘계프 | 렴결과 이의가 없으므로, 기존사업자인 \\이지웹인프라와 종전대비 21%\n로그램 임대 관리업체 선정 | 인하된 조건으로 재계약을 의결함. (계약기간 : 2026. 12. 01 ~ 2028.\n11. 30 / 2년, 계약금액: 월 220,000원, VAT 별도)\n호 안건 : : g\n제도 안건 : ta 경비 은 | 단지 전체 관리비 변동 없이 정소경비 용역회사의 일반관리비 및 기업이\n거저 가자 아이 aoe | 윤을 현실화하여 조정하고, 기존 용역업체((주)동진파트너스, (주)홈스웰)\n구민 jas 승인 | 와의 재계약 주전을 위한 입주민 의견수렴 절차를 시행하기로 의결함.\n현 계약 기간 만: 라, 관리규약 조(기존사업자의 약\nmee 안건 : 단지내 aay | 연 제약 기간 만료 도래에 따라, 관리규약 제72조(기존사업자의 재계약)에\n서비스 업체 선정 의거하여 기존사업자 매일 손세차 재계약에 대한 주민 의견 수렴 절차를\n“ees 시행하기로 의결함.",
+     "topics": [
+      "defect"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "제7호 안건 + 자이안센터 | 쾌적한 실내 공기질 유지를 위해 ABZ 51를 시공업체로 선정하여 자이안센",
+     "text": "제7호 안건 + 자이안센터 | 쾌적한 실내 공기질 유지를 위해 ABZ 51를 시공업체로 선정하여 자이안센\n관리동 전열교환기 필터 | 터 및 관리동 전열 환기장치(11대) 필터 교체 및 청소 작업을 시행하기로 의\n교체 건 결함. (공사금액 : 910,000원, VAT 별도 / ABA : 수선유지비)\nMes 안건 : 시설물 진단 | 안전진단전문기관 (주)새움이엔씨의 시설물 정밀기술진단(외벽:지하주차장ㆍ옥\n보고 및 장기수선계획 정기 | 4) 결과를 접수ㆍ보고받고, 도출된 공학적 권고사향을 검토하여 11월 정기\n조정 3차 검토 건 입주자대표회에서 장기수선계획 정기조정(안)을 심의 결정하기로 의결함\n인근 청담신동아아파트 리모델링 별동 증축에 따른 우리단지 일조ㆍ조망권\nMOS 안건 : 청담신동아 | 침해 우려와 관련하여, 인근 단지(청담르엘 등)와의 연대 및 관할 관청(서\n아파트 리모델링 별동 증축 | 울시, 강남구청) 대상 반대 서명:탄원 동참 등 공동 대응 방안을 논의함.\n반대 탄원 단, 본 사안은 별동증축 관련한 당 단지의 실질적 영향성 평가를 면밀히\n검토-조사한 후, 차기 입주자대표회의에서 재검토하기로 의결함.\n※ 상기 안건 중 일반 수의계약(비교견적) 대상 SAL 2개 이상의 BANS 비교 검토한 후 적정 업체를\n선정함\n2026. 10. 27.\n청담자이아파트 입주자대표회의 (직인생략)",
+     "topics": [
+      "parking",
+      "operator",
+      "ltr",
+      "space"
+     ],
+     "votes": ""
+    }
+   ],
+   "topics": [
+    "defect",
+    "ltr",
+    "operator",
+    "parking",
+    "space"
+   ]
   },
   {
    "nttId": "3071278",
@@ -12230,7 +14867,22 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261027&physical=DB6BD5ABE6DC4286827A74AE19118913.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 358,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3071114",
@@ -12482,7 +15134,23 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001960023",
+     "fileSn": "0",
+     "name": "제7대23차선거관리위원회의 회의결과공고 2026 10 23001.png",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001960023&fileSn=0",
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 533,
+   "parser": 2,
+   "agenda": [],
+   "topics": []
   },
   {
    "nttId": "3070620",
@@ -12531,7 +15199,29 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "url": "https://openapt.seoul.go.kr/utl/web/imageSrc.do?path=20261026&physical=95165B415BF1434FA8A82EF54B26CE9A.jpg&contentType=image/jpeg",
+     "name": "본문이미지1.jpg",
+     "inline": true,
+     "method": "image-ocr"
+    }
+   ],
+   "methods": [
+    "image-ocr"
+   ],
+   "chars": 387,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호의 안: 제3기 입주지대| . >, |하고 공고하기로 의결함. .",
+     "text": "제1호의 안: 제3기 입주지대| . >, |하고 공고하기로 의결함. .\nH9|2| 회장 ANZ] 개표｜ㅣ 찬성6 | 개표 결과\n상기 안건이 위와 같이 의결되었음을 확인하고 서명(또는 날인) 한다.\n서초그랑자이 선거관리위원회 (SEAS)\n으으 자",
+     "topics": [],
+     "votes": "찬성6 | 개표 결과"
+    }
+   ],
+   "topics": []
   },
   {
    "nttId": "3070544",
@@ -12663,7 +15353,49 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001959760",
+     "fileSn": "1",
+     "name": "2026년 제3-53차 입주자대표회의 회의록(게시용).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001959760&fileSn=1",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 7637,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "1 현대건설 하자보수 진행 논의 건",
+     "text": "1 현대건설 하자보수 진행 논의 건\n찬성(6) 보수공사를 전면 재개하고, 지하주차장 도색은 2026년 내\n반대( ) 완료하는 것으로 협의함.\n입주자대표회의에서는 하자보수 추진 상황을 지속적으로\n점검하고, 미조치 하자에 대한 조속한 보수 및 개선을\n요청함.\n겨울철 재해재난예방을 위한 관리용품을 구입하기로\n의결함.\n가결(O)\n* 업 체 명 : (주)경기케미칼\n겨울철 재해재난예방을 위한 관리용품 부결( )\n2 * 구매물품 : 염화칼슘(20Kg,150포), 넉가래(10개),\n구입 건 찬성(6)\n눈삽(10개), 대나무비(10개), 도로비(10개)\n반대( )\n* 금 액 : 1,635,000원(부가세 별도)\n※ 지게차 필요시 별도.\n공용부 우수배관 누수로 인한 입주민 불편을 해소하고\n시설물의 안전한 유지관리를 위하여 보수공사를 시행하기로\n가결(O)\n하고, 아래와 같이 공사업체를 선정하여 계약을 체결하는\n부결( )\n3 공용부 배관 누수 관련 보수 심의 건 것으로 의결함.\n찬성(6)\n* 계 약 명 : 우수배관 누수 방수 공사\n반대( )\n* 업 체 명 : 시온\n* 금 액 : 3,549,000원(부가세 별도)\n시스템 공급업체인 ㈜참슬테크에서 기존 스마트폰키 앱의\n무상 제공을 종료하고, 2026년 11월 1일부터 유료로\n전환할 예정임을 통보함에 따라, 입주민의 서비스 이용\n가결(O)\n에 불편이 발생하지 않도록 스마트폰키 서비스의 지속\n부결( )\n4 스마트폰키 시스템 관리 연장 논의 건 적인 유지·운영을 위한 계약을 체결하기로 의결함.\n찬성(6)\n* 계 약 명 : 스마트폰키 통합시스템 유지 관리\n반대( )\n* 업 체 명 : (주)참슬테크\n* 계약기간 : 2026.11.01~2027.10.31(1년)\n* 금 액 : 4,200,000원(부가세 별도)\n입주민 간 화합과 소통을 증진하고 공동체 활성화 및\n이웃 간 ",
+     "topics": [
+      "defect"
+     ],
+     "votes": "찬성(6"
+    },
+    {
+     "head": "1. 현대건설에서 THE H 브랜드 단지를 대상으로 운영",
+     "text": "1. 현대건설에서 THE H 브랜드 단지를 대상으로 운영\n중인 현대백화점 프리미엄 문화콘텐츠 도입과 관련\n하여, 계약 조건 및 수익 배분 비율 등에 대한 추가\n가결(O)\n협의를 거쳐 추진 여부를 결정하기로 의결함.\n부결( )\n6 H-컬쳐서비스 도입 논의 건 2. 무상 제공 예정인 근골격계 건강관리 및 영양음료\n찬성(6)\n시음 프로그램은 8주간 시범 운영하기로 하였으며,\n반대( )\n운영 종료 후 입주민 이용 현황 및 만족도 등을 종\n합적으로 검토하여 지속 운영 여부를 결정하기로\n의결함.\n북아현1-1구역 재정비촉진계획 변경과 관련하여\n가결(O) 입주민들이 제기한 우려사항에 대한 실질적인 검토 및\n서대문구청 서면 민원회신(북아현1-1\n부결( ) 반영 여부, 기존 협약사항과 행정적 판단의 근거 등을\n7 구 역 재 정 비 촉 진 계 획 변 경 (안 )관 련 )\n찬성(6) 명확히 밝힐 것을 요구하고, 서대문구청 주관 주민\n대응 논의 건\n반대( ) 설명회 또는 공청회 개최와 공식 서면 회신을 요청\n하는 공문을 발송하기로 의결함.\n장기수선충당금 은행 계좌 만기가 도래함에 따라 해지\n후 아래와 같이 예치하기로 의결함.\n- 장기수선충당예치금 계좌의 만기 도래 (2026년 11월17일)\n로 인한 정기예금 및 정기적금 예치 가입\n가결(O) 1) 정기예금:\n장기수선충당금 은행 만기 계좌 재예치 부결( ) * 우리248,800,660원/재예치-우리(이율3.91%)\n8\n심의 건 찬성(6) * 우리118,577,783원/재예치-우리(이율3.91%)\n반대( ) * 새마을금고115,041,398원/전환예치-농협(이율3.95%)\n* 새마을금고112,354,711원/전환예치-농협(이율3.95%)\n2) 정기적금:\n* 신규가입-새마을금고 25,656,780원 (이율3.30%)\n※ 예치일에 따라 기준금리 변동될 수 있음.\n1",
+     "topics": [
+      "community",
+      "rules",
+      "finance",
+      "comm"
+     ],
+     "votes": "찬성(6"
+    }
+   ],
+   "topics": [
+    "comm",
+    "community",
+    "defect",
+    "finance",
+    "rules"
+   ]
   },
   {
    "nttId": "3070432",
@@ -12682,7 +15414,55 @@
    "board": "선거관리위원회",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001959648",
+     "fileSn": "0",
+     "name": "제4기 선관위 제23차 회의록(게시).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001959648&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 2343,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "2. 안건 상정 및 심의 의결",
+     "text": "2. 안건 상정 및 심의 의결",
+     "topics": [],
+     "votes": ""
+    },
+    {
+     "head": "(1) 제4기 동별 대표자 입후보자 서류 심사 건",
+     "text": "(1) 제4기 동별 대표자 입후보자 서류 심사 건\n◎ 발언 내용\n- 발언자 : 10월 19일, 20일 이틀 동안 3개 선거구에서 각각 1명씩 3명이 동별대\n표자 후보자로 접수하였습니다. 오늘 오후에 위원장님께서 경찰서 범죄경력 조회\n를 마쳤습니다.\n- 발언자 : 「동별대표자 자격 심사 항목 체크리스트」에 따라 심사해 주시면 되겠습\n니다. 꼼꼼하게 심사해 주시기 바랍니다.\n- 발언자 : 이번에 동대표로 선임이 되면 입주자대표회의 구성은 어떻게 되나요?\n- 발언자 : 13개 선거구에서 총 9명 선임이 완료되어 2/3를 완성하게 됩니다.\n◎ 의결사항 : 제4기 동별 대표자 후보자 서류심사 결과 공동주택관리법령 및\n관리규약상 결격사유에 해당하지 않는 것으로 확인되어 후보자로 등록 확정,\n공고하기로 의결함. (전원 찬성)\n선거구 동호수 성명 선거구 동호수 성명\n제2선거구 102-3101 최종선 제12선거구 112-1902 노태윤\n제7선거구 107-2504 임민호",
+     "topics": [
+      "rules"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "(2) 제4기 동별 대표자 선출 선거 일정 공고 건",
+     "text": "(2) 제4기 동별 대표자 선출 선거 일정 공고 건\n◎ 발언 내용\n- 발언자 : 10월 26일 후보자 등록 공고후, 5일간 선거운동기간이 주어지며 11월\n1일부터 5일까지 투표하고자 합니다. 후보자가 1명인 경우는 입주자등 과반수가\n투표하고 투표자 과반수의 찬성으로 선출됩니다. 구체적인 선거 일정에 대해 심의\n해 주시기 바랍니다.\n◎ 의결사항 :\n제4기 동별 대표자 선출 선거 일정 공고문은 원안대로 의결함. (전원 찬성)",
+     "topics": [],
+     "votes": "찬성으로 선출됩니다. 구체적인 선거 일정에 대해 심의"
+    },
+    {
+     "head": "(3) 소방시설 점검 대행 사업자 선정 입찰 입주민 동의 진행의 건",
+     "text": "(3) 소방시설 점검 대행 사업자 선정 입찰 입주민 동의 진행의 건\n◎ 발언 내용\n- 발언자 : 관리규약 제75조에 입주자대표회의 의결 정족수가 미달시 입찰 방법은\n전체 입주자등의 의견을 청취하여 결정할 수 있습니다. 선관위에서 입주자등의 의\n견 청취를 진행하게 됩니다. 의견 청취 결과 전체 입주자등의 10분의 1 이상이\n이의제기를 아니한 경우에 입주자등의 과반수의 찬성으로 해당 입찰을 진행할 수\n있습니다.\n- 발언자 : 금번 입주자대표회의 재구성후 입찰을 진행하면 안 되나요?\n- 발언자 : 기존 소방 점검업체와의 계약이 11월말로 종료가 되고 12월 소방점검을\n위해선 입대의 재구성전에 시급히 입찰이 진행되어야 합니다.\n- 발언자 : 시일이 급한 사항인데 신규 입찰할 때에도 기존 업체가 참여할 수 있나요?\n- 발언자 : 기존업체도 입찰에 참가할 수 있습니다.\n◎ 의결사항 :\n관리규약 제75조(입주자대표회의 의결 정족수 미달시 입찰)에 따라 소방\n시설 점검 대행 사업자 선정 입찰에 대해 입주민등의 의견 청취(전자투표,\n현장투표)를 진행하기로 의결함. (전원 찬성)\n3. 폐 회\n폐회선언 : 제4기 선거관리위원회 제23차 회의를 폐회 함. (18시30분)",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성으로 해당 입찰을 진행할 수"
+    }
+   ],
+   "topics": [
+    "operator",
+    "rules"
+   ]
   },
   {
    "nttId": "3070413",
@@ -13277,7 +16057,112 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001958652",
+     "fileSn": "0",
+     "name": "입주자대표회의 결과 공고..pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001958652&fileSn=0",
+     "method": "pdf-ocr(2쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(2쪽)"
+   ],
+   "chars": 2126,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "MAIS : 2026년 9월분 관리비 부과내역 심의 건",
+     "text": "MAIS : 2026년 9월분 관리비 부과내역 심의 건\n> 9월분 부과내역서는 11월 임시회의에서 추인하기로 ABS,",
+     "topics": [
+      "finance"
+     ],
+     "votes": ""
+    },
+    {
+     "head": "M@ 제2호 : 전기차 충전요금 적정성 검토 및 운영수입 관리 방안 논의 건",
+     "text": "M@ 제2호 : 전기차 충전요금 적정성 검토 및 운영수입 관리 방안 논의 건\n(참석자 5명 전원 찬성)\n> 타 단지와의 충전요금 비교 결과 당 아파트의 전기차 충전요금이 상대적으로 저렴한 AS 고려하\nOf kWh 50원 인상하기로 의결함. CIAO 따른 차액은 잡수입으로 처리하고 전기차 SANA\n유지관리비로 사용하기로 함.",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "M 제3호 : 게스트하우스 침대 PAO 건 (참석자 5명 전원 찬성)",
+     "text": "M 제3호 : 게스트하우스 침대 PAO 건 (참석자 5명 전원 찬성)\n> 게스트하우스 이용객에게 쾌적하고 안전한 숙박환경을 제공하기 위하여 노후 및 파손된 침대를 교\n체하고자 신규 침대를 구입하기로 의결함.\n구입업체 : 가구마당 수량 : A 4개, 슈퍼싱글 1개(매트리스 포함)\n구입가격 : 4,275,000원(부가세, 기존제품 철거비용 포함/ ^/5기간 1년)",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "BAW4s : 경로당 일부 공간을 활용한 보안팀 휴게실 설치 논의 건(참석자 5명 전원 보류)",
+     "text": "BAW4s : 경로당 일부 공간을 활용한 보안팀 휴게실 설치 논의 건(참석자 5명 전원 보류)\n= 재논의 하기로 한다.",
+     "topics": [
+      "safety"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "MASS : 4층 북카페 조성의 건(참석자 5명 전원 찬성)",
+     "text": "MASS : 4층 북카페 조성의 건(참석자 5명 전원 찬성)\n> 4층 카페 공간을 활용하여 입주민을 위한 북카페를 무상으로 조성하고 HAS 설치하기로 의결\n함. 기존 현장에 비치된 의자 3조는 경로당에 배치하기로 의결함.\n청량리역 한양수자인 공간을 넘어 행복을 관리합니다\n그라시엘 생활지원센터 . OBHODEEE\n빠 그라일",
+     "topics": [
+      "dining"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "BM 제6호 : 지하주차장 낙수물 피해 차량 보험 접수의 건 (참석자 5명 전원 찬성)",
+     "text": "BM 제6호 : 지하주차장 낙수물 피해 차량 보험 접수의 건 (참석자 5명 전원 찬성)\n= 지하주차장 낙수물로 인한 피해 ASA 대하여 보험 처리하고 보험 처리에 따른 자기부담금\n10만원은 잡지출로 처리하기로 의결함.",
+     "topics": [
+      "parking"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "M@A7s : 수리 불가 예초기 망실 처리 및 신규 예초기 구입에 대한 추인의 건",
+     "text": "M@A7s : 수리 불가 예초기 망실 처리 및 신규 예초기 구입에 대한 추인의 건\n(참석자 5명 전원 찬성)\n= 기존 예초기는 수리가 불가능하여 망실 처리하고 조경 관리 업무의 원활한 수행을 위해 신규 예초\n기를 구입한 사항에 대하여 추인하기로 의결함.\nㅁ 예초기 구입금액 : 250,000원(부가세 포함) o 구입처 ： 11번가(온라인 최저가)",
+     "topics": [],
+     "votes": "찬성"
+    },
+    {
+     "head": "Mass : 골프공 SYNE 상부 안전망 설치 및 골프 타깃천 와이어 2개소 보수의 건",
+     "text": "Mass : 골프공 SYNE 상부 안전망 설치 및 골프 타깃천 와이어 2개소 보수의 건\n(참석자 5명 전원 찬성)\n= 골프공 gle 인한 안전사고를 예방하기 위해 상부 안전망을 설치하고 골프 FAA DAS 와이\n어 2개소를 보수하기로 의결함.\nㅁ 업체 : 골프아이디어 ㅁ 금액 : 800,000원(부가세 별도)",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성"
+    },
+    {
+     "head": "WM 제9호 : 전기저장장치(665) HA AIAN 관련 업체 참관 비용 NB 건(참석자 5명 전원 찬성)",
+     "text": "WM 제9호 : 전기저장장치(665) HA AIAN 관련 업체 참관 비용 NB 건(참석자 5명 전원 찬성)\n= 전기저장장치(665) 법정 정기검사와 관련하여 검사 AMO 필요한 업체 참관 WSs 지급하기로\n의결함. o SA: 국제통신공업주식회사(설치회사) o 금액 : 3,300,000원(부가세 별도)",
+     "topics": [],
+     "votes": "찬성"
+    },
+    {
+     "head": "BM 제10호 : 키즈스테이션 최종 시안 확정 및 복도 창 설치 시공 방법 논의 건(참석자 5명 전원 찬성)",
+     "text": "BM 제10호 : 키즈스테이션 최종 시안 확정 및 복도 창 설치 시공 방법 논의 건(참석자 5명 전원 찬성)\n> ㅁ 키즈스테이션은 확정된 시안대로 설치하기로 의결함.\nㅁ 복도창은 결로 방지를 위해서 그릴창으로 진행하는 것으로 ABS.\nBM 제11호 : 기타 긴급 현안",
+     "topics": [],
+     "votes": "찬성"
+    },
+    {
+     "head": "1) 헬스장 런닝머신 교체 논의건(참석자 5명 전원 찬성)",
+     "text": "1) 헬스장 런닝머신 교체 논의건(참석자 5명 전원 찬성)\n> ㅁ 기존 테크노짐 런닝머신의 수리 비용(대당 370만 원)과 디랙스 런닝머신 신규 구매 비용(대당\n270만 원)을 비교 검토하고, 커뮤니티 내 투표 결과에 따라 신규 런닝머신을 관련 절차에 따라\n10대 구매하기로 의결함.\nㅁ 헬스장 내 필라테스실 옆 철재 칸막이벽을 철거하기로 의결함.\n청량리역 한양수자인 Sug 넘어 행복을 관리합니다\n그라시엘 생활지원센터 ! @BHOEEE",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성"
+    }
+   ],
+   "topics": [
+    "community",
+    "dining",
+    "finance",
+    "parking",
+    "safety"
+   ]
   },
   {
    "nttId": "3069621",
@@ -13296,7 +16181,69 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001958637",
+     "fileSn": "0",
+     "name": "입주자대표회의 결과공고-63호.pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001958637&fileSn=0",
+     "method": "pdf-ocr(1쪽)"
+    }
+   ],
+   "methods": [
+    "pdf-ocr(1쪽)"
+   ],
+   "chars": 1335,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "MAIS : 장기수선충당금 재예치 및 정기적금, 보통예금 신규 개설의 건(5명 찬성, 1명 기권)",
+     "text": "MAIS : 장기수선충당금 재예치 및 정기적금, 보통예금 신규 개설의 건(5명 찬성, 1명 기권)\n> 0) 만기 도래한 정기예금 및 정기적금 중 5억 AS 예금금리가 가장 높은 농협에 정기예금(금리 3.84%) Al\n규 가입하고 나머지 금액은 장기수선공사 등에 단기간 내 사용할 자금의 효율적인 관리를 위해 보통예금 A\n좌를 신규 개설하기로 한다.\n정기예금 이율\n(2) 정기적금 매월 18,817,170원 우리은행에 신규 가입하기로 한다.(우리은행 관리비 통장에서 자동이체)",
+     "topics": [
+      "ltr"
+     ],
+     "votes": "찬성, 1명 기권"
+    },
+    {
+     "head": "를 제2호 : 자전거 관리규정 제정(안) 검토 및 논의 건(5명 찬성, 1명 기권)",
+     "text": "를 제2호 : 자전거 관리규정 제정(안) 검토 및 논의 건(5명 찬성, 1명 기권)\n> SISA MAAS 관리 및 처리절차 등을 명확히 정하여 체계적으로 관리하고자 「자전거 관리 및 처분\n규정(안)」으로 제정하기로 함.",
+     "topics": [
+      "rules"
+     ],
+     "votes": "찬성, 1명 기권"
+    },
+    {
+     "head": "M 제3호 : 관리규약 인쇄의 건(5명 찬성, 1명 기권)",
+     "text": "M 제3호 : 관리규약 인쇄의 건(5명 찬성, 1명 기권)\nㅋ 개정된 관리규약의 USS 입주민에게 안내하고 관리규약에 대한 접근성을 높이기 위하여 관리규약을 책자\nSHS 100부 인쇄하여 안내데스크에 비치하고 관리사무소에도 일부 수량을 비치하여 업무에 활용하기로\n함. * 인쇄업체 : 원일문화 * 수량: 100부 * 금액: 240,000원(부가세 별도)",
+     "topics": [
+      "rules"
+     ],
+     "votes": "찬성, 1명 기권"
+    },
+    {
+     "head": "M 제4호 : 게스트하우스 침대 교체의 건(5명 보류, 1명 기권)",
+     "text": "M 제4호 : 게스트하우스 침대 교체의 건(5명 보류, 1명 기권)\n= 게스트하우스에 설치할 침대는 SIS SES 후 재논의하기로 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": "보류"
+    },
+    {
+     "head": "MASS : 101동 1층 고사 소나무 3주 대체 식재 추진의 건(5명 찬성, 1명 기권)",
+     "text": "MASS : 101동 1층 고사 소나무 3주 대체 식재 추진의 건(5명 찬성, 1명 기권)\n> 조경 ONAN 당시에는 고사하지 않아 하자 항목에 포함되지 않았으나 이후 추가로 DAS 소나무 3주에\n대해 시공사 측에 추가 식재를 요청하였으며 해당 소나무를 동일 수종으로 대체 식재하기로 함.\n2026. 10. 12.\n하야스자이 Ol 인즈자대표ㅎ 자 098\n한양수자인 그라시엘 입주자대표회 Se\n대표외이인\n속 그가을 년 을 고 힌\n청량리역 한양수자인 공간을 넘어 행복을 관리합니다\n그라시엘 생활지원센터 ' 5 @BH0HEs",
+     "topics": [
+      "defect"
+     ],
+     "votes": "찬성, 1명 기권"
+    }
+   ],
+   "topics": [
+    "community",
+    "defect",
+    "ltr",
+    "rules"
+   ]
   },
   {
    "nttId": "3069617",
@@ -13459,7 +16406,127 @@
    "board": "입주자대표회의",
    "kind": "minutes",
    "first_seen": "2026-11-17",
-   "status": "pending"
+   "status": "done",
+   "files": [
+    {
+     "atchFileId": "FILE_000000001958449",
+     "fileSn": "0",
+     "name": "261022 정기회의의결공고(261021).pdf",
+     "url": "https://openapt.seoul.go.kr/open/FileDown.do?atchFileId=FILE_000000001958449&fileSn=0",
+     "method": "pdf-text"
+    }
+   ],
+   "methods": [
+    "pdf-text"
+   ],
+   "chars": 6250,
+   "parser": 2,
+   "agenda": [
+    {
+     "head": "제1호 의안 : 9월 관리비 부과내역서 심의 건",
+     "text": "제1호 의안 : 9월 관리비 부과내역서 심의 건\n￭ 의결사항 : 9월 관리비 부과내역서 심의 건에 대하여 원안대로 관리비 (607,488,690원) 부과하기로 결정함.\n<찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),\n반대 0명>",
+     "topics": [
+      "finance"
+     ],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일"
+    },
+    {
+     "head": "제2호 의안 : (관리,보안,미화) 27년도 최저임금 및 인건비 조정 건",
+     "text": "제2호 의안 : (관리,보안,미화) 27년도 최저임금 및 인건비 조정 건\n￭ 의결사항 : 2027년도 최저임금 인상율을 반영하여 27년도인건비 안상하기로 결정함.\n<찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),\n반대 0명>\n- 2027년도 최저임금 인상요율 3.7% (\\10,700원)\n- 생활지원센터 관리직원(커뮤니티 포함) : 기본급의 3% 인상(서무, 영선주임 직책 서무주임, 영선대리로\n별도 조정하고 커뮤니티 실장 직책수당 5만원 인상)\n- 미화용역(청소) 기본급의 3.7%, 총액 3.73% 인상(27년 국민연금 인상분 포함)\n- 보안용역(경비) 기본급의 3.7%, 총액 4.21% 인상(국민연금인상, 교대직특수건강검진비 4천원 인상)",
+     "topics": [
+      "safety"
+     ],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일"
+    },
+    {
+     "head": "제3호의안 : 외벽 경관조명 보수 건",
+     "text": "제3호의안 : 외벽 경관조명 보수 건\n￭ 의결사항 : 외벽경관조명은 27년 3월에 공개경쟁 입찰로 업체선정하여 보수하기로 결정함. <찬성 11명(박재현,\n김병철,이준호,박준국,김병열,한인석,오유미,정태일,이종순,강선구, 박영미), 반대 1명(김성진>\n- 겨울철에 불량 부분이 증가할 것으로 예상 3월까지 실사 조사 후 보수하기로 함.",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 11명(박재현,"
+    },
+    {
+     "head": "제4호 의안 : 커뮤니티 사우나 줄눈보수 공사 업체 선정 건",
+     "text": "제4호 의안 : 커뮤니티 사우나 줄눈보수 공사 업체 선정 건\n￭ 의결사항 : 줄눈보수공사 업체 선정 개찰 결과 유찰되어 즉시 재공고 하기로 결정함. <찬성 12명(박재현,김병철,\n이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미), 반대 0명>\n- 3개 업체 현장설명회 참석하였고 개찰결과 2개 업체 응찰하여 유효한 입찰이 성립되었으나\n- 1개 업체의 제출 서류 미비로 유찰되어 재공고 함.",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성 12명(박재현,김병철,"
+    },
+    {
+     "head": "제5호 의안 : 미화 용역 업체 선정 건",
+     "text": "제5호 의안 : 미화 용역 업체 선정 건\n￭ 의결사항 : 기존사업자와 재계약을 위한 절차를 진행하여 이상 없을 시 재계약 하기로 결정함. <찬성 9명(박재현,\n이준호,박준국,김병열,한인석,오유미,정태일,이종순, 박영미), 반대 3명(김병철,김성진, 강선구>\n- 기존사업자의 사업수행실적을 입주민을 포함한 3명이상 평가하여 85점 이상 시 입주민 동의절차 진행\n- 평가 결과 공고하고 입주민 이의신청 1/10 이하 접수 시 입주자대표회의 의결로 재계약 함.\n- 평가 결과과 85점 이하이거나 입주민 이의신청 1/10 이상 접수시 공개경쟁 입찰로 업체 선정 함.\n- 입주민 이의신청이 전체 입주자의 과반수인 경우 기존사업자의 입찰 참가를 제한 한다.\n공고번호(입): 제3-04-261022\n게시기간: 2026.10.22. ~ 2026.11.06.\n(정기) 입주자대표회의 의결 공고\n제3기 4차 (2026년 10월)",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 9명(박재현,"
+    },
+    {
+     "head": "제6호 의안 : 소독 용역 업체 선정 건",
+     "text": "제6호 의안 : 소독 용역 업체 선정 건\n￭ 의결사항 : 기존사업자와 재계약을 위한 절차를 진행하여 이상 없을 시 재계약 하기로 결정함. <찬성 12명(박재현,\n김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),반대 0명>\n- 기존사업자의 사업수행실적을 입주민을 포함한 3명이상 평가하여 85점 이상 시 입주민 동의절차 진행\n- 평가 결과 공고하고 입주민 이의신청 1/10 이하 접수 시 입주자대표회의 의결로 재계약 함.\n- 평가 결과과 85점 이하이거나 입주민 이의신청 1/10 이상 접수시 공개경쟁 입찰로 업체 선정 함.\n- 입주민 이의신청이 전체 입주자의 과반수인 경우 기존사업자의 입찰 참가를 제한 한다.",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 12명(박재현,"
+    },
+    {
+     "head": "제7호의안 : 27년도 소방시설 점검 용역 업체 선정 건",
+     "text": "제7호의안 : 27년도 소방시설 점검 용역 업체 선정 건\n￭ 의결사항 : 공개경쟁 입찰을 통하여 업체 선정하기로 결정함. <찬성 12명(박재현,김병철,이준호,박준국,김성진,\n김병열,한인석,오유미,정태일,이종순,강선구, 박영미), 반대 0명>\n- K-apt를 통한 전자입찰, 제한경쟁, 최저가 낙찰제로 입찰 공고\n- 소방시설 관리업 등록업체, 자본금 3억이상, 5년간 1,000세대 이상 5개단지 실적 있는 업체로 제한",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,"
+    },
+    {
+     "head": "제8호 의안 : 27년도 기계설비성능점검 업체 선정 건",
+     "text": "제8호 의안 : 27년도 기계설비성능점검 업체 선정 건\n￭ 의결사항 : 최저가 업체인 한국기계설비성능검사원과 재계약 하기로 결정함.<찬성 12명(박재현,김병철,이준호,\n박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미), 반대 0명>\n- 500만원 이하 수의계약 대상으로 최저가 업체 선정함.\n- 업체 비교 견적\n업체명 견적금액(부가세 별도) 비고\n한국기계설비성능검사원(주) 2,500,000원 26년 점검업체\n주식회사 세이프텍 2,800,000원\nACE산업기술(주) 3,500,000원",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 12명(박재현,김병철,이준호,"
+    },
+    {
+     "head": "제9호의안 : 커뮤니티 헬스장 운동기구(천국의 계단) 구입 건",
+     "text": "제9호의안 : 커뮤니티 헬스장 운동기구(천국의 계단) 구입 건\n￭ 의결사항 : 헬스장 내 스테어클라이머(천국의 계단) 3대구입하여 설치 하기로 결정함. <찬성 12명(박재현,김병철,\n이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미), 반대 0명>\n- 하체근력과 심폐지구력 강화에 도움이 되는 스테어클라이머 이용 요청에 따라 구입 결정\n- 견적 비교하여 최저가 업체 선정\n- 업체 비교 견적\n번호 업체명 모델명 1대당 금액(VAT별도) 비고\n마이핏헬스 국산/설치비.운반비 포함. 무상 a/s 1년\n1 DSC6 LED 3,000,000원\n케어 별도(배송비220,000원)\n국산/설치비.운반비 포함. 무상 a/s 1년\n2 라이프스포츠 DSC6 LED 3,760,000원\n별도(배송비220,000원.설치비330,000원)\n태하메카\n3 8Gx 12,200,000원 Stairmaster / U.S.A\n트로닉스\n4 베스코 8Gx 14,000,000원 Stairmaster / U.S.A\n공고번호(입): 제3-04-261022\n게시기간: 2026.10.22. ~ 2026.11.06.\n(정기) 입주자대표회의 의결 공고\n제3기 4차 (2026년 10월)",
+     "topics": [
+      "community"
+     ],
+     "votes": "찬성 12명(박재현,김병철,"
+    },
+    {
+     "head": "제10호 의안 : 115동 1호라인(MDF실 천정 누수) 배수횡주관 세정 공사 건",
+     "text": "제10호 의안 : 115동 1호라인(MDF실 천정 누수) 배수횡주관 세정 공사 건\n￭ 의결사항 : 하수 횡주관 세정업체 중앙하이츠로 선정하고 횡주관 세정공사 결정함.\n<찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),\n반대 0명>\n- 115동 1호라인 하수 횡주관 누수로 생활지원센터 내 MDF실 통신장비 피해 발생 우려 있어 긴급히\n통수 진행하였으나, 임시 통수 후 작업 불가 통보하여 통수업체 재 선정(통수작업 비용 \\30만원)\n업체명 견적금액(부가세 제외) 비고\n㈜중앙하이츠개발 2,000,000원\n㈜부성개발 2,360,000원",
+     "topics": [],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일"
+    },
+    {
+     "head": "제11호 의안 : 104동, 106동, 107동 주변 하수 맨홀 및 배관 청소 건",
+     "text": "제11호 의안 : 104동, 106동, 107동 주변 하수 맨홀 및 배관 청소 건\n￭ 의결사항 : 하수 맨홀 및 하수관로 통수 작업 업체 중앙하이츠로 선정하여 통수 공사하기로 결정함.\n<찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),\n반대 0명>\n- 단지 내 하수 관로 중 원활한 배수가 되지 않는 곳이 있어 추후 2차 피해 방지를 위해 선조치\n- 104동, 106동, 107동 주변 하수관로 16개소 막힘 방지 및 원활한 배수를 취한 세정 작업\n업체명 견적금액(부가세 제외) 비고\n㈜중앙하이츠개발 2,000,000원\n㈜보성 건영 2,300,000원",
+     "topics": [],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일"
+    },
+    {
+     "head": "제12호의안 : 지하 세대 창고 제습기 구입 건",
+     "text": "제12호의안 : 지하 세대 창고 제습기 구입 건\n￭ 의결사항 : 지하 세대 창고 내 결로 예방을 위한 습기 제거용 제습기 구매((주)바로나, 5대)하기로 결정함.\n<찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일,이종순,강선구, 박영미),\n반대 0명>\n- 지하 세대 창고 중 환기 및 습기 배출에 취약한 5곳에 제습기를 설치하여 결로 발생으로 인한 창고내\n곰팡이 발생으로 인한 피해 방지 목적\n- 현재 환기와 습기배출을 위한 관리를 하고 있으나 장마철에는 관리상 한계가 있어 제습기 도입 필요\n업체명 품명/규격 대당 견적 수량 금 액(부가세 제외)\n㈜ 바로나 나우이엘 제습기NED-066P(배수펌프형).70L/일 685,000원 5 3,425,000원\n㈜에즈라 에어렉스 제습기ADH-600P. 65L/일 699,000원 5 3,495,000원",
+     "topics": [],
+     "votes": "찬성 12명(박재현,김병철,이준호,박준국,김성진,김병열,한인석,오유미,정태일"
+    },
+    {
+     "head": "제13호 의안 : 정수기, 공기청정기 렌탈 업체 선정 건",
+     "text": "제13호 의안 : 정수기, 공기청정기 렌탈 업체 선정 건\n￭ 의결사항 : 정수기와 공기청정기의 렌탈 업체를 공개경쟁 입찰로 선정하기로 결정함. <찬성 11명(박재현,김병철,\n이준호,박준국,김성진,김병열,한인석,오유미,정태일,강선구, 박영미), 반대 1명(이종순)>\n- 렌탈 기간 만료일 도래로 인한 정수기(13대)와 공기청정기(11대)총 24대 렌탈 업체 선정\n- K-apt를 통한 전자입찰, 일반경쟁, 최저가 낙찰제로 입찰 공고\n롯데캐슬클라시아 입주자대표회의 회장",
+     "topics": [
+      "operator"
+     ],
+     "votes": "찬성 11명(박재현,김병철,"
+    }
+   ],
+   "topics": [
+    "community",
+    "finance",
+    "operator",
+    "safety"
+   ]
   },
   {
    "nttId": "3069448",
