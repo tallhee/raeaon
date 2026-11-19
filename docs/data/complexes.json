@@ -1130,7 +1130,10 @@
   "households": 1248,
   "dong_count": 18,
   "code": "A10025003",
-  "use_approval": "2020-02-21"
+  "use_approval": "2020-02-21",
+  "address": "서울 마포구 대흥로 175",
+  "sido": "서울",
+  "hh_checked": true
  },
  "롯데캐슬클라시아": {
   "name": "롯데캐슬클라시아",
@@ -1487,5 +1490,16 @@
   "dong_count": 8,
   "code": "B11118660",
   "use_approval": "2021-07-23"
+ },
+ "관악산휴먼시아": {
+  "name": "관악산휴먼시아",
+  "address": "서울특별시 관악구 난곡로 55",
+  "sido": "서울특별시",
+  "sigungu": "관악구",
+  "households": 2810,
+  "hh_checked": true,
+  "dong_count": 39,
+  "code": "A15101504",
+  "use_approval": "2008-03-13"
  }
 }
