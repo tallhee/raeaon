@@ -1501,5 +1501,36 @@
   "dong_count": 39,
   "code": "A15101504",
   "use_approval": "2008-03-13"
+ },
+ "창동주공19단지": {
+  "name": "창동주공19단지",
+  "address": "서울특별시 도봉구 노해로70길 37 (창동 33,주공19단지아파트)",
+  "sido": "서울특별시",
+  "sigungu": "도봉구",
+  "households": 1764,
+  "hh_checked": true,
+  "dong_count": 12,
+  "code": "A13290107",
+  "use_approval": "1988-11-25"
+ },
+ "월계사슴2단지": {
+  "name": "월계사슴2단지",
+  "address": "서울시 노원구 월계로55길16",
+  "sido": "서울시",
+  "sigungu": "노원구",
+  "households": 775,
+  "hh_checked": true,
+  "dong_count": 5,
+  "code": "A13984409"
+ },
+ "당산동1차효성": {
+  "name": "당산동1차효성아파트",
+  "address": "서울특별시 영등포구 당산로42길 13",
+  "sido": "서울특별시",
+  "sigungu": "영등포구",
+  "households": 480,
+  "hh_checked": true,
+  "dong_count": 6,
+  "code": "B11120292"
  }
 }
