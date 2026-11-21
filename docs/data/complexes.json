@@ -196,7 +196,8 @@
   "households": 1900,
   "dong_count": 13,
   "code": "A10025415",
-  "use_approval": "2019-06-24"
+  "use_approval": "2019-06-24",
+  "hh_checked": true
  },
  "이편한세상강동프레스티지원": {
   "name": "이편한세상 강동 프레스티지원",
@@ -1201,7 +1202,8 @@
   "sigungu": "서대문구",
   "households": 956,
   "dong_count": 6,
-  "code": "B11126625"
+  "code": "B11126625",
+  "hh_checked": true
  },
  "북한산더샵": {
   "name": "북한산 더샵",
