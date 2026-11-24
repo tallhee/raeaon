@@ -1534,5 +1534,25 @@
   "hh_checked": true,
   "dong_count": 6,
   "code": "B11120292"
+ },
+ "도곡대림아크로빌": {
+  "name": "도곡대림아크로빌",
+  "address": "서울시 강남구 언주로 30길, 13 대림아크로빌 B동 1층",
+  "sido": "서울시",
+  "sigungu": "강남구",
+  "households": 490,
+  "hh_checked": true,
+  "dong_count": 2,
+  "code": "A13527014",
+  "use_approval": "1999-11-26"
+ },
+ "잠실올림픽공원아이파크": {
+  "name": "잠실올림픽공원아이파크",
+  "address": "서울특별시 송파구 올림픽로43길 34 관리사무소",
+  "sido": "서울특별시",
+  "sigungu": "송파구",
+  "code": "A10025185",
+  "households": 697,
+  "use_approval": "2019-11-14"
  }
 }
