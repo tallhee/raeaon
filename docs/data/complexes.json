@@ -1554,5 +1554,31 @@
   "code": "A10025185",
   "households": 697,
   "use_approval": "2019-11-14"
+ },
+ "서울대벤처타운역푸르지오": {
+  "name": "서울대벤처타운역푸르지오아파트",
+  "code": "A10020658"
+ },
+ "디에이치퍼스티어아이파크": {
+  "name": "디에이치퍼스티어아이파크",
+  "address": "서울시 강남구 개포로 310",
+  "sido": "서울시",
+  "sigungu": "강남구",
+  "households": 6702,
+  "hh_checked": true,
+  "dong_count": 74,
+  "code": "A10022859",
+  "use_approval": "2023-11-29"
+ },
+ "래미안리더스원": {
+  "name": "래미안리더스원",
+  "address": "서울특별시 서초구 서운로 62, 래미안리더스원 110동 지하1층 생활지원센터",
+  "sido": "서울특별시",
+  "sigungu": "서초구",
+  "households": 1317,
+  "hh_checked": true,
+  "dong_count": 12,
+  "code": "B11119861",
+  "use_approval": "2020-09-25"
  }
 }
