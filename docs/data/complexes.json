@@ -1580,5 +1580,15 @@
   "dong_count": 12,
   "code": "B11119861",
   "use_approval": "2020-09-25"
+ },
+ "신도림쌍용플래티넘노블": {
+  "name": "신도림쌍용플래티넘노블",
+  "address": "서울 구로구 공원로 40",
+  "sido": "서울",
+  "sigungu": "구로구",
+  "households": 155,
+  "hh_checked": true,
+  "dong_count": 2,
+  "code": "A15283801"
  }
 }
