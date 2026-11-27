@@ -1,36 +1,36 @@
 {
- "ran_at": "2026-11-26T12:39+09:00",
+ "ran_at": "2026-11-27T12:40+09:00",
  "steps": {
   "targets": {
    "ok": true,
    "complexes": 91,
-   "bids": 97,
-   "contracts": 4038,
+   "bids": 106,
+   "contracts": 4064,
    "errors": []
   },
   "search": {
    "ok": true,
    "keywords": 29,
-   "found": 339,
-   "matched": 224,
+   "found": 353,
+   "matched": 238,
    "errors": []
   },
   "detail": {
    "ok": true,
-   "new": 5,
+   "new": 16,
    "errors": 0
   }
  },
  "complex_errors": [
-  "B11125317: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11125317: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
   "B11126428: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
-  "B11119955: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error",
+  "B11119955: /cmmn/selectKapt.do 요청 실패: Remote end closed connection without response",
   "B11123601: /cmmn/selectKapt.do 요청 실패: HTTP Error 500: Internal Server Error"
  ],
- "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (Remote end closed connection without response)",
+ "stopped": "K-apt 응답이 연속 5회 실패 — 잠시 후 다시 시도 (HTTP Error 500: Internal Server Error)",
  "complete": false,
  "totals": {
-  "notices": 723,
-  "complexes": 182
+  "notices": 739,
+  "complexes": 186
  }
 }
