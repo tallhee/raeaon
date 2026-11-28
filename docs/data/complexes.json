@@ -542,7 +542,8 @@
   "households": 3226,
   "dong_count": 40,
   "code": "B11127107",
-  "use_approval": "2008-09-25"
+  "use_approval": "2008-09-25",
+  "hh_checked": true
  },
  "잠실엘스": {
   "name": "잠실엘스아파트",
@@ -1636,5 +1637,27 @@
   "dong_count": 8,
   "code": "A10024492",
   "use_approval": "2017-09-28"
+ },
+ "관악산벽산타운1단지": {
+  "name": "관악산벽산타운1단지",
+  "address": "서울 금천구 금하로 793 (시흥동 )",
+  "sido": "서울",
+  "sigungu": "금천구",
+  "households": 1772,
+  "hh_checked": true,
+  "dong_count": 16,
+  "code": "A15303002",
+  "use_approval": "2000-02-16"
+ },
+ "잠실르엘": {
+  "name": "잠실르엘",
+  "address": "서울 송파구 올림픽로 333",
+  "sido": "서울",
+  "sigungu": "송파구",
+  "households": 1865,
+  "hh_checked": true,
+  "dong_count": 13,
+  "code": "A10020230",
+  "use_approval": "2025-12-30"
  }
 }
